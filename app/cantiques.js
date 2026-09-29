@@ -41,7 +41,7 @@ async function loadCategoryHymns() {
   }
 
   try {
-    const response = await fetch("../data/working/lesson-1-creation.json", { cache: "no-store" });
+    const response = await fetch("data/lesson-1-creation.json", { cache: "no-store" });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
 
     const data = await response.json();
