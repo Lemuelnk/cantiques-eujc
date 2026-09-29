@@ -1,0 +1,342 @@
+/* =========================================
+   CANTIQUES EUJC — CATEGORIES
+   ========================================= */
+
+.categories-page {
+  min-height: 100vh;
+  min-height: 100dvh;
+  background: #fff9f0;
+  color: #001a17;
+  padding-bottom: 88px;
+}
+
+
+/* =========================================
+   HEADER
+   ========================================= */
+
+.categories-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+
+  display: grid;
+  grid-template-columns: 44px 1fr 44px;
+  align-items: center;
+
+  min-height: 68px;
+  padding: 10px 20px;
+
+  background: rgba(255, 249, 240, 0.96);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  border-bottom: 1px solid rgba(0, 26, 23, 0.06);
+}
+
+.categories-header h1 {
+  margin: 0;
+  text-align: center;
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.back-button {
+  width: 40px;
+  height: 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #001a17;
+  text-decoration: none;
+
+  border-radius: 50%;
+
+  transition:
+    background-color 160ms ease,
+    transform 160ms ease;
+}
+
+.back-button:hover {
+  background: rgba(0, 150, 136, 0.08);
+}
+
+.back-button:active {
+  transform: scale(0.94);
+}
+
+.back-button svg {
+  width: 21px;
+  height: 21px;
+  stroke-width: 2;
+}
+
+.header-spacer {
+  width: 40px;
+}
+
+
+/* =========================================
+   CONTENT
+   ========================================= */
+
+.categories-content {
+  width: 100%;
+  max-width: 680px;
+
+  margin: 0 auto;
+  padding: 24px 20px 32px;
+}
+
+
+/* =========================================
+   SECTION
+   ========================================= */
+
+.category-section {
+  margin-bottom: 30px;
+}
+
+.category-section:last-child {
+  margin-bottom: 0;
+}
+
+.category-section-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  margin-bottom: 10px;
+  padding: 0 2px;
+}
+
+.category-section-title h2 {
+  margin: 0;
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+}
+
+.section-icon {
+  width: 28px;
+  height: 28px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex: 0 0 auto;
+}
+
+.section-icon svg {
+  width: 22px;
+  height: 22px;
+  stroke-width: 1.9;
+}
+
+.lesson-title {
+  color: #00695f;
+}
+
+.sunday-title {
+  color: #b58a17;
+}
+
+.prayer-title {
+  color: #00695f;
+}
+
+
+/* =========================================
+   CATEGORY LIST
+   ========================================= */
+
+.category-list {
+  overflow: hidden;
+
+  background: rgba(255, 255, 255, 0.42);
+
+  border-top: 1px solid rgba(0, 26, 23, 0.08);
+}
+
+.category-row {
+  min-height: 48px;
+
+  display: grid;
+  grid-template-columns: auto 1fr 22px;
+  align-items: center;
+  gap: 12px;
+
+  padding: 9px 4px 9px 6px;
+
+  color: #001a17;
+  text-decoration: none;
+
+  border-bottom: 1px solid rgba(0, 26, 23, 0.08);
+
+  transition:
+    background-color 150ms ease,
+    padding-left 150ms ease;
+}
+
+.category-row:last-child {
+  border-bottom: 0;
+}
+
+.category-row:hover {
+  background: rgba(0, 150, 136, 0.045);
+}
+
+.category-row:active {
+  background: rgba(0, 150, 136, 0.08);
+}
+
+.category-row svg {
+  width: 17px;
+  height: 17px;
+
+  color: #8b9693;
+  stroke-width: 1.8;
+}
+
+.row-number {
+  min-width: 64px;
+
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  color: #4e5d5a;
+}
+
+.row-name {
+  min-width: 0;
+
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.35;
+
+  color: #182825;
+}
+
+.category-row-more {
+  color: #007f73;
+}
+
+.category-row-more .row-name {
+  color: #007f73;
+  font-weight: 600;
+}
+
+
+/* =========================================
+   BOTTOM NAV
+   ========================================= */
+
+.categories-bottom-nav {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 50;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  min-height: 72px;
+  padding:
+    8px
+    max(8px, env(safe-area-inset-right))
+    max(8px, env(safe-area-inset-bottom))
+    max(8px, env(safe-area-inset-left));
+
+  background: rgba(255, 249, 240, 0.97);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+
+  border-top: 1px solid rgba(0, 26, 23, 0.08);
+}
+
+.categories-bottom-nav .nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+
+  min-width: 0;
+
+  padding: 5px 4px;
+
+  border: 0;
+  background: transparent;
+
+  color: #858e8b;
+  text-decoration: none;
+
+  font-family: "Open Sans", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+
+  cursor: pointer;
+}
+
+.categories-bottom-nav .nav-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 25px;
+  height: 25px;
+}
+
+.categories-bottom-nav .nav-icon svg {
+  width: 22px;
+  height: 22px;
+  stroke-width: 1.9;
+}
+
+.categories-bottom-nav .nav-item.active {
+  color: #008f82;
+  font-weight: 700;
+}
+
+.categories-bottom-nav .nav-item.active .nav-icon svg {
+  stroke-width: 2.3;
+}
+
+
+/* =========================================
+   DESKTOP
+   ========================================= */
+
+@media (min-width: 700px) {
+
+  .categories-page {
+    max-width: 680px;
+    margin: 0 auto;
+
+    box-shadow:
+      0 0 60px rgba(0, 26, 23, 0.08);
+  }
+
+  .categories-header {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .categories-content {
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+
+}

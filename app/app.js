@@ -180,10 +180,14 @@ document.querySelectorAll('.nav-item').forEach(button => {
 
     if (destination === 'accueil') return;
 
+    if (destination === 'bibliotheque') {
+      window.location.href = 'categories.html';
+      return;
+    }
+
     alert(
       {
         recherche: 'Recherche',
-        bibliotheque: 'Bibliothèque',
         plus: 'Plus'
       }[destination] +
       '\n\nCette section sera construite ensuite.'
