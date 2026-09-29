@@ -12,6 +12,7 @@
 
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bottom-nav.css">
 
   <!-- Lucide -->
   <script src="https://unpkg.com/lucide@latest"></script>
@@ -179,71 +180,14 @@
     </main>
 
 
-    <!-- =========================
-         BOTTOM NAVIGATION
-    ========================== -->
-    <nav
-      class="bottom-nav"
-      aria-label="Navigation principale"
-    >
-
-      <!-- Accueil -->
-      <button
-        class="nav-item active"
-        data-nav="accueil"
-      >
-        <span class="nav-icon" aria-hidden="true">
-          <i data-lucide="house"></i>
-        </span>
-
-        <span>Accueil</span>
-      </button>
-
-
-      <!-- Recherche -->
-      <button
-        class="nav-item"
-        data-nav="recherche"
-      >
-        <span class="nav-icon" aria-hidden="true">
-          <i data-lucide="search"></i>
-        </span>
-
-        <span>Recherche</span>
-      </button>
-
-
-      <!-- Bibliothèque -->
-      <button
-        class="nav-item"
-        data-nav="bibliotheque"
-      >
-        <span class="nav-icon" aria-hidden="true">
-          <i data-lucide="library"></i>
-        </span>
-
-        <span>Bibliothèque</span>
-      </button>
-
-
-      <!-- Plus -->
-      <button
-        class="nav-item"
-        data-nav="plus"
-      >
-        <span class="nav-icon" aria-hidden="true">
-          <i data-lucide="ellipsis"></i>
-        </span>
-
-        <span>Plus</span>
-      </button>
-
-    </nav>
+    <!-- SHARED BOTTOM NAVIGATION -->
+    <div id="bottom-nav"></div>
 
   </div>
 
 
   <!-- Application -->
+  <script src="bottom-nav.js"></script>
   <script src="app.js"></script>
 
   <!-- Lucide -->
