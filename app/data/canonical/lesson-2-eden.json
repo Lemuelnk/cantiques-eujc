@@ -1,0 +1,944 @@
+{
+  "schema_version": "1.0",
+  "corpus_status": "review",
+  "taxonomy": {
+    "domain": "lessons",
+    "category_id": "lesson-2",
+    "category_label": "Éden",
+    "lesson_id": "lesson-2",
+    "lesson_label": "Leçon 2 — Éden"
+  },
+  "source": {
+    "file": "chants_deden.html",
+    "extraction_file": "extraction_lecon_2_eden.md"
+  },
+  "hymns": [
+    {
+      "schema_version": "1.0",
+      "id": "5a4f20ee-7d22-59cb-b785-42f2b5f92b0c",
+      "title": "JINA LAKO NANII",
+      "status": "review",
+      "versions": [
+        {
+          "id": "84a85a98-91d8-53b0-8148-e864ad3cc82c",
+          "language": {
+            "code": null,
+            "label": null,
+            "status": "uncertain"
+          },
+          "title": "JINA LAKO NANII",
+          "source": {
+            "file": "chants_deden.html",
+            "position": 1,
+            "number": "39",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-2",
+            "category_label": "Éden",
+            "lesson_id": "lesson-2",
+            "lesson_label": "Leçon 2 — Éden"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Jina lako nani hili nili nilitukuze (jina langu mimi neno lako la uzima)2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Eh jina langu mimi, baba eh baba neno lako la uzima",
+                "- Mungu wangu usinite muchawi baba eh baba neno lako la uzima",
+                "- Mungu wangu usinite mulozi baba eh baba neno lako la uzima"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Shamba langu mimi ni mepanda mimea, miti yote ya Edeni ilikuwa ndani yake kweli, Muti muzuri kwa chakula pia na wakutazama, na mut iwa mauti pia na wa uzima"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Ukumu imekwisha fika tujiweke tayari (Kazi yake kweli mungu imetimia leo)2x Akutakuwa unyumba mbele yake jehova mungu Akutakuwa kabila mbele yake jehova mungu Ila neno lake kweli ndilo litakalo timilika"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "6334964d-b3bd-5ca5-9098-7549a769ef55",
+      "title": "MUTO WA BWANA KUTOKA EDENI",
+      "status": "review",
+      "versions": [
+        {
+          "id": "85a2d7ea-7165-5cfc-b5c2-53fb9c986ec4",
+          "language": {
+            "code": null,
+            "label": null,
+            "status": "uncertain"
+          },
+          "title": "MUTO WA BWANA KUTOKA EDENI",
+          "source": {
+            "file": "chants_deden.html",
+            "position": 2,
+            "number": "38",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-2",
+            "category_label": "Éden",
+            "lesson_id": "lesson-2",
+            "lesson_label": "Leçon 2 — Éden"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Twakushukuru eh mungu wangu katika, kazi uliotenda tangu hawali zimetimilika leo (kazi gani) kuokowa dunia katika mikono ya shetani, (kazi gani) kuokoa dunia katika shida na magonjwa (kazi gani)kuokoa dunia katika kiburi na jeuri."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Neno, neno lake eh baba limeshuka duniani yoyoyo neno ili neno lake la uzima.",
+                "Na mitume walishuka na neno",
+                "Na Kadima alishuka na neno"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Kutoka pisoni, gioni kaona, idekeli kaona, furati ndie uzima¨Yoyoyo"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "40375b6e-9f31-55f7-accf-7fcf9e4fc89c",
+      "title": "APRES SIX JOURS",
+      "status": "review",
+      "versions": [
+        {
+          "id": "40065552-6a3d-5b0f-adaa-1043e927315f",
+          "language": {
+            "code": null,
+            "label": null,
+            "status": "uncertain"
+          },
+          "title": "APRES SIX JOURS",
+          "source": {
+            "file": "chants_deden.html",
+            "position": 3,
+            "number": "35",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-2",
+            "category_label": "Éden",
+            "lesson_id": "lesson-2",
+            "lesson_label": "Leçon 2 — Éden"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Apres six jours (six jours) creation du monde septieme jours camarade Dieu sereposa 2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "(Dieu est le rois, Dieu est le rois)2x Dieu est le rois dans le monde entier(mon camarade) Dieu est le rois il n’ya pas un autre.",
+                "- Dieu de Mwambi",
+                "- Dieu des apotres a Fungurume",
+                "- Dieu d’Abraham",
+                "- à Lubumbashi Dieu est le rois dans le monde entier."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Dieu benit (Dieu benit) le septieme jours le sanctifia et s’y reposa (tout le monde) Dieu est le roi dans le monde entier. 2x"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "4a5a9259-2543-57a6-849b-4b9a37e57e2e",
+      "title": "KUKALE MU EDENA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "eadbbd75-618d-5447-9df9-06aa715dd261",
+          "language": {
+            "code": "lua",
+            "label": "Tshiluba",
+            "status": "known"
+          },
+          "title": "KUKALE MU EDENA",
+          "source": {
+            "file": "chants_deden.html",
+            "position": 4,
+            "number": "40",
+            "reference": "awalimuedenitshiluba.mpeg"
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-2",
+            "category_label": "Éden",
+            "lesson_id": "lesson-2",
+            "lesson_label": "Leçon 2 — Éden"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Kukale mu Edena yepowa kakuna mishi, mutshi wa moyo mutshi wa kujingulula wa lungenyi ni wa kuja."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Mamu wanyi we niwa kwela mulao ni wa kwela mulao, ni wa kwela mulao.",
+                "- Mulao ne ukaukeba",
+                "- Mulao ne ka bwabwa keba"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Pakalwa kilisto wakalwa pakukekula mitshi, mushi wa fwiki wakaji ne mamu ma kilisto wakakwela mulao."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Mwanetu ne mulundatwikale ku mutshi wa moyo mutshi wa fwiki wa kaji ne mamu ma kilisto wa ka kwela mulao."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": true
+          }
+        },
+        {
+          "id": "2ee179e8-9433-52fc-a843-93856aaab3ba",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "known"
+          },
+          "title": "AWALI MU EDENi",
+          "source": {
+            "file": "chants_deden.html",
+            "position": 5,
+            "number": "40",
+            "reference": "awali mu edeni.mpeg"
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-2",
+            "category_label": "Éden",
+            "lesson_id": "lesson-2",
+            "lesson_label": "Leçon 2 — Éden"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Awali mu Edeni Jehova kati ya miti (2x). Muti wa uzima, muti wa mauti, wa ujuzi na wa kula.(2x)"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "utapewa laaana, utapewa, utapewa laana",
+                "- Na kujikuza kwako",
+                "- Na bulozi bwako"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "2. alipokuja kilisto, akaja kwa kutenga miti (2x). Muti wa ujuzi kwa kukosa matunda kilisto akaupa laana (2x)."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "3.\tRafiki na mujoli tukuwe ku muti wa uzima (2x). muti wa ujuzi kwa kukosa matunda kilisto akaupa laana(2x)."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": true
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "0d0deace-719a-51e8-bf45-2270396e5f06",
+      "title": "KALE KUSTHI BANGIDILO",
+      "status": "review",
+      "versions": [
+        {
+          "id": "fa63bb91-50dc-50e7-b807-c2f894de6219",
+          "language": {
+            "code": null,
+            "label": null,
+            "status": "uncertain"
+          },
+          "title": "KALE KUSTHI BANGIDILO",
+          "source": {
+            "file": "chants_deden.html",
+            "position": 6,
+            "number": "41",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-2",
+            "category_label": "Éden",
+            "lesson_id": "lesson-2",
+            "lesson_label": "Leçon 2 — Éden"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Kale kusthi bangidilo dii dia zambi dia kamba ekwambane fuka mutu mutshi fwani cha nyuma yoyoyo"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Ikale bu mukalenga wa bintu bi na kafuka Mona Adama ni Eva kupioliadi dia moyo dia kadji mukashi mwabo Ekunyema bulubilo yoyoyo",
+                "Ikale bu mukalenga wa bintu bi na kafuka Mona nyunyiya mujulu itu imba ne dji sanka, itumbija wa misumba kadi twetu banabende, kadi twetu banabende Etwimbile nganyi mukwabo"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "54c2a9a5-f060-5170-9a5e-0bcda384b303",
+      "title": "JEHOVA AKANUNGUNIKA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "faf3d6f8-8d66-5f5f-9254-4928ee3c2942",
+          "language": {
+            "code": null,
+            "label": null,
+            "status": "uncertain"
+          },
+          "title": "JEHOVA AKANUNGUNIKA",
+          "source": {
+            "file": "chants_deden.html",
+            "position": 7,
+            "number": "42",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-2",
+            "category_label": "Éden",
+            "lesson_id": "lesson-2",
+            "lesson_label": "Leçon 2 — Éden"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. \tJehova akanungunika alipoona shamba lake (shamba lile)(shamba lile lenye kutoa matunda yenye kunyauka) 2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Mimi sijui kazi gani sikutimiza kwa shamba langu mimi (shamba langu) ni kapanda ni kamimia maji kwayo kutoa matunda mema, shamba langu likatoa matunda mbaya yote yenye kunyauka."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "2. Ni kiwa na hatia mbele yako mungu wangu unirehemu (ni fundishe) ni fundishe ginsi upendavio mungu wangu unirehemu."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "3. Sina lingine tegemeo ila wewe ni mwamba wangu (moyo wangu) moyo wangu mikononi mwako ni tendee ginsi upendavio."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "16900731-1325-5a48-a3fd-8b4508fc3857",
+      "title": "MUNGU HAJARIBU MUTU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "db9b0b1c-a712-5bc5-910d-1665f6c7cdc0",
+          "language": {
+            "code": null,
+            "label": null,
+            "status": "uncertain"
+          },
+          "title": "MUNGU HAJARIBU MUTU",
+          "source": {
+            "file": "chants_deden.html",
+            "position": 8,
+            "number": "43",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-2",
+            "category_label": "Éden",
+            "lesson_id": "lesson-2",
+            "lesson_label": "Leçon 2 — Éden"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. \tMungu hajaribu mutu, mutu anajijaribu (Mwenyewe kwa binafsi katika ujinga wake)"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "(Kweli kweli) ukowapi adamu, adamu kakimbia uso wa bwana.",
+                "Ili kuwa jioni: adamu kakimbia uso wa bwana -Mangaribi mu shamba adamu kakimbia uso wa bwana -Kajificha mu shamba adamu kakimbia uso wa bwana"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "2. (Miti ile ni mine lakini ni mawili) 2x mu shamba la Edeni uzima na wa mauti 2x (Mungu akajirika mu shamba la Edeni) 2x (Jioni kwa kutazama mutu alie mutia)2x"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "1714eca6-58c6-5209-a2fc-a44b2fbd0c1d",
+      "title": "MUSAFIRI BAADO NIKO NJIANI",
+      "status": "review",
+      "versions": [
+        {
+          "id": "16f0f0b5-edc2-5dbe-970a-9db6b98c83d7",
+          "language": {
+            "code": null,
+            "label": null,
+            "status": "uncertain"
+          },
+          "title": "MUSAFIRI BAADO NIKO NJIANI",
+          "source": {
+            "file": "chants_deden.html",
+            "position": 9,
+            "number": "44",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-2",
+            "category_label": "Éden",
+            "lesson_id": "lesson-2",
+            "lesson_label": "Leçon 2 — Éden"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. \tSauti ikanita shambani ni kashikwa na woga, ni kashikwa na haya nika vaa majani baba unirehemu."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Ninalia mimi, na umia mimi (Baba yangu na tabika mwili umenisonga baba unirehemu) 2x"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "2. Sauti ikanita shambani ni kashikwa na woga, ni kashikwa na haya nika vaa majani baba unirehemu.",
+                "3. Yawe fanye nini na mwili huyu wa zambi (Baba yangu mi na kwita ukinyacha mitakufa baba unirehemu) 2x"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "e1b3852f-7409-54b9-a027-9e6f199b10cc",
+      "title": "ZAMBI ILI TAWALA TANGU ADAMA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "2650e5e3-f619-5899-8d51-40342f34a742",
+          "language": {
+            "code": null,
+            "label": null,
+            "status": "uncertain"
+          },
+          "title": "ZAMBI ILI TAWALA TANGU ADAMA",
+          "source": {
+            "file": "chants_deden.html",
+            "position": 10,
+            "number": "47",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-2",
+            "category_label": "Éden",
+            "lesson_id": "lesson-2",
+            "lesson_label": "Leçon 2 — Éden"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Zambi ili tawala tangu Adamu paka Musa wokovu wa watu waja kwa Yesu mwana wa Mungu."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Kwa maana Mungu alipenda ulimwengu akatoa mwanake yesu ili yeyote amwamini asipotee kamwe apate uzima wa milele",
+                "Mwana wa mungu Kimbilio letu"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "2. Yesu kaanza Uduma apa duniani katafuta petro, yoane, yakobo wa fanye uduma.Alam aya kwanza yesu aliofanya kawaita wenye na miziko njoni awa pumzishe awatoshe utumwani mwa shetani wapate utlivu.",
+                "- Nduku mulozi wewe toka utumwani mwa shetani wapate utulivu.",
+                "- Nduku muchawi wewe toka utumwani mwa shetani wapate utulivu."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "29877e2b-c5ea-5c32-86ff-cb2e4184a9a5",
+      "title": "ADAMA NA HAWA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "e774a180-7a2b-5628-baee-6d5f862b4370",
+          "language": {
+            "code": null,
+            "label": null,
+            "status": "uncertain"
+          },
+          "title": "ADAMA NA HAWA",
+          "source": {
+            "file": "chants_deden.html",
+            "position": 11,
+            "number": "49",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-2",
+            "category_label": "Éden",
+            "lesson_id": "lesson-2",
+            "lesson_label": "Leçon 2 — Éden"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Adama na hawa kubeula Mwana Mungu masiya taabu ikawajiya."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "(Ewe rafiki) wewe mwenye kukufuru ujiulize uishi sehemu gani."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "2. Bwana yesu mwana mungu akaja duniani masiya ili aokowe watu ."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "3. Fikili vema leo upande uishiko ndugu yangu wa kondoo ama wa mbuzi."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "677bb497-bd3a-53c7-a824-62810d73b6e0",
+      "title": "MUNGU KAMWAMBIA ADAMU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "599b2dcf-c5b5-540f-99fe-6f4817ba4d09",
+          "language": {
+            "code": null,
+            "label": null,
+            "status": "uncertain"
+          },
+          "title": "MUNGU KAMWAMBIA ADAMU",
+          "source": {
+            "file": "chants_deden.html",
+            "position": 12,
+            "number": "50",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-2",
+            "category_label": "Éden",
+            "lesson_id": "lesson-2",
+            "lesson_label": "Leçon 2 — Éden"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Mungu kamwambia Adamu, humo shambani mwa Edeni juu ya mut iwa kujuwa uzuri na ubaya mu sile yake"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Wakati mungu aliita mangaribi mwa shamba uko wapi Adama, muke wangu amenidanganya.",
+                "- Tunda midomoni muke wangu amenidanganya",
+                "- Kajificha mitini",
+                "- Wakavaa majani"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "2. Muke wake akatoka, akakutana na nyoka akamwagiza akala akamupa na Adama naye alikula."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "22ba90ef-bf5f-5ce5-8fbe-5214ffca5be7",
+      "title": "MUTO KUTOKA EDENI",
+      "status": "review",
+      "versions": [
+        {
+          "id": "7cf88bb0-ef18-56e6-8ca5-52a0e5c7c963",
+          "language": {
+            "code": null,
+            "label": null,
+            "status": "uncertain"
+          },
+          "title": "MUTO KUTOKA EDENI",
+          "source": {
+            "file": "chants_deden.html",
+            "position": 13,
+            "number": "37",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-2",
+            "category_label": "Éden",
+            "lesson_id": "lesson-2",
+            "lesson_label": "Leçon 2 — Éden"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Muto kutoka Edeni, kunyesha shambani (Bwana mungu akapanda shamba kwa upande wa mashariki ya Edeni)2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Shamba la Edeni shamba lake Mungu 2x Eh shamba langu mimi baba, eh baba limekuwa pango la shetani.",
+                "- Limepandwa na miba",
+                "- Limejazwa magugu",
+                "- Limelimwa na watu"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "2. Bwana akapanda shambani, muti wa uzima kwa lakini shetani naye kapanda mut iwa mauti kweli, kweli shamba langu eh baba shamba langu limearibika."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "3.\tMupandaji mbegu akapanda ya gano kwa lakini shetani naye jioni kapanda magugu, kweli, kweli shamba langu eh baba shamba langu limearibika.",
+                "- Ulipanda ulozi",
+                "- Ulipanda fitina",
+                "- Ulipanda bongo"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "e3dd1b2b-91ef-5a31-9fc9-8ca44f6c9a21",
+      "title": "INCHI KUTOA UMANDE",
+      "status": "review",
+      "versions": [
+        {
+          "id": "667fc2f7-4b3d-5e7d-92be-4711b6166ed4",
+          "language": {
+            "code": null,
+            "label": null,
+            "status": "uncertain"
+          },
+          "title": "INCHI KUTOA UMANDE",
+          "source": {
+            "file": "chants_deden.html",
+            "position": 14,
+            "number": "36",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-2",
+            "category_label": "Éden",
+            "lesson_id": "lesson-2",
+            "lesson_label": "Leçon 2 — Éden"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Inchi kutoa umande kunyesha inchini (Bwana akafanya mutu kwa mavumbi ya inchi)2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Tutazameni, tutazameni, tutazameni Bwana Mungu akamufanya mutu kamutia mu shambani.",
+                "- kwakuichunga shamba: kamufanya mutu kamutia mushambani",
+                "- kwa ku ilima shamba: kamufanya mutu kamutia mushambani."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "2.Mungu katazama mutu katika shambani, (mutu huyu asi ishi peke nita fanya musaidizi) kwa udongo bwana akafanya kila nyama, ndege."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "3. Mungu kaleta wa nyama mbele ya mutu, huyu Kuona atakavio wa ita ma jina yao basi tazama ngombe akaitika jina lake la uzima, tazama pusi akaitika jina lake la uzima, imbwa naye akaitika jina lake la uzima kwa lakini musaidizi hakuonekana kwa mutu.",
+                "- Basi tazama pusi akaitika jina lake la uzima",
+                "- Basi tazama ngombe akaitika jina lake la uzima",
+                "- Basi kiboko naye akaitika jina lake la uzima"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "06992a45-c17e-5e68-a77f-aa421e8154dd",
+      "title": "KWELI GANI WAKATI HUU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "baac083d-1814-5c86-a9b0-ed79d36b4077",
+          "language": {
+            "code": null,
+            "label": null,
+            "status": "uncertain"
+          },
+          "title": "KWELI GANI WAKATI HUU",
+          "source": {
+            "file": "chants_deden.html",
+            "position": 15,
+            "number": "45",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-2",
+            "category_label": "Éden",
+            "lesson_id": "lesson-2",
+            "lesson_label": "Leçon 2 — Éden"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Kweli gani wakati huu tunayo hapa duniani tunayo warifu watu wa Mungu kweli gani ya Mungu ao ya shetani."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Hakini, hakini, hakini, hakini, hakini, hakini, ya hakini yoyoyo hakini ya Mungu hakini, yesu ni hakini roho damilifu ni hakini (2x)"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "2. Mungu kamwambia mutu huyu aliemutia humo shambani ukila muti huu utakufa hakika shetani naye kamwambia ukila muti huu hautakufa hakika.",
+                "Kweli gani wakati huu tunayoharifu watu wa Mungu kweli gani ya Mungu ao ya shetani."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "3. Basi leo apa duniani awa fundishe tena watu neno la Mungu alie hai watambwe haki weko wanafundisha juu ya vitu via duniani roho damilifu ni hakini. Kweli gani wakati huu tunayo arifu watu wa mungu kweli gani ya Mungu ao ya shetani."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "4. Hamuwezi kutakaswa kwa makafara muzitoazo ni uvuli wa vitu via mbinguni, kwa roho damalifu adjulishae maneno ya mbinguni roho damilifu ni hakini. Kweli gani wakati huu tunayo arifu watu wa Mungu kweli gani ya Mungu ao ya shetani."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "2cf929c4-9651-5e12-a008-08cfcd831acd",
+      "title": "NI KITU GANI KINITENGACHO",
+      "status": "review",
+      "versions": [
+        {
+          "id": "bf486490-57f3-5429-bcd5-8b2ecf59475e",
+          "language": {
+            "code": null,
+            "label": null,
+            "status": "uncertain"
+          },
+          "title": "NI KITU GANI KINITENGACHO",
+          "source": {
+            "file": "chants_deden.html",
+            "position": 16,
+            "number": "46",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-2",
+            "category_label": "Éden",
+            "lesson_id": "lesson-2",
+            "lesson_label": "Leçon 2 — Éden"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. (Ni kitu gani kinitengacho na mungu wa uzima}2x (Eh mimi) mimi peke yangu wajoli kujitenganisha na mungu wa uzima 2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Uniokoe, uniokoe, uniokoe bwana wa rehema. 2x Uniokoe bwana wa rehema jina lako lisifiwe (eh baba) uniokoe Bwana wa rehema jina lako liogopwe."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "2. Mungu tazama akili zangu zimenitoa shambani mwako)2x Mungu wa uzima ni shushie maharifa eh baba ni riti shamba lako Mungu wa uzima ni shushie maharifa eh baba ni riti shamba la Edeni."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "3. Umenitoa mavumbini niwe muchungaji wa dunia Umenitoa mavumbini hili ni pate wokovu Mungu wa uzima ni shushie roho wako eh Baba hili aniongoze."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    }
+  ]
+}

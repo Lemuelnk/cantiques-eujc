@@ -18,36 +18,24 @@ function echapper(s) {
 }
 
 function versionPrincipale(cantique) {
-  if (!cantique || !Array.isArray(cantique.versions)) return null;
-  return cantique.versions.find(v => v.langue === 'fr')
-    || cantique.versions[0]
-    || null;
+  return getPrimaryVersion(cantique);
 }
 
 function numero(cantique, index) {
-  if (cantique && cantique.numero_source != null) {
-    return cantique.numero_source;
-  }
+  const sourceNumber = versionPrincipale(cantique)?.source?.number;
+  if (sourceNumber != null) return sourceNumber;
   return String(index + 1);
 }
 
 function titre(cantique, index) {
   const v = versionPrincipale(cantique);
-  return (v && v.titre) || `Cantique ${numero(cantique, index)}`;
+  return (v && v.title) || cantique?.title || `Cantique ${numero(cantique, index)}`;
 }
 
 async function chargerCantiques() {
   try {
-    const reponse = await fetch('data/cantiques.json');
-
-    if (!reponse.ok) {
-      throw new Error('HTTP ' + reponse.status);
-    }
-
-    const data = await reponse.json();
-    etat.cantiques = Array.isArray(data.cantiques)
-      ? data.cantiques
-      : [];
+    const data = await loadCanonicalLesson();
+    etat.cantiques = Array.isArray(data.hymns) ? data.hymns : [];
 
     afficherRecents();
   } catch (err) {
@@ -132,16 +120,7 @@ function ouvrirCantique(id) {
 
   if (!cantique) return;
 
-  const v = versionPrincipale(cantique);
-
-  const titreCantique =
-    (v && v.titre) ||
-    'Cantique';
-
-  alert(
-    titreCantique +
-    '\n\nL’écran de détail sera raccordé dans la prochaine étape.'
-  );
+  window.location.href = `cantique.html?hymn=${encodeURIComponent(cantique.id)}`;
 }
 
 function lancerRecherche() {
