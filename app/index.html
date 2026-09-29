@@ -2,14 +2,15 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, viewport-fit=cover"
+  >
   <meta name="theme-color" content="#001a17">
+
   <title>Cantiques EUJC</title>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
-
+  <link rel="manifest" href="manifest.webmanifest">
   <link rel="stylesheet" href="style.css">
 
   <!-- Lucide -->
@@ -17,125 +18,223 @@
 </head>
 
 <body>
+  <div id="app">
 
-  <div class="app-shell">
-
-    <!-- Header -->
+    <!-- =========================
+         HEADER
+    ========================== -->
     <header class="app-header">
-      <button class="icon-button" type="button" aria-label="Retour">
-        <i data-lucide="arrow-left"></i>
-      </button>
 
-      <div class="header-title">
-        <span>Cantiques</span>
-        <strong>de prière</strong>
+      <div class="brand-mini">
+        <div class="brand-mark" aria-hidden="true">
+          <i data-lucide="sparkles"></i>
+        </div>
+
+        <span>Cantiques EUJC</span>
       </div>
 
-      <button class="icon-button" type="button" aria-label="Paramètres">
+      <button
+        class="icon-button"
+        id="btn-parametres"
+        aria-label="Paramètres"
+      >
         <i data-lucide="settings"></i>
       </button>
+
     </header>
 
-    <!-- Main -->
-    <main class="page-content">
 
-      <section class="section-intro">
-        <span class="eyebrow">CANTIQUES EUJC</span>
+    <!-- =========================
+         HOME
+    ========================== -->
+    <main class="home">
+
+      <!-- Welcome -->
+      <section class="welcome">
+        <p class="eyebrow">CANTIQUES EUJC</p>
 
         <h1>
-          Cantiques<br>
-          de prière
+          Bonjour
+          <span aria-hidden="true">👋</span>
         </h1>
 
-        <p>
-          Retrouvez les cantiques consacrés à la prière,
-          à l’invocation et au combat spirituel.
+        <p class="welcome-text">
+          Que souhaitez-vous<br>
+          chanter aujourd’hui ?
         </p>
       </section>
 
-      <!-- Categories -->
-      <section class="category-section">
 
-        <button class="category-card" type="button">
-          <div class="category-icon">
-            <i data-lucide="heart-handshake"></i>
-          </div>
+      <!-- Search -->
+      <section class="search-section">
+        <label class="search-box" for="recherche">
 
-          <div class="category-content">
-            <span class="category-label">01</span>
-            <h2>Cantiques de miséricorde</h2>
-            <p>Chants de miséricorde</p>
-          </div>
+          <span class="search-icon" aria-hidden="true">
+            <i data-lucide="search"></i>
+          </span>
 
-          <i class="category-arrow" data-lucide="chevron-right"></i>
-        </button>
+          <input
+            id="recherche"
+            type="search"
+            placeholder="Rechercher un cantique…"
+            autocomplete="off"
+          >
 
-        <button class="category-card" type="button">
-          <div class="category-icon">
-            <i data-lucide="hand"></i>
-          </div>
+        </label>
+      </section>
 
-          <div class="category-content">
-            <span class="category-label">02</span>
-            <h2>Cantiques d’invocation</h2>
-            <p>Chants d’invocation</p>
-          </div>
 
-          <i class="category-arrow" data-lucide="chevron-right"></i>
-        </button>
+      <!-- Quick access -->
+      <section class="quick-section">
 
-        <button class="category-card" type="button">
-          <div class="category-icon">
-            <i data-lucide="hands-praying"></i>
-          </div>
+        <div class="section-heading">
+          <h2>Accès rapides</h2>
+        </div>
 
-          <div class="category-content">
-            <span class="category-label">03</span>
-            <h2>Cantiques de prière</h2>
-            <p>Section générale</p>
-          </div>
+        <div class="quick-grid">
 
-          <i class="category-arrow" data-lucide="chevron-right"></i>
-        </button>
+          <!-- Leçons -->
+          <button
+            class="quick-card quick-card-green"
+            data-action="lecons"
+          >
+            <span class="quick-icon" aria-hidden="true">
+              <i data-lucide="book-open"></i>
+            </span>
 
-        <button class="category-card" type="button">
-          <div class="category-icon">
-            <i data-lucide="swords"></i>
-          </div>
+            <span>
+              <strong>Leçons</strong>
+              <small>du Chemin</small>
+            </span>
 
-          <div class="category-content">
-            <span class="category-label">04</span>
-            <h2>Cantiques de bataille</h2>
-            <p>Chants de bataille</p>
-          </div>
+            <span class="quick-arrow" aria-hidden="true">
+              <i data-lucide="chevron-right"></i>
+            </span>
+          </button>
 
-          <i class="category-arrow" data-lucide="chevron-right"></i>
-        </button>
+
+          <!-- Dimanche -->
+          <button
+            class="quick-card quick-card-gold"
+            data-action="dimanche"
+          >
+            <span class="quick-icon" aria-hidden="true">
+              <i data-lucide="calendar-days"></i>
+            </span>
+
+            <span>
+              <strong>Cantiques</strong>
+              <small>du Dimanche</small>
+            </span>
+
+            <span class="quick-arrow" aria-hidden="true">
+              <i data-lucide="chevron-right"></i>
+            </span>
+          </button>
+
+
+          <!-- Prière -->
+          <button
+            class="quick-card quick-card-wide"
+            data-action="priere"
+          >
+            <span class="quick-icon" aria-hidden="true">
+              <i data-lucide="flame"></i>
+            </span>
+
+            <span>
+              <strong>Cantiques de prière</strong>
+            </span>
+
+            <span class="quick-arrow" aria-hidden="true">
+              <i data-lucide="chevron-right"></i>
+            </span>
+          </button>
+
+        </div>
+      </section>
+
+
+      <!-- Recent -->
+      <section class="recent-section">
+
+        <div class="section-heading section-heading-row">
+          <h2>Récemment consultés</h2>
+
+          <button
+            id="voir-tout"
+            class="text-button"
+          >
+            Voir tout
+          </button>
+        </div>
+
+        <div
+          id="recents"
+          class="recent-list"
+        ></div>
 
       </section>
 
     </main>
 
-    <!-- Bottom navigation -->
-    <nav class="bottom-nav" aria-label="Navigation principale">
 
-      <button class="nav-item" type="button">
-        <i data-lucide="house"></i>
+    <!-- =========================
+         BOTTOM NAVIGATION
+    ========================== -->
+    <nav
+      class="bottom-nav"
+      aria-label="Navigation principale"
+    >
+
+      <!-- Accueil -->
+      <button
+        class="nav-item active"
+        data-nav="accueil"
+      >
+        <span class="nav-icon" aria-hidden="true">
+          <i data-lucide="house"></i>
+        </span>
+
         <span>Accueil</span>
       </button>
 
-      <button class="nav-item" type="button">
-        <i data-lucide="search"></i>
+
+      <!-- Recherche -->
+      <button
+        class="nav-item"
+        data-nav="recherche"
+      >
+        <span class="nav-icon" aria-hidden="true">
+          <i data-lucide="search"></i>
+        </span>
+
         <span>Recherche</span>
       </button>
 
-      <button class="nav-item" type="button">
-        <i data-lucide="library"></i>
+
+      <!-- Bibliothèque -->
+      <button
+        class="nav-item"
+        data-nav="bibliotheque"
+      >
+        <span class="nav-icon" aria-hidden="true">
+          <i data-lucide="library"></i>
+        </span>
+
         <span>Bibliothèque</span>
       </button>
 
-      <button class="nav-item" type="button">
-        <i data-lucide="ellipsis"></i>
+
+      <!-- Plus -->
+      <button
+        class="nav-item"
+        data-nav="plus"
+      >
+        <span class="nav-icon" aria-hidden="true">
+          <i data-lucide="ellipsis"></i>
+        </span>
+
         <span>Plus</span>
       </button>
 
@@ -143,6 +242,11 @@
 
   </div>
 
+
+  <!-- Application -->
+  <script src="app.js"></script>
+
+  <!-- Lucide -->
   <script>
     lucide.createIcons();
   </script>

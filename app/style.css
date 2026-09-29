@@ -399,3 +399,145 @@ button {
     box-shadow: 0 0 40px rgba(0, 26, 23, 0.08);
   }
 }
+
+
+/* =========================================================
+   LUCIDE ICON ADAPTATION
+   Keep the original Home design, adapt text glyphs to SVG.
+   ========================================================= */
+
+/* Global Lucide rendering */
+[data-lucide] {
+  display: block;
+  flex-shrink: 0;
+  stroke: currentColor;
+  stroke-width: 2;
+}
+
+
+/* =========================
+   HEADER
+   ========================= */
+
+.brand-mark {
+  display: grid;
+  place-items: center;
+}
+
+.brand-mark svg {
+  width: 17px;
+  height: 17px;
+  stroke-width: 2.2;
+}
+
+.icon-button {
+  display: grid;
+  place-items: center;
+}
+
+.icon-button svg {
+  width: 21px;
+  height: 21px;
+  stroke-width: 2;
+}
+
+
+/* =========================
+   SEARCH
+   ========================= */
+
+.search-icon {
+  display: grid;
+  place-items: center;
+  width: 22px;
+  height: 22px;
+  flex: 0 0 22px;
+
+  transform: none;
+}
+
+.search-icon svg {
+  width: 20px;
+  height: 20px;
+  stroke-width: 2;
+}
+
+
+/* =========================
+   QUICK ACCESS
+   ========================= */
+
+.quick-icon {
+  display: grid;
+  place-items: center;
+}
+
+.quick-icon svg {
+  width: 21px;
+  height: 21px;
+  stroke-width: 2;
+}
+
+.quick-arrow {
+  display: grid;
+  place-items: center;
+
+  width: 20px;
+  height: 20px;
+
+  font-size: 0;
+}
+
+.quick-arrow svg {
+  width: 19px;
+  height: 19px;
+  stroke-width: 2;
+}
+
+
+/* =========================
+   BOTTOM NAVIGATION
+   ========================= */
+
+.nav-icon {
+  display: grid;
+  place-items: center;
+}
+
+.nav-icon svg {
+  width: 21px;
+  height: 21px;
+  stroke-width: 2;
+}
+
+
+/* =========================
+   TOUCH FEEDBACK
+   ========================= */
+
+.quick-card,
+.nav-item,
+.icon-button,
+.text-button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.quick-card:active {
+  transform: scale(0.985);
+}
+
+.nav-item:active,
+.icon-button:active {
+  transform: scale(0.94);
+}
+
+
+/* =========================
+   ACCESSIBILITY / FOCUS
+   ========================= */
+
+button:focus-visible,
+input:focus-visible {
+  outline: 2px solid var(--teal);
+  outline-offset: 2px;
+}
