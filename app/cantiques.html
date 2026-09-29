@@ -50,58 +50,7 @@
       </div>
     </section>
 
-    <section class="hymns-list" id="hymns-list">
-
-      <article class="hymn-row">
-        <div class="hymn-number">01</div>
-
-        <div class="hymn-content">
-          <h2>La création</h2>
-          <p>Français · 4 couplets</p>
-        </div>
-
-        <button class="favorite-button" aria-label="Ajouter aux favoris">
-          <i data-lucide="star"></i>
-        </button>
-      </article>
-
-      <article class="hymn-row">
-        <div class="hymn-number">02</div>
-
-        <div class="hymn-content">
-          <h2>Dieu créa les cieux</h2>
-          <p>Tshiluba · 5 couplets</p>
-        </div>
-
-        <button class="favorite-button" aria-label="Ajouter aux favoris">
-          <i data-lucide="star"></i>
-        </button>
-      </article>
-
-      <article class="hymn-row has-versions">
-        <div class="hymn-number">03</div>
-
-        <div class="hymn-content">
-          <div class="hymn-title-line">
-            <h2>Au commencement</h2>
-
-            <button
-              class="versions-button"
-              aria-label="Voir les versions linguistiques"
-            >
-              <i data-lucide="languages"></i>
-            </button>
-          </div>
-
-          <p>Swahili · 4 couplets</p>
-        </div>
-
-        <button class="favorite-button" aria-label="Ajouter aux favoris">
-          <i data-lucide="star"></i>
-        </button>
-      </article>
-
-    </section>
+    <section class="hymns-list" id="hymns-list" aria-live="polite"></section>
 
     <div class="empty-state" id="empty-state" hidden>
       <i data-lucide="search-x"></i>
@@ -157,6 +106,7 @@
   </section>
 
   <script src="bottom-nav.js"></script>
+  <script src="canonical-data.js"></script>
   <script src="cantiques.js"></script>
   <script>
     lucide.createIcons();

@@ -1,0 +1,99 @@
+.hymn-detail-page {
+  width: 100%;
+  max-width: 720px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 18px 20px 108px;
+}
+
+.hymn-detail-header {
+  display: grid;
+  grid-template-columns: 40px 1fr 40px;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.hymn-detail-eyebrow {
+  margin: 0;
+  color: var(--teal);
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.1px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.hymn-detail-intro {
+  margin-bottom: 24px;
+}
+
+.hymn-number-label {
+  margin: 0 0 7px;
+  color: var(--teal);
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.hymn-detail-intro h1 {
+  margin: 0;
+  color: var(--deep-green);
+  font-family: "Montserrat", sans-serif;
+  font-size: clamp(24px, 7vw, 34px);
+  line-height: 1.2;
+}
+
+.hymn-metadata {
+  margin: 10px 0 0;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.hymn-lyrics {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.lyric-block {
+  padding: 17px;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: var(--surface);
+}
+
+.lyric-block h2 {
+  margin: 0 0 10px;
+  color: var(--teal);
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.lyric-block-refrain {
+  border-color: rgba(0, 150, 136, 0.28);
+  background: rgba(0, 150, 136, 0.06);
+}
+
+.lyric-block-comment {
+  border-style: dashed;
+  background: #fffcf6;
+}
+
+.lyric-lines p {
+  margin: 0;
+  color: var(--text);
+  font-size: 16px;
+  line-height: 1.62;
+  white-space: pre-wrap;
+}
+
+.detail-loading,
+.detail-empty {
+  margin: 54px auto;
+  color: var(--muted);
+  font-size: 14px;
+  text-align: center;
+}

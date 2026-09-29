@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#001a17">
+  <title>Cantique — Cantiques EUJC</title>
+
+  <link rel="stylesheet" href="cantiques.css">
+  <link rel="stylesheet" href="cantique.css">
+  <link rel="stylesheet" href="bottom-nav.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <main class="hymn-detail-page">
+    <header class="hymn-detail-header">
+      <button class="icon-button" id="back-button" aria-label="Retour">
+        <i data-lucide="arrow-left"></i>
+      </button>
+      <p class="hymn-detail-eyebrow">Cantiques EUJC</p>
+      <span class="header-spacer" aria-hidden="true"></span>
+    </header>
+
+    <section id="hymn-detail" aria-live="polite">
+      <div class="detail-loading">Chargement du cantique…</div>
+    </section>
+  </main>
+
+  <div id="bottom-nav"></div>
+
+  <script src="bottom-nav.js"></script>
+  <script src="canonical-data.js"></script>
+  <script src="cantique.js"></script>
+</body>
+</html>
