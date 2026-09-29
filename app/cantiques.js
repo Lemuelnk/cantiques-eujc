@@ -4,8 +4,7 @@ const categoryId = params.get("category") || "lesson-1";
 
 const categoryData = {
   "lesson-1": {
-    title: "Leçon 1 — Création",
-    count: 12
+    title: "Leçon 1 — Création"
   }
 };
 
@@ -30,8 +29,73 @@ const closeSort = document.getElementById("close-sort");
 const sortOptions = document.querySelectorAll(".sort-option");
 
 categoryTitle.textContent = category.title;
-categoryCount.textContent =
-  `${category.count} cantique${category.count > 1 ? "s" : ""}`;
+categoryCount.textContent = "Chargement…";
+
+
+/* DONNÉES */
+
+async function loadCategoryHymns() {
+  if (categoryId !== "lesson-1") {
+    categoryCount.textContent = "Catégorie non disponible";
+    return;
+  }
+
+  try {
+    const response = await fetch("../data/working/lesson-1-creation.json", { cache: "no-store" });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+    const data = await response.json();
+    const hymns = Array.isArray(data.hymns) ? data.hymns : [];
+
+    categoryTitle.textContent = `Leçon ${data.lesson.number} — ${data.lesson.title}`;
+    categoryCount.textContent = `${hymns.length} cantique${hymns.length > 1 ? "s" : ""}`;
+
+    hymnsList.innerHTML = "";
+
+    hymns.forEach(hymn => {
+      const row = document.createElement("article");
+      row.className = "hymn-row";
+      row.dataset.sourcePosition = hymn.source_position ?? "";
+      row.dataset.sourceNumber = hymn.source_number ?? "";
+
+      const number = document.createElement("div");
+      number.className = "hymn-number";
+      number.textContent = hymn.source_number || String(hymn.source_position).padStart(2, "0");
+
+      const content = document.createElement("div");
+      content.className = "hymn-content";
+
+      const title = document.createElement("h2");
+      title.textContent = hymn.title;
+
+      const meta = document.createElement("p");
+      const language = hymn.language || data.source?.language || "";
+      meta.textContent = language ? `${language.toUpperCase()} · Position source ${hymn.source_position}` : `Position source ${hymn.source_position}`;
+
+      content.append(title, meta);
+
+      const favorite = document.createElement("button");
+      favorite.className = "favorite-button";
+      favorite.type = "button";
+      favorite.setAttribute("aria-label", "Ajouter aux favoris");
+      favorite.innerHTML = '<i data-lucide="star"></i>';
+
+      row.append(number, content, favorite);
+      hymnsList.appendChild(row);
+    });
+
+    if (window.lucide) lucide.createIcons();
+    bindFavoriteButtons();
+  } catch (error) {
+    console.error("Impossible de charger la liste des cantiques :", error);
+    categoryCount.textContent = "Erreur de chargement";
+    hymnsList.innerHTML = "";
+    emptyState.hidden = false;
+    emptyState.querySelector("h2").textContent = "Impossible de charger les cantiques";
+    emptyState.querySelector("p").textContent = "Vérifiez la connexion aux données de la leçon.";
+  }
+}
+
 
 
 /* RETOUR */
@@ -205,24 +269,26 @@ function getTitle(row) {
 
 /* FAVORIS */
 
-document.querySelectorAll(".favorite-button").forEach(button => {
-  button.addEventListener("click", event => {
-    event.stopPropagation();
+function bindFavoriteButtons() {
+  document.querySelectorAll(".favorite-button").forEach(button => {
+    button.addEventListener("click", event => {
+      event.stopPropagation();
 
-    const row = button.closest(".hymn-row");
-    row.classList.toggle("is-favorite");
+      const row = button.closest(".hymn-row");
+      row.classList.toggle("is-favorite");
 
-    const icon = button.querySelector("svg");
+      const icon = button.querySelector("svg");
 
-    if (row.classList.contains("is-favorite")) {
-      button.setAttribute("aria-label", "Retirer des favoris");
-      icon?.setAttribute("fill", "currentColor");
-    } else {
-      button.setAttribute("aria-label", "Ajouter aux favoris");
-      icon?.setAttribute("fill", "none");
-    }
+      if (row.classList.contains("is-favorite")) {
+        button.setAttribute("aria-label", "Retirer des favoris");
+        icon?.setAttribute("fill", "currentColor");
+      } else {
+        button.setAttribute("aria-label", "Ajouter aux favoris");
+        icon?.setAttribute("fill", "none");
+      }
+    });
   });
-});
+}
 
 
 /* VERSIONS */
@@ -242,6 +308,4 @@ document.querySelectorAll(".versions-button").forEach(button => {
 
 /* POSITION SOURCE POUR LE TRI */
 
-document.querySelectorAll(".hymn-row").forEach((row, index) => {
-  row.dataset.sourcePosition = index + 1;
-});
+loadCategoryHymns();
