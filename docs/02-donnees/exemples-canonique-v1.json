@@ -1,0 +1,97 @@
+{
+  "$schema": "./schema-canonique-v1.json",
+  "valid": {
+    "schema_version": "1.0",
+    "id": "00000000-0000-4000-8000-000000000001",
+    "title": "TWAKUSHUKURU EH MUNGU WANGU",
+    "status": "validated",
+    "versions": [
+      {
+        "id": "00000000-0000-4000-8000-000000000101",
+        "language": {
+          "code": "sw",
+          "label": "Swahili",
+          "status": "known"
+        },
+        "title": "TWAKUSHUKURU EH MUNGU WANGU",
+        "source": {
+          "file": "chants_de_la_creation.html",
+          "position": 8,
+          "number": "28",
+          "reference": null
+        },
+        "taxonomy": {
+          "domain": "lessons",
+          "category_id": "lesson-1",
+          "category_label": "Création",
+          "lesson_id": "lesson-1",
+          "lesson_label": "Leçon 1 — Création"
+        },
+        "content": [
+          {
+            "type": "source_block",
+            "lines": [
+              "1. Twakushukuru eh mungu wangu..."
+            ]
+          },
+          {
+            "type": "refrain",
+            "lines": [
+              "Mimi munaziri wa mungu yoyoyo (uniokowe)2x"
+            ]
+          },
+          {
+            "type": "comment",
+            "lines": [
+              "katika magonjwa uniokowe uniokowe eh"
+            ]
+          }
+        ],
+        "media": {
+          "audio_present": false
+        }
+      }
+    ]
+  },
+  "invalid": {
+    "schema_version": "1.0",
+    "id": "28",
+    "title": "Exemple",
+    "status": "validated",
+    "versions": [
+      {
+        "id": "28",
+        "language": {
+          "code": "sw",
+          "label": "Swahili",
+          "status": "known"
+        },
+        "title": "Exemple",
+        "source": {
+          "file": "x.html",
+          "position": 1,
+          "number": "28",
+          "reference": null
+        },
+        "taxonomy": {
+          "domain": "lessons",
+          "category_id": "lesson-1",
+          "category_label": "Création",
+          "lesson_id": "lesson-1",
+          "lesson_label": "Leçon 1 — Création"
+        },
+        "content": [
+          {
+            "type": "refrain",
+            "lines": [
+              "..."
+            ]
+          }
+        ],
+        "media": {
+          "audio_present": false
+        }
+      }
+    ]
+  }
+}
