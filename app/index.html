@@ -2,116 +2,140 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#001a17">
   <title>Cantiques EUJC</title>
-  <link rel="manifest" href="manifest.webmanifest">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
+
+  <!-- Lucide -->
+  <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 
 <body>
-  <div id="app">
 
+  <div class="app-shell">
+
+    <!-- Header -->
     <header class="app-header">
-      <div class="brand-mini">
-        <div class="brand-mark" aria-hidden="true">✦</div>
-        <span>Cantiques EUJC</span>
+      <button class="icon-button" type="button" aria-label="Retour">
+        <i data-lucide="arrow-left"></i>
+      </button>
+
+      <div class="header-title">
+        <span>Cantiques</span>
+        <strong>de prière</strong>
       </div>
 
-      <button class="icon-button" id="btn-parametres" aria-label="Paramètres">
-        ⚙
+      <button class="icon-button" type="button" aria-label="Paramètres">
+        <i data-lucide="settings"></i>
       </button>
     </header>
 
-    <main class="home">
+    <!-- Main -->
+    <main class="page-content">
 
-      <section class="welcome">
-        <p class="eyebrow">CANTIQUES EUJC</p>
-        <h1>Bonjour <span aria-hidden="true">👋</span></h1>
-        <p class="welcome-text">
-          Que souhaitez-vous<br>
-          chanter aujourd’hui ?
+      <section class="section-intro">
+        <span class="eyebrow">CANTIQUES EUJC</span>
+
+        <h1>
+          Cantiques<br>
+          de prière
+        </h1>
+
+        <p>
+          Retrouvez les cantiques consacrés à la prière,
+          à l’invocation et au combat spirituel.
         </p>
       </section>
 
-      <section class="search-section">
-        <label class="search-box" for="recherche">
-          <span class="search-icon" aria-hidden="true">⌕</span>
-          <input
-            id="recherche"
-            type="search"
-            placeholder="Rechercher un cantique…"
-            autocomplete="off"
-          >
-        </label>
-      </section>
+      <!-- Categories -->
+      <section class="category-section">
 
-      <section class="quick-section">
-        <div class="section-heading">
-          <h2>Accès rapides</h2>
-        </div>
+        <button class="category-card" type="button">
+          <div class="category-icon">
+            <i data-lucide="heart-handshake"></i>
+          </div>
 
-        <div class="quick-grid">
+          <div class="category-content">
+            <span class="category-label">01</span>
+            <h2>Cantiques de miséricorde</h2>
+            <p>Chants de miséricorde</p>
+          </div>
 
-          <button class="quick-card quick-card-green" data-action="lecons">
-            <span class="quick-icon">▣</span>
-            <span>
-              <strong>Leçons</strong>
-              <small>du Chemin</small>
-            </span>
-            <span class="quick-arrow">›</span>
-          </button>
+          <i class="category-arrow" data-lucide="chevron-right"></i>
+        </button>
 
-          <button class="quick-card quick-card-gold" data-action="dimanche">
-            <span class="quick-icon">▣</span>
-            <span>
-              <strong>Cantiques</strong>
-              <small>du Dimanche</small>
-            </span>
-            <span class="quick-arrow">›</span>
-          </button>
+        <button class="category-card" type="button">
+          <div class="category-icon">
+            <i data-lucide="hand"></i>
+          </div>
 
-          <button class="quick-card quick-card-wide" data-action="priere">
-            <span class="quick-icon">♨</span>
-            <span>
-              <strong>Cantiques de prière</strong>
-            </span>
-            <span class="quick-arrow">›</span>
-          </button>
+          <div class="category-content">
+            <span class="category-label">02</span>
+            <h2>Cantiques d’invocation</h2>
+            <p>Chants d’invocation</p>
+          </div>
 
-        </div>
-      </section>
+          <i class="category-arrow" data-lucide="chevron-right"></i>
+        </button>
 
-      <section class="recent-section">
-        <div class="section-heading section-heading-row">
-          <h2>Récemment consultés</h2>
-          <button id="voir-tout" class="text-button">Voir tout</button>
-        </div>
+        <button class="category-card" type="button">
+          <div class="category-icon">
+            <i data-lucide="hands-praying"></i>
+          </div>
 
-        <div id="recents" class="recent-list"></div>
+          <div class="category-content">
+            <span class="category-label">03</span>
+            <h2>Cantiques de prière</h2>
+            <p>Section générale</p>
+          </div>
+
+          <i class="category-arrow" data-lucide="chevron-right"></i>
+        </button>
+
+        <button class="category-card" type="button">
+          <div class="category-icon">
+            <i data-lucide="swords"></i>
+          </div>
+
+          <div class="category-content">
+            <span class="category-label">04</span>
+            <h2>Cantiques de bataille</h2>
+            <p>Chants de bataille</p>
+          </div>
+
+          <i class="category-arrow" data-lucide="chevron-right"></i>
+        </button>
+
       </section>
 
     </main>
 
+    <!-- Bottom navigation -->
     <nav class="bottom-nav" aria-label="Navigation principale">
 
-      <button class="nav-item active" data-nav="accueil">
-        <span class="nav-icon">⌂</span>
+      <button class="nav-item" type="button">
+        <i data-lucide="house"></i>
         <span>Accueil</span>
       </button>
 
-      <button class="nav-item" data-nav="recherche">
-        <span class="nav-icon">⌕</span>
+      <button class="nav-item" type="button">
+        <i data-lucide="search"></i>
         <span>Recherche</span>
       </button>
 
-      <button class="nav-item" data-nav="bibliotheque">
-        <span class="nav-icon">▣</span>
+      <button class="nav-item" type="button">
+        <i data-lucide="library"></i>
         <span>Bibliothèque</span>
       </button>
 
-      <button class="nav-item" data-nav="plus">
-        <span class="nav-icon">•••</span>
+      <button class="nav-item" type="button">
+        <i data-lucide="ellipsis"></i>
         <span>Plus</span>
       </button>
 
@@ -119,6 +143,9 @@
 
   </div>
 
-  <script src="app.js"></script>
+  <script>
+    lucide.createIcons();
+  </script>
+
 </body>
 </html>
