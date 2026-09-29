@@ -1,0 +1,380 @@
+:root {
+  --deep-green: #001a17;
+  --teal: #009688;
+  --cream: #fff9f0;
+  --orange: #ff7043;
+  --yellow: #ffc107;
+  --text: #17201f;
+  --muted: #71807d;
+  --border: rgba(0, 26, 23, 0.09);
+  --surface: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--cream);
+  color: var(--text);
+  font-family: "Open Sans", sans-serif;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button {
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+
+.hymns-page {
+  width: 100%;
+  max-width: 720px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 18px 16px 32px;
+}
+
+/* HEADER */
+
+.hymns-header {
+  display: grid;
+  grid-template-columns: 44px 1fr auto;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.header-info {
+  min-width: 0;
+}
+
+.header-info h1 {
+  margin: 0;
+  color: var(--deep-green);
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.header-info p {
+  margin: 4px 0 0;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.icon-button {
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  color: var(--deep-green);
+}
+
+.icon-button:hover {
+  background: rgba(0, 150, 136, 0.08);
+}
+
+.icon-button svg {
+  width: 20px;
+  height: 20px;
+  stroke-width: 2;
+}
+
+/* SEARCH */
+
+.search-panel {
+  margin-bottom: 14px;
+}
+
+.search-input-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 46px;
+  padding: 0 12px;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: var(--surface);
+}
+
+.search-input-wrapper > svg {
+  width: 19px;
+  color: var(--teal);
+  flex: 0 0 auto;
+}
+
+.search-input-wrapper input {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: var(--text);
+  font-size: 14px;
+}
+
+.clear-button {
+  width: 30px;
+  height: 30px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--muted);
+}
+
+.clear-button svg {
+  width: 17px;
+}
+
+/* LIST */
+
+.hymns-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.hymn-row {
+  display: grid;
+  grid-template-columns: 38px minmax(0, 1fr) 40px;
+  align-items: center;
+  gap: 10px;
+  min-height: 72px;
+  padding: 10px 10px 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: var(--surface);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.hymn-row:active {
+  transform: scale(0.99);
+}
+
+.hymn-number {
+  width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background: rgba(0, 150, 136, 0.09);
+  color: var(--teal);
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.hymn-content {
+  min-width: 0;
+}
+
+.hymn-content h2 {
+  margin: 0;
+  overflow: hidden;
+  color: var(--deep-green);
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.35;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.hymn-content p {
+  margin: 4px 0 0;
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.hymn-title-line {
+  display: flex;
+  align-items: center;
+  min-width: 0;
+  gap: 6px;
+}
+
+.hymn-title-line h2 {
+  flex: 0 1 auto;
+}
+
+.favorite-button,
+.versions-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  border-radius: 10px;
+}
+
+.favorite-button {
+  width: 38px;
+  height: 38px;
+  color: #98a3a1;
+}
+
+.favorite-button:hover {
+  color: var(--yellow);
+}
+
+.favorite-button svg {
+  width: 19px;
+  height: 19px;
+}
+
+.versions-button {
+  width: 27px;
+  height: 27px;
+  color: var(--teal);
+}
+
+.versions-button svg {
+  width: 16px;
+  height: 16px;
+}
+
+/* EMPTY */
+
+.empty-state {
+  padding: 64px 24px;
+  text-align: center;
+}
+
+.empty-state > svg {
+  width: 34px;
+  height: 34px;
+  color: var(--teal);
+}
+
+.empty-state h2 {
+  margin: 14px 0 6px;
+  color: var(--deep-green);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
+.empty-state p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+/* SORT SHEET */
+
+.sort-sheet-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 20;
+  background: rgba(0, 26, 23, 0.42);
+  backdrop-filter: blur(2px);
+}
+
+.sort-sheet {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 21;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 10px 16px 24px;
+  border-radius: 24px 24px 0 0;
+  background: var(--surface);
+  box-shadow: 0 -8px 32px rgba(0, 26, 23, 0.12);
+  transform: translateY(100%);
+  transition: transform 0.22s ease;
+}
+
+.sort-sheet.open {
+  transform: translateY(0);
+}
+
+.sort-handle {
+  width: 38px;
+  height: 4px;
+  margin: 2px auto 12px;
+  border-radius: 99px;
+  background: #d9dfdd;
+}
+
+.sort-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sort-header h2 {
+  margin: 0;
+  color: var(--deep-green);
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+}
+
+.sort-options {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+}
+
+.sort-option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  width: 100%;
+  padding: 14px 4px;
+  text-align: left;
+  color: var(--text);
+  border-bottom: 1px solid var(--border);
+}
+
+.sort-option:last-child {
+  border-bottom: 0;
+}
+
+.sort-option span {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.sort-option strong {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+}
+
+.sort-option small {
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.sort-option > svg {
+  width: 18px;
+  color: var(--teal);
+  opacity: 0;
+}
+
+.sort-option.active > svg {
+  opacity: 1;
+}
+
+@media (min-width: 700px) {
+  .hymns-page {
+    padding-top: 28px;
+  }
+}
