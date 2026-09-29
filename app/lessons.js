@@ -31,6 +31,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
       row.addEventListener('click', event => {
 
+        const href = row.getAttribute('href');
+
+        if (href && href !== '#') {
+          return;
+        }
+
         event.preventDefault();
 
         const number =
@@ -38,10 +44,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const name =
           row.querySelector('.lesson-name')?.textContent.trim();
-
-        if (row.getAttribute('href') && row.getAttribute('href') !== '#') {
-          return;
-        }
 
         if (name) {
           alert(
