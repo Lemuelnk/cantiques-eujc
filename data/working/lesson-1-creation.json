@@ -1,0 +1,427 @@
+{
+  "schema_version": 1,
+  "category_id": "lesson-1",
+  "category": "Cantiques des leçons du Chemin",
+  "subcategory": "Chants de la création",
+  "lesson": {
+    "number": 1,
+    "title": "Création"
+  },
+  "source": {
+    "file": "chants_de_la_creation.html",
+    "extraction_file": "extraction_lecon_1_creation.md",
+    "language": "sw",
+    "language_status": "validated_by_user"
+  },
+  "extraction_status": "review",
+  "rules": {
+    "source_number_is_not_global_identity": true,
+    "preserve_source_order": true,
+    "preserve_source_blocks": true,
+    "no_cross_language_matching_by_number": true
+  },
+  "hymns": [
+    {
+      "id": "apo-mwanzo",
+      "source_position": 1,
+      "source_number": "25",
+      "title": "APO MWANZO",
+      "language": "sw",
+      "status": "review",
+      "audio_present": true,
+      "content": {
+        "sections": [
+          {
+            "type": "SOURCE_BLOCK",
+            "text": "(Apo mwanzo, Mungu aliziumba mbingu na inchi na bahari kubwa yoyo aa! Roho wa Mungu akatulia juu ya uso wa maji)2x"
+          },
+          {
+            "type": "REFRAIN",
+            "text": "Sisi zote tuondokeni duniani tutembee juu ya bahari ili tuwe mbinguni muishimo baba, Mungu wa wenye uhai inchi yani mwili, mbingu yani roho ya Mungu, maji ni mafundisho, nuru ufahamu, giza ni upungufu."
+          },
+          {
+            "type": "SOURCE_BLOCK",
+            "text": "Mungu akatenga nuru na giza, nuru muchana, giza usiku yoyo aa!( Ati baba oh nuru ao oh giza)2x  \nInchi ikatoa majani kwa gisi yake mamboga na miti matunda na mbengu yoyo aa ! wana wa Mungu toeni matunda yenye kufaha toba."
+          },
+          {
+            "type": "SOURCE_BLOCK",
+            "text": "Mungu akaumba viumbe vienye uhai ayawani na ndege nyangumi majini yoyo aa! mutu akawa mumiliki wa viote yoyo aa!"
+          },
+          {
+            "type": "COMMENT",
+            "text": "Baba twakushukuru iyawe yoyo mungu wa wenye uhai  \n- Uliumba dunia  \n- Kweli sita kuacha\n**audio_present:** true"
+          }
+        ]
+      },
+      "notes_extraction": [
+        "La source utilise des `<li>` successifs, mais seuls les blocs ne comportent pas de numérotation explicite propre à la structure de la chanson.",
+        "Les blocs suivants le refrain sont donc conservés comme `SOURCE_BLOCK`, sans création artificielle de `VERSE 2` / `VERSE 3`.",
+        "`Com:` est explicite dans le dernier bloc.",
+        "Audio présent dans la source."
+      ]
+    },
+    {
+      "id": "bwana-mungu-eh-mumbaji-wangu",
+      "source_position": 2,
+      "source_number": "30",
+      "title": "BWANA MUNGU EH MUMBAJI WANGU",
+      "language": "sw",
+      "status": "review",
+      "audio_present": false,
+      "content": {
+        "sections": [
+          {
+            "type": "SOURCE_BLOCK",
+            "text": "(Bwana mungu eh mumbaji wangu ni mufalme wa majabu) (kwaeli kweli kwaku tanda mbingu na harzi na vitu viote vijazamo baba ni mufalme wa majabu Mumbaji bwana yoyoyo eh baba ni mufalme wa majabu)."
+          },
+          {
+            "type": "REFRAIN",
+            "text": "- Kwa siku ya kwanza bwana kaumba nuru  \n- Kwa siku ya pili bwana katenga nafasi  \n- Kwa siku ya tatu bwana kaumba miti  \n- Kwa siku ya ine bwana akaumba miangaza  \n- Kwa siku ya tano bwana kaumba nyama  \n- Kwa siku ya sita bwana kaumba mutuEh baba mumbaji bwana yoyoyo eh baba ni mufalme wa majabu."
+          },
+          {
+            "type": "SOURCE_BLOCK",
+            "text": "njonii (njoni kua yesu) njoni uchukuwe nawe nira yangu hii, (nira yangu hii) nira yani musalaba. 2x"
+          },
+          {
+            "type": "SOURCE_BLOCK",
+            "text": "Bwana akapanda shamba upande wa mashariki mwa Edeni bwana akatia pale mutu yule alie mufanya na vitu viote viakuitajiwa bwana akatia pale."
+          },
+          {
+            "type": "SOURCE_BLOCK",
+            "text": "Umu shambani bwana ka watilia sheria ule viote unavio viona mbele yako eh ila wakujuwa uzuri na ubaya wewe mutu wangu usile. Ukosefu wa watu wakakufuru yoyoyo watu wakufuru mungu wao.\n**audio_present:** false"
+          }
+        ]
+      },
+      "notes_extraction": [
+        "La source emploie un `<ol>` avec plusieurs `<li>`, mais les blocs suivant le refrain ne sont pas numérotés explicitement.",
+        "Aucun `VERSE 2/3/4` technique n'est reconstruit.",
+        "Le refrain est explicitement marqué `Refrain:`."
+      ]
+    },
+    {
+      "id": "nitazamapo-huduma-uliofanya-mungu",
+      "source_position": 3,
+      "source_number": "34",
+      "title": "NITAZAMAPO HUDUMA ULIOFANYA MUNGU",
+      "language": "sw",
+      "status": "review",
+      "audio_present": false,
+      "content": {
+        "sections": [
+          {
+            "type": "SOURCE_BLOCK",
+            "text": "Nitazamapo huduma uliofanya Mungu kwa mikono yake chini ya jua (kweli mimi) sina na furaha mu mambo yote ya uzima wangu apa duniani."
+          },
+          {
+            "type": "REFRAIN",
+            "text": "Mungu akaumba mbingu na dunia mito na bahari kubwa kazi ya mikono yake mungu wangu paka wewe akuna mwingine."
+          },
+          {
+            "type": "COMMENT",
+            "text": "- Mumbaji wangu paka wewe akuna mwingine  \n- Tegemeo langu paka wewe akuna mwingine"
+          },
+          {
+            "type": "SOURCE_BLOCK",
+            "text": "Mungu uniokowe mu mambo ya dunia ili ni sione taabu ya mwisho wa dunia (wewe) wewe ulimutoa mwana wako wa peke ili kila mwamini asife kamwe."
+          },
+          {
+            "type": "SOURCE_BLOCK",
+            "text": "ukiapa kwa mungu wako usisite kamwe timiza naziri yako (kweli yeye) yeye a furahi juu ya wajinga urejee kamwe timiza haadi yako.\n**audio_present:** false"
+          }
+        ]
+      },
+      "notes_extraction": [
+        "`Com:` est explicite dans le bloc du refrain.",
+        "Les blocs suivants ne sont pas numérotés explicitement par la source et restent `SOURCE_BLOCK`.",
+        "Le titre présente une balise HTML mal fermée (`<p>` / `</h3>`), sans impact identifié sur le texte."
+      ]
+    },
+    {
+      "id": "anasa-za-dunia",
+      "source_position": 4,
+      "source_number": "32",
+      "title": "ANASA ZA DUNIA",
+      "language": "sw",
+      "status": "review",
+      "audio_present": false,
+      "content": {
+        "sections": [
+          {
+            "type": "SOURCE_BLOCK",
+            "text": "Anasa, anasa za dunia zimetusonga sana oh anasa za dunia."
+          },
+          {
+            "type": "REFRAIN",
+            "text": "Roho wewe ndiye mungu (eh roho) roho oh wewe ndiye mungu (Eh roho wewe ndiye mufalme kuliko mafalme za dunia)2x"
+          },
+          {
+            "type": "SOURCE_BLOCK",
+            "text": "(Roho ulinena ya kwamba maji na maji ya tengane maji ya juu na maji ya chini)2x (Katikati ukaita nafasi, nafasi ukaita mbinguni)2x Oh oh roho wa baba nafasi ukaita mbinguni.\n**audio_present:** false"
+          }
+        ]
+      },
+      "notes_extraction": [
+        "Structure source claire : un bloc avant le refrain, un bloc après.",
+        "Aucun numéro de couplet technique ajouté."
+      ]
+    },
+    {
+      "id": "mungu-alianza-kazi",
+      "source_position": 5,
+      "source_number": "29",
+      "title": "MUNGU ALIANZA KAZI",
+      "language": "sw",
+      "status": "review",
+      "audio_present": false,
+      "content": {
+        "sections": [
+          {
+            "type": "SOURCE_BLOCK",
+            "text": "1. Mungu alianza kazi katika dunia (mimi si ku juwa kitu kwajili ya kazi iyo)2x"
+          },
+          {
+            "type": "REFRAIN",
+            "text": "Kilio cha Mungu kwajili ya kazi: alilia alilia jina ionekane  \n- kilio cha mungu kwajili ya wana  \n- Apotre kulia kwajili ya wana:"
+          },
+          {
+            "type": "SOURCE_BLOCK",
+            "text": "2. Uli nibatiza wewe mumbaji wa mbingu (Jina imebadirika kwajili ya kazi iyo)2x  \n- Ulikuwa nyama leo unaitwa mutu, jina imebadirika kwajili ya kazi iyo  \n- Ulikuwa simba jina imebadirika kwajili ya kazi iyo\n**audio_present:** false"
+          }
+        ]
+      },
+      "notes_extraction": [
+        "Les marqueurs `1.` et `2.` sont présents directement dans la source.",
+        "Ils sont conservés dans le contenu.",
+        "Le bloc du refrain est explicitement marqué `Ref:`."
+      ]
+    },
+    {
+      "id": "alipo-anza-mungu-huduma",
+      "source_position": 6,
+      "source_number": "26",
+      "title": "ALIPO ANZA MUNGU HUDUMA",
+      "language": "sw",
+      "status": "review",
+      "audio_present": false,
+      "content": {
+        "sections": [
+          {
+            "type": "SOURCE_BLOCK",
+            "text": "1. Alipo anza mungu huduma za kuumba na kufanya mbingu zi ka umbiwa, dunia ika umbiwa, (Dunia haikuwa na kitu ila maji yalikuwa duniani)2x"
+          },
+          {
+            "type": "REFRAIN",
+            "text": "Jehova mungu uliandike jina langu mukitabu cha uzima kweli siku zile na machozi na vilio avita kuwa tena."
+          },
+          {
+            "type": "SOURCE_BLOCK",
+            "text": "Mungu kanyosha mukono wake kondoa maji duniani (Inchi ikabakia kavu na giza yote ikatoweka)2x  \nDunia wewe dunia, kwakuwa usibaki dunia wewe ugeuze mulima upate wokovu wa milele.\n**audio_present:** false"
+          }
+        ]
+      },
+      "notes_extraction": [
+        "Marqueur `Ref :` explicite.",
+        "Le second bloc n'est pas précédé d'un numéro de couplet ; il reste `SOURCE_BLOCK`."
+      ]
+    },
+    {
+      "id": "huduma-zilianza-katika-mbingu",
+      "source_position": 7,
+      "source_number": "31",
+      "title": "HUDUMA ZILIANZA KATIKA MBINGU",
+      "language": "sw",
+      "status": "review",
+      "audio_present": false,
+      "content": {
+        "sections": [
+          {
+            "type": "SOURCE_BLOCK",
+            "text": "1. Huduma zilianza katika mbingu kwa kuumba vitu viote vinavio onekana visivio onekana kwa utukufu wake."
+          },
+          {
+            "type": "REFRAIN",
+            "text": "Wewe ni nani katika dunia eyowa  \n(katika dunia)  \n- Kiburi kiako ni bure eyowa  \n- Majivuno yako ni bure eyowa  \n- Kuvala kwako ni bure eyowa  \nMungu wetu mushindi kasimamisha haki yake kwa utukufu wake.  \nKweli, kweli mungu mwenye uwezo kasiùamisha haki yake kwa utukufu wake Kweli, kweli mumba wa viote"
+          },
+          {
+            "type": "SOURCE_BLOCK",
+            "text": "2. Magizo ya mungu kwake adama usile wala kugusa muti wa mauti eh nyoka kadanganya muke hakika hamutakufa."
+          },
+          {
+            "type": "SOURCE_BLOCK",
+            "text": "3. Kasirani yake mungu kalaani muke Adamu kwa utkufu wake eh mimi sitaki shuurliza duniani ni pate uzima.\n**audio_present:** false"
+          }
+        ]
+      },
+      "notes_extraction": [
+        "Les numéros `1.`, `2.` et `3.` sont présents dans la source.",
+        "Seul le premier bloc est suivi d'un refrain explicitement marqué.",
+        "Les blocs 2 et 3 sont conservés comme `SOURCE_BLOCK` pour ne pas imposer une structure non explicitement balisée par la source."
+      ]
+    },
+    {
+      "id": "twakushukuru-eh-mungu-wangu",
+      "source_position": 8,
+      "source_number": "28",
+      "title": "TWAKUSHUKURU EH MUNGU WANGU",
+      "language": "sw",
+      "status": "review",
+      "audio_present": false,
+      "content": {
+        "sections": [
+          {
+            "type": "SOURCE_BLOCK",
+            "text": "1. Twakushukuru eh mungu wangu katika, kazi uliotenda tangu hawali zimetimilika leo (kazi gani) kuokowa dunia katika mikono ya shetani, (kazi gani) kuokoa dunia katika shida na magonjwa (kazi gani)kuokoa dunia katika kiburi na jeuri."
+          },
+          {
+            "type": "REFRAIN",
+            "text": "Mimi munaziri wa mungu yoyoyo (uniokowe)2x"
+          },
+          {
+            "type": "COMMENT",
+            "text": "katika magonjwa uniokowe uniokowe eh  \n- katika kifungo  \n- Katika mateso"
+          },
+          {
+            "type": "SOURCE_BLOCK",
+            "text": "2. (Nimesongwa sana mungu wangu na madui awa)2x (madui gani) Pisoni: sheria a jamaa ya menisonga sana Gioni: Marafiki wa baya wamenisonga sana Idekeli: Mafundisho ya mwili ya\n**audio_present:** false"
+          }
+        ]
+      },
+      "notes_extraction": [
+        "`Ref:` et `Com:` sont explicites.",
+        "Le second bloc commence par `2.` dans la source.",
+        "Le contenu de la ligne finale est conservé tel quel, même s'il semble interrompu dans la source."
+      ]
+    },
+    {
+      "id": "tuwa-hudumu-habari-maalumu",
+      "source_position": 9,
+      "source_number": "33",
+      "title": "TUWA HUDUMU HABARI MAALUMU",
+      "language": "sw",
+      "status": "review",
+      "audio_present": false,
+      "content": {
+        "sections": [
+          {
+            "type": "SOURCE_BLOCK",
+            "text": "1. Tuwa hudumu habari maalumu tuliachiwa na bwana ili tuwa udumie kuvipasha viumbe habari njema (Hayawani simba na chuwi, tembo na mbwea, viura, nyoka na panzi nge na mamba, mamba na kunguru)2x."
+          },
+          {
+            "type": "REFRAIN",
+            "text": "Kwa leo tuwa batize kwa jina la baba(kwa jina la baba)tbatize kwa jina la mwana(kwa jina la mwana) tuwa batize kwa jina la roho damilifu amina."
+          },
+          {
+            "type": "SOURCE_BLOCK",
+            "text": "2. Habari njema wajoli tunayo waarifu si kwa andiko la herufi liuwalo ila yesu mwana mungu mukombozi wa watu Neno la mungu alie hai likajifanya mwili kuwaliwa mara moja na kufa mara moja kainuliwa 2x"
+          },
+          {
+            "type": "SOURCE_BLOCK",
+            "text": "Ubatizo maana yake, ubatizo ni fundisho tuliachiwa na bwana ili tuwa fundishe (Kufundisha mungu baba mumbaji, kufundisha Yesu mwana mukombozi wa watu, kufundisha naye roho katika sehemu za roho yote tatu)2x\n**audio_present:** false"
+          }
+        ]
+      },
+      "notes_extraction": [
+        "Le premier et le second blocs sont explicitement numérotés `1.` et `2.`.",
+        "Le dernier bloc n'est pas numéroté ; il reste `SOURCE_BLOCK`.",
+        "Refrain explicitement marqué `Ref:`."
+      ]
+    },
+    {
+      "id": "wakati-mungu-yoyoyo-alipo-umba",
+      "source_position": 10,
+      "source_number": "27",
+      "title": "WAKATI MUNGU YOYOYO ALIPO UMBA",
+      "language": "sw",
+      "status": "review",
+      "audio_present": false,
+      "content": {
+        "sections": [
+          {
+            "type": "SOURCE_BLOCK",
+            "text": "(Wakati mungu yoyoyo alipo umba mbingu na dunia)2x (Akaumba nuru yoyoyo akatenga nafasi mungu akaumba miti)2x"
+          },
+          {
+            "type": "REFRAIN",
+            "text": "Kweli kweli jehova mungu kanena nimepata kiumbe (kiumbe) kitakacho tukuza ukubwa wangu."
+          },
+          {
+            "type": "COMMENT",
+            "text": "- Na mwalimu kanena  \n- Mwambi wetu kanena  \n- Baba kyungu kanena"
+          },
+          {
+            "type": "SOURCE_BLOCK",
+            "text": "2. Akaumba miangaza yoyoyo akaumba nyama, mutu akuwako. Akaumba mutu yoyoyo akamubariki muzidi na kuongezeka.\n**audio_present:** false"
+          }
+        ]
+      },
+      "notes_extraction": [
+        "`Com:` explicite.",
+        "Le premier bloc ne porte pas de numéro visible.",
+        "Le second bloc porte `2.` et est conservé séparément."
+      ]
+    },
+    {
+      "id": "kwanguka-kwa-joka",
+      "source_position": 11,
+      "source_number": "11",
+      "title": "KWANGUKA KWA JOKA",
+      "language": "sw",
+      "status": "review",
+      "audio_present": false,
+      "content": {
+        "sections": [
+          {
+            "type": "SOURCE_BLOCK",
+            "text": "1. Njoni kwa yesu mimi nawe njia tuonya hatuijui juwa jioni na mwenyezi Mungu na tu mu sii njo."
+          },
+          {
+            "type": "REFRAIN",
+            "text": "(Wajoli twimbe na faraha) na furaha tutaiona (tutaiona)mioyoi ikitakaswa sana (kwake)kwake mwokozi kuonana(kuonana)na milele kukaa."
+          },
+          {
+            "type": "SOURCE_BLOCK",
+            "text": "2. Wana na wazee watwambia furahaini mukisikia (wajoli) ndie Mufalme wetu pia natumusii njo."
+          },
+          {
+            "type": "SOURCE_BLOCK",
+            "text": "3. Tumukaribie eh sisi zote Yesu Bwana utualika tumupingapo nimuoti na tumusii njo\n**audio_present:** false"
+          }
+        ]
+      },
+      "notes_extraction": [
+        "Numéros `1.`, `2.` et `3.` présents.",
+        "Refrain explicite `Ref :`.",
+        "Ce même `source_number` existe également dans d'autres fichiers sources ; aucune fusion/interprétation inter-fichiers n'est effectuée."
+      ]
+    },
+    {
+      "id": "furaha-mbinguni",
+      "source_position": 12,
+      "source_number": "12",
+      "title": "FURAHA MBINGUNI",
+      "language": "sw",
+      "status": "review",
+      "audio_present": false,
+      "content": {
+        "sections": [
+          {
+            "type": "SOURCE_BLOCK",
+            "text": "1. Fuhara mbinguni ametupwa yule joka, (ole wako duniani mchongezi ameshushwa)2x"
+          },
+          {
+            "type": "REFRAIN",
+            "text": "Twimbe wokovu kwa bwana Mungu yeye anaeketi juu ya kiti cha enzi mwana kondoo wa Mungu, juu ya kiti cha enzi mwana kondoo wa Baba."
+          },
+          {
+            "type": "SOURCE_BLOCK",
+            "text": "2. Joka kufika duniani kaharibu mambo yote harzi ku laaniwa na watu wakatabishwa. Kweli rehema yake Mungu kakumbuka israeli (Kwa neno hili la rohoni watu wakaokolewa)2x\n**audio_present:** false"
+          }
+        ]
+      },
+      "notes_extraction": [
+        "Numéros `1.` et `2.` présents.",
+        "Refrain explicitement marqué `Ref:`."
+      ]
+    }
+  ]
+}
