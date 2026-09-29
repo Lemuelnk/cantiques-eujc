@@ -1,0 +1,200 @@
+:root {
+  --bleu: #0a2540;
+  --bleu-clair: #1e3a5f;
+  --or: #d4a017;
+  --fond: #f7f8fa;
+  --texte: #1a1a1a;
+  --gris: #666;
+  --bord: #ddd;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body {
+  font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+  background: var(--fond);
+  color: var(--texte);
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Barre du haut */
+.topbar {
+  position: sticky;
+  top: 0;
+  background: var(--bleu);
+  color: #fff;
+  padding: 14px 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  z-index: 10;
+}
+
+.topbar h1 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.btn-retour {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 1.4rem;
+  cursor: pointer;
+  padding: 4px 8px;
+  line-height: 1;
+}
+
+/* Recherche */
+.barre-recherche {
+  padding: 14px 16px 8px;
+}
+
+.barre-recherche input {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid var(--bord);
+  border-radius: 10px;
+  font-size: 1rem;
+  background: #fff;
+}
+
+.barre-recherche input:focus {
+  outline: none;
+  border-color: var(--or);
+}
+
+/* Filtres */
+.filtres {
+  display: flex;
+  gap: 8px;
+  padding: 0 16px 12px;
+}
+
+.filtres select {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid var(--bord);
+  border-radius: 8px;
+  background: #fff;
+  font-size: 0.9rem;
+}
+
+/* Liste */
+.liste {
+  list-style: none;
+  padding: 0 12px 80px;
+}
+
+.liste li {
+  background: #fff;
+  margin-bottom: 8px;
+  border-radius: 10px;
+  padding: 14px 16px;
+  cursor: pointer;
+  border-left: 4px solid var(--or);
+  transition: background 0.15s;
+}
+
+.liste li:active {
+  background: #eef2f7;
+}
+
+.liste .titre {
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 4px;
+}
+
+.liste .meta {
+  font-size: 0.8rem;
+  color: var(--gris);
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.liste .badge {
+  background: var(--bleu-clair);
+  color: #fff;
+  padding: 2px 7px;
+  border-radius: 10px;
+  font-size: 0.7rem;
+}
+
+.vide {
+  text-align: center;
+  color: var(--gris);
+  padding: 40px 20px;
+}
+
+/* Fiche cantique */
+#vue-cantique {
+  padding: 16px 16px 80px;
+}
+
+#contenu-cantique h2 {
+  font-size: 1.3rem;
+  margin-bottom: 6px;
+  color: var(--bleu);
+}
+
+#contenu-cantique .meta-cantique {
+  font-size: 0.85rem;
+  color: var(--gris);
+  margin-bottom: 18px;
+}
+
+#contenu-cantique .refrain {
+  background: #fff8e6;
+  border-left: 4px solid var(--or);
+  padding: 12px 14px;
+  border-radius: 8px;
+  margin-bottom: 18px;
+  font-style: italic;
+}
+
+#contenu-cantique .refrain .label {
+  font-weight: 600;
+  font-style: normal;
+  color: var(--bleu);
+  font-size: 0.8rem;
+  margin-bottom: 6px;
+  display: block;
+}
+
+#contenu-cantique .couplet {
+  margin-bottom: 16px;
+}
+
+#contenu-cantique .couplet .num {
+  font-weight: 600;
+  color: var(--or);
+  margin-bottom: 4px;
+  font-size: 0.9rem;
+}
+
+#contenu-cantique .couplet .ligne {
+  line-height: 1.5;
+  margin-bottom: 2px;
+}
+
+#contenu-cantique .actions {
+  margin-top: 24px;
+  padding-top: 16px;
+  border-top: 1px solid var(--bord);
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+#contenu-cantique .actions button {
+  padding: 10px 16px;
+  border: 1px solid var(--bord);
+  background: #fff;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}

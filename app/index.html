@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#001a17">
+  <title>Cantiques EUJC</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="app">
+
+    <header class="app-header">
+      <div class="brand-mini">
+        <div class="brand-mark" aria-hidden="true">✦</div>
+        <span>Cantiques EUJC</span>
+      </div>
+
+      <button class="icon-button" id="btn-parametres" aria-label="Paramètres">
+        ⚙
+      </button>
+    </header>
+
+    <main class="home">
+
+      <section class="welcome">
+        <p class="eyebrow">CANTIQUES EUJC</p>
+        <h1>Bonjour <span aria-hidden="true">👋</span></h1>
+        <p class="welcome-text">
+          Que souhaitez-vous<br>
+          chanter aujourd’hui ?
+        </p>
+      </section>
+
+      <section class="search-section">
+        <label class="search-box" for="recherche">
+          <span class="search-icon" aria-hidden="true">⌕</span>
+          <input
+            id="recherche"
+            type="search"
+            placeholder="Rechercher un cantique…"
+            autocomplete="off"
+          >
+        </label>
+      </section>
+
+      <section class="quick-section">
+        <div class="section-heading">
+          <h2>Accès rapides</h2>
+        </div>
+
+        <div class="quick-grid">
+
+          <button class="quick-card quick-card-green" data-action="lecons">
+            <span class="quick-icon">▣</span>
+            <span>
+              <strong>Leçons</strong>
+              <small>du Chemin</small>
+            </span>
+            <span class="quick-arrow">›</span>
+          </button>
+
+          <button class="quick-card quick-card-gold" data-action="dimanche">
+            <span class="quick-icon">▣</span>
+            <span>
+              <strong>Cantiques</strong>
+              <small>du Dimanche</small>
+            </span>
+            <span class="quick-arrow">›</span>
+          </button>
+
+          <button class="quick-card quick-card-wide" data-action="priere">
+            <span class="quick-icon">♨</span>
+            <span>
+              <strong>Cantiques de prière</strong>
+            </span>
+            <span class="quick-arrow">›</span>
+          </button>
+
+        </div>
+      </section>
+
+      <section class="recent-section">
+        <div class="section-heading section-heading-row">
+          <h2>Récemment consultés</h2>
+          <button id="voir-tout" class="text-button">Voir tout</button>
+        </div>
+
+        <div id="recents" class="recent-list"></div>
+      </section>
+
+    </main>
+
+    <nav class="bottom-nav" aria-label="Navigation principale">
+
+      <button class="nav-item active" data-nav="accueil">
+        <span class="nav-icon">⌂</span>
+        <span>Accueil</span>
+      </button>
+
+      <button class="nav-item" data-nav="recherche">
+        <span class="nav-icon">⌕</span>
+        <span>Recherche</span>
+      </button>
+
+      <button class="nav-item" data-nav="bibliotheque">
+        <span class="nav-icon">▣</span>
+        <span>Bibliothèque</span>
+      </button>
+
+      <button class="nav-item" data-nav="plus">
+        <span class="nav-icon">•••</span>
+        <span>Plus</span>
+      </button>
+
+    </nav>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

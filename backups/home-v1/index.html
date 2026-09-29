@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0a2540">
+  <title>Cantiques EUJC</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="topbar">
+    <button id="btn-retour" class="btn-retour" hidden>←</button>
+    <h1 id="titre-app">Cantiques EUJC</h1>
+  </header>
+
+  <main id="vue-liste">
+    <div class="barre-recherche">
+      <input id="recherche" type="search" placeholder="Rechercher un cantique…" autocomplete="off">
+    </div>
+
+    <div class="filtres">
+      <select id="filtre-type">
+        <option value="">Tous les types</option>
+        <option value="louange">Louange</option>
+        <option value="priere">Prière</option>
+      </select>
+      <select id="filtre-lecon">
+        <option value="">Toutes les leçons</option>
+        <option value="creation">Création</option>
+        <option value="noe">Noé</option>
+        <option value="abraham">Abraham</option>
+      </select>
+    </div>
+
+    <ul id="liste-cantiques" class="liste"></ul>
+
+    <p id="liste-vide" class="vide" hidden>Aucun cantique trouvé.</p>
+  </main>
+
+  <main id="vue-cantique" hidden>
+    <article id="contenu-cantique"></article>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
