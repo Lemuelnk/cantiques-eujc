@@ -10,8 +10,8 @@
   "source": {
     "file": "chants_de_la_creation.html",
     "extraction_file": "extraction_lecon_1_creation.md",
-    "language": "sw",
-    "language_status": "validated_by_user"
+    "language": null,
+    "language_status": "uncertain"
   },
   "extraction_status": "review",
   "rules": {
@@ -26,7 +26,6 @@
       "source_position": 1,
       "source_number": "25",
       "title": "APO MWANZO",
-      "language": "sw",
       "status": "review",
       "audio_present": true,
       "content": {
@@ -49,7 +48,7 @@
           },
           {
             "type": "COMMENT",
-            "text": "Baba twakushukuru iyawe yoyo mungu wa wenye uhai  \n- Uliumba dunia  \n- Kweli sita kuacha\n**audio_present:** true"
+            "text": "Baba twakushukuru iyawe yoyo mungu wa wenye uhai  \n- Uliumba dunia  \n- Kweli sita kuacha"
           }
         ]
       },
@@ -65,7 +64,6 @@
       "source_position": 2,
       "source_number": "30",
       "title": "BWANA MUNGU EH MUMBAJI WANGU",
-      "language": "sw",
       "status": "review",
       "audio_present": false,
       "content": {
@@ -88,7 +86,7 @@
           },
           {
             "type": "SOURCE_BLOCK",
-            "text": "Umu shambani bwana ka watilia sheria ule viote unavio viona mbele yako eh ila wakujuwa uzuri na ubaya wewe mutu wangu usile. Ukosefu wa watu wakakufuru yoyoyo watu wakufuru mungu wao.\n**audio_present:** false"
+            "text": "Umu shambani bwana ka watilia sheria ule viote unavio viona mbele yako eh ila wakujuwa uzuri na ubaya wewe mutu wangu usile. Ukosefu wa watu wakakufuru yoyoyo watu wakufuru mungu wao."
           }
         ]
       },
@@ -103,7 +101,6 @@
       "source_position": 3,
       "source_number": "34",
       "title": "NITAZAMAPO HUDUMA ULIOFANYA MUNGU",
-      "language": "sw",
       "status": "review",
       "audio_present": false,
       "content": {
@@ -126,7 +123,7 @@
           },
           {
             "type": "SOURCE_BLOCK",
-            "text": "ukiapa kwa mungu wako usisite kamwe timiza naziri yako (kweli yeye) yeye a furahi juu ya wajinga urejee kamwe timiza haadi yako.\n**audio_present:** false"
+            "text": "ukiapa kwa mungu wako usisite kamwe timiza naziri yako (kweli yeye) yeye a furahi juu ya wajinga urejee kamwe timiza haadi yako."
           }
         ]
       },
@@ -140,8 +137,7 @@
       "id": "anasa-za-dunia",
       "source_position": 4,
       "source_number": "32",
-      "title": "ANASA ZA DUNIA",
-      "language": "sw",
+      "title": "ANASA WA DUNIA",
       "status": "review",
       "audio_present": false,
       "content": {
@@ -156,7 +152,7 @@
           },
           {
             "type": "SOURCE_BLOCK",
-            "text": "(Roho ulinena ya kwamba maji na maji ya tengane maji ya juu na maji ya chini)2x (Katikati ukaita nafasi, nafasi ukaita mbinguni)2x Oh oh roho wa baba nafasi ukaita mbinguni.\n**audio_present:** false"
+            "text": "(Roho ulinena ya kwamba maji na maji ya tengane maji ya juu na maji ya chini)2x (Katikati ukaita nafasi, nafasi ukaita mbinguni)2x Oh oh roho wa baba nafasi ukaita mbinguni."
           }
         ]
       },
@@ -170,7 +166,6 @@
       "source_position": 5,
       "source_number": "29",
       "title": "MUNGU ALIANZA KAZI",
-      "language": "sw",
       "status": "review",
       "audio_present": false,
       "content": {
@@ -185,7 +180,7 @@
           },
           {
             "type": "SOURCE_BLOCK",
-            "text": "2. Uli nibatiza wewe mumbaji wa mbingu (Jina imebadirika kwajili ya kazi iyo)2x  \n- Ulikuwa nyama leo unaitwa mutu, jina imebadirika kwajili ya kazi iyo  \n- Ulikuwa simba jina imebadirika kwajili ya kazi iyo\n**audio_present:** false"
+            "text": "2. Uli nibatiza wewe mumbaji wa mbingu (Jina imebadirika kwajili ya kazi iyo)2x  \n- Ulikuwa nyama leo unaitwa mutu, jina imebadirika kwajili ya kazi iyo  \n- Ulikuwa simba jina imebadirika kwajili ya kazi iyo"
           }
         ]
       },
@@ -200,7 +195,6 @@
       "source_position": 6,
       "source_number": "26",
       "title": "ALIPO ANZA MUNGU HUDUMA",
-      "language": "sw",
       "status": "review",
       "audio_present": false,
       "content": {
@@ -215,7 +209,7 @@
           },
           {
             "type": "SOURCE_BLOCK",
-            "text": "Mungu kanyosha mukono wake kondoa maji duniani (Inchi ikabakia kavu na giza yote ikatoweka)2x  \nDunia wewe dunia, kwakuwa usibaki dunia wewe ugeuze mulima upate wokovu wa milele.\n**audio_present:** false"
+            "text": "Mungu kanyosha mukono wake kondoa maji duniani (Inchi ikabakia kavu na giza yote ikatoweka)2x  \nDunia wewe dunia, kwakuwa usibaki dunia wewe ugeuze mulima upate wokovu wa milele."
           }
         ]
       },
@@ -229,7 +223,6 @@
       "source_position": 7,
       "source_number": "31",
       "title": "HUDUMA ZILIANZA KATIKA MBINGU",
-      "language": "sw",
       "status": "review",
       "audio_present": false,
       "content": {
@@ -248,7 +241,7 @@
           },
           {
             "type": "SOURCE_BLOCK",
-            "text": "3. Kasirani yake mungu kalaani muke Adamu kwa utkufu wake eh mimi sitaki shuurliza duniani ni pate uzima.\n**audio_present:** false"
+            "text": "3. Kasirani yake mungu kalaani muke Adamu kwa utkufu wake eh mimi sitaki shuurliza duniani ni pate uzima."
           }
         ]
       },
@@ -263,7 +256,6 @@
       "source_position": 8,
       "source_number": "28",
       "title": "TWAKUSHUKURU EH MUNGU WANGU",
-      "language": "sw",
       "status": "review",
       "audio_present": false,
       "content": {
@@ -282,7 +274,7 @@
           },
           {
             "type": "SOURCE_BLOCK",
-            "text": "2. (Nimesongwa sana mungu wangu na madui awa)2x (madui gani) Pisoni: sheria a jamaa ya menisonga sana Gioni: Marafiki wa baya wamenisonga sana Idekeli: Mafundisho ya mwili ya\n**audio_present:** false"
+            "text": "2. (Nimesongwa sana mungu wangu na madui awa)2x (madui gani) Pisoni: sheria a jamaa ya menisonga sana Gioni: Marafiki wa baya wamenisonga sana Idekeli: Mafundisho ya mwili ya"
           }
         ]
       },
@@ -297,7 +289,6 @@
       "source_position": 9,
       "source_number": "33",
       "title": "TUWA HUDUMU HABARI MAALUMU",
-      "language": "sw",
       "status": "review",
       "audio_present": false,
       "content": {
@@ -316,7 +307,7 @@
           },
           {
             "type": "SOURCE_BLOCK",
-            "text": "Ubatizo maana yake, ubatizo ni fundisho tuliachiwa na bwana ili tuwa fundishe (Kufundisha mungu baba mumbaji, kufundisha Yesu mwana mukombozi wa watu, kufundisha naye roho katika sehemu za roho yote tatu)2x\n**audio_present:** false"
+            "text": "Ubatizo maana yake, ubatizo ni fundisho tuliachiwa na bwana ili tuwa fundishe (Kufundisha mungu baba mumbaji, kufundisha Yesu mwana mukombozi wa watu, kufundisha naye roho katika sehemu za roho yote tatu)2x"
           }
         ]
       },
@@ -331,7 +322,6 @@
       "source_position": 10,
       "source_number": "27",
       "title": "WAKATI MUNGU YOYOYO ALIPO UMBA",
-      "language": "sw",
       "status": "review",
       "audio_present": false,
       "content": {
@@ -350,7 +340,7 @@
           },
           {
             "type": "SOURCE_BLOCK",
-            "text": "2. Akaumba miangaza yoyoyo akaumba nyama, mutu akuwako. Akaumba mutu yoyoyo akamubariki muzidi na kuongezeka.\n**audio_present:** false"
+            "text": "2. Akaumba miangaza yoyoyo akaumba nyama, mutu akuwako. Akaumba mutu yoyoyo akamubariki muzidi na kuongezeka."
           }
         ]
       },
@@ -365,7 +355,6 @@
       "source_position": 11,
       "source_number": "11",
       "title": "KWANGUKA KWA JOKA",
-      "language": "sw",
       "status": "review",
       "audio_present": false,
       "content": {
@@ -384,7 +373,7 @@
           },
           {
             "type": "SOURCE_BLOCK",
-            "text": "3. Tumukaribie eh sisi zote Yesu Bwana utualika tumupingapo nimuoti na tumusii njo\n**audio_present:** false"
+            "text": "3. Tumukaribie eh sisi zote Yesu Bwana utualika tumupingapo nimuoti na tumusii njo"
           }
         ]
       },
@@ -399,7 +388,6 @@
       "source_position": 12,
       "source_number": "12",
       "title": "FURAHA MBINGUNI",
-      "language": "sw",
       "status": "review",
       "audio_present": false,
       "content": {
@@ -414,7 +402,7 @@
           },
           {
             "type": "SOURCE_BLOCK",
-            "text": "2. Joka kufika duniani kaharibu mambo yote harzi ku laaniwa na watu wakatabishwa. Kweli rehema yake Mungu kakumbuka israeli (Kwa neno hili la rohoni watu wakaokolewa)2x\n**audio_present:** false"
+            "text": "2. Joka kufika duniani kaharibu mambo yote harzi ku laaniwa na watu wakatabishwa. Kweli rehema yake Mungu kakumbuka israeli (Kwa neno hili la rohoni watu wakaokolewa)2x"
           }
         ]
       },
