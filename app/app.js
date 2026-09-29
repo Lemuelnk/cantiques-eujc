@@ -97,12 +97,18 @@ function afficherRecents() {
       '<span class="recent-title">' +
       echapper(titre(cantique, index)) +
       '</span>' +
-      '<span class="recent-arrow">›</span>';
+      '<span class="recent-arrow" aria-hidden="true"><i data-lucide="chevron-right"></i></span>';
 
     button.addEventListener('click', () => ouvrirCantique(cantique.id));
 
     $recents.appendChild(button);
   });
+
+  // Les récents sont générés dynamiquement après le chargement initial.
+  // On demande donc à Lucide de convertir aussi leurs icônes.
+  if (window.lucide) {
+    lucide.createIcons();
+  }
 }
 
 function enregistrerRecent(id) {
