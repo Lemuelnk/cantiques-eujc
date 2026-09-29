@@ -15,12 +15,12 @@
   "hymns": [
     {
       "schema_version": "1.0",
-      "id": "apo-mwanzo",
+      "id": "1b68b768-3075-4141-a29b-05ccc830ae40",
       "title": "APO MWANZO",
       "status": "review",
       "versions": [
         {
-          "id": "apo-mwanzo-v1",
+          "id": "b8eb4a57-7d37-484f-ad86-fa662d042b4f",
           "language": {
             "code": null,
             "label": null,
@@ -83,12 +83,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "bwana-mungu-eh-mumbaji-wangu",
+      "id": "1e2e9f96-cf80-4634-87cd-57b065d2ebbf",
       "title": "BWANA MUNGU EH MUMBAJI WANGU",
       "status": "review",
       "versions": [
         {
-          "id": "bwana-mungu-eh-mumbaji-wangu-v1",
+          "id": "5342ec6c-df41-45f3-be6f-2512cda0f228",
           "language": {
             "code": null,
             "label": null,
@@ -153,12 +153,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "nitazamapo-huduma-uliofanya-mungu",
+      "id": "cc83ce03-99fb-4c0a-9dda-10daae056a83",
       "title": "NITAZAMAPO HUDUMA ULIOFANYA MUNGU",
       "status": "review",
       "versions": [
         {
-          "id": "nitazamapo-huduma-uliofanya-mungu-v1",
+          "id": "063c0780-9c84-45f2-b31b-c8b79496242e",
           "language": {
             "code": null,
             "label": null,
@@ -219,12 +219,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "anasa-za-dunia",
+      "id": "3c650e65-7dd0-4432-80d9-9fcbbc1ab39d",
       "title": "ANASA WA DUNIA",
       "status": "review",
       "versions": [
         {
-          "id": "anasa-za-dunia-v1",
+          "id": "4e436c8e-45f7-4060-bda2-eb9f6d66539d",
           "language": {
             "code": null,
             "label": null,
@@ -272,12 +272,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "mungu-alianza-kazi",
+      "id": "3220d5f5-702a-437f-8ad6-54a810e73b07",
       "title": "MUNGU ALIANZA KAZI",
       "status": "review",
       "versions": [
         {
-          "id": "mungu-alianza-kazi-v1",
+          "id": "bb417759-d707-48f3-a427-4d02bcd630d5",
           "language": {
             "code": null,
             "label": null,
@@ -329,12 +329,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "alipo-anza-mungu-huduma",
+      "id": "33934ead-d247-47ad-ac19-7dffa39a68ea",
       "title": "ALIPO ANZA MUNGU HUDUMA",
       "status": "review",
       "versions": [
         {
-          "id": "alipo-anza-mungu-huduma-v1",
+          "id": "6e385de5-fc9b-487a-84f8-2fe87e7fa91d",
           "language": {
             "code": null,
             "label": null,
@@ -383,12 +383,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "huduma-zilianza-katika-mbingu",
+      "id": "52623e74-ac88-43d9-ac01-4423bc310412",
       "title": "HUDUMA ZILIANZA KATIKA MBINGU",
       "status": "review",
       "versions": [
         {
-          "id": "huduma-zilianza-katika-mbingu-v1",
+          "id": "2902a671-53f8-42a3-ae66-38e4c908c3fc",
           "language": {
             "code": null,
             "label": null,
@@ -448,12 +448,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "twakushukuru-eh-mungu-wangu",
+      "id": "73f1bdde-b2e0-4959-a1e4-1d0fcea920ce",
       "title": "TWAKUSHUKURU EH MUNGU WANGU",
       "status": "review",
       "versions": [
         {
-          "id": "twakushukuru-eh-mungu-wangu-v1",
+          "id": "f1471986-a84b-4226-a153-4a99a8225cfa",
           "language": {
             "code": null,
             "label": null,
@@ -509,12 +509,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tuwa-hudumu-habari-maalumu",
+      "id": "bf5ae4e8-4a7f-41d5-8086-40192dafe258",
       "title": "TUWA HUDUMU HABARI MAALUMU",
       "status": "review",
       "versions": [
         {
-          "id": "tuwa-hudumu-habari-maalumu-v1",
+          "id": "7658bc20-32c4-4b22-b896-1c7417a8b429",
           "language": {
             "code": null,
             "label": null,
@@ -568,12 +568,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "wakati-mungu-yoyoyo-alipo-umba",
+      "id": "e5cd49a8-830b-42f7-9157-5dc946e28bd1",
       "title": "WAKATI MUNGU YOYOYO ALIPO UMBA",
       "status": "review",
       "versions": [
         {
-          "id": "wakati-mungu-yoyoyo-alipo-umba-v1",
+          "id": "1d1bce6c-2b00-4f7a-b799-42ecc7080903",
           "language": {
             "code": null,
             "label": null,
@@ -629,12 +629,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "kwanguka-kwa-joka",
+      "id": "e9f09699-dbc5-4d7f-a460-d3e12421e0e5",
       "title": "KWANGUKA KWA JOKA",
       "status": "review",
       "versions": [
         {
-          "id": "kwanguka-kwa-joka-v1",
+          "id": "9566ceb9-ad21-42b6-bd9f-d69596c1bd9f",
           "language": {
             "code": null,
             "label": null,
@@ -688,12 +688,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "furaha-mbinguni",
+      "id": "abc5db07-fe6e-46ab-8d62-3c8f25849c66",
       "title": "FURAHA MBINGUNI",
       "status": "review",
       "versions": [
         {
-          "id": "furaha-mbinguni-v1",
+          "id": "891c01db-1709-4fa4-bc01-6b07e202601f",
           "language": {
             "code": null,
             "label": null,
