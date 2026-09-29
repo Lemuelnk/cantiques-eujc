@@ -39,6 +39,10 @@ document.addEventListener('DOMContentLoaded', () => {
         const name =
           row.querySelector('.lesson-name')?.textContent.trim();
 
+        if (row.getAttribute('href') && row.getAttribute('href') !== '#') {
+          return;
+        }
+
         if (name) {
           alert(
             `${number} — ${name}\n\n` +
