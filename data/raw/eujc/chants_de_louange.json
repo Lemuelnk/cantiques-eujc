@@ -1,0 +1,1011 @@
+{
+  "schema_version": 3,
+  "source": {
+    "type": "website",
+    "site": "EUJC",
+    "source_file": "resources/site/chants_de_louange.html"
+  },
+  "records": [
+    {
+      "source_position": 1,
+      "source_reference": {
+        "number": "176"
+      },
+      "title": {
+        "raw": "TWAKUSHUKURU"
+      },
+      "content": [
+        {
+          "type": "verse",
+          "number": 1,
+          "lines": [
+            "Twakushukuru (3x) bwana twakushukuru watu wote walio pinga"
+          ]
+        },
+        {
+          "type": "refrain",
+          "lines": [
+            "njoni wote muone (2x) (njoni wote muone) Roho amekuja (2x) roho wa kweli, roho wa baba, roho ameshuka, wajoli njoni wote muone."
+          ],
+          "comment": []
+        },
+        {
+          "type": "verse",
+          "number": 2,
+          "lines": [
+            "Watu wote, watu wote waishio duniani Jehova Mungu unawa rehemu, watu wote njoni mufwate neno la Mungu alie hai Roho atakuja."
+          ]
+        },
+        {
+          "type": "verse",
+          "number": 3,
+          "lines": [
+            "Roho wa kweli ambao ulimwengu auwezi kumupokeya roho mwema ataakikisha maneno haya matatu"
+          ]
+        }
+      ],
+      "media": {
+        "audio_present": true
+      },
+      "taxonomy": {
+        "category": {
+          "source_label": "Cantiques du culte de Dimanche"
+        },
+        "subcategory": {
+          "source_label": "Cantiques de Lounange"
+        }
+      }
+    },
+    {
+      "source_position": 2,
+      "source_reference": {
+        "number": "177"
+      },
+      "title": {
+        "raw": "TUSHUKURU MUNGU"
+      },
+      "content": [
+        {
+          "type": "verse",
+          "number": 1,
+          "lines": [
+            "Bwana mungu, katupenda kamutoa mwana wake yesu wa mungu akaja kwa kuniokowa mimi mimi huyu nashukuru mungu wangu kwa kuwa ni mwema"
+          ]
+        },
+        {
+          "type": "refrain",
+          "lines": [
+            "Tushukuru mungu, kwa kuwa ni mwema, tushukuru mungu kwa kuwa ni mwema"
+          ],
+          "comment": []
+        },
+        {
+          "type": "verse",
+          "number": 2,
+          "lines": [
+            "Bwana mungu katupenda kamutoa roho wake, roho wa mungu akaja kwa ku nifariji mimi roho wa",
+            "Mungu akaja kwa ku nifariji mimi, mimi huyu na shukuru mungu wangu kwa kuwa yeye ni mwema."
+          ]
+        }
+      ],
+      "media": {
+        "audio_present": false
+      },
+      "taxonomy": {
+        "category": {
+          "source_label": "Cantiques du culte de Dimanche"
+        },
+        "subcategory": {
+          "source_label": "Cantiques de Lounange"
+        }
+      }
+    },
+    {
+      "source_position": 3,
+      "source_reference": {
+        "number": "178"
+      },
+      "title": {
+        "raw": "NJONI WOTE MUONE"
+      },
+      "content": [
+        {
+          "type": "verse",
+          "number": 1,
+          "lines": [
+            "Njoni wote muone, njoni wote muone ginsi nuru iangazavio ¨2x"
+          ]
+        },
+        {
+          "type": "refrain",
+          "lines": [
+            "Ah Mungu wangu yuko, nione njia ya uzima uje unishike mukononi rafiki yangu usinyache kamwe"
+          ],
+          "comment": []
+        },
+        {
+          "type": "verse",
+          "number": 2,
+          "lines": [
+            "Ah yesu wangu yuko nione njia ya uzima uje unishike mukononi rafiki yangu usiniache kamwe"
+          ]
+        },
+        {
+          "type": "verse",
+          "number": 3,
+          "lines": [
+            "Ah roho mwema yuko ¨Nani asie ona, nani asie ona ginsi nuru iangazavio Nishangwe kubwa leo, ni shangwe kubwa leo ginsi nuru iangazavio."
+          ]
+        }
+      ],
+      "media": {
+        "audio_present": false
+      },
+      "taxonomy": {
+        "category": {
+          "source_label": "Cantiques du culte de Dimanche"
+        },
+        "subcategory": {
+          "source_label": "Cantiques de Lounange"
+        }
+      }
+    },
+    {
+      "source_position": 4,
+      "source_reference": {
+        "number": "179"
+      },
+      "title": {
+        "raw": "NJONI TWIMBE NA FURAHA"
+      },
+      "content": [
+        {
+          "type": "verse",
+          "number": 1,
+          "lines": [
+            "Njoni twimbe na furaha , na furaha njia imefunguliwa ya mbinguni kwa walisitiriwa bwana utuonyeshe."
+          ]
+        },
+        {
+          "type": "refrain",
+          "lines": [
+            "Mfalme twakushukuru, twakushukuru , bwana twakushukuru jehova, Baba mungu alimutoa mwana wake yesu kristu aokowe watu."
+          ],
+          "comment": []
+        },
+        {
+          "type": "verse",
+          "number": 2,
+          "lines": [
+            "Shetani ulipinga, neno lake mwokozi (kweli, kweli) yeye ni adui zetu, hutaka utwangamiza. Shida, shida ni nyingi sana, nyingi sana mashindano ni mengi, aleluya (kweli kweli) bwana utufariji katika mahasi zote"
+          ]
+        }
+      ],
+      "media": {
+        "audio_present": false
+      },
+      "taxonomy": {
+        "category": {
+          "source_label": "Cantiques du culte de Dimanche"
+        },
+        "subcategory": {
+          "source_label": "Cantiques de Lounange"
+        }
+      }
+    },
+    {
+      "source_position": 5,
+      "source_reference": {
+        "number": "180"
+      },
+      "title": {
+        "raw": "TWASIMAMA MALANGONI"
+      },
+      "content": [
+        {
+          "type": "verse",
+          "number": 1,
+          "lines": [
+            "Twasimama malangoni pamoja na malaika zake. Tukimwimbia yoyoyo tukimwimbia Bwana (2x)"
+          ]
+        },
+        {
+          "type": "refrain",
+          "lines": [
+            "Aleluya, aleluya (2x) yoyoyo",
+            "- aleluya Mungu Mufalme,",
+            "- aleluya Mwana wa Mungu,",
+            "- aleluya Roho Mwema wajoli twimbieni Bwana."
+          ],
+          "comment": []
+        },
+        {
+          "type": "verse",
+          "number": 2,
+          "lines": [
+            "Twaimba, twaimbia Mungu Baba, twaimbia sisi twaimbia Mungu Mufalme, wateule wa Mungu wa uzima twaimbia",
+            "Mungu Mufalme, twaimbia Yesu Mwana, twaimbia Roho Mwema"
+          ]
+        }
+      ],
+      "media": {
+        "audio_present": true
+      },
+      "taxonomy": {
+        "category": {
+          "source_label": "Cantiques du culte de Dimanche"
+        },
+        "subcategory": {
+          "source_label": "Cantiques de Lounange"
+        }
+      }
+    },
+    {
+      "source_position": 6,
+      "source_reference": {
+        "number": "181"
+      },
+      "title": {
+        "raw": "NDUGU ZETU WAPENZI"
+      },
+      "content": [
+        {
+          "type": "verse",
+          "number": 1,
+          "lines": [
+            "Ndugu zetu wapenzi njoni, njoni muone, kwaleo Kwa leo ni siku ya kuketi ku mawingu"
+          ],
+          "comment": [
+            "Ku mawingu kwa baba"
+          ]
+        },
+        {
+          "type": "verse",
+          "number": 2,
+          "lines": [
+            "Kwa kupata hadi ni roho wa mufalume,",
+            "kwa leo Kwa leo ni siku ya kuketi ku ma wingu"
+          ]
+        },
+        {
+          "type": "verse",
+          "number": 3,
+          "lines": [
+            "Pokeeni upendo mukiwaonesha watu ¨Kwa leo¨kwa leo ni siku ya kuketi ku mawingu ¨2x"
+          ]
+        },
+        {
+          "type": "verse",
+          "number": 4,
+          "lines": [
+            "Acheni ulozi kwa kupata hadi, ¨Kwa leo ¨kwa leo ni siku ya kuketi ka mawingu."
+          ]
+        },
+        {
+          "type": "verse",
+          "number": 5,
+          "lines": [
+            "Duniani mupo uwovu eh mimi sitaketi duniani kwa leo, kwa leo ni siku ya kuketi ku mawingu."
+          ]
+        },
+        {
+          "type": "verse",
+          "number": 6,
+          "lines": [
+            "Nitaenda kuketi mimi na roho ya mufalume kwa leo, kwaleo ni siku ya kuketi ku mawingu."
+          ]
+        }
+      ],
+      "media": {
+        "audio_present": false
+      },
+      "taxonomy": {
+        "category": {
+          "source_label": "Cantiques du culte de Dimanche"
+        },
+        "subcategory": {
+          "source_label": "Cantiques de Lounange"
+        }
+      }
+    },
+    {
+      "source_position": 7,
+      "source_reference": {
+        "number": "182"
+      },
+      "title": {
+        "raw": "SHANGILIENI WOTE"
+      },
+      "content": [
+        {
+          "type": "verse",
+          "number": 1,
+          "lines": [
+            "Shangilieni wote ufalme wa Mungu: shangilieni wote mumbaji wa watu, baba katuma mwana ilitushangilie mungu wetu ¨2x aa ah Mungu wangu iyo iyo yowe tu mushangilie Mungu wetu, aa! iyoyo iyowe tumushangilie mara tatu."
+          ]
+        },
+        {
+          "type": "verse",
+          "number": 2,
+          "lines": [
+            "Malaika wa saba musii Mungu mumushangilie Mungu wetu, Malaika za mbinguni musihi Mungu tumushangilie Mungu wetu watu wote wa duniani tumsii Mungu tumushangilie mungu wetu ah ! ah Mungu iyo iyowe tumushangilie Mungu wetu Ah! ah mara tatu."
+          ]
+        }
+      ],
+      "media": {
+        "audio_present": false
+      },
+      "taxonomy": {
+        "category": {
+          "source_label": "Cantiques du culte de Dimanche"
+        },
+        "subcategory": {
+          "source_label": "Cantiques de Lounange"
+        }
+      }
+    },
+    {
+      "source_position": 8,
+      "source_reference": {
+        "number": "183"
+      },
+      "title": {
+        "raw": "WAJOLI WETU PIA NA WA MALAIKA"
+      },
+      "content": [
+        {
+          "type": "verse",
+          "number": 1,
+          "lines": [
+            "Wajoli wetu pia na wa malaika twimbieni shangwe aleluya shangwe aleluya mbinguni pia na dunia."
+          ]
+        },
+        {
+          "type": "refrain",
+          "lines": [
+            "Shangwe, shangwe yowe twimbeni shangwe yowe ¨2x",
+            "- Shangwe ya mufalme kitini pa Jehova Mungu",
+            "Shangwe ya mufalme mezani pa yesu bwana (mwana )",
+            "- Shangwe ya mufalme yowe mufariji wa watu roho. Jehova Mungu tunawe wana waomba roho mufariji, Mufariji wa watu roho mufariji waw ana roho"
+          ],
+          "comment": []
+        }
+      ],
+      "media": {
+        "audio_present": false
+      },
+      "taxonomy": {
+        "category": {
+          "source_label": "Cantiques du culte de Dimanche"
+        },
+        "subcategory": {
+          "source_label": "Cantiques de Lounange"
+        }
+      }
+    },
+    {
+      "source_position": 9,
+      "source_reference": {
+        "number": "184"
+      },
+      "title": {
+        "raw": "SHANGWE SHANGWE"
+      },
+      "content": [
+        {
+          "type": "refrain",
+          "lines": [
+            "Shangwe, shangwe, shangwe yoyoyo amani chini safiri wone mambo.",
+            "Kanisa hili si lako si langu safiri uone mambo. Wazee walinena uwatafuna eh kunde ni miongoni mwetu. Ufahamu nzenze kinumbi kia wimbaji safiri uone mambo"
+          ],
+          "comment": []
+        }
+      ],
+      "media": {
+        "audio_present": false
+      },
+      "taxonomy": {
+        "category": {
+          "source_label": "Cantiques du culte de Dimanche"
+        },
+        "subcategory": {
+          "source_label": "Cantiques de Lounange"
+        }
+      }
+    },
+    {
+      "source_position": 10,
+      "source_reference": {
+        "number": "185"
+      },
+      "title": {
+        "raw": "KWA KWENDA MBINGUNI EH"
+      },
+      "content": [
+        {
+          "type": "verse",
+          "number": 1,
+          "lines": [
+            "kwenda mbinguni mbinguni eh kupitia kwake yesu yoyowe (Kwa kwenda mbinguni kupitia kwake yesu)2x (yesu ndie mulango ya kwingia mbinguni)2x"
+          ]
+        },
+        {
+          "type": "refrain",
+          "lines": [
+            "(Fahari na iwe)2x fahari na iwe kwake, Bwana Mungu wa mbingu Mungu wa mbingu amenipa nguvu kwa mimi kushinda dunia kweli fahari na iwe kwake bwana mungu wa",
+            "uweza, Mungu wa uweza amenipa uweza kwa mimi kushinda dunia. Fahari na iwe kwake Bwana Mungu wa amri, Mungu wa amri amenipa amri kwa mimi kuhukumu shetani."
+          ],
+          "comment": []
+        },
+        {
+          "type": "verse",
+          "number": 2,
+          "lines": [
+            "Baba yangu na mama yangu, ndugu zangu na watoto wangu (musinikoseshe kwa mimi kwingia mbinguni)2x (mbingu humo muko fahari na salama mbinguni)2x"
+          ]
+        }
+      ],
+      "media": {
+        "audio_present": false
+      },
+      "taxonomy": {
+        "category": {
+          "source_label": "Cantiques du culte de Dimanche"
+        },
+        "subcategory": {
+          "source_label": "Cantiques de Lounange"
+        }
+      }
+    },
+    {
+      "source_position": 11,
+      "source_reference": {
+        "number": "186"
+      },
+      "title": {
+        "raw": "HUU NI MUHULA MWEMA"
+      },
+      "content": [
+        {
+          "type": "verse",
+          "number": 1,
+          "lines": [
+            "Huu ni muhula mwema kumuhimidi alie (alie hai) fahari na iwe kwake bwana mungu wa mbingu (bwana mungu wa mbingu )"
+          ]
+        },
+        {
+          "type": "refrain",
+          "lines": [
+            "Aleluya ¨3x (aleluya) aleluya ozana alie alie hai fahari na iwe kwake Bwana Mungu wa mbingu (Mungu mumbaji) Mbingu na dunia yote sikizeni eh, sikizeni eh alie alie hai",
+            "fahari na iwe kwake bwana Mungu wa mbingu (Enyi waminifu wote)"
+          ],
+          "comment": []
+        }
+      ],
+      "media": {
+        "audio_present": false
+      },
+      "taxonomy": {
+        "category": {
+          "source_label": "Cantiques du culte de Dimanche"
+        },
+        "subcategory": {
+          "source_label": "Cantiques de Lounange"
+        }
+      }
+    },
+    {
+      "source_position": 12,
+      "source_reference": {
+        "number": "187"
+      },
+      "title": {
+        "raw": "KULIKUWA MZEE MOJA"
+      },
+      "content": [
+        {
+          "type": "verse",
+          "number": 1,
+          "lines": [
+            "Kulikuwa mzee moja jina simeoni alikuwa mutu mwenye miaka mingi sana alimuomba mungu kwa kumuona mwokozi macho yake yaona yesu Ah ah"
+          ]
+        },
+        {
+          "type": "refrain",
+          "lines": [
+            "Sime, oni ali lalamika sana, alimulilia Mungu yoyoyo unichungie roho yangu, unichungie roho Baba yangu unichungie roho yangu yoyoyo unichungie roho mupaka siku nita muona",
+            "mwana wa mungu yoyoyo unichungie roho."
+          ],
+          "comment": []
+        },
+        {
+          "type": "verse",
+          "number": 2,
+          "lines": [
+            "Simeoni alibeba yesu mikononi naye alimushukuru baba wa mbinguni aleluya furaha jua ya nyangazia macho yangu yaona yesu."
+          ]
+        }
+      ],
+      "media": {
+        "audio_present": true
+      },
+      "taxonomy": {
+        "category": {
+          "source_label": "Cantiques du culte de Dimanche"
+        },
+        "subcategory": {
+          "source_label": "Cantiques de Lounange"
+        }
+      }
+    },
+    {
+      "source_position": 13,
+      "source_reference": {
+        "number": "188"
+      },
+      "title": {
+        "raw": "ENYI NDUGU ZETU"
+      },
+      "content": [
+        {
+          "type": "verse",
+          "number": 1,
+          "lines": [
+            "Enyi ndugu zetu wakati umetimia eee «kwajili ya hadi ya mungu haadi ya roho mwema"
+          ]
+        },
+        {
+          "type": "refrain",
+          "lines": [
+            "Twimbeni tufurahiwe, tumutukuze mufalme twimbeni tufurahiwe kwa jina la mufalme (kweli) sitabaki mimi taenda mufuraha mbinguni;",
+            "jehova mungu ée sita baki (mimi) taenda mufuraha mbinguni, mbinguni kwa shangwe taenda mufuraha mbinguni"
+          ],
+          "comment": []
+        },
+        {
+          "type": "verse",
+          "number": 2,
+          "lines": [
+            "Yesu wa mungu kawambia wafwasi wake hivi musitoke mu yerusalema, yerusalema chungeni haadi. Mambo yote ya duniani amuna uzima ndani yake tu lifwata na kwifanya kwifanya",
+            "eh muko paka kifo."
+          ],
+          "comment": [
+            "-",
+            "Acha chuki tuji kabize kuko jehova mufalme sitabaki kwa mimi taenda mufuraha mbinguni",
+            "- A cha ulozi",
+            "- Acha bongo",
+            "- Acha bwizi"
+          ]
+        }
+      ],
+      "media": {
+        "audio_present": false
+      },
+      "taxonomy": {
+        "category": {
+          "source_label": "Cantiques du culte de Dimanche"
+        },
+        "subcategory": {
+          "source_label": "Cantiques de Lounange"
+        }
+      }
+    },
+    {
+      "source_position": 14,
+      "source_reference": {
+        "number": "189"
+      },
+      "title": {
+        "raw": "YESU KANYANYULIWA"
+      },
+      "content": [
+        {
+          "type": "verse",
+          "number": 1,
+          "lines": [
+            "Yesu kanyanyuliwa kaenda kwa baba, kawaagiza hivi chungeni wote ahadi za baba"
+          ]
+        },
+        {
+          "type": "refrain",
+          "lines": [
+            "Enyi wajoli shukuru Mungu shukuru yesu shukuru yesu, roho ameshuka Enyi wajoli shukuru mungu Walipo keti nyumbani kwa jumla kawambia hivi chungeni wote yerusalema"
+          ],
+          "comment": []
+        },
+        {
+          "type": "verse",
+          "number": 2,
+          "lines": [
+            "kawa fundisha ufalme wa mungu aliokuwa nao katika siku arubaini Walipo kuwa mu yerusalema chumbani cha juu roho akawashukia wote"
+          ]
+        }
+      ],
+      "media": {
+        "audio_present": false
+      },
+      "taxonomy": {
+        "category": {
+          "source_label": "Cantiques du culte de Dimanche"
+        },
+        "subcategory": {
+          "source_label": "Cantiques de Lounange"
+        }
+      }
+    },
+    {
+      "source_position": 15,
+      "source_reference": {
+        "number": "190"
+      },
+      "title": {
+        "raw": "AWA NI WANANI AWA"
+      },
+      "content": [
+        {
+          "type": "verse",
+          "number": 1,
+          "lines": [
+            "Awa ni wanani awa awa ni wana wa mufalme Wametoka apa duniani wameriti muji mutakatifu"
+          ]
+        },
+        {
+          "type": "source_block",
+          "source_tag": "copy19",
+          "lines": [
+            ": Yerusalema tumekuwa mu yerusalema",
+            "Com: Muji mutakatifu wa bwana tumekuwa mu yerusalema.",
+            "- Muji ya wateule wa mungu",
+            "- Muji mukamilifu wa mungu Nani yule tumutazamae mwana kondo wake mufalme ameketi kitini cha enzi"
+          ]
+        },
+        {
+          "type": "verse",
+          "number": 2,
+          "lines": [
+            "Basi kubalini kuriti inchi iishio mbinguni mwa bwana, basi kubalini kuriti yoyoyo ihishio mbinguni mwa mufalme"
+          ]
+        }
+      ],
+      "media": {
+        "audio_present": false
+      },
+      "taxonomy": {
+        "category": {
+          "source_label": "Cantiques du culte de Dimanche"
+        },
+        "subcategory": {
+          "source_label": "Cantiques de Lounange"
+        }
+      }
+    },
+    {
+      "source_position": 16,
+      "source_reference": {
+        "number": "191"
+      },
+      "title": {
+        "raw": "BAOYO BA NANI OYO"
+      },
+      "content": [
+        {
+          "type": "verse",
+          "number": 1,
+          "lines": [
+            "Baoyo ba nani oyo baoyo bazali ban aya nzambe ba bimaki awa na mokili bafandi na mboka mosantu."
+          ]
+        },
+        {
+          "type": "refrain",
+          "lines": [
+            "Yerusaleme, yerusaleme, lelo tokoti yerusaleme mboka kitoko ya nzambe tata lelo tokoti yerusaleme",
+            "- mboka nabiso nyonso baninga lelo tokoti yerusaleme Nani oyo tozali komona ye mwana nzambe monkonzi na biso afandi na kiti ya nzambe"
+          ],
+          "comment": [
+            "- Kiti ya bokonzi mwana nzambe monkonzi nabiso afandi na kiti ya nzambe",
+            "- Kiti ya bolangi",
+            "- Ngudi ya nzambe Totambolaki na nzela ya mwana nzambe lelo tofandi mboka yerusaleme to sepeli molimo mosantu",
+            "- Elikia ya nzambe lelo tofandi mboka yerusaleme to sepeli molimo mosantu.",
+            "- Taikaki mpiko",
+            "- Biso basantu"
+          ]
+        }
+      ],
+      "media": {
+        "audio_present": false
+      },
+      "taxonomy": {
+        "category": {
+          "source_label": "Cantiques du culte de Dimanche"
+        },
+        "subcategory": {
+          "source_label": "Cantiques de Lounange"
+        }
+      }
+    },
+    {
+      "source_position": 17,
+      "source_reference": {
+        "number": "192"
+      },
+      "title": {
+        "raw": "USIFURAHI KWA KUFANYA MAAJABU"
+      },
+      "content": [
+        {
+          "type": "verse",
+          "number": 1,
+          "lines": [
+            "Usi furahi kwa kufanya maajabu ila wewe ufurahi kama jina lako limeandikiwa"
+          ]
+        },
+        {
+          "type": "refrain",
+          "lines": [
+            "Mungu alipo umba mutu akamutia mushamba la Edeni bwana akajuta kwa nini nilipo umba mwanadamu."
+          ],
+          "comment": [
+            "- Mwanadamu kikwazo bwana akajuta kwa nini alipo umba mwanadamu",
+            "- Mwanadamu muwongo",
+            "- Mwanadamu jeuri Utumwa wa misri tumekwisha kombolewa tumekwisha kuwa uhuru kwajili ya neno la uzima.",
+            "Mbingu za mbingu eh mbingu za mbingu zimekwisha funguliwa, unyakulivu wa watu waingie ufalme wa mungu"
+          ]
+        }
+      ],
+      "media": {
+        "audio_present": false
+      },
+      "taxonomy": {
+        "category": {
+          "source_label": "Cantiques du culte de Dimanche"
+        },
+        "subcategory": {
+          "source_label": "Cantiques de Lounange"
+        }
+      }
+    },
+    {
+      "source_position": 18,
+      "source_reference": {
+        "number": "193"
+      },
+      "title": {
+        "raw": "ANA HUYU KAJIRIKA"
+      },
+      "content": [
+        {
+          "type": "verse",
+          "number": 1,
+          "lines": [
+            "Ana huyu kajirika kuwa mutumishi wa bwana naye aliitaji kupata mwana kwa faraja ya bwana Basi katoa naziri yake ya kama mwana utakaenipa eh baba atakuwa",
+            "wako",
+            "- Mupikaji wa ngoma",
+            "- Muhubiri wa neno"
+          ]
+        },
+        {
+          "type": "refrain",
+          "lines": [
+            "Kilio iki kikafika ku mukono wa bwana, kilio iki kikafika kwa nguvu ya bwana nimepata mwanamume kwa mufalume eh baba nimepata mwanamume kwa mufalume."
+          ],
+          "comment": [
+            "- Basi mungu wangu ananisikia nimepata mwanamume kwa mufalume",
+            "- Basi mungu ana ni kubali",
+            "- Kwa maombi yangu ananisikia Walipo muzaa Samweli waka mupeleka Ekaluni kwa kuhakikisha agano walilo lifanya na bwana, basi mwana akakuwa musafisha viombo na",
+            "musafisha Ekalu la bwana machoni pa mufalume.",
+            "- Muhubiri wa neno na musafisha Ekalu la bwana machoni pa mufalume-Musomaji biblia"
+          ]
+        }
+      ],
+      "media": {
+        "audio_present": false
+      },
+      "taxonomy": {
+        "category": {
+          "source_label": "Cantiques du culte de Dimanche"
+        },
+        "subcategory": {
+          "source_label": "Cantiques de Lounange"
+        }
+      }
+    },
+    {
+      "source_position": 19,
+      "source_reference": {
+        "number": "194"
+      },
+      "title": {
+        "raw": "ANA ALIMULILIA MUNGU"
+      },
+      "content": [
+        {
+          "type": "verse",
+          "number": 1,
+          "lines": [
+            "Ana alimulilia Mungu, Mungu wangu unipe mutoto nami nitakushukuru, unipe mutoto mimi nita kushukuru",
+            "- Mungu mumbaji wangu unipe uzima mimi nitakushukuru",
+            "- Wewe tegemeo langu"
+          ]
+        },
+        {
+          "type": "refrain",
+          "lines": [
+            "Ana kafunga chakula alimulilia Mungu, unipe mutoto nami nitakushukuru.",
+            "- Mungu mumbaji wangu, unipe uzima mimi nitakushukuru",
+            "- Wewe tegemeo langu unipe mutoto nami nitakushukuru"
+          ],
+          "comment": []
+        },
+        {
+          "type": "verse",
+          "number": 2,
+          "lines": [
+            "Eli kuhani wa Mungu ali mulimuliza Ana eh mbona umefunga uso wako, mbona umelewa kwa mvinyo, mimi silewi kwa mvinyo ila na lilia Mungu eh Mungu wangu unipe mutoto nami",
+            "nitakushukuru.",
+            "- Mungu mumbaji wangu unipe uzima mimi nitakushukuru.",
+            "- Wewe tegemeo langu"
+          ]
+        }
+      ],
+      "media": {
+        "audio_present": true
+      },
+      "taxonomy": {
+        "category": {
+          "source_label": "Cantiques du culte de Dimanche"
+        },
+        "subcategory": {
+          "source_label": "Cantiques de Lounange"
+        }
+      }
+    },
+    {
+      "source_position": 20,
+      "source_reference": {
+        "number": "195"
+      },
+      "title": {
+        "raw": "MUNGU WETU WA REHEMA"
+      },
+      "content": [
+        {
+          "type": "verse",
+          "number": 1,
+          "lines": [
+            "Mungu wetu wa rehema ni mwenye upendo nyingi",
+            "Sisi tumepata uzima kwa kifo cha mwana wake"
+          ]
+        },
+        {
+          "type": "refrain",
+          "lines": [
+            "Twimbeni wote tufurahiwe, tufurahi wote wote ameshuka."
+          ],
+          "comment": [
+            "- Baba kyungu wetu tufurahiwe, tufurahi wote ameshuka",
+            "- Na Kadima baba",
+            "- Na bi zazi viote",
+            "- Ameshuka kwetu. Sisi tumutukuze mumbaji yeye kwa haki na kweli eh baba. Roho mwema ameshuka, roho wa rehema nyingi ametulia kwetu"
+          ]
+        }
+      ],
+      "media": {
+        "audio_present": false
+      },
+      "taxonomy": {
+        "category": {
+          "source_label": "Cantiques du culte de Dimanche"
+        },
+        "subcategory": {
+          "source_label": "Cantiques de Lounange"
+        }
+      }
+    },
+    {
+      "source_position": 21,
+      "source_reference": {
+        "number": "89"
+      },
+      "title": {
+        "raw": "MUNGU WANGU UNIUMBIE MOYO UWESAFI"
+      },
+      "content": [
+        {
+          "type": "verse",
+          "number": 1,
+          "lines": [
+            "Mungu wangu uniumbie moyo uwesafi na hekima nzuri Na penda kuriti ufalme wako mafalme za dunia unitabishae"
+          ]
+        },
+        {
+          "type": "refrain",
+          "lines": [
+            "Jehova jina lako na kuomba ni wewe nitakase kwa kweli, kweli, kweli niwe kama teluji, uniumbie moyo uwe safi, safi Mungu chukuwa wa kale.",
+            "- Moyo wangu wa kupenda anasa uniumbie moyo uwe safi, safi Mungu wangu uchukuwe wa kale",
+            "- Moyo wangu wa kupenda bulozi..."
+          ],
+          "comment": []
+        },
+        {
+          "type": "verse",
+          "number": 2,
+          "lines": [
+            "Uko peniueli Mungu akajirika kwake Yakobo kashinda watu kashinda na mungu tupinge mambo mbovu tumwamini yesu"
+          ]
+        },
+        {
+          "type": "verse",
+          "number": 3,
+          "lines": [
+            "Mama yangu kanizaa muzambi Jehova upenda niishi mu neno Eliabu unitabishaee."
+          ]
+        }
+      ],
+      "media": {
+        "audio_present": true
+      },
+      "taxonomy": {
+        "category": {
+          "source_label": "Cantiques du culte de Dimanche"
+        },
+        "subcategory": {
+          "source_label": "Cantiques de Lounange"
+        }
+      }
+    },
+    {
+      "source_position": 22,
+      "source_reference": {
+        "number": "00"
+      },
+      "title": {
+        "raw": "WAMENIFUNGUA NGUO"
+      },
+      "content": [
+        {
+          "type": "verse",
+          "number": 1,
+          "lines": [
+            "wamenifungua nguo, na kuniacha nikarizika, furaha nyingi hujaa huzuni, huzuni huangua michezo. Anasemamehe makosa na zambi zangu, hatazikumbuka tena"
+          ]
+        },
+        {
+          "type": "refrain",
+          "lines": [
+            "Mimi, Mungu ni Baba yangu eh! yoyoyo,",
+            "- musinikataze, nimutukuze Mungu wa uzima",
+            "- kwa makubwa na maajabu, Mungu wa huruma.",
+            "- Mungu ni Baba yangu eh! yoyoyo, mimi musinikataze nimutukuze Mungu wa uzima",
+            "- Kwa kuita niishi kanana aniokowe"
+          ],
+          "comment": []
+        },
+        {
+          "type": "verse",
+          "number": 2,
+          "lines": [
+            "Mumefikia mulima ujio wa Mungu aliye hai, Yerusalema wa mbunguni na majeshi ya wa malaika, kanisa ya wazalia wa kwanza, hii ni makutano makubwa"
+          ]
+        },
+        {
+          "type": "verse",
+          "number": 3,
+          "lines": [
+            "Nyinyi mulio waovu munajua kwamba wana wenu zawadi nzuri wanapowaumba jitaidi sawa na baba zenu atawapa Rhoho mutakatifu kwa yeyote atakaye muomba."
+          ]
+        }
+      ],
+      "media": {
+        "audio_present": true
+      },
+      "taxonomy": {
+        "category": {
+          "source_label": "Cantiques du culte de Dimanche"
+        },
+        "subcategory": {
+          "source_label": "Cantiques de Lounange"
+        }
+      }
+    }
+  ]
+}
