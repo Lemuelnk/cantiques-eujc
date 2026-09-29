@@ -166,6 +166,10 @@ button {
   transform: scale(0.99);
 }
 
+.hymn-row:not([hidden]) {
+  cursor: pointer;
+}
+
 .hymn-number {
   width: 34px;
   height: 34px;
