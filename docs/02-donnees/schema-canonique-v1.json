@@ -1,0 +1,360 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Lemuelnk/cantiques-eujc/blob/main/docs/02-donnees/schema-canonique-v1.json",
+  "title": "Cantiques EUJC — Canonical Hymn Data v1",
+  "description": "JSON Schema for validated canonical hymn data consumed by the application.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "id",
+    "title",
+    "status",
+    "versions"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "id": {
+      "$ref": "#/$defs/uuid"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "$ref": "#/$defs/hymnStatus"
+    },
+    "versions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/version"
+      }
+    }
+  },
+  "$defs": {
+    "uuid": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "hymnStatus": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "review",
+        "validated",
+        "archived"
+      ]
+    },
+    "languageStatus": {
+      "type": "string",
+      "enum": [
+        "known",
+        "uncertain",
+        "unknown"
+      ]
+    },
+    "language": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "code",
+        "label",
+        "status"
+      ],
+      "properties": {
+        "code": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[A-Za-z]{2,3}(-[A-Za-z0-9]{2,8})*$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "label": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "status": {
+          "$ref": "#/$defs/languageStatus"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "known"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "code": {
+                "type": "string"
+              },
+              "label": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "unknown"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "code": {
+                "type": "null"
+              },
+              "label": {
+                "type": "null"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "file",
+        "position",
+        "number",
+        "reference"
+      ],
+      "properties": {
+        "file": {
+          "type": "string",
+          "minLength": 1
+        },
+        "position": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "number": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "reference": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      }
+    },
+    "domain": {
+      "type": "string",
+      "enum": [
+        "lessons",
+        "sunday",
+        "prayer"
+      ]
+    },
+    "taxonomy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "domain",
+        "category_id",
+        "category_label",
+        "lesson_id",
+        "lesson_label"
+      ],
+      "properties": {
+        "domain": {
+          "$ref": "#/$defs/domain"
+        },
+        "category_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "category_label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "lesson_id": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "lesson_label": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "domain": {
+                "const": "lessons"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "lesson_id": {
+                "type": "string",
+                "pattern": "^lesson-[0-9]+$"
+              },
+              "lesson_label": {
+                "type": "string",
+                "pattern": "^Leçon [0-9]+ — .+$"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "domain": {
+                "enum": [
+                  "sunday",
+                  "prayer"
+                ]
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "lesson_id": {
+                "type": "null"
+              },
+              "lesson_label": {
+                "type": "null"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "contentType": {
+      "type": "string",
+      "enum": [
+        "verse",
+        "refrain",
+        "comment",
+        "source_block"
+      ]
+    },
+    "contentBlock": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "lines"
+      ],
+      "properties": {
+        "type": {
+          "$ref": "#/$defs/contentType"
+        },
+        "lines": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "media": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "audio_present"
+      ],
+      "properties": {
+        "audio_present": {
+          "type": "boolean"
+        }
+      }
+    },
+    "version": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "language",
+        "title",
+        "source",
+        "taxonomy",
+        "content",
+        "media"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/uuid"
+        },
+        "language": {
+          "$ref": "#/$defs/language"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source": {
+          "$ref": "#/$defs/source"
+        },
+        "taxonomy": {
+          "$ref": "#/$defs/taxonomy"
+        },
+        "content": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/contentBlock"
+          }
+        },
+        "media": {
+          "$ref": "#/$defs/media"
+        }
+      }
+    }
+  }
+}
