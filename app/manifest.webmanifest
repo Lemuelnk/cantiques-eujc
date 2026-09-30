@@ -1,0 +1,34 @@
+{
+  "name": "Cantiques EUJC — Le recueil dans votre poche",
+  "short_name": "Cantiques EUJC",
+  "description": "Louange, Prière et Adoration. Partout. Toujours.",
+  "lang": "fr",
+  "dir": "ltr",
+  "start_url": "./splash.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0d2e22",
+  "theme_color": "#0d2e22",
+  "categories": ["books", "education", "music"],
+  "icons": [
+    {
+      "src": "assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
