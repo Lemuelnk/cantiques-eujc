@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Historique de consultation — Cantiques EUJC">
+  <meta name="theme-color" content="#0d2e22">
+  <title>Historique — Cantiques EUJC</title>
+
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="style.css?v=8">
+  <link rel="stylesheet" href="bottom-nav.css?v=8">
+  <link rel="stylesheet" href="cantiques.css?v=8">
+  <link rel="stylesheet" href="historique.css?v=8">
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+  <main class="history-page">
+
+    <header class="history-header">
+      <button class="back-button" id="back-button" aria-label="Retour" type="button">
+        <i data-lucide="arrow-left"></i>
+      </button>
+
+      <div class="history-header-title">
+        <h1>Historique</h1>
+        <span id="history-count">Chargement…</span>
+      </div>
+
+      <button class="clear-btn" id="clear-history" type="button" hidden>
+        Vider
+      </button>
+    </header>
+
+    <section class="history-content">
+      <div class="history-list" id="history-list"></div>
+
+      <div class="history-empty" id="history-empty" hidden>
+        <div class="empty-icon"><i data-lucide="clock"></i></div>
+        <h2>Aucun cantique consulté</h2>
+        <p>Vos cantiques récemment ouverts apparaîtront ici.</p>
+      </div>
+
+      <div class="history-loading" id="history-loading">
+        Chargement de l'historique…
+      </div>
+    </section>
+  </main>
+
+  <div id="bottom-nav"></div>
+
+  <script src="bottom-nav.js?v=8"></script>
+  <script src="canonical-data.js?v=8"></script>
+  <script src="storage.js?v=8"></script>
+  <script src="historique.js?v=8"></script>
+  <script src="sw-register.js?v=8"></script>
+</body>
+</html>

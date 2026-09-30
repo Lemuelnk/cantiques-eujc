@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Mes cantiques favoris — Cantiques EUJC">
+  <meta name="theme-color" content="#0d2e22">
+  <title>Mes favoris — Cantiques EUJC</title>
+
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="style.css?v=8">
+  <link rel="stylesheet" href="bottom-nav.css?v=8">
+  <link rel="stylesheet" href="cantiques.css?v=8">
+  <link rel="stylesheet" href="favoris.css?v=8">
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+  <main class="favorites-page">
+
+    <header class="favorites-header">
+      <button class="back-button" id="back-button" aria-label="Retour" type="button">
+        <i data-lucide="arrow-left"></i>
+      </button>
+
+      <div class="favorites-header-title">
+        <h1>Mes favoris</h1>
+        <span id="favorites-count">Chargement…</span>
+      </div>
+
+      <span class="header-spacer" aria-hidden="true"></span>
+    </header>
+
+    <section class="favorites-content">
+      <div class="favorites-list" id="favorites-list"></div>
+
+      <div class="favorites-empty" id="favorites-empty" hidden>
+        <div class="empty-icon"><i data-lucide="star"></i></div>
+        <h2>Aucun favori pour l'instant</h2>
+        <p>Touchez l'étoile à côté d'un cantique pour le retrouver ici.</p>
+      </div>
+
+      <div class="favorites-loading" id="favorites-loading">
+        Chargement de vos favoris…
+      </div>
+    </section>
+  </main>
+
+  <div id="bottom-nav"></div>
+
+  <script src="bottom-nav.js?v=8"></script>
+  <script src="canonical-data.js?v=8"></script>
+  <script src="storage.js?v=8"></script>
+  <script src="favoris.js?v=8"></script>
+  <script src="sw-register.js?v=8"></script>
+</body>
+</html>

@@ -11,8 +11,8 @@
   <title>Cantiques EUJC</title>
 
   <link rel="manifest" href="manifest.webmanifest">
-  <link rel="stylesheet" href="style.css?v=4">
-  <link rel="stylesheet" href="bottom-nav.css?v=4">
+  <link rel="stylesheet" href="style.css?v=8">
+  <link rel="stylesheet" href="bottom-nav.css?v=8">
 
   <!-- Lucide -->
   <script src="https://unpkg.com/lucide@latest"></script>
@@ -34,13 +34,27 @@
         <span>Cantiques EUJC</span>
       </div>
 
-      <button
-        class="icon-button"
-        id="btn-parametres"
-        aria-label="Paramètres"
-      >
-        <i data-lucide="settings"></i>
-      </button>
+      <div class="header-actions">
+
+        <button
+          class="icon-button"
+          id="btn-favoris"
+          aria-label="Mes favoris"
+          type="button"
+        >
+          <i data-lucide="star"></i>
+        </button>
+
+        <button
+          class="icon-button"
+          id="btn-parametres"
+          aria-label="Paramètres"
+          type="button"
+        >
+          <i data-lucide="settings"></i>
+        </button>
+
+      </div>
 
     </header>
 
@@ -187,10 +201,10 @@
 
 
   <!-- Application -->
-  <script src="bottom-nav.js?v=4"></script>
-  <script src="canonical-data.js?v=4"></script>
-  <script src="storage.js?v=4"></script>
-  <script src="app.js?v=4"></script>
+  <script src="bottom-nav.js?v=8"></script>
+  <script src="canonical-data.js?v=8"></script>
+  <script src="storage.js?v=8"></script>
+  <script src="app.js?v=8"></script>
 
   <!-- Lucide -->
   <script>
@@ -199,6 +213,6 @@
 
 <script src="https://cdn.jsdelivr.net/npm/eruda"></script>
   <script>eruda.init();</script>
-<script src="sw-register.js?v=4"></script>
+<script src="sw-register.js?v=8"></script>
 </body>
 </html>

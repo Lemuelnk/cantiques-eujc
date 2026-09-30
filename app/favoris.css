@@ -1,0 +1,214 @@
+/* ============================================================
+   Cantiques EUJC — Page Favoris
+   ============================================================ */
+
+.favorites-page {
+  min-height: 100vh;
+  min-height: 100dvh;
+  background: var(--bg-light, #f7f8f7);
+  padding-bottom: calc(80px + env(safe-area-inset-bottom, 0px));
+}
+
+.favorites-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 18px 12px;
+  background: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+
+.favorites-header .back-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  color: #0d2e22;
+  cursor: pointer;
+  flex: 0 0 auto;
+}
+
+.favorites-header-title {
+  flex: 1;
+  min-width: 0;
+}
+
+.favorites-header-title h1 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #0d2e22;
+  margin: 0;
+}
+
+.favorites-header-title span {
+  font-size: 13px;
+  color: #7a8580;
+  display: block;
+  margin-top: 2px;
+}
+
+.favorites-header .header-spacer {
+  width: 40px;
+  flex: 0 0 auto;
+}
+
+.favorites-content {
+  padding: 18px 16px 24px;
+}
+
+.favorites-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.favorite-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 16px;
+  background: #fff;
+  border-radius: 14px;
+  border: 1px solid rgba(13, 46, 34, 0.06);
+  cursor: pointer;
+  transition: transform 120ms ease, box-shadow 120ms ease;
+  text-decoration: none;
+  color: inherit;
+}
+
+.favorite-row:active {
+  transform: scale(0.985);
+  box-shadow: 0 2px 10px rgba(13, 46, 34, 0.08);
+}
+
+.favorite-row .fav-number {
+  flex: 0 0 auto;
+  min-width: 42px;
+  height: 42px;
+  padding: 0 10px;
+  border-radius: 10px;
+  background: #0d2e22;
+  color: #e8c56a;
+  font-weight: 600;
+  font-size: 15px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.favorite-row .fav-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.favorite-row .fav-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: #0d2e22;
+  margin: 0 0 3px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.favorite-row .fav-meta {
+  font-size: 12.5px;
+  color: #7a8580;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.favorite-row .fav-arrow {
+  flex: 0 0 auto;
+  color: #b6bdb9;
+}
+
+.favorite-row .fav-remove {
+  flex: 0 0 auto;
+  width: 36px;
+  height: 36px;
+  border: none;
+  border-radius: 50%;
+  background: transparent;
+  color: #c9a44a;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.favorite-row .fav-remove:hover {
+  background: rgba(201, 164, 74, 0.1);
+}
+
+.favorite-row .fav-remove svg {
+  width: 19px;
+  height: 19px;
+  fill: currentColor;
+}
+
+/* --- État vide --- */
+.favorites-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 60px 24px;
+  color: #7a8580;
+}
+
+.favorites-empty .empty-icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: rgba(201, 164, 74, 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+  color: #c9a44a;
+}
+
+.favorites-empty .empty-icon svg {
+  width: 30px;
+  height: 30px;
+}
+
+.favorites-empty h2 {
+  font-size: 17px;
+  font-weight: 600;
+  color: #0d2e22;
+  margin: 0 0 6px;
+}
+
+.favorites-empty p {
+  font-size: 14px;
+  line-height: 1.5;
+  max-width: 280px;
+  margin: 0;
+}
+
+.favorites-loading {
+  text-align: center;
+  padding: 60px 24px;
+  color: #7a8580;
+  font-size: 14px;
+}
+
+/* ============================================================
+   FIX : respect de l'attribut [hidden] malgré display: flex
+   ============================================================ */
+.favorites-empty[hidden],
+.favorites-loading[hidden] {
+  display: none !important;
+}

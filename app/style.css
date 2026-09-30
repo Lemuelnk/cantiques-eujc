@@ -308,47 +308,81 @@ button {
   border-top: 1px solid var(--border);
 }
 
+.recent-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 .recent-item {
-  width: 100%;
-  min-height: 55px;
   display: flex;
   align-items: center;
-  gap: 12px;
-  padding: 9px 2px;
-  border: 0;
-  border-bottom: 1px solid var(--border);
-  background: transparent;
-  color: var(--text);
-  text-align: left;
+  gap: 14px;
+  padding: 14px 16px;
+  background: #fff;
+  border-radius: 14px;
+  border: 1px solid rgba(13, 46, 34, 0.06);
   cursor: pointer;
+  transition: transform 120ms ease, box-shadow 120ms ease;
+  text-align: left;
+  width: 100%;
+  font-family: inherit;
+  color: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.recent-item:active {
+  transform: scale(0.985);
+  box-shadow: 0 2px 10px rgba(13, 46, 34, 0.08);
 }
 
 .recent-number {
-  width: 40px;
-  min-width: 40px;
-  padding: 4px 6px;
-  border-radius: 9px;
-  background: var(--teal);
-  color: white;
-  font-family: "Montserrat", sans-serif;
-  font-size: 11px;
-  font-weight: 700;
-  text-align: center;
+  flex: 0 0 auto;
+  min-width: 42px;
+  height: 42px;
+  padding: 0 10px;
+  border-radius: 10px;
+  background: #0d2e22;
+  color: #e8c56a;
+  font-weight: 600;
+  font-size: 15px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.recent-content {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
 }
 
 .recent-title {
-  min-width: 0;
-  flex: 1;
+  font-size: 15px;
+  font-weight: 600;
+  color: #0d2e22;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  font-size: 13px;
-  font-weight: 600;
+}
+
+.recent-meta {
+  font-size: 12.5px;
+  color: #7a8580;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .recent-arrow {
-  color: #8b9692;
-  font-size: 20px;
+  flex: 0 0 auto;
+  color: #b6bdb9;
+  display: grid;
+  place-items: center;
+  width: 20px;
+  height: 20px;
 }
 
 /* =========================
@@ -545,4 +579,26 @@ button:focus-visible,
 input:focus-visible {
   outline: 2px solid var(--teal);
   outline-offset: 2px;
+}
+
+/* ============================================================
+   HEADER ACTIONS (ajouté v5)
+   ============================================================ */
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* ============================================================
+   RÉCENTS — État vide (ajouté v6)
+   ============================================================ */
+.recent-empty {
+  padding: 20px 16px;
+  text-align: center;
+  color: #8c9691;
+  font-size: 14px;
+  line-height: 1.5;
+  font-style: italic;
+  margin: 0;
 }

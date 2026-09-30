@@ -43,13 +43,13 @@
 
   const page = window.location.pathname.split('/').pop() || 'index.html';
 
-  let activeSection = 'accueil';
-
-  if (['categories.html', 'lessons.html', 'cantiques.html'].includes(page)) {
+  if (['categories.html', 'lessons.html', 'cantiques.html', 'cantique.html',
+       'dimanche.html', 'priere.html'].includes(page)) {
     activeSection = 'bibliotheque';
-  } else if (page === 'search.html') {
+  } else if (['search.html', 'recherche.html'].includes(page)) {
     activeSection = 'recherche';
-  } else if (page === 'plus.html') {
+  } else if (['plus.html', 'favoris.html', 'historique.html',
+              'parametres.html'].includes(page)) {
     activeSection = 'plus';
   }
 

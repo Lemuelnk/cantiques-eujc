@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "corpus_status": "draft",
+  "taxonomy": {
+    "domain": "lessons",
+    "category_id": "lesson-8",
+    "category_label": "Les fils d'Isaac",
+    "lesson_id": "lesson-8",
+    "lesson_label": "Leçon 8 — Les fils d'Isaac"
+  },
+  "hymns": []
+}

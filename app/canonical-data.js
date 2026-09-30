@@ -2,7 +2,29 @@
 // Cantiques EUJC — Accès en lecture au corpus canonique
 // ============================================================
 
-const CANONICAL_FILE_MAP = { 'lesson-1': 'lesson-1-creation' };
+const CANONICAL_FILE_MAP = {
+  'lesson-0': 'lesson-0-lucifer',
+  'lesson-1': 'lesson-1-creation',
+  'lesson-2': 'lesson-2-eden',
+  'lesson-3': 'lesson-3-premier-peche',
+  'lesson-4': 'lesson-4-fils-adam',
+  'lesson-5': 'lesson-5-noe',
+  'lesson-6': 'lesson-6-abraham',
+  'lesson-7': 'lesson-7-lot',
+  'lesson-8': 'lesson-8-fils-isaac',
+  'lesson-9': 'lesson-9-jacob',
+  'lesson-10': 'lesson-10-egypte',
+  'lesson-11': 'lesson-11-moise',
+  'lesson-12': 'lesson-12-plaies',
+  'lesson-13': 'lesson-13-mer-rouge',
+  'lesson-20': 'lesson-20-samson',
+  'lesson-21': 'lesson-21-david-saul',
+  'lesson-22': 'lesson-22-salomon',
+  'lesson-23': 'lesson-23-temple',
+  'lesson-24': 'lesson-24-elie-elisee',
+  'lesson-25': 'lesson-25-daniel',
+  'lesson-26': 'lesson-26-job'
+};
 
 function normalizeText(value) {
   return String(value || '')

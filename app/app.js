@@ -69,9 +69,12 @@ function afficherRecents() {
     })
     .filter(Boolean);
 
-  // Données de démonstration si l'historique est vide
+  // État vide : aucun cantique consulté pour l'instant
   if (elements.length === 0) {
-    elements = etat.cantiques.slice(0, 3);
+    $recents.innerHTML =
+      '<p class="recent-empty">Vos cantiques récemment ouverts apparaîtront ici.</p>';
+    if (window.lucide) lucide.createIcons();
+    return;
   }
 
   $recents.innerHTML = '';
@@ -83,12 +86,22 @@ function afficherRecents() {
     button.className = 'recent-item';
     button.dataset.id = cantique.id;
 
+    const version = versionPrincipale(cantique);
+    const lang = (version && version.language && version.language.label)
+      ? version.language.label
+      : 'Langue à confirmer';
+
     button.innerHTML =
       '<span class="recent-number">' +
       echapper(numero(cantique, index)) +
       '</span>' +
-      '<span class="recent-title">' +
-      echapper(titre(cantique, index)) +
+      '<span class="recent-content">' +
+        '<span class="recent-title">' +
+        echapper(titre(cantique, index)) +
+        '</span>' +
+        '<span class="recent-meta">' +
+        echapper(lang) +
+        '</span>' +
       '</span>' +
       '<span class="recent-arrow" aria-hidden="true"><i data-lucide="chevron-right"></i></span>';
 
@@ -159,8 +172,15 @@ document.getElementById('btn-parametres')
     alert('Paramètres — écran à construire.');
   });
 
+const $btnFavoris = document.getElementById('btn-favoris');
+if ($btnFavoris) {
+  $btnFavoris.addEventListener('click', () => {
+    window.location.href = 'favoris.html';
+  });
+}
+
 $voirTout.addEventListener('click', () => {
-  alert('Bibliothèque — écran à construire.');
+  window.location.href = 'historique.html';
 });
 
 $recherche.addEventListener('keydown', event => {

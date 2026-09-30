@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "corpus_status": "draft",
+  "taxonomy": {
+    "domain": "lessons",
+    "category_id": "lesson-4",
+    "category_label": "Les fils d'Adam",
+    "lesson_id": "lesson-4",
+    "lesson_label": "Leçon 4 — Les fils d'Adam"
+  },
+  "hymns": []
+}

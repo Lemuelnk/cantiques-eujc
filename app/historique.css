@@ -1,0 +1,206 @@
+/* ============================================================
+   Cantiques EUJC — Page Historique
+   ============================================================ */
+
+.history-page {
+  min-height: 100vh;
+  min-height: 100dvh;
+  background: var(--bg-light, #f7f8f7);
+  padding-bottom: calc(80px + env(safe-area-inset-bottom, 0px));
+}
+
+.history-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 18px 12px;
+  background: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+
+.history-header .back-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  color: #0d2e22;
+  cursor: pointer;
+  flex: 0 0 auto;
+}
+
+.history-header-title {
+  flex: 1;
+  min-width: 0;
+}
+
+.history-header-title h1 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #0d2e22;
+  margin: 0;
+}
+
+.history-header-title span {
+  font-size: 13px;
+  color: #7a8580;
+  display: block;
+  margin-top: 2px;
+}
+
+.history-header .clear-btn {
+  flex: 0 0 auto;
+  background: transparent;
+  border: none;
+  color: #c9a44a;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 8px 10px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.history-header .clear-btn:hover {
+  background: rgba(201, 164, 74, 0.1);
+}
+
+.history-content {
+  padding: 18px 16px 24px;
+}
+
+.history-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.history-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 16px;
+  background: #fff;
+  border-radius: 14px;
+  border: 1px solid rgba(13, 46, 34, 0.06);
+  cursor: pointer;
+  transition: transform 120ms ease, box-shadow 120ms ease;
+  text-decoration: none;
+  color: inherit;
+}
+
+.history-row:active {
+  transform: scale(0.985);
+  box-shadow: 0 2px 10px rgba(13, 46, 34, 0.08);
+}
+
+.history-row .hist-number {
+  flex: 0 0 auto;
+  min-width: 42px;
+  height: 42px;
+  padding: 0 10px;
+  border-radius: 10px;
+  background: #0d2e22;
+  color: #e8c56a;
+  font-weight: 600;
+  font-size: 15px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.history-row .hist-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.history-row .hist-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: #0d2e22;
+  margin: 0 0 3px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.history-row .hist-meta {
+  font-size: 12.5px;
+  color: #7a8580;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.history-row .hist-time {
+  font-size: 11.5px;
+  color: #b6bdb9;
+  margin-top: 2px;
+}
+
+.history-row .hist-arrow {
+  flex: 0 0 auto;
+  color: #b6bdb9;
+}
+
+.history-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 60px 24px;
+  color: #7a8580;
+}
+
+.history-empty .empty-icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: rgba(201, 164, 74, 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+  color: #c9a44a;
+}
+
+.history-empty .empty-icon svg {
+  width: 30px;
+  height: 30px;
+}
+
+.history-empty h2 {
+  font-size: 17px;
+  font-weight: 600;
+  color: #0d2e22;
+  margin: 0 0 6px;
+}
+
+.history-empty p {
+  font-size: 14px;
+  line-height: 1.5;
+  max-width: 280px;
+  margin: 0;
+}
+
+.history-loading {
+  text-align: center;
+  padding: 60px 24px;
+  color: #7a8580;
+  font-size: 14px;
+}
+
+/* ============================================================
+   FIX : respect de l'attribut [hidden] malgré display: flex
+   ============================================================ */
+.history-empty[hidden],
+.history-loading[hidden] {
+  display: none !important;
+}
