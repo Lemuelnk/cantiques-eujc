@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "corpus_status": "draft",
+  "taxonomy": {
+    "domain": "priere",
+    "category_id": "priere-bataille",
+    "category_label": "Cantiques de bataille",
+    "lesson_id": null,
+    "lesson_label": null
+  },
+  "hymns": []
+}

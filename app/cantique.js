@@ -51,7 +51,8 @@ async function loadDetail() {
   }
 
   try {
-    const corpus = await loadCanonicalLesson();
+    const categoryId = detailParams.get('category') || 'lesson-1';
+    const corpus = await loadCanonicalLesson(categoryId);
     const hymn = findHymn(corpus, hymnId);
 
     if (!hymn) {
@@ -60,6 +61,11 @@ async function loadDetail() {
     }
 
     renderHymn(hymn);
+
+    // Enregistrer dans l'historique
+    if (typeof addRecent === "function") {
+      addRecent(hymnId, categoryId);
+    }
   } catch (error) {
     console.error('Impossible de charger le cantique :', error);
     detailRoot.innerHTML = '<p class="detail-empty">Impossible de charger ce cantique.</p>';

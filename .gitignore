@@ -1,0 +1,29 @@
+# Sources brutes (PDFs, exports, extractions)
+pdfs/
+exports/
+extracted/
+corrected/
+
+# Fichiers de développement / backups
+*.bak
+*.bak2
+*.bak-*
+*.casse
+*.tmp
+_backups/
+__pycache__/
+
+# Système
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Éditeurs
+.vscode/
+.idea/
+*.code-workspace
+
+# Logs et debug
+*.log
+npm-debug.log*

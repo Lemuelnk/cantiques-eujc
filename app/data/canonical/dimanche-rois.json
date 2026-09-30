@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "corpus_status": "draft",
+  "taxonomy": {
+    "domain": "dimanche",
+    "category_id": "dimanche-rois",
+    "category_label": "Sacrifice des rois",
+    "lesson_id": null,
+    "lesson_label": null
+  },
+  "hymns": []
+}

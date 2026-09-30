@@ -382,3 +382,19 @@ button {
     padding-top: 28px;
   }
 }
+
+/* ============================================================
+   ÉTAT FAVORI (ajouté v3)
+   ============================================================ */
+.hymn-row.is-favorite .favorite-button {
+  color: var(--yellow, #f5b800);
+}
+
+.hymn-row.is-favorite .favorite-button svg {
+  fill: currentColor;
+  stroke: currentColor;
+}
+
+.favorite-button svg {
+  transition: fill 150ms ease, color 150ms ease;
+}

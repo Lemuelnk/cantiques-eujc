@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "corpus_status": "draft",
+  "taxonomy": {
+    "domain": "priere",
+    "category_id": "priere-misericorde",
+    "category_label": "Cantiques de miséricorde",
+    "lesson_id": null,
+    "lesson_label": null
+  },
+  "hymns": []
+}

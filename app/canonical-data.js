@@ -2,7 +2,7 @@
 // Cantiques EUJC — Accès en lecture au corpus canonique
 // ============================================================
 
-const CANONICAL_LESSON_1_URL = 'data/canonical/lesson-1-creation.json';
+const CANONICAL_FILE_MAP = { 'lesson-1': 'lesson-1-creation' };
 
 function normalizeText(value) {
   return String(value || '')
@@ -28,11 +28,9 @@ function countBlocks(version, type) {
 }
 
 async function loadCanonicalLesson(categoryId = 'lesson-1') {
-  if (categoryId !== 'lesson-1') {
-    throw new Error('Catégorie canonique indisponible : ' + categoryId);
-  }
-
-  const response = await fetch(CANONICAL_LESSON_1_URL, { cache: 'no-store' });
+  const slug = CANONICAL_FILE_MAP[categoryId] || categoryId;
+  const url = `data/canonical/${slug}.json`;
+  const response = await fetch(url, { cache: 'no-store' });
 
   if (!response.ok) {
     throw new Error('HTTP ' + response.status);

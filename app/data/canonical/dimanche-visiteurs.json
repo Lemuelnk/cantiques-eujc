@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "corpus_status": "draft",
+  "taxonomy": {
+    "domain": "dimanche",
+    "category_id": "dimanche-visiteurs",
+    "category_label": "Sacrifice des visiteurs",
+    "lesson_id": null,
+    "lesson_label": null
+  },
+  "hymns": []
+}

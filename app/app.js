@@ -1,5 +1,5 @@
 // ============================================================
-// Cantiques EUJC — Accueil v1
+// Cantiques EUJC — Accueil v1 (avec storage.js)
 // ============================================================
 
 const etat = {
@@ -7,9 +7,9 @@ const etat = {
   recents: []
 };
 
-const $recherche = document.getElementById('recherche');
-const $recents = document.getElementById('recents');
-const $voirTout = document.getElementById('voir-tout');
+const $recherche  = document.getElementById('recherche');
+const $recents    = document.getElementById('recents');
+const $voirTout   = document.getElementById('voir-tout');
 
 function echapper(s) {
   const d = document.createElement('div');
@@ -36,7 +36,6 @@ async function chargerCantiques() {
   try {
     const data = await loadCanonicalLesson();
     etat.cantiques = Array.isArray(data.hymns) ? data.hymns : [];
-
     afficherRecents();
   } catch (err) {
     console.error('Erreur de chargement des cantiques :', err);
@@ -45,11 +44,15 @@ async function chargerCantiques() {
 }
 
 function chargerHistorique() {
+  // Priorité : storage.js (nouveau format d'objets)
+  if (typeof getRecents === 'function') {
+    return getRecents();
+  }
+  // Fallback legacy (ancien format de strings)
   try {
     const data = JSON.parse(
       localStorage.getItem('cantiques-eujc-recents') || '[]'
     );
-
     return Array.isArray(data) ? data : [];
   } catch {
     return [];
@@ -60,11 +63,13 @@ function afficherRecents() {
   const historique = chargerHistorique();
 
   let elements = historique
-    .map(id => etat.cantiques.find(c => c.id === id))
+    .map(item => {
+      const id = (typeof item === 'string') ? item : item.id;
+      return etat.cantiques.find(c => c.id === id);
+    })
     .filter(Boolean);
 
-  // En attendant que l'historique soit alimenté par l'écran de lecture,
-  // on utilise quelques données du corpus pour rendre l'accueil exploitable.
+  // Données de démonstration si l'historique est vide
   if (elements.length === 0) {
     elements = etat.cantiques.slice(0, 3);
   }
@@ -88,25 +93,20 @@ function afficherRecents() {
       '<span class="recent-arrow" aria-hidden="true"><i data-lucide="chevron-right"></i></span>';
 
     button.addEventListener('click', () => ouvrirCantique(cantique.id));
-
     $recents.appendChild(button);
   });
 
-  // Les récents sont générés dynamiquement après le chargement initial.
-  // On demande donc à Lucide de convertir aussi leurs icônes.
-  if (window.lucide) {
-    lucide.createIcons();
-  }
+  if (window.lucide) lucide.createIcons();
 }
 
-function enregistrerRecent(id) {
+function enregistrerRecent(id, category) {
+  if (typeof addRecent === 'function') {
+    addRecent(id, category || 'lesson-1');
+    return;
+  }
+  // Fallback legacy
   let historiques = chargerHistorique();
-
-  historiques = [
-    id,
-    ...historiques.filter(item => item !== id)
-  ].slice(0, 20);
-
+  historiques = [id, ...historiques.filter(item => item !== id)].slice(0, 20);
   localStorage.setItem(
     'cantiques-eujc-recents',
     JSON.stringify(historiques)
@@ -114,70 +114,41 @@ function enregistrerRecent(id) {
 }
 
 function ouvrirCantique(id) {
-  enregistrerRecent(id);
-
+  enregistrerRecent(id, 'lesson-1');
   const cantique = etat.cantiques.find(c => c.id === id);
-
   if (!cantique) return;
-
-  window.location.href = `cantique.html?hymn=${encodeURIComponent(cantique.id)}`;
+  window.location.href =
+    `cantique.html?hymn=${encodeURIComponent(cantique.id)}&category=lesson-1`;
 }
 
 function lancerRecherche() {
   const valeur = $recherche.value.trim();
-
-  if (!valeur) {
-    $recherche.focus();
-    return;
-  }
-
+  if (!valeur) { $recherche.focus(); return; }
   alert(
-    'Recherche : ' +
-    valeur +
+    'Recherche : ' + valeur +
     '\n\nL’écran de recherche sera raccordé dans la prochaine étape.'
   );
 }
 
-  document.querySelectorAll('.quick-card').forEach(button => {
-    button.addEventListener('click', () => {
-      const action = button.dataset.action;
-
-      // Redirection pour les Leçons
-      if (action === 'lecons') {
-        window.location.href = 'lessons.html';
-        return;
-      }
-
-        // Redirection pour Dimanche
-        if (action === 'dimanche') {
-          window.location.href = 'dimanche.html';
-          return;
-        }
-
-        // Redirection pour Prière
-        if (action === 'priere') {
-          window.location.href = 'priere.html';
-          return;
-        }
-    });
+document.querySelectorAll('.quick-card').forEach(button => {
+  button.addEventListener('click', () => {
+    const action = button.dataset.action;
+    if (action === 'lecons')   { window.location.href = 'lessons.html';   return; }
+    if (action === 'dimanche') { window.location.href = 'dimanche.html';  return; }
+    if (action === 'priere')   { window.location.href = 'priere.html';    return; }
   });
+});
 
 document.querySelectorAll('.nav-item').forEach(button => {
   button.addEventListener('click', () => {
     const destination = button.dataset.nav;
-
     if (destination === 'accueil') return;
-
     if (destination === 'bibliotheque') {
       window.location.href = 'categories.html';
       return;
     }
-
     alert(
-      {
-        recherche: 'Recherche',
-        plus: 'Plus'
-      }[destination] +
+      { recherche: 'Recherche', plus: 'Plus' }[destination] +
       '\n\nCette section sera construite ensuite.'
     );
   });
@@ -193,9 +164,7 @@ $voirTout.addEventListener('click', () => {
 });
 
 $recherche.addEventListener('keydown', event => {
-  if (event.key === 'Enter') {
-    lancerRecherche();
-  }
+  if (event.key === 'Enter') lancerRecherche();
 });
 
 chargerCantiques();

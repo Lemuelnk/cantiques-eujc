@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "corpus_status": "draft",
+  "taxonomy": {
+    "domain": "dimanche",
+    "category_id": "dimanche-egares",
+    "category_label": "Sacrifice des égarés",
+    "lesson_id": null,
+    "lesson_label": null
+  },
+  "hymns": []
+}
