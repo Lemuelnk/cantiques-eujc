@@ -138,20 +138,29 @@ function lancerRecherche() {
   );
 }
 
-document.querySelectorAll('.quick-card').forEach(button => {
-  button.addEventListener('click', () => {
-    const action = button.dataset.action;
+  document.querySelectorAll('.quick-card').forEach(button => {
+    button.addEventListener('click', () => {
+      const action = button.dataset.action;
 
-    alert(
-      {
-        lecons: 'Leçons du Chemin',
-        dimanche: 'Cantiques du Dimanche',
-        priere: 'Cantiques de prière'
-      }[action] +
-      '\n\nL’écran correspondant sera raccordé ensuite.'
-    );
+      // Redirection pour les Leçons
+      if (action === 'lecons') {
+        window.location.href = 'lessons.html';
+        return;
+      }
+
+        // Redirection pour Dimanche
+        if (action === 'dimanche') {
+          window.location.href = 'dimanche.html';
+          return;
+        }
+
+        // Redirection pour Prière
+        if (action === 'priere') {
+          window.location.href = 'priere.html';
+          return;
+        }
+    });
   });
-});
 
 document.querySelectorAll('.nav-item').forEach(button => {
   button.addEventListener('click', () => {
