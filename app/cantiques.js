@@ -64,6 +64,18 @@ function createHymnRow(hymn) {
 
   content.append(title, meta);
 
+  // ---- Badge "N langues" (si plusieurs versions) ----
+  if (display.versionCount > 1) {
+    const badge = document.createElement('span');
+    badge.className = 'version-badge';
+    badge.setAttribute('aria-label',
+      `${display.versionCount} versions linguistiques disponibles`);
+    badge.innerHTML =
+      '<i data-lucide="languages"></i>' +
+      `<span>${display.versionCount} langues</span>`;
+    content.append(badge);
+  }
+
   // ---- Bouton favori ----
   const favorite = document.createElement('button');
   favorite.className = 'favorite-button';

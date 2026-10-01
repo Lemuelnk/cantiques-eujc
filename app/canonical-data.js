@@ -66,6 +66,8 @@ function getHymnDisplay(hymn) {
   const source = version?.source || {};
   const verseCount = countBlocks(version, 'verse');
 
+  const versions = Array.isArray(hymn.versions) ? hymn.versions : [];
+
   return {
     id: hymn.id,
     title: version?.title || hymn.title,
@@ -73,7 +75,12 @@ function getHymnDisplay(hymn) {
     sourceNumber: source.number,
     sourcePosition: source.position,
     verseCount,
-    version
+    version,
+    versionCount: versions.length,
+    languages: versions.map(v => ({
+      code: v?.language?.code || null,
+      label: getLanguageLabel(v)
+    }))
   };
 }
 
