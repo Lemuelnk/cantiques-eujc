@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#0d2e22">
+  <meta name="description" content="Signaler un problème sur un cantique — Cantiques EUJC">
+  <title>Signaler un problème — Cantiques EUJC</title>
+
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="style.css?v=26">
+  <link rel="stylesheet" href="signaler.css?v=26">
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit" async defer></script>
+</head>
+<body>
+
+  <main class="report-page">
+
+    <!-- HEADER -->
+    <header class="report-header">
+      <button class="icon-button" id="back-button" aria-label="Retour" type="button">
+        <i data-lucide="arrow-left"></i>
+      </button>
+
+      <div class="report-header-title">
+        <h1>Signaler un problème</h1>
+        <span id="report-context">Chargement…</span>
+      </div>
+
+      <span class="header-spacer" aria-hidden="true"></span>
+    </header>
+
+    <!-- CONTENU -->
+    <section class="report-content">
+
+      <!-- Chargement -->
+      <div class="report-loading" id="report-loading">
+        Chargement du cantique…
+      </div>
+
+      <!-- FORMULAIRE -->
+      <form id="report-form" hidden>
+
+        <!-- Indicateur d'étape -->
+        <div class="report-stepper" aria-hidden="true">
+          <span class="report-step-dot is-active">1</span>
+          <span class="report-step-line"></span>
+          <span class="report-step-dot">2</span>
+          <span class="report-step-line"></span>
+          <span class="report-step-dot">3</span>
+        </div>
+        <p class="report-step-label">Étape 1 sur 3 · Choisir le type</p>
+
+        <!-- Choix du mode -->
+        <div class="report-mode-toggle" role="tablist">
+          <button
+            type="button"
+            class="report-mode-btn is-active"
+            data-mode="signaler"
+            role="tab"
+            aria-selected="true"
+          >
+            <i data-lucide="flag"></i>
+            <span>Signaler</span>
+          </button>
+          <button
+            type="button"
+            class="report-mode-btn"
+            data-mode="correction"
+            role="tab"
+            aria-selected="false"
+          >
+            <i data-lucide="pencil"></i>
+            <span>Proposer une correction</span>
+          </button>
+        </div>
+
+        <!-- Étape 1 : Type -->
+        <fieldset class="report-step">
+          <legend>Quel est le problème ?</legend>
+
+          <p class="report-intro">
+            Choisissez ce qui ne va pas dans ce cantique. Nous examinerons votre signalement pour l'améliorer.
+          </p>
+
+          <div class="report-types" id="report-types" role="radiogroup">
+            <button type="button" class="report-type-card" data-type="orthographe">
+              <i data-lucide="spell-check-2"></i>
+              <span>Orthographe</span>
+              <small>Faute de frappe dans les paroles</small>
+            </button>
+            <button type="button" class="report-type-card" data-type="traduction">
+              <i data-lucide="languages"></i>
+              <span>Traduction</span>
+              <small>Mauvaise langue ou traduction incorrecte</small>
+            </button>
+            <button type="button" class="report-type-card" data-type="titre">
+              <i data-lucide="heading"></i>
+              <span>Titre</span>
+              <small>Le titre est faux ou incomplet</small>
+            </button>
+            <button type="button" class="report-type-card" data-type="couplet">
+              <i data-lucide="list-ordered"></i>
+              <span>Couplet</span>
+              <small>Un couplet précis est mal écrit</small>
+            </button>
+            <button type="button" class="report-type-card" data-type="refrain">
+              <i data-lucide="music"></i>
+              <span>Refrain</span>
+              <small>Le refrain contient une erreur</small>
+            </button>
+            <button type="button" class="report-type-card" data-type="ordre">
+              <i data-lucide="arrow-up-down"></i>
+              <span>Ordre</span>
+              <small>Les blocs ne sont pas dans le bon ordre</small>
+            </button>
+            <button type="button" class="report-type-card" data-type="categorie">
+              <i data-lucide="folder-x"></i>
+              <span>Catégorie</span>
+              <small>Ce cantique appartient à une autre catégorie</small>
+            </button>
+            <button type="button" class="report-type-card" data-type="autre">
+              <i data-lucide="more-horizontal"></i>
+              <span>Autre</span>
+              <small>Autre problème à décrire</small>
+            </button>
+          </div>
+        </fieldset>
+
+        <!-- Étape 2 : Détails -->
+        <fieldset class="report-step" id="report-details-step" hidden>
+          <legend id="report-details-title">Détails</legend>
+
+          <!-- Sélection du bloc concerné (couplet / refrain / commentaire) -->
+          <div class="report-field" id="report-target-select" hidden>
+            <label for="report-target">Bloc concerné</label>
+            <select id="report-target"></select>
+          </div>
+
+          <!-- Texte actuel (lecture) -->
+          <div class="report-field" id="report-current-block" hidden>
+            <label>Texte actuel</label>
+            <div class="report-current-text" id="report-current-text"></div>
+          </div>
+
+          <!-- Correction proposée -->
+          <div class="report-field" id="report-proposed-block" hidden>
+            <label for="report-proposed">
+              Correction proposée
+              <span class="report-optional">(optionnel)</span>
+            </label>
+            <textarea id="report-proposed" rows="4" placeholder="Saisissez le texte corrigé…"></textarea>
+          </div>
+
+          <!-- Choix d'une nouvelle catégorie -->
+          <div class="report-field" id="report-category-block" hidden>
+            <label for="report-category">Bonne catégorie</label>
+            <select id="report-category"></select>
+          </div>
+
+          <!-- Aide contextuelle selon le type -->
+          <div class="report-hint-block" id="report-hint-block" hidden>
+            <i data-lucide="lightbulb"></i>
+            <p id="report-hint-text"></p>
+          </div>
+
+          <!-- Description -->
+          <div class="report-field">
+            <label for="report-message">
+              <span id="report-message-label">Description</span>
+              <span class="report-required" id="report-message-req">*</span>
+            </label>
+            <textarea
+              id="report-message"
+              rows="5"
+              placeholder="Soyez précis : quel mot, quel passage, quelle phrase ?"
+              required
+            ></textarea>
+          </div>
+        </fieldset>
+
+        <!-- Étape 3 : Contact -->
+        <fieldset class="report-step" id="report-contact-step" hidden>
+          <legend>Vos coordonnées <span class="report-optional">(optionnel)</span></legend>
+          <p class="report-hint">Pour vous recontacter si nécessaire.</p>
+
+          <div class="report-field">
+            <label for="report-name">Nom</label>
+            <input type="text" id="report-name" placeholder="Votre nom" autocomplete="name">
+          </div>
+
+          <div class="report-field">
+            <label for="report-contact">Email ou WhatsApp</label>
+            <input type="text" id="report-contact" placeholder="votre@email.com" autocomplete="email">
+          </div>
+        </fieldset>
+
+        <!-- Statut -->
+        <p class="report-status" id="report-status" hidden></p>
+
+        <!-- Rassurance -->
+        <div class="report-reassurance">
+          <i data-lucide="shield-check"></i>
+          <p>Votre signalement sera lu par un administrateur et traité sous 7 jours.</p>
+        </div>
+
+        <!-- Actions -->
+        <div class="report-actions">
+          <button type="submit" class="report-btn" id="report-submit" disabled>
+            <i data-lucide="send"></i>
+            <span>Envoyer le signalement</span>
+          </button>
+        </div>
+
+        <!-- Turnstile invisible -->
+        <div id="turnstile-container"></div>
+      </form>
+
+      <!-- Confirmation -->
+      <div class="report-success" id="report-success" hidden>
+        <div class="success-icon">
+          <i data-lucide="check-circle-2"></i>
+        </div>
+        <h2>Merci pour votre signalement</h2>
+        <p>Nous l'examinerons dès que possible. Votre contribution aide à améliorer les cantiques pour toute la communauté.</p>
+        <button type="button" class="report-btn" id="report-back-to-hymn">
+          <i data-lucide="arrow-left"></i>
+          <span>Retour au cantique</span>
+        </button>
+      </div>
+
+    </section>
+  </main>
+
+  <script src="canonical-data.js?v=26"></script>
+  <script src="storage.js?v=26"></script>
+  <script src="signaler.js?v=26"></script>
+  <script src="sw-register.js?v=26"></script>
+</body>
+</html>

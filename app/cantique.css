@@ -1,99 +1,477 @@
+/* ============================================================
+   Cantiques EUJC — Détail d'un cantique
+   ============================================================ */
+
+:root {
+  --hymn-bg:        #f7f7f3;
+  --hymn-bg-dark:   #0d2e22;
+  --hymn-card:      #ffffff;
+  --hymn-text:      #0d2e22;
+  --hymn-muted:     #7a8580;
+  --hymn-gold:      #c9a44a;
+  --hymn-gold-soft: #f3e9c9;
+  --hymn-border:    rgba(13, 46, 34, 0.08);
+  --hymn-font-size: 17px;
+}
+
+body {
+  background: var(--hymn-bg);
+}
+
 .hymn-detail-page {
-  width: 100%;
-  max-width: 720px;
   min-height: 100vh;
-  margin: 0 auto;
-  padding: 18px 20px 108px;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  /* Espace pour la barre d action (fixe) */
+  padding-bottom: calc(90px + env(safe-area-inset-bottom, 0px));
 }
 
+/* ------------------------------------------------------------
+   Header
+   ------------------------------------------------------------ */
 .hymn-detail-header {
-  display: grid;
-  grid-template-columns: 40px 1fr 40px;
+  display: flex;
   align-items: center;
-  margin-bottom: 24px;
+  justify-content: space-between;
+  padding: 12px 12px;
+  background: var(--hymn-bg);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  gap: 8px;
 }
 
-.hymn-detail-eyebrow {
-  margin: 0;
-  color: var(--teal);
-  font-family: "Montserrat", sans-serif;
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 1.1px;
-  text-align: center;
-  text-transform: uppercase;
+.hymn-detail-header .icon-button {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: none;
+  background: transparent;
+  color: var(--hymn-text);
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  transition: background 120ms ease;
 }
 
+.hymn-detail-header .icon-button:active {
+  background: rgba(13, 46, 34, 0.06);
+}
+
+.hymn-detail-header .icon-button svg {
+  width: 22px;
+  height: 22px;
+  stroke-width: 2;
+}
+
+.hymn-detail-header .header-actions {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.hymn-detail-header #btn-favorite.is-active {
+  color: var(--hymn-gold);
+}
+.hymn-detail-header #btn-favorite.is-active svg {
+  fill: currentColor;
+}
+
+/* ------------------------------------------------------------
+   Contenu principal
+   ------------------------------------------------------------ */
+#hymn-detail {
+  flex: 1;
+  padding: 8px 20px 24px;
+}
+
+/* --- Intro : numéro + titre + meta --- */
 .hymn-detail-intro {
-  margin-bottom: 24px;
+  margin-bottom: 20px;
 }
 
 .hymn-number-label {
-  margin: 0 0 7px;
-  color: var(--teal);
-  font-family: "Montserrat", sans-serif;
-  font-size: 12px;
-  font-weight: 700;
-}
-
-.hymn-detail-intro h1 {
-  margin: 0;
-  color: var(--deep-green);
-  font-family: "Montserrat", sans-serif;
-  font-size: clamp(24px, 7vw, 34px);
-  line-height: 1.2;
-}
-
-.hymn-metadata {
-  margin: 10px 0 0;
-  color: var(--muted);
   font-size: 13px;
-}
-
-.hymn-lyrics {
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-}
-
-.lyric-block {
-  padding: 17px;
-  border: 1px solid var(--border);
-  border-radius: 16px;
-  background: var(--surface);
-}
-
-.lyric-block h2 {
-  margin: 0 0 10px;
-  color: var(--teal);
-  font-family: "Montserrat", sans-serif;
-  font-size: 12px;
-  font-weight: 700;
+  font-weight: 600;
+  color: var(--hymn-gold);
+  letter-spacing: 1px;
+  margin: 0 0 6px;
   text-transform: uppercase;
 }
 
-.lyric-block-refrain {
-  border-color: rgba(0, 150, 136, 0.28);
-  background: rgba(0, 150, 136, 0.06);
+.hymn-detail-intro h1 {
+  font-family: "Montserrat", "Inter", sans-serif;
+  font-size: 26px;
+  font-weight: 800;
+  line-height: 1.15;
+  color: var(--hymn-text);
+  margin: 0 0 8px;
+  letter-spacing: -0.3px;
 }
 
-.lyric-block-comment {
-  border-style: dashed;
-  background: #fffcf6;
+.hymn-metadata {
+  font-size: 13.5px;
+  color: var(--hymn-muted);
+  margin: 0;
+}
+
+/* ------------------------------------------------------------
+   Onglets de versions
+   ------------------------------------------------------------ */
+.version-tabs {
+  display: flex;
+  gap: 8px;
+  margin: 18px 0 22px;
+  padding-bottom: 4px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.version-tabs::-webkit-scrollbar { display: none; }
+
+.version-tab {
+  flex: 0 0 auto;
+  padding: 10px 20px;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  background: #ececec;
+  color: var(--hymn-muted);
+  font-size: 14px;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 140ms ease;
+}
+
+.version-tab:active { transform: scale(0.96); }
+
+.version-tab.is-active {
+  background: var(--hymn-bg-dark);
+  color: #f5f0e6;
+}
+
+/* ------------------------------------------------------------
+   Blocs de paroles
+   ------------------------------------------------------------ */
+.hymn-lyrics {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: var(--hymn-font-size);
+  line-height: 1.65;
+  color: var(--hymn-text);
+}
+
+.lyric-block {
+  position: relative;
+}
+
+.lyric-block h2 {
+  font-family: "Montserrat", "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  color: var(--hymn-gold);
+  margin: 0 0 8px;
+}
+
+.lyric-lines {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
 }
 
 .lyric-lines p {
   margin: 0;
-  color: var(--text);
-  font-size: 16px;
-  line-height: 1.62;
-  white-space: pre-wrap;
+  line-height: 1.6;
 }
 
+/* --- Couplet numéroté (source_block / verse) --- */
+.lyric-block-source_block,
+.lyric-block-verse {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.lyric-block-source_block .lyric-lines,
+.lyric-block-verse .lyric-lines {
+  flex: 1;
+}
+
+.lyric-number {
+  flex: 0 0 22px;
+  padding-top: 1px;
+  font-family: "Montserrat", "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--hymn-text);
+  text-align: right;
+}
+
+/* --- Refrain : bloc beige --- */
+.lyric-block-refrain {
+  background: var(--hymn-gold-soft);
+  padding: 16px 18px;
+  border-radius: 12px;
+}
+
+.lyric-block-refrain h2 {
+  margin-bottom: 10px;
+}
+
+/* --- Commentaire : discret, en italique --- */
+.lyric-block-comment {
+  border-left: 3px solid var(--hymn-gold);
+  padding-left: 12px;
+  color: var(--hymn-muted);
+}
+
+.lyric-block-comment h2 {
+  color: var(--hymn-muted);
+}
+
+/* ------------------------------------------------------------
+   États vides / chargement
+   ------------------------------------------------------------ */
 .detail-loading,
 .detail-empty {
-  margin: 54px auto;
-  color: var(--muted);
-  font-size: 14px;
   text-align: center;
+  color: var(--hymn-muted);
+  padding: 40px 20px;
+  font-size: 14px;
+}
+
+/* ------------------------------------------------------------
+   Barre d'action bas
+   ------------------------------------------------------------ */
+.hymn-action-bar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 30;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  gap: 4px;
+  /* Padding bas SANS safe-area (déjà géré par la bottom-nav en dessous) */
+  padding: 8px 8px calc(8px + env(safe-area-inset-bottom, 0px));
+  /* Même teinte que la bottom-nav pour continuité visuelle */
+  background: rgba(255, 249, 240, 0.96);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-top: 1px solid var(--hymn-border);
+  /* Ombre légère vers le haut pour décoller du contenu */
+  box-shadow: 0 -4px 20px rgba(13, 46, 34, 0.06);
+}
+
+.action-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 8px 4px;
+  border: none;
+  background: transparent;
+  color: var(--hymn-text);
+  font-family: inherit;
+  font-size: 11px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 12px;
+  transition: background 120ms ease;
+}
+
+.action-btn:active {
+  background: rgba(13, 46, 34, 0.06);
+}
+
+.action-btn svg {
+  width: 20px;
+  height: 20px;
+  stroke-width: 2;
+}
+
+.action-btn-primary {
+  color: var(--hymn-gold);
+}
+
+/* ------------------------------------------------------------
+   Menu contextuel
+   ------------------------------------------------------------ */
+.hymn-menu-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 60;
+  animation: fadeIn 150ms ease;
+}
+
+.hymn-menu-sheet {
+  position: fixed;
+  left: 16px;
+  right: 16px;
+  bottom: calc(16px + env(safe-area-inset-bottom, 0px));
+  z-index: 61;
+  background: #fff;
+  border-radius: 18px;
+  padding: 8px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.18);
+  animation: slideUp 200ms ease;
+}
+
+.hymn-menu-sheet .menu-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  width: 100%;
+  padding: 14px 16px;
+  border: none;
+  border-radius: 12px;
+  background: transparent;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--hymn-text);
+  text-align: left;
+  cursor: pointer;
+}
+
+.hymn-menu-sheet .menu-item:active {
+  background: rgba(13, 46, 34, 0.06);
+}
+
+.hymn-menu-sheet .menu-item svg {
+  width: 20px;
+  height: 20px;
+  color: var(--hymn-muted);
+  flex: 0 0 auto;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ------------------------------------------------------------
+   Mode lecture (fond sombre)
+   ------------------------------------------------------------ */
+body.is-reading-mode {
+  background: #071a14;
+}
+
+body.is-reading-mode .hymn-detail-header,
+body.is-reading-mode #hymn-detail,
+body.is-reading-mode .hymn-detail-intro h1,
+body.is-reading-mode .hymn-lyrics,
+body.is-reading-mode .lyric-number {
+  color: #f5f0e6;
+  background: transparent;
+}
+
+body.is-reading-mode .hymn-detail-header {
+  background: #071a14;
+}
+
+body.is-reading-mode .icon-button {
+  color: #f5f0e6;
+}
+
+body.is-reading-mode .version-tab {
+  background: rgba(245, 240, 230, 0.1);
+  color: rgba(245, 240, 230, 0.7);
+}
+
+body.is-reading-mode .version-tab.is-active {
+  background: #f5f0e6;
+  color: #071a14;
+}
+
+body.is-reading-mode .lyric-block-refrain {
+  background: rgba(201, 164, 74, 0.16);
+}
+
+body.is-reading-mode .hymn-action-bar {
+  background: #0d2e22;
+  border-top-color: rgba(245, 240, 230, 0.1);
+}
+
+body.is-reading-mode .action-btn {
+  color: #f5f0e6;
+}
+
+/* ------------------------------------------------------------
+   Responsive
+   ------------------------------------------------------------ */
+@media (min-width: 768px) {
+  #hymn-detail {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 16px 32px 32px;
+  }
+  .hymn-detail-header {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 16px 32px;
+  }
+  .hymn-detail-intro h1 {
+    font-size: 32px;
+  }
+}
+
+/* ============================================================
+   BARRE "SIGNALER UN PROBLÈME" (ajoutée v13)
+   ============================================================ */
+.report-cta {
+  padding: 16px 20px 8px;
+  display: flex;
+  justify-content: center;
+}
+
+.report-cta-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border: 1px dashed rgba(13, 46, 34, 0.2);
+  border-radius: 10px;
+  background: transparent;
+  color: #7a8580;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 140ms ease;
+}
+
+.report-cta-btn svg {
+  width: 15px;
+  height: 15px;
+  stroke-width: 2;
+}
+
+.report-cta-btn:active {
+  background: rgba(201, 164, 74, 0.08);
+  border-color: rgba(201, 164, 74, 0.4);
+  color: #9c7b2e;
+}
+
+/* Adaptation au mode lecture (fond sombre) */
+body.is-reading-mode .report-cta-btn {
+  border-color: rgba(245, 240, 230, 0.25);
+  color: rgba(245, 240, 230, 0.6);
+}
+
+body.is-reading-mode .report-cta-btn:active {
+  color: #e8c56a;
+  border-color: rgba(201, 164, 74, 0.5);
 }

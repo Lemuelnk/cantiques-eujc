@@ -1,0 +1,644 @@
+/* ============================================================
+   Cantiques EUJC — Page Signaler un problème
+   ============================================================ */
+
+:root {
+  --rp-bg:        #f7f7f3;
+  --rp-bg-dark:   #0d2e22;
+  --rp-card:      #ffffff;
+  --rp-text:      #0d2e22;
+  --rp-muted:     #7a8580;
+  --rp-gold:      #c9a44a;
+  --rp-gold-soft: #f3e9c9;
+  --rp-border:    rgba(13, 46, 34, 0.08);
+  --rp-danger:    #a33030;
+}
+
+body {
+  background: var(--rp-bg);
+  margin: 0;
+}
+
+.report-page {
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: calc(24px + env(safe-area-inset-bottom, 0px));
+}
+
+/* ------------------------------------------------------------
+   Header
+   ------------------------------------------------------------ */
+.report-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 12px;
+  background: var(--rp-bg);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.report-header .icon-button {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: none;
+  background: transparent;
+  color: var(--rp-text);
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  flex: 0 0 auto;
+}
+
+.report-header .icon-button:active {
+  background: rgba(13, 46, 34, 0.06);
+}
+
+.report-header .icon-button svg {
+  width: 22px;
+  height: 22px;
+  stroke-width: 2;
+}
+
+.report-header-title {
+  flex: 1;
+  min-width: 0;
+}
+
+.report-header-title h1 {
+  font-family: "Montserrat", "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--rp-text);
+  margin: 0;
+  line-height: 1.2;
+}
+
+.report-header-title span {
+  display: block;
+  font-size: 13px;
+  color: var(--rp-muted);
+  margin-top: 2px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.report-header .header-spacer {
+  width: 42px;
+  flex: 0 0 auto;
+}
+
+/* ------------------------------------------------------------
+   Contenu
+   ------------------------------------------------------------ */
+.report-content {
+  flex: 1;
+  padding: 8px 20px 24px;
+  max-width: 680px;
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.report-loading {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--rp-muted);
+  font-size: 14px;
+}
+
+/* ------------------------------------------------------------
+   Étapes (fieldset)
+   ------------------------------------------------------------ */
+.report-step {
+  border: none;
+  padding: 0;
+  margin: 0 0 24px;
+}
+
+.report-step legend {
+  font-family: "Montserrat", "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--rp-text);
+  margin-bottom: 12px;
+  padding: 0;
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.report-optional {
+  font-weight: 400;
+  text-transform: none;
+  color: var(--rp-muted);
+  letter-spacing: 0;
+  font-size: 12px;
+}
+
+.report-required {
+  color: var(--rp-danger);
+}
+
+.report-hint {
+  font-size: 12.5px;
+  color: var(--rp-muted);
+  margin: -6px 0 12px;
+}
+
+/* ------------------------------------------------------------
+   Grille des types
+   ------------------------------------------------------------ */
+.report-types {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.report-type-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 14px 6px;
+  border: 1px solid var(--rp-border);
+  border-radius: 12px;
+  background: var(--rp-card);
+  color: var(--rp-text);
+  font-family: inherit;
+  font-size: 11.5px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+  cursor: pointer;
+  transition: all 140ms ease;
+}
+
+.report-type-card svg {
+  width: 20px;
+  height: 20px;
+  stroke-width: 2;
+  color: var(--rp-muted);
+  transition: color 140ms ease;
+}
+
+.report-type-card:active {
+  transform: scale(0.96);
+}
+
+.report-type-card.is-active {
+  background: var(--rp-bg-dark);
+  color: #f5f0e6;
+  border-color: var(--rp-bg-dark);
+}
+
+.report-type-card.is-active svg {
+  color: var(--rp-gold);
+}
+
+/* ------------------------------------------------------------
+   Champs de formulaire
+   ------------------------------------------------------------ */
+.report-field {
+  margin-bottom: 16px;
+}
+
+.report-field label {
+  display: block;
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--rp-text);
+  margin-bottom: 6px;
+}
+
+.report-field input[type="text"],
+.report-field textarea,
+.report-field select {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid var(--rp-border);
+  border-radius: 10px;
+  background: var(--rp-card);
+  color: var(--rp-text);
+  font-family: inherit;
+  font-size: 14.5px;
+  line-height: 1.4;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.report-field textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.report-field select {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%237a8580' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><polyline points='6 9 12 15 18 9'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  background-size: 16px;
+  padding-right: 36px;
+}
+
+.report-field input:focus,
+.report-field textarea:focus,
+.report-field select:focus {
+  outline: 2px solid var(--rp-bg-dark);
+  outline-offset: 1px;
+  border-color: var(--rp-bg-dark);
+}
+
+/* ------------------------------------------------------------
+   Texte actuel (lecture)
+   ------------------------------------------------------------ */
+.report-current-text {
+  padding: 12px 14px;
+  background: #fef6f6;
+  border: 1px solid #f3d6d6;
+  border-radius: 10px;
+  font-size: 14px;
+  color: #7a2e2e;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+/* ------------------------------------------------------------
+   Statut (feedback)
+   ------------------------------------------------------------ */
+.report-status {
+  margin: 12px 0;
+  padding: 12px 14px;
+  border-radius: 10px;
+  font-size: 13.5px;
+  line-height: 1.4;
+}
+
+.report-status.is-error {
+  background: #fef2f2;
+  border: 1px solid #f3d6d6;
+  color: var(--rp-danger);
+}
+
+.report-status.is-info {
+  background: #eef4ff;
+  border: 1px solid #cdddff;
+  color: #2952a3;
+}
+
+/* ------------------------------------------------------------
+   Bouton principal
+   ------------------------------------------------------------ */
+.report-actions {
+  margin-top: 20px;
+}
+
+.report-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  padding: 14px 18px;
+  border: none;
+  border-radius: 12px;
+  background: var(--rp-bg-dark);
+  color: #f5f0e6;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 140ms ease;
+}
+
+.report-btn svg {
+  width: 18px;
+  height: 18px;
+  stroke-width: 2;
+}
+
+.report-btn:active:not(:disabled) {
+  transform: scale(0.98);
+}
+
+.report-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+/* ------------------------------------------------------------
+   Turnstile (invisible) — conteneur caché
+   ------------------------------------------------------------ */
+#turnstile-container {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+/* ------------------------------------------------------------
+   Confirmation
+   ------------------------------------------------------------ */
+.report-success {
+  text-align: center;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.success-icon {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: rgba(46, 122, 74, 0.1);
+  color: #2e7a4a;
+  display: grid;
+  place-items: center;
+  margin-bottom: 8px;
+}
+
+.success-icon svg {
+  width: 36px;
+  height: 36px;
+  stroke-width: 2;
+}
+
+.report-success h2 {
+  font-family: "Montserrat", "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--rp-text);
+  margin: 0;
+}
+
+.report-success p {
+  font-size: 14.5px;
+  line-height: 1.55;
+  color: var(--rp-muted);
+  max-width: 380px;
+  margin: 0;
+}
+
+.report-success .report-btn {
+  margin-top: 16px;
+  width: auto;
+  padding: 12px 22px;
+}
+
+/* ------------------------------------------------------------
+   Responsive
+   ------------------------------------------------------------ */
+@media (max-width: 360px) {
+  .report-types {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .report-type-card {
+    font-size: 11px;
+    padding: 12px 4px;
+  }
+}
+
+@media (min-width: 768px) {
+  .report-types {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .report-header {
+    padding: 16px 32px;
+  }
+  .report-content {
+    padding: 16px 32px 32px;
+  }
+}
+
+/* ============================================================
+   FIX : respect de l'attribut [hidden] malgré display: flex
+   ============================================================ */
+#report-form[hidden],
+.report-success[hidden],
+.report-step[hidden],
+.report-field[hidden],
+.report-status[hidden] {
+  display: none !important;
+}
+
+/* ============================================================
+   TOGGLE Signaler / Proposer une correction
+   ============================================================ */
+.report-mode-toggle {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4px;
+  padding: 4px;
+  background: rgba(13, 46, 34, 0.06);
+  border-radius: 12px;
+  margin-bottom: 24px;
+}
+
+.report-mode-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 10px 8px;
+  border: none;
+  border-radius: 9px;
+  background: transparent;
+  color: #7a8580;
+  font-family: inherit;
+  font-size: 12.5px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+  cursor: pointer;
+  transition: all 160ms ease;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.report-mode-btn svg {
+  width: 16px;
+  height: 16px;
+  stroke-width: 2;
+  flex: 0 0 auto;
+}
+
+.report-mode-btn.is-active {
+  background: #fff;
+  color: #0d2e22;
+  box-shadow: 0 1px 4px rgba(13, 46, 34, 0.08);
+}
+
+.report-mode-btn:active {
+  transform: scale(0.97);
+}
+
+/* Responsive : sur très petits écrans, on empile */
+@media (max-width: 340px) {
+  .report-mode-toggle {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ============================================================
+   INTRO & STEPPER (v3)
+   ============================================================ */
+.report-intro {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #7a8580;
+  margin: -4px 0 16px;
+}
+
+.report-stepper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 0 0 8px;
+}
+
+.report-step-dot {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: rgba(13, 46, 34, 0.08);
+  color: #7a8580;
+  font-family: "Montserrat", "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  display: grid;
+  place-items: center;
+  transition: all 200ms ease;
+}
+
+.report-step-dot.is-active {
+  background: #0d2e22;
+  color: #e8c56a;
+}
+
+.report-step-line {
+  flex: 0 0 30px;
+  height: 2px;
+  background: rgba(13, 46, 34, 0.1);
+  border-radius: 1px;
+}
+
+.report-step-label {
+  text-align: center;
+  font-size: 12.5px;
+  color: #7a8580;
+  margin: 0 0 20px;
+  letter-spacing: 0.3px;
+}
+
+/* ============================================================
+   CARTES DE TYPE — micro-descriptions (v3)
+   ============================================================ */
+.report-type-card {
+  padding: 14px 8px 12px;
+  align-items: flex-start;
+  text-align: left;
+  justify-content: flex-start;
+  gap: 4px;
+}
+
+.report-type-card svg {
+  margin-bottom: 4px;
+}
+
+.report-type-card > span {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.report-type-card > small {
+  font-size: 10.5px;
+  font-weight: 400;
+  line-height: 1.3;
+  color: #7a8580;
+  margin-top: 2px;
+}
+
+.report-type-card.is-active > span {
+  color: #f5f0e6;
+}
+
+.report-type-card.is-active > small {
+  color: rgba(245, 240, 230, 0.75);
+}
+
+/* ============================================================
+   AIDE CONTEXTUELLE (v3)
+   ============================================================ */
+.report-hint-block {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  padding: 12px 14px;
+  margin: 0 0 16px;
+  border-radius: 10px;
+  background: rgba(201, 164, 74, 0.1);
+  border-left: 3px solid #c9a44a;
+}
+
+.report-hint-block svg {
+  width: 18px;
+  height: 18px;
+  flex: 0 0 18px;
+  color: #c9a44a;
+  stroke-width: 2;
+  margin-top: 1px;
+}
+
+.report-hint-block p {
+  font-size: 13.5px;
+  line-height: 1.45;
+  color: #6b5a2a;
+  margin: 0;
+}
+
+/* ============================================================
+   RASSURANCE (v3)
+   ============================================================ */
+.report-reassurance {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 12px 14px;
+  margin: 20px 0 16px;
+  border-radius: 10px;
+  background: rgba(46, 122, 74, 0.08);
+}
+
+.report-reassurance svg {
+  width: 20px;
+  height: 20px;
+  flex: 0 0 20px;
+  color: #2e7a4a;
+  stroke-width: 2;
+}
+
+.report-reassurance p {
+  font-size: 13px;
+  line-height: 1.4;
+  color: #2e7a4a;
+  margin: 0;
+}
+
+/* ============================================================
+   Responsive ajusté (v3)
+   ============================================================ */
+@media (max-width: 360px) {
+  .report-type-card > span { font-size: 12px; }
+  .report-type-card > small { font-size: 10px; }
+}
