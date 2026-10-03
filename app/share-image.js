@@ -17,7 +17,7 @@ let currentFormat = '1:1';
 // ============================================================
 // Palette (extraite de la charte)
 // ============================================================
-const P = {
+let P = {
   cream:       '#faf6ec',
   creamDark:   '#f2efe6',
   forest900:   '#081f19',
@@ -30,6 +30,25 @@ const P = {
   textMuted:   '#5a6660',
   textLight:   '#7b837e',
   refrain:     'rgba(184, 147, 90, 0.18)'
+};
+
+const SHARE_THEMES = {
+  cream: P,
+  forest: {
+    cream:'#081f19', creamDark:'#14392e', forest900:'#061711', forest700:'#081f19',
+    forest500:'#2d5f4f', gold:'#e4c37f', goldLight:'#f0dfb5', goldPale:'#f0dfb5',
+    text:'#faf6ec', textMuted:'#e0e7e1', textLight:'#b8c7bd', refrain:'rgba(240, 223, 181, 0.14)'
+  },
+  midnight: {
+    cream:'#101820', creamDark:'#18232d', forest900:'#0a1118', forest700:'#101820',
+    forest500:'#243b53', gold:'#e4c37f', goldLight:'#f0dfb5', goldPale:'#f0dfb5',
+    text:'#f7f4ed', textMuted:'#c5cbd2', textLight:'#a9b2bd', refrain:'rgba(228, 195, 127, 0.16)'
+  },
+  botanical: {
+    cream:'#f1f3e8', creamDark:'#e4e9d9', forest900:'#1e3027', forest700:'#263e32',
+    forest500:'#73866b', gold:'#8c7144', goldLight:'#b9a06a', goldPale:'#e4d8b6',
+    text:'#243128', textMuted:'#5e6b5e', textLight:'#7c8778', refrain:'rgba(115, 134, 107, 0.18)'
+  }
 };
 
 // ============================================================
@@ -151,7 +170,8 @@ function drawBookLogo(ctx, cx, cy, size, color) {
 // ============================================================
 // Dessin principal
 // ============================================================
-function drawImage(canvas, hymn, version, formatKey) {
+function drawImage(canvas, hymn, version, formatKey, themeKey = 'cream') {
+  P = SHARE_THEMES[themeKey] || SHARE_THEMES.cream;
   const fmt = SHARE_FORMATS[formatKey];
   const W = fmt.width;
   const H = fmt.height;
@@ -342,7 +362,7 @@ function drawImage(canvas, hymn, version, formatKey) {
   ctx.font = '500 13px "Open Sans", "Inter", sans-serif';
   ctx.fillStyle = P.goldLight;
   ctx.textAlign = 'right';
-  ctx.fillText('lnk-studio.com', W - 60, badgeY + badgeH / 2 + 4);
+  ctx.fillText(window.location.host || 'Cantiques EUJC', W - 60, badgeY + badgeH / 2 + 4);
 }
 
 function roundRect(ctx, x, y, w, h, r) {
@@ -359,9 +379,9 @@ function roundRect(ctx, x, y, w, h, r) {
 // API publique
 // ============================================================
 window.ShareImage = {
-  generate(canvas, hymn, version, formatKey) {
+  generate(canvas, hymn, version, formatKey, themeKey = 'cream') {
     currentFormat = formatKey;
-    drawImage(canvas, hymn, version, formatKey);
+    drawImage(canvas, hymn, version, formatKey, themeKey);
   },
 
   autoFormatFor(hymn) {
