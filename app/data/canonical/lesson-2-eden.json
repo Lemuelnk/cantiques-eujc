@@ -247,15 +247,7 @@
           "media": {
             "audio_present": true
           }
-        }
-      ]
-    },
-    {
-      "schema_version": "1.0",
-      "id": "2bf66cec-bf44-50a5-96a2-efe0fe0e0f2e",
-      "title": "AWALI MU EDENi",
-      "status": "review",
-      "versions": [
+        },
         {
           "id": "09bafb6c-3c8d-51fd-9bdc-186c588d7358",
           "language": {

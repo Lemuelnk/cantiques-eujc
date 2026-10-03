@@ -21,10 +21,10 @@
         {
           "id": "f240f279-e9c0-577f-be6d-19e162bf6d01",
           "language": {
-            "code": "sw",
-            "label": "Swahili",
+            "code": "lua",
+            "label": "Tshiluba",
             "status": "confirmed",
-            "detection": "auto"
+            "detection": "manual"
           },
           "title": "NDJIKUBIKILA MUKALENGA",
           "source": {
@@ -59,15 +59,7 @@
           "media": {
             "audio_present": false
           }
-        }
-      ]
-    },
-    {
-      "schema_version": "1.0",
-      "id": "f16198a4-f89c-535e-b3ce-e7d1f41ab1d8",
-      "title": "NDJIKUBIKILA MUKALENGA (Swahili)",
-      "status": "review",
-      "versions": [
+        },
         {
           "id": "9e6ac7e1-3499-55eb-88b1-c47a466cdc01",
           "language": {

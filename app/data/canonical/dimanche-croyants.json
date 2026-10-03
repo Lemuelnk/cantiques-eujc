@@ -501,56 +501,6 @@
     },
     {
       "schema_version": "1.0",
-      "id": "2d6ee7a1-b757-52fe-b9f2-79b815784732",
-      "title": "ENYI WAMINIFU",
-      "status": "review",
-      "versions": [
-        {
-          "id": "962272b6-aafe-5204-a91c-d3ae0f79188b",
-          "language": {
-            "code": "sw",
-            "label": "Swahili",
-            "status": "confirmed",
-            "detection": "auto"
-          },
-          "title": "ENYI WAMINIFU",
-          "source": {
-            "file": "chants_de_sac_de_croyants.html",
-            "position": 10,
-            "number": "210",
-            "reference": null
-          },
-          "taxonomy": {
-            "domain": "sunday",
-            "category_id": "dimanche-croyants",
-            "category_label": "Sacrifice des croyants",
-            "lesson_id": null,
-            "lesson_label": null
-          },
-          "content": [
-            {
-              "type": "source_block",
-              "lines": [
-                "1. Enyi waminifu jiazareni kwa kumufwata yesu mwana wa mungu."
-              ]
-            },
-            {
-              "type": "refrain",
-              "lines": [
-                "Eh jazareni kwa kumufwata yesu mwana wa mungu tukimufwata tuta wafanya wote wafuasi wake nayeye kanena neno lake nendeni mufanye wote wamataifa wote wafuasi wangu wani fwate mimi.",
-                "¨Wengine wakatii wao kumufwata yesu yupo nao katika taabu ¨2x ¨Kawafariji kawaokowa kwa mahasi zao yeye ni wokovu eh ¨2x",
-                "¨Ekalu ni humo watuonya leo kwa kumufwata yesu mwana wa mungu¨2x ¨tumufwate mioyoni mwetu mwana wa mungu atuokowe eh¨2x"
-              ]
-            }
-          ],
-          "media": {
-            "audio_present": false
-          }
-        }
-      ]
-    },
-    {
-      "schema_version": "1.0",
       "id": "b090e21f-a73f-5531-8987-ea237b5ca5d4",
       "title": "KUPANDA KWAKE YESU",
       "status": "review",
