@@ -1,398 +1,395 @@
 // ============================================================
 // Cantiques EUJC — Générateur d'image de partage
-// ============================================================
-// Dessine une image du cantique sur un canvas 2D.
-// 4 formats : 1:1 / 4:5 / 9:16 / 9:19
+// Composition adaptative : les paroles ne sont jamais tronquées.
+// Les formats indiquent une hauteur minimale ; la toile s'allonge
+// si le contenu ne tient pas, au lieu de supprimer des blocs.
 // ============================================================
 
 const SHARE_FORMATS = {
-  '1:1':  { width: 1080, height: 1080, maxCouplets: 1 },
-  '4:5':  { width: 1080, height: 1350, maxCouplets: 4 },
-  '9:16': { width: 1080, height: 1920, maxCouplets: 8 },
-  '9:19': { width: 1080, height: 2280, maxCouplets: 99 }
-};
-
-let currentFormat = '1:1';
-
-// ============================================================
-// Palette (extraite de la charte)
-// ============================================================
-let P = {
-  cream:       '#faf6ec',
-  creamDark:   '#f2efe6',
-  forest900:   '#081f19',
-  forest700:   '#14392e',
-  forest500:   '#2d5f4f',
-  gold:        '#b8935a',
-  goldLight:   '#e4c37f',
-  goldPale:    '#f0dfb5',
-  text:        '#1a1f1d',
-  textMuted:   '#5a6660',
-  textLight:   '#7b837e',
-  refrain:     'rgba(184, 147, 90, 0.18)'
+  '1:1':  { width: 1080, height: 1080 },
+  '4:5':  { width: 1080, height: 1350 },
+  '9:16': { width: 1080, height: 1920 },
+  '9:19': { width: 1080, height: 2280 }
 };
 
 const SHARE_THEMES = {
-  cream: P,
+  cream: {
+    background: '#faf6ec', headerStart: '#14392e', headerEnd: '#2d5f4f', footer: '#14392e',
+    title: '#14392e', text: '#1a1f1d', muted: '#5a6660', accent: '#b8935a',
+    accentLight: '#e4c37f', refrain: 'rgba(184, 147, 90, 0.18)', comment: '#5a6660'
+  },
   forest: {
-    cream:'#081f19', creamDark:'#14392e', forest900:'#061711', forest700:'#081f19',
-    forest500:'#2d5f4f', gold:'#e4c37f', goldLight:'#f0dfb5', goldPale:'#f0dfb5',
-    text:'#faf6ec', textMuted:'#e0e7e1', textLight:'#b8c7bd', refrain:'rgba(240, 223, 181, 0.14)'
+    background: '#081f19', headerStart: '#061711', headerEnd: '#2d5f4f', footer: '#061711',
+    title: '#faf6ec', text: '#faf6ec', muted: '#d0ddd4', accent: '#e4c37f',
+    accentLight: '#f0dfb5', refrain: 'rgba(240, 223, 181, 0.14)', comment: '#d0ddd4'
   },
   midnight: {
-    cream:'#101820', creamDark:'#18232d', forest900:'#0a1118', forest700:'#101820',
-    forest500:'#243b53', gold:'#e4c37f', goldLight:'#f0dfb5', goldPale:'#f0dfb5',
-    text:'#f7f4ed', textMuted:'#c5cbd2', textLight:'#a9b2bd', refrain:'rgba(228, 195, 127, 0.16)'
+    background: '#101820', headerStart: '#0a1118', headerEnd: '#243b53', footer: '#0a1118',
+    title: '#f7f4ed', text: '#f7f4ed', muted: '#c5cbd2', accent: '#e4c37f',
+    accentLight: '#f0dfb5', refrain: 'rgba(228, 195, 127, 0.16)', comment: '#c5cbd2'
   },
   botanical: {
-    cream:'#f1f3e8', creamDark:'#e4e9d9', forest900:'#1e3027', forest700:'#263e32',
-    forest500:'#73866b', gold:'#8c7144', goldLight:'#b9a06a', goldPale:'#e4d8b6',
-    text:'#243128', textMuted:'#5e6b5e', textLight:'#7c8778', refrain:'rgba(115, 134, 107, 0.18)'
+    background: '#f1f3e8', headerStart: '#1e3027', headerEnd: '#73866b', footer: '#263e32',
+    title: '#263e32', text: '#243128', muted: '#5e6b5e', accent: '#8c7144',
+    accentLight: '#b9a06a', refrain: 'rgba(115, 134, 107, 0.18)', comment: '#5e6b5e'
   }
 };
 
-// ============================================================
-// Attendre les polices
-// ============================================================
+const SHARE_BRAND = {
+  name: 'Cantiques EUJC',
+  tagline: 'Le recueil dans votre poche'
+};
+
 async function waitFonts() {
   if (document.fonts && document.fonts.ready) {
-    try { await document.fonts.ready; } catch(e) {}
+    try { await document.fonts.ready; } catch (_) {}
   }
 }
 
-// ============================================================
-// Choisir le format selon la longueur du cantique
-// ============================================================
-function autoFormatFor(hymn, selectedVersion = null) {
-  const version = selectedVersion || (hymn.versions && hymn.versions[0]) || {};
-  const content = version.content || [];
-  const nCouplets = content.filter(b => b.type === 'source_block' || b.type === 'verse').length;
-  const nTotal = content.length;
-
-  if (nTotal <= 2)  return '1:1';
-  if (nTotal <= 5)  return '4:5';
-  if (nTotal <= 9)  return '9:16';
-  return '9:19';
+function getBlocks(version) {
+  return (Array.isArray(version && version.content) ? version.content : []).map(function(block) {
+    return {
+      type: ['refrain', 'comment', 'verse', 'source_block'].includes(block.type) ? block.type : 'source_block',
+      number: block.number == null ? null : String(block.number),
+      lines: Array.isArray(block.lines) ? block.lines.map(function(line) { return String(line == null ? '' : line); }) : []
+    };
+  });
 }
 
-// ============================================================
-// Récupérer le texte de la version
-// ============================================================
-function extractBlocks(version) {
-  return (version.content || []).map(b => ({
-    type: b.type,
-    number: b.number || null,
-    lines: b.lines || []
-  }));
-}
-
-// ============================================================
-// Découper le texte en lignes selon la largeur max
-// ============================================================
 function wrapText(ctx, text, maxWidth) {
-  const words = String(text).split(/\s+/);
+  if (maxWidth <= 0) return [String(text || '')];
+  const words = String(text == null ? '' : text).split(/\s+/);
   const lines = [];
   let current = '';
 
   for (const word of words) {
-    const test = current ? current + ' ' + word : word;
-    if (ctx.measureText(test).width <= maxWidth) {
-      current = test;
-    } else {
-      if (current) lines.push(current);
-      current = word;
+    const candidate = current ? current + ' ' + word : word;
+    if (ctx.measureText(candidate).width <= maxWidth) {
+      current = candidate;
+      continue;
     }
+
+    if (current) lines.push(current);
+    current = '';
+    let fragment = '';
+
+    for (const char of word) {
+      const test = fragment + char;
+      if (fragment && ctx.measureText(test).width > maxWidth) {
+        lines.push(fragment);
+        fragment = char;
+      } else {
+        fragment = test;
+      }
+    }
+    current = fragment;
   }
+
   if (current) lines.push(current);
-  return lines;
+  return lines.length ? lines : [''];
 }
 
-// ============================================================
-// Dessin du logo (livre doré simplifié)
-// ============================================================
+function measureLines(ctx, sourceLines, maxWidth) {
+  return sourceLines.flatMap(function(line) { return wrapText(ctx, line, maxWidth); });
+}
+
+function setFont(ctx, weight, size, family) {
+  ctx.font = weight + ' ' + size + 'px ' + family;
+}
+
 function drawBookLogo(ctx, cx, cy, size, color) {
   ctx.save();
   ctx.strokeStyle = color;
-  ctx.lineWidth = Math.max(2, size * 0.02);
+  ctx.lineWidth = Math.max(2, size * 0.025);
   ctx.lineJoin = 'round';
   ctx.lineCap = 'round';
-
   const w = size;
-  const h = size * 0.75;
-  const left  = cx - w / 2;
+  const h = size * 0.7;
+  const left = cx - w / 2;
   const right = cx + w / 2;
-  const top   = cy - h / 2;
-  const bot   = cy + h / 2;
-  const spineTop = top + h * 0.10;
+  const top = cy - h / 2;
+  const bottom = cy + h / 2;
 
-  // Page gauche
   ctx.beginPath();
-  ctx.moveTo(cx, spineTop);
+  ctx.moveTo(cx, top + h * 0.08);
   ctx.lineTo(left, top);
-  ctx.lineTo(left, bot);
-  ctx.lineTo(cx, bot - h * 0.05);
+  ctx.lineTo(left, bottom);
+  ctx.lineTo(cx, bottom - h * 0.06);
   ctx.closePath();
   ctx.stroke();
 
-  // Page droite
   ctx.beginPath();
-  ctx.moveTo(cx, spineTop);
+  ctx.moveTo(cx, top + h * 0.08);
   ctx.lineTo(right, top);
-  ctx.lineTo(right, bot);
-  ctx.lineTo(cx, bot - h * 0.05);
+  ctx.lineTo(right, bottom);
+  ctx.lineTo(cx, bottom - h * 0.06);
   ctx.closePath();
   ctx.stroke();
 
-  // Reliure centrale
   ctx.beginPath();
-  ctx.moveTo(cx, spineTop);
-  ctx.lineTo(cx, bot - h * 0.05);
+  ctx.moveTo(cx, top + h * 0.08);
+  ctx.lineTo(cx, bottom - h * 0.06);
   ctx.stroke();
-
-  // Lignes décoratives
-  ctx.globalAlpha = 0.5;
-  ctx.lineWidth = Math.max(1, size * 0.012);
-  for (let i = 0; i < 3; i++) {
-    const y = top + h * 0.35 + i * h * 0.15;
-    ctx.beginPath();
-    ctx.moveTo(left + w * 0.10, y);
-    ctx.lineTo(cx - w * 0.08, y + h * 0.04);
-    ctx.stroke();
-    ctx.beginPath();
-    ctx.moveTo(cx + w * 0.08, y + h * 0.04);
-    ctx.lineTo(right - w * 0.10, y);
-    ctx.stroke();
-  }
-
   ctx.restore();
 }
 
-// ============================================================
-// Dessin principal
-// ============================================================
-function drawImage(canvas, hymn, version, formatKey, themeKey = 'cream') {
-  P = SHARE_THEMES[themeKey] || SHARE_THEMES.cream;
-  const fmt = SHARE_FORMATS[formatKey];
-  const W = fmt.width;
-  const H = fmt.height;
+function prepareLayout(ctx, hymn, version, width, scale) {
+  const marginX = Math.round(width * 0.075);
+  const contentWidth = width - marginX * 2;
+  const headerHeight = Math.round(170 * scale);
+  const footerHeight = Math.round(112 * scale);
+  const titleSize = Math.max(24, Math.round(39 * scale));
+  const numberSize = Math.max(15, Math.round(19 * scale));
+  const languageSize = Math.max(14, Math.round(17 * scale));
+  const bodySize = Math.max(16, Math.round(22 * scale));
+  const lineHeight = Math.round(bodySize * 1.48);
+  const smallSize = Math.max(13, Math.round(16 * scale));
+  const refrainLabelSize = Math.max(13, Math.round(16 * scale));
+  const gap = Math.round(24 * scale);
+  let y = headerHeight + Math.round(44 * scale);
+  const elements = [];
 
-  // Choisir l'échelle selon le format (limite Chrome Android ~4096px)
-  const SS = (H * 2 > 4000) ? 1 : 2;
-  canvas.width = W * SS;
-  canvas.height = H * SS;
-  canvas.style.width = '100%';
-  canvas.style.height = 'auto';
-  canvas.style.aspectRatio = `${W} / ${H}`;
-
-  const ctx = canvas.getContext('2d');
-  ctx.scale(SS, SS);
-
-  // ---- Fond ----
-  ctx.fillStyle = P.cream;
-  ctx.fillRect(0, 0, W, H);
-
-  // Bandeau décoratif en haut
-  const headerH = 200;
-  const grad = ctx.createLinearGradient(0, 0, 0, headerH);
-  grad.addColorStop(0, P.forest700);
-  grad.addColorStop(1, P.forest500);
-  ctx.fillStyle = grad;
-  ctx.fillRect(0, 0, W, headerH);
-
-  // ---- Logo + Nom en haut ----
-  const centerX = W / 2;
-
-  drawBookLogo(ctx, centerX, 90, 60, P.goldLight);
-
-  ctx.font = '700 34px "Montserrat", "Inter", sans-serif';
-  ctx.fillStyle = P.cream;
-  ctx.textAlign = 'center';
-  ctx.textBaseline = 'middle';
-  ctx.fillText('Cantiques EUJC', centerX, 148);
-
-  ctx.font = 'italic 18px "Cormorant Garamond", Georgia, serif';
-  ctx.fillStyle = 'rgba(250, 246, 236, 0.75)';
-  ctx.fillText('Le recueil dans votre poche', centerX, 178);
-
-  // ---- Numéro + Titre ----
-  let y = headerH + 70;
-
-  const sourceNum = version.source && version.source.number;
-  if (sourceNum) {
-    ctx.font = '700 20px "Montserrat", "Inter", sans-serif';
-    ctx.fillStyle = P.gold;
-    ctx.textAlign = 'center';
-    ctx.fillText(`N° ${sourceNum}`, centerX, y);
-    y += 40;
+  const sourceNumber = version && version.source ? version.source.number : null;
+  if (sourceNumber !== null && sourceNumber !== undefined && String(sourceNumber).trim()) {
+    elements.push({ type: 'source-number', text: 'N° ' + sourceNumber, y: y, size: numberSize });
+    y += Math.round(numberSize * 1.9);
   }
 
-  const title = (version.title || hymn.title || '').toUpperCase();
-  ctx.font = '800 40px "Playfair Display", Georgia, serif';
-  ctx.fillStyle = P.forest700;
-  ctx.textAlign = 'center';
+  const title = String((version && version.title) || (hymn && hymn.title) || '').trim();
+  setFont(ctx, '700', titleSize, '"Montserrat", "Inter", sans-serif');
+  const titleLines = wrapText(ctx, title, contentWidth);
+  elements.push({ type: 'title', lines: titleLines, y: y, size: titleSize });
+  y += titleLines.length * Math.round(titleSize * 1.22) + Math.round(12 * scale);
 
-  const titleLines = wrapText(ctx, title, W - 120);
-  for (const line of titleLines) {
-    ctx.fillText(line, centerX, y);
-    y += 48;
-  }
-  y += 8;
-
-  // ---- Langue ----
-  const lang = (version.language && version.language.label) || '';
-  if (lang) {
-    ctx.font = '500 18px "Open Sans", "Inter", sans-serif';
-    ctx.fillStyle = P.textMuted;
-    ctx.fillText(lang, centerX, y);
-    y += 50;
+  const language = String(version && version.language && version.language.label || '').trim();
+  if (language) {
+    elements.push({ type: 'language', text: language, y: y, size: languageSize });
+    y += Math.round(languageSize * 2.2);
   } else {
-    y += 20;
+    y += Math.round(12 * scale);
   }
 
-  // ---- Séparateur doré ----
-  ctx.strokeStyle = P.goldLight;
-  ctx.lineWidth = 2;
-  ctx.beginPath();
-  ctx.moveTo(centerX - 50, y);
-  ctx.lineTo(centerX + 50, y);
-  ctx.stroke();
-  y += 50;
+  elements.push({ type: 'divider', y: y });
+  y += Math.round(38 * scale);
 
-  // ---- Paroles ----
-  const blocks = extractBlocks(version);
-  const paddingX = 80;
-  const textMaxW = W - paddingX * 2;
-  const lineH = 32;
-
+  const blocks = getBlocks(version);
   for (const block of blocks) {
-    if (y > H - 220) break; // garde-fou
+    if (!block.lines.length) continue;
 
     if (block.type === 'refrain') {
-      // Bloc beige
-      const lines = [];
-      for (const raw of block.lines) {
-        const wrapped = wrapText(ctx, raw, textMaxW - 60);
-        lines.push(...wrapped);
-      }
-      const blockH = lines.length * lineH + 60;
+      setFont(ctx, '500', bodySize, '"Lora", "Open Sans", serif');
+      const lines = measureLines(ctx, block.lines, contentWidth - Math.round(38 * scale));
+      const labelHeight = Math.round(refrainLabelSize * 1.8);
+      const paddingY = Math.round(15 * scale);
+      const blockHeight = paddingY * 2 + labelHeight + lines.length * lineHeight;
+      elements.push({
+        type: 'refrain', lines: lines, y: y, height: blockHeight,
+        size: bodySize, labelSize: refrainLabelSize, lineHeight: lineHeight, paddingY: paddingY
+      });
+      y += blockHeight + gap;
+      continue;
+    }
 
-      ctx.fillStyle = P.refrain;
-      roundRect(ctx, paddingX - 20, y - 26, W - paddingX * 2 + 40, blockH, 16);
+    if (block.type === 'comment') {
+      setFont(ctx, 'italic', smallSize, '"Lora", Georgia, serif');
+      const lines = measureLines(ctx, block.lines, contentWidth);
+      const commentLineHeight = Math.round(smallSize * 1.5);
+      elements.push({ type: 'comment', lines: lines, y: y, size: smallSize, lineHeight: commentLineHeight });
+      y += lines.length * commentLineHeight + Math.round(18 * scale);
+      continue;
+    }
+
+    // Un source_block n'est jamais numéroté par déduction.
+    // Un verse n'affiche un numéro que si la donnée en fournit un.
+    const hasExplicitNumber = block.type === 'verse' && block.number !== null;
+    const numberGutter = hasExplicitNumber ? Math.round(46 * scale) : 0;
+    setFont(ctx, '500', bodySize, '"Lora", "Open Sans", serif');
+    const lines = measureLines(ctx, block.lines, contentWidth - numberGutter);
+    elements.push({
+      type: block.type, number: hasExplicitNumber ? block.number : null,
+      lines: lines, y: y, size: bodySize, lineHeight: lineHeight, numberGutter: numberGutter
+    });
+    y += lines.length * lineHeight + Math.round(22 * scale);
+  }
+
+  return {
+    width: width, scale: scale, marginX: marginX, contentWidth: contentWidth,
+    headerHeight: headerHeight, footerHeight: footerHeight,
+    elements: elements, requiredHeight: Math.ceil(y + Math.round(30 * scale) + footerHeight)
+  };
+}
+
+function drawLines(ctx, lines, x, y, lineHeight) {
+  for (const line of lines) {
+    ctx.fillText(line, x, y);
+    y += lineHeight;
+  }
+}
+
+function drawComposition(canvas, hymn, version, formatKey, themeKey) {
+  const format = SHARE_FORMATS[formatKey] || SHARE_FORMATS['1:1'];
+  const palette = SHARE_THEMES[themeKey] || SHARE_THEMES.cream;
+  const width = format.width;
+  const measureCanvas = document.createElement('canvas');
+  const measureCtx = measureCanvas.getContext('2d');
+
+  let scale = 1;
+  let layout = prepareLayout(measureCtx, hymn, version, width, scale);
+  while (layout.requiredHeight > format.height && scale > 0.68) {
+    scale = Math.max(0.68, scale - 0.04);
+    layout = prepareLayout(measureCtx, hymn, version, width, scale);
+  }
+
+  // La hauteur s'adapte au texte : aucun break/cutoff de paroles.
+  const height = Math.max(format.height, layout.requiredHeight);
+  const pixelRatio = height > 2600 ? 1 : 2;
+  canvas.width = width * pixelRatio;
+  canvas.height = height * pixelRatio;
+  canvas.style.width = '100%';
+  canvas.style.height = 'auto';
+  canvas.style.aspectRatio = width + ' / ' + height;
+
+  const ctx = canvas.getContext('2d');
+  ctx.scale(pixelRatio, pixelRatio);
+  ctx.textBaseline = 'top';
+  ctx.fillStyle = palette.background;
+  ctx.fillRect(0, 0, width, height);
+
+  const headerGradient = ctx.createLinearGradient(0, 0, 0, layout.headerHeight);
+  headerGradient.addColorStop(0, palette.headerStart);
+  headerGradient.addColorStop(1, palette.headerEnd);
+  ctx.fillStyle = headerGradient;
+  ctx.fillRect(0, 0, width, layout.headerHeight);
+
+  const centerX = width / 2;
+  drawBookLogo(ctx, centerX, Math.round(42 * scale), Math.round(44 * scale), palette.accentLight);
+
+  setFont(ctx, '700', Math.round(29 * scale), '"Montserrat", "Inter", sans-serif');
+  ctx.textAlign = 'center';
+  ctx.fillStyle = '#faf6ec';
+  ctx.fillText(SHARE_BRAND.name, centerX, Math.round(70 * scale));
+
+  setFont(ctx, 'italic', Math.round(15 * scale), '"Cormorant Garamond", Georgia, serif');
+  ctx.fillStyle = 'rgba(250, 246, 236, 0.82)';
+  ctx.fillText(SHARE_BRAND.tagline, centerX, Math.round(104 * scale));
+
+  for (const element of layout.elements) {
+    if (element.type === 'source-number') {
+      setFont(ctx, '700', element.size, '"Montserrat", "Inter", sans-serif');
+      ctx.fillStyle = palette.accent;
+      ctx.textAlign = 'center';
+      ctx.fillText(element.text, centerX, element.y);
+    } else if (element.type === 'title') {
+      setFont(ctx, '700', element.size, '"Montserrat", "Inter", sans-serif');
+      ctx.fillStyle = palette.title;
+      ctx.textAlign = 'center';
+      drawLines(ctx, element.lines, centerX, element.y, Math.round(element.size * 1.22));
+    } else if (element.type === 'language') {
+      setFont(ctx, '500', element.size, '"Open Sans", "Inter", sans-serif');
+      ctx.fillStyle = palette.muted;
+      ctx.textAlign = 'center';
+      ctx.fillText(element.text, centerX, element.y);
+    } else if (element.type === 'divider') {
+      ctx.strokeStyle = palette.accentLight;
+      ctx.lineWidth = 2;
+      ctx.beginPath();
+      ctx.moveTo(centerX - 42, element.y);
+      ctx.lineTo(centerX + 42, element.y);
+      ctx.stroke();
+    } else if (element.type === 'refrain') {
+      const x = layout.marginX - 14;
+      const boxWidth = width - x * 2;
+      ctx.fillStyle = palette.refrain;
+      roundRect(ctx, x, element.y, boxWidth, element.height, 16);
       ctx.fill();
 
-      ctx.font = '700 18px "Montserrat", "Inter", sans-serif';
-      ctx.fillStyle = P.gold;
+      setFont(ctx, '700', element.labelSize, '"Montserrat", "Inter", sans-serif');
+      ctx.fillStyle = palette.accent;
       ctx.textAlign = 'left';
-      ctx.fillText('REFRAIN', paddingX, y);
-      y += 34;
+      let textY = element.y + element.paddingY;
+      ctx.fillText('REFRAIN', layout.marginX, textY);
+      textY += Math.round(element.labelSize * 1.8);
 
-      ctx.font = '500 22px "Lora", "Open Sans", serif';
-      ctx.fillStyle = P.text;
-      for (const l of lines) {
-        ctx.fillText(l, paddingX, y);
-        y += lineH;
-      }
-      y += 30;
-    } else if (block.type === 'comment') {
-      // Commentaire : petit, italique, à gauche
-      ctx.font = 'italic 18px "Lora", Georgia, serif';
-      ctx.fillStyle = P.textMuted;
+      setFont(ctx, '500', element.size, '"Lora", "Open Sans", serif');
+      ctx.fillStyle = palette.text;
+      drawLines(ctx, element.lines, layout.marginX, textY, element.lineHeight);
+    } else if (element.type === 'comment') {
+      setFont(ctx, 'italic', element.size, '"Lora", Georgia, serif');
+      ctx.fillStyle = palette.comment;
       ctx.textAlign = 'left';
-      for (const raw of block.lines) {
-        const wrapped = wrapText(ctx, raw, textMaxW);
-        for (const l of wrapped) {
-          ctx.fillText(l, paddingX, y);
-          y += 26;
-        }
-      }
-      y += 20;
+      drawLines(ctx, element.lines, layout.marginX, element.y, element.lineHeight);
     } else {
-      // Couplet avec numéro
-      const numMatch = block.lines[0] && block.lines[0].match(/^(\d+)\.\s*/);
-      const num = numMatch ? numMatch[1] : null;
-      const startIdx = numMatch ? 0 : 0;
-      const lines = [];
-
-      for (let i = startIdx; i < block.lines.length; i++) {
-        let raw = block.lines[i];
-        if (i === 0 && numMatch) raw = raw.replace(/^\d+\.\s*/, '');
-        const wrapped = wrapText(ctx, raw, textMaxW - (num ? 40 : 0));
-        lines.push(...wrapped);
-      }
-
       ctx.textAlign = 'left';
-      if (num) {
-        ctx.font = '700 22px "Montserrat", "Inter", sans-serif';
-        ctx.fillStyle = P.forest700;
-        ctx.fillText(`${num}.`, paddingX, y);
+      if (element.number !== null) {
+        setFont(ctx, '700', Math.round(element.size * 0.94), '"Montserrat", "Inter", sans-serif');
+        ctx.fillStyle = palette.title;
+        ctx.fillText(element.number + '.', layout.marginX, element.y);
       }
-
-      ctx.font = '500 22px "Lora", "Open Sans", serif';
-      ctx.fillStyle = P.text;
-      const textX = paddingX + (num ? 40 : 0);
-      for (const l of lines) {
-        ctx.fillText(l, textX, y);
-        y += lineH;
-      }
-      y += 26;
+      setFont(ctx, '500', element.size, '"Lora", "Open Sans", serif');
+      ctx.fillStyle = palette.text;
+      drawLines(ctx, element.lines, layout.marginX + element.numberGutter, element.y, element.lineHeight);
     }
   }
 
-  // ---- Badge bas de page ----
-  const badgeH = 140;
-  const badgeY = H - badgeH;
+  const footerY = height - layout.footerHeight;
+  const footerCenterY = footerY + layout.footerHeight / 2;
+  ctx.fillStyle = palette.footer;
+  ctx.fillRect(0, footerY, width, layout.footerHeight);
+  drawBookLogo(ctx, 64, footerCenterY, 36, palette.accentLight);
 
-  ctx.fillStyle = P.forest700;
-  ctx.fillRect(0, badgeY, W, badgeH);
-
-  // Logo mini + texte
-  drawBookLogo(ctx, 100, badgeY + badgeH / 2, 44, P.goldLight);
-
-  ctx.font = '700 22px "Montserrat", "Inter", sans-serif';
-  ctx.fillStyle = P.cream;
+  setFont(ctx, '700', 18, '"Montserrat", "Inter", sans-serif');
+  ctx.fillStyle = '#faf6ec';
   ctx.textAlign = 'left';
-  ctx.textBaseline = 'middle';
-  ctx.fillText('Cantiques EUJC', 150, badgeY + badgeH / 2 - 10);
+  ctx.fillText(SHARE_BRAND.name, 96, footerCenterY - 18);
 
-  ctx.font = 'italic 14px "Cormorant Garamond", Georgia, serif';
-  ctx.fillStyle = 'rgba(250, 246, 236, 0.7)';
-  ctx.fillText('Le recueil dans votre poche', 150, badgeY + badgeH / 2 + 16);
+  setFont(ctx, 'italic', 13, '"Cormorant Garamond", Georgia, serif');
+  ctx.fillStyle = 'rgba(250, 246, 236, 0.78)';
+  ctx.fillText(SHARE_BRAND.tagline, 96, footerCenterY + 7);
 
-  // Lien site
-  ctx.font = '500 13px "Open Sans", "Inter", sans-serif';
-  ctx.fillStyle = P.goldLight;
+  setFont(ctx, '500', 12, '"Open Sans", "Inter", sans-serif');
+  ctx.fillStyle = palette.accentLight;
   ctx.textAlign = 'right';
-  ctx.fillText(window.location.host || 'Cantiques EUJC', W - 60, badgeY + badgeH / 2 + 4);
+  ctx.fillText(window.location.host || 'Cantiques EUJC', width - 42, footerCenterY - 6);
 }
 
-function roundRect(ctx, x, y, w, h, r) {
+function roundRect(ctx, x, y, width, height, radius) {
   ctx.beginPath();
-  ctx.moveTo(x + r, y);
-  ctx.arcTo(x + w, y, x + w, y + h, r);
-  ctx.arcTo(x + w, y + h, x, y + h, r);
-  ctx.arcTo(x, y + h, x, y, r);
-  ctx.arcTo(x, y, x + w, y, r);
+  ctx.moveTo(x + radius, y);
+  ctx.arcTo(x + width, y, x + width, y + height, radius);
+  ctx.arcTo(x + width, y + height, x, y + height, radius);
+  ctx.arcTo(x, y + height, x, y);
+  ctx.arcTo(x, y, x + width, y + height, radius);
   ctx.closePath();
 }
 
-// ============================================================
-// API publique
-// ============================================================
+function autoFormatFor(hymn, selectedVersion) {
+  const version = selectedVersion || (hymn && hymn.versions && hymn.versions[0]) || {};
+  const blocks = getBlocks(version);
+  const characters = blocks.reduce(function(total, block) {
+    return total + block.lines.reduce(function(sum, line) { return sum + line.length; }, 0);
+  }, 0);
+
+  if (characters < 240 && blocks.length <= 3) return '1:1';
+  if (characters < 650 && blocks.length <= 6) return '4:5';
+  if (characters < 1500 && blocks.length <= 10) return '9:16';
+  return '9:19';
+}
+
 window.ShareImage = {
-  generate(canvas, hymn, version, formatKey, themeKey = 'cream') {
-    currentFormat = formatKey;
-    drawImage(canvas, hymn, version, formatKey, themeKey);
+  generate: function(canvas, hymn, version, formatKey, themeKey) {
+    drawComposition(canvas, hymn, version, formatKey, themeKey || 'cream');
   },
-
-  autoFormatFor(hymn, selectedVersion = null) {
-    return autoFormatFor(hymn, selectedVersion);
-  },
-
-  waitFonts,
-
-  async toBlob(canvas) {
-    return new Promise(resolve => canvas.toBlob(resolve, 'image/png', 0.92));
+  autoFormatFor: autoFormatFor,
+  waitFonts: waitFonts,
+  toBlob: async function(canvas) {
+    return new Promise(function(resolve) {
+      if (!canvas || typeof canvas.toBlob !== 'function') {
+        resolve(null);
+        return;
+      }
+      canvas.toBlob(resolve, 'image/png');
+    });
   }
 };
 
-console.log('[ShareImage] Chargé');
+console.log('[ShareImage] Générateur adaptatif chargé');
