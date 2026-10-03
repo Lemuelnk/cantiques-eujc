@@ -7,11 +7,19 @@ corrected/
 # Fichiers de développement / backups
 *.bak
 *.bak2
+*.bak3
 *.bak-*
 *.casse
 *.tmp
 _backups/
 __pycache__/
+
+# Scripts d'audit temporaires
+audit_*.py
+contrast_audit*.py
+
+# Pages de debug temporaires
+app/debug-preferences.html
 
 # Système
 .DS_Store

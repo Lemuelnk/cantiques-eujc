@@ -31,17 +31,20 @@
         <span>Bibliothèque</span>
       </a>
 
-      <button class="nav-item" type="button" data-nav="plus">
+      <a class="nav-item" href="plus.html" data-nav="plus">
         <span class="nav-icon" aria-hidden="true">
           <i data-lucide="ellipsis"></i>
         </span>
         <span>Plus</span>
-      </button>
+      </a>
 
     </nav>
   `;
 
   const page = window.location.pathname.split('/').pop() || 'index.html';
+
+  // Onglet actif par défaut : Accueil
+  let activeSection = 'accueil';
 
   if (['categories.html', 'lessons.html', 'cantiques.html', 'cantique.html',
        'dimanche.html', 'priere.html'].includes(page)) {
@@ -49,7 +52,7 @@
   } else if (['recherche.html', 'search.html'].includes(page)) {
     activeSection = 'recherche';
   } else if (['plus.html', 'favoris.html', 'historique.html',
-              'parametres.html'].includes(page)) {
+              'parametres.html', 'apropos.html'].includes(page)) {
     activeSection = 'plus';
   }
 

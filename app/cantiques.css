@@ -1,13 +1,13 @@
 :root {
-  --deep-green: #001a17;
-  --teal: #009688;
-  --cream: #fff9f0;
+  --deep-green: var(--p-forest-700);
+  --teal: var(--accent-teal);
+  --cream: var(--bg-page-alt);
   --orange: #ff7043;
   --yellow: #ffc107;
-  --text: #17201f;
-  --muted: #71807d;
-  --border: rgba(0, 26, 23, 0.09);
-  --surface: #ffffff;
+  --text: var(--text-primary);
+  --muted: var(--text-secondary);
+  --border: var(--border-soft);
+  --surface: var(--bg-elevated);
 }
 
 * {
@@ -57,7 +57,7 @@ button {
 
 .header-info h1 {
   margin: 0;
-  color: var(--deep-green);
+  color: var(--text-primary);
   font-family: "Montserrat", sans-serif;
   font-size: 17px;
   font-weight: 700;
@@ -83,11 +83,11 @@ button {
   align-items: center;
   justify-content: center;
   border-radius: 12px;
-  color: var(--deep-green);
+  color: var(--text-primary);
 }
 
 .icon-button:hover {
-  background: rgba(0, 150, 136, 0.08);
+  background: var(--hover-teal);
 }
 
 .icon-button svg {
@@ -177,7 +177,7 @@ button {
   align-items: center;
   justify-content: center;
   border-radius: 10px;
-  background: rgba(0, 150, 136, 0.09);
+  background: var(--hover-teal);
   color: var(--teal);
   font-family: "Montserrat", sans-serif;
   font-size: 11px;
@@ -191,7 +191,7 @@ button {
 .hymn-content h2 {
   margin: 0;
   overflow: hidden;
-  color: var(--deep-green);
+  color: var(--text-primary);
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 700;
@@ -229,7 +229,7 @@ button {
 .favorite-button {
   width: 38px;
   height: 38px;
-  color: #98a3a1;
+  color: var(--text-tertiary);
 }
 
 .favorite-button:hover {
@@ -267,7 +267,7 @@ button {
 
 .empty-state h2 {
   margin: 14px 0 6px;
-  color: var(--deep-green);
+  color: var(--text-primary);
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
 }
@@ -299,7 +299,7 @@ button {
   padding: 10px 16px 24px;
   border-radius: 24px 24px 0 0;
   background: var(--surface);
-  box-shadow: 0 -8px 32px rgba(0, 26, 23, 0.12);
+  box-shadow: 0 -8px 32px var(--shadow-medium);
   transform: translateY(100%);
   transition: transform 0.22s ease;
 }
@@ -324,7 +324,7 @@ button {
 
 .sort-header h2 {
   margin: 0;
-  color: var(--deep-green);
+  color: var(--text-primary);
   font-family: "Montserrat", sans-serif;
   font-size: 17px;
 }

@@ -158,17 +158,16 @@ document.querySelectorAll('.nav-item').forEach(button => {
     if (destination === 'bibliotheque') return;
     if (destination === 'recherche') return;
 
-    // 'plus' : à brancher plus tard
-    if (destination === 'plus') {
-      alert('Plus — écran à construire.');
-    }
+    // 'plus' est géré par un lien <a> natif
   });
 });
 
-document.getElementById('btn-parametres')
-  .addEventListener('click', () => {
-    alert('Paramètres — écran à construire.');
+const $btnParametres = document.getElementById('btn-parametres');
+if ($btnParametres) {
+  $btnParametres.addEventListener('click', () => {
+    window.location.href = 'parametres.html';
   });
+}
 
 const $btnFavoris = document.getElementById('btn-favoris');
 if ($btnFavoris) {

@@ -4,22 +4,6 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   document
-    .querySelectorAll('[data-nav="recherche"], [data-nav="plus"]')
-    .forEach(button => {
-      button.addEventListener('click', () => {
-        const destination = button.dataset.nav;
-
-        alert(
-          {
-            recherche: 'Recherche',
-            plus: 'Plus'
-          }[destination] +
-          '\n\nCette section sera construite ensuite.'
-        );
-      });
-    });
-
-  document
     .querySelectorAll('.category-row[href="#"]')
     .forEach(row => {
       row.addEventListener('click', event => {

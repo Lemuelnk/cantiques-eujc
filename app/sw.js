@@ -6,14 +6,33 @@
 //  - Fallback réseau si non trouvé en cache
 // ============================================================
 
-const VERSION = 'v3.6.0';
+const VERSION = 'v6.4.0';
 const CACHE_NAME = `cantiques-eujc-${VERSION}`;
 
 // Fichiers essentiels à pré-cacher
 const PRECACHE_URLS = [
   './splash.html',
   './splash.css',
+  './fonts.css',
+  './preferences.js',
   './index.html',
+  './parametres.html',
+  './parametres.css',
+  './parametres.js',
+  './recherche.html',
+  './recherche.css',
+  './recherche.js',
+  './favoris.html',
+  './favoris.css',
+  './favoris.js',
+  './historique.html',
+  './historique.css',
+  './historique.js',
+  './signaler.html',
+  './signaler.css',
+  './signaler.js',
+  './report-fab.css',
+  './report-fab.js',
   './style.css',
   './bottom-nav.css',
   './bottom-nav.js',

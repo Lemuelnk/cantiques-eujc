@@ -3,12 +3,12 @@
    ============================================================ */
 
 :root {
-  --sr-bg:      #f7f7f3;
-  --sr-card:    #ffffff;
-  --sr-text:    #0d2e22;
-  --sr-muted:   #7a8580;
-  --sr-gold:    #c9a44a;
-  --sr-border:  rgba(13, 46, 34, 0.08);
+  --sr-bg:      var(--bg-page);
+  --sr-card:    var(--bg-elevated);
+  --sr-text:    var(--text-primary);
+  --sr-muted:   var(--text-secondary);
+  --sr-gold:    var(--accent-gold);
+  --sr-border:  var(--border-soft);
 }
 
 body {
@@ -98,7 +98,7 @@ body {
 }
 
 .search-bar input::placeholder {
-  color: #b6bdb9;
+  color: var(--text-tertiary);
 }
 
 .search-bar input::-webkit-search-cancel-button {
@@ -162,7 +162,7 @@ body {
 
 .search-chip.is-active {
   background: var(--sr-text);
-  color: #f5f0e6;
+  color: var(--text-inverse);
   border-color: var(--sr-text);
 }
 
@@ -232,7 +232,7 @@ body {
   padding: 0 10px;
   border-radius: 10px;
   background: var(--sr-text);
-  color: #e8c56a;
+  color: var(--accent-gold);
   font-weight: 600;
   font-size: 15px;
   display: inline-flex;
@@ -285,7 +285,7 @@ body {
 
 .search-result-arrow {
   flex: 0 0 auto;
-  color: #b6bdb9;
+  color: var(--text-tertiary);
 }
 
 .search-result-arrow svg {
@@ -323,7 +323,7 @@ body {
   padding: 0 5px;
   border-radius: 999px;
   background: #c9a44a;
-  color: #0d2e22;
+  color: var(--text-primary);
   font-size: 10px;
   font-weight: 700;
   display: inline-flex;
@@ -349,7 +349,7 @@ body {
   right: 0;
   bottom: 0;
   z-index: 61;
-  background: #fff;
+  background: var(--bg-elevated);
   border-radius: 22px 22px 0 0;
   padding: 8px 20px calc(20px + env(safe-area-inset-bottom, 0px));
   box-shadow: 0 -8px 40px rgba(0, 0, 0, 0.15);
@@ -378,7 +378,7 @@ body {
   font-family: "Montserrat", "Inter", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  color: #0d2e22;
+  color: var(--text-primary);
   margin: 0;
 }
 
@@ -414,7 +414,7 @@ body {
 .filter-field label {
   font-size: 12.5px;
   font-weight: 600;
-  color: #7a8580;
+  color: var(--text-secondary);
   text-transform: uppercase;
   letter-spacing: 0.4px;
 }
@@ -424,8 +424,8 @@ body {
   padding: 12px 36px 12px 14px;
   border: 1px solid rgba(13, 46, 34, 0.12);
   border-radius: 10px;
-  background: #fff;
-  color: #0d2e22;
+  background: var(--bg-elevated);
+  color: var(--text-primary);
   font-family: inherit;
   font-size: 14.5px;
   line-height: 1.3;
@@ -441,7 +441,7 @@ body {
 .filter-field select:focus {
   outline: 2px solid #0d2e22;
   outline-offset: 1px;
-  border-color: #0d2e22;
+  border-color: var(--text-primary);
 }
 
 .filters-sheet-footer {
@@ -453,8 +453,8 @@ body {
   padding: 14px 18px;
   border: none;
   border-radius: 12px;
-  background: #0d2e22;
-  color: #f5f0e6;
+  background: var(--p-forest-700);
+  color: var(--text-inverse);
   font-family: inherit;
   font-size: 15px;
   font-weight: 600;

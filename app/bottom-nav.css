@@ -16,7 +16,7 @@
   grid-template-columns: repeat(4, 1fr);
 
   border-top: 1px solid var(--border);
-  background: rgba(255, 249, 240, 0.96);
+  background: var(--bg-page-translucent);
 
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
@@ -35,7 +35,7 @@
 
   border: 0;
   background: transparent;
-  color: #7b8582;
+  color: var(--text-secondary);
 
   font-family: "Open Sans", sans-serif;
   font-size: 9px;
@@ -64,12 +64,18 @@
 }
 
 .bottom-nav .nav-item.active {
-  color: var(--teal);
-  font-weight: 600;
+  color: var(--accent-gold-text);
+  font-weight: 700;
 }
 
 .bottom-nav .nav-item.active .nav-icon {
-  color: var(--deep-green);
+  color: var(--accent-gold);
+  transform: translateY(-1px);
+}
+
+.bottom-nav .nav-item.active .nav-icon svg {
+  stroke-width: 2.4;
+  filter: drop-shadow(0 1px 3px rgba(184, 147, 90, 0.35));
 }
 
 .bottom-nav .nav-item:active {

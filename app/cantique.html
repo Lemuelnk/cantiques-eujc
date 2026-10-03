@@ -3,13 +3,41 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <meta name="theme-color" content="#0d2e22">
+  <meta name="theme-color" content="#faf6ec" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0b2b24" media="(prefers-color-scheme: dark)">
   <meta name="description" content="Cantique — Cantiques EUJC">
   <title>Cantique — Cantiques EUJC</title>
 
   <link rel="manifest" href="manifest.webmanifest">
-  <link rel="stylesheet" href="style.css?v=31">
-  <link rel="stylesheet" href="cantique.css?v=31">
+  <link rel="stylesheet" href="charte.css?v=53">
+  <link rel="stylesheet" href="fonts.css?v=53">  <script>
+    /* Anti-FOUC : applique le thème + police avant tout rendu */
+    (function(){
+      try {
+        var p = JSON.parse(localStorage.getItem('cantiques-eujc-preferences') || '{}');
+        var t = p.theme || 'system';
+        var eff = t === 'system'
+          ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
+          : t;
+        document.documentElement.setAttribute('data-theme', eff);
+        if (eff === 'dark') {
+          document.documentElement.classList.add('theme-dark');
+          document.addEventListener('DOMContentLoaded', function(){
+            if (document.body) document.body.classList.add('theme-dark');
+          }, { once: true });
+        }
+        if (p.textScale) document.documentElement.style.setProperty('--text-scale', p.textScale);
+        var fonts = {'system':'var(--font-system)','open-sans':'var(--font-open-sans)','lora':'var(--font-lora)','atkinson':'var(--font-atkinson)'};
+        if (p.font && fonts[p.font]) {
+          document.documentElement.style.setProperty('--font-body', fonts[p.font]);
+          document.documentElement.style.setProperty('--font-heading', fonts[p.font]);
+        }
+      } catch(e) {}
+    })();
+  </script>
+
+  <link rel="stylesheet" href="style.css?v=53">
+  <link rel="stylesheet" href="cantique.css?v=53">
 
   <script src="https://unpkg.com/lucide@latest"></script>
 </head>
@@ -75,6 +103,60 @@
       </button>
     </div>
 
+
+    <!-- =========================
+         PANNEAU TEXTE (taille + police)
+    ========================== -->
+    <div class="text-panel-backdrop" id="text-panel-backdrop" hidden></div>
+
+    <div class="text-panel" id="text-panel" hidden aria-modal="true" role="dialog">
+      <div class="text-panel-handle" aria-hidden="true"></div>
+
+      <div class="text-panel-header">
+        <h2>Affichage</h2>
+        <button type="button" class="text-panel-close" id="text-panel-close" aria-label="Fermer">
+          <i data-lucide="x"></i>
+        </button>
+      </div>
+
+      <div class="text-panel-section">
+        <label class="text-panel-label">Taille du texte</label>
+        <div class="text-panel-slider-row">
+          <span class="text-panel-a text-panel-a-small">Aa</span>
+          <input type="range" id="text-panel-slider" min="0" max="3" step="1" value="1">
+          <span class="text-panel-a text-panel-a-large">Aa</span>
+        </div>
+        <div class="text-panel-labels">
+          <span>Petit</span>
+          <span>Normal</span>
+          <span>Grand</span>
+          <span>Très grand</span>
+        </div>
+      </div>
+
+      <div class="text-panel-section">
+        <label class="text-panel-label">Police de lecture</label>
+        <div class="text-panel-fonts">
+          <button type="button" class="text-panel-font" data-font="system">
+            <span class="text-panel-font-name">Système</span>
+            <span class="text-panel-font-sample font-system">Mungu ni mwema</span>
+          </button>
+          <button type="button" class="text-panel-font" data-font="open-sans">
+            <span class="text-panel-font-name">Open Sans</span>
+            <span class="text-panel-font-sample font-open-sans">Mungu ni mwema</span>
+          </button>
+          <button type="button" class="text-panel-font" data-font="lora">
+            <span class="text-panel-font-name">Lora</span>
+            <span class="text-panel-font-sample font-lora">Mungu ni mwema</span>
+          </button>
+          <button type="button" class="text-panel-font" data-font="atkinson">
+            <span class="text-panel-font-name">Atkinson</span>
+            <span class="text-panel-font-sample font-atkinson">Mungu ni mwema</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
   </main>
 
   <!-- =========================
@@ -124,9 +206,10 @@
   </div>
 
 
-  <script src="canonical-data.js?v=31"></script>
-  <script src="storage.js?v=31"></script>
-  <script src="cantique.js?v=31"></script>
-  <script src="sw-register.js?v=31"></script>
+  <script src="preferences.js?v=53"></script>
+  <script src="canonical-data.js?v=53"></script>
+  <script src="storage.js?v=53"></script>
+  <script src="cantique.js?v=53"></script>
+  <script src="sw-register.js?v=53"></script>
 </body>
 </html>

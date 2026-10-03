@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans:wght@400;500;600&display=swap');
 
 :root {
-  --deep-green: #001a17;
-  --green: #00695c;
-  --teal: #009688;
-  --cream: #fff9f0;
-  --cream-dark: #f5eee2;
+  --deep-green: var(--p-forest-700);
+  --green: var(--accent-teal);
+  --teal: var(--accent-teal);
+  --cream: var(--bg-page-alt);
+  --cream-dark: var(--bg-elevated);
   --orange: #ff7043;
   --yellow: #ffc107;
-  --text: #17312d;
-  --muted: #6e7976;
-  --white: #ffffff;
-  --border: #e6dfd3;
-  --shadow: 0 8px 24px rgba(0, 26, 23, 0.08);
+  --text: var(--text-primary);
+  --muted: var(--text-secondary);
+  --white: var(--bg-elevated);
+  --border: var(--border-soft);
+  --shadow: 0 8px 24px var(--shadow-soft);
 }
 
 * {
@@ -67,7 +67,7 @@ button {
   display: flex;
   align-items: center;
   gap: 10px;
-  color: var(--deep-green);
+  color: var(--text-primary);
   font-family: "Montserrat", sans-serif;
   font-size: 17px;
   font-weight: 700;
@@ -90,7 +90,7 @@ button {
   border: 0;
   border-radius: 12px;
   background: transparent;
-  color: var(--deep-green);
+  color: var(--text-primary);
   font-size: 22px;
   cursor: pointer;
 }
@@ -123,7 +123,7 @@ button {
 }
 
 .welcome h1 {
-  color: var(--deep-green);
+  color: var(--text-primary);
   font-family: "Montserrat", sans-serif;
   font-size: 28px;
   line-height: 1.2;
@@ -132,7 +132,7 @@ button {
 
 .welcome-text {
   margin-top: 6px;
-  color: #263b37;
+  color: var(--text-primary);
   font-size: 19px;
   line-height: 1.42;
 }
@@ -154,7 +154,7 @@ button {
   border: 1px solid var(--border);
   border-radius: 15px;
   background: var(--white);
-  box-shadow: 0 3px 12px rgba(0, 26, 23, 0.04);
+  box-shadow: 0 3px 12px var(--shadow-soft);
 }
 
 .search-icon {
@@ -175,7 +175,7 @@ button {
 }
 
 .search-box input::placeholder {
-  color: #89918f;
+  color: var(--text-tertiary);
 }
 
 /* =========================
@@ -198,7 +198,7 @@ button {
 }
 
 .section-heading h2 {
-  color: var(--deep-green);
+  color: var(--text-primary);
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 700;
@@ -240,7 +240,16 @@ button {
 .quick-card-wide {
   grid-column: 1 / -1;
   min-height: 68px;
-  background: var(--deep-green);
+  background: var(--p-forest-700);
+  color: var(--p-cream-100);
+}
+
+.quick-card-wide svg {
+  color: var(--p-gold-400);
+}
+
+.quick-card-wide .quick-arrow svg {
+  color: var(--p-cream-100);
 }
 
 .quick-card::after {
@@ -319,9 +328,9 @@ button {
   align-items: center;
   gap: 14px;
   padding: 14px 16px;
-  background: #fff;
+  background: var(--bg-elevated);
   border-radius: 14px;
-  border: 1px solid rgba(13, 46, 34, 0.06);
+  border: 1px solid var(--border-soft);
   cursor: pointer;
   transition: transform 120ms ease, box-shadow 120ms ease;
   text-align: left;
@@ -333,7 +342,7 @@ button {
 
 .recent-item:active {
   transform: scale(0.985);
-  box-shadow: 0 2px 10px rgba(13, 46, 34, 0.08);
+  box-shadow: 0 2px 10px var(--shadow-soft);
 }
 
 .recent-number {
@@ -342,8 +351,8 @@ button {
   height: 42px;
   padding: 0 10px;
   border-radius: 10px;
-  background: #0d2e22;
-  color: #e8c56a;
+  background: var(--accent-dark);
+  color: var(--accent-gold);
   font-weight: 600;
   font-size: 15px;
   display: inline-flex;
@@ -362,7 +371,7 @@ button {
 .recent-title {
   font-size: 15px;
   font-weight: 600;
-  color: #0d2e22;
+  color: var(--text-primary);
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -370,7 +379,7 @@ button {
 
 .recent-meta {
   font-size: 12.5px;
-  color: #7a8580;
+  color: var(--text-secondary);
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -378,7 +387,7 @@ button {
 
 .recent-arrow {
   flex: 0 0 auto;
-  color: #b6bdb9;
+  color: var(--text-tertiary);
   display: grid;
   place-items: center;
   width: 20px;
@@ -400,7 +409,7 @@ button {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   border-top: 1px solid var(--border);
-  background: rgba(255, 249, 240, 0.96);
+  background: var(--bg-page-translucent);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
 }
@@ -413,7 +422,7 @@ button {
   gap: 3px;
   border: 0;
   background: transparent;
-  color: #7b8582;
+  color: var(--text-secondary);
   font-size: 9px;
   cursor: pointer;
 }
@@ -432,7 +441,7 @@ button {
 }
 
 .nav-item.active .nav-icon {
-  color: var(--deep-green);
+  color: var(--text-primary);
 }
 
 /* =========================
@@ -596,7 +605,7 @@ input:focus-visible {
 .recent-empty {
   padding: 20px 16px;
   text-align: center;
-  color: #8c9691;
+  color: var(--text-tertiary);
   font-size: 14px;
   line-height: 1.5;
   font-style: italic;

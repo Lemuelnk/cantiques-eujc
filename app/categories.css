@@ -5,8 +5,8 @@
 .categories-page {
   min-height: 100vh;
   min-height: 100dvh;
-  background: #fff9f0;
-  color: #001a17;
+  background: var(--bg-page);
+  color: var(--text-primary);
   padding-bottom: 88px;
 }
 
@@ -27,11 +27,11 @@
   min-height: 68px;
   padding: 10px 20px;
 
-  background: rgba(255, 249, 240, 0.96);
+  background: var(--bg-page-translucent, rgba(255, 249, 240, 0.96));
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
 
-  border-bottom: 1px solid rgba(0, 26, 23, 0.06);
+  border-bottom: 1px solid var(--border-soft, rgba(0, 26, 23, 0.06));
 }
 
 .categories-header h1 {
@@ -52,7 +52,7 @@
   align-items: center;
   justify-content: center;
 
-  color: #001a17;
+  color: var(--text-primary);
   text-decoration: none;
 
   border-radius: 50%;
@@ -63,7 +63,7 @@
 }
 
 .back-button:hover {
-  background: rgba(0, 150, 136, 0.08);
+  background: var(--hover-teal, rgba(0, 150, 136, 0.08));
 }
 
 .back-button:active {
@@ -144,15 +144,15 @@
 }
 
 .lesson-title {
-  color: #00695f;
+  color: var(--accent-teal, #00695f);
 }
 
 .sunday-title {
-  color: #b58a17;
+  color: var(--accent-gold, #b58a17);
 }
 
 .prayer-title {
-  color: #00695f;
+  color: var(--accent-teal, #00695f);
 }
 
 
@@ -163,9 +163,9 @@
 .category-list {
   overflow: hidden;
 
-  background: rgba(255, 255, 255, 0.42);
+  background: var(--bg-elevated-translucent, rgba(255, 255, 255, 0.42));
 
-  border-top: 1px solid rgba(0, 26, 23, 0.08);
+  border-top: 1px solid var(--border-soft, rgba(0, 26, 23, 0.08));
 }
 
 .category-row {
@@ -178,10 +178,10 @@
 
   padding: 9px 4px 9px 6px;
 
-  color: #001a17;
+  color: var(--text-primary);
   text-decoration: none;
 
-  border-bottom: 1px solid rgba(0, 26, 23, 0.08);
+  border-bottom: 1px solid var(--border-soft, rgba(0, 26, 23, 0.08));
 
   transition:
     background-color 150ms ease,
@@ -193,18 +193,18 @@
 }
 
 .category-row:hover {
-  background: rgba(0, 150, 136, 0.045);
+  background: var(--hover-teal-light, rgba(0, 150, 136, 0.045));
 }
 
 .category-row:active {
-  background: rgba(0, 150, 136, 0.08);
+  background: var(--hover-teal, rgba(0, 150, 136, 0.08));
 }
 
 .category-row svg {
   width: 17px;
   height: 17px;
 
-  color: #8b9693;
+  color: var(--text-tertiary);
   stroke-width: 1.8;
 }
 
@@ -214,7 +214,7 @@
   font-family: "Open Sans", sans-serif;
   font-size: 13px;
   font-weight: 600;
-  color: #4e5d5a;
+  color: var(--text-secondary);
 }
 
 .row-name {
@@ -225,15 +225,15 @@
   font-weight: 500;
   line-height: 1.35;
 
-  color: #182825;
+  color: var(--text-primary);
 }
 
 .category-row-more {
-  color: #007f73;
+  color: var(--accent-teal, #007f73);
 }
 
 .category-row-more .row-name {
-  color: #007f73;
+  color: var(--accent-teal, #007f73);
   font-weight: 600;
 }
 
@@ -251,7 +251,7 @@
     margin: 0 auto;
 
     box-shadow:
-      0 0 60px rgba(0, 26, 23, 0.08);
+      0 0 60px var(--shadow-soft, rgba(0, 26, 23, 0.08));
   }
 
   .categories-header {

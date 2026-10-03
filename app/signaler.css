@@ -3,15 +3,15 @@
    ============================================================ */
 
 :root {
-  --rp-bg:        #f7f7f3;
-  --rp-bg-dark:   #0d2e22;
-  --rp-card:      #ffffff;
-  --rp-text:      #0d2e22;
-  --rp-muted:     #7a8580;
-  --rp-gold:      #c9a44a;
-  --rp-gold-soft: #f3e9c9;
-  --rp-border:    rgba(13, 46, 34, 0.08);
-  --rp-danger:    #a33030;
+  --rp-bg:        var(--bg-page);
+  --rp-bg-dark:   var(--p-forest-700);
+  --rp-card:      var(--bg-elevated);
+  --rp-text:      var(--text-primary);
+  --rp-muted:     var(--text-secondary);
+  --rp-gold:      var(--accent-gold);
+  --rp-gold-soft: rgba(184, 147, 90, 0.18);
+  --rp-border:    var(--border-soft);
+  --rp-danger:    var(--status-error);
 }
 
 body {
@@ -194,7 +194,7 @@ body {
 
 .report-type-card.is-active {
   background: var(--rp-bg-dark);
-  color: #f5f0e6;
+  color: var(--text-inverse);
   border-color: var(--rp-bg-dark);
 }
 
@@ -260,11 +260,11 @@ body {
    ------------------------------------------------------------ */
 .report-current-text {
   padding: 12px 14px;
-  background: #fef6f6;
-  border: 1px solid #f3d6d6;
+  background: var(--bg-error-soft, #fef6f6);
+  border: 1px solid var(--border-error-soft, #f3d6d6);
   border-radius: 10px;
   font-size: 14px;
-  color: #7a2e2e;
+  color: var(--status-error);
   line-height: 1.5;
   white-space: pre-wrap;
   word-break: break-word;
@@ -282,15 +282,15 @@ body {
 }
 
 .report-status.is-error {
-  background: #fef2f2;
-  border: 1px solid #f3d6d6;
+  background: var(--bg-error-soft, #fef2f2);
+  border: 1px solid var(--border-error-soft, #f3d6d6);
   color: var(--rp-danger);
 }
 
 .report-status.is-info {
-  background: #eef4ff;
-  border: 1px solid #cdddff;
-  color: #2952a3;
+  background: var(--bg-info-soft, #eef4ff);
+  border: 1px solid var(--border-info-soft, #cdddff);
+  color: var(--status-info);
 }
 
 /* ------------------------------------------------------------
@@ -310,7 +310,7 @@ body {
   border: none;
   border-radius: 12px;
   background: var(--rp-bg-dark);
-  color: #f5f0e6;
+  color: var(--text-inverse);
   font-family: inherit;
   font-size: 15px;
   font-weight: 600;
@@ -360,8 +360,8 @@ body {
   width: 72px;
   height: 72px;
   border-radius: 50%;
-  background: rgba(46, 122, 74, 0.1);
-  color: #2e7a4a;
+  background: rgba(46, 122, 74, 0.12);
+  color: var(--status-success);
   display: grid;
   place-items: center;
   margin-bottom: 8px;
@@ -453,7 +453,7 @@ body {
   border: none;
   border-radius: 9px;
   background: transparent;
-  color: #7a8580;
+  color: var(--text-secondary);
   font-family: inherit;
   font-size: 12.5px;
   font-weight: 600;
@@ -472,8 +472,8 @@ body {
 }
 
 .report-mode-btn.is-active {
-  background: #fff;
-  color: #0d2e22;
+  background: var(--bg-elevated);
+  color: var(--text-primary);
   box-shadow: 0 1px 4px rgba(13, 46, 34, 0.08);
 }
 
@@ -494,7 +494,7 @@ body {
 .report-intro {
   font-size: 14px;
   line-height: 1.5;
-  color: #7a8580;
+  color: var(--text-secondary);
   margin: -4px 0 16px;
 }
 
@@ -511,7 +511,7 @@ body {
   height: 26px;
   border-radius: 50%;
   background: rgba(13, 46, 34, 0.08);
-  color: #7a8580;
+  color: var(--text-secondary);
   font-family: "Montserrat", "Inter", sans-serif;
   font-size: 12px;
   font-weight: 700;
@@ -521,8 +521,8 @@ body {
 }
 
 .report-step-dot.is-active {
-  background: #0d2e22;
-  color: #e8c56a;
+  background: var(--p-forest-700);
+  color: var(--accent-gold);
 }
 
 .report-step-line {
@@ -535,7 +535,7 @@ body {
 .report-step-label {
   text-align: center;
   font-size: 12.5px;
-  color: #7a8580;
+  color: var(--text-secondary);
   margin: 0 0 20px;
   letter-spacing: 0.3px;
 }
@@ -565,12 +565,12 @@ body {
   font-size: 10.5px;
   font-weight: 400;
   line-height: 1.3;
-  color: #7a8580;
+  color: var(--text-secondary);
   margin-top: 2px;
 }
 
 .report-type-card.is-active > span {
-  color: #f5f0e6;
+  color: var(--text-inverse);
 }
 
 .report-type-card.is-active > small {
@@ -587,8 +587,8 @@ body {
   padding: 12px 14px;
   margin: 0 0 16px;
   border-radius: 10px;
-  background: rgba(201, 164, 74, 0.1);
-  border-left: 3px solid #c9a44a;
+  background: rgba(184, 147, 90, 0.12);
+  border-left: 3px solid var(--accent-gold);
 }
 
 .report-hint-block svg {
@@ -603,7 +603,7 @@ body {
 .report-hint-block p {
   font-size: 13.5px;
   line-height: 1.45;
-  color: #6b5a2a;
+  color: var(--accent-gold-text);
   margin: 0;
 }
 
@@ -617,21 +617,21 @@ body {
   padding: 12px 14px;
   margin: 20px 0 16px;
   border-radius: 10px;
-  background: rgba(46, 122, 74, 0.08);
+  background: rgba(46, 122, 74, 0.12);
 }
 
 .report-reassurance svg {
   width: 20px;
   height: 20px;
   flex: 0 0 20px;
-  color: #2e7a4a;
+  color: var(--status-success);
   stroke-width: 2;
 }
 
 .report-reassurance p {
   font-size: 13px;
   line-height: 1.4;
-  color: #2e7a4a;
+  color: var(--status-success);
   margin: 0;
 }
 

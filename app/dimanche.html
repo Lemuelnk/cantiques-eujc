@@ -2,6 +2,8 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
+  <meta name="theme-color" content="#faf6ec" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0b2b24" media="(prefers-color-scheme: dark)">
 
   <meta
     name="viewport"
@@ -16,12 +18,39 @@
   <title>Cantiques du Dimanche — Cantiques EUJC</title>
 
   <link rel="manifest" href="manifest.webmanifest">
-  <link rel="stylesheet" href="style.css?v=31">
-  <link rel="stylesheet" href="bottom-nav.css?v=31">
-  <link rel="stylesheet" href="dimanche.css?v=31">
+  <link rel="stylesheet" href="charte.css?v=53">
+  <link rel="stylesheet" href="fonts.css?v=53">  <script>
+    /* Anti-FOUC : applique le thème + police avant tout rendu */
+    (function(){
+      try {
+        var p = JSON.parse(localStorage.getItem('cantiques-eujc-preferences') || '{}');
+        var t = p.theme || 'system';
+        var eff = t === 'system'
+          ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
+          : t;
+        document.documentElement.setAttribute('data-theme', eff);
+        if (eff === 'dark') {
+          document.documentElement.classList.add('theme-dark');
+          document.addEventListener('DOMContentLoaded', function(){
+            if (document.body) document.body.classList.add('theme-dark');
+          }, { once: true });
+        }
+        if (p.textScale) document.documentElement.style.setProperty('--text-scale', p.textScale);
+        var fonts = {'system':'var(--font-system)','open-sans':'var(--font-open-sans)','lora':'var(--font-lora)','atkinson':'var(--font-atkinson)'};
+        if (p.font && fonts[p.font]) {
+          document.documentElement.style.setProperty('--font-body', fonts[p.font]);
+          document.documentElement.style.setProperty('--font-heading', fonts[p.font]);
+        }
+      } catch(e) {}
+    })();
+  </script>
+
+  <link rel="stylesheet" href="style.css?v=53">
+  <link rel="stylesheet" href="bottom-nav.css?v=53">
+  <link rel="stylesheet" href="dimanche.css?v=53">
 
   <script src="https://unpkg.com/lucide@latest"></script>
-  <link rel="stylesheet" href="report-fab.css?v=31">
+  <link rel="stylesheet" href="report-fab.css?v=53">
 </head>
 
 <body data-report-scope="dimanche">
@@ -100,10 +129,11 @@
   </div>
 
 
-  <script src="bottom-nav.js?v=31"></script>
-  <script src="dimanche.js?v=31"></script>
+  <script src="bottom-nav.js?v=53"></script>
+  <script src="dimanche.js?v=53"></script>
 
-<script src="sw-register.js?v=31"></script>
-  <script src="report-fab.js?v=31"></script>
+<script src="sw-register.js?v=53"></script>
+  <script src="report-fab.js?v=53"></script>
+  <script src="preferences.js?v=53"></script>
 </body>
 </html>

@@ -1,59 +1,23 @@
+// ============================================================
+// Cantiques EUJC — Page Leçons du Chemin
+// ============================================================
 document.addEventListener('DOMContentLoaded', () => {
-
   if (window.lucide) {
     lucide.createIcons();
   }
 
-  document
-    .querySelectorAll('[data-nav="recherche"], [data-nav="plus"]')
-    .forEach(button => {
-
-      button.addEventListener('click', () => {
-
-        const destination = button.dataset.nav;
-
+  // Alerte temporaire pour les leçons indéterminées (href="#")
+  document.querySelectorAll('.lesson-row[href="#"]').forEach(row => {
+    row.addEventListener('click', (event) => {
+      event.preventDefault();
+      const number = row.querySelector('.lesson-number')?.textContent.trim();
+      const name = row.querySelector('.lesson-name')?.textContent.trim();
+      if (name) {
         alert(
-          {
-            recherche: 'Recherche',
-            plus: 'Plus'
-          }[destination] +
-          '\n\nCette section sera construite ensuite.'
+          `${number} — ${name}\n\n` +
+          'Cette leçon sera raccordée dès que son titre sera déterminé.'
         );
-
-      });
-
+      }
     });
-
-
-  document
-    .querySelectorAll('.lesson-row')
-    .forEach(row => {
-
-      row.addEventListener('click', event => {
-
-        const href = row.getAttribute('href');
-
-        if (href && href !== '#') {
-          return;
-        }
-
-        event.preventDefault();
-
-        const number =
-          row.querySelector('.lesson-number')?.textContent.trim();
-
-        const name =
-          row.querySelector('.lesson-name')?.textContent.trim();
-
-        if (name) {
-          alert(
-            `${number} — ${name}\n\n` +
-            'La liste des cantiques de cette leçon sera raccordée ensuite.'
-          );
-        }
-
-      });
-
-    });
-
+  });
 });

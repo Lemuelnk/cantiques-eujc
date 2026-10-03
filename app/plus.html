@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#faf6ec" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0b2b24" media="(prefers-color-scheme: dark)">
+  <title>Plus — Cantiques EUJC</title>
+
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="charte.css?v=53">
+  <link rel="stylesheet" href="fonts.css?v=53">
+  <link rel="stylesheet" href="style.css?v=53">
+  <link rel="stylesheet" href="bottom-nav.css?v=53">
+  <link rel="stylesheet" href="parametres.css?v=53">
+
+  <script>
+    (function(){
+      try {
+        var p = JSON.parse(localStorage.getItem('cantiques-eujc-preferences') || '{}');
+        var t = p.theme || 'system';
+        var eff = t === 'system'
+          ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
+          : t;
+        document.documentElement.setAttribute('data-theme', eff);
+        if (eff === 'dark') {
+          document.documentElement.classList.add('theme-dark');
+          document.addEventListener('DOMContentLoaded', function(){
+            if (document.body) document.body.classList.add('theme-dark');
+          }, { once: true });
+        }
+        if (p.textScale) document.documentElement.style.setProperty('--text-scale', p.textScale);
+        var fonts = {'system':'var(--font-system)','open-sans':'var(--font-open-sans)','lora':'var(--font-lora)','atkinson':'var(--font-atkinson)'};
+        if (p.font && fonts[p.font]) {
+          document.documentElement.style.setProperty('--font-body', fonts[p.font]);
+          document.documentElement.style.setProperty('--font-heading', fonts[p.font]);
+        }
+      } catch(e) {}
+    })();
+  </script>
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+  <main class="settings-page">
+
+    <header class="settings-header">
+      <span class="header-spacer" aria-hidden="true" style="width:42px"></span>
+      <div class="settings-header-title">
+        <h1>Plus</h1>
+      </div>
+      <span class="header-spacer" aria-hidden="true" style="width:42px"></span>
+    </header>
+
+    <section class="settings-content">
+
+      <h2 class="settings-section-title">Mon contenu</h2>
+
+      <a class="settings-card settings-link" href="favoris.html">
+        <div class="settings-row">
+          <div class="settings-row-icon"><i data-lucide="star"></i></div>
+          <span class="settings-label">Mes favoris</span>
+          <i data-lucide="chevron-right" class="settings-arrow"></i>
+        </div>
+      </a>
+
+      <a class="settings-card settings-link" href="historique.html">
+        <div class="settings-row">
+          <div class="settings-row-icon"><i data-lucide="clock"></i></div>
+          <span class="settings-label">Derniers consultés</span>
+          <i data-lucide="chevron-right" class="settings-arrow"></i>
+        </div>
+      </a>
+
+      <h2 class="settings-section-title">Application</h2>
+
+      <a class="settings-card settings-link" href="parametres.html">
+        <div class="settings-row">
+          <div class="settings-row-icon"><i data-lucide="settings"></i></div>
+          <span class="settings-label">Paramètres</span>
+          <i data-lucide="chevron-right" class="settings-arrow"></i>
+        </div>
+      </a>
+
+      <button type="button" class="settings-card settings-link" id="btn-share-app">
+        <div class="settings-row">
+          <div class="settings-row-icon"><i data-lucide="share-2"></i></div>
+          <span class="settings-label">Partager l'application</span>
+          <i data-lucide="chevron-right" class="settings-arrow"></i>
+        </div>
+      </button>
+
+      <a class="settings-card settings-link" href="signaler.html?scope=global">
+        <div class="settings-row">
+          <div class="settings-row-icon"><i data-lucide="flag"></i></div>
+          <span class="settings-label">Signaler un problème</span>
+          <i data-lucide="chevron-right" class="settings-arrow"></i>
+        </div>
+      </a>
+
+      <a class="settings-card settings-link" href="apropos.html">
+        <div class="settings-row">
+          <div class="settings-row-icon"><i data-lucide="info"></i></div>
+          <span class="settings-label">À propos</span>
+          <i data-lucide="chevron-right" class="settings-arrow"></i>
+        </div>
+      </a>
+
+      <p class="settings-version">Cantiques EUJC — v1.0.0</p>
+
+    </section>
+  </main>
+
+  <div id="bottom-nav"></div>
+
+  <script src="bottom-nav.js?v=53"></script>
+  <script src="preferences.js?v=53"></script>
+  <script src="plus.js?v=53"></script>
+  <script src="sw-register.js?v=53"></script>
+</body>
+</html>

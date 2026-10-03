@@ -1,0 +1,56 @@
+/* ============================================================
+   Cantiques EUJC — Polices de lecture
+   ============================================================
+   3 polices + police système :
+   - Open Sans (sans-serif moderne)
+   - Lora (serif classique de recueil)
+   - Atkinson Hyperlegible (accessibilité)
+   ============================================================ */
+
+/* --- Chargement depuis Google Fonts (dév) --- */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Atkinson+Hyperlegible:wght@400;700&display=swap');
+
+/* ============================================================
+   Variables globales
+   ============================================================ */
+:root {
+  /* --- Polices --- */
+  --font-system: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+                 'Helvetica Neue', Arial, sans-serif;
+  --font-open-sans: 'Open Sans', var(--font-system);
+  --font-lora: 'Lora', Georgia, 'Times New Roman', serif;
+  --font-atkinson: 'Atkinson Hyperlegible', var(--font-system);
+
+  /* --- Police active (modifiée par preferences.js) --- */
+  --font-body: var(--font-open-sans);
+  --font-heading: var(--font-open-sans);
+
+  /* --- Échelle de texte (modifiée par preferences.js) --- */
+  --text-scale: 1;
+
+  /* Les couleurs sont définies dans charte.css */
+}
+
+/* ============================================================
+   Application de la police
+   ============================================================ */
+body {
+  font-family: var(--font-body);
+}
+
+h1, h2, h3, h4, h5, h6,
+button, input, select, textarea,
+.heading {
+  font-family: var(--font-heading);
+}
+
+/* ============================================================
+   Application de l'échelle de texte
+   ============================================================
+   Note : on utilise --text-scale pour multiplier les tailles
+   de base dans les composants qui doivent s'adapter.
+   ============================================================ */
+
+/* ============================================================
+   Thème sombre (appliqué via body.theme-dark)
+   ============================================================ */

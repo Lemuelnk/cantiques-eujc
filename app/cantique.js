@@ -266,29 +266,119 @@ if (btnReading) {
 }
 
 // ------------------------------------------------------------
-// Taille du texte
+// Panneau "Texte" (taille + police)
 // ------------------------------------------------------------
-const TEXT_SIZES = [15, 17, 19, 22];
-let currentSizeIdx = 1;
+const TEXT_SCALES = [0.85, 1, 1.15, 1.3];
 
-// Restaurer la taille sauvegardée
-const savedSize = parseInt(localStorage.getItem('cantiques-eujc-text-size'), 10);
-if (!isNaN(savedSize) && TEXT_SIZES.includes(savedSize)) {
-  currentSizeIdx = TEXT_SIZES.indexOf(savedSize);
-}
-document.documentElement.style.setProperty(
-  '--hymn-font-size',
-  TEXT_SIZES[currentSizeIdx] + 'px'
-);
+const $textPanel         = document.getElementById('text-panel');
+const $textPanelBackdrop = document.getElementById('text-panel-backdrop');
+const $textPanelClose    = document.getElementById('text-panel-close');
+const $textPanelSlider   = document.getElementById('text-panel-slider');
+const $textPanelFonts    = document.querySelectorAll('.text-panel-font');
 
-if (btnTextSize) {
-  btnTextSize.addEventListener('click', () => {
-    currentSizeIdx = (currentSizeIdx + 1) % TEXT_SIZES.length;
-    const size = TEXT_SIZES[currentSizeIdx];
-    document.documentElement.style.setProperty('--hymn-font-size', size + 'px');
-    localStorage.setItem('cantiques-eujc-text-size', String(size));
+function updateFontUI() {
+  if (!preferences) return;
+  const current = preferences.get('font') || 'open-sans';
+  $textPanelFonts.forEach(btn => {
+    btn.classList.toggle('is-active', btn.dataset.font === current);
   });
 }
+
+function openTextPanel() {
+  if (!$textPanel || !$textPanelBackdrop) return;
+
+  // Synchroniser le slider avec la préférence actuelle
+  const scale = preferences.get('textScale') || 1;
+  const idx = TEXT_SCALES.indexOf(scale);
+  if ($textPanelSlider) $textPanelSlider.value = String(idx >= 0 ? idx : 1);
+
+  updateFontUI();
+
+  $textPanelBackdrop.hidden = false;
+  $textPanel.hidden = false;
+}
+
+function closeTextPanel() {
+  if ($textPanelBackdrop) $textPanelBackdrop.hidden = true;
+  if ($textPanel) {
+    $textPanel.hidden = true;
+    $textPanel.style.transform = '';
+  }
+}
+
+// --- Drag-to-dismiss ---
+(function enableDragToDismiss() {
+  if (!$textPanel) return;
+
+  let startY = 0;
+  let currentY = 0;
+  let isDragging = false;
+
+  function onTouchStart(e) {
+    // Ne draguer que si l'utilisateur est en haut du panneau
+    if ($textPanel.scrollTop > 0) return;
+    startY = e.touches[0].clientY;
+    currentY = startY;
+    isDragging = true;
+    $textPanel.style.transition = 'none';
+  }
+
+  function onTouchMove(e) {
+    if (!isDragging) return;
+    currentY = e.touches[0].clientY;
+    const delta = currentY - startY;
+    if (delta > 0) {
+      $textPanel.style.transform = `translateY(${delta}px)`;
+    }
+  }
+
+  function onTouchEnd() {
+    if (!isDragging) return;
+    isDragging = false;
+    const delta = currentY - startY;
+    $textPanel.style.transition = 'transform 200ms ease';
+
+    if (delta > 100) {
+      // Fermer
+      $textPanel.style.transform = 'translateY(100%)';
+      setTimeout(closeTextPanel, 200);
+    } else {
+      // Revenir à la position
+      $textPanel.style.transform = '';
+    }
+  }
+
+  $textPanel.addEventListener('touchstart', onTouchStart, { passive: true });
+  $textPanel.addEventListener('touchmove', onTouchMove, { passive: true });
+  $textPanel.addEventListener('touchend', onTouchEnd);
+  $textPanel.addEventListener('touchcancel', onTouchEnd);
+})();
+
+if (btnTextSize) {
+  btnTextSize.addEventListener('click', openTextPanel);
+}
+
+if ($textPanelClose) {
+  $textPanelClose.addEventListener('click', closeTextPanel);
+}
+
+if ($textPanelBackdrop) {
+  $textPanelBackdrop.addEventListener('click', closeTextPanel);
+}
+
+if ($textPanelSlider) {
+  $textPanelSlider.addEventListener('input', () => {
+    const idx = parseInt($textPanelSlider.value, 10);
+    preferences.setTextScale(TEXT_SCALES[idx] || 1);
+  });
+}
+
+$textPanelFonts.forEach(btn => {
+  btn.addEventListener('click', () => {
+    preferences.setFont(btn.dataset.font);
+    updateFontUI();
+  });
+});
 
 // ------------------------------------------------------------
 // Navigation "Suivant" / retour
@@ -298,8 +388,11 @@ if (btnNext) {
     if (currentIndex < 0 || allHymnsInCat.length === 0) return;
     const nextIdx = (currentIndex + 1) % allHymnsInCat.length;
     const nextHymn = allHymnsInCat[nextIdx];
-    window.location.href = `cantique.html?hymn=${encodeURIComponent(nextHymn.id)}`
-                         + `&category=${encodeURIComponent(categoryId)}`;
+    // replace() au lieu de href : ne crée pas de nouvelle entrée dans l'historique
+    window.location.replace(
+      `cantique.html?hymn=${encodeURIComponent(nextHymn.id)}`
+      + `&category=${encodeURIComponent(categoryId)}`
+    );
   });
 }
 if (btnPrev) {
@@ -307,8 +400,11 @@ if (btnPrev) {
     if (currentIndex < 0 || allHymnsInCat.length === 0) return;
     const prevIdx = (currentIndex - 1 + allHymnsInCat.length) % allHymnsInCat.length;
     const prevHymn = allHymnsInCat[prevIdx];
-    window.location.href = `cantique.html?hymn=${encodeURIComponent(prevHymn.id)}`
-                         + `&category=${encodeURIComponent(categoryId)}`;
+    // replace() au lieu de href
+    window.location.replace(
+      `cantique.html?hymn=${encodeURIComponent(prevHymn.id)}`
+      + `&category=${encodeURIComponent(categoryId)}`
+    );
   });
 }
 

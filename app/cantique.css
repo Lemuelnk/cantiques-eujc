@@ -3,15 +3,15 @@
    ============================================================ */
 
 :root {
-  --hymn-bg:        #f7f7f3;
-  --hymn-bg-dark:   #0d2e22;
-  --hymn-card:      #ffffff;
-  --hymn-text:      #0d2e22;
-  --hymn-muted:     #7a8580;
-  --hymn-gold:      #c9a44a;
-  --hymn-gold-soft: #f3e9c9;
-  --hymn-border:    rgba(13, 46, 34, 0.08);
-  --hymn-font-size: 17px;
+  --hymn-bg:        var(--bg-page);
+  --hymn-bg-dark:   var(--accent-dark);
+  --hymn-card:      var(--bg-elevated);
+  --hymn-text:      var(--text-primary);
+  --hymn-muted:     var(--text-secondary);
+  --hymn-gold:      var(--accent-gold);
+  --hymn-gold-soft: rgba(201, 164, 74, 0.18);
+  --hymn-border:    var(--border-soft);
+  --hymn-font-size: calc(17px * var(--text-scale, 1));
 }
 
 body {
@@ -56,7 +56,7 @@ body {
 }
 
 .hymn-detail-header .icon-button:active {
-  background: rgba(13, 46, 34, 0.06);
+  background: var(--hover-teal-light);
 }
 
 .hymn-detail-header .icon-button svg {
@@ -101,7 +101,7 @@ body {
 }
 
 .hymn-detail-intro h1 {
-  font-family: "Montserrat", "Inter", sans-serif;
+  font-family: var(--font-heading);
   font-size: 26px;
   font-weight: 800;
   line-height: 1.15;
@@ -135,7 +135,7 @@ body {
   padding: 10px 20px;
   border-radius: 999px;
   border: 1px solid transparent;
-  background: #ececec;
+  background: var(--bg-elevated);
   color: var(--hymn-muted);
   font-size: 14px;
   font-weight: 600;
@@ -148,7 +148,7 @@ body {
 
 .version-tab.is-active {
   background: var(--hymn-bg-dark);
-  color: #f5f0e6;
+  color: var(--text-primary);
 }
 
 /* ------------------------------------------------------------
@@ -158,6 +158,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  font-family: var(--font-body);
   font-size: var(--hymn-font-size);
   line-height: 1.65;
   color: var(--hymn-text);
@@ -168,7 +169,7 @@ body {
 }
 
 .lyric-block h2 {
-  font-family: "Montserrat", "Inter", sans-serif;
+  font-family: var(--font-heading);
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
@@ -185,6 +186,7 @@ body {
 
 .lyric-lines p {
   margin: 0;
+  font-family: var(--font-body);
   line-height: 1.6;
 }
 
@@ -204,7 +206,7 @@ body {
 .lyric-number {
   flex: 0 0 22px;
   padding-top: 1px;
-  font-family: "Montserrat", "Inter", sans-serif;
+  font-family: var(--font-body);
   font-weight: 700;
   font-size: 15px;
   color: var(--hymn-text);
@@ -260,12 +262,12 @@ body {
   /* Padding bas SANS safe-area (déjà géré par la bottom-nav en dessous) */
   padding: 8px 8px calc(8px + env(safe-area-inset-bottom, 0px));
   /* Même teinte que la bottom-nav pour continuité visuelle */
-  background: rgba(255, 249, 240, 0.96);
+  background: var(--bg-page-translucent);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
   border-top: 1px solid var(--hymn-border);
   /* Ombre légère vers le haut pour décoller du contenu */
-  box-shadow: 0 -4px 20px rgba(13, 46, 34, 0.06);
+  box-shadow: 0 -4px 20px var(--shadow-soft);
 }
 
 .action-btn {
@@ -287,7 +289,7 @@ body {
 }
 
 .action-btn:active {
-  background: rgba(13, 46, 34, 0.06);
+  background: var(--hover-teal-light);
 }
 
 .action-btn svg {
@@ -306,7 +308,7 @@ body {
 .hymn-menu-backdrop {
   position: fixed;
   inset: 0;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.5);
   z-index: 60;
   animation: fadeIn 150ms ease;
 }
@@ -317,10 +319,10 @@ body {
   right: 16px;
   bottom: calc(16px + env(safe-area-inset-bottom, 0px));
   z-index: 61;
-  background: #fff;
+  background: var(--bg-elevated);
   border-radius: 18px;
   padding: 8px;
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.18);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
   animation: slideUp 200ms ease;
 }
 
@@ -342,7 +344,7 @@ body {
 }
 
 .hymn-menu-sheet .menu-item:active {
-  background: rgba(13, 46, 34, 0.06);
+  background: var(--hover-teal-light);
 }
 
 .hymn-menu-sheet .menu-item svg {
@@ -366,24 +368,39 @@ body {
    Mode lecture (fond sombre)
    ------------------------------------------------------------ */
 body.is-reading-mode {
-  background: #071a14;
+  background: #0a0a0a;
+  color: #f5f0e6;
+}
+
+body.is-reading-mode .hymn-detail-page {
+  background: #0a0a0a;
 }
 
 body.is-reading-mode .hymn-detail-header,
 body.is-reading-mode #hymn-detail,
 body.is-reading-mode .hymn-detail-intro h1,
+body.is-reading-mode .hymn-metadata,
 body.is-reading-mode .hymn-lyrics,
-body.is-reading-mode .lyric-number {
+body.is-reading-mode .lyric-number,
+body.is-reading-mode .lyric-lines p {
   color: #f5f0e6;
   background: transparent;
 }
 
 body.is-reading-mode .hymn-detail-header {
-  background: #071a14;
+  background: #0a0a0a;
+}
+
+body.is-reading-mode .hymn-number-label {
+  color: #e4c37f;
 }
 
 body.is-reading-mode .icon-button {
   color: #f5f0e6;
+}
+
+body.is-reading-mode .lyric-block h2 {
+  color: #e4c37f;
 }
 
 body.is-reading-mode .version-tab {
@@ -393,20 +410,30 @@ body.is-reading-mode .version-tab {
 
 body.is-reading-mode .version-tab.is-active {
   background: #f5f0e6;
-  color: #071a14;
+  color: #14392e;
 }
 
 body.is-reading-mode .lyric-block-refrain {
-  background: rgba(201, 164, 74, 0.16);
+  background: rgba(184, 147, 90, 0.18);
 }
 
 body.is-reading-mode .hymn-action-bar {
-  background: #0d2e22;
+  background: #141414;
   border-top-color: rgba(245, 240, 230, 0.1);
 }
 
 body.is-reading-mode .action-btn {
   color: #f5f0e6;
+}
+
+body.is-reading-mode .report-cta-btn {
+  border-color: rgba(245, 240, 230, 0.25);
+  color: rgba(245, 240, 230, 0.6);
+}
+
+body.is-reading-mode .report-cta-btn:active {
+  color: #e4c37f;
+  border-color: rgba(184, 147, 90, 0.5);
 }
 
 /* ------------------------------------------------------------
@@ -474,4 +501,206 @@ body.is-reading-mode .report-cta-btn {
 body.is-reading-mode .report-cta-btn:active {
   color: #e8c56a;
   border-color: rgba(201, 164, 74, 0.5);
+}
+
+/* ============================================================
+   PANNEAU "AFFICHAGE" (taille + police)
+   ============================================================ */
+.text-panel-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 70;
+  animation: panelFadeIn 180ms ease;
+}
+
+.text-panel {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 71;
+  background: var(--bg-sheet);
+  border-radius: 22px 22px 0 0;
+  padding: 8px 20px calc(20px + env(safe-area-inset-bottom, 0px));
+  box-shadow: 0 -8px 40px rgba(0, 0, 0, 0.15);
+  animation: panelSlideUp 220ms ease;
+  max-height: 85vh;
+  overflow-y: auto;
+  box-sizing: border-box;
+  color: var(--text-primary);
+}
+
+.text-panel-handle {
+  width: 40px;
+  height: 4px;
+  background: var(--border-strong);
+  border-radius: 2px;
+  margin: 4px auto 16px;
+}
+
+.text-panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.text-panel-header h2 {
+  font-family: var(--font-heading);
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.text-panel-close {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: none;
+  background: transparent;
+  color: var(--text-secondary);
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+.text-panel-close:active {
+  background: var(--hover-teal-light);
+}
+
+.text-panel-close svg {
+  width: 20px;
+  height: 20px;
+}
+
+.text-panel-section {
+  margin-bottom: 24px;
+}
+
+.text-panel-label {
+  display: block;
+  font-family: var(--font-heading);
+  font-size: 12.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-secondary);
+  margin-bottom: 12px;
+}
+
+.text-panel-slider-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.text-panel-a {
+  font-family: var(--font-heading);
+  color: var(--text-secondary);
+  font-weight: 700;
+  flex: 0 0 auto;
+}
+
+.text-panel-a-small { font-size: 14px; }
+.text-panel-a-large { font-size: 22px; color: var(--text-primary); }
+
+#text-panel-slider {
+  flex: 1;
+  -webkit-appearance: none;
+  appearance: none;
+  height: 4px;
+  border-radius: 2px;
+  background: var(--border-strong);
+  outline: none;
+}
+
+#text-panel-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--accent-dark);
+  border: 3px solid var(--bg-sheet);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+#text-panel-slider::-moz-range-thumb {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--accent-dark);
+  border: 3px solid var(--bg-sheet);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.text-panel-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10.5px;
+  color: var(--text-tertiary);
+  padding: 4px 4px 0;
+}
+
+.text-panel-fonts {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.text-panel-font {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  padding: 12px 14px;
+  border: 2px solid var(--border-soft);
+  border-radius: 10px;
+  background: transparent;
+  cursor: pointer;
+  text-align: left;
+  font-family: inherit;
+  transition: all 140ms ease;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.text-panel-font:active {
+  transform: scale(0.985);
+}
+
+.text-panel-font.is-active {
+  border-color: var(--accent-dark);
+  background: var(--hover-teal-light);
+}
+
+.text-panel-font-name {
+  font-size: 11.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-secondary);
+}
+
+.text-panel-font.is-active .text-panel-font-name {
+  color: var(--accent-gold-text);
+}
+
+.text-panel-font-sample {
+  font-size: 16px;
+  color: var(--text-primary);
+  line-height: 1.3;
+}
+
+@keyframes panelFadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes panelSlideUp {
+  from { transform: translateY(20px); opacity: 0; }
+  to   { transform: translateY(0); opacity: 1; }
 }
