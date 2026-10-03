@@ -279,7 +279,7 @@ function openImagePanel() {
 
   // Déterminer le format automatique selon la longueur
   if (window.ShareImage && currentHymn) {
-    currentImageFormat = window.ShareImage.autoFormatFor(currentHymn);
+    currentImageFormat = window.ShareImage.autoFormatFor(currentHymn, currentVersion);
   }
 
   // Mettre à jour les boutons de format
