@@ -269,8 +269,10 @@ const $shareImageCanvas   = document.getElementById('share-image-canvas');
 const $shareImageLoading  = document.getElementById('share-image-loading');
 const $shareImageGenerate = document.getElementById('share-image-generate');
 const $formatBtns         = document.querySelectorAll('.format-btn');
+const $themeBtns          = document.querySelectorAll('.theme-btn');
 
 let currentImageFormat = '1:1';
+let currentImageTheme = 'cream';
 
 function openImagePanel() {
   if (!$shareImagePanel || !$shareImageBackdrop) return;
@@ -313,7 +315,7 @@ async function generatePreview() {
 
   try {
     await window.ShareImage.waitFonts();
-    window.ShareImage.generate($shareImageCanvas, currentHymn, currentVersion, currentImageFormat);
+    window.ShareImage.generate($shareImageCanvas, currentHymn, currentVersion, currentImageFormat, currentImageTheme);
     if ($shareImageLoading) $shareImageLoading.hidden = true;
   } catch (err) {
     console.error('[Preview] Erreur de génération :', err);
@@ -343,6 +345,18 @@ $formatBtns.forEach(btn => {
     $formatBtns.forEach(b => b.classList.remove('is-active'));
     btn.classList.add('is-active');
     currentImageFormat = btn.dataset.format;
+    generatePreview();
+  });
+});
+
+$themeBtns.forEach(btn => {
+  btn.addEventListener('click', () => {
+    currentImageTheme = btn.dataset.theme || 'cream';
+    $themeBtns.forEach(themeBtn => {
+      const active = themeBtn === btn;
+      themeBtn.classList.toggle('is-active', active);
+      themeBtn.setAttribute('aria-pressed', String(active));
+    });
     generatePreview();
   });
 });
