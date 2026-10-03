@@ -87,3 +87,30 @@ function getHymnDisplay(hymn) {
 function findHymn(corpus, hymnId) {
   return corpus?.hymns?.find(hymn => hymn.id === hymnId) || null;
 }
+
+// ============================================================
+// Helpers URLs propres /cantique/:cat/:num
+// ============================================================
+function findHymnByNumber(corpus, number) {
+  if (!corpus || !corpus.hymns || !number) return null;
+  const target = String(number);
+  return corpus.hymns.find(h => {
+    const versions = Array.isArray(h.versions) ? h.versions : [];
+    return versions.some(v => String(((v.source) || {}).number || '') === target);
+  }) || null;
+}
+
+function buildCantiqueUrl(hymnOrDisplay, categoryId) {
+  if (!hymnOrDisplay) return 'cantiques.html';
+  const display = (hymnOrDisplay.sourceNumber !== undefined)
+    ? hymnOrDisplay
+    : getHymnDisplay(hymnOrDisplay);
+  const num = display.sourceNumber;
+  const cat = categoryId || 'lesson-1';
+  if (!num) {
+    return 'cantique.html?hymn=' + encodeURIComponent(display.id)
+         + '&category=' + encodeURIComponent(cat);
+  }
+  return '/cantique/' + encodeURIComponent(cat)
+       + '/' + encodeURIComponent(num);
+}

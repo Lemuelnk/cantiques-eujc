@@ -25,9 +25,18 @@ if (categoryCount) categoryCount.textContent = 'Chargement…';
 // ------------------------------------------------------------
 // Navigation
 // ------------------------------------------------------------
-function openHymn(hymnId) {
-  const url = `cantique.html?hymn=${encodeURIComponent(hymnId)}`
-            + `&category=${encodeURIComponent(categoryId)}`;
+function openHymn(hymnOrId) {
+  let url;
+  if (hymnOrId && typeof hymnOrId === 'object' && typeof buildCantiqueUrl === 'function') {
+    url = buildCantiqueUrl(hymnOrId, categoryId);
+  } else if (typeof buildCantiqueUrl === 'function') {
+    // Compat : ancien appel avec l'id seul -> essayer de retrouver l'hymn
+    const found = Array.isArray(allHymns) ? allHymns.find(h => h.id === hymnOrId) : null;
+    url = found ? buildCantiqueUrl(found, categoryId)
+                : `cantique.html?hymn=${encodeURIComponent(hymnOrId)}&category=${encodeURIComponent(categoryId)}`;
+  } else {
+    url = `cantique.html?hymn=${encodeURIComponent(hymnOrId)}&category=${encodeURIComponent(categoryId)}`;
+  }
   window.location.href = url;
 }
 
@@ -108,11 +117,11 @@ function createHymnRow(hymn) {
   });
 
   // ---- Ouverture du cantique ----
-  row.addEventListener('click', () => openHymn(display.id));
+  row.addEventListener('click', () => openHymn(hymn));
   row.addEventListener('keydown', event => {
     if (event.key === 'Enter' || event.key === ' ') {
       event.preventDefault();
-      openHymn(display.id);
+      openHymn(hymn);
     }
   });
 

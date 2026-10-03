@@ -20,9 +20,21 @@ const menuClose    = document.getElementById('menu-close');
 const reportCta    = document.getElementById('report-cta');
 const reportCtaBtn = document.getElementById('report-cta-btn');
 
+// Lecture des parametres : priorite au path /cantique/:cat/:num
+// Fallback sur query ?hymn=UUID&category=cat pour retrocompat
 const detailParams = new URLSearchParams(window.location.search);
-const hymnId       = detailParams.get('hymn');
-const categoryId   = detailParams.get('category') || 'lesson-1';
+let   hymnId       = detailParams.get('hymn');
+let   categoryId   = detailParams.get('category') || 'lesson-1';
+let   hymnNumber   = null;
+
+(function parsePath() {
+  var m = window.location.pathname.match(/^\/cantique\/([^\/]+)\/([^\/]+)\/?$/);
+  if (m) {
+    categoryId  = decodeURIComponent(m[1]);
+    hymnNumber  = decodeURIComponent(m[2]);
+    hymnId      = null; // sera resolu par number dans loadDetail
+  }
+})();
 
 let currentHymn     = null;
 let currentVersion  = null;
@@ -95,10 +107,18 @@ function renderHymn(hymn, versionIndex) {
   // Le canonique conserve l'identifiant du cantique, pas les paramètres d'interface.
   const seoTitle = document.title;
   const seoDescription = `Consultez le cantique « ${version.title || hymn.title} »${langLabel ? ` en ${langLabel}` : ''} dans Cantiques EUJC, le recueil numérique des cantiques du Chemin, du Dimanche et de Prière.`;
-  const canonicalUrl = new URL(window.location.href);
-  canonicalUrl.hash = '';
-  canonicalUrl.searchParams.sort();
-  const canonical = canonicalUrl.href;
+  // Canonical : URL propre /cantique/:cat/:num si possible
+  let canonical;
+  if (hymnNumber != null && categoryId) {
+    canonical = 'https://cantiques-eujc.lnk-studio.com'
+      + '/cantique/' + encodeURIComponent(categoryId)
+      + '/' + encodeURIComponent(hymnNumber);
+  } else {
+    const canonicalUrl = new URL(window.location.href);
+    canonicalUrl.hash = '';
+    canonicalUrl.searchParams.sort();
+    canonical = canonicalUrl.href;
+  }
 
   function setSeoMeta(selector, attribute, key, value) {
     let element = document.head.querySelector(`${selector}[${attribute}="${key}"]`);
@@ -764,11 +784,10 @@ if (btnNext) {
     if (currentIndex < 0 || allHymnsInCat.length === 0) return;
     const nextIdx = (currentIndex + 1) % allHymnsInCat.length;
     const nextHymn = allHymnsInCat[nextIdx];
-    // replace() au lieu de href : ne crée pas de nouvelle entrée dans l'historique
-    window.location.replace(
-      `cantique.html?hymn=${encodeURIComponent(nextHymn.id)}`
-      + `&category=${encodeURIComponent(categoryId)}`
-    );
+    const url = (typeof buildCantiqueUrl === 'function')
+      ? buildCantiqueUrl(nextHymn, categoryId)
+      : `cantique.html?hymn=${encodeURIComponent(nextHymn.id)}&category=${encodeURIComponent(categoryId)}`;
+    window.location.replace(url);
   });
 }
 if (btnPrev) {
@@ -776,11 +795,10 @@ if (btnPrev) {
     if (currentIndex < 0 || allHymnsInCat.length === 0) return;
     const prevIdx = (currentIndex - 1 + allHymnsInCat.length) % allHymnsInCat.length;
     const prevHymn = allHymnsInCat[prevIdx];
-    // replace() au lieu de href
-    window.location.replace(
-      `cantique.html?hymn=${encodeURIComponent(prevHymn.id)}`
-      + `&category=${encodeURIComponent(categoryId)}`
-    );
+    const url = (typeof buildCantiqueUrl === 'function')
+      ? buildCantiqueUrl(prevHymn, categoryId)
+      : `cantique.html?hymn=${encodeURIComponent(prevHymn.id)}&category=${encodeURIComponent(categoryId)}`;
+    window.location.replace(url);
   });
 }
 
@@ -805,7 +823,7 @@ function openSignaler() {
 }
 
 async function loadDetail() {
-  if (!hymnId) {
+  if (!hymnId && !hymnNumber) {
     detailRoot.innerHTML = '<p class="detail-empty">Cantique introuvable.</p>';
     return;
   }
@@ -815,16 +833,24 @@ async function loadDetail() {
     const hymns = Array.isArray(corpus.hymns) ? corpus.hymns : [];
     allHymnsInCat = hymns;
 
-    const hymn = hymns.find(h => h.id === hymnId);
+    // Priorite : chercher par number (nouveau format)
+    // Sinon fallback : chercher par id (ancien format)
+    let hymn = null;
+    if (hymnNumber != null && typeof findHymnByNumber === 'function') {
+      hymn = findHymnByNumber(corpus, hymnNumber);
+    }
+    if (!hymn && hymnId) {
+      hymn = hymns.find(h => h.id === hymnId);
+    }
     if (!hymn) {
       detailRoot.innerHTML = '<p class="detail-empty">Cantique introuvable.</p>';
       return;
     }
 
+    hymnId = hymn.id;
     currentIndex = hymns.indexOf(hymn);
     renderHymn(hymn, 0);
 
-    // Enregistrer dans l'historique
     if (typeof addRecent === 'function') {
       addRecent(hymnId, categoryId);
     }

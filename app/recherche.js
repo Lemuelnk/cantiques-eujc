@@ -186,7 +186,7 @@ function renderResult(item, query) {
   }
 
   return `
-    <a class="search-result" href="cantique.html?hymn=${encodeURIComponent(display.id)}&category=${encodeURIComponent(item.category)}">
+    <a class="search-result" href="${(typeof buildCantiqueUrl === 'function') ? buildCantiqueUrl(item.hymn, item.category) : `cantique.html?hymn=${encodeURIComponent(display.id)}&category=${encodeURIComponent(item.category)}`}">
       <span class="search-result-number">${escapeHtml(number)}</span>
       <span class="search-result-content">
         <span class="search-result-title">${title}</span>

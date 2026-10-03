@@ -1,9 +1,11 @@
 {
   "$schema": "https://developers.cloudflare.com/workers/wrangler/config-schema.json",
   "name": "cantiques-eujc",
+  "main": "worker.js",
   "compatibility_date": "2026-10-01",
   "assets": {
     "directory": "./app",
+    "binding": "ASSETS",
     "html_handling": "none",
     "not_found_handling": "404-page"
   }

@@ -130,8 +130,10 @@ function ouvrirCantique(id) {
   enregistrerRecent(id, 'lesson-1');
   const cantique = etat.cantiques.find(c => c.id === id);
   if (!cantique) return;
-  window.location.href =
-    `cantique.html?hymn=${encodeURIComponent(cantique.id)}&category=lesson-1`;
+  const url = (typeof buildCantiqueUrl === 'function')
+    ? buildCantiqueUrl(cantique, 'lesson-1')
+    : `cantique.html?hymn=${encodeURIComponent(cantique.id)}&category=lesson-1`;
+  window.location.href = url;
 }
 
 function lancerRecherche() {
