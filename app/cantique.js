@@ -176,25 +176,104 @@ if (btnFavorite) {
 // ------------------------------------------------------------
 // Partage
 // ------------------------------------------------------------
+// ------------------------------------------------------------
+// Panneau de partage
+// ------------------------------------------------------------
+const $sharePanel         = document.getElementById('share-panel');
+const $sharePanelBackdrop = document.getElementById('share-panel-backdrop');
+const $sharePanelClose    = document.getElementById('share-panel-close');
+const $shareImage         = document.getElementById('share-image');
+const $shareLinkApp       = document.getElementById('share-link-app');
+const $shareCopyLink      = document.getElementById('share-copy-link');
+const $shareCopyLyrics    = document.getElementById('share-copy-lyrics');
+
+function openSharePanel() {
+  if (!$sharePanel || !$sharePanelBackdrop) return;
+  $sharePanelBackdrop.hidden = false;
+  $sharePanel.hidden = false;
+}
+
+function closeSharePanel() {
+  if ($sharePanelBackdrop) $sharePanelBackdrop.hidden = true;
+  if ($sharePanel) {
+    $sharePanel.hidden = true;
+    $sharePanel.style.transform = '';
+  }
+}
+
 if (btnShare) {
-  btnShare.addEventListener('click', async () => {
+  btnShare.addEventListener('click', openSharePanel);
+}
+
+if ($sharePanelClose) {
+  $sharePanelClose.addEventListener('click', closeSharePanel);
+}
+
+if ($sharePanelBackdrop) {
+  $sharePanelBackdrop.addEventListener('click', closeSharePanel);
+}
+
+// Option 1 : Partager le cantique (image à générer dans une prochaine étape)
+if ($shareImage) {
+  $shareImage.addEventListener('click', () => {
+    closeSharePanel();
+    // Placeholder : à brancher avec le générateur d'image
+    alert('Générateur d\'image — en construction. Pour l\'instant, utilisez "Partager avec le lien".');
+  });
+}
+
+// Option 2 : Partager avec le lien (Web Share API)
+if ($shareLinkApp) {
+  $shareLinkApp.addEventListener('click', async () => {
     if (!currentVersion) return;
     const title = currentVersion.title || currentHymn.title;
     const url = window.location.href;
     const text = `${title} — Cantiques EUJC`;
-
+    closeSharePanel();
     if (navigator.share) {
-      try {
-        await navigator.share({ title: text, text, url });
-      } catch (e) { /* annulé */ }
+      try { await navigator.share({ title: text, text, url }); } catch (e) {}
     } else {
-      // Fallback : copier le lien
       try {
         await navigator.clipboard.writeText(`${text}\n${url}`);
         alert('Lien copié dans le presse-papier');
       } catch {
         prompt('Copiez ce lien :', url);
       }
+    }
+  });
+}
+
+// Option 3 : Copier le lien
+if ($shareCopyLink) {
+  $shareCopyLink.addEventListener('click', async () => {
+    const url = window.location.href;
+    closeSharePanel();
+    try {
+      await navigator.clipboard.writeText(url);
+      alert('Lien copié dans le presse-papier');
+    } catch {
+      prompt('Copiez ce lien :', url);
+    }
+  });
+}
+
+// Option 4 : Copier les paroles
+if ($shareCopyLyrics) {
+  $shareCopyLyrics.addEventListener('click', async () => {
+    if (!currentVersion) return;
+    const title = currentVersion.title || currentHymn.title;
+    const number = currentVersion.source && currentVersion.source.number
+      ? `N° ${currentVersion.source.number}\n` : '';
+    const blocks = (currentVersion.content || [])
+      .map(b => (b.lines || []).join('\n'))
+      .join('\n\n');
+    const text = `${number}${title}\n\n${blocks}\n\n— Cantiques EUJC`;
+    closeSharePanel();
+    try {
+      await navigator.clipboard.writeText(text);
+      alert('Paroles copiées dans le presse-papier');
+    } catch {
+      prompt('Copiez ces paroles :', text);
     }
   });
 }

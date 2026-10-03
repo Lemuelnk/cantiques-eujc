@@ -9,8 +9,8 @@
   <title>Cantique — Cantiques EUJC</title>
 
   <link rel="manifest" href="manifest.webmanifest">
-  <link rel="stylesheet" href="charte.css?v=61">
-  <link rel="stylesheet" href="fonts.css?v=61">  <script>
+  <link rel="stylesheet" href="charte.css?v=62">
+  <link rel="stylesheet" href="fonts.css?v=62">  <script>
     /* Anti-FOUC : applique le thème + police avant tout rendu */
     (function(){
       try {
@@ -36,8 +36,8 @@
     })();
   </script>
 
-  <link rel="stylesheet" href="style.css?v=61">
-  <link rel="stylesheet" href="cantique.css?v=61">
+  <link rel="stylesheet" href="style.css?v=62">
+  <link rel="stylesheet" href="cantique.css?v=62">
 
   <script src="https://unpkg.com/lucide@latest"></script>
 </head>
@@ -157,6 +157,120 @@
       </div>
     </div>
 
+
+  <!-- =========================
+       PANNEAU PARTAGE
+  ========================== -->
+  <div class="share-panel-backdrop" id="share-panel-backdrop" hidden></div>
+
+  <div class="share-panel" id="share-panel" hidden aria-modal="true" role="dialog">
+    <div class="share-panel-handle" aria-hidden="true"></div>
+
+    <div class="share-panel-header">
+      <h2>Partager</h2>
+      <button type="button" class="share-panel-close" id="share-panel-close" aria-label="Fermer">
+        <i data-lucide="x"></i>
+      </button>
+    </div>
+
+    <div class="share-panel-options">
+
+      <button type="button" class="share-option" id="share-image">
+        <div class="share-option-icon"><i data-lucide="image"></i></div>
+        <div class="share-option-text">
+          <strong>Partager le cantique</strong>
+          <span>Créer une belle image</span>
+        </div>
+        <i data-lucide="chevron-right" class="share-option-arrow"></i>
+      </button>
+
+      <button type="button" class="share-option" id="share-link-app">
+        <div class="share-option-icon"><i data-lucide="link"></i></div>
+        <div class="share-option-text">
+          <strong>Partager avec le lien</strong>
+          <span>Image + lien de l'application</span>
+        </div>
+        <i data-lucide="chevron-right" class="share-option-arrow"></i>
+      </button>
+
+      <button type="button" class="share-option" id="share-copy-link">
+        <div class="share-option-icon"><i data-lucide="copy"></i></div>
+        <div class="share-option-text">
+          <strong>Copier le lien</strong>
+          <span>Lien vers ce cantique</span>
+        </div>
+        <i data-lucide="chevron-right" class="share-option-arrow"></i>
+      </button>
+
+      <button type="button" class="share-option" id="share-copy-lyrics">
+        <div class="share-option-icon"><i data-lucide="file-text"></i></div>
+        <div class="share-option-text">
+          <strong>Copier les paroles</strong>
+          <span>Texte brut des paroles</span>
+        </div>
+        <i data-lucide="chevron-right" class="share-option-arrow"></i>
+      </button>
+
+    </div>
+  </div>
+
+
+  <!-- =========================
+       PANNEAU PARTAGE
+  ========================== -->
+  <div class="share-panel-backdrop" id="share-panel-backdrop" hidden></div>
+
+  <div class="share-panel" id="share-panel" hidden aria-modal="true" role="dialog">
+    <div class="share-panel-handle" aria-hidden="true"></div>
+
+    <div class="share-panel-header">
+      <h2>Partager</h2>
+      <button type="button" class="share-panel-close" id="share-panel-close" aria-label="Fermer">
+        <i data-lucide="x"></i>
+      </button>
+    </div>
+
+    <div class="share-panel-options">
+
+      <button type="button" class="share-option" id="share-image">
+        <div class="share-option-icon"><i data-lucide="image"></i></div>
+        <div class="share-option-text">
+          <strong>Partager le cantique</strong>
+          <span>Créer une belle image</span>
+        </div>
+        <i data-lucide="chevron-right" class="share-option-arrow"></i>
+      </button>
+
+      <button type="button" class="share-option" id="share-link-app">
+        <div class="share-option-icon"><i data-lucide="link"></i></div>
+        <div class="share-option-text">
+          <strong>Partager avec le lien</strong>
+          <span>Image + lien de l'application</span>
+        </div>
+        <i data-lucide="chevron-right" class="share-option-arrow"></i>
+      </button>
+
+      <button type="button" class="share-option" id="share-copy-link">
+        <div class="share-option-icon"><i data-lucide="copy"></i></div>
+        <div class="share-option-text">
+          <strong>Copier le lien</strong>
+          <span>Lien vers ce cantique</span>
+        </div>
+        <i data-lucide="chevron-right" class="share-option-arrow"></i>
+      </button>
+
+      <button type="button" class="share-option" id="share-copy-lyrics">
+        <div class="share-option-icon"><i data-lucide="file-text"></i></div>
+        <div class="share-option-text">
+          <strong>Copier les paroles</strong>
+          <span>Texte brut des paroles</span>
+        </div>
+        <i data-lucide="chevron-right" class="share-option-arrow"></i>
+      </button>
+
+    </div>
+  </div>
+
   </main>
 
   <!-- =========================
@@ -206,10 +320,10 @@
   </div>
 
 
-  <script src="preferences.js?v=61"></script>
-  <script src="canonical-data.js?v=61"></script>
-  <script src="storage.js?v=61"></script>
-  <script src="cantique.js?v=61"></script>
-  <script src="sw-register.js?v=61"></script>
+  <script src="preferences.js?v=62"></script>
+  <script src="canonical-data.js?v=62"></script>
+  <script src="storage.js?v=62"></script>
+  <script src="cantique.js?v=62"></script>
+  <script src="sw-register.js?v=62"></script>
 </body>
 </html>
