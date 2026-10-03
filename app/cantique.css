@@ -1089,3 +1089,57 @@ body.is-reading-mode .report-cta-btn:active {
 .share-image-generate[hidden] {
   display: none !important;
 }
+
+
+/* ------------------------------------------------------------
+   Thèmes de l'image de partage
+   ------------------------------------------------------------ */
+.share-image-themes {
+  margin: 0 0 16px;
+}
+.share-image-themes-label {
+  margin: 0 0 9px;
+  color: var(--text-secondary);
+  font-family: var(--font-heading);
+  font-size: 12px;
+  font-weight: 700;
+}
+.share-image-theme-options {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+}
+.theme-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+  min-width: 0;
+  padding: 9px 4px;
+  border: 1.5px solid var(--border-soft);
+  border-radius: 12px;
+  background: transparent;
+  color: var(--text-secondary);
+  font: inherit;
+  font-size: 11px;
+  cursor: pointer;
+}
+.theme-btn.is-active {
+  border-color: var(--accent-dark);
+  background: var(--hover-teal-light);
+  color: var(--text-primary);
+}
+.theme-swatch {
+  display: block;
+  width: 100%;
+  max-width: 54px;
+  aspect-ratio: 1 / 1;
+  border-radius: 8px;
+  border: 1px solid rgba(0,0,0,.12);
+}
+.theme-swatch-cream { background: linear-gradient(145deg, #faf6ec 0 58%, #b8935a 58% 64%, #14392e 64%); }
+.theme-swatch-forest { background: linear-gradient(145deg, #081f19 0 58%, #e4c37f 58% 64%, #2d5f4f 64%); }
+.theme-swatch-midnight { background: linear-gradient(145deg, #101820 0 58%, #e4c37f 58% 64%, #243b53 64%); }
+.theme-swatch-botanical { background: linear-gradient(145deg, #f1f3e8 0 58%, #73866b 58% 64%, #263e32 64%); }
+
+.share-image-panel[hidden], .share-image-backdrop[hidden] { display: none !important; }
