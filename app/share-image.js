@@ -63,8 +63,8 @@ async function waitFonts() {
 // ============================================================
 // Choisir le format selon la longueur du cantique
 // ============================================================
-function autoFormatFor(hymn) {
-  const version = (hymn.versions && hymn.versions[0]) || {};
+function autoFormatFor(hymn, selectedVersion = null) {
+  const version = selectedVersion || (hymn.versions && hymn.versions[0]) || {};
   const content = version.content || [];
   const nCouplets = content.filter(b => b.type === 'source_block' || b.type === 'verse').length;
   const nTotal = content.length;
@@ -384,8 +384,8 @@ window.ShareImage = {
     drawImage(canvas, hymn, version, formatKey, themeKey);
   },
 
-  autoFormatFor(hymn) {
-    return autoFormatFor(hymn);
+  autoFormatFor(hymn, selectedVersion = null) {
+    return autoFormatFor(hymn, selectedVersion);
   },
 
   waitFonts,
