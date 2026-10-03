@@ -1,12 +1,1767 @@
 {
   "schema_version": "1.0",
-  "corpus_status": "draft",
+  "corpus_status": "review",
   "taxonomy": {
-    "domain": "priere",
+    "domain": "prayer",
     "category_id": "priere-general",
     "category_label": "Cantiques de prière — général",
     "lesson_id": null,
     "lesson_label": null
   },
-  "hymns": []
+  "source": {
+    "file": "flambeaux_generaux.html"
+  },
+  "hymns": [
+    {
+      "schema_version": "1.0",
+      "id": "53782f5d-b2b9-5f1a-9d24-0af7d4483201",
+      "title": "BWANA MUNGU, MUNGU WANGU EE MUNGU WA ULIMWENGU WOTE",
+      "status": "review",
+      "versions": [
+        {
+          "id": "7f1b584c-b2e3-531c-ad08-5ba67c310934",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "BWANA MUNGU, MUNGU WANGU EE MUNGU WA ULIMWENGU WOTE",
+          "source": {
+            "file": "flambeaux_generaux.html",
+            "position": 1,
+            "number": "4",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-general",
+            "category_label": "Cantiques de prière — général",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Bwana Mungu, Mungu wangu ee, Mungu wa ulimwengu wote 2x",
+                "Mungu wa wenye uhai na wa sio huahi.",
+                "2. Yesu wangu, mwana wa Mungu, yesu wa ulimwe ngu wote. 2x",
+                "Yesu wa wasafirio na wa sio safiri.",
+                "3. Roho mwema, roho wa Mungu, Roho",
+                "wa ulimwengu wote. 2x",
+                "Roho mufariji, Roho wa wenye magonjua na wa sio magonjua."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "7ebad09e-9edc-5c62-b31e-6d5c8e3305b3",
+      "title": "JEHOVA MUNGU ANANENA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "3dca9db3-82e1-5a1d-ae1a-2fdfd608d714",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "JEHOVA MUNGU ANANENA",
+          "source": {
+            "file": "flambeaux_generaux.html",
+            "position": 2,
+            "number": "5",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-general",
+            "category_label": "Cantiques de prière — général",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Jehova Mungu ananena, ananena watu wote njoni (njoni leo) njoni, wote, njoni wote yeye anawalika."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Neno la uzima linanena (linanena) watu wote",
+                "njoni (njoni leo) njoniwote, njoni wote linawalika wote.",
+                "2. Yesu wa Mungu ananena (ananena) watu wote njoni (njoni leo) njoni wote, njoni wote yeye",
+                "anawalika.",
+                "3. Roho damilifu ananena (ananena) watu wote njoni (njoni leo) njoni wote, njoni wote yeye anawalika."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "1d449bf3-e912-5dc9-b534-9558c1733e10",
+      "title": "YESU UKUALIKAA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "848d1eda-87fa-5f31-baef-1300745c6ee5",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "YESU UKUALIKAA",
+          "source": {
+            "file": "flambeaux_generaux.html",
+            "position": 3,
+            "number": "6",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-general",
+            "category_label": "Cantiques de prière — général",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Yesu ukualika njonii, yesu ukualika wewe",
+                "njonii (njoni kua yesu) njoni uchukuwe nawe nira yangu hii,",
+                "(nira yangu hii) nira yani musalaba. 2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "- baba yangu - ata ukiwa mwenye ulozi - ata ukiwa mutenda zambi (Twimbe haleluya, haleluya)2x",
+                "2. Fahari na iwe kwake Mungu wa mbingu p amani na iwe inchini"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "0a270b94-c018-560c-8f65-624a4de250f1",
+      "title": "TWASANKIJILA BWA MUDJI MU NZAMBI",
+      "status": "review",
+      "versions": [
+        {
+          "id": "58023f27-1803-5b92-9624-b47570b31472",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "TWASANKIJILA BWA MUDJI MU NZAMBI",
+          "source": {
+            "file": "flambeaux_generaux.html",
+            "position": 4,
+            "number": "422",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-general",
+            "category_label": "Cantiques de prière — général",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Twasankidjila bwa mudji mu nzambi onso twa kwenza ."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "-Yepowa nzambi twakubanga neba mudjimu twakujikilija neba.",
+                "-Nzambi tatu enda wa bana ¨\t¨\t¨\t¨\t¨\t¨",
+                "Twasankidjila bwa mudjimu yesu onso twa kwenza masiya.",
+                "-Masiya mwana wa nzambi twakubanga nebe mudjimu twa kujikilija neba",
+                "Twasankidjila bwa mudjimu nyuma onso twa kwenza .",
+                "-Nyuma twakubanganebe mudjimu twakujikilija nebe -Nyuma musambi ¨ ¨ ¨ ¨ ¨ ¨ -Musambi wa bana ¨ ¨ ¨ ¨ ¨ ¨"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "aac3c057-7fd2-5473-b77f-abe7efe09b39",
+      "title": "NITAENDEA NANI MIMI",
+      "status": "review",
+      "versions": [
+        {
+          "id": "c563e9a7-33b3-5698-964c-e4223780f0a3",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "NITAENDEA NANI MIMI",
+          "source": {
+            "file": "flambeaux_generaux.html",
+            "position": 5,
+            "number": "426",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-general",
+            "category_label": "Cantiques de prière — général",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Nitaendea nani mimi nikupingapo we jehova jiwe langu u jehova ngao langu."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Eh Mungu usiwe mbali nami Jehova usiniache kamwe jiwe langu unikinge unijaze rehema, jiwe la tegemeo langu uniuwie razi.",
+                "2. Moyo wangu usiogope uko na mufariji na muchungaji mwema Bwana kwa kila ziki zote.",
+                "3. Naweka moyo wangu mimi mikononi mwa bwana na cha , nashangilia Mungu wangu anaeniponesha.",
+                "4. Mungu wa Ibrahimu, wa Isaka, Yakobo jiwe langu sayuni bwana uniuwiye razi."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "75ac335a-9c9e-5acb-8993-3d1535e9ce89",
+      "title": "UWEZA WAKO",
+      "status": "review",
+      "versions": [
+        {
+          "id": "8f15934d-e929-5a5e-ae81-4341dff024af",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "UWEZA WAKO",
+          "source": {
+            "file": "flambeaux_generaux.html",
+            "position": 6,
+            "number": "427",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-general",
+            "category_label": "Cantiques de prière — général",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Uweza wako oh twaomba mungu baba uweza wako utujie toka mbingu hapa duniani.",
+                "Ufalme wako oh twaomba yesu mwana , mwana wa mungu utujie toka mbingu hapa duniani.",
+                "Faraja yako oh twaomba roho mwema roho wa faraja itujie toka mbingu hapa duniani Nehema yako oh twaomba roho mwema roho wa faraja itujie",
+                "toka mbingu hapa duniani."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "12068710-5601-5976-9ddd-deb8cb3ca320",
+      "title": "UMOJA NGUVU ZETU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "488bf96c-9a7a-564c-9a5d-7131d17be0a2",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "UMOJA NGUVU ZETU",
+          "source": {
+            "file": "flambeaux_generaux.html",
+            "position": 7,
+            "number": "429",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-general",
+            "category_label": "Cantiques de prière — général",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "refrain",
+              "lines": [
+                "(Umoja) umoja nguvu zetu umoja wokovu wetu uh umoja roho zetu.",
+                "( Sisi tupo ) sisi tupo kama kondoo iliyo fichwa zizini mwa mufalme wetu yesu ¨2x",
+                "( Nasi tupo ) nasi tupo na umoja taa iliyo mezani na malaika mbinguni .",
+                "(Twashiriki ) Twashiriki neno moja tukishirikia kikombe cha damu yake mwokozi ¨2x",
+                "( Ushiriki ) Ushiriki na kikombe uyafuwe matendo yako ya siku laaini."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "4623ac29-0a75-5622-967a-9765e9363187",
+      "title": "YEPOWA NZAMBI TELEJA KUDJILA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "d0330c0a-2d6d-57e8-8402-c9bbf3e6c6f6",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "YEPOWA NZAMBI TELEJA KUDJILA",
+          "source": {
+            "file": "flambeaux_generaux.html",
+            "position": 8,
+            "number": "431",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-general",
+            "category_label": "Cantiques de prière — général",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Yepowa nzambi teleja kudjila ne kulomba nzambi tudja,ebana bebe."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "-Tukulomba mumakenga\tteleja kudjila ne kulomba nzambi tudianu bana bebe.",
+                "-Watshijila ne butumbi\t¨\t¨\t¨\t¨\t¨\t¨",
+                "-Nzambi tatu\t\t¨\t¨\t¨\t¨\t¨\t¨",
+                "-Bena manga badia nzolo\t¨\t¨\t¨\t¨\t¨\t¨",
+                "2.  Masiya wanyi teleja kudila ne kulomba nzambi tudjanu bana bebe .",
+                "-Mwana wa nzambi Teleja kudila ne kulomba nzambi tudianu bana bebe",
+                "-Masiya wanyi\t¨\t\t¨\t¨\t¨\t¨",
+                "-Yesu wa nzambi\t¨\t\t¨\t¨\t¨\t¨",
+                "3.  Nyuma mwimpe teleja kudila ne kulomba nyuma tudjanu bana bebe.",
+                "-Nyuma mwimpe\tteleja kudila ne kulomba nzambi tudjanu bana bebe",
+                "-Musambi wa bana\t¨\t\t¨\t¨\t¨\t¨",
+                "-Watshijila ne butumbi ¨\t\t¨\t¨\t¨\t¨",
+                "-Bamudjulu bajibemba ¨\t\t¨\t¨\t¨\t¨",
+                "-Aleluya\t¨\t\t¨\t¨\t¨\t¨"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "b34ff790-07ac-5268-9faf-ff181525de20",
+      "title": "MUNGU BABA E EH MUNGU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "6f96d9d1-6054-502a-942c-a160d81d04c6",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "MUNGU BABA E EH MUNGU",
+          "source": {
+            "file": "flambeaux_generaux.html",
+            "position": 9,
+            "number": "462",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-general",
+            "category_label": "Cantiques de prière — général",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Mungu babae ee mungu mumbaji wetu jehova sikia kuomba kwetu.",
+                "Yesu mwana e ee mwana wa mungu sikia kilio utu wokowe",
+                "Roho mwema e ee roho , roho mufariji fariji israeli wana wako."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "6cbfd9e9-d119-5656-bd7e-7cb0dd95033e",
+      "title": "TWAKUSHUKURU MUNGU BABA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "d73464a7-ea7e-5790-bf36-9fb0efed2ce8",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "TWAKUSHUKURU MUNGU BABA",
+          "source": {
+            "file": "flambeaux_generaux.html",
+            "position": 10,
+            "number": "463",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-general",
+            "category_label": "Cantiques de prière — général",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Twakushukuru mungu baba twakushukuru , twakushukuru mungu baba twakushukuru. -Yesu ni mwamba wangu mimi , yesu ni mwamba , yesu ni mwamba wangu mimi yesu ni mwamba.",
+                "-Yesu ni njia yangu mimi , yesu ni njia , yesu ni njia yangu mimi yesu ni njia. Sitakuacha bwana wangu sitakuacha sitakuacha bwana wangu sitakuacha. -Ukae nami bwana wangu ukae nami , ukae nami bwana wangu ukae nami.",
+                "-Mimi na wewe bwana wangu mimi na wewe mimi na wewe bwana wangu mimi na wewe. -Usituache bwana wangu , usituache , usituache bwana wangu usituache.",
+                "-Wewe ni ngao yetu sisi wewe ni ngao , wewe ni ngao yetu sisi wewe ni ngao.",
+                "-Ata kumbingu bwana wangu , ata kumbingu , ata kumbingu bwana wangu ata kumbingu. -Ata milele bwana wangu ata milele , ata milele bwana wangu ata milele .",
+                "-Aleluya amen aleluya , aleluya , aleluya amen amen aleluya."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "b5593bd5-94dd-5a00-aae1-a31f2aa0bf5c",
+      "title": "NIMESIMAMA KATIKATI YA NJIA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "f7533d90-2c5b-5fbd-abab-e45b05075d99",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "NIMESIMAMA KATIKATI YA NJIA",
+          "source": {
+            "file": "flambeaux_generaux.html",
+            "position": 11,
+            "number": "464",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-general",
+            "category_label": "Cantiques de prière — général",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Nimesimama katikati ya njia ni kitafuta kwa kwenda nisimamapo na faraka na moyoni mwangu ¨Na sikia sauti ikinita ¨2x ( jehova mungu ) mimi naingia nyumbani mwako mufalume mungu wa uzima njoni unifariji ¨Mimi ndimi mwana asie jua njia ¨2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Jehova mungu yesu , roho natabika , mimi natabika eei sipendi kuwa nanyi nauharibifi wenu kamwe naitaji njia nzuri na penda njia zako ¨Roho uje unifariji nionyeshe njia zako ¨2x",
+                "Jehova mungu katufanizia vema zamani za kale leo tunanza kutengana na mambo yako Jehova mumbaji uturehemu (jehova mungu) jehova mumbaji uturemu mungu mumbaji uturehemu utuongozeye siku hapa duniani ¨Tutaitwa wana wako wakati tutatimiza ¨2x"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "492526e1-37ab-5739-a16f-9e164da32dc5",
+      "title": "MWOKOZI WANGU MWANA WA MUNGU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "31c9d43a-84ab-5a3a-9c5e-ed9838fe5176",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "MWOKOZI WANGU MWANA WA MUNGU",
+          "source": {
+            "file": "flambeaux_generaux.html",
+            "position": 12,
+            "number": "465",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-general",
+            "category_label": "Cantiques de prière — général",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Mwokozi wangu mwana wa mungu na karibia naomboleza unikinge vema mwokozi wangu ili taabu yangu itakoma."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "( Alinena ) alinena omba utapewa , ( alinena ) alinena itaji utaona , ( abishae ) abishae atafunguliwa kwenye mulango wa muji wa bwana.",
+                "Naja na kilio mwokozi wangu machozi yangu yameturika wokovu wangu ni kwako bwana kwajina lako viote bvitakoma.",
+                "Na tegemea mwokozi wangu kubali uwape haibu waasi wanihaki kwa ziki zangu kwa jina lako viote vitakoma."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "0d21d322-255b-5b74-a0e4-788298cb4b9a",
+      "title": "DIEU D’ABRAHAM",
+      "status": "review",
+      "versions": [
+        {
+          "id": "45fce626-f7a6-5633-b439-5a966acdefa7",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "DIEU D’ABRAHAM",
+          "source": {
+            "file": "flambeaux_generaux.html",
+            "position": 13,
+            "number": "467",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-general",
+            "category_label": "Cantiques de prière — général",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "¨Dieu d’Abraham Dieu sauve-moi ¨2x ¨Dieu sauve-moi sauve-moi mon Dieu ¨2x",
+                "¨Dieu d’Isaack Dieu sauve-moi ¨2x ¨Dieu sauve-moi sauve-moi mon Dieu ¨2x",
+                "¨Dieu de Jacob Dieu sauve-moi ¨2x ¨Dieu sauve-moi , sauve-moi mon Dieu ¨2x"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "55152949-8aa9-5dba-a778-3e7c691d199f",
+      "title": "TWAKUSHUKURU MUNGU KWA HUDUMA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "af236ead-6682-5767-a8d1-907c44573998",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "TWAKUSHUKURU MUNGU KWA HUDUMA",
+          "source": {
+            "file": "flambeaux_generaux.html",
+            "position": 14,
+            "number": "469",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-general",
+            "category_label": "Cantiques de prière — général",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Twakushukuru mungu ¨Kwa huduma huu tunao ufanya huduma kwa kuanza nawe na kumaliza nawe ¨2x",
+                "Twakushukuru yesu ¨Kwa huduma huu tunao ufanya huduma kwa kuanza nawe na kumaliza nawe ¨2x",
+                "Twakushukuru roho ¨Kwa huduma huu tunao ufanya huduma kwa kuanza nawe na kumwaliza nawe ¨2x"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "d304f4e6-c943-57ca-8dc3-3bc1e03f99ca",
+      "title": "MUNGU WANGU MUNGU WANGU NISIKIE",
+      "status": "review",
+      "versions": [
+        {
+          "id": "7fd18281-9c03-5e47-8145-45e417316e11",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "MUNGU WANGU MUNGU WANGU NISIKIE",
+          "source": {
+            "file": "flambeaux_generaux.html",
+            "position": 15,
+            "number": "470",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-general",
+            "category_label": "Cantiques de prière — général",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Mungu wangu mungu wangu , bwana nisikie mungu wangu mumbaji wetu bwana nisikie muumbaji wetu bwana nisikie.",
+                "Yesu wangu mwana mungu yesu niokowe yesu wangu mwokozi wetu yesu niokowe mwokozi wetu yesu niokowe",
+                "Roho mwema roho wa mungu roho unifariji roho mwema mufariji wetu roho unifariji mufariji wetu roho unifariji."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "ab4862e6-c6ce-54dc-8064-ba17be99912e",
+      "title": "KATIKA SHIDA ZANGU MIMI",
+      "status": "review",
+      "versions": [
+        {
+          "id": "a37e3df6-bac6-5e5e-8ed2-4fd9554c629d",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "KATIKA SHIDA ZANGU MIMI",
+          "source": {
+            "file": "flambeaux_generaux.html",
+            "position": 16,
+            "number": "471",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-general",
+            "category_label": "Cantiques de prière — général",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Katika shida zangu mimi na ziki zote nategemea bwana mungu aniokowe vitani."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "(Omba mungu ) omba mungu mumbawako wombe utapewa ( utapewa ) tafuta yesu mwokozi itaji utaona ( utaona ) ubishe mulangoni roho atakufungulia.",
+                "Wengi wapo wa zaifu mu taabu na kifo , tuishi na yesu kristu katika jambo lote.",
+                "Tupo ndani ya taabu sisi na Jawabu nyingi kwa kupata roho mwema mufariji wa watu."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "0aa7139c-889f-55f0-b48e-4aa9a372ebd6",
+      "title": "NZAMBI WANYI TUZANJIKA PAMPALA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "746816b3-016a-555e-a220-f4d385f17e9d",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "NZAMBI WANYI TUZANJIKA PAMPALA",
+          "source": {
+            "file": "flambeaux_generaux.html",
+            "position": 17,
+            "number": "472",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-general",
+            "category_label": "Cantiques de prière — général",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Nzambi wanyi tuzanjika pampala pa makola onsa ¨Makalenga ne matumbi ne makokeshi amidima ¨2x",
+                "Yesu wanyi tuzanjika pampala pa makola onso ¨Makalenga ne matumbi ne makokeshi amidima ¨2x",
+                "Nyuma mwimpe tuzanjika pampala pa makola onso ¨Makalenga ne matumbi ne makokeshi amidima ¨2x"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "8361a263-413c-53b0-9178-b383f603efd2",
+      "title": "YEOPOWA WA NZAMBI UTUMVWILA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "a55700ca-d493-5fc2-a524-a03bd4c03f4e",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "YEOPOWA WA NZAMBI UTUMVWILA",
+          "source": {
+            "file": "flambeaux_generaux.html",
+            "position": 18,
+            "number": "473",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-general",
+            "category_label": "Cantiques de prière — général",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1.  ¨Yeopowa wa nzambi utumvwila kumilombo ya malu adi kumpala kwetu ¨2x"
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "-Papa wanyi\t\tutumvwila kumilombo ya malu adi kumpala kwetu",
+                "-Mufuki wanyi\t\t¨\t¨\t¨\t\t¨\t¨\t¨",
+                "-Banganyi wanyi kutwaya\t¨\t¨\t¨\t\t¨\t¨\t¨",
+                "-Bakwimba nabo balala\t¨\t¨\t¨\t\t¨\t¨\t¨",
+                "-Tuluka wenda majunda\t¨\t¨\t¨\t\t¨\t¨\t¨",
+                "2.  Yesu wa nzambi utumvwila kumilombo ya malu adi kumpala kwetu ¨2x",
+                "-Musungishi wanyi\tutumvwila kumilombo ya malu adi kumpala kwetu .",
+                "-Mwana wa nzambi\t¨\t\t¨\t¨\t\t¨\t¨",
+                "-Tuluka wenda majunda ¨\t\t¨\t¨\t\t¨\t¨",
+                "3.  Nyuma musambi utumvwila kumilombo ya malu adi kumpala kwetu ¨2x",
+                "-Nyuma musambi\tutumvwila kumilombo ya malu adi kumpala kwetu",
+                "-Musambi wa bana\t¨\t\t¨\t¨\t¨\t¨\t¨",
+                "-Tuluka wenda majunda¨\t\t¨\t¨\t¨\t¨\t¨",
+                "-Bakwimba nabo balala ¨\t\t¨\t¨\t¨\t¨\t¨"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "c088ac37-00f3-5790-8b87-eae1b98d83ab",
+      "title": "OMBA MUNGU NA FURAHA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "54a14284-2cd6-51db-b8f6-8bb7673dcb6f",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "OMBA MUNGU NA FURAHA",
+          "source": {
+            "file": "flambeaux_generaux.html",
+            "position": 19,
+            "number": "474",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-general",
+            "category_label": "Cantiques de prière — général",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "refrain",
+              "lines": [
+                "Omba mungu na furaha , omba mungu na furaha omba mungu na furaha daima , daima milele.",
+                "-Ndugu yangu ukiomba faraja , faraja utabaki nayo daima , daima milele",
+                "-Ndugu yangu ukiomba upendo , upendo utabaki nayo daima , daima milele.",
+                "-Ndugu yangu ukiomba uzima , uzima utabaki nayo daima , daima milele."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "a39acb9e-fd6d-5b8b-bc8a-fb132d90f7f9",
+      "title": "MUBILUMBU BIANYI",
+      "status": "review",
+      "versions": [
+        {
+          "id": "b2acb6f2-939a-59b2-baf4-793559684402",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "MUBILUMBU BIANYI",
+          "source": {
+            "file": "flambeaux_generaux.html",
+            "position": 20,
+            "number": "475",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-general",
+            "category_label": "Cantiques de prière — général",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Mubilumbu bianyi (bianyi ) ne mumakenga onso ndjituma nzambi kumpala bwakuntshimwina vita."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "(Aleluya) lomba nzambi tatu wetu e ulombe ne upete (wewe ne upete) keba yesu musungidji ukebe ne umone (wewe ne umone)",
+                "ukokola nu kutshibi nyuma na kunzulwile.",
+                "2. Banga badji bateketa bwamasama ne lufu twikalay ne yesu mubitupa ebibionso.",
+                "3. Tudji muntatu ne mumalu amishindu yonso bwakupeta nyuma musambi wetu."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "f3775725-0ae3-5a23-b2c0-cc714f0385fa",
+      "title": "BATWE TUDJI BASHIDJIKA BA YESU KRISTU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "ca244cad-ed4e-504d-b642-4a97406af39b",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "BATWE TUDJI BASHIDJIKA BA YESU KRISTU",
+          "source": {
+            "file": "flambeaux_generaux.html",
+            "position": 21,
+            "number": "477",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-general",
+            "category_label": "Cantiques de prière — général",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Batwe tudji bashidjika ba yesu kristu twaenda mu bulwi bwa mianda ;ia mfumu betushiumwine ¨2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "¨ Nanshi vwalay bionso bia bulwi bia mianda miyampe bantu bamuyuke yesu wa Leza nabo ba mwitabisjie ¨2x",
+                "¨( Balwana ) balwana badji ne ma verset abubela akongola balondji nabo batomboke balekekuyuka Leza ¨2x",
+                "¨( Tulombe ) tulombe bukomo kwa yehova Leza tata etukwashe mwa wa kwashishe isalela mafukwakala ¨2x"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "ef2a7f5d-eb18-5179-8969-28c35d1e0431",
+      "title": "JEHOVA MUNGU TWAOMBOLEZA TWAKUOMBA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "692653c6-68cb-548a-9265-42d21f3d8559",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "JEHOVA MUNGU TWAOMBOLEZA TWAKUOMBA",
+          "source": {
+            "file": "flambeaux_generaux.html",
+            "position": 22,
+            "number": "479",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-general",
+            "category_label": "Cantiques de prière — général",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1.\tJehova mungu twaomboleza twakuomba baba sisi tu wana wako."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "-Tuna kwalika leo twaomboleza twakuomba baba sisi tu wana wako",
+                "-Onyesha uweza ¨ ¨ ¨ ¨ ¨ -Utushushie nguvu ¨ ¨ ¨ ¨ ¨",
+                "Mwanawa mungu twaomboleza twakuomba yesu sisi tu wana wako.",
+                "-Mwana wa mungu  twaomboleza twakuomba yesu sisi tu wana wako",
+                "-Neno la kweli ¨ ¨ ¨ ¨ ¨ -Utupe ushindi ¨ ¨ ¨ ¨ ¨",
+                "Roho wa mungu twaomboleza twakuomba Roho sisi tu wana wako",
+                "-Utushushie moto twaomboleza twakuomba roho sisi tu wana wako",
+                "-Roho wa kweli\t¨\t¨\t¨\t¨\t¨\t¨"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "d88aa92b-5e91-58c8-9b39-c2df36079ce6",
+      "title": "NALIA MIMI NAOMBOLEZA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "db8ae619-72bb-509a-a9a9-f7e7d949111f",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "NALIA MIMI NAOMBOLEZA",
+          "source": {
+            "file": "flambeaux_generaux.html",
+            "position": 23,
+            "number": "480",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-general",
+            "category_label": "Cantiques de prière — général",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "refrain",
+              "lines": [
+                "¨Nalia mimi naomboleza ¨2x yakini mimi jehova mungu sipate jibu .",
+                "Mungu kwa rehema yako ¨Ulie mutowa lutu mungu wangu katika sodoma ¨2x",
+                "¨Mungu kwa upendo wako ¨ ¨Ulie mutowa yesu mungu wangu aniokowe mimi ¨2x",
+                "Mungu na jirika kwako ¨Mimi naomboleza kwako mungu wangu ni pate uzima ¨2x"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "5711821b-224a-5f97-9695-b42cdde1bcb2",
+      "title": "YESU KAMWAMBIA BABA EH BABA NENDA DUNIANI",
+      "status": "review",
+      "versions": [
+        {
+          "id": "9a95ede4-e172-5e53-a5c0-ce26359fd2aa",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "YESU KAMWAMBIA BABA EH BABA NENDA DUNIANI",
+          "source": {
+            "file": "flambeaux_generaux.html",
+            "position": 24,
+            "number": "481",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-general",
+            "category_label": "Cantiques de prière — général",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Yesu kamwambia baba eh baba nenda duniani hukoo AAAH !! nenda kwa kuokoa chochote kilicho potea ¨Atakae amini kila yeyote amwaminie hawezi kufa kamwe ¨2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Baba twakushukuru , twakushukuru mungu baba kwani roho ameshuka."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "-Mufalme twakushukuru , twakushukuru mfalme yesu neno limetimia. -Roho twakushukuru , twakushukuru roho mfariji ameingia mioyoni -Basi leo tupo , tupo na furaha kubwa furaha ya shangwe kubwa",
+                "( Yesu kawambia wafwasi ) wafwasi furahini kwenda kwenda kwangu AAAH !! Baadaye roho atawashukia kwajili awachukuwe ¨Na roho mufariji atapaa na watu wake wote wana wa israeli ¨2x",
+                "Leo roho ameshuka , ameshuka kwao walio mwamini AAA !! wameriti muji waamani mulima wa sayuni ¨Uyo yerusalema yerusalema wa mbinguni muji wa shangwe kubwa ( wa furaha kubwa ) ¨2x"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "8b7a2311-6b94-550b-a0b5-731fb3c0280b",
+      "title": "TWAKUSHUKURU KWA KAZI ZOTE",
+      "status": "review",
+      "versions": [
+        {
+          "id": "84259ff5-99de-583c-b54e-b7718d39978d",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "TWAKUSHUKURU KWA KAZI ZOTE",
+          "source": {
+            "file": "flambeaux_generaux.html",
+            "position": 25,
+            "number": "483",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-general",
+            "category_label": "Cantiques de prière — général",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "¨Twakushukuru kwa kazi zote mwanzo na mwisho ¨2x Eh Baba ¨Tulianza na wewe tuna maliza nawe ¨2x",
+                "¨Twakushukuru kwa kazi zote mwanzo na mwisho ¨2x Eh Yesu ¨Tulianza na wewe tuna maliza nawe ¨2x",
+                "¨Twa kushukuru kwa kazi zote mwanzo na mwisho ¨2x Eh Roho ¨Tulianza na wewe tuna maliza nawe ¨2x"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "df825ac1-da28-5cbe-822b-c402a5f229bb",
+      "title": "MUNGU MUFALUME WA WATU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "b9d856e3-84de-5c23-afc9-2293fb1d1a06",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "MUNGU MUFALUME WA WATU",
+          "source": {
+            "file": "flambeaux_generaux.html",
+            "position": 26,
+            "number": "484",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-general",
+            "category_label": "Cantiques de prière — général",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Mungu mufalume wa watu (2x)"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "muweza wa yote wa mwanzo na mwisho wa dunia (2x)",
+                "2. Yesu mukombozi wa watu (2x)",
+                "3. Roho mufariji wa watu (2x)"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "85797802-ac6d-597f-9e90-89e980fc1f78",
+      "title": "NDJIMWENA MUDJIMU WEBE",
+      "status": "review",
+      "versions": [
+        {
+          "id": "8802f944-ae8b-5f6d-9d1d-7796b2689853",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "NDJIMWENA MUDJIMU WEBE",
+          "source": {
+            "file": "flambeaux_generaux.html",
+            "position": 27,
+            "number": "485",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-general",
+            "category_label": "Cantiques de prière — général",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "¨Ndjimwena mudjimu webe yepowa wanyiwe mukalenga wanyi unfwile luse ¨2x ( nzambi mikwabo )",
+                "¨Yesu wa nzambi ndjikulomba , ndjimwena mudjimu webe masiya wanyiwe mukalenga wanyi unfwile luse ¨2x ( mwana wa nzambi djikulomba )",
+                "¨Nyuma musambi wa batu ndjimwena mudjimu webe nyuma musambi we mukalenga wanyi unfwile luse ¨2x ( nyuma musambi )"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "369b9db9-483f-5e99-9d2d-883c29b08ec3",
+      "title": "TUDJI BIMANE KUMPALA KWEBE NZAMBI",
+      "status": "review",
+      "versions": [
+        {
+          "id": "2ff9f59c-ea0f-5b4e-a96d-68bdba42317a",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "TUDJI BIMANE KUMPALA KWEBE NZAMBI",
+          "source": {
+            "file": "flambeaux_generaux.html",
+            "position": 28,
+            "number": "486",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-general",
+            "category_label": "Cantiques de prière — général",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Tudji bimane kumpala kweba nzambi , katwena ni tshakwenza ¨2x ( nzambi tatu ) ¨Utulombole mudji djiswa djeba bwatubanga neba mudjimu ¨2x",
+                "¨Tudjibimane kumpala kweba yesu , katwena ni tshakwenza ¨2x mwana wa zambi ¨Utulombole mudji djiswa djeba bwatu banga neba mudjimu ¨2x",
+                "¨Tudji bimane kumpala kweba nyuma , katwena ni tshakwenza ¨2x nyuma mwimpe ¨Utulombole mudji djiswa djeba bwatubanga neba mudjimu ¨2x"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "7db9b55e-7a3f-5fd8-b553-60eefec6fcce",
+      "title": "TUPO KATIKA MASHINDANO",
+      "status": "review",
+      "versions": [
+        {
+          "id": "5bdc1285-0f35-5a9c-8c71-3749024c502c",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "TUPO KATIKA MASHINDANO",
+          "source": {
+            "file": "flambeaux_generaux.html",
+            "position": 29,
+            "number": "489",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-general",
+            "category_label": "Cantiques de prière — général",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Tupo katika mashindano ya vita na shetani ¨Uweza wako wewe jehova mungu utulinde ¨2x (Utulinde baba )",
+                "Tupo katika mashindano ya vita na shetani ¨Uweza wako wewe yesu mwana utulinde ¨2x (Utulinde yesu )",
+                "Tupo katika mashindano ya vita na shetani ¨Uweza wako wewe roho mwema utulinde ¨2x (Utulinde roho )"
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "-Utulinde baba : Uweza wako wewe jehova mungu utulinde -Utulinde yesu : Uweza wako wewe yesu mwana utulinde -Utulinde roho : Uweza wako wewe roho mwema utulinde"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "88adac10-9c2c-50ef-9635-de5aaf30260b",
+      "title": "JEHOVA MUNGU UTULINDE",
+      "status": "review",
+      "versions": [
+        {
+          "id": "f77503c7-88d0-51f3-bfa4-d75ef5f45630",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "JEHOVA MUNGU UTULINDE",
+          "source": {
+            "file": "flambeaux_generaux.html",
+            "position": 30,
+            "number": "490",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-general",
+            "category_label": "Cantiques de prière — général",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Jehova mungu utulinde baba huu wakati wa vita ¨Sisi vifaranga viako eh baba ulinde huhai wetu ¨2x",
+                "Yesu mwana utulinde yesu huu wakati wa vita ¨Sisi vifaranga viako eh yesu ulinde huhai wetu ¨2",
+                "Roho mwema utulinde roho huu wakati wa vita ¨Sisi vifaranga viako eh roho ulinde huhai wetu ¨2x"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "2063c2e0-2356-5e85-a4e2-f8934f36e161",
+      "title": "NASTAHILI KUOMBA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "08765d2b-83e2-5510-a499-d02c1909c3ce",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "NASTAHILI KUOMBA",
+          "source": {
+            "file": "flambeaux_generaux.html",
+            "position": 31,
+            "number": "491",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-general",
+            "category_label": "Cantiques de prière — général",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Nastahili kuomba bwana vitu ni pendavio kwani yeye unena aobae upewa ."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "( Haleluya tuombe ) ¨Tuombe bwana baba wa mbingu (tuombe ) tuombe bwana wokovu haleluya ¨2x (haleluya ) tuombe bwana baba wa mbingu ( tuombe tuombe bwana wokovu.",
+                "Nastahili kumwitaji ili niwe naye kwani yeye aliniahidi haitaji huona.",
+                "Nastahili kuubisha kwenye mulango wa bwana kwani yeye hatani pinga kunifungulia",
+                "Napenda ngome imara ya amani yangu ni mahali pa furaha ya ibaada kweli."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "fcf8c7eb-b92a-5125-b856-8b49eef74197",
+      "title": "BABA TUNAKULILIA ¨2X",
+      "status": "review",
+      "versions": [
+        {
+          "id": "2cedb3e6-65ac-5a68-b680-d31b57c947e6",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "BABA TUNAKULILIA ¨2X",
+          "source": {
+            "file": "flambeaux_generaux.html",
+            "position": 32,
+            "number": "492",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-general",
+            "category_label": "Cantiques de prière — général",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "¨Baba tunakulilia ¨2x Jehova mungu tuna kulilia tufunikwe nasi na wingu ¨Mungu mumbaji tuna kulilia tufunikwe nasi na wingu ¨2x",
+                "Mumbaji wetu tunakulilia tufunikwe nasi na wingu.",
+                "¨Yesu tunakulilia ¨2x mwana wa mungu tunakulilia tufunikwe nasi na wingu ¨yesu masiya tunakulilia tufunikwe nasi na wingu ¨2x ¨Mwokozi wetu tunakulilia tutufunikwe nasi na wingu ¨2x",
+                "¨Roho tunakulilia ¨2x roho wa salama tunakulilia tufunikwe nasi na wingu ¨Roho wa faraja tunakulilia tufunikwe nasi na wingu ¨Roho damilifu tunakulilia tufunikwe nasi na wingu ¨2x"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "db3d3cf8-5b17-51ad-8f6c-bdbba10152a1",
+      "title": "BABA FUNGUWA MBINGU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "8d30a9c5-c416-5454-9a57-fd7fdd8e913e",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "BABA FUNGUWA MBINGU",
+          "source": {
+            "file": "flambeaux_generaux.html",
+            "position": 33,
+            "number": "494",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-general",
+            "category_label": "Cantiques de prière — général",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "¨Baba funguwa mbingu ¨2x jehova fungua mbingu wana wako wanalia.",
+                "¨Yesu fungua mbingu ¨2x mwana wa mungu fungua mbingu uwokowe wana wako",
+                "¨Roho fungua mbingu ¨2x roho mufariji fungua mbingu ufariji wana wako."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "5550a3e2-55d6-5ea7-a783-d106005e302a",
+      "title": "KILIO CHANGU JEHOVA MUNGU USIKU MUZIMA SILALE",
+      "status": "review",
+      "versions": [
+        {
+          "id": "052719d7-52ca-54fe-8961-c77c0941bb69",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "KILIO CHANGU JEHOVA MUNGU USIKU MUZIMA SILALE",
+          "source": {
+            "file": "flambeaux_generaux.html",
+            "position": 34,
+            "number": "495",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-general",
+            "category_label": "Cantiques de prière — général",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1.\t¨Kilio changu jehova mungu usiku muzima silale ¨2x  Jehova , ¨Usiku muzima silali mimi kwa",
+                "kupeleka itaji ¨2x"
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "-Itaji kwa baba usiku muzima silali kwa kupeleka itaji .",
+                "-Tegemeo langu ¨\t¨\t¨\t¨\t¨",
+                "-Mungu mushindi ¨\t¨\t¨\t¨\t¨",
+                "¨Kilio changu yesu wa mungu usiku muzima silale ¨2x Mukombozi wangu , ¨usiku muzima silale mimi kwa kupeleka itaji ¨2x Masiya wangu ¨Usiku muzima silale mimi kwa kupeleka itaji ¨2x",
+                "¨Kilio changu roho damilifu usiku muzima silale ¨2x mufariji wangu ¨Usiku muzima silali kwa kupeleka itaji ¨2x Roho wa salama ¨Usiku muzima silali kwa kupeleka itaji ¨2x"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "827a8b57-940b-5f96-8586-d5c0f4f39b5b",
+      "title": "JEHOVA MUNGU NALIA BABA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "242c99a7-e497-530f-803a-aad4e89c1044",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "JEHOVA MUNGU NALIA BABA",
+          "source": {
+            "file": "flambeaux_generaux.html",
+            "position": 35,
+            "number": "496",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-general",
+            "category_label": "Cantiques de prière — général",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "¨Jehova mungu nalia baba mufalume wangu ni wewe ¨2x ¨( baba tazama ) tazama moyo ufazaika na mambo ya dunia ¨2x",
+                "¨Yesu mwana nalia yesu mukombozi wangu ni wewe ¨2x ¨(yesu tazama ) tazama moyo ufazaika na mambo ya dunia ¨2x",
+                "¨Roho mwema nalia roho mufariji wangu ni wewe ¨2x ¨( Roho tazama ) tazama moyo ufazaika na mambo ya dunia ¨2x"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "574f7369-a0b7-5f85-9352-0c3938a3e61a",
+      "title": "TAZAMA MUSA HAKUMUJUA MUNGU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "eccdfee0-9289-5fa1-8e91-9f55dfeb43a4",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "TAZAMA MUSA HAKUMUJUA MUNGU",
+          "source": {
+            "file": "flambeaux_generaux.html",
+            "position": 36,
+            "number": "498",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-general",
+            "category_label": "Cantiques de prière — général",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Tazama Musa hakumujua mungu Musa hakumujua mungu kamwambia mumbaji tubu uwovu wako .¨( Musa ! ) nilikuchagua ¨2x ¨Katika wana israeli ulikua bubu ¨2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Eh ! wajoli kumbuka mumbaji wako wako",
+                "-Ni kikufuru mungu nitaendea nani mumbaji unirehemu.",
+                "-Ni kikufuru mungu nitaimbia nani mumbaji wangu unirehemu.",
+                "¨Yakobo hakumujua mungu ¨2x ¨Alikataa Yusufu kusimama mbele yake ¨2x ¨Yakobo ni likuguwa wewe ¨2x ¨Kati yako na Esau yakobo nilikupenda ¨2x",
+                "¨Ibrahimu hakumujua mungu alikataa kufukuza hagari na mwana wake.¨2x Ibrahimu nilikuchaguwa wewe katikati ya kondoo na mbuzi nilikupenda."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    }
+  ]
 }

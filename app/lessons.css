@@ -208,3 +208,11 @@
   }
 
 }
+
+
+/* =========================================
+   VARIANTE : row sans numéro (Dimanche/Prière)
+   ========================================= */
+.lesson-row-wide {
+  grid-template-columns: 1fr 20px;
+}

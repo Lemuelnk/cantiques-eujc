@@ -1,12 +1,1159 @@
 {
   "schema_version": "1.0",
-  "corpus_status": "draft",
+  "corpus_status": "review",
   "taxonomy": {
-    "domain": "dimanche",
+    "domain": "sunday",
     "category_id": "dimanche-divers",
     "category_label": "Communiquer et divers",
     "lesson_id": null,
     "lesson_label": null
   },
-  "hymns": []
+  "source": {
+    "file": "chants_du_communique.html"
+  },
+  "hymns": [
+    {
+      "schema_version": "1.0",
+      "id": "247daf09-b862-5164-99f1-fceb869aba21",
+      "title": "NDINGELA LUBILA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "b108baf0-2a4a-5fe1-a9cb-d037760dcb79",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "NDINGELA LUBILA",
+          "source": {
+            "file": "chants_du_communique.html",
+            "position": 1,
+            "number": "319",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "sunday",
+            "category_id": "dimanche-divers",
+            "category_label": "Communiquer et divers",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Ndinghela lubila buyona wa nzambi¨2x mbikila tatu nzambi wa yakobo (mbikila tatu ) (bwa mibi yonso) bwa mibi ya bafwa Leza ni bipendu",
+                "biabo ¨Bionso bia kutonda nzambi wa yakoba ¨2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Anu nzambi wetu nzambi wetu lwaku, nzambi wetu luakwaku.",
+                "Edji disanka diakwela mbila."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "-Mbuji-mayi, mbuji-mayi  wa mukalenga nyakwela lubila",
+                "- Kolwezi-kolwezi\t¨\t¨\t¨\t¨\t¨",
+                "- Likasi –likasi\t¨\t¨\t¨\t¨\t¨",
+                "- Kalemie – kalemie\t¨\t¨\t¨\t¨\t¨",
+                "- Lubumbashi- lubumbashi ¨\t¨\t¨\t¨\t¨"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "0ba1ff80-3738-54e9-ac15-5dead1bb9333",
+      "title": "NATOWA YOWE",
+      "status": "review",
+      "versions": [
+        {
+          "id": "665792a9-ee21-5647-9895-be73541c4e1d",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "NATOWA YOWE",
+          "source": {
+            "file": "chants_du_communique.html",
+            "position": 2,
+            "number": "320",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "sunday",
+            "category_id": "dimanche-divers",
+            "category_label": "Communiquer et divers",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Natowa yowe kama yoane wa mungu¨2x (mimi ) nialike baba mungu wa yakobo uwovu wa mafarisayo na shutumu zao kweli mimi vimenizuru mungu wa",
+                "yakobo."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Alikeni bwana ¨mungu wetu njoo , mungu wetu njoni (njoni leo, mufalmed njoni) ¨2x",
+                "¨Ihii ni shangwe ya kutowa yowe ¨2x"
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Lubumbashi wa mufalme natoa yow",
+                "- Kinshasa\twa mufalme natoa yowe"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "e6edc4b1-4458-5c48-b59b-ae88bafa6b17",
+      "title": "PETRO KAMWAMBIA YESU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "28441c0d-887d-5c0d-9619-f4f371b4827c",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "PETRO KAMWAMBIA YESU",
+          "source": {
+            "file": "chants_du_communique.html",
+            "position": 3,
+            "number": "321",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "sunday",
+            "category_id": "dimanche-divers",
+            "category_label": "Communiquer et divers",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Petro kamwambia yesu, mufalume wangu mimi ni na huodari wa kufariki na wewe ¨Nitaenda nawe katika gereza ¨2x (mi huyu)"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Jogo hajanza ku wiga wewe utamukana yesu kwajili ya mambo haya mufalume utamukana."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Mwanamuke mufanya kazi akamwakikisha mutu huyu alikuwa na yesu kristu",
+                "- ¨Petro akaapa ya kama mimi si mu juwi ¨2x",
+                "Alipozungumuza na watu wakamwakikisha mutu huyu ni mumoja wa wenye neno usemi wake umemujulisha."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "6bfe7f0b-7838-5ab3-a682-0b96b4ec19dc",
+      "title": "TUFANYE HUDUMA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "b111ab47-2699-5ec0-aa27-8f8323ee7289",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "TUFANYE HUDUMA",
+          "source": {
+            "file": "chants_du_communique.html",
+            "position": 4,
+            "number": "322",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "sunday",
+            "category_id": "dimanche-divers",
+            "category_label": "Communiquer et divers",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Tufanye huduma za bwana mungu wetu bwana wa majeshi ata fariji."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Tu fanye huduma za bwana kwa nguvu na kwa furaha ili tu pewe ujira kwa bwana, (ujira) ni uzima wa milele.",
+                "Sisi twajitolea kufanya huduma mpaka mwisho wa maisha yetu. Tulichaguliwa katika ulimwengu ili tuwe wafanya kazi nawe."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "9d6757ce-4081-558e-8b3c-bf7467689aee",
+      "title": "BASI NITASEMA NINI KWA MUNGU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "46b45192-5728-5bf3-ba5d-260b9cd3643b",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "BASI NITASEMA NINI KWA MUNGU",
+          "source": {
+            "file": "chants_du_communique.html",
+            "position": 5,
+            "number": "323",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "sunday",
+            "category_id": "dimanche-divers",
+            "category_label": "Communiquer et divers",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "refrain",
+              "lines": [
+                "Basi nitasema nini kwa mungu wangu tamsii mumbaji wangu roho, roho shuka uduma zitimilike eh baba roho , roho shuka na mimi ni pumuzishwe.",
+                "1. Mumbaji wangu tazama wote ulionipa sikupoteza hata moja ila mwana wa kuasi.",
+                ">",
+                "2. Kumbuka taabu yangu katika huduma huu sikupenda kujinua kwajili ya jina lako (eh baba)",
+                "3. Babangu unitukuze kwa utukufu ni liokuwa nao hilinawe utukuzwe ndani ya awa ulionipa."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "48c9ba96-8787-5823-b0da-74f4aa02f4b1",
+      "title": "SIKU ATAKUJA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "48d56998-9874-5d3a-82ed-ff76cf929860",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "SIKU ATAKUJA",
+          "source": {
+            "file": "chants_du_communique.html",
+            "position": 6,
+            "number": "325",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "sunday",
+            "category_id": "dimanche-divers",
+            "category_label": "Communiquer et divers",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Siku atakuja yesu mwana mungu sisi awa tutaenda kumusalimu."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "-Na wa baba wataenda kama utabaki sisi awa tutaenda kumusalimu",
+                "- Na wageni wataenda kama utabaki\t¨\t¨\t¨\t¨\t¨\t¨",
+                "- Na walozi wataenda kama  utabaki\t¨\t¨\t¨\t¨\t¨\t¨",
+                "- Na wageni wataenda kama utabaki\t¨\t¨\t¨\t¨\t¨\t¨"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "a10508d8-be33-5efd-af78-555ba84291e3",
+      "title": "HUDUMA HUDUMA HUDUMA BWANA MUNGU WE",
+      "status": "review",
+      "versions": [
+        {
+          "id": "f06599ca-4d82-5fcb-8f32-ae08a5de4a50",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "HUDUMA HUDUMA HUDUMA BWANA MUNGU WE",
+          "source": {
+            "file": "chants_du_communique.html",
+            "position": 7,
+            "number": "326",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "sunday",
+            "category_id": "dimanche-divers",
+            "category_label": "Communiquer et divers",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Huduma , huduma, huduma bwana mungu we uduma za jehova huduma, huduma takatifu e",
+                "huduma za jehova hazi ni zuru kwajili ya jina lako."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "-Huduma ni kazi hazi ni zuru kwajili ya jina lako -Kwakulala chini ¨ ¨ ¨ ¨ ¨ -Kwa kuimbia mungu ¨ ¨ ¨ ¨ -Kwa kufanya faraja ¨ ¨ ¨ ¨",
+                "Huduma , huduma , huduma yesu mwana , huduma wa jehova , huduma , huduma yesu mwana huduma za jehova hazi ni zuru kwa jina lako.",
+                "Huduma , huduma , huduma roho mwema e , huduma za jehova , huduma , huduma roho mwema huduma za jehova hazi ni zuru kwa jina lako."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "d9093692-8dcc-57b7-9d1b-4b80b03cba6b",
+      "title": "YESU UNENA, UNENA HAKI KWELI",
+      "status": "review",
+      "versions": [
+        {
+          "id": "5186f5b2-242e-5eb9-aba4-8589ff501fe5",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "YESU UNENA, UNENA HAKI KWELI",
+          "source": {
+            "file": "chants_du_communique.html",
+            "position": 8,
+            "number": "327",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "sunday",
+            "category_id": "dimanche-divers",
+            "category_label": "Communiquer et divers",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "refrain",
+              "lines": [
+                "¨Yesu unena, unena haki kweli yoyoyo¨2x yakiniwe yoyoyo tumiharifu ni namna gani mwili humu ni mateso tumiharifu ni namna gani",
+                "katika mbingu ni furaha Ikiwa mutu hakuzaliwa maradufu ¨Kwa maji kwa roho hawezi kuona ufalme wa mungu ¨2x",
+                "Nikodemu akamuliza mwana mungu hivio ¨mutu mukongwe ( mukongwe ) mutu mukongwe ye ataingia je tumboni mwa mama e azaliwe maradufu.",
+                "Mwenye kuzaliwa kwa mwili na yeye ni mwili bali azaliwaye kwa roho na yeye ni roho stajabu kwa neno uzaliwe maradufu ¨2x",
+                "Nikodemu eh kamuliza ya weza je mambo haya yesu naye akamwambia wewe hu mwalimu wa israeli huya fahamu mambo haya yakini yakini we ! twawambia lile tulijualo (yoyoyo) twawambia lile tulionalo (yoyoyo) hawa sikie yoyoyo hawa amini."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "-Watu hawa hawasikie yoyoyo hawa amini.",
+                "- Wavwala makoti\t¨\t¨\t¨\t¨",
+                "- Wa vula viatu\t¨\t¨\t¨\t¨",
+                "- Wa batiza ku maji\t¨\t¨\t¨\t¨"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "e4b726a0-c826-55aa-b3be-1a398234e037",
+      "title": "WAJOLI WETU WAPENZI",
+      "status": "review",
+      "versions": [
+        {
+          "id": "98e81421-7658-58e3-ba7b-270b0638ff2f",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "WAJOLI WETU WAPENZI",
+          "source": {
+            "file": "chants_du_communique.html",
+            "position": 9,
+            "number": "328",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "sunday",
+            "category_id": "dimanche-divers",
+            "category_label": "Communiquer et divers",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Wajoli wetu wapenzi nilio kwa nao katika Musa ¨Wanaanza kutenda kama wa chawi wote hawapendi kunitazama wa kishanga usikitika unena mimi na angaika ¨jehova mungu unipokee ¨2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Ah dunia (kweli dunia ) dunia imearibika usherati unaharibu inchi ."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "-(kweli dunia) dunia imeharibika kusengenia kuharibu inchi",
+                "- ( ¨\t¨\t¨\t¨\t¨ Na uchawi\tunaharibu inchi",
+                "(Mungu) mungu ni shike mikononi mwako ni pokee karibuni karibuni kwa jina la mufalme.",
+                "Mambo yote ya duniani niliyatenda mara nyingi sikupata faida kwa mambo haya sikupata kitu kwa mambo haya ila ziki kwa mambo haya",
+                "amani haimo duniani ¨Jehova mungu unipokee¨2x",
+                "Mimi siwezi kutukuzwa kwa jambo lingine la duniani ila tu kumusalaba wa yesu mwana wa mufalume mambo haya ya ni sulubisha kwangu nami",
+                "ni kafa kwa mambo haya ¨Jehova"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "102fc982-ca11-5450-a496-f107e7c558ab",
+      "title": "NA MASWALI YAKO WEWE INAKUTABISHA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "818ec727-93f4-509b-a9a5-a12d9893a183",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "NA MASWALI YAKO WEWE INAKUTABISHA",
+          "source": {
+            "file": "chants_du_communique.html",
+            "position": 10,
+            "number": "329",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "sunday",
+            "category_id": "dimanche-divers",
+            "category_label": "Communiquer et divers",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Namaswali yako wewe inakutabisha ¨2x ndugu yangu usione fahari kwa mungu wa uzima",
+                "- Na bulozi bwako wewe, bunakutabisha",
+                "- Na kusemama kwako wewe, kunakutabisha",
+                "- Na madawa yako wewe, inakutabisha usione fahari kwa mungu wa uzima",
+                "2. ¨Ju ya nini usione fahari ya mungu wa uzima ¨2x Wakati umetimia kwa kumuhimidi",
+                "- Tazama wafundi wangaliko,\tWakati umetimia kwa kumuhimidi",
+                "- Tazama waimbaji wangaliko,\tWakati umetimia kwa kumuhimidi",
+                "- Tazama majulisho ingaliko,\tWakati umetimia kwa kumuhimidi",
+                "Moyo wa wewe unakutabisha , moyo wako wakiburi una kutabisha ( ndugu yangu ) usione fahari wa mungu wa uzima."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "a61baedd-a54d-5729-b9db-6f55c13b153b",
+      "title": "UKIHITAJI KUWA MUKRISTU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "d140efc1-c509-5321-a5fb-e8ad4e8dca9d",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "UKIHITAJI KUWA MUKRISTU",
+          "source": {
+            "file": "chants_du_communique.html",
+            "position": 11,
+            "number": "330",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "sunday",
+            "category_id": "dimanche-divers",
+            "category_label": "Communiquer et divers",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Ukihitaji kuwa mukristu ila usulubishe mwili wako kwa tamaa na mawazo mabaya ngisi alivyo fanya Yoane ."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "(Macho) macho yasione , yasisikie masikio , pua isinuse mikono isiguse, kinwa kisinene.",
+                "Tutowe matunda ya roho upendo , furaha , amani, fazili , uvumilivu , utu wema, uwaminifu , upole , kiasi.",
+                "Tuwe wa hudumu wa kweli (tuwe wa hudumu wa bwana ) ila kwa kutabiri habari njema mahali pote tuta kapo kuwa. (tutakapo kwenda ngisi",
+                "alivyo tabiri Yoane)"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "f1a25e90-8a5e-58a8-85a4-a38f3cec4afe",
+      "title": "JEHOVA MUNGU WETU KAELEZA WANADAMU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "136ce7e0-b134-5d0a-aab8-6b4c02fde957",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "JEHOVA MUNGU WETU KAELEZA WANADAMU",
+          "source": {
+            "file": "chants_du_communique.html",
+            "position": 12,
+            "number": "331",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "sunday",
+            "category_id": "dimanche-divers",
+            "category_label": "Communiquer et divers",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Jehova mungu wetu kaeleza wanadamu kumbukeni neno hili uliomba kwangu."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Ah ! Eh baba naziri zangu , naziri zangu nitaitimiza mungu wangu unilindehai."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "-Nitaombea watu\tnitaitimiza mungu wangu unilinde hai",
+                "- Nitafanya faraja\t¨\t¨\t¨\t¨\t¨",
+                "- Nitafundisha watu ¨\t¨\t¨\t¨\t¨",
+                "Hufanyapo agano kumbuka wingi wa siku timiza neno hili uliomba kwangu.",
+                "Kasirani ya bwana ni kwako wewe ulifanya agano bila kutimiza (haukutimiza ) mungu wako atakuhazibu."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "64cf23e1-29cf-57e1-8c9f-55775ad6bd5f",
+      "title": "MAMBO ILIOFANYA YESU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "e43ef5c1-8735-51d7-a0e9-4f7ad87cd4ac",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "MAMBO ILIOFANYA YESU",
+          "source": {
+            "file": "chants_du_communique.html",
+            "position": 13,
+            "number": "332",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "sunday",
+            "category_id": "dimanche-divers",
+            "category_label": "Communiquer et divers",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Mambo ilofanya Yesu alipo fufuka ku wafu akajirika huhai siku arubaini kanena mambo ya ufalme,",
+                "ufalme wa mungu."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Bali nyinyi mutapokea hadi amishukiapo roho mwema mwilini mwenu, kweli nyini mutakuwa washuda",
+                "wangu mu yerusalema, kweli nyini mutakuwa washuuda wangu mu yudea yote ah ah musamaria hata mipaka",
+                "ya dunia (hata mwishoni wa dunia.)",
+                "2.  ¨Basi kwaleo tumesubiri roho mwema ndio hadi ya baba ¨2x",
+                "- Hadi idiayo tumesubiri roho mwema ndio hadi ya baba.",
+                "- Hadi ya mungu ¨\t¨\t¨\t¨\t¨\t¨\t¨",
+                "3. Alipo kusanika nao akawambia wote hivi mubaki mu yerusalema muongoje hadi ya baba hadi ya baba",
+                "ija yo roho mwema wa mungu.",
+                "4. Lakini Yoane akabatiza kwa maji siku zinabaki chache mutabatiziwa wote, mutabatiziwa wote na roho mwema wa mungu."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "d6e60ee4-4db8-502f-850e-7bba4af92f44",
+      "title": "TWAONDOKA MULIMA WA SINAI",
+      "status": "review",
+      "versions": [
+        {
+          "id": "624b756e-62f1-57a5-8442-4f878ea9b0c9",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "TWAONDOKA MULIMA WA SINAI",
+          "source": {
+            "file": "chants_du_communique.html",
+            "position": 14,
+            "number": "333",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "sunday",
+            "category_id": "dimanche-divers",
+            "category_label": "Communiquer et divers",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Twaondoka mulima wa sinai ¨Tukipanda mulima wa sayuni ili nipate uzima (2x)"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Nauwa roho yangu (mimi) nauwa nafsi yangu ¨mimi nauwa mwili wangu ili nipate uzima (2x)",
+                "2. Ulichaguwa mababu ulichaguwa mitume, ¨Unichaguwe na mimi ili nipate uzima (2x)",
+                "3. Si ajabu wewe kunichagua Ewe mumba wangu Ila kwa rehema yako mimi tapata uzima (2x)",
+                "334. TWAONDOKA MULIMA WA SINAI",
+                "1. Twaondoka mulima wa sinai, sisi twaondoka mulima wa sinai (2x) Tukipanda mulima wa sayuni, sisi tukipanda mulima wa sayuni (2x)",
+                "Sayuni ¨ ¨ sayuni ¨, sayuni, sayuni tuaitaji Sayuni inchi nzuri sana ¨2x",
+                "-Kolwezi twaitaji sayuni inchi nzuri sana",
+                "-Bunkeya\t¨\t¨\t¨\t¨\t¨",
+                "-Likasi\t¨\t¨\t¨\t¨\t¨",
+                "-Kapolowe ¨\t¨\t¨\t¨\t¨"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "6a7c2c58-e9b5-5998-8fb0-0f2c25748562",
+      "title": "TAZAMA FURAHA ZIKO MBINGUNI",
+      "status": "review",
+      "versions": [
+        {
+          "id": "9bc423cb-3da6-5aa6-824a-c03c267a3c7d",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "TAZAMA FURAHA ZIKO MBINGUNI",
+          "source": {
+            "file": "chants_du_communique.html",
+            "position": 15,
+            "number": "335",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "sunday",
+            "category_id": "dimanche-divers",
+            "category_label": "Communiquer et divers",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Tazama furaha ziko mbinguni nzuri ya tungojea ndugu zangu wote tazama furaha ziko mbinguni nzuri ya tungojea twenende wote."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Furaha njema iko kwa kila mutu (moja) atakae tubu kwa haki kweli siku zile malaika wataimba wimbo mbinguni aleluya siku zile malaika",
+                "wataimba wimbo mbinguni aleluya. Wanafiki hawapendi kamwewatu wengine wamwimidi mungu weko na kataza kazi zao njema hawapendi watu",
+                "wengine. Wajoli wangu twacheni sisi zote mambo mengine ya bure yoyote tuchukueni musalaba wa bwana kama alivio fanya mwokozi."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "022e522b-0053-56bc-91c8-655f3772506e",
+      "title": "NINANI ATAHUKUMU WATEULE WA MUNGU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "fa2d2f2e-587a-5973-820c-d76b58248322",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "NINANI ATAHUKUMU WATEULE WA MUNGU",
+          "source": {
+            "file": "chants_du_communique.html",
+            "position": 16,
+            "number": "336",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "sunday",
+            "category_id": "dimanche-divers",
+            "category_label": "Communiquer et divers",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Ni nani atahukumu wateule wa mungu (2x) yoyowe Mungu peke yake ndie mwamuzi wao (2x)"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Ni nani, ni nani atakae nitenga mimi na",
+                "upendo wa mungu yoyowe ni baba yangu ao ni mama yangu ni mume wangu ao ni muke wangu na watoto wangu hawata weza kunitenga (2x)"
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Ni ni, ninini kitakacho nitenga mimi na upendo wa mungu yoyowe ni macho ao masikio yangu ni kinywa changu ao ni zambi zangu",
+                "Mikono na pua avitaweza kunitenga (2x)",
+                "-Nini, ninini kitakacho nitenga mimi na upendo wa mungu yoyowe ni shida zangu ao ni ziki zangu ufukuzo na njaa , ao ni utupu wangu ¨Hatari upanga avitaweza kunitenga ¨2x",
+                "-Nini , ninini kitakacho nitenga mimi na upendo wa mungu yoyowe mauti uzima ao malaika wote mamulaka yote ao biakusemasema ¨kiumbe chochote hakitaweza kunitenga¨2x",
+                "¨Imeandikwa mateso ya Yesu ni kwajili yangu ¨2x ¨Kristu ameteswa leo kwa kuniokoa mimi ¨2x"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "45c9aed3-1071-5a5b-ba55-684b251585f0",
+      "title": "MIMI NI MUSAFIRI DUNIANI",
+      "status": "review",
+      "versions": [
+        {
+          "id": "8a3bdb70-4908-553d-b020-225b3160f2e4",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "MIMI NI MUSAFIRI DUNIANI",
+          "source": {
+            "file": "chants_du_communique.html",
+            "position": 17,
+            "number": "337",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "sunday",
+            "category_id": "dimanche-divers",
+            "category_label": "Communiquer et divers",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Mimi ni musafiri duniani safari ndefu sijuwi ni na poenda ni muji gani ¨Sina ndugu baba wala mama yule hawezi kuichukuwa ¨2x",
+                "-Mizigo ni chukuwayo yani zuru mimi sina ndugu baba wala mama yule hawezi kuichukuwa. -Ila Yesu ni mwaminie uichuguwa mizigo nielemewayo ya ni zuru ¨mimi sina ndugu baba wala mama yule hawezi kuichukuwa ¨2x",
+                "-Kwa kuruhusiwa kule mbinguni wa ndugu tuyatakase matendo yetu."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "-Kwetu mbinguni hakuna ulozi\tkwa mungu mwenyezi",
+                "-Kwetu ¨\t¨\t¨\tFitina\t¨\t¨\t¨\t¨",
+                "-Kwetu ¨\t¨\t¨\tNa chuki ¨\t¨\t¨\t¨",
+                "-Kwetu ¨\t¨\t¨\tkuteta\t¨\t¨\t¨\t¨",
+                "Kwetu mbinguni kunako furaha kwa mungu mwenyezi"
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "-Kwetu mbinguni kunako furaha kwa mungu mwenyezi",
+                "-Kwetu ¨\t¨\t¨  Uzima\t¨\t¨\t¨\t¨"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "fd2f7e8a-99fb-5611-8d0c-784234ebf7c4",
+      "title": "SAFARI YA YESU KUTOKA BETANIA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "a8cb6b38-7d6e-5b1c-a4b8-a5663d500895",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "SAFARI YA YESU KUTOKA BETANIA",
+          "source": {
+            "file": "chants_du_communique.html",
+            "position": 18,
+            "number": "338",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "sunday",
+            "category_id": "dimanche-divers",
+            "category_label": "Communiquer et divers",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Ayo ili kwa ni safari ya Yesu kutoka betania alipo sikia njaa akauona muti kwa mbali wenye kuwa na majani."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "¨Ewe baba na we mama jazare kutowa matunda ¨2x Ewe ndugu ¨Tujiazari",
+                "kutowa matunda isio kufaha toba ¨2x"
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "-Tunda ni neno tujiazari kutowa matunda isio kufaha toba -Majani ni matendo ¨ ¨ ¨ ¨ ¨ ¨ -Muti ni mutu ¨ ¨ ¨ ¨ ¨ ¨",
+                "¨Na wakati alipo karibia hakuona kitu kwake ¨2x Yesu naye akasema hata milele mutu asiwezi kula matunda kwako.",
+                "¨Nitaweza je mimi kutoa neno isipo kuwa kwa nguvu yako ¨2x kupitia ndani mwangu ili kila mutu asikie neno aweze kukutukuza."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "572a1258-5532-59ac-8fd3-1905cd122738",
+      "title": "MUNGU WA MUSA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "6d12028f-786f-5287-9287-1943de2d1291",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "MUNGU WA MUSA",
+          "source": {
+            "file": "chants_du_communique.html",
+            "position": 19,
+            "number": "339",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "sunday",
+            "category_id": "dimanche-divers",
+            "category_label": "Communiquer et divers",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "¨Mungu wa Musa tuketi nawe , mufalume wangu tuketi¨2x jehova tuketi nawe usitukanushe mufalme wangu tuketi.",
+                "Mungu wa Elia tulazwe nawe mufalume wangu tulazwe jehova tulazwe nawe pamoja mufalume wangu tulazwe.",
+                "¨Mungu wa yakobo tukule nawe mufalume wangu tukule ¨2x jehova tukule nawe mezani pamoja mufalume wangu tukule.",
+                "Mungu wa Isaka tu vae nawe mufalume wangu tu vae jehova tu vae nawe kitani kimoja mufalume wangu tu vae .",
+                "Mungu wa Petro safiri nami mufalume wangu safiri jehova safiri nami njiani pamoja mufalume safiri. Mungu wa Maria tu zae nawe mufalume wangu tu zae jehova tu",
+                "zae nawe mutoto mufalume wangu tu zae."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "dab1a140-5f09-50a5-a510-af17aa895078",
+      "title": "YELELELELE",
+      "status": "review",
+      "versions": [
+        {
+          "id": "f9d9de51-1f79-5be4-8f7c-a310960f70c6",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "YELELELELE",
+          "source": {
+            "file": "chants_du_communique.html",
+            "position": 20,
+            "number": "340",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "sunday",
+            "category_id": "dimanche-divers",
+            "category_label": "Communiquer et divers",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Ye lele lele ah! lele jambo gani eh ah lele , jambo lakushangza yesu alitufia ju ya zambi maovu nayo haikome ingali inaendelea."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Tufanye nini ¨Twenende kwa mungu baba tutubu uwovu wetu tuzaliwe maradufu ¨2x"
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "-Dada yangu\ttufanye nini twenenda kwa mungu baba tutubu uwovu wetu",
+                "tuzaliwe mara dufu",
+                "-Mama yangu\t¨\t¨\t¨\t¨\t¨\t¨",
+                "-Ndugu zangu\t¨\t¨\t¨\t¨\t¨\t¨",
+                "-Waminifu\t¨\t¨\t¨\t¨\t¨\t¨",
+                "2. Kwapa , kwapa ni vibaya tazama hali ya herode , herode kahamuru hivi wakate kichwa cha yoane waja na kwenye sahani.",
+                "Herode ee , herode ee , herode , herode mutu wa bure , herode mutu muwovu , herode kahamuru hivi wakate kichwa yoane waje nacho kwenye sahani."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "42c7b3c7-df1d-5871-a444-49941a0920c6",
+      "title": "WAISRAELI WALIPOONA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "1ac60ea0-d229-5f8c-93ec-1010d728833f",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "WAISRAELI WALIPOONA",
+          "source": {
+            "file": "chants_du_communique.html",
+            "position": 21,
+            "number": "341",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "sunday",
+            "category_id": "dimanche-divers",
+            "category_label": "Communiquer et divers",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Waisraeli walipoona Musa amekawa mulimani wakamwambia Aruni uje utufanizie ndama utufanizie miungu itakayo kwenda mbele yetu¨Hatujue kitu gani",
+                "kimepata Musa mulimani¨2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Huduma za baba zimearibika mambo ya vizazi zimeharibu huduma nayo ya macheo zimeharibu huduma, (Musa baba) musa shuka mulimani huduma zitimilike, musa shuka",
+                "mulimani na sisi tuokolewe.",
+                "2. Safari ya kwenda kanana ili kuwa ndefu ¨Sisi atujue kama kweli tutaokolewa ¨2x Mwili mukupiganishwa roho mukupiganishwa ¨2x ¨Enyi wateule wa mungu mutuombee kwa baba ¨2x"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    }
+  ]
 }

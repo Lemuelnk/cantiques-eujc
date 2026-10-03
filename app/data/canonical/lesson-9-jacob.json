@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "corpus_status": "draft",
+  "corpus_status": "review",
   "taxonomy": {
     "domain": "lessons",
     "category_id": "lesson-9",
@@ -8,5 +8,116 @@
     "lesson_id": "lesson-9",
     "lesson_label": "Leçon 9 — Jacob et ses fils"
   },
-  "hymns": []
+  "source": {
+    "file": "chants_de_jacob.html"
+  },
+  "hymns": [
+    {
+      "schema_version": "1.0",
+      "id": "e69cc5c0-4c87-5475-94ab-8aad99e26c98",
+      "title": "TAZAMENI JAMBO LA MAJABU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "53283233-b3b0-548b-b3d7-77603b19e829",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "TAZAMENI JAMBO LA MAJABU",
+          "source": {
+            "file": "chants_de_jacob.html",
+            "position": 1,
+            "number": "90",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-9",
+            "category_label": "Jacob et ses fils",
+            "lesson_id": "lesson-9",
+            "lesson_label": "Leçon 9 — Jacob et ses fils"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Tazameni jambo la majabu (yo) jambo, la majabu wakamuza Yusufu neno la mungu wa uzima kwa wa Ismaeli."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Kapiteni potifari wa inchi ya misri kamushika Yusufu, kamutupa",
+                "gerezani ju ya muke wake alimunenea hivi tazama Yusufu ameningilia leo, Tazama kitani ni mikononi mwangu Jehovamungu kamwambia Musa kiongozi¨2x ni taokowa israeli ju ya",
+                "zambi zao ku mulima sinai katika mwezi wa kwanza mu mwaka wa pili katika mwezi wa kwanza."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "d0d94008-f275-5e9a-9474-5e4d57427908",
+      "title": "NA NENO SITA LIACHA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "d227e5e6-d9f6-53a8-88ff-ab5b764f4803",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "NA NENO SITA LIACHA",
+          "source": {
+            "file": "chants_de_jacob.html",
+            "position": 2,
+            "number": "91",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-9",
+            "category_label": "Jacob et ses fils",
+            "lesson_id": "lesson-9",
+            "lesson_label": "Leçon 9 — Jacob et ses fils"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Na neno sitaliacha sitarejea nyuma ¨ Ata mu mambo mbovu eh mimi sitaregeza moyo wangu¨2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Nishutumiwapo ni wewe ninapo uzuriwa tamwita nani, shangwe yoyoyo nitamwimidi mufalme."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Mimi nialike nani shangue yoyoyo tamwimidi mufalme.",
+                "- Mimi Yesu - Mimi Roho Tazama Yusufu kauzishwa na ndugu e kusaliti joo lake ¨ Ila mungu akumwacha kabariki kazi yake¨2x",
+                "- Mbele ya wa misri ila mungu akumwacha kabariki kazi yake",
+                "- Mbele ya Farao - Mbele ya Potifari"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    }
+  ]
 }

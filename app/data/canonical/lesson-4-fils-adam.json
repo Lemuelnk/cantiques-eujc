@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "corpus_status": "draft",
+  "corpus_status": "review",
   "taxonomy": {
     "domain": "lessons",
     "category_id": "lesson-4",
@@ -8,5 +8,244 @@
     "lesson_id": "lesson-4",
     "lesson_label": "Leçon 4 — Les fils d'Adam"
   },
-  "hymns": []
+  "source": {
+    "file": "chants_de_fils_dadam.html"
+  },
+  "hymns": [
+    {
+      "schema_version": "1.0",
+      "id": "179ff23c-bfb7-5768-98ee-8ab424ee425c",
+      "title": "ADAMA ALIKUWA NA WANA WA WILI",
+      "status": "review",
+      "versions": [
+        {
+          "id": "6dfa6076-cdc5-51fe-b3f6-1d333fa195c0",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "ADAMA ALIKUWA NA WANA WA WILI",
+          "source": {
+            "file": "chants_de_fils_dadam.html",
+            "position": 1,
+            "number": "51",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-4",
+            "category_label": "Les fils d'Adam",
+            "lesson_id": "lesson-4",
+            "lesson_label": "Leçon 4 — Les fils d'Adam"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Adama alikuwa na wana wa wili, mukubwa Kaini mulimaji udongo ( mudogo) Abeli mulinzi wa kondoo."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Wa ndugu tu chunge neno , sisi twache ku chukiana tu sije tu kaangamia kwajili ya anas aya dunia.",
+                "Alipenda kuona:....",
+                "Mupendaji anasa:...",
+                "Siku zilipita kaini na Abeli Wote (wawili) wakatoa zabihu zao kwa bwana (udogo) Abeli kaeshimiwa.",
+                "Sikilizeni usemi wa mumbaji enyi wajoli kama Kaini akalipishwa kisasi mara saba eh iwe kwako mara makumi sabana saba."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Utukufu ku neno mara makumi saba na saba",
+                "- Upendo kiasi\tmara makumi saba na saba"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "6ae26112-3466-511e-ba1d-fdc149dabc65",
+      "title": "IKI NI KILIO CHA ABELI",
+      "status": "review",
+      "versions": [
+        {
+          "id": "1d205ef4-5d79-5c5f-94a8-f4727fbccbf9",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "IKI NI KILIO CHA ABELI",
+          "source": {
+            "file": "chants_de_fils_dadam.html",
+            "position": 2,
+            "number": "52",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-4",
+            "category_label": "Les fils d'Adam",
+            "lesson_id": "lesson-4",
+            "lesson_label": "Leçon 4 — Les fils d'Adam"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Iki ni kilio cha Abeli mwana wa Adamu ku mashariki ya Edeni."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Ndugu mujoli sina jambo na wewer, umeniuwa bure kumashariki ya Edeni"
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Acha asira sina jambo na wewe Umeniuwa bure ku mashariki ya Edeni",
+                "- Acha chuki sina jambo na wewe",
+                "- Acha fitina sina jambo na wewe",
+                "Mungu kauliza Kaini, ndugu yako Abeli ni wapi usinyulize mimi si muchungaji wa ndugun yangu."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "d49b9737-7d32-5688-8b5b-57517d4a389b",
+      "title": "SAUTI YA ABELI",
+      "status": "review",
+      "versions": [
+        {
+          "id": "f71438cc-3ff8-5928-aab8-8768b02df1cf",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "SAUTI YA ABELI",
+          "source": {
+            "file": "chants_de_fils_dadam.html",
+            "position": 3,
+            "number": "53",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-4",
+            "category_label": "Les fils d'Adam",
+            "lesson_id": "lesson-4",
+            "lesson_label": "Leçon 4 — Les fils d'Adam"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Sauti ya Abeli kutoka shambani, ikalia shambani humo, Shambani mwa Bwana nimeuwawa bure, nimeuwawa na Kaini"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Ndugu tutafia nini, kila mutu na zawadi yake mbele yake Mungu, Ata ukila na kunywa kwangu mimi sikitu (sikitu) kamwe sitaiga mutu.",
+                "Nilipo kuwa humo shambani, nilipo kuwa shambani mwa Bwana, nilichukuwa gongo, sikuchukuwa upanga, ila Mungu peke yake alikuwa mwamuzi wangu.",
+                "gongo langu eh baba gongo langu la uzima.",
+                "Yule joka akisha kwaribu, utafuta afariki na nani. Upanda mbinguni, ushuka duniani, utafuta afariki na nani"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "bf9f44be-5a5c-5d83-bc8a-4c2cf4b1c668",
+      "title": "ENYI WANANGU WA CHANGA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "d852c320-c85f-54b0-a7c9-9b57184a9864",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "ENYI WANANGU WA CHANGA",
+          "source": {
+            "file": "chants_de_fils_dadam.html",
+            "position": 4,
+            "number": "54",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-4",
+            "category_label": "Les fils d'Adam",
+            "lesson_id": "lesson-4",
+            "lesson_label": "Leçon 4 — Les fils d'Adam"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Enyi wanangu wa changa sikieni vinene via huduma, Abeli mutu wa kwanza yeye amemuzaa Kaini pia na Abeli."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Chuki mu shamba: Adamu mutu wa kwanza yeye amemuzaa Kaini pia na Abeli",
+                "- Wivu mu shamba:..."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Kilio e kilio e kilio baba, kilio e Abeli kalia baba, Kaini ameniuwa, sikuwa upanga si kuchukuwa mali za shamba, ameniuwa bure ngongo",
+                "langu eh baba limeogoza kondoo za mungu. Ngongo langu e kristo limeongoza kondoo za bwana.",
+                "Siku ya sadaka yao mbele yake mumbaji wenye watu."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Abeli mutume wa neno mumbaji wenye watu",
+                "- Abeli mafundisho nzuri...",
+                "- Abeli mutume wa haki...",
+                "- Kaini mutume wa uongo...",
+                "- Kaini mafundisho ya mwili...",
+                "- Kaini mwalimu mubaya..."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    }
+  ]
 }

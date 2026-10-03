@@ -1,12 +1,1144 @@
 {
   "schema_version": "1.0",
-  "corpus_status": "draft",
+  "corpus_status": "review",
   "taxonomy": {
-    "domain": "dimanche",
+    "domain": "sunday",
     "category_id": "dimanche-croyants",
     "category_label": "Sacrifice des croyants",
     "lesson_id": null,
     "lesson_label": null
   },
-  "hymns": []
+  "source": {
+    "file": "chants_de_sac_de_croyants.html"
+  },
+  "hymns": [
+    {
+      "schema_version": "1.0",
+      "id": "ced5bf59-671f-5ef3-a6e7-7d4309c16b9f",
+      "title": "EWE MUTU WA NJIA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "d23f99ee-1b30-573c-852b-661a3f130a2b",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "EWE MUTU WA NJIA",
+          "source": {
+            "file": "chants_de_sac_de_croyants.html",
+            "position": 1,
+            "number": "198",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "sunday",
+            "category_id": "dimanche-croyants",
+            "category_label": "Sacrifice des croyants",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Ewe mutu wa njia ewe mwaminifu mu neno Mu njia muna maneno mengi wajoli tutukuze Mungu wetu"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Tutukuze Mungu wetu leo jehova yoyoyo tutukuze Mungu wetu."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Tutujuze Mungu wa Yakobo jehova yoyoyo tutukuze mungu wetu.",
+                "- Tumutukuze mungu wa Isaka...",
+                "- Tutukuze mungu wa Abraham...",
+                "Lutu mutu wa njia Isaka mwaminifu wa njia Abrahamu ¨baba wa imani wajoli tutukuze mungu wetu ¨2x tutukuze mumbaji"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "4c9592cc-aadd-552b-b061-a54d25fef7c2",
+      "title": "NAKUBALI KUKUFATA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "dd083e93-0c88-5e2b-a7ee-9229e3d98acf",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "NAKUBALI KUKUFATA",
+          "source": {
+            "file": "chants_de_sac_de_croyants.html",
+            "position": 2,
+            "number": "199",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "sunday",
+            "category_id": "dimanche-croyants",
+            "category_label": "Sacrifice des croyants",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Nakubali kukufata wewe paka mwisho wa maisha yangu ¨ mu njia ulinipitisha kwa ku elekea kanana¨2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Nimekuwekea wewe baba tumaini langu eh baba ni nyakuwe baba unijaze",
+                "uzima¨2x"
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Uzima wako ni nyakuwe Baba unijaze uzima wako",
+                "- Mungu baba mumbaji wangu ni nyakuwe baba unijaze uzima wako",
+                "-Yesu mwana mukombozi wangu ¨\t¨\t¨\t¨\t¨",
+                "-Roho mwema mufariji wangu\t¨\t¨\t¨\t¨\t¨\t¨",
+                "Roho mwema wa Mungu alishuka kwa mitume , na sisi tunongojea usituache mufalme ¨2x",
+                "Nina kulilia wewe baba kumbuka uchungu wangu kazi nyingi nilifanya njiani munamo ziki ¨2x",
+                "- Kulala mu saba kazi nyingi ni lifanya njiani munamo ziki",
+                "-Kufanya faraja  ¨\t¨\t¨\t¨\t¨",
+                "-Kufundisha nyimbo"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "747c6062-520d-5f82-a600-1f2ded083575",
+      "title": "KATIKA MAISHA YANGU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "edf6ef20-75f9-59f5-afc5-10bd59455081",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "KATIKA MAISHA YANGU",
+          "source": {
+            "file": "chants_de_sac_de_croyants.html",
+            "position": 3,
+            "number": "200",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "sunday",
+            "category_id": "dimanche-croyants",
+            "category_label": "Sacrifice des croyants",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Katika maisha yangu mimi na tarajia bwana mimi masikini wa mungu mimi mukosefu wa bwana, kanitowesha toka maovu yangu yote ninayo ya tenda mimi apa pa dunia"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Ninayo safari ya kwenda kwa baba mwili unitenganisha safari ni ndefu ya kwenda mbinguni mwili unitenganisha nisije nikienda",
+                "mbinguni kumuhimidi Mungu wa uzima.",
+                "Mungu kwa rehema yako kamuchukuwa Enoka kenda naye mbinguni mungu wangu akakuhimidi. Mungu kwa rehema yako unishushie roho wako ilinichukuwe nami sikuzile nika kuhimidi."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "ec143ed1-5ef8-5cb3-9594-324470571d7f",
+      "title": "LWENDO LWA KWENDA KENANI",
+      "status": "review",
+      "versions": [
+        {
+          "id": "badede76-cb49-5157-a1d4-097d0471fbff",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "LWENDO LWA KWENDA KENANI",
+          "source": {
+            "file": "chants_de_sac_de_croyants.html",
+            "position": 4,
+            "number": "201",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "sunday",
+            "category_id": "dimanche-croyants",
+            "category_label": "Sacrifice des croyants",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Lwendo lwa kwenda kenani nalo lwaji lulampe , bantu bonso bakomenwe pa mwanda wa biselwa biabo."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Bine, bine pakutwela kenani, lama milangwe yobe, lama ludjimi lobe, lama bilongwa biobe bine ukapiane tanda.",
+                "Mulunda wetu pakutwela kenani, lama milangwe yobe Bilongwa bionso bia patanda bitujikila mashinda ¨2x pa mwanda twa kapiane tanda yoya ya mulao"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "4669949a-bd6a-58fd-a903-41d26b9ac7d9",
+      "title": "SAFARI YA KWENDA KANANA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "9bc54e60-64bd-5b10-8c71-133c3340c1b9",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "SAFARI YA KWENDA KANANA",
+          "source": {
+            "file": "chants_de_sac_de_croyants.html",
+            "position": 5,
+            "number": "202",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "sunday",
+            "category_id": "dimanche-croyants",
+            "category_label": "Sacrifice des croyants",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Safari ya kwenda kanana ilikuwa ndefu watu wote awakuriti sababu ya miziko yabo."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Ndugu yangu kwa kuriti kanana chunga ulimi wako, chunga matendo yako, chunga mawazo yako wewe utariti inchi."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Mujoli wangu kwa kuriti kanana chunga ulimi wako, chunga matenda yako, chunga mawazo yako wewe utariti inchi",
+                "- Baba yangu kwa kuriti kanana ¨\t¨\t¨\t¨\t¨\t¨",
+                "Matendo yote ya duniani yametufungiya njia kusudi tusiriti inchi, inchi iyo ya hadi, kusudi tusiriti inchi , inchi hiyo ya amani."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "ec1eddaa-e27b-5b2a-b360-41c1a2239e42",
+      "title": "AHADI YETU SISI NIKARIBU KUJA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "ec03b857-621b-5586-a00c-884f64a519b6",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "AHADI YETU SISI NIKARIBU KUJA",
+          "source": {
+            "file": "chants_de_sac_de_croyants.html",
+            "position": 6,
+            "number": "203",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "sunday",
+            "category_id": "dimanche-croyants",
+            "category_label": "Sacrifice des croyants",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Ahadi yetu hu nikaribu kuja ewe ungali unalala roho mwema amekuja wewe ungali unalala roho mwema amekuja."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Ndugu amka twende, unaongoja nini tena roho mwema amekuja",
+                "Safari  ni ndefu\t¨\t¨\t¨\t¨\t¨",
+                "Safari ya kwenda kanana¨\t¨\t¨\t¨\t¨",
+                "Amka twende kanana\t¨\t¨\t¨\t¨\t¨",
+                "Mulozi acha kuloka\t¨\t¨\t¨\t¨\t¨",
+                "Yesu alisema mutu mwenye kunifwata, chukia baba na mama na ujikane mwenyewe."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "-Chukia madawa  chukia baba na mama na ujikane mwenyewe -Chukia bulozi    ¨     ¨     ¨     ¨     ¨    ¨     ¨",
+                "Wewe munaziri timiza naziri yako uliomba kwa mungu nichaguwe mimi takufanyiya uduma.",
+                "-kwa kuombea watu ni chaguwe mimi takufania uduma",
+                "- kwa kufundisha watu"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "49f5cc6c-1bb6-5677-a81f-acdc09feb95c",
+      "title": "ENYI WAMINIFU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "a51e85a0-5739-5bb0-ac24-225c954fc56a",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "ENYI WAMINIFU",
+          "source": {
+            "file": "chants_de_sac_de_croyants.html",
+            "position": 7,
+            "number": "210",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "sunday",
+            "category_id": "dimanche-croyants",
+            "category_label": "Sacrifice des croyants",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Enyi waminifu jiazareni kwa kumufwata yesu mwana wa mungu."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Eh jazareni kwa kumufwata yesu mwana wa mungu tukimufwata tuta wafanya wote wafuasi wake nayeye kanena neno lake nendeni mufanye wote wamataifa wote wafuasi wangu wani fwate mimi.",
+                "¨Wengine wakatii wao kumufwata yesu yupo nao katika taabu ¨2x ¨Kawafariji kawaokowa kwa mahasi zao yeye ni wokovu eh ¨2x",
+                "¨Ekalu ni humo watuonya leo kwa kumufwata yesu mwana wa mungu¨2x ¨tumufwate mioyoni mwetu mwana wa mungu atuokowe eh¨2x"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "d3f34ff1-f91a-5f45-b02f-62dfb9c9b042",
+      "title": "WAKATI YESU ALIPOELEKEA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "967e4807-3220-526a-a3d8-e7ddcd3a61fe",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "WAKATI YESU ALIPOELEKEA",
+          "source": {
+            "file": "chants_de_sac_de_croyants.html",
+            "position": 8,
+            "number": "211",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "sunday",
+            "category_id": "dimanche-croyants",
+            "category_label": "Sacrifice des croyants",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Wakati yesu alipo elekea njiani akaona muti mwema wa matunda alipo fika kutafuta matunda hakuona kamwe tunda ata moja."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Chunguzeni matendo yenu munapo tendea bwana jiazareni wasi walaumu marafiki na wuovu mpenzi jehova Mungu wa yakobo unirehemu.",
+                "1. Jiazareni enyi wana wa jehova shoka ni chini ya kila shina yote mutini wote usiotoa matunda utakatwa na kutupwa motoni.",
+                "3. Sisi zote tulio humu hekaluni wa baba wa mama marafiki zetu atatukiwa wa kristu kweli tutoe matunda yanayo mpendeza."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "1dcd929f-c067-59e0-accc-8de42a0f1237",
+      "title": "SAFARI NI MWANGU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "de713129-6c22-5e36-a5e0-bf9a0ec340af",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "SAFARI NI MWANGU",
+          "source": {
+            "file": "chants_de_sac_de_croyants.html",
+            "position": 9,
+            "number": "212",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "sunday",
+            "category_id": "dimanche-croyants",
+            "category_label": "Sacrifice des croyants",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Safari ni mwangu ninaomba Mungu na tuma Mungu mbele ili anitangulie (2x)"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Mungu wangu uniondoshe atari zote na shida, na shida zote ngumu. Apo mimi ni fikapo ni tapiga goti mpenzi jehova Mungu ni takushukuru (2x)",
+                "2. Uku mbele kuna vita kuu ya giza na shimu ndefu sana ili ni sipate uzima (2x)",
+                "3. Ukiwahuja toka ndani ya vitu na mu mambo ya watu ewe utafariki kweli."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "2d6ee7a1-b757-52fe-b9f2-79b815784732",
+      "title": "ENYI WAMINIFU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "962272b6-aafe-5204-a91c-d3ae0f79188b",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "ENYI WAMINIFU",
+          "source": {
+            "file": "chants_de_sac_de_croyants.html",
+            "position": 10,
+            "number": "210",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "sunday",
+            "category_id": "dimanche-croyants",
+            "category_label": "Sacrifice des croyants",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Enyi waminifu jiazareni kwa kumufwata yesu mwana wa mungu."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Eh jazareni kwa kumufwata yesu mwana wa mungu tukimufwata tuta wafanya wote wafuasi wake nayeye kanena neno lake nendeni mufanye wote wamataifa wote wafuasi wangu wani fwate mimi.",
+                "¨Wengine wakatii wao kumufwata yesu yupo nao katika taabu ¨2x ¨Kawafariji kawaokowa kwa mahasi zao yeye ni wokovu eh ¨2x",
+                "¨Ekalu ni humo watuonya leo kwa kumufwata yesu mwana wa mungu¨2x ¨tumufwate mioyoni mwetu mwana wa mungu atuokowe eh¨2x"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "b090e21f-a73f-5531-8987-ea237b5ca5d4",
+      "title": "KUPANDA KWAKE YESU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "77436cda-5186-5c6f-8e28-410091635d32",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "KUPANDA KWAKE YESU",
+          "source": {
+            "file": "chants_de_sac_de_croyants.html",
+            "position": 11,
+            "number": "215",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "sunday",
+            "category_id": "dimanche-croyants",
+            "category_label": "Sacrifice des croyants",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. \tKupanda kwake yesu mulimani akatwaa Petro eh Petro na Yoane , Yakobo akikisho letu."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Musa na Elia walijirika pale yoyoyo wakisema na bwana maneno ya siri."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "-Maneno ya mbingu wakisema na bwana ya siri ya roho",
+                "-Kweli Musa na Elia\t¨\t¨\t¨\t¨\t¨\t¨",
+                "Kule mulimani bwana yesu kageuzwa sura yake kangaa kwa utukufu wake¨2x",
+                "Wanafunzi kamwambia bwana tujenge hema tatu tukae hapa sisi inafaa kwetu. Co m : -Tuka subiri roho ! tukae hapa sisi inafaa kwetu ."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "a28fee9b-c944-59f2-9912-47708b7a393e",
+      "title": "MULIMANI MWA SAYUNI",
+      "status": "review",
+      "versions": [
+        {
+          "id": "a8b8aff7-eb7a-5ef0-8ccb-449f60ce02ac",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "MULIMANI MWA SAYUNI",
+          "source": {
+            "file": "chants_de_sac_de_croyants.html",
+            "position": 12,
+            "number": "216",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "sunday",
+            "category_id": "dimanche-croyants",
+            "category_label": "Sacrifice des croyants",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. ¨Mulimani mwa sayuni yesu akajirika kwa wafwasi wake¨2x ¨Mulimani ndefu sana ndipo roho alipo shuka mwilini mwetu¨2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Ah Jehova Mungu roho ameshuka mwilini mwetu ¨Lindeni Mwana muwe na uzima¨2x",
+                "2.¨Siku kuu ya pentekoste shindo ikanguruma chumbani cha juu ¨2x Gafula ikazidi mbingu ikatingisika dunia katetemeka.",
+                "3. ¨Muti muzuri utshipukao unaonekana kwa matunda yake ¨2x ¨Mwanadamu akiwa mupya anatambulikana kwa matendo yake ¨2x"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "f4b75162-baa8-525e-9c4a-b8ccf9e64161",
+      "title": "WA NDUGU MUSINITAABISHE",
+      "status": "review",
+      "versions": [
+        {
+          "id": "341f0f1f-1d64-50ec-b15f-0ce6cad72902",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "WA NDUGU MUSINITAABISHE",
+          "source": {
+            "file": "chants_de_sac_de_croyants.html",
+            "position": 13,
+            "number": "217",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "sunday",
+            "category_id": "dimanche-croyants",
+            "category_label": "Sacrifice des croyants",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Wa ndugu musinitaabishe hamujuwi huko niendako naenda kwa baba kunako makao mengi, twache kuchukiyana kusingiziana maneno mengi (eh mimi) naenda kwa baba kunako makao mengi."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "ni faida gani ni kufuru roho nipate uzima kwa nani ni faida gani ni kufuru neno nipate uzima kwa nani¨2x Mungu yoyoyo ni shutumiwapo sikitu kwangu hakika bwana sitakuacha.",
+                "Furaha yangu katika bwana haipendeze wingine miongoni mwetu, mungu wangu , mungu ni wewe ulinipa furaha .",
+                "Ni fanye nini mungu nipate kuriti uzima wako eh baba kwa imani tu eh tukipenda kuriti kwa imani tutariti inchi."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "-kweli , kweli baba zetu aliriti kwa imani tutariti inchi",
+                "-Ndugu yangu ukipenda kuriti  ¨\t¨\t¨\t¨",
+                "-Na mitume waliriti kanana"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "37c24b58-98b6-555d-9337-4746f9a6ca7e",
+      "title": "SISI TULIO WA MUNGU WA UZIMA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "74c04bde-23ae-5319-9547-24f274e61e3e",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "SISI TULIO WA MUNGU WA UZIMA",
+          "source": {
+            "file": "chants_de_sac_de_croyants.html",
+            "position": 14,
+            "number": "219",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "sunday",
+            "category_id": "dimanche-croyants",
+            "category_label": "Sacrifice des croyants",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Sisi tulio wa Mungu wa uzima tujiazari vita isiwe kali kila ushindi ulio mbele yetu",
+                "- Enyi wajoli, ufalme uko kati ya walio wa",
+                "Mungu",
+                "- Enyi wajoli, ushindi uko kati ya walio wa Mungu"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "¨Enyi wateule wa Mungu wa uzima tushangilie Mungu mufalme¨2x enyi wateule wa mufalme wetu tushangilie Mungu mufalme kwa kuwa uzima",
+                "umeshuka ndani mwetu kwa neno la uzima.",
+                "2. Tukiwa katika uwamisho tujilinde kwa safari tunayo elekea kweli, kweli ili baraka iwe mbinguni na duniani salama iwe kwa wale",
+                "wateule wake."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "1a8c24cb-73a3-50a1-80b1-58d78b95685b",
+      "title": "WALIPO KUWA CHOMBONIE",
+      "status": "review",
+      "versions": [
+        {
+          "id": "45fffd1a-772d-532b-92b2-00271755dcfc",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "WALIPO KUWA CHOMBONIE",
+          "source": {
+            "file": "chants_de_sac_de_croyants.html",
+            "position": 15,
+            "number": "220",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "sunday",
+            "category_id": "dimanche-croyants",
+            "category_label": "Sacrifice des croyants",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Walipo kuwa chomboni yesu na wanafunzi wake ¨Upepo ukaanza kuvuma kweli yesu akalala ¨2x (upepo kweli)"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Petro akanena eh rabi mbona umelala amkauone ginsi tuatabika utuwokowe eh baba mwana wa mungu."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "-Bahari ni mbele yetu\tutwokowe yoyoyo mwana wa mungu",
+                "-Tu naanza kutumbukia\t¨\t¨\t¨\t¨\t¨\t¨",
+                "-Upepo ni mbele yetu\t¨\t¨\t¨\t¨\t¨\t¨",
+                "Eh musiogope nyinyi wenye imani ndogo hamujuwi safarini yetu ni ya upepo naya magogo na shimo.",
+                "-Safari kupata uzima  niya upepo na ya magogo na shimo",
+                "-Safari ya mu kanana\t¨\t¨\t¨\t¨\t¨\t¨",
+                "-Safari ya ku mulima\t¨\t¨\t¨\t¨\t¨\t¨",
+                "Eh wajoli wangu chombo ni uduma za baba bahari ndio dunia , upepo ndio maneno wanao tunga kwa kuharibu huduma.",
+                "-Asema kule kuneno  wanayo tunga kwa kuharibu huduma",
+                "-Asema ku chebe chani\t¨\t¨\t¨\t¨\t¨",
+                "-Akuna bibi wa mutu\t¨\t¨\t¨\t¨\t¨",
+                "-Asema niba kuzimu\t¨\t¨\t¨\t¨\t¨"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "6411ce5c-76c0-5b8d-9b53-22ad52bbf36c",
+      "title": "DJINDOMBA NZAMBI",
+      "status": "review",
+      "versions": [
+        {
+          "id": "bdd0b52a-4aa4-572c-94d8-9a3fbea5d809",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "DJINDOMBA NZAMBI",
+          "source": {
+            "file": "chants_de_sac_de_croyants.html",
+            "position": 16,
+            "number": "221",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "sunday",
+            "category_id": "dimanche-croyants",
+            "category_label": "Sacrifice des croyants",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Djindomba Nzambi , djindomba Nzambi moyo wanyi (2x). Nzambi mulami wa moyo wanyi (4x)"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Nzambi wanyi wakwela muyenge ah aha ah aha (2x). Nzambi moyo (4x).",
+                "2. Djindomba Yesu, ndjindomba Yesu moyo wanyi (2x) Yesu mulami wa moyo wanyi (4x)",
+                "3. Djindomba Yuma, ndjindomba Nyuma moyo wanyi ¨2x ¨Nyuma mulami wa moyo wanyi ¨4x"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "6ded4ffe-9142-5d17-9cd2-44da3d4e8626",
+      "title": "WAKRISTU WATABIKE",
+      "status": "review",
+      "versions": [
+        {
+          "id": "8555b0bf-65ad-5bc8-8c8a-c21fc5486aa8",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "WAKRISTU WATABIKE",
+          "source": {
+            "file": "chants_de_sac_de_croyants.html",
+            "position": 17,
+            "number": "222",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "sunday",
+            "category_id": "dimanche-croyants",
+            "category_label": "Sacrifice des croyants",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. \tWakristu watabike kama alivio teswa yesu bwana musishangae juu ya mateso ambao ni moto miongoni mwetu ."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "ONa adui wetu shetani yuko natembea kama simba unguruma utafuta wa kula tushindane naye wote vitani",
+                "Mukitabika kwa jina langu muwe nafuraha juu ya roho kwa utukufu roho wa mungu eko na shuka mwilini mwetu , mumoja wenu asitabishwe kama muwaji kama mwizi ao mutenda wa zambi yote kujitumbukiza mu mambo ya watu .",
+                "Mukiwa wenye bidii kwa kutenda mambo mema musifate fundisho lingine ila ilio twachia kristu tu tawaa kofia nzuri , tu ta vaa kitani kizuri kipya tu taketi wote mezani na mufalume wetu kristu.."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "143c1e6f-b1ef-5985-be0d-9fcf771d3318",
+      "title": "AHADI YA BABA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "0748f435-b5b1-5c48-995c-b1c415e4a5f2",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "AHADI YA BABA",
+          "source": {
+            "file": "chants_de_sac_de_croyants.html",
+            "position": 18,
+            "number": "223",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "sunday",
+            "category_id": "dimanche-croyants",
+            "category_label": "Sacrifice des croyants",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Ahadi ya baba imetimia leo , ahadi ya mungu roho mwema amekuja aliadia watu wake kwa kinywa cha Yoeli kwamba kwa siku za mwisho ni tamwanga roho yangu juu ya wana israeli."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Eh mungu nimepata chapa yako roho mwema ameshuka uliaidia watu wako ¨Ah , eh baba nimevikwa joo lako mufariji ameshuka¨2x",
+                "Dunia taabu yako , dunia ole wako nyinyi walozi ole wenu muliteswa watu wangu ¨Njoni muone ishara yangu roho mwema ameshuka, njoni muone ishara yangu roho wa uwezo ameshuka ¨2x",
+                "Mufalume wa mbingu na dunia wewe bwana wangu baba mina kuomba juu ya ufalme wako uje mapenzi yako ya timizwe mbingu na duniani kwa wa chakuliwa wako.¨"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "d17c236d-9910-53a3-903b-438c33891ef4",
+      "title": "YESU KAWAMBIA WAFWASI",
+      "status": "review",
+      "versions": [
+        {
+          "id": "089c785a-938a-53d3-8159-cd10d26ff062",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "YESU KAWAMBIA WAFWASI",
+          "source": {
+            "file": "chants_de_sac_de_croyants.html",
+            "position": 19,
+            "number": "224",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "sunday",
+            "category_id": "dimanche-croyants",
+            "category_label": "Sacrifice des croyants",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Yesu kawambia wafwasi mungoje hadi roho wa Mungu alie hai mukono wa uweza ¨2x roho mwema ameshuka leo vicwani petu hapa."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "(Nani yule ) nani atakae nyagiza kuja kwa yesu ulimwenguni) nani yule kweli nani atakae nyagizia kwa neno nimepata uzima nani yule kweli , nani atakae nyagizia uzima umeshuka mwilini ¨2x",
+                "Jiwe langu la tegemeo yani roho ya mungu ¨Kwa shida na magonjua , taabu na mauti ¨2x kweli viote vimeondolewa nami ni me pata uzima.",
+                "Nguvu hihizi ni me vaa ni dawa ya vita ¨2x kwa mimi kushinda mambo kshinda na kifo kweli mimi ni meshinda vikwazo viote via watu na vitu."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "e7fc4b9f-57d8-52b4-9769-7ca3d14faa91",
+      "title": "APO MWANZO LILIKUWEKO",
+      "status": "review",
+      "versions": [
+        {
+          "id": "f22e67c9-332a-5a73-bbfe-56a5815fc8b8",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "APO MWANZO LILIKUWEKO",
+          "source": {
+            "file": "chants_de_sac_de_croyants.html",
+            "position": 20,
+            "number": "225",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "sunday",
+            "category_id": "dimanche-croyants",
+            "category_label": "Sacrifice des croyants",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Apo mwanzo, Apo mwanzo lilikuweko neno naye neno alikuwa huyu mwanzo , huyu mwanzo alikuweko kwa mungu akatenda mema kweli ."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Naja leo , naja leo naja kwako masiya napenda nipelekwe.",
+                "Nakiri , nakiri zambi zangu zote unirehemu mimi ni mukosefu , nikasikia , nikasikia wito wa bwana ukiniagiza nitapeleka nani.",
+                "Uduma , uduma za bwana mungu ni ngumu twitimize kwa hiyari , ¨Tufanye ¨2x kwa maharifa na kwa hekima na vitu vietu viote.",
+                "4.Ulifanya , ulifanya uduma njema mungu mwenyezi mumbaji wa viote."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "d8da7890-4f26-5da3-8eeb-017c76dd0ea7",
+      "title": "HUMU NJIANI MWA BWANA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "031b2824-8771-502c-8f14-6909c732cd23",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "HUMU NJIANI MWA BWANA",
+          "source": {
+            "file": "chants_de_sac_de_croyants.html",
+            "position": 21,
+            "number": "197",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "sunday",
+            "category_id": "dimanche-croyants",
+            "category_label": "Sacrifice des croyants",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1.Humu njiani mwa bwana muna visiki na magogo ¨Vinavio angusha wengi wasifike uko mwisho¨2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Ah jehova mungu usinyache yoyoyo usinyachilie kamwe"
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "-Taraja langu\t¨\t¨\t¨\t¨\t¨",
+                "-Sitara langu\t¨\t¨\t¨\t¨\t¨",
+                "-Mumbaji wangu\t¨\t¨\t¨\t¨Ngurumo uvumi uja juu yangu mimi munaziri wa mungu yo bahari nayo unigarikisha mimi mimi na potea."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    }
+  ]
 }

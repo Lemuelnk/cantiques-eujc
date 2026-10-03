@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "corpus_status": "draft",
+  "corpus_status": "review",
   "taxonomy": {
     "domain": "lessons",
     "category_id": "lesson-25",
@@ -8,5 +8,840 @@
     "lesson_id": "lesson-25",
     "lesson_label": "Leçon 25 — Daniel"
   },
-  "hymns": []
+  "source": {
+    "file": "chants_de_daniel.html"
+  },
+  "hymns": [
+    {
+      "schema_version": "1.0",
+      "id": "7bdae62e-e051-5519-a754-f26241bf521d",
+      "title": "NABOTI MUYEZESREELI",
+      "status": "review",
+      "versions": [
+        {
+          "id": "5906ac9e-242a-5638-bbe0-c60cc07031cc",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "NABOTI MUYEZESREELI",
+          "source": {
+            "file": "chants_de_daniel.html",
+            "position": 1,
+            "number": "173",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-25",
+            "category_label": "Daniel",
+            "lesson_id": "lesson-25",
+            "lesson_label": "Leçon 25 — Daniel"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Naboti muyezesreeli alilima shamba lake (pembeni ya Ahabawa samaria ah)2x",
+                "Bwana kamwandea kweli kamwambia Naboti unipe shamba lako mimi ni jifanyie maboga (ewe Nabo",
+                "ti) 2x kujibia kwa Naboti sita kupa uriti yoyoyo wa baba zangu."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Ewe mufalme\tsitakupa uriti yoyoyo wa baba zangu",
+                "- Ewe mutu wa mwili"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Eh kujizuiza, kweli kujizuiza, kujizuiza ni kuzuri wajoli mbele ya mufalme tazama Naboti muyesreeli kajizuiza kwa kuzisha shamba lake¨2x Mufalme kaja na asira kali mbele",
+                "ya mukewe kwanini moyo wako unau zuni aule chakula (moyo hufurahi ule chakula eh mufalme shamba la Naboti litakuwa lako eh mufalme)2x",
+                "Yezebeli kaandika baruwa kwa muhuri wa mufalme",
+                "(mutie watu wa wili mbele ya muyezesreeli wamusingizie mambo)2x",
+                "huyu Naboti alitukana mungu na mufalme na vivio vika timia, navio vikatimia Naboti akafa kwa mawe, Naboti akafa."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Eyo Naboti\takafa kwa mawe Naboti akafa",
+                "- Mutu wa imani chache",
+                "- Mutu wa uzima wake"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "600d4ecd-97b7-5d5c-95be-cb01c685f088",
+      "title": "WAKAMUTUPA DANIELI PANGONI MWA SIMBA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "ca4d9e61-0f4c-58e0-8b1c-5369c8c49ad5",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "WAKAMUTUPA DANIELI PANGONI MWA SIMBA",
+          "source": {
+            "file": "chants_de_daniel.html",
+            "position": 2,
+            "number": "161",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-25",
+            "category_label": "Daniel",
+            "lesson_id": "lesson-25",
+            "lesson_label": "Leçon 25 — Daniel"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Wakamutupa Danieli pangoni mwa simba kwani alikuwa mufanya kazi wa mungu wa uzima kila siku siku zote mara tatu, chumba chake cha juu madirisha wangalia mu yerusalema."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "(Mwalimu Danieli, Danieli wewe pangoni mwa simba)2x",
+                "(Basi tazama Danieli simba aikumula yoyo kwa jina la mufalme)2x",
+                "Tazama kerubi, kerubi wa mufalme wa bwana kafungae simba. Ili neno la mfalme dario",
+                "(Mungu wa Danieli ahimidiwe)2x akuna mungu mwingine inchini mwangu.",
+                "(Wakija na jambo la duniani kwa wewe mujoli)2x",
+                "basi wewe ujuwe neno la mungu unalo litakuokowa pangoni mwa simba, litakuokoa mu mambo ya dunia."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "10457b70-7785-5aec-a360-ac88f28d097e",
+      "title": "DARIO MFALME",
+      "status": "review",
+      "versions": [
+        {
+          "id": "3db38211-fe87-580c-85a3-35dbe8e8ffef",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "DARIO MFALME",
+          "source": {
+            "file": "chants_de_daniel.html",
+            "position": 3,
+            "number": "162",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-25",
+            "category_label": "Daniel",
+            "lesson_id": "lesson-25",
+            "lesson_label": "Leçon 25 — Daniel"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Dario mfalme yoyoyo katuma watupe Danieli na mungu pangoni mwa simba wajoli ipate kumula Danieli akomba eh bwana kwa bwana mumbaji mwokozi wa watu tazama mateso jehova",
+                "simba akanguruma ( kalia yoyoe)Danieli akaweka eh moyo wake katika mikono ya bwana mwokozi wa watu mushinda alie mwamini)2x",
+                "(Jehovamfalme yoyowe)2x",
+                "akatuma kerubi pangoni mwa simba kuponya Danieli mpendwa katika jaribu ( kalia yoyowe )Wajoli tufurahi yoyowe twibeni furaha kwa bwana mumbaji (mufariji) mufariji",
+                "wetu mushinda ajabu sikia. Tazama mfalme dario akashududu bwanamungu wa Danieli kashinda adui mkali akamwimidi (kalia yoyowe )"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Ni husuri wapo kwa mambo mengine ya ulimwengu uniombee eh kwa jehova mungu, ùungu wa uweza katika jaribu yeye ataniponyesha ni tiliwapo pangoni mwa simba nisiwake kamwe",
+                "eh niombee eh kwa jehova mungu, mungu wa uwezo yeye katika jaribu ataniponyesha. ni fiolewapo na mutu yeyote ni sikasirike eh niombee kwa jehova mungu, mungu wa uwezo",
+                "katika jaribu yeye ataniponyesha."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "ee8f3d39-3775-5442-88b7-c3f98868e8a4",
+      "title": "MATESO MAKALI YA YOBU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "c33414ac-8721-552d-a721-e8e6bde4796d",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "MATESO MAKALI YA YOBU",
+          "source": {
+            "file": "chants_de_daniel.html",
+            "position": 4,
+            "number": "163",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-25",
+            "category_label": "Daniel",
+            "lesson_id": "lesson-25",
+            "lesson_label": "Leçon 25 — Daniel"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Mateso makali ya yobu (Eh yobu hakumwacha bwana kwa kupata mateso)2x",
+                "taabu nyingi kamujia wana wake wakafa eh yobu kwa kupata mateso."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Mwanadamu wewe usikufuru mungu ukipata mateso:",
+                "- Magonjua njiani usikufuru mungu ukipata mateso",
+                "- Mateso njiani Muke wa yobu kamwambia ukufuru mungu ukifwata njia za mababu utaishi nami tazama yobu akumjibu kitu kamusii mumbaji, rafiki wa tatu wa kamujia mbele ya",
+                "yobu eh yobu akunena kamwe mambo yote wanenayo:",
+                "- Ya kumuhasi mungu akunena kamwe mambo yote wanenayo."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "6fe2b895-23c0-562f-938e-23606386c7dd",
+      "title": "SUFURIA YANGU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "4639cc99-8212-581d-a255-16566cd5566f",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "SUFURIA YANGU",
+          "source": {
+            "file": "chants_de_daniel.html",
+            "position": 5,
+            "number": "164",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-25",
+            "category_label": "Daniel",
+            "lesson_id": "lesson-25",
+            "lesson_label": "Leçon 25 — Daniel"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Sufuria yangu ndani ya shamba ya bwana, mimi yobu nyalike nuhuru initenge na marafiki awa."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Pembe ine za dunianizimefungwa na pepo mbele yangu mimi yobu kweli mumbaji wangu usinyache kamwe na marafikiza dunia:",
+                "- Sitara langu usiniache kamwe na marafiki za dunia",
+                "- Mumbaji wangu - Wewe ni ukingoni wangu Na nilipo kuwa umu shambani mwa bwana, habari nyingi zikanijia umu shambani mwa bwana mimi yobu ni kufuru mungu ni fwate njia",
+                "za mababu"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "375b7a37-c8c0-5b7a-a90e-90b5bd071d39",
+      "title": "MASWALI YOTE YA DUNIA HII",
+      "status": "review",
+      "versions": [
+        {
+          "id": "834b994f-4cd8-5f99-8ed6-871b7e07b7ce",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "MASWALI YOTE YA DUNIA HII",
+          "source": {
+            "file": "chants_de_daniel.html",
+            "position": 6,
+            "number": "165",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-25",
+            "category_label": "Daniel",
+            "lesson_id": "lesson-25",
+            "lesson_label": "Leçon 25 — Daniel"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Maswali yote ya dunia hii yahukumiwa kwa matendo yao (uzuni ni nao sile wala sinywe moyoni mwangu munamo sikitiko)2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Yoyoyo mateso, haya mateso moyoni mwangu (Yameniuzunisha) 2x. Ninge lifahamu mimi singe lizaliwa, ninge lifariki",
+                "tumboni mwa mamangu, ili ni sione mateso ya duniani.",
+                "2. Wakati mimi nilipo zaliwa wazazi wangu na watu wengineo (walifurahi na wakanywa pombe leo hii watu hawa wame uzunishwa)2x",
+                "3. Nita laani kwa siku zile nilipo zaliwa tumboni mwa mamangu na maziwa ya mama yangu yalikuweko kwa mimi kunyonya inchini pote",
+                "kwa siku zile nilipo zaliwa."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "2f279177-8271-5753-8015-3da5bc39edae",
+      "title": "KULIKUWA MUTU MUNIOFU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "58b0b89b-d3a6-5e02-8807-d11679b90e8b",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "KULIKUWA MUTU MUNIOFU",
+          "source": {
+            "file": "chants_de_daniel.html",
+            "position": 7,
+            "number": "166",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-25",
+            "category_label": "Daniel",
+            "lesson_id": "lesson-25",
+            "lesson_label": "Leçon 25 — Daniel"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Kulikuwa mutu muniofu alie pendwa na mungu mwenye imani nyingi jina lake ayubu katika ubishi mukali wa mungu na ibilisi ¨2x"
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Ibilisi kamwambia mungu",
+                "nataka ayubu akuhache - Ibilisi kamwambia mungu nataka ayubu akuhasi"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Eh ayubu mutu mwenye imani (ayubu eh) akumutukana mungu. Mungu kamwambia Ibilisi fanya",
+                "lolote utakalo ila mimi na jua uyo awezi kuniacha, ila mimi na jua uyo awezi kuni hasi shetani kamwendea yobu na kumwambia amwabudu lakini ayubu alibaki imara mutu",
+                "mwenye imani alimuogopa mungu.Mali na vifungo viake viote vikapotea¨2x ayubu aliteseka kwa kidonda vidonda, marafiki wakamcheka, familia likamupotea ¨lakini yobu",
+                "kabaki imara kwa mungu ¨2x"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "4bf9bb4d-4bed-5fcb-92f1-9d78f280c5ea",
+      "title": "KULIKUWA RAFIKI WA TATU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "73e8247a-d722-5f5c-b516-e5cc051f0ac0",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "KULIKUWA RAFIKI WA TATU",
+          "source": {
+            "file": "chants_de_daniel.html",
+            "position": 8,
+            "number": "167",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-25",
+            "category_label": "Daniel",
+            "lesson_id": "lesson-25",
+            "lesson_label": "Leçon 25 — Daniel"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Kulikuwa rafiki wa tatu waliarifiwa taabu ya ayobu hqwali (yoyowe 2x yobu, yobu mwenye taabu."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Yobu mateso yobue yobu yobu mwenye taabu - Yobu teseka"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Bildadi musui¨2x Elifasi mutemani, tazama Zofahari munamati rafiki ze yobu, yobu yobue yobu yobu mwenye taabu."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Yobu mateso yobue yobu, yobu mwenye",
+                "taabu. Muke wake kamwambia yobu ¨2x ukufuru njia ya bwana na wifwate njia za mababu yobu, yobu eh, yobu, yobu mwenye taabu.",
+                "- Yobu mateso yobu eh yobu, yobu",
+                "mwenye taabu. Kuji kana ni kwema ¨2x alivio fanya yobu hawali hakwitaji wana kamwe, hakwitaji punda kamwe, akuteta bwana kamwe Yobu eh yobu, yobu mwenye taabu",
+                "- Yobu tabika yobu eh yobu yobu mwenye taabu."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "fb06a09e-f595-5d4d-b297-c565d1f741f2",
+      "title": "TUPO MIONGONI MWA YOBU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "a6112d79-ddea-55f7-8d06-a83e9e5c4c2a",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "TUPO MIONGONI MWA YOBU",
+          "source": {
+            "file": "chants_de_daniel.html",
+            "position": 9,
+            "number": "168",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-25",
+            "category_label": "Daniel",
+            "lesson_id": "lesson-25",
+            "lesson_label": "Leçon 25 — Daniel"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Tupo miongoni mwa yobu eh yobu akwitaji mwana eh yobu akwitaji mutumishi, Ibrahimu wa mungu akwitaji mwana eh yobu akwitaji",
+                "mutumishi."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Kujikuza kwako wewe usizarau uduma huwa bwana mu mambo mafu anasa za duniani kwa wewe mujoli mu mambo mafu hekima ya",
+                "duniani.",
+                "2. Yesu kamwambia Petro simoni Petro¨ rudi nyuma wewe.",
+                "kikwazo rudi nyuma wewe shetani ¨2x",
+                "3. Mungu wa Petro, mungu wa Yoane, Mungu wa Yakobo njoni, njoni leo, njoni kwetu mufalume wajoli njoni, njoni leo, njoni kwetu",
+                "mufalume."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "0a2b6ee8-f16d-5eff-91d2-c8a56b4e5385",
+      "title": "MIMI YOBU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "22ac0729-514d-56e6-a694-5faf533bfd22",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "MIMI YOBU",
+          "source": {
+            "file": "chants_de_daniel.html",
+            "position": 10,
+            "number": "169",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-25",
+            "category_label": "Daniel",
+            "lesson_id": "lesson-25",
+            "lesson_label": "Leçon 25 — Daniel"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. (Mimi yobu ni meteswa mwilini)2x (Ewe Mungu muzima shuka leo unione)2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Kweli wa ngombe wa menishutumu Mungu wenu yuko wapi.",
+                "- Marafiki wa baya wamenishutumu Mungu wenu yuko wapi",
+                "- Majirani wa baya wamenishutumu Mungu wenu yuko wapi.",
+                "- shangazi mulozi, wamenishutumu Mungu wenu yuko wapi",
+                "- Ewe Mungu muzima, shuka leo unione",
+                "2. Mungu muzima mwili umeteswa sana ¨nafsi imesongwa sana mimi ni muombe nani ¨2x",
+                "¨Ewe Mungu muzima shuka leo unione ¨2x"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "2f6927f9-5f37-55e5-a717-e2e1b05135ed",
+      "title": "NABOTI ALIKUWA NA SHAMBA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "cdc7c182-7e52-5e50-9049-6762845f85d5",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "NABOTI ALIKUWA NA SHAMBA",
+          "source": {
+            "file": "chants_de_daniel.html",
+            "position": 11,
+            "number": "170",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-25",
+            "category_label": "Daniel",
+            "lesson_id": "lesson-25",
+            "lesson_label": "Leçon 25 — Daniel"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Naboti alikuwa na shamba mizabibu kando ya nyumba ya mufalme habu mwana wa samaria ¨2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Muhulaa, muhula umekuja, muhula huo umekaribia Naboti watatakuzulumu shamba lako.",
+                "¨Ah yoyowe, yoyowe machozi ya meshuka isabela amefarikisha Naboti ¨2x",
+                "2. Ahaba kamwambia Naboti nipe shamba lako liwe kama tatu langu la maboga ah.¨2x",
+                "3. Naboti kamwambia ahabu mungu ameni kataza kwa mimi uriti wa mababu zangu aha.¨2x"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "363db724-bdcc-5258-90ad-87f44f31ccb1",
+      "title": "NABOTE WAJI NE BUJIMI",
+      "status": "review",
+      "versions": [
+        {
+          "id": "75ca76ca-79c2-5bcb-aedd-7beaab95ef67",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "NABOTE WAJI NE BUJIMI",
+          "source": {
+            "file": "chants_de_daniel.html",
+            "position": 12,
+            "number": "171",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-25",
+            "category_label": "Daniel",
+            "lesson_id": "lesson-25",
+            "lesson_label": "Leçon 25 — Daniel"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Nabote waji ne bujimibwa tubipa tu cheche pabwipi ne njimbo ya mulopwe ahaba mwine samaria ah"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Kiaba kikaya (kino kiaba) ke kidi pa bwipi mwanetu ke ba",
+                "kuyata bujimi bobe, yoyo yuwe yoyoya na suma impolo Yezebeli waipaija Nabote. Ahaba wasappwila Nabote umpe bujimi bobe bwikale mujitumba diami diasankusanku ¨2x",
+                "Nabote wa sapwila Ahaba jehova wampeleja kwa ami kukupa kipianwa kia ba kambo bami¨2x"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "da5733b9-b2eb-59f9-9e82-703a30cfe9fc",
+      "title": "UNIPE SHAMBA LAKO",
+      "status": "review",
+      "versions": [
+        {
+          "id": "e273dd74-e072-59d7-9552-93138114677b",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "UNIPE SHAMBA LAKO",
+          "source": {
+            "file": "chants_de_daniel.html",
+            "position": 13,
+            "number": "172",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-25",
+            "category_label": "Daniel",
+            "lesson_id": "lesson-25",
+            "lesson_label": "Leçon 25 — Daniel"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Unipe shamba lako nilifanye langu la maboga kwa sababu ni karibu yangu nitakupa mahali pengine. 2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Shamba langu, shamba langu mujoli sita kwachiya wewe."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "Shamba langu, shamba langu mujoli sita kwa chiya wewe - Jiwe langu la kutukuza mungu - Jiwe langu la kuhubiri neno Naboti akamujibu bwana mungu amenikataza ni",
+                "sikupe hii shamba langu ni uriti wa mababu zangu¨2x Yezebeli kwa asira (kali) akachonga kwa watu wa muji na Naboti apigwe kwa mawe na Naboti akakufa¨2x Na wewe",
+                "mujoli shamba lako la bei ni wapi likikuwa karibu na tiro nawe pia utakufa. ¨2x"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "6ec42dcb-1574-543a-ac1d-6146e23aa2ff",
+      "title": "MUNGU WA IBRAHIMU...",
+      "status": "review",
+      "versions": [
+        {
+          "id": "a061d088-fd8c-57cd-baa7-2293a9589c79",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "MUNGU WA IBRAHIMU...",
+          "source": {
+            "file": "chants_de_daniel.html",
+            "position": 14,
+            "number": "160",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-25",
+            "category_label": "Daniel",
+            "lesson_id": "lesson-25",
+            "lesson_label": "Leçon 25 — Daniel"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Mungu wa Ibrahimu, Mungu Isaka, na Mungu Yakobo ulitenda mambo ya ajabu hawali kwa walio wako",
+                "ulitenda mambo ya ajabu yoyoyo kwa walio wako 2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Mungu wangu unifariji katika uweza wako unifariji:",
+                "- Eh baba - Eh Mwana - Eh Roho.",
+                "2.\tMungu kwa maajabu yako Danieli pangoni mwa simba wala umizo wala mukovu haikujirika mwili mwake ila Danieli kasitawi kwa utawala wa dario na",
+                "kiro mupersi.",
+                "3.\tMuti murefu kajirika mulinzi toka mbinguni kahukata, muniororo ukaufunga na umande wa mbingu kaotesha.",
+                "- Mungu wa uzima tenda maajabu yoyoyo kwa walio wako",
+                "- Ata kwa sasa"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "b3ef2e3c-4519-5f0e-a8f0-c00c88553d33",
+      "title": "SHAMBA LA NABOTI AHABA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "cea19e5c-0b01-5464-bb7c-2e091a1078fb",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "SHAMBA LA NABOTI AHABA",
+          "source": {
+            "file": "chants_de_daniel.html",
+            "position": 15,
+            "number": "174",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-25",
+            "category_label": "Daniel",
+            "lesson_id": "lesson-25",
+            "lesson_label": "Leçon 25 — Daniel"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Shamba la Naboti ahaba ameuisha nafsi yangu amepanda maboga nimefariki kwa bwana¨2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Yakini yakini imani yako ndio wa nayo ipiganisha mutu akiaribu imani",
+                "yeye anabaki tuta. 2x"
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Na bakituta ya kupanda buovu imani yako ndio wanayo ipiganisha mutu akiaribu imani yeye anabaki tuta - Na bakituta ya kupanda bulozi",
+                "- Na bakituta ya kupanda buchawi Shamba, shamba la Naboti yezebeli kauwisha Naboti kwajili ya shamba. Shamba, shamba la Naboti wa kamutumia yezebeli habari leo",
+                "Naboti ameuwawa kwa mawe. Shamba, shamba la Naboti mujoli ficha zawabu yako utafariki damu yako mikononi mwako."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    }
+  ]
 }
