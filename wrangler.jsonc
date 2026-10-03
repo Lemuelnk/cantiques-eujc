@@ -4,6 +4,7 @@
   "compatibility_date": "2026-10-01",
   "assets": {
     "directory": "./app",
-    "not_found_handling": "single-page-application"
+    "html_handling": "none",
+    "not_found_handling": "404-page"
   }
 }
