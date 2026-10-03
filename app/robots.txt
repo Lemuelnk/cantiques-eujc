@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cantiques-eujc.lnk-studio.com/sitemap.xml
