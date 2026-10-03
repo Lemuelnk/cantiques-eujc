@@ -1,0 +1,6 @@
+# Redirections Cloudflare Pages
+# La racine redirige vers le splash (comme point d'entrée par défaut)
+/  /splash.html  302
+
+# Fallback : si une page n'existe pas, on renvoie vers index
+# (utile si l'utilisateur tape une URL cassée)

@@ -1,0 +1,6 @@
+{
+  "$schema": "https://developers.cloudflare.com/workers/wrangler/config-schema.json",
+  "name": "cantiques-eujc",
+  "pages_build_output_dir": "app",
+  "compatibility_date": "2026-10-01"
+}
