@@ -99,7 +99,12 @@
               "type": "refrain",
               "lines": [
                 "Neno la uzima linanena (linanena) watu wote",
-                "njoni (njoni leo) njoniwote, njoni wote linawalika wote.",
+                "njoni (njoni leo) njoniwote, njoni wote linawalika wote."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "2. Yesu wa Mungu ananena (ananena) watu wote njoni (njoni leo) njoni wote, njoni wote yeye",
                 "anawalika.",
                 "3. Roho damilifu ananena (ananena) watu wote njoni (njoni leo) njoni wote, njoni wote yeye anawalika."
@@ -144,7 +149,12 @@
             {
               "type": "source_block",
               "lines": [
-                "1. Yesu ukualika njonii, yesu ukualika wewe",
+                "1. Yesu ukualika njonii, yesu ukualika wewe"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "njonii (njoni kua yesu) njoni uchukuwe nawe nira yangu hii,",
                 "(nira yangu hii) nira yani musalaba. 2x"
               ]
@@ -152,7 +162,12 @@
             {
               "type": "refrain",
               "lines": [
-                "- baba yangu - ata ukiwa mwenye ulozi - ata ukiwa mutenda zambi (Twimbe haleluya, haleluya)2x",
+                "- baba yangu - ata ukiwa mwenye ulozi - ata ukiwa mutenda zambi (Twimbe haleluya, haleluya)2x"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "2. Fahari na iwe kwake Mungu wa mbingu p amani na iwe inchini"
               ]
             }
@@ -254,9 +269,24 @@
             {
               "type": "refrain",
               "lines": [
-                "Eh Mungu usiwe mbali nami Jehova usiniache kamwe jiwe langu unikinge unijaze rehema, jiwe la tegemeo langu uniuwie razi.",
-                "2. Moyo wangu usiogope uko na mufariji na muchungaji mwema Bwana kwa kila ziki zote.",
-                "3. Naweka moyo wangu mimi mikononi mwa bwana na cha , nashangilia Mungu wangu anaeniponesha.",
+                "Eh Mungu usiwe mbali nami Jehova usiniache kamwe jiwe langu unikinge unijaze rehema, jiwe la tegemeo langu uniuwie razi."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "2. Moyo wangu usiogope uko na mufariji na muchungaji mwema Bwana kwa kila ziki zote."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "3. Naweka moyo wangu mimi mikononi mwa bwana na cha , nashangilia Mungu wangu anaeniponesha."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "4. Mungu wa Ibrahimu, wa Isaka, Yakobo jiwe langu sayuni bwana uniuwiye razi."
               ]
             }
@@ -980,8 +1010,18 @@
               "type": "refrain",
               "lines": [
                 "(Aleluya) lomba nzambi tatu wetu e ulombe ne upete (wewe ne upete) keba yesu musungidji ukebe ne umone (wewe ne umone)",
-                "ukokola nu kutshibi nyuma na kunzulwile.",
-                "2. Banga badji bateketa bwamasama ne lufu twikalay ne yesu mubitupa ebibionso.",
+                "ukokola nu kutshibi nyuma na kunzulwile."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "2. Banga badji bateketa bwamasama ne lufu twikalay ne yesu mubitupa ebibionso."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "3. Tudji muntatu ne mumalu amishindu yonso bwakupeta nyuma musambi wetu."
               ]
             }
@@ -1280,8 +1320,18 @@
             {
               "type": "refrain",
               "lines": [
-                "muweza wa yote wa mwanzo na mwisho wa dunia (2x)",
-                "2. Yesu mukombozi wa watu (2x)",
+                "muweza wa yote wa mwanzo na mwisho wa dunia (2x)"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "2. Yesu mukombozi wa watu (2x)"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "3. Roho mufariji wa watu (2x)"
               ]
             }

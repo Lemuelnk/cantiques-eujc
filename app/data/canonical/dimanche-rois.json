@@ -54,8 +54,18 @@
                 "Mufalume wangu mushinda, tazama madui zangu wako natafuta uzima wangu nisitiriwe mwilini.",
                 "- wachawi wote: wako natafuta uzima wangu nisitiriwe mwilini.",
                 "- baimbwa haba: wako natafuta uzima wangu nisitiriwe mwilini.",
-                "- mapepo haya: wako natafuta uzima wangu nisitiriwe mwilini.",
-                "Nikitazama humo duniani uovu unizunguruka mitego na nyavu utandikwa mu njia yangu ni fanye je mimi munaziri wa mungu haya ni mateso.",
+                "- mapepo haya: wako natafuta uzima wangu nisitiriwe mwilini."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Nikitazama humo duniani uovu unizunguruka mitego na nyavu utandikwa mu njia yangu ni fanye je mimi munaziri wa mungu haya ni mateso."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Nialike nani ulimwengu humo nzige na nge unipiganisha mafalme za giza ushambulia njia yangu Roho na moyo ufazaika ndani yangu haya ni mateso"
               ]
             }
@@ -113,8 +123,18 @@
                 "- Utume na Mikaeli\ttuma malaika wako waje wapikane vita",
                 "- Utume na Samsoni...",
                 "- Utume na Gideoni...",
-                "- Utume na Kasieli...",
-                "Nimepiganishwa jioni na usiku, nimepiganishwa jioni na usiku Njia zime fungwa falme nazo ziaanda",
+                "- Utume na Kasieli..."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Nimepiganishwa jioni na usiku, nimepiganishwa jioni na usiku Njia zime fungwa falme nazo ziaanda"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Jehova nina kuombae nina kuomba uniondoshee mwiba Ili ni ishi salama, ili niishi salama"
               ]
             }
@@ -171,10 +191,30 @@
               "lines": [
                 "- Walozi awa wameunga singa zao eh baba bwana uje uwangamize.",
                 "- Na wachawi wote",
-                "- Nzige na nge¨¨¨¨",
-                "Kuna wengine wana ufahamu mwingine wanawinda wana wako baba uje uwangamize, wana winda wana wako uje uwangamize, Ili wana wako mungu wangu wapate kuokolewa",
-                "Ijaapo nina ofu kwa kwaribu kazi yako baba nina kulilia nishindie vita yote, baba nina kulilia upikane na adui zangu",
-                "Nikitazama upande wa mangaribi na mashariki eh nikitazama upande wa kusini na kaskazini eh mimi ndipo mimi nimezungukwa na vita pande zote.",
+                "- Nzige na nge¨¨¨¨"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Kuna wengine wana ufahamu mwingine wanawinda wana wako baba uje uwangamize, wana winda wana wako uje uwangamize, Ili wana wako mungu wangu wapate kuokolewa"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Ijaapo nina ofu kwa kwaribu kazi yako baba nina kulilia nishindie vita yote, baba nina kulilia upikane na adui zangu"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Nikitazama upande wa mangaribi na mashariki eh nikitazama upande wa kusini na kaskazini eh mimi ndipo mimi nimezungukwa na vita pande zote."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
                 "- Bila sababu\tndipo mimi ni mezungukwa na vita pande zote",
                 "- Bila kujuwa\t¨\t¨\t¨\t¨\t¨\t¨\t¨\t¨",
                 "- Ata ni imbe"
@@ -219,14 +259,29 @@
             {
               "type": "source_block",
               "lines": [
-                "Vita vyetu si via mwili (si vya mwili ) wala vita si vya damu baba yangu baba, Eh! baba yangu nalika jeshi la mbingu.",
+                "Vita vyetu si via mwili (si vya mwili ) wala vita si vya damu baba yangu baba, Eh! baba yangu nalika jeshi la mbingu."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "- Ni nalika Mikaeli\tEh! baba yangu nalika jeshi la mbingu",
                 "- Ni nalika Nafutali...",
-                "- Ni nalika Samsoni...",
+                "- Ni nalika Samsoni..."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Wanadamu walisema (walisema) roho mwema hatashuka tena kwetu leo ¨Eh baba yangu mungu wa rehema.¨2x",
                 "- Baba yetu wa rehema",
                 "- Katolika walisema roho mwema hasitashuka tena kwetu leo mungu wa rehema",
-                "- Watemai...",
+                "- Watemai..."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Watu wote njoni mwone roho mwema ameshuka tena kwetu leo eh baba yangu (Fahari na iwe ) eh baba yangu fahari iwe kwako."
               ]
             },
@@ -284,8 +339,18 @@
               "type": "refrain",
               "lines": [
                 "Kadi Rebeka wewa, Rebeka tuluka pa punda uka lale mwa sala djituku djibidji ne uye kudji bayeba Isaka.",
-                "- Rebeka mwanetu -Rebeka Rebeka",
-                "Bwa kujangatila kwa kwansa butuku ndinguija mukalenga kwangata butumbi bwebe kutumbija nzambi mukwabo.",
+                "- Rebeka mwanetu -Rebeka Rebeka"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Bwa kujangatila kwa kwansa butuku ndinguija mukalenga kwangata butumbi bwebe kutumbija nzambi mukwabo."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Makalenga ne ma mfumu midimu ibidi pa buloba idi kokesha muntu ehu moyo wenda wa pa buloba."
               ]
             }
@@ -341,8 +406,18 @@
               "type": "comment",
               "lines": [
                 "- Mikaeli uje\tmapambano ni makali mu mbingu na mu dunia",
-                "- Samsoni uje",
-                "Kizazi kia kwanza na kia pili kiungane na kia tatu na kizazi kia ine kimeja na utukufu.",
+                "- Samsoni uje"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Kizazi kia kwanza na kia pili kiungane na kia tatu na kizazi kia ine kimeja na utukufu."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Mungu onyesha rehema yako unyumbie mbingu na dunia muko mwana wa mungu akiketi malaika wana mwimbia."
               ]
             }
@@ -392,7 +467,12 @@
               "type": "refrain",
               "lines": [
                 "Maisha yangu yote nina kupa baba, baba unishindie, na bulozi bwangu bote nina kupa baba, baba unishindie Ah eh baba nishindie vita iyo ya walozi na wachawi,",
-                "nishindie vita iyo ya wafalme wa shetani.",
+                "nishindie vita iyo ya wafalme wa shetani."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Ningekuwa ndege za mbingu singe pata taabu ningeita malaika wa kunipigania, ningeita mikaeli nguvu za mungu baba pia na kasieli mutawala wetu."
               ]
             }
@@ -449,8 +529,18 @@
               "lines": [
                 "- Na wachawi\twanaacha mungu wa uzima, wa uzima uzima wa milele.",
                 "- Na wa fumu...",
-                "- Na walozi...",
-                "Wakikuja kwa vita mimi tapanda mbinguni nitabeba malaika wa vita watakuja kunipiganiya.",
+                "- Na walozi..."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Wakikuja kwa vita mimi tapanda mbinguni nitabeba malaika wa vita watakuja kunipiganiya."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
                 "- Kweli nitabeba Mikaeli wa vita\tatakuja kunipigania",
                 "- Mimi... Kasieli",
                 "- Mimi... Gideoni",
@@ -503,8 +593,18 @@
               "type": "refrain",
               "lines": [
                 "Wamanya buloba ne bakoshe buloba, buloba ne bakoshe ( mwanetu wa manya) Mwanetu wa manya buloba ne babushe buloba ne baboshe, buloba ni umenesha nyinyi adjisonga",
-                "bulobe, buloba ne bakoshe.",
-                "Udjimu udjimanya mundamu kadji kwena musuau kulekela udjisonga bikola kumpala kwa nzambi mumanya mwa munda.",
+                "bulobe, buloba ne bakoshe."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Udjimu udjimanya mundamu kadji kwena musuau kulekela udjisonga bikola kumpala kwa nzambi mumanya mwa munda."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Nzambi wetwehu wabukole kakwena wakumuluisha. Udji udjiluisho wewa mu lungenyi lwebe ne menji bia buntu"
               ]
             }
@@ -553,8 +653,18 @@
             {
               "type": "refrain",
               "lines": [
-                "Simba la kabila la yuda nguruma , nguruma simba.",
-                "2. Kwa kuvunja mihurie ¨Ili kuwa na funga ufalume wa mungu ¨2x",
+                "Simba la kabila la yuda nguruma , nguruma simba."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "2. Kwa kuvunja mihurie ¨Ili kuwa na funga ufalume wa mungu ¨2x"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "3. Kwa leo twimbeni shangwe (eh baba shangwe mufalme."
               ]
             }
@@ -603,8 +713,18 @@
             {
               "type": "refrain",
               "lines": [
-                "Bwana Mungu mimi ni kosefu duniani Bwana wangu, bwana wangu unirehemu.",
-                "2. Mimi sina, sina haja na marafiki za ulimwengu Bwana wangu unirehemu.",
+                "Bwana Mungu mimi ni kosefu duniani Bwana wangu, bwana wangu unirehemu."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "2. Mimi sina, sina haja na marafiki za ulimwengu Bwana wangu unirehemu."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "3. Wengi, wengi wana upendeleo kwa wajoli wao Bwana wangu unirehemu.",
                 "Marafiki wema ni malaika za mbinguni Bwana wangu unirehemu."
               ]
@@ -709,9 +829,19 @@
                 "1. Bena nzambi tudjikonke, tudjikonke, tudjikonke¨2x Tudji bankana lelu ku meso ya zambi wa moyo ( ketudjibankana lelu)",
                 "Bena yesu tudjikonke, tudjikonke, tudjikonke¨2x tudjibana lelu kumeso ya nzambi wa moyo.",
                 "Bena nyuma tudjikonke, tudjikonke, tudjikonke ¨2x tudjibankana lelu kumeso ya nzambi wa moyo",
-                "(Ketudjibakana lelu)",
+                "(Ketudjibakana lelu)"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "2. (Yepowa nzambi), yepowa nzambi, (nzambi mufuki) indji kulomba (indji kulomba umpe bukole anuwewe anuwewe , anuwewe ¨2x",
-                "(Yesu wa nzambi) Mwana wa nzambi indjikulomba (indjikulomba umpe bukole anuwewe, anuwewe, anuwewe ¨2x",
+                "(Yesu wa nzambi) Mwana wa nzambi indjikulomba (indjikulomba umpe bukole anuwewe, anuwewe, anuwewe ¨2x"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "3. (Nyuma musambi), nyuma musambi (musambi wetu, ambula ngabu) (ambula ngabu) mwela ne djifuma unduile",
                 "vita yanyi untshimwine.",
                 "- Vita yanyi vita yanyi\tundwile vita yanyi untshimwine.",

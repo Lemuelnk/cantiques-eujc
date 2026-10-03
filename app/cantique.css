@@ -148,7 +148,7 @@ body {
 
 .version-tab.is-active {
   background: var(--hymn-bg-dark);
-  color: var(--text-primary);
+  color: var(--p-cream-100);   /* crème forcée pour contraste sur vert forêt */
 }
 
 /* ------------------------------------------------------------

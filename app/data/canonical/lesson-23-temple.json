@@ -60,10 +60,30 @@
                 "- Mimi natarajia neno...",
                 "- Ngombo hili mafundisho ya roho...",
                 "- Ngombo hili neno la rohoni...",
-                "- Nitafanya uduma...",
-                "Alipo tumia gombo ile ilikuwa utamu kinywani Bali tumboni mwake uchungu Ezekieli akavumilia",
-                "Ngombo ni neno la mungu baba unapo sikia ni furaha bali kwa kulitimiza ni ngumu neno hili shida kwa ziki na mambo.",
-                "Nanyi watu walio mu yesu shikeni shauri lake musiwe wasikiaji wa neno tu wajoli nyinyi awa muwe watenda wa neno",
+                "- Nitafanya uduma..."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Alipo tumia gombo ile ilikuwa utamu kinywani Bali tumboni mwake uchungu Ezekieli akavumilia"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Ngombo ni neno la mungu baba unapo sikia ni furaha bali kwa kulitimiza ni ngumu neno hili shida kwa ziki na mambo."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Nanyi watu walio mu yesu shikeni shauri lake musiwe wasikiaji wa neno tu wajoli nyinyi awa muwe watenda wa neno"
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
                 "- Waminifu wa neno musiwe wasikiaji wa neno tu wajoli nyinyi awa muwe watenda wa neno",
                 "- Enyi wafwatao wa neno...",
                 "- Kweli nyinyi awa..."
@@ -114,8 +134,18 @@
             {
               "type": "refrain",
               "lines": [
-                "Enyi wajoli uduma huo, uduma huo muna uzuni mapigo mateso mengi yo kwa kuokowa watu",
-                "Wengi wakaja kwa kuokowa watu duniani wakapata mateso mengi sana tumwamini mwana wa mungu tupate uzima.",
+                "Enyi wajoli uduma huo, uduma huo muna uzuni mapigo mateso mengi yo kwa kuokowa watu"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Wengi wakaja kwa kuokowa watu duniani wakapata mateso mengi sana tumwamini mwana wa mungu tupate uzima."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Ni wepesi kunena ila kutenda ni vigumu (shangwe ) shangwe shangwe yo mbinguni duniani kwajili ya mwana wa mungu kujitolea kuokowa watu."
               ]
             }
@@ -171,8 +201,18 @@
               "type": "comment",
               "lines": [
                 "- Yesu ne tshifulu tsha miba lele yayo aya yolele sengama lwayo.",
-                "- Kulongenji kungende lele\t¨\t¨\t¨\t¨\t¨\t¨",
-                "Anani mwikeilo huno pakwenda pa senga wajakafwila bantu bwa bubi bubaji pa senga.",
+                "- Kulongenji kungende lele\t¨\t¨\t¨\t¨\t¨\t¨"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Anani mwikeilo huno pakwenda pa senga wajakafwila bantu bwa bubi bubaji pa senga."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Yesu na mubaluile di aya yo ayayo ¨Amigende pa senga waja kafwila bantu ¨2x"
               ]
             }
@@ -223,9 +263,19 @@
               "type": "refrain",
               "lines": [
                 "- Ila kwa kula na kunywa Yoane yoyoyo Yoane akafa kwajili ya Herodia Yoane yoyoyo Yoane akafa",
-                "- Ila kwa kucheza kwake Yoane yoyoyo Yoane akafa.",
+                "- Ila kwa kucheza kwake Yoane yoyoyo Yoane akafa."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Yoane yupo gerezani habari ya Yesu ikamujia akatuma wafwasi il iwa muulize Yesu naye kawajibu wafwasi nende mu mwambie Yoane: Vipofu",
-                "uona, Viwete utembea, Wenye ukoma utakaswa, Viziwi nao usikia, wafu wamefufuliwa harifu watu wengine neno la Mungu.",
+                "uona, Viwete utembea, Wenye ukoma utakaswa, Viziwi nao usikia, wafu wamefufuliwa harifu watu wengine neno la Mungu."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Usitazame mujoli wako weko na kwarifu wewe usiwe nawe Herode amekwisha funga Yoane alietumwa na mungu wa uzima kwa kumudumia yeye",
                 "tazama rafiki yako ndie yule balato usiishi na wewe kwajili ya chakula kerubi wa mufalume wa bwana ata kuazibu araka na vidudu vita",
                 "kukula."
@@ -281,8 +331,18 @@
                 "ka kwata mwambi.",
                 "- Shobwe inghei shobwe ikakwata mwambi wa nzambi yekelekele shobwe ya kakwata mwambi.",
                 "- Shobwe ya bandi  ¨\t¨\t¨\t¨\t¨\t¨",
-                "- Shobwe yoyoyo\t¨\t¨\t¨\t¨\t¨\t¨",
-                "Ashisha ba kamukonka twetu kukwenzele tshinyi bwa mayi manene matalala nganyi wa bambile yoyo bwa kudji longolola.",
+                "- Shobwe yoyoyo\t¨\t¨\t¨\t¨\t¨\t¨"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Ashisha ba kamukonka twetu kukwenzele tshinyi bwa mayi manene matalala nganyi wa bambile yoyo bwa kudji longolola."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Nungumbule nugele mu mayi tshipupu tshilwalwa yoyoyo pa bwalu bwanyi nganyi we nganyi wanyi wa bambile yoyo bwa kudji longolola."
               ]
             }
@@ -331,11 +391,31 @@
             {
               "type": "refrain",
               "lines": [
-                "Ajapo usiku wala akija muchana tuongojeni wote yoyoyo saa ijayo mufalme en ! en tuongojeni wote yoyoyo saa ijayo mufalme ah !ah",
-                "2. Yoane alikuwa amevaa singa za ngamia akila asali yoyoyo pia nzige ah ! ah.",
-                "3. Tuu karibu ili twende kwa bwana wajoli wangu yoyoyo mutengeneze mioyo ah ! ah",
+                "Ajapo usiku wala akija muchana tuongojeni wote yoyoyo saa ijayo mufalme en ! en tuongojeni wote yoyoyo saa ijayo mufalme ah !ah"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "2. Yoane alikuwa amevaa singa za ngamia akila asali yoyoyo pia nzige ah ! ah."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "3. Tuu karibu ili twende kwa bwana wajoli wangu yoyoyo mutengeneze mioyo ah ! ah"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "4. Nali wambia juu ya kiti cha mungu enyi wajoli wangu ah ! ah kiti kilicho kimbiawa na mbingu dunia nacho ni mbele yenu ah! ah. Acheni",
-                "uzushi nyumbani mwa bwana ¨Ili sauti ikae mioyo ni mwenu ah ! ah ¨2x",
+                "uzushi nyumbani mwa bwana ¨Ili sauti ikae mioyo ni mwenu ah ! ah ¨2x"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "5.\tKusogea karibu nyumbani mwa Mungu, kuna shinda sadaka ya kutolea tu ah ! ah."
               ]
             }

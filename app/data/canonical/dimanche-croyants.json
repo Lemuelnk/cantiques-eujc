@@ -58,7 +58,12 @@
               "lines": [
                 "- Tutujuze Mungu wa Yakobo jehova yoyoyo tutukuze mungu wetu.",
                 "- Tumutukuze mungu wa Isaka...",
-                "- Tutukuze mungu wa Abraham...",
+                "- Tutukuze mungu wa Abraham..."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Lutu mutu wa njia Isaka mwaminifu wa njia Abrahamu ¨baba wa imani wajoli tutukuze mungu wetu ¨2x tutukuze mumbaji"
               ]
             }
@@ -117,9 +122,24 @@
                 "- Uzima wako ni nyakuwe Baba unijaze uzima wako",
                 "- Mungu baba mumbaji wangu ni nyakuwe baba unijaze uzima wako",
                 "-Yesu mwana mukombozi wangu ¨\t¨\t¨\t¨\t¨",
-                "-Roho mwema mufariji wangu\t¨\t¨\t¨\t¨\t¨\t¨",
-                "Roho mwema wa Mungu alishuka kwa mitume , na sisi tunongojea usituache mufalme ¨2x",
-                "Nina kulilia wewe baba kumbuka uchungu wangu kazi nyingi nilifanya njiani munamo ziki ¨2x",
+                "-Roho mwema mufariji wangu\t¨\t¨\t¨\t¨\t¨\t¨"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Roho mwema wa Mungu alishuka kwa mitume , na sisi tunongojea usituache mufalme ¨2x"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Nina kulilia wewe baba kumbuka uchungu wangu kazi nyingi nilifanya njiani munamo ziki ¨2x"
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
                 "- Kulala mu saba kazi nyingi ni lifanya njiani munamo ziki",
                 "-Kufanya faraja  ¨\t¨\t¨\t¨\t¨",
                 "-Kufundisha nyimbo"
@@ -171,7 +191,12 @@
               "type": "refrain",
               "lines": [
                 "Ninayo safari ya kwenda kwa baba mwili unitenganisha safari ni ndefu ya kwenda mbinguni mwili unitenganisha nisije nikienda",
-                "mbinguni kumuhimidi Mungu wa uzima.",
+                "mbinguni kumuhimidi Mungu wa uzima."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Mungu kwa rehema yako kamuchukuwa Enoka kenda naye mbinguni mungu wangu akakuhimidi. Mungu kwa rehema yako unishushie roho wako ilinichukuwe nami sikuzile nika kuhimidi."
               ]
             }
@@ -329,7 +354,12 @@
                 "Safari  ni ndefu\t¨\t¨\t¨\t¨\t¨",
                 "Safari ya kwenda kanana¨\t¨\t¨\t¨\t¨",
                 "Amka twende kanana\t¨\t¨\t¨\t¨\t¨",
-                "Mulozi acha kuloka\t¨\t¨\t¨\t¨\t¨",
+                "Mulozi acha kuloka\t¨\t¨\t¨\t¨\t¨"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Yesu alisema mutu mwenye kunifwata, chukia baba na mama na ujikane mwenyewe."
               ]
             },
@@ -437,8 +467,18 @@
             {
               "type": "refrain",
               "lines": [
-                "Chunguzeni matendo yenu munapo tendea bwana jiazareni wasi walaumu marafiki na wuovu mpenzi jehova Mungu wa yakobo unirehemu.",
-                "1. Jiazareni enyi wana wa jehova shoka ni chini ya kila shina yote mutini wote usiotoa matunda utakatwa na kutupwa motoni.",
+                "Chunguzeni matendo yenu munapo tendea bwana jiazareni wasi walaumu marafiki na wuovu mpenzi jehova Mungu wa yakobo unirehemu."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Jiazareni enyi wana wa jehova shoka ni chini ya kila shina yote mutini wote usiotoa matunda utakatwa na kutupwa motoni."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "3. Sisi zote tulio humu hekaluni wa baba wa mama marafiki zetu atatukiwa wa kristu kweli tutoe matunda yanayo mpendeza."
               ]
             }
@@ -487,8 +527,18 @@
             {
               "type": "refrain",
               "lines": [
-                "Mungu wangu uniondoshe atari zote na shida, na shida zote ngumu. Apo mimi ni fikapo ni tapiga goti mpenzi jehova Mungu ni takushukuru (2x)",
-                "2. Uku mbele kuna vita kuu ya giza na shimu ndefu sana ili ni sipate uzima (2x)",
+                "Mungu wangu uniondoshe atari zote na shida, na shida zote ngumu. Apo mimi ni fikapo ni tapiga goti mpenzi jehova Mungu ni takushukuru (2x)"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "2. Uku mbele kuna vita kuu ya giza na shimu ndefu sana ili ni sipate uzima (2x)"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "3. Ukiwahuja toka ndani ya vitu na mu mambo ya watu ewe utafariki kweli."
               ]
             }
@@ -594,8 +644,18 @@
             {
               "type": "refrain",
               "lines": [
-                "Ah Jehova Mungu roho ameshuka mwilini mwetu ¨Lindeni Mwana muwe na uzima¨2x",
-                "2.¨Siku kuu ya pentekoste shindo ikanguruma chumbani cha juu ¨2x Gafula ikazidi mbingu ikatingisika dunia katetemeka.",
+                "Ah Jehova Mungu roho ameshuka mwilini mwetu ¨Lindeni Mwana muwe na uzima¨2x"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "2.¨Siku kuu ya pentekoste shindo ikanguruma chumbani cha juu ¨2x Gafula ikazidi mbingu ikatingisika dunia katetemeka."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "3. ¨Muti muzuri utshipukao unaonekana kwa matunda yake ¨2x ¨Mwanadamu akiwa mupya anatambulikana kwa matendo yake ¨2x"
               ]
             }
@@ -706,7 +766,12 @@
               "type": "refrain",
               "lines": [
                 "¨Enyi wateule wa Mungu wa uzima tushangilie Mungu mufalme¨2x enyi wateule wa mufalme wetu tushangilie Mungu mufalme kwa kuwa uzima",
-                "umeshuka ndani mwetu kwa neno la uzima.",
+                "umeshuka ndani mwetu kwa neno la uzima."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "2. Tukiwa katika uwamisho tujilinde kwa safari tunayo elekea kweli, kweli ili baraka iwe mbinguni na duniani salama iwe kwa wale",
                 "wateule wake."
               ]
@@ -821,8 +886,18 @@
             {
               "type": "refrain",
               "lines": [
-                "Nzambi wanyi wakwela muyenge ah aha ah aha (2x). Nzambi moyo (4x).",
-                "2. Djindomba Yesu, ndjindomba Yesu moyo wanyi (2x) Yesu mulami wa moyo wanyi (4x)",
+                "Nzambi wanyi wakwela muyenge ah aha ah aha (2x). Nzambi moyo (4x)."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "2. Djindomba Yesu, ndjindomba Yesu moyo wanyi (2x) Yesu mulami wa moyo wanyi (4x)"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "3. Djindomba Yuma, ndjindomba Nyuma moyo wanyi ¨2x ¨Nyuma mulami wa moyo wanyi ¨4x"
               ]
             }

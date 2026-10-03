@@ -50,7 +50,12 @@
             {
               "type": "refrain",
               "lines": [
-                "Sisi tupendane tuone jehova tukamatane tusimame imara jambo yenu, jambo yenu tuwa salimie na furaha.",
+                "Sisi tupendane tuone jehova tukamatane tusimame imara jambo yenu, jambo yenu tuwa salimie na furaha."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Tukifata mapendo ya kweli ya mu yesu mwana. Baba mungu, baba mungu kwa rehema yako tunaonana leo."
               ]
             }
@@ -99,8 +104,18 @@
             {
               "type": "refrain",
               "lines": [
-                "Wajoli yoyoyo wajoli wa bwana (bwana mungu) tupo wageni hapa duniani.",
-                "Jehova ananena mbingu kiti cha enzi inchi nayo kituo cha miguu yake.",
+                "Wajoli yoyoyo wajoli wa bwana (bwana mungu) tupo wageni hapa duniani."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Jehova ananena mbingu kiti cha enzi inchi nayo kituo cha miguu yake."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Naitajia bwana kuwa na mabawa ni ruke kama ndege niende kwa baba",
                 "- Unatenda maovu na kwabudu vinyago usipo tambua kile ulicho umbwa.",
                 "- Una kunywa malovu na kwabudu vinyago usipo tambua kile ulicho umbiwa.",
@@ -154,8 +169,18 @@
               "lines": [
                 "- Baba wa mbingu\ttazama wana kando ya mito ya babeli.",
                 "- Wakuchunga sayuni",
-                "- Wakiomboleza",
-                "Tuliketi uko kwa inchi ya babali. watu wote wa babeli twimbe wimbo za sayuni kule yerusalema.",
+                "- Wakiomboleza"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Tuliketi uko kwa inchi ya babali. watu wote wa babeli twimbe wimbo za sayuni kule yerusalema."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "kwimba sisi nyimbo za sayuni. kwa inchi ya ugeni nyimbo zetu za sayuni kule yerusalema, yerusalema, yerusalema inchi ya wateule, wateule wa bwana yerusalema",
                 "inchi ya wateule."
               ]
@@ -206,7 +231,12 @@
             {
               "type": "refrain",
               "lines": [
-                "Basi eh we baba na we mama upingapo neno la Mungu. Basi we utatupwa katika jehanamu",
+                "Basi eh we baba na we mama upingapo neno la Mungu. Basi we utatupwa katika jehanamu"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Sisi zote, sisi zote, sisi zote tupo kama wageni jazareni na mambo wajoli za ulimwenguni tutapata uzima yesu wa mungu atatuokoa katika ziki zote atulinde katika",
                 "safari kwa tendo pia kwa tamko tusimukanushe."
               ]
@@ -256,8 +286,18 @@
             {
               "type": "refrain",
               "lines": [
-                "Abalila shani owe owe ah owe owe mwe(banesu) owe owe ah ine shimishibe.",
-                "Tukonke yesu banesu tupelwe naifue ubumi bwa penape",
+                "Abalila shani owe owe ah owe owe mwe(banesu) owe owe ah ine shimishibe."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Tukonke yesu banesu tupelwe naifue ubumi bwa penape"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Fibusa fiandji imwe mwitemwa ubusuma bwa pacalo isonsa shingi banesu shili kumulu kulia kuli tata."
               ]
             }
@@ -306,8 +346,18 @@
             {
               "type": "refrain",
               "lines": [
-                "Maombolezo iyoyowe ah! iyoyowe! a wajoli iyoyowe mimi siwajuwi.",
-                "Tufate yesu wajoli tupewe nasi uzima wa milele.",
+                "Maombolezo iyoyowe ah! iyoyowe! a wajoli iyoyowe mimi siwajuwi."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Tufate yesu wajoli tupewe nasi uzima wa milele."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Rafiki zangu yoyoyo musitarajie anasa haba furaha nyingi yoyoyo ziko mbinguni juu kwa mungu baba."
               ]
             }
@@ -572,7 +622,12 @@
                 "ni ndani mwangu",
                 "- Na madawa siache\teh baba , eh baba ju ya nini ubaya ni ndani mwangu.",
                 "- Na bulozi siache\t¨\t¨\t¨\t¨\t¨\t¨\t¨",
-                "- Na chuki siache\t¨\t¨\t¨\t¨\t¨\t¨\t¨",
+                "- Na chuki siache\t¨\t¨\t¨\t¨\t¨\t¨\t¨"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "2.Nitazamapo katika viungo via mwili wangu naona baba minaona sheria nyingine kwangu.",
                 "- Sheria nyingine kutoka kwa musa naona , naona kweli sheria nyingine kwangu",
                 "- Sheria nyingine kutoka ku jamaa\t¨\t¨\t¨\t¨\t¨\t¨",

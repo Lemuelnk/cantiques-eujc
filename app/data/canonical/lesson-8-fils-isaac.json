@@ -50,8 +50,18 @@
             {
               "type": "refrain",
               "lines": [
-                "(Kaji Lebeka wewa ) Lebeka tuluka pa punda ukalala mwa Sala djituku djibidji ne uye uji baeba Isaka 2x",
-                "Bwa kudjangatila pa kwansa mutukundingwija mukalenga 2x kwangata butumbi bwebe utumbija nzambi mu kwabo.",
+                "(Kaji Lebeka wewa ) Lebeka tuluka pa punda ukalala mwa Sala djituku djibidji ne uye uji baeba Isaka 2x"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Bwa kudjangatila pa kwansa mutukundingwija mukalenga 2x kwangata butumbi bwebe utumbija nzambi mu kwabo."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Makalenga ne manfumu midjimu ibidji pa buloba idji kokesha muntu eu moyo wende wa pa buloba."
               ]
             }
@@ -92,8 +102,18 @@
             {
               "type": "refrain",
               "lines": [
-                "kweli Rebeka wewe, Rebeka shuka kupunda ukalale kwa Sara, masiku mbili na urudi kwa mumeo Isaka (×2)",
-                "Ujichukuliye kwa kiti usiku umeingia mufalme×2 kamata utukufu wako utukuzwe nao miungu mingine (×2).",
+                "kweli Rebeka wewe, Rebeka shuka kupunda ukalale kwa Sara, masiku mbili na urudi kwa mumeo Isaka (×2)"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Ujichukuliye kwa kiti usiku umeingia mufalme×2 kamata utukufu wako utukuzwe nao miungu mingine (×2)."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Mafalume na sultani ni waovu wa wili duniani×2wakonatabisha mutu huyu katika fahari za duniani (×2)"
               ]
             }
@@ -144,9 +164,24 @@
               "lines": [
                 "Kweli Yakobo wangu wende uchukue mwana mbuzi uje upokee baraka",
                 "- Baraka mu neno .....",
-                "- kweli yakobo.....",
-                "Rebeka katayarisha wana mbuzi wa wili akampa Yakobo ampelekee Isaka amuongezee baraka.",
-                "Esau kauzunika (kachukizwa ) kalia",
+                "- kweli yakobo....."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Rebeka katayarisha wana mbuzi wa wili akampa Yakobo ampelekee Isaka amuongezee baraka."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Esau kauzunika (kachukizwa ) kalia"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "kaomboleza juu ya furaha yangu nitauwa Yakobo ameninianganya baraka."
               ]
             }

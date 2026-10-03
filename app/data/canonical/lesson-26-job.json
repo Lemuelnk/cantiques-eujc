@@ -155,8 +155,18 @@
               "type": "refrain",
               "lines": [
                 "Yoyoyo mateso, haya mateso moyoni mwangu (Yameniuzunisha) 2x. Ninge lifahamu mimi singe lizaliwa, ninge lifariki",
-                "tumboni mwa mamangu, ili ni sione mateso ya duniani.",
-                "2. Wakati mimi nilipo zaliwa wazazi wangu na watu wengineo (walifurahi na wakanywa pombe leo hii watu hawa wame uzunishwa)2x",
+                "tumboni mwa mamangu, ili ni sione mateso ya duniani."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "2. Wakati mimi nilipo zaliwa wazazi wangu na watu wengineo (walifurahi na wakanywa pombe leo hii watu hawa wame uzunishwa)2x"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "3. Nita laani kwa siku zile nilipo zaliwa tumboni mwa mamangu na maziwa ya mama yangu yalikuweko kwa mimi kunyonya inchini pote",
                 "kwa siku zile nilipo zaliwa."
               ]
@@ -330,9 +340,19 @@
               "type": "refrain",
               "lines": [
                 "Kujikuza kwako wewe usizarau uduma huwa bwana mu mambo mafu anasa za duniani kwa wewe mujoli mu mambo mafu hekima ya",
-                "duniani.",
+                "duniani."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "2. Yesu kamwambia Petro simoni Petro¨ rudi nyuma wewe.",
-                "kikwazo rudi nyuma wewe shetani ¨2x",
+                "kikwazo rudi nyuma wewe shetani ¨2x"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "3. Mungu wa Petro, mungu wa Yoane, Mungu wa Yakobo njoni, njoni leo, njoni kwetu mufalume wajoli njoni, njoni leo, njoni kwetu",
                 "mufalume."
               ]
@@ -386,7 +406,12 @@
                 "- Marafiki wa baya wamenishutumu Mungu wenu yuko wapi",
                 "- Majirani wa baya wamenishutumu Mungu wenu yuko wapi.",
                 "- shangazi mulozi, wamenishutumu Mungu wenu yuko wapi",
-                "- Ewe Mungu muzima, shuka leo unione",
+                "- Ewe Mungu muzima, shuka leo unione"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "2. Mungu muzima mwili umeteswa sana ¨nafsi imesongwa sana mimi ni muombe nani ¨2x",
                 "¨Ewe Mungu muzima shuka leo unione ¨2x"
               ]

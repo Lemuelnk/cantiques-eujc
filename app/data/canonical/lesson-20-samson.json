@@ -157,8 +157,18 @@
             {
               "type": "refrain",
               "lines": [
-                "Aleluya fahari, fahari utukufu wa jehova Mimi nazaa mwana fahari utukufu wa Neno hili. Samsoni wa Mungu fahari utukufu wa jehova",
-                "Malaika kawambia mutamuzaa mwana mume mnaziri wa Mungu. Malaika wa Bwana akawagiza ivio walipo kuwa shambani.",
+                "Aleluya fahari, fahari utukufu wa jehova Mimi nazaa mwana fahari utukufu wa Neno hili. Samsoni wa Mungu fahari utukufu wa jehova"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Malaika kawambia mutamuzaa mwana mume mnaziri wa Mungu. Malaika wa Bwana akawagiza ivio walipo kuwa shambani."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Usinyowe nyole zake, usinywe kileo cha nguvu wewe usile kitu kichafu mwana huyu mnaziri wa Mungu. Ataokowa israeli kwa wafilistini awatowe utumwani"
               ]
             }

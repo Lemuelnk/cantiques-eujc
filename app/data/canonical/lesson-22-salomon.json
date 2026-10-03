@@ -50,9 +50,19 @@
             {
               "type": "refrain",
               "lines": [
-                "Kwa kujenga nyumba ya mufalme wajoli (enyi wajoli) nyundo isisikiwe, chombo cha chuma chochote (Sauti yake isisikiwe humo ndani ya nyumba ya mungu wa uzima)2x",
+                "Kwa kujenga nyumba ya mufalme wajoli (enyi wajoli) nyundo isisikiwe, chombo cha chuma chochote (Sauti yake isisikiwe humo ndani ya nyumba ya mungu wa uzima)2x"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Solomono mufalme mwana wa Daudi Mujengaji mufalme Mujengaji wa nyumba Kwa hakili zake mufalme\tMalikia wa sheba akasikia habari za mufalme solomono ¨Nitaenda kuakiki",
-                "sha ni kajue ilio haki nyumbani mwake mimi mwenyewe. Solomono mufalme mwana wa Daudi mufalme.",
+                "sha ni kajue ilio haki nyumbani mwake mimi mwenyewe. Solomono mufalme mwana wa Daudi mufalme."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Alipo fika humo nyumbani mwake (enyi wajoli moyo wake ufazaika kwa Vijakazi kwa mali mali na kwa akili zake Solomono). Solomono mufalme, mwana wa Daudi mufalme."
               ]
             }
@@ -105,7 +115,12 @@
                 "- Kwa kumaliza kazi",
                 "- Kwa maagizo ya bwana",
                 "- Kwa kumwabudu bwana",
-                "- Kwa kumutukuza bwana Maweya chongwa tayari, vitu viote ni tayari unyasi toka mbinguni kapima hekalu Solomono akafanya kazi.",
+                "- Kwa kumutukuza bwana Maweya chongwa tayari, vitu viote ni tayari unyasi toka mbinguni kapima hekalu Solomono akafanya kazi."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "wa sheba akasikia habari kwa mbali akakuja kutazama Hekalu malkia akatoa zahabu na manemane Malkia wa sheba katazama chakula cha bwana na mavazi ya watumishi."
               ]
             }
@@ -159,7 +174,12 @@
                 "- Delila musaliti mwana siwako mwana alie na huai",
                 "- Ewe mwenzangu....",
                 "- Ndugu tunafia nini...",
-                "- Nawe uzale wako....",
+                "- Nawe uzale wako...."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Yesu alinena, alisema asie na mwana yeye ni mufu, alie na mwana ana uzima wa milele mwana si wako, mwana alie na huai.2x"
               ]
             }

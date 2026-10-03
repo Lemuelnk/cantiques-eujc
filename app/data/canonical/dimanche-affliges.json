@@ -50,8 +50,18 @@
             {
               "type": "refrain",
               "lines": [
-                "Eh mungu nimepata chapa yako roho mwema ameshuka uliaidia watu wako ¨Ah, eh baba nimevikwa joo lako mufariji ameshuka¨2x",
-                "Dunia taabu yako, dunia ole wako nyinyi walozi ole wenu muliteswa watu wangu ¨Njoni muone ishara yangu roho mwema ameshuka, njoni muone ishara yangu roho wa uwezo ameshuka ¨2x",
+                "Eh mungu nimepata chapa yako roho mwema ameshuka uliaidia watu wako ¨Ah, eh baba nimevikwa joo lako mufariji ameshuka¨2x"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Dunia taabu yako, dunia ole wako nyinyi walozi ole wenu muliteswa watu wangu ¨Njoni muone ishara yangu roho mwema ameshuka, njoni muone ishara yangu roho wa uwezo ameshuka ¨2x"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Mufalume wa mbingu na dunia wewe bwana wangu baba mina kuomba juu ya ufalme wako uje mapenzi yako ya timizwe mbingu na duniani kwa wa chakuliwa wako.¨"
               ]
             }
@@ -100,8 +110,18 @@
             {
               "type": "refrain",
               "lines": [
-                "Jehova mungu ée twakushukuru mungu baba, Mungu baba e twakushukuru bwana yesu, yesu mwanae twakushukuru roho damilifu kwa faraja yako.",
-                "Yesu akateswa na magonjwa jeraha mikononi nyingine miguuni ¨Ili sisi watu tupate uzima tusirejee vifungoni mwa shetani na mateso yake Yesu",
+                "Jehova mungu ée twakushukuru mungu baba, Mungu baba e twakushukuru bwana yesu, yesu mwanae twakushukuru roho damilifu kwa faraja yako."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Yesu akateswa na magonjwa jeraha mikononi nyingine miguuni ¨Ili sisi watu tupate uzima tusirejee vifungoni mwa shetani na mateso yake Yesu"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "akatuachia agizo lake mimi na watesa wale ni wa pendao ¨Ha taabu zao yote itakoma wa kifata neno la mungu baba jehova mungu wao¨2x"
               ]
             }
@@ -150,8 +170,18 @@
             {
               "type": "refrain",
               "lines": [
-                "Mwana wa mungu alilia eh Eloi Eloi eh Eloi Eloi baba lamasabakatani mungu wangu kwa nini umeniacha mimi mwana mupendelevu, baba kwanini umeniacha mimi mwana mupendelevu.",
-                "Mateso mwilini (mwilini) uchungu moyoni jamani eh akunena jambo kamwe wayuda wakenda naye midjeledi wa kamupika mwokozi kasikitika Eloi lamasabakatani.",
+                "Mwana wa mungu alilia eh Eloi Eloi eh Eloi Eloi baba lamasabakatani mungu wangu kwa nini umeniacha mimi mwana mupendelevu, baba kwanini umeniacha mimi mwana mupendelevu."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Mateso mwilini (mwilini) uchungu moyoni jamani eh akunena jambo kamwe wayuda wakenda naye midjeledi wa kamupika mwokozi kasikitika Eloi lamasabakatani."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Roho ni tayari bali mwili ni zaifu alifazaika mwokozi yesu wa fwasi wote kalala amkeni nyinyi wanangu musianguke majaribuni."
               ]
             }
@@ -204,7 +234,12 @@
                 "- Mukuki mbavuni...",
                 "- Nafiolewa mimi...",
                 "¨Wametesa mwili wangu wame mwanga damu yangu ¨2x",
-                "Eh ninalia kwa baba Eloi Eloi Eloi Eloi baba mbona umeniacha.",
+                "Eh ninalia kwa baba Eloi Eloi Eloi Eloi baba mbona umeniacha."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Bwana mungu wa rehema ukumbuke kazi ngapi nilifanya duniani kikombe kinipitie mbali",
                 "."
               ]
@@ -270,8 +305,18 @@
               "lines": [
                 "- Umeniacha na nani\tEloi eloi mungu wangu mbona umeniacha",
                 "- Umeniacha na teswa...",
-                "- Nitaenda kwa nani...",
-                "Nzambi ubungushe mukatshi mwabena sulia bamba dii tshi ngumua, mema musombela musowa ¨Yepowa ungumbusha mukantshi mwa bena sulia",
+                "- Nitaenda kwa nani..."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Nzambi ubungushe mukatshi mwabena sulia bamba dii tshi ngumua, mema musombela musowa ¨Yepowa ungumbusha mukantshi mwa bena sulia"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Mukwamba udianu namana mukwenza udiamu namana munyanguke ne sudi yonso ya udituta muyadena misangu mwanda muteketa"
               ]
             }
@@ -320,8 +365,18 @@
             {
               "type": "refrain",
               "lines": [
-                "Mwana nzambi wakela djii elo elo ¨eloi malamasabakatani tatu wanyi (mema weba, tatu wanyi) nyiteka moyo wanyi muchanza cheba tatu wanyi tatu ubafwe luse kimbamanya bwalu",
-                "Lufu lwa yesu kilisto mwana wa nzambi ¨midima ya kakuata buloba bujima, julu buloba bya kazakala kumpala kwa nzambi",
+                "Mwana nzambi wakela djii elo elo ¨eloi malamasabakatani tatu wanyi (mema weba, tatu wanyi) nyiteka moyo wanyi muchanza cheba tatu wanyi tatu ubafwe luse kimbamanya bwalu"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Lufu lwa yesu kilisto mwana wa nzambi ¨midima ya kakuata buloba bujima, julu buloba bya kazakala kumpala kwa nzambi"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Lukuna lwa heloda yesu udi ujinga yerusalema ¨2x wewe yerusalema udjiushipa ba profeta"
               ]
             }
@@ -370,7 +425,12 @@
             {
               "type": "refrain",
               "lines": [
-                "Ah aa kristu amekwisha kuja atuokowa akaja kwetu na huru yeye atupe uzima bali tuwe na uzabiti sisi tusi rejeye chini ya kuongola mauti na ya shetani.",
+                "Ah aa kristu amekwisha kuja atuokowa akaja kwetu na huru yeye atupe uzima bali tuwe na uzabiti sisi tusi rejeye chini ya kuongola mauti na ya shetani."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Jehova alizidi kutupenda kristu alikuja kutufia"
               ]
             }
@@ -419,8 +479,18 @@
             {
               "type": "refrain",
               "lines": [
-                "Mwena sulia singwewe utshidi ne bulozi munda mwena sulia singwewe utshidi ne bipendu bieba ¨Udi namana mwena sudi udituta muya dena",
-                "Mukwamba udianu namana mukwenza udiamu namana munyanguke ne sudi yonso ya udituta muyadena misangu mwanda muteketa ¨2x",
+                "Mwena sulia singwewe utshidi ne bulozi munda mwena sulia singwewe utshidi ne bipendu bieba ¨Udi namana mwena sudi udituta muya dena"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Mukwamba udianu namana mukwenza udiamu namana munyanguke ne sudi yonso ya udituta muyadena misangu mwanda muteketa ¨2x"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Nzambi ubungushe mukatshi mwabena sulia bamba dii tshi ngumua, mema musombela musowa ¨Yepowa ungumbusha mukantshi mwa bena sulia ¨2x"
               ]
             }
@@ -576,8 +646,18 @@
             {
               "type": "refrain",
               "lines": [
-                "Mimi na lilia Baba na tabika mimi nalilia Mwana na tabika nalilia Roho na tabika na tabika kweli na tabika.",
-                "2. Vazi langu limechafuka haya shaka na hofu wananitabisha mimi munaziri nalilia Mwana na tabika.",
+                "Mimi na lilia Baba na tabika mimi nalilia Mwana na tabika nalilia Roho na tabika na tabika kweli na tabika."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "2. Vazi langu limechafuka haya shaka na hofu wananitabisha mimi munaziri nalilia Mwana na tabika."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "3. Kiapo changu mimi na choka na bya dunia na subiri Roho Mufariji. Nalilia Roho na tabika atani fariji mu taabu yangu na ziki zote duniani."
               ]
             }
@@ -908,8 +988,18 @@
                 "kopeshwa ni me daiwa njiani shutumu zisizo kuwa na hatia.",
                 "- Basi ni mwalike nani malaika wa Bwana unitangulie, malaika uliye jirika kwangu unitangulie kambini.",
                 "- Basi Mikaeli naye\t¨\t¨\t¨\t¨\t¨\t¨\t¨\t¨",
-                "- Basi Samsoni naye\t¨\t¨\t¨\t¨\t¨\t¨\t¨\t¨",
-                "2. Timiza naziri zako kwa mumbaji kwa nini kulia juu ya mwiba neema yako imekutosha utukufu wako ni mu mwiba huo.",
+                "- Basi Samsoni naye\t¨\t¨\t¨\t¨\t¨\t¨\t¨\t¨"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "2. Timiza naziri zako kwa mumbaji kwa nini kulia juu ya mwiba neema yako imekutosha utukufu wako ni mu mwiba huo."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "3. Kwa nini kujuta kwa naziri zenu ngisi nilivyo kuwa na baba zenu ndivyo nitakavyo kuwa nanyi sita wa pungukiya kamwe."
               ]
             }
@@ -961,9 +1051,19 @@
                 "Enyi wajoli, enyi wajoli jazarini na mashaka munayo jibebesha, enyinyi mwache kutumbukia mu mambo ya kujitenga na Mungu wa uzima.",
                 "- Kuchafua wengine: mwache kutumbukia mu mambo ya kujitenga na mungu wa uzima.",
                 "- Kufundisha wongo\t¨\t¨\t¨\t¨\t¨\t¨",
-                "- Kwa kufwata anasa\t¨\t¨\t¨\t¨\t¨\t¨",
+                "- Kwa kufwata anasa\t¨\t¨\t¨\t¨\t¨\t¨"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "2. Alipo omba mwana wa Mungu getesemane 2x. Alipo omba! jasho kutoka, jasho kutoka, wafwasi wake wenye kulala. Nalia Baba kikombe cha mateso",
-                "kinipitie mbali (2x).",
+                "kinipitie mbali (2x)."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "3. Adui wa mutu, adui wa mutu uonekana nyumbani mwake (2x). Alimutowa. Aliyemutoa aliyemukana mufwasi wake (2x), nalia baba kikombe",
                 "cha mateso kinipitie mbali.(x2)"
               ]
@@ -1014,14 +1114,39 @@
               "type": "refrain",
               "lines": [
                 "Nitamwagiza nani jambo wote wanena yangu nitamwagiza nani jambo kwa jina lako wanipiganisha (mimi) Jehova Mungu mateso",
-                "mufalume mateso Eh baba bwana wangu mateso mufalume wangu mateso.",
-                "1. Katika uduma hizi wa nena nyingi njiani pia wa nena yangu nyumbani mwetu wanisengenya Jehova Mungu mateso mufalume wangu mateso.",
+                "mufalume mateso Eh baba bwana wangu mateso mufalume wangu mateso."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Katika uduma hizi wa nena nyingi njiani pia wa nena yangu nyumbani mwetu wanisengenya Jehova Mungu mateso mufalume wangu mateso."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "2. Mataifa unishangaa ngombe nazo uniepuka mbuzi pia unizarau na kondo unisingizia jehova Mungu mateso mufalume wangu mateso, eh baba",
-                "bwana wangu mateso mufalume wangu mateso.",
+                "bwana wangu mateso mufalume wangu mateso."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "3. Kunguru unifwata ndege huu tausi unifata panzi na nzige utuliya kwangu viote nyuma yangu vikani fwata jehova Mungu mateso mufalume",
-                "wangu mateso eh baba bwana wangu mufalume wangu mateso.",
+                "wangu mateso eh baba bwana wangu mufalume wangu mateso."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "4. Panya ulia swi swi , umbwa naye unizunguluka nguruwe muchafu unitekenya mamba majini unisagiya meno jehova Mungu mateso mufalume",
-                "wangu mateso eh baba bwana wangu mateso mufalume mateso.",
+                "wangu mateso eh baba bwana wangu mateso mufalume mateso."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "5. Yesu unena mimi na tabika aba yani baba mufalume wangu mateso yesu unena baba uwa rehemu wana awatambui kile walifanyalo Jehova",
                 "Mungu mateso mufalume wangu mufalume wangu mateso eh baba bwana wangu mateso mufalume wangu mateso."
               ]

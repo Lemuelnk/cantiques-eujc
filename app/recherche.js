@@ -129,12 +129,16 @@ async function buildIndex() {
     try {
       const corpus = await loadCanonicalLesson(cat);
       if (!corpus || !Array.isArray(corpus.hymns)) return [];
-      return corpus.hymns.map(h => ({
-        hymn: h,
-        category: cat,
-        searchTitle: normalize(h.title || ''),
-        searchContent: buildContentText(h)
-      }));
+      return corpus.hymns.map(h => {
+        const display = getHymnDisplay(h);
+        return {
+          hymn: h,
+          category: cat,
+          searchNumber: String(display.sourceNumber || '').trim(),
+          searchTitle: normalize(h.title || ''),
+          searchContent: buildContentText(h)
+        };
+      });
     } catch (e) {
       return [];
     }
@@ -351,15 +355,23 @@ function performSearch(query) {
   // Étape 1 : filtrer d'abord par catégorie/leçon/langue
   const filtered = allHymns.filter(matchesFilters);
 
+  // Détecter si la requête est purement numérique (recherche par numéro)
+  const isNumericQuery = /^\d+$/.test(q.trim());
+
   // Étape 2 : filtrer selon le mode (titre/contenu/tous)
   let matches;
   if (currentMode === 'title') {
-    matches = filtered.filter(it => it.searchTitle.includes(q));
+    matches = filtered.filter(it =>
+      it.searchTitle.includes(q)
+      || (isNumericQuery && it.searchNumber.startsWith(q.trim()))
+    );
   } else if (currentMode === 'content') {
     matches = filtered.filter(it => it.searchContent.includes(q));
   } else {
     matches = filtered.filter(it =>
-      it.searchTitle.includes(q) || it.searchContent.includes(q)
+      it.searchTitle.includes(q)
+      || it.searchContent.includes(q)
+      || (isNumericQuery && it.searchNumber.startsWith(q.trim()))
     );
   }
 

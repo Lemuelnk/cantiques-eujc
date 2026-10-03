@@ -57,7 +57,12 @@
                 "- Kwani jehova mungu amenituma kwa mimi kwenda Beteli",
                 "- Kwani huko Yordani kumafundisho ya haki. Wana wa",
                 "manabii amusini wa kamwambia Elisa umejuwa ya kwama, umejua ya kama, jehova mungu ata muondosha mufalme wako ju yako leo (Jibu la Elisa kweli, kweli na jua",
-                "nyamazeni kwanza yoyoyo)2x",
+                "nyamazeni kwanza yoyoyo)2x"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Walipo vuka Yordani Elia akamwambia Elisa (Omba kwangu lolote wakati huu si jaondolewa)2x",
                 "ombi la Elisa (nina kuomba sehemu mara dufu ya roho yako",
                 "iwe juu yangu)2x yoyoyo"
@@ -153,7 +158,12 @@
             {
               "type": "source_block",
               "lines": [
-                "(Ewe Elisa mwana wa Safati)2x (Aliye kuwa akilima na jozi la ngombe). kumi na mbili alikuwa mu kumi na mbili (yeye mwenyewe) alikuwa mu kumi na mbili",
+                "(Ewe Elisa mwana wa Safati)2x (Aliye kuwa akilima na jozi la ngombe). kumi na mbili alikuwa mu kumi na mbili (yeye mwenyewe) alikuwa mu kumi na mbili"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Ewe mujoli wangu, mujoli pakupata roho shutoke mu mambo ya watu shuache via kusikia, twende naye wote tupate uzima."
               ]
             },
@@ -162,7 +172,12 @@
               "lines": [
                 "- Tukafike mbinguni twende nawe wote tupate uzima",
                 "- Tukapate uzima",
-                "- Tukafike ku mwisho",
+                "- Tukafike ku mwisho"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Kisha Elia pakupita akatupa vazi ju yake naye Elisa aliacha ngombe kamufwata Elia kwa haraka"
               ]
             }
@@ -219,8 +234,18 @@
               "lines": [
                 "- Uvuni wa moto ni vichani mwetu...",
                 "atukuzwe Mungu wa uzima",
-                "- Na mafuta kweli tumepakaliwa...",
-                "Roho mwema usemi wa Yoeli aliwaidia wa mitume na kuakikisha ju yao Roho mwema, Roho wa kristo, Roho mwema roho wa kristu.",
+                "- Na mafuta kweli tumepakaliwa..."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Roho mwema usemi wa Yoeli aliwaidia wa mitume na kuakikisha ju yao Roho mwema, Roho wa kristo, Roho mwema roho wa kristu."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Akikisho la kutakasika, ushuhuda wa uduma njema, ushirika wa Mungu na watu, yu haja miongoni mwetu, yu haja miongoni."
               ]
             }

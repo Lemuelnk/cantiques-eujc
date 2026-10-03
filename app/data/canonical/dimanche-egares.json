@@ -45,11 +45,26 @@
               "type": "refrain",
               "lines": [
                 "Kurejea kwangu kuna furahisha baba yakini, yakini baba nimekoseya mbingu mimi, yakini, yakini baba ah, ah ni metenda zambi machoni pako",
-                "usinite muzaliwa wako mimi ni mutumishi wako.",
+                "usinite muzaliwa wako mimi ni mutumishi wako."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Mavazi yangu ya mepasuka mimi muharibifu wa vitu vya baba maganda ya miti viakula via nguruwe ni vyakula vyangu (mimi) ¨Nime pote",
-                "anime potea baba yangu ¨2x",
+                "anime potea baba yangu ¨2x"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Nirudi, nyende kwenye baba nilie eh nimepotea niliee eh nime potea, nime potea , nime potea baba yangu nime rejea, nime rejea, nime",
-                "rejea baba yangu.",
+                "rejea baba yangu."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "muvikeni mwana wangu kitani nzuri, mu muvikeni ii pete kukidole, mu muvikeni ii viato ku miguu njoni twimbe tu",
                 "furahiwe kwajili ya mwana."
               ]
@@ -100,9 +115,24 @@
             {
               "type": "source_block",
               "lines": [
-                "Mwana mupotevu akenda kwa baba eh huyu mwana Akamwambia hivi unipe sehemu za mali mimi naenda mahali pangu",
-                "Baba akafikili akamupa sehemu za mali akienda akifurahi katikati ya njia, akienda akifurahi katikati ya njia.",
-                "Mahali alipoenda akapoteza mali kwa maisha mabaya ya wa sherati.Mwana akafikili kwa kurejea nyumbani mwao kuko babae.",
+                "Mwana mupotevu akenda kwa baba eh huyu mwana Akamwambia hivi unipe sehemu za mali mimi naenda mahali pangu"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Baba akafikili akamupa sehemu za mali akienda akifurahi katikati ya njia, akienda akifurahi katikati ya njia."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Mahali alipoenda akapoteza mali kwa maisha mabaya ya wa sherati.Mwana akafikili kwa kurejea nyumbani mwao kuko babae."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Babayangu mupendwa baba umupokee yoyoyo kwa kuonesha upendo wako"
               ]
             },
@@ -170,8 +200,18 @@
                 "- Mwana huyu akisha poteza mali akaomba toba yake",
                 "- Kwa baba yake...",
                 "- Nyumbani mwao...",
-                "- Mujini kwao...",
-                "Mbele ya kutenda jambo ni vizuri kujiuliza usiuwe manabii walio ndani yako.",
+                "- Mujini kwao..."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Mbele ya kutenda jambo ni vizuri kujiuliza usiuwe manabii walio ndani yako."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
                 "- Mujoli usiuwe manabii walio ndani yako",
                 "- Wewe rafiki"
               ]

@@ -74,6 +74,9 @@ def parse_blocks(card_html):
         if not part:
             continue
 
+        # Réinitialiser le type : chaque nouveau <li> ou <p> commence en source_block
+        last_type = 'source_block'
+
         # Détecter si ce bloc contient un Refrain: ou Com: à l'intérieur
         # Le marqueur "Refrain:" ou "Ref:" ou "Com:" peut séparer du contenu dans le même part
 
@@ -112,18 +115,22 @@ def parse_blocks(card_html):
                 'text': segment
             })
 
-        # Fusionner les segments consécutifs de même type
+        # Construire les blocs de CE part séparément
+        # (fusion uniquement à l'intérieur du même <li>/<p>, pas entre 2 parts)
+        part_blocks = []
         for seg in segments:
             lines = [l.strip() for l in seg['text'].split('\n') if l.strip()]
             if not lines:
                 continue
 
-            if blocks and blocks[-1]['type'] == seg['type']:
-                blocks[-1]['lines'].extend(lines)
+            if part_blocks and part_blocks[-1]['type'] == seg['type']:
+                part_blocks[-1]['lines'].extend(lines)
             else:
-                blocks.append({'type': seg['type'], 'lines': lines})
+                part_blocks.append({'type': seg['type'], 'lines': lines})
 
-            last_type = seg['type']
+        # Ajouter les blocs du part à la liste globale SANS fusionner
+        # avec les blocs des parts précédents
+        blocks.extend(part_blocks)
 
     return blocks, audio_present
 

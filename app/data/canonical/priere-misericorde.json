@@ -50,7 +50,12 @@
             {
               "type": "refrain",
               "lines": [
-                "kweli, kweli ¨Bwana hangelikuwako twa weza kutabika 2x",
+                "kweli, kweli ¨Bwana hangelikuwako twa weza kutabika 2x"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Ewe mutu, ewe mutu wee uje leo",
                 "utakasiwe kweli. Roho, roho mwema ee uje leo uingie nafsini e"
               ]

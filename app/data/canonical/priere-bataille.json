@@ -44,8 +44,18 @@
             {
               "type": "source_block",
               "lines": [
-                "Lango la funguliwa jehova mungu ningie ohoo lango la funguliwa jehova mungu ningie.",
-                "Lango la funguliwa yesu wa mungu niokowe ohoo lango la funguliwa yesu wa mungu niokowe.",
+                "Lango la funguliwa jehova mungu ningie ohoo lango la funguliwa jehova mungu ningie."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Lango la funguliwa yesu wa mungu niokowe ohoo lango la funguliwa yesu wa mungu niokowe."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Lango la funguliwa roho damilifu ni saidie ohoo lango la funguliwa roho damilifu ni saidie."
               ]
             }
@@ -97,7 +107,12 @@
                 "Mikaeli ee uje uniokowe vitani",
                 "Samsoni wa mungu uje uniokowe vitani",
                 "Gideoni  ¨\t¨\t¨",
-                "Nafutali  ¨\t¨\t¨",
+                "Nafutali  ¨\t¨\t¨"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "(Majeshi ya mbingu ya meinuka mbinguni)2x (Vita hivi vimeinuka duniani)2x"
               ]
             }
@@ -190,8 +205,18 @@
             {
               "type": "source_block",
               "lines": [
-                "Jehova Mungu naalika moto, Moto wa mbingu (2x). Wewe ndiye moto ulao, moto usafisha roho (2x)",
-                "Yesu wa Mungu naalika moto, Moto wa mbingu (2x). Wewe mwenye moto ulao, moto usafisha roho (2x)",
+                "Jehova Mungu naalika moto, Moto wa mbingu (2x). Wewe ndiye moto ulao, moto usafisha roho (2x)"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Yesu wa Mungu naalika moto, Moto wa mbingu (2x). Wewe mwenye moto ulao, moto usafisha roho (2x)"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Roho wa Mungu naalika moto, Moto wa mbingu (2x). timiza moto vichwani mwetu, timiza moto myoyoni mwetu(2x)"
               ]
             }

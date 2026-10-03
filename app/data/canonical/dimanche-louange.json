@@ -50,8 +50,18 @@
             {
               "type": "refrain",
               "lines": [
-                "njoni wote muone (2x) (njoni wote muone) Roho amekuja (2x) roho wa kweli, roho wa baba, roho ameshuka, wajoli njoni wote muone.",
-                "Watu wote, watu wote waishio duniani Jehova Mungu unawa rehemu, watu wote njoni mufwate neno la Mungu alie hai Roho atakuja.",
+                "njoni wote muone (2x) (njoni wote muone) Roho amekuja (2x) roho wa kweli, roho wa baba, roho ameshuka, wajoli njoni wote muone."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Watu wote, watu wote waishio duniani Jehova Mungu unawa rehemu, watu wote njoni mufwate neno la Mungu alie hai Roho atakuja."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Roho wa kweli ambao ulimwengu auwezi kumupokeya roho mwema ataakikisha maneno haya matatu"
               ]
             }
@@ -100,7 +110,12 @@
             {
               "type": "refrain",
               "lines": [
-                "Tushukuru mungu, kwa kuwa ni mwema, tushukuru mungu kwa kuwa ni mwema",
+                "Tushukuru mungu, kwa kuwa ni mwema, tushukuru mungu kwa kuwa ni mwema"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Bwana mungu katupenda kamutoa roho wake, roho wa mungu akaja kwa ku nifariji mimi roho wa",
                 "Mungu akaja kwa ku nifariji mimi, mimi huyu na shukuru mungu wangu kwa kuwa yeye ni mwema."
               ]
@@ -150,8 +165,18 @@
             {
               "type": "refrain",
               "lines": [
-                "Ah Mungu wangu yuko, nione njia ya uzima uje unishike mukononi rafiki yangu usinyache kamwe",
-                "Ah yesu wangu yuko nione njia ya uzima uje unishike mukononi rafiki yangu usiniache kamwe",
+                "Ah Mungu wangu yuko, nione njia ya uzima uje unishike mukononi rafiki yangu usinyache kamwe"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Ah yesu wangu yuko nione njia ya uzima uje unishike mukononi rafiki yangu usiniache kamwe"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Ah roho mwema yuko ¨Nani asie ona, nani asie ona ginsi nuru iangazavio\tNishangwe kubwa leo, ni shangwe kubwa leo ginsi nuru iangazavio."
               ]
             }
@@ -200,7 +225,12 @@
             {
               "type": "refrain",
               "lines": [
-                "Mfalme twakushukuru, twakushukuru , bwana twakushukuru jehova, Baba mungu alimutoa mwana wake yesu kristu aokowe watu.",
+                "Mfalme twakushukuru, twakushukuru , bwana twakushukuru jehova, Baba mungu alimutoa mwana wake yesu kristu aokowe watu."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Shetani ulipinga, neno lake mwokozi (kweli, kweli) yeye ni adui zetu, hutaka utwangamiza. Shida, shida ni nyingi sana, nyingi sana mashindano ni mengi, aleluya (kweli kweli) bwana utufariji katika mahasi zote"
               ]
             }
@@ -252,7 +282,12 @@
                 "Aleluya, aleluya (2x) yoyoyo",
                 "- aleluya Mungu Mufalme,",
                 "- aleluya Mwana wa Mungu,",
-                "- aleluya Roho Mwema wajoli twimbieni Bwana.",
+                "- aleluya Roho Mwema wajoli twimbieni Bwana."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Twaimba, twaimbia Mungu Baba, twaimbia sisi twaimbia Mungu Mufalme, wateule wa Mungu wa uzima twaimbia",
                 "Mungu Mufalme, twaimbia Yesu Mwana, twaimbia Roho Mwema"
               ]
@@ -302,12 +337,37 @@
             {
               "type": "comment",
               "lines": [
-                "Ku mawingu kwa baba",
+                "Ku mawingu kwa baba"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Kwa kupata hadi ni roho wa mufalume,",
-                "kwa leo Kwa leo ni siku ya kuketi ku ma wingu",
-                "Pokeeni upendo mukiwaonesha watu ¨Kwa leo¨kwa leo ni siku ya kuketi ku mawingu ¨2x",
-                "Acheni ulozi kwa kupata hadi, ¨Kwa leo ¨kwa leo ni siku ya kuketi ka mawingu.",
-                "Duniani mupo uwovu eh mimi sitaketi duniani kwa leo, kwa leo ni siku ya kuketi ku mawingu.",
+                "kwa leo Kwa leo ni siku ya kuketi ku ma wingu"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Pokeeni upendo mukiwaonesha watu ¨Kwa leo¨kwa leo ni siku ya kuketi ku mawingu ¨2x"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Acheni ulozi kwa kupata hadi, ¨Kwa leo ¨kwa leo ni siku ya kuketi ka mawingu."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Duniani mupo uwovu eh mimi sitaketi duniani kwa leo, kwa leo ni siku ya kuketi ku mawingu."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Nitaenda kuketi mimi na roho ya mufalume kwa leo, kwaleo ni siku ya kuketi ku mawingu."
               ]
             }
@@ -350,7 +410,12 @@
             {
               "type": "source_block",
               "lines": [
-                "Shangilieni wote ufalme wa Mungu: shangilieni wote mumbaji wa watu, baba katuma mwana ilitushangilie mungu wetu ¨2x aa ah Mungu wangu iyo iyo yowe tu mushangilie Mungu wetu, aa! iyoyo iyowe tumushangilie mara tatu.",
+                "Shangilieni wote ufalme wa Mungu: shangilieni wote mumbaji wa watu, baba katuma mwana ilitushangilie mungu wetu ¨2x aa ah Mungu wangu iyo iyo yowe tu mushangilie Mungu wetu, aa! iyoyo iyowe tumushangilie mara tatu."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Malaika wa saba musii Mungu mumushangilie Mungu wetu, Malaika za mbinguni musihi Mungu tumushangilie Mungu wetu watu wote wa duniani tumsii Mungu tumushangilie mungu wetu ah ! ah Mungu iyo iyowe tumushangilie Mungu wetu Ah! ah mara tatu."
               ]
             }
@@ -400,7 +465,12 @@
               "type": "refrain",
               "lines": [
                 "Shangwe, shangwe yowe twimbeni shangwe yowe ¨2x",
-                "- Shangwe ya mufalme kitini pa Jehova Mungu",
+                "- Shangwe ya mufalme kitini pa Jehova Mungu"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Shangwe ya mufalme mezani pa yesu bwana (mwana )",
                 "- Shangwe ya mufalme yowe mufariji wa watu roho. Jehova Mungu tunawe wana waomba roho mufariji, Mufariji wa watu roho mufariji waw ana roho"
               ]
@@ -494,7 +564,12 @@
               "type": "refrain",
               "lines": [
                 "(Fahari na iwe)2x fahari na iwe kwake, Bwana Mungu wa mbingu Mungu wa mbingu amenipa nguvu kwa mimi kushinda dunia kweli fahari na iwe kwake bwana mungu wa",
-                "uweza, Mungu wa uweza amenipa uweza kwa mimi kushinda dunia. Fahari na iwe kwake Bwana Mungu wa amri, Mungu wa amri amenipa amri kwa mimi kuhukumu shetani.",
+                "uweza, Mungu wa uweza amenipa uweza kwa mimi kushinda dunia. Fahari na iwe kwake Bwana Mungu wa amri, Mungu wa amri amenipa amri kwa mimi kuhukumu shetani."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Baba yangu na mama yangu, ndugu zangu na watoto wangu (musinikoseshe kwa mimi kwingia mbinguni)2x (mbingu humo muko fahari na salama mbinguni)2x"
               ]
             }
@@ -593,7 +668,12 @@
               "type": "refrain",
               "lines": [
                 "Sime, oni ali lalamika sana, alimulilia Mungu yoyoyo unichungie roho yangu, unichungie roho Baba yangu unichungie roho yangu yoyoyo unichungie roho mupaka siku nita muona",
-                "mwana wa mungu yoyoyo unichungie roho.",
+                "mwana wa mungu yoyoyo unichungie roho."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Simeoni alibeba yesu mikononi naye alimushukuru baba wa mbinguni aleluya furaha jua ya nyangazia macho yangu yaona yesu."
               ]
             }
@@ -642,7 +722,12 @@
             {
               "type": "refrain",
               "lines": [
-                "Enyi wajoli shukuru Mungu shukuru yesu shukuru yesu, roho ameshuka Enyi wajoli shukuru mungu Walipo keti nyumbani kwa jumla kawambia hivi chungeni wote yerusalema",
+                "Enyi wajoli shukuru Mungu shukuru yesu shukuru yesu, roho ameshuka Enyi wajoli shukuru mungu Walipo keti nyumbani kwa jumla kawambia hivi chungeni wote yerusalema"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "kawa fundisha ufalme wa mungu aliokuwa nao katika siku arubaini Walipo kuwa mu yerusalema chumbani cha juu roho akawashukia wote"
               ]
             }

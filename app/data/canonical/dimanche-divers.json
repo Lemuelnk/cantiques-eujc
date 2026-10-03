@@ -174,7 +174,12 @@
               "type": "comment",
               "lines": [
                 "- Mwanamuke mufanya kazi akamwakikisha mutu huyu alikuwa na yesu kristu",
-                "- ¨Petro akaapa ya kama mimi si mu juwi ¨2x",
+                "- ¨Petro akaapa ya kama mimi si mu juwi ¨2x"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Alipozungumuza na watu wakamwakikisha mutu huyu ni mumoja wa wenye neno usemi wake umemujulisha."
               ]
             }
@@ -223,7 +228,12 @@
             {
               "type": "refrain",
               "lines": [
-                "Tu fanye huduma za bwana kwa nguvu na kwa furaha ili tu pewe ujira kwa bwana, (ujira) ni uzima wa milele.",
+                "Tu fanye huduma za bwana kwa nguvu na kwa furaha ili tu pewe ujira kwa bwana, (ujira) ni uzima wa milele."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Sisi twajitolea kufanya huduma mpaka mwisho wa maisha yetu. Tulichaguliwa katika ulimwengu ili tuwe wafanya kazi nawe."
               ]
             }
@@ -266,10 +276,30 @@
             {
               "type": "refrain",
               "lines": [
-                "Basi nitasema nini kwa mungu wangu tamsii mumbaji wangu roho, roho shuka uduma zitimilike eh baba roho , roho shuka na mimi ni pumuzishwe.",
-                "1. Mumbaji wangu tazama wote ulionipa sikupoteza hata moja ila mwana wa kuasi.",
-                ">",
-                "2. Kumbuka taabu yangu katika huduma huu sikupenda kujinua kwajili ya jina lako (eh baba)",
+                "Basi nitasema nini kwa mungu wangu tamsii mumbaji wangu roho, roho shuka uduma zitimilike eh baba roho , roho shuka na mimi ni pumuzishwe."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Mumbaji wangu tazama wote ulionipa sikupoteza hata moja ila mwana wa kuasi."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                ">"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "2. Kumbuka taabu yangu katika huduma huu sikupenda kujinua kwajili ya jina lako (eh baba)"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "3. Babangu unitukuze kwa utukufu ni liokuwa nao hilinawe utukuzwe ndani ya awa ulionipa."
               ]
             }
@@ -529,10 +559,20 @@
             {
               "type": "source_block",
               "lines": [
-                "1. Namaswali yako wewe inakutabisha ¨2x ndugu yangu usione fahari kwa mungu wa uzima",
+                "1. Namaswali yako wewe inakutabisha ¨2x ndugu yangu usione fahari kwa mungu wa uzima"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "- Na bulozi bwako wewe, bunakutabisha",
                 "- Na kusemama kwako wewe, kunakutabisha",
-                "- Na madawa yako wewe, inakutabisha usione fahari kwa mungu wa uzima",
+                "- Na madawa yako wewe, inakutabisha usione fahari kwa mungu wa uzima"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "2. ¨Ju ya nini usione fahari ya mungu wa uzima ¨2x Wakati umetimia kwa kumuhimidi",
                 "- Tazama wafundi wangaliko,\tWakati umetimia kwa kumuhimidi",
                 "- Tazama waimbaji wangaliko,\tWakati umetimia kwa kumuhimidi",
@@ -697,12 +737,27 @@
               "lines": [
                 "Bali nyinyi mutapokea hadi amishukiapo roho mwema mwilini mwenu, kweli nyini mutakuwa washuda",
                 "wangu mu yerusalema, kweli nyini mutakuwa washuuda wangu mu yudea yote ah ah musamaria hata mipaka",
-                "ya dunia (hata mwishoni wa dunia.)",
+                "ya dunia (hata mwishoni wa dunia.)"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "2.  ¨Basi kwaleo tumesubiri roho mwema ndio hadi ya baba ¨2x",
                 "- Hadi idiayo tumesubiri roho mwema ndio hadi ya baba.",
-                "- Hadi ya mungu ¨\t¨\t¨\t¨\t¨\t¨\t¨",
+                "- Hadi ya mungu ¨\t¨\t¨\t¨\t¨\t¨\t¨"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "3. Alipo kusanika nao akawambia wote hivi mubaki mu yerusalema muongoje hadi ya baba hadi ya baba",
-                "ija yo roho mwema wa mungu.",
+                "ija yo roho mwema wa mungu."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "4. Lakini Yoane akabatiza kwa maji siku zinabaki chache mutabatiziwa wote, mutabatiziwa wote na roho mwema wa mungu."
               ]
             }
@@ -751,11 +806,36 @@
             {
               "type": "refrain",
               "lines": [
-                "Nauwa roho yangu (mimi) nauwa nafsi yangu ¨mimi nauwa mwili wangu ili nipate uzima (2x)",
-                "2. Ulichaguwa mababu ulichaguwa mitume, ¨Unichaguwe na mimi ili nipate uzima (2x)",
-                "3. Si ajabu wewe kunichagua Ewe mumba wangu Ila kwa rehema yako mimi tapata uzima (2x)",
-                "334. TWAONDOKA MULIMA WA SINAI",
-                "1. Twaondoka mulima wa sinai, sisi twaondoka mulima wa sinai (2x) Tukipanda mulima wa sayuni, sisi tukipanda mulima wa sayuni (2x)",
+                "Nauwa roho yangu (mimi) nauwa nafsi yangu ¨mimi nauwa mwili wangu ili nipate uzima (2x)"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "2. Ulichaguwa mababu ulichaguwa mitume, ¨Unichaguwe na mimi ili nipate uzima (2x)"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "3. Si ajabu wewe kunichagua Ewe mumba wangu Ila kwa rehema yako mimi tapata uzima (2x)"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "334. TWAONDOKA MULIMA WA SINAI"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Twaondoka mulima wa sinai, sisi twaondoka mulima wa sinai (2x) Tukipanda mulima wa sayuni, sisi tukipanda mulima wa sayuni (2x)"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
                 "Sayuni ¨ ¨ sayuni ¨, sayuni, sayuni tuaitaji Sayuni inchi nzuri sana ¨2x",
                 "-Kolwezi twaitaji sayuni inchi nzuri sana",
                 "-Bunkeya\t¨\t¨\t¨\t¨\t¨",
@@ -1092,7 +1172,12 @@
                 "tuzaliwe mara dufu",
                 "-Mama yangu\t¨\t¨\t¨\t¨\t¨\t¨",
                 "-Ndugu zangu\t¨\t¨\t¨\t¨\t¨\t¨",
-                "-Waminifu\t¨\t¨\t¨\t¨\t¨\t¨",
+                "-Waminifu\t¨\t¨\t¨\t¨\t¨\t¨"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "2. Kwapa , kwapa ni vibaya tazama hali ya herode , herode kahamuru hivi wakate kichwa cha yoane waja na kwenye sahani.",
                 "Herode ee , herode ee , herode , herode mutu wa bure , herode mutu muwovu , herode kahamuru hivi wakate kichwa yoane waje nacho kwenye sahani."
               ]
@@ -1144,7 +1229,12 @@
               "type": "refrain",
               "lines": [
                 "Huduma za baba zimearibika mambo ya vizazi zimeharibu huduma nayo ya macheo zimeharibu huduma, (Musa baba) musa shuka mulimani huduma zitimilike, musa shuka",
-                "mulimani na sisi tuokolewe.",
+                "mulimani na sisi tuokolewe."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "2. Safari ya kwenda kanana ili kuwa ndefu ¨Sisi atujue kama kweli tutaokolewa ¨2x Mwili mukupiganishwa roho mukupiganishwa ¨2x ¨Enyi wateule wa mungu mutuombee kwa baba ¨2x"
               ]
             }

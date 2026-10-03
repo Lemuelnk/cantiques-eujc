@@ -60,7 +60,12 @@
               "type": "refrain",
               "lines": [
                 "Eh kujizuiza, kweli kujizuiza, kujizuiza ni kuzuri wajoli mbele ya mufalme tazama Naboti muyesreeli kajizuiza kwa kuzisha shamba lake¨2x Mufalme kaja na asira kali mbele",
-                "ya mukewe kwanini moyo wako unau zuni aule chakula (moyo hufurahi ule chakula eh mufalme shamba la Naboti litakuwa lako eh mufalme)2x",
+                "ya mukewe kwanini moyo wako unau zuni aule chakula (moyo hufurahi ule chakula eh mufalme shamba la Naboti litakuwa lako eh mufalme)2x"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Yezebeli kaandika baruwa kwa muhuri wa mufalme",
                 "(mutie watu wa wili mbele ya muyezesreeli wamusingizie mambo)2x",
                 "huyu Naboti alitukana mungu na mufalme na vivio vika timia, navio vikatimia Naboti akafa kwa mawe, Naboti akafa."
@@ -331,8 +336,18 @@
               "type": "refrain",
               "lines": [
                 "Yoyoyo mateso, haya mateso moyoni mwangu (Yameniuzunisha) 2x. Ninge lifahamu mimi singe lizaliwa, ninge lifariki",
-                "tumboni mwa mamangu, ili ni sione mateso ya duniani.",
-                "2. Wakati mimi nilipo zaliwa wazazi wangu na watu wengineo (walifurahi na wakanywa pombe leo hii watu hawa wame uzunishwa)2x",
+                "tumboni mwa mamangu, ili ni sione mateso ya duniani."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "2. Wakati mimi nilipo zaliwa wazazi wangu na watu wengineo (walifurahi na wakanywa pombe leo hii watu hawa wame uzunishwa)2x"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "3. Nita laani kwa siku zile nilipo zaliwa tumboni mwa mamangu na maziwa ya mama yangu yalikuweko kwa mimi kunyonya inchini pote",
                 "kwa siku zile nilipo zaliwa."
               ]
@@ -506,9 +521,19 @@
               "type": "refrain",
               "lines": [
                 "Kujikuza kwako wewe usizarau uduma huwa bwana mu mambo mafu anasa za duniani kwa wewe mujoli mu mambo mafu hekima ya",
-                "duniani.",
+                "duniani."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "2. Yesu kamwambia Petro simoni Petro¨ rudi nyuma wewe.",
-                "kikwazo rudi nyuma wewe shetani ¨2x",
+                "kikwazo rudi nyuma wewe shetani ¨2x"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "3. Mungu wa Petro, mungu wa Yoane, Mungu wa Yakobo njoni, njoni leo, njoni kwetu mufalume wajoli njoni, njoni leo, njoni kwetu",
                 "mufalume."
               ]
@@ -562,7 +587,12 @@
                 "- Marafiki wa baya wamenishutumu Mungu wenu yuko wapi",
                 "- Majirani wa baya wamenishutumu Mungu wenu yuko wapi.",
                 "- shangazi mulozi, wamenishutumu Mungu wenu yuko wapi",
-                "- Ewe Mungu muzima, shuka leo unione",
+                "- Ewe Mungu muzima, shuka leo unione"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "2. Mungu muzima mwili umeteswa sana ¨nafsi imesongwa sana mimi ni muombe nani ¨2x",
                 "¨Ewe Mungu muzima shuka leo unione ¨2x"
               ]
@@ -613,8 +643,18 @@
               "type": "refrain",
               "lines": [
                 "Muhulaa, muhula umekuja, muhula huo umekaribia Naboti watatakuzulumu shamba lako.",
-                "¨Ah yoyowe, yoyowe machozi ya meshuka isabela amefarikisha Naboti ¨2x",
-                "2. Ahaba kamwambia Naboti nipe shamba lako liwe kama tatu langu la maboga ah.¨2x",
+                "¨Ah yoyowe, yoyowe machozi ya meshuka isabela amefarikisha Naboti ¨2x"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "2. Ahaba kamwambia Naboti nipe shamba lako liwe kama tatu langu la maboga ah.¨2x"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "3. Naboti kamwambia ahabu mungu ameni kataza kwa mimi uriti wa mababu zangu aha.¨2x"
               ]
             }
@@ -771,9 +811,19 @@
               "type": "refrain",
               "lines": [
                 "Mungu wangu unifariji katika uweza wako unifariji:",
-                "- Eh baba - Eh Mwana - Eh Roho.",
+                "- Eh baba - Eh Mwana - Eh Roho."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "2.\tMungu kwa maajabu yako Danieli pangoni mwa simba wala umizo wala mukovu haikujirika mwili mwake ila Danieli kasitawi kwa utawala wa dario na",
-                "kiro mupersi.",
+                "kiro mupersi."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "3.\tMuti murefu kajirika mulinzi toka mbinguni kahukata, muniororo ukaufunga na umande wa mbingu kaotesha.",
                 "- Mungu wa uzima tenda maajabu yoyoyo kwa walio wako",
                 "- Ata kwa sasa"

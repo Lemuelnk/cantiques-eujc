@@ -50,8 +50,18 @@
             {
               "type": "refrain",
               "lines": [
-                "Mungu unifariji ata mu mateso yangu pia ata mufuraha (eh baba) vita ijapo asubui, vita ijapo jioni ata kati ya usiku Mungu wangu niwe na uzima ¨2X",
-                "Goliati usimama unena juu ya nguvu alikuwa na mupiganisha juu ya ufalme, Daudi ka mupiga jiwe akanguka kifudifudi.",
+                "Mungu unifariji ata mu mateso yangu pia ata mufuraha (eh baba) vita ijapo asubui, vita ijapo jioni ata kati ya usiku Mungu wangu niwe na uzima ¨2X"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Goliati usimama unena juu ya nguvu alikuwa na mupiganisha juu ya ufalme, Daudi ka mupiga jiwe akanguka kifudifudi."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Daudi uko na piganishwa namna nyingi, Goliati umupiganisha, sauli umupiganisha, sauli kafurahi ju aliuwa mia za watu, Daudi ka mushinda ju aliuwa elfu za watu."
               ]
             }
@@ -94,7 +104,12 @@
             {
               "type": "source_block",
               "lines": [
-                "Ufalme wa Daudi umeingia ndani mwetu leo kwa kufanya kazi",
+                "Ufalme wa Daudi umeingia ndani mwetu leo kwa kufanya kazi"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Parapanda italia furaha na vilio wajoli twende twende mbele tusiangamie."
               ]
             },
@@ -147,7 +162,12 @@
             {
               "type": "source_block",
               "lines": [
-                "Daudi mutu wa vita (Daudi), Bwana kamupa ushindi Daudi wa kushinda Goliati. Bondeni mwa yordani wakifia ufalme.",
+                "Daudi mutu wa vita (Daudi), Bwana kamupa ushindi Daudi wa kushinda Goliati. Bondeni mwa yordani wakifia ufalme."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Ushindi wa nan iwa Daudi, wa nani wa Daudi mufalme wa kupigana vita."
               ]
             },
@@ -209,8 +229,18 @@
                 "Ila kwa jina lako baba mufalme wangu usinyache.",
                 "- Jehova Mungu baba mufalme wangu usinyache",
                 "- Ata nikipiganishwa",
-                "- Ata na walozi wote Mafalme za giza wame kusanya eh, mafalme za giza wamekusanya ila kwa jina lako baba mufalme wangu usinyache.",
-                "Wame nichimbia shimo wametandika mitego wa metafuta uzima wangu kwajili ya neno la uzima.",
+                "- Ata na walozi wote Mafalme za giza wame kusanya eh, mafalme za giza wamekusanya ila kwa jina lako baba mufalme wangu usinyache."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Wame nichimbia shimo wametandika mitego wa metafuta uzima wangu kwajili ya neno la uzima."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
                 "Ulimwokoa Abramu, ulimwokoa na Lutu, Ulimwokoa Danieli pangoni, ukamushindia Daudi 2x"
               ]
             }
