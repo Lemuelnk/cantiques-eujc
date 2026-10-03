@@ -1,12 +1,1908 @@
 {
   "schema_version": "1.0",
-  "corpus_status": "draft",
+  "corpus_status": "review",
   "taxonomy": {
-    "domain": "priere",
+    "domain": "prayer",
     "category_id": "priere-invocation",
     "category_label": "Cantiques d’invocation",
     "lesson_id": null,
     "lesson_label": null
   },
-  "hymns": []
+  "source": {
+    "file": "chant_kualika.html",
+    "extraction_file": "extraction_chant_kualika.md"
+  },
+  "hymns": [
+    {
+      "schema_version": "1.0",
+      "id": "2c36d7d3-f2c9-5d8b-8a92-4a31663b6b9a",
+      "title": "NAKUALIKA JEHOVA MUNGU WANGU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "5750dbb7-b688-52dd-9819-4e241fb9e12c",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "NAKUALIKA JEHOVA MUNGU WANGU",
+          "source": {
+            "file": "chant_kualika.html",
+            "position": 1,
+            "number": "413",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-invocation",
+            "category_label": "Cantiques d’invocation",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "(Nakualika jehova mungu wangu usiwe mbali uwenami)2x Mufalume wangu njooo maadui wamenizuru."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "(Nakualika sikia yesu mwana usiwe mbali uwenami)2x mukombozi wangu njooo maadui wa sinizuru."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "(Nakualika sikia roho mwema usiwe mbali uwenami)2x Mufariji wangu njooo maadui wa sinizuru."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "13083f10-6f5e-5555-b167-3eaf49b005bd",
+      "title": "JEHOVA MUNGU FUNGUWA MBINGU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "938cea44-5971-5161-8979-33f7792440f5",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "JEHOVA MUNGU FUNGUWA MBINGU",
+          "source": {
+            "file": "chant_kualika.html",
+            "position": 2,
+            "number": "414",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-invocation",
+            "category_label": "Cantiques d’invocation",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Jehova mungu funguwa mbingu, funguwa mbingu tuketi nawe funguwa."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Yesu wa mungu funguwa mbingu, funguwa mbingu tuketi nawe funguwa."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Roho wa kweli funguwa mbingu, funguwa mbingu tuketi nawe funguwa."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "a7c619f0-dddf-5603-84ab-f35006924cda",
+      "title": "NAWE BABA NAWE MAMA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "d7421a2c-4908-5ead-a481-719b85805b36",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "NAWE BABA NAWE MAMA",
+          "source": {
+            "file": "chant_kualika.html",
+            "position": 3,
+            "number": "3",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-invocation",
+            "category_label": "Cantiques d’invocation",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Nawe baba, nawe mama mukumbuke leo mufalme mukubwa ndie Mungu, jawabu yake ni kubwua.",
+                "- Ukiwa mulozi, ukiwa muzini ukumbuke leo mufalme mukubwa ndie Mungu, jawabu yake ni kubwa.",
+                "- Ukiwa muchawi, ukiwa na chuki ukumbuke leo mufalme mukubwa ndie mungu jawabu yake ni kubwa.",
+                "- Ukiwa muzushi, ukiwa na wivu ukumbuke leo mufalme mukubwa ndie Mungu, jawabu yake ni kubwa"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "370c1997-835e-5957-abd5-443a9a5fef95",
+      "title": "FUNGUWA MBINGU KAZI YONEKANE",
+      "status": "review",
+      "versions": [
+        {
+          "id": "eac2fbf2-f99e-5906-9126-d511bc297c49",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "FUNGUWA MBINGU KAZI YONEKANE",
+          "source": {
+            "file": "chant_kualika.html",
+            "position": 4,
+            "number": "415",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-invocation",
+            "category_label": "Cantiques d’invocation",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Funguwa mbingu, mbingu na zingine, funguwa leo kazi yonekane."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Funguwa mbingu baba Kadima wa mungu Funguwa mbingu kazi yonekane.",
+                "- Funguwa ¨ ¨ Mikaeli ¨ ¨ ¨",
+                "- Funguwa ¨ ¨",
+                "- Mu kizazi kia kwanza ¨ ¨ ¨",
+                "- Funguwa ¨ ¨",
+                "- Milemba wa mungu ¨ ¨ ¨ ¨"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "08bc3b02-73ef-5efe-a86e-f14e3f4f32c9",
+      "title": "ENYI MILANGO MILANGO ZA MBINGU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "deecb1d6-5ccb-55db-901d-83afdee69c67",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "ENYI MILANGO MILANGO ZA MBINGU",
+          "source": {
+            "file": "chant_kualika.html",
+            "position": 5,
+            "number": "416",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-invocation",
+            "category_label": "Cantiques d’invocation",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Enyi milango, milango, milango ya mbingu, milango ya mbingu, milango funguka nami niombe kwa baba."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Enyi mbingu, mbingu, mbingu ya kwanza (Mbingu funguka nami niombe kwa baba)2x"
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Enyi mbingu, mbingu ya pili",
+                "- Enyi mbingu, mbingu ya tatu",
+                "- Enyi mbingu, mbingu y aine"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "325eeaed-824c-5d12-8bf3-dd89f2637664",
+      "title": "BABA TUNANZA KAZI YAKO LEO",
+      "status": "review",
+      "versions": [
+        {
+          "id": "6f89fa85-1a40-5d27-a2fa-460398fc1463",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "BABA TUNANZA KAZI YAKO LEO",
+          "source": {
+            "file": "chant_kualika.html",
+            "position": 6,
+            "number": "438",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-invocation",
+            "category_label": "Cantiques d’invocation",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Baba tunanza kazi yako leo, bwana mungu tunanza kazi yako leo, (Utume malaika, aje kutuuchunga)2x"
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Utume malaika atupiganie vita",
+                "- Mikaeli ¨ ¨ ¨ ¨",
+                "- Samusoni ¨ ¨ ¨",
+                "- Gideoni ¨ ¨ ¨",
+                "- Nafutali ¨ ¨ ¨"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Yesu mwana tunanza kazi yako leo, mwana mungu tunanza kazi yako leo (Utume malaika aje atuchunge)2x",
+                "SOURCE_BLOCK",
+                "Roho mwema tunanza kazi yako leo, roho mwema tunanza kazi yako leo (Utume malaika aje atuchunge)2x"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "83f89bc4-8251-52ae-81f2-726d621ea1d0",
+      "title": "JEHOVA MUNGU MUNGU MUMBAJI",
+      "status": "review",
+      "versions": [
+        {
+          "id": "8b651b2e-3189-5499-ad43-b0a0be255813",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "JEHOVA MUNGU MUNGU MUMBAJI",
+          "source": {
+            "file": "chant_kualika.html",
+            "position": 7,
+            "number": "557",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-invocation",
+            "category_label": "Cantiques d’invocation",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Jehova mungu , mungu mumbaji (jehova) jehova jina lako uniongoze basi wewe tangulia mbele yangu mumbaji wangu ( mumbaji wangu ) uniongoze ( Yesu mwana ) yesu mwana , mwana wa mungu (kristu ) kristu jina lako uniongoze basi wewe tangulia mbele yangu ( mwokozi wangu uniongoze) Roho mwema , roho mwema , roho wa faraja , faraja faraja iwe kwako mufariji wangu mufariji wangu unifariji."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "97bb649b-1807-5085-80eb-88f6359bd049",
+      "title": "SISI TUPO HEMANI",
+      "status": "review",
+      "versions": [
+        {
+          "id": "4929191d-31e5-5f8b-a86f-34ffad9d5b00",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "SISI TUPO HEMANI",
+          "source": {
+            "file": "chant_kualika.html",
+            "position": 8,
+            "number": "488",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-invocation",
+            "category_label": "Cantiques d’invocation",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "¨Sisi tupo hemani karibia jehova mungu karibia ¨2x jehova mungu karibia mungu mumbaji wetu karibia jehova mungu karibia mumbaji wetu karibia."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "¨Yesu tupo hemani karibia yesu masiya karibia ¨2x yesu masiya karibia , mwana wa mungu karibia yesu masiya karibia mukombozi wetu karibia .",
+                "SOURCE_BLOCK",
+                "¨Roho tupo hemani karibia majeshi ya mbingu karibia ¨2x roho wa salama karibia , roho mufariji karibia roho wa salama karibia , mufariji wetu karibia.",
+                "SOURCE_BLOCK",
+                "¨Sisi tupo hemani karibia majeshi ya mbingu karibia ¨2x eh Mikaeli karibia eh Samsoni karibia , eh Gideoni karibia majeshi ya mbingu karibia."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "b53f2ba8-074e-5012-9e09-b5c9f2e52256",
+      "title": "WAJOLI WETU PIA NA WA MALAIKA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "73eaf8bf-544c-5e0a-84bc-485cc244d565",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "WAJOLI WETU PIA NA WA MALAIKA",
+          "source": {
+            "file": "chant_kualika.html",
+            "position": 9,
+            "number": "183",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-invocation",
+            "category_label": "Cantiques d’invocation",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Wajoli wetu pia na wa malaika twimbieni shangwe aleluya shangwe aleluya mbinguni pia na dunia."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Shangwe, shangwe yowe twimbeni shangwe yowe ¨2x -Shangwe ya mufalme kitini pa jehova mungu -Shangwe ya mufalme mezani pa yesu bwana (mwana ) -Shangwe ya mufalme yowe mufariji wa watu roho .Jehova mungu tunawe wana waomba roho mufariji, ¨Mufariji wa watu roho mufariji waw ana roho¨2x"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "8fff4c2d-34c6-52bf-a113-eeb92101ce95",
+      "title": "BWANA MUNGU, MUNGU WANGU EE MUNGU WA ULIMWENGU WOTE",
+      "status": "review",
+      "versions": [
+        {
+          "id": "1b1b5010-d831-5902-a988-0f54e967b421",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "BWANA MUNGU, MUNGU WANGU EE MUNGU WA ULIMWENGU WOTE",
+          "source": {
+            "file": "chant_kualika.html",
+            "position": 10,
+            "number": "4",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-invocation",
+            "category_label": "Cantiques d’invocation",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Bwana Mungu, Mungu wangu ee, Mungu wa ulimwengu wote 2x Mungu wa wenye uhai na wa sio huahi."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Yesu wangu, mwana wa Mungu, yesu wa ulimwe ngu wote. 2x Yesu wa wasafirio na wa sio safiri."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Roho mwema, roho wa Mungu, Roho wa ulimwengu wote. 2x Roho mufariji, Roho wa wenye magonjua na wa sio magonjua."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "7aa63a45-1e12-5ab8-b427-163ccebc783a",
+      "title": "JEHOVA MUNGU ANANENA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "ff06c859-6152-5a4b-8dfe-7a850e43f6b1",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "JEHOVA MUNGU ANANENA",
+          "source": {
+            "file": "chant_kualika.html",
+            "position": 11,
+            "number": "5",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-invocation",
+            "category_label": "Cantiques d’invocation",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Jehova Mungu ananena, ananena watu wote njoni (njoni leo) njoni, wote, njoni wote yeye anawalika."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Neno la uzima linanena (linanena) watu wote njoni (njoni leo) njoniwote, njoni wote linawalika wote."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Yesu wa Mungu ananena (ananena) watu wote njoni (njoni leo) njoni wote, njoni wote yeye anawalika."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Roho damilifu ananena (ananena) watu wote njoni (njoni leo) njoni wote, njoni wote yeye anawalika."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "d498f836-9547-549f-9507-8a22c5bbc6bf",
+      "title": "YESU UKUALIKAA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "15d0d67e-774c-55bf-a8de-7d7ca1563d12",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "YESU UKUALIKAA",
+          "source": {
+            "file": "chant_kualika.html",
+            "position": 12,
+            "number": "6",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-invocation",
+            "category_label": "Cantiques d’invocation",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Yesu ukualika njonii, yesu ukualika wewe",
+                "SOURCE_BLOCK",
+                "njonii (njoni kua yesu) njoni uchukuwe nawe nira yangu hii, (nira yangu hii) nira yani musalaba. 2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "- baba yangu",
+                "- ata ukiwa mwenye ulozi",
+                "- ata ukiwa mutenda zambi (Twimbe haleluya, haleluya)2x"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Fahari na iwe kwake Mungu wa mbingu p amani na iwe inchini"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "7efb8bea-a7a5-55d3-8190-008d4f71f422",
+      "title": "NABOTI MUYEZESREELI",
+      "status": "review",
+      "versions": [
+        {
+          "id": "85bb7f4c-eb9d-54af-abb8-4afa67adee26",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "NABOTI MUYEZESREELI",
+          "source": {
+            "file": "chant_kualika.html",
+            "position": 1,
+            "number": "173",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-invocation",
+            "category_label": "Cantiques d’invocation",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Naboti muyezesreeli alilima shamba lake (pembeni ya Ahabawa samaria ah)2x Bwana kamwandea kweli kamwambia Naboti unipe shamba lako mimi ni jifanyie maboga (ewe Naboti) 2x kujibia kwa Naboti sita kupa uriti yoyoyo wa baba zangu."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Ewe mufalme sitakupa uriti yoyoyo wa baba zangu",
+                "- Ewe mutu wa mwili"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Eh kujizuiza, kweli kujizuiza, kujizuiza ni kuzuri wajoli mbele ya mufalme tazama Naboti muyesreeli kajizuiza kwa kuzisha shamba lake¨2x Mufalme kaja na asira kali mbele ya mukewe kwanini moyo wako unau zuni aule chakula (moyo hufurahi ule chakula eh mufalme shamba la Naboti litakuwa lako eh mufalme)2x"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Yezebeli kaandika baruwa kwa muhuri wa mufalme (mutie watu wa wili mbele ya muyezesreeli wamusingizie mambo)2x huyu Naboti alitukana mungu na mufalme na vivio vika timia, navio vikatimia Naboti akafa kwa mawe, Naboti akafa."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Eyo Naboti akafa kwa mawe Naboti akafa",
+                "- Mutu wa imani chache",
+                "- Mutu wa uzima wake"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "a1d4fd86-ce9a-5a5c-9d69-0cbc4475cafc",
+      "title": "WAKAMUTUPA DANIELI PANGONI MWA SIMBA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "bf709152-2bc7-5dd1-af28-f2acab2488f7",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "WAKAMUTUPA DANIELI PANGONI MWA SIMBA",
+          "source": {
+            "file": "chant_kualika.html",
+            "position": 2,
+            "number": "161",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-invocation",
+            "category_label": "Cantiques d’invocation",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Wakamutupa Danieli pangoni mwa simba kwani alikuwa mufanya kazi wa mungu wa uzima kila siku siku zote mara tatu, chumba chake cha juu madirisha wangalia mu yerusalema."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "(Mwalimu Danieli, Danieli wewe pangoni mwa simba)2x (Basi tazama Danieli simba aikumula yoyo kwa jina la mufalme)2x Tazama kerubi, kerubi wa mufalme wa bwana kafungae simba. Ili neno la mfalme dario(Mungu wa Danieli ahimidiwe)2x akuna mungu mwingine inchini mwangu. (Wakija na jambo la duniani kwa wewe mujoli)2x basi wewe ujuwe neno la mungu unalo litakuokowa pangoni mwa simba, litakuokoa mu mambo ya dunia."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "6795a357-b80c-5652-90e0-cbf6392b5d9d",
+      "title": "DARIO MFALME",
+      "status": "review",
+      "versions": [
+        {
+          "id": "46c5dea0-23fd-512c-9ec1-ee0520fd3a0e",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "DARIO MFALME",
+          "source": {
+            "file": "chant_kualika.html",
+            "position": 3,
+            "number": "162",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-invocation",
+            "category_label": "Cantiques d’invocation",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Dario mfalme yoyoyo katuma watupe Danieli na mungu pangoni mwa simba wajoli ipate kumula Danieli akomba eh bwana kwa bwana mumbaji mwokozi wa watu tazama mateso jehova simba akanguruma ( kalia yoyoe)Danieli akaweka eh moyo wake katika mikono ya bwana mwokozi wa watu mushinda alie mwamini)2x(Jehovamfalme yoyowe)2x akatuma kerubi pangoni mwa simba kuponya Danieli mpendwa katika jaribu ( kalia yoyowe )Wajoli tufurahi yoyowe twibeni furaha kwa bwana mumbaji (mufariji) mufariji wetu mushinda ajabu sikia. Tazama mfalme dario akashududu bwanamungu wa Danieli kashinda adui mkali akamwimidi (kalia yoyowe )"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Ni husuri wapo kwa mambo mengine ya ulimwengu uniombee eh kwa jehova mungu, ùungu wa uweza katika jaribu yeye ataniponyesha ni tiliwapo pangoni mwa simba nisiwake kamwe eh niombee eh kwa jehova mungu, mungu wa uwezo yeye katika jaribu ataniponyesha. ni fiolewapo na mutu yeyote ni sikasirike eh niombee kwa jehova mungu, mungu wa uwezo katika jaribu yeye ataniponyesha."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "31251d19-adcf-566f-b554-56dc1352c0ab",
+      "title": "MATESO MAKALI YA YOBU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "ee392c20-ac66-5b5b-89f3-f4d278499bd3",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "MATESO MAKALI YA YOBU",
+          "source": {
+            "file": "chant_kualika.html",
+            "position": 4,
+            "number": "163",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-invocation",
+            "category_label": "Cantiques d’invocation",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Mateso makali ya yobu (Eh yobu hakumwacha bwana kwa kupata mateso)2x taabu nyingi kamujia wana wake wakafa eh yobu kwa kupata mateso."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Mwanadamu wewe usikufuru mungu ukipata mateso:",
+                "- Magonjua njiani usikufuru mungu ukipata mateso",
+                "- Mateso njiani Muke wa yobu kamwambia ukufuru mungu ukifwata njia za mababu utaishi nami tazama yobu akumjibu kitu kamusii mumbaji, rafiki wa tatu wa kamujia mbele ya yobu eh yobu akunena kamwe mambo yote wanenayo:",
+                "- Ya kumuhasi mungu akunena kamwe mambo yote wanenayo."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "e42a4fef-125e-5f61-b4a2-8a696cef343e",
+      "title": "SUFURIA YANGU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "be026d67-d154-5f42-a18c-14ecf32eead3",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "SUFURIA YANGU",
+          "source": {
+            "file": "chant_kualika.html",
+            "position": 5,
+            "number": "164",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-invocation",
+            "category_label": "Cantiques d’invocation",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Sufuria yangu ndani ya shamba ya bwana, mimi yobu nyalike nuhuru initenge na marafiki awa."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Pembe ine za dunianizimefungwa na pepo mbele yangu mimi yobu kweli mumbaji wangu usinyache kamwe na marafikiza dunia:",
+                "- Sitara langu usiniache kamwe na marafiki za dunia",
+                "- Mumbaji wangu",
+                "- Wewe ni ukingoni wangu Na nilipo kuwa umu shambani mwa bwana, habari nyingi zikanijia umu shambani mwa bwana mimi yobu ni kufuru mungu ni fwate njia za mababu"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "f86236a3-309d-57d6-8865-47c816317203",
+      "title": "MASWALI YOTE YA DUNIA HII",
+      "status": "review",
+      "versions": [
+        {
+          "id": "10c24df9-a526-5c33-9915-695287b43c14",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "MASWALI YOTE YA DUNIA HII",
+          "source": {
+            "file": "chant_kualika.html",
+            "position": 6,
+            "number": "165",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-invocation",
+            "category_label": "Cantiques d’invocation",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Maswali yote ya dunia hii yahukumiwa kwa matendo yao (uzuni ni nao sile wala sinywe moyoni mwangu munamo sikitiko)2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Yoyoyo mateso, haya mateso moyoni mwangu (Yameniuzunisha) 2x. Ninge lifahamu mimi singe lizaliwa, ninge lifariki tumboni mwa mamangu, ili ni sione mateso ya duniani."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Wakati mimi nilipo zaliwa wazazi wangu na watu wengineo (walifurahi na wakanywa pombe leo hii watu hawa wame uzunishwa)2x"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Nita laani kwa siku zile nilipo zaliwa tumboni mwa mamangu na maziwa ya mama yangu yalikuweko kwa mimi kunyonya inchini pote kwa siku zile nilipo zaliwa."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": true
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "94374060-1b25-5c65-a38b-4e3565098f0d",
+      "title": "KULIKUWA MUTU MUNIOFU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "f6b4bb2b-d7a7-5089-bdc3-8821055c289d",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "KULIKUWA MUTU MUNIOFU",
+          "source": {
+            "file": "chant_kualika.html",
+            "position": 7,
+            "number": "166",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-invocation",
+            "category_label": "Cantiques d’invocation",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Kulikuwa mutu muniofu alie pendwa na mungu mwenye imani nyingi jina lake ayubu katika ubishi mukali wa mungu na ibilisi ¨2x"
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Ibilisi kamwambia mungu nataka ayubu akuhache",
+                "- Ibilisi kamwambia mungu nataka ayubu akuhasi"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Eh ayubu mutu mwenye imani (ayubu eh) akumutukana mungu. Mungu kamwambia Ibilisi fanya lolote utakalo ila mimi na jua uyo awezi kuniacha, ila mimi na jua uyo awezi kuni hasi shetani kamwendea yobu na kumwambia amwabudu lakini ayubu alibaki imara mutu mwenye imani alimuogopa mungu.Mali na vifungo viake viote vikapotea¨2x ayubu aliteseka kwa kidonda vidonda, marafiki wakamcheka, familia likamupotea ¨lakini yobu kabaki imara kwa mungu ¨2x"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "b8a23891-e302-5812-8e83-af1534bdd5bb",
+      "title": "KULIKUWA RAFIKI WA TATU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "096c3eab-09ec-54f3-a3c4-90d16faeb9b1",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "KULIKUWA RAFIKI WA TATU",
+          "source": {
+            "file": "chant_kualika.html",
+            "position": 8,
+            "number": "167",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-invocation",
+            "category_label": "Cantiques d’invocation",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Kulikuwa rafiki wa tatu waliarifiwa taabu ya ayobu hqwali (yoyowe 2x yobu, yobu mwenye taabu."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Yobu mateso yobue yobu yobu mwenye taabu",
+                "- Yobu teseka"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Bildadi musui¨2x Elifasi mutemani, tazama Zofahari munamati rafiki ze yobu, yobu yobue yobu yobu mwenye taabu."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Yobu mateso yobue yobu, yobu mwenye taabu."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Muke wake kamwambia yobu ¨2x ukufuru njia ya bwana na wifwate njia za mababu yobu, yobu eh, yobu, yobu mwenye taabu."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Yobu mateso yobu eh yobu, yobu mwenye taabu."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Kuji kana ni kwema ¨2x alivio fanya yobu hawali hakwitaji wana kamwe, hakwitaji punda kamwe, akuteta bwana kamwe Yobu eh yobu, yobu mwenye taabu"
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Yobu tabika yobu eh yobu yobu mwenye taabu."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "f4352a25-61c5-5be6-8a26-3c3f16085376",
+      "title": "TUPO MIONGONI MWA YOBU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "2d65d914-4546-5737-bd8f-de6f51b14c13",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "TUPO MIONGONI MWA YOBU",
+          "source": {
+            "file": "chant_kualika.html",
+            "position": 9,
+            "number": "168",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-invocation",
+            "category_label": "Cantiques d’invocation",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Tupo miongoni mwa yobu eh yobu akwitaji mwana eh yobu akwitaji mutumishi, Ibrahimu wa mungu akwitaji mwana eh yobu akwitaji mutumishi."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Kujikuza kwako wewe usizarau uduma huwa bwana mu mambo mafu anasa za duniani kwa wewe mujoli mu mambo mafu hekima ya duniani."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Yesu kamwambia Petro simoni Petro¨ rudi nyuma wewe. kikwazo rudi nyuma wewe shetani ¨2x"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Mungu wa Petro, mungu wa Yoane, Mungu wa Yakobo njoni, njoni leo, njoni kwetu mufalume wajoli njoni, njoni leo, njoni kwetu mufalume."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": true
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "b222ede5-97af-5ce7-98f2-b38fcfaca053",
+      "title": "MIMI YOBU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "4f0117c9-b6bf-5420-a04a-5cbff0468de5",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "MIMI YOBU",
+          "source": {
+            "file": "chant_kualika.html",
+            "position": 10,
+            "number": "169",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-invocation",
+            "category_label": "Cantiques d’invocation",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "(Mimi yobu ni meteswa mwilini)2x (Ewe Mungu muzima shuka leo unione)2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Kweli wa ngombe wa menishutumu Mungu wenu yuko wapi.",
+                "- Marafiki wa baya wamenishutumu Mungu wenu yuko wapi",
+                "- Majirani wa baya wamenishutumu Mungu wenu yuko wapi.",
+                "- shangazi mulozi, wamenishutumu Mungu wenu yuko wapi",
+                "- Ewe Mungu muzima, shuka leo unione"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Mungu muzima mwili umeteswa sana ¨nafsi imesongwa sana mimi ni muombe nani ¨2x ¨Ewe Mungu muzima shuka leo unione ¨2x"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": true
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "6f394b4d-06ef-5575-a0aa-47aa4c7c08dc",
+      "title": "NABOTI ALIKUWA NA SHAMBA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "9bbe62fd-5d7d-5ad6-9469-59cd2448d73a",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "NABOTI ALIKUWA NA SHAMBA",
+          "source": {
+            "file": "chant_kualika.html",
+            "position": 11,
+            "number": "170",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-invocation",
+            "category_label": "Cantiques d’invocation",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Naboti alikuwa na shamba mizabibu kando ya nyumba ya mufalme habu mwana wa samaria ¨2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Muhulaa, muhula umekuja, muhula huo umekaribia Naboti watatakuzulumu shamba lako. ¨Ah yoyowe, yoyowe machozi ya meshuka isabela amefarikisha Naboti ¨2x"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Ahaba kamwambia Naboti nipe shamba lako liwe kama tatu langu la maboga ah.¨2x"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Naboti kamwambia ahabu mungu ameni kataza kwa mimi uriti wa mababu zangu aha.¨2x"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": true
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "d9a4c415-0980-5c24-b2f8-82a2df38559b",
+      "title": "NABOTE WAJI NE BUJIMI",
+      "status": "review",
+      "versions": [
+        {
+          "id": "027f2450-8146-53ee-9637-f0015d1af92d",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "NABOTE WAJI NE BUJIMI",
+          "source": {
+            "file": "chant_kualika.html",
+            "position": 12,
+            "number": "171",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-invocation",
+            "category_label": "Cantiques d’invocation",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Nabote waji ne bujimibwa tubipa tu cheche pabwipi ne njimbo ya mulopwe ahaba mwine samaria ah"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Kiaba kikaya (kino kiaba) ke kidi pa bwipi mwanetu ke ba kuyata bujimi bobe, yoyo yuwe yoyoya na suma impolo Yezebeli waipaija Nabote. Ahaba wasappwila Nabote umpe bujimi bobe bwikale mujitumba diami diasankusanku ¨2x Nabote wa sapwila Ahaba jehova wampeleja kwa ami kukupa kipianwa kia ba kambo bami¨2x"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "4af17e99-0be5-57b9-8a3c-40b747e179e6",
+      "title": "UNIPE SHAMBA LAKO",
+      "status": "review",
+      "versions": [
+        {
+          "id": "c172a7b4-ae43-5088-8fff-ceb67a6ae5c6",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "UNIPE SHAMBA LAKO",
+          "source": {
+            "file": "chant_kualika.html",
+            "position": 13,
+            "number": "172",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-invocation",
+            "category_label": "Cantiques d’invocation",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Unipe shamba lako nilifanye langu la maboga kwa sababu ni karibu yangu nitakupa mahali pengine. 2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Shamba langu, shamba langu mujoli sita kwachiya wewe."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "Shamba langu, shamba langu mujoli sita kwa chiya wewe",
+                "- Jiwe langu la kutukuza mungu",
+                "- Jiwe langu la kuhubiri neno"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Naboti akamujibu bwana mungu amenikataza ni sikupe hii shamba langu ni uriti wa mababu zangu¨2x Yezebeli kwa asira (kali) akachonga kwa watu wa muji na Naboti apigwe kwa mawe na Naboti akakufa¨2x Na wewe mujoli shamba lako la bei ni wapi likikuwa karibu na tiro nawe pia utakufa. ¨2x"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "19caedcb-cf17-5e93-85d4-d94c5d32987e",
+      "title": "MUNGU WA IBRAHIMU...",
+      "status": "review",
+      "versions": [
+        {
+          "id": "dfe98875-faeb-5fef-8205-5880b2136675",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "MUNGU WA IBRAHIMU...",
+          "source": {
+            "file": "chant_kualika.html",
+            "position": 14,
+            "number": "160",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-invocation",
+            "category_label": "Cantiques d’invocation",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Mungu wa Ibrahimu, Mungu Isaka, na Mungu Yakobo ulitenda mambo ya ajabu hawali kwa walio wako ulitenda mambo ya ajabu yoyoyo kwa walio wako 2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Mungu wangu unifariji katika uweza wako unifariji:",
+                "- Eh baba",
+                "- Eh Mwana",
+                "- Eh Roho."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Mungu kwa maajabu yako Danieli pangoni mwa simba wala umizo wala mukovu haikujirika mwili mwake ila Danieli kasitawi kwa utawala wa dario na kiro mupersi."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Muti murefu kajirika mulinzi toka mbinguni kahukata, muniororo ukaufunga na umande wa mbingu kaotesha.",
+                "- Mungu wa uzima tenda maajabu yoyoyo kwa walio wako",
+                "- Ata kwa sasa"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": true
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "6d880719-64b4-5d8c-bd66-ef3aa8f03a81",
+      "title": "SHAMBA LA NABOTI AHABA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "9e04d648-9bf0-5b54-8b85-99d509980657",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "SHAMBA LA NABOTI AHABA",
+          "source": {
+            "file": "chant_kualika.html",
+            "position": 15,
+            "number": "174",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-invocation",
+            "category_label": "Cantiques d’invocation",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Shamba la Naboti ahaba ameuisha nafsi yangu amepanda maboga nimefariki kwa bwana¨2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Yakini yakini imani yako ndio wa nayo ipiganisha mutu akiaribu imani yeye anabaki tuta. 2x"
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Na bakituta ya kupanda buovu imani yako ndio wanayo ipiganisha mutu akiaribu imani yeye anabaki tuta",
+                "- Na bakituta ya kupanda bulozi",
+                "- Na bakituta ya kupanda buchawi"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Shamba, shamba la Naboti yezebeli kauwisha Naboti kwajili ya shamba. Shamba, shamba la Naboti wa kamutumia yezebeli habari leo Naboti ameuwawa kwa mawe. Shamba, shamba la Naboti mujoli ficha zawabu yako utafariki damu yako mikononi mwako."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "936fa864-04ed-5b02-ab67-525474e39ea6",
+      "title": "APO MIONGONI MWA WATU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "93ddcc95-b7fe-53ba-aa39-388b8433007d",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "APO MIONGONI MWA WATU",
+          "source": {
+            "file": "chant_kualika.html",
+            "position": 1,
+            "number": "141",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-invocation",
+            "category_label": "Cantiques d’invocation",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Apo miongoni mwa watu mupo ufalme wa Mungu mupo mafalme ya watu vita kubwa ufanyika mu watu (Humo humo mupo Goliati na Daudi)2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Mungu unifariji ata mu mateso yangu pia ata mufuraha (eh baba) vita ijapo asubui, vita ijapo jioni ata kati ya usiku Mungu wangu niwe na uzima ¨2X"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Goliati usimama unena juu ya nguvu alikuwa na mupiganisha juu ya ufalme, Daudi ka mupiga jiwe akanguka kifudifudi."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Daudi uko na piganishwa namna nyingi, Goliati umupiganisha, sauli umupiganisha, sauli kafurahi ju aliuwa mia za watu, Daudi ka mushinda ju aliuwa elfu za watu."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": true
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "1ce6dd0f-dc4d-51bf-b65a-c5c08c6c67ed",
+      "title": "UFALME WA DAUDI UMEINGIA NDANI MWETU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "d6368731-246b-5f29-8121-9e055efdce45",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "UFALME WA DAUDI UMEINGIA NDANI MWETU",
+          "source": {
+            "file": "chant_kualika.html",
+            "position": 2,
+            "number": "142",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-invocation",
+            "category_label": "Cantiques d’invocation",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Ufalme wa Daudi umeingia ndani mwetu leo kwa kufanya kazi",
+                "SOURCE_BLOCK",
+                "Parapanda italia furaha na vilio wajoli twende twende mbele tusiangamie."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Mu mbingu ya baba twende, twende mbele tusiangamie",
+                "- Mu mbingu ya musa",
+                "- Mu mbingu ya Elia",
+                "SOURCE_BLOCK",
+                "Siku atakayo kuja wote bila kujuwa, siku atakayo kuja ni karibu."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Jehova mungu siku atakae kuja ni karibu",
+                "- Yesu mwana",
+                "- Roho mwema"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "4c219c09-aff2-5d05-980f-789360db3abe",
+      "title": "DAUDI MUTU WA VITA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "7b09bc55-4929-5aa2-a38b-c2de259a528c",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "DAUDI MUTU WA VITA",
+          "source": {
+            "file": "chant_kualika.html",
+            "position": 3,
+            "number": "143",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-invocation",
+            "category_label": "Cantiques d’invocation",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Daudi mutu wa vita (Daudi), Bwana kamupa ushindi Daudi wa kushinda Goliati. Bondeni mwa yordani wakifia ufalme.",
+                "SOURCE_BLOCK",
+                "Ushindi wa nan iwa Daudi, wa nani wa Daudi mufalme wa kupigana vita."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Wa kushinda madui wa Daudi, wa nani wa Daudi mfalme",
+                "SOURCE_BLOCK",
+                "Walipo kuwa mulimani Goliati kasimama, mwenye urefu wa mikono sita na nusu mukuki mkononi mwake tushuke bondeni. Daudi kaona ndani mwake mulikuwa mawe mbili akaiweka kwenye kombeo akapiga Goliati mu uso akanguka Daudi mushindi kakata kichwa akaenda nakyo yerusalema."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Kwa kuonesha ushindi kakata kichwa akaenda nakio yerusalema",
+                "- Kwa kuonesha ufalme"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "e4583a73-298f-5abb-980f-e255c5c7113b",
+      "title": "VITA NYINGI NA KALI",
+      "status": "review",
+      "versions": [
+        {
+          "id": "9ada2919-e5d7-5d72-8265-3902be9ffa9d",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "VITA NYINGI NA KALI",
+          "source": {
+            "file": "chant_kualika.html",
+            "position": 4,
+            "number": "144",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-invocation",
+            "category_label": "Cantiques d’invocation",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Vita nyingi na kali zi menijia mimi huyu ¨Jehova Mungu mufalme ujitukuze kwa mambo aya¨2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Ila kwa jina lako baba mufalme wangu usinyache.",
+                "- Jehova Mungu baba mufalme wangu usinyache",
+                "- Ata nikipiganishwa",
+                "- Ata na walozi wote Mafalme za giza wame kusanya eh, mafalme za giza wamekusanya ila kwa jina lako baba mufalme wangu usinyache."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Wame nichimbia shimo wametandika mitego wa metafuta uzima wangu kwajili ya neno la uzima."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Ulimwokoa Abramu, ulimwokoa na Lutu, Ulimwokoa Danieli pangoni, ukamushindia Daudi 2x"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": true
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "83c7ce0c-fb8c-57dc-9f2c-99d40b724ded",
+      "title": "JEHOVA MUNGU EH MUNGU WANGU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "e1d385d1-5311-59c7-82d4-11771b227433",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "JEHOVA MUNGU EH MUNGU WANGU",
+          "source": {
+            "file": "chant_kualika.html",
+            "position": 5,
+            "number": "145",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-invocation",
+            "category_label": "Cantiques d’invocation",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Jehova mungu eh mungu wangu Na kuita leo baba unirshindie vita."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Mumbaji wangu na kuita leo baba unishindie vita",
+                "- Mufalme wangu",
+                "- Tegemeo langu",
+                "SOURCE_BLOCK",
+                "Ulimuokowa Abramu, ulimuokoa na Lutu, ukamushindia Daudi unishindie vita, Na kwita yesu mwana unishindie vita"
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Kweli vita ni kali na kwita yesu mwana unishindie vita",
+                "- Vita yote ya ndani",
+                "- Vita yote ya inje",
+                "SOURCE_BLOCK",
+                "Sauli unipiganisha, Goliati unipiganisha, zige nange unipiganisha sikia roho mwema unishindie vita"
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Roho wa mitume sikia roho mwema unishindie vita",
+                "- Roho wa Kadima",
+                "- Roho wa mababu",
+                "SOURCE_BLOCK",
+                "Kweli vita ni kali vit aya pembe yote"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "67c47257-321f-571a-b639-31b17cb043b3",
+      "title": "WAISRAELI KUNYANYUWA SANDUKU YA BWANA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "86e985d1-3eae-562c-b399-70520f2cef06",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "WAISRAELI KUNYANYUWA SANDUKU YA BWANA",
+          "source": {
+            "file": "chant_kualika.html",
+            "position": 6,
+            "number": "146",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-invocation",
+            "category_label": "Cantiques d’invocation",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Waisraeli kunyanyuwa sanduku ya bwana kwa shangwe miguu sita mfalme kacheza ¨2x mfalme Daudi akafunga Efondi."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Nasi wajoli wangu tudumu katika uduma huwo tazama Delila musaliti kweli wa neno la uzima,"
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Tazama Yudas musaliti naye wa neno la uzima",
+                "- Tazama na wewe Jazareni",
+                "SOURCE_BLOCK",
+                "Basi wajoli wangu tumwimbie yoyoyo tumwimbie mufalme.¨2x Mikali katika dirisha katazama Daudi yeye kamutusi moyoni mwake kwani amejifunuwa, mufalme Daudi akuacha kuimba, mufalme Daudi akuacha kucheza. Yesu kapewa mamlaka yote (mamlaka) ya mbinguni na duniani tumwimbie yoyoyo tutukuze mfalme."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    }
+  ]
 }

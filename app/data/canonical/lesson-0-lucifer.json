@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "corpus_status": "draft",
+  "corpus_status": "review",
   "taxonomy": {
     "domain": "lessons",
     "category_id": "lesson-0",
@@ -8,5 +8,1133 @@
     "lesson_id": "lesson-0",
     "lesson_label": "Leçon 0 — Lucifer"
   },
-  "hymns": []
+  "source": {
+    "file": "chants_de_lucifer.html",
+    "extraction_file": "extraction_chants_de_lucifer.md"
+  },
+  "hymns": [
+    {
+      "schema_version": "1.0",
+      "id": "00ea7647-109a-51bd-9f7d-f4681de39d9b",
+      "title": "ULIKUWA WEWE",
+      "status": "review",
+      "versions": [
+        {
+          "id": "40016c31-acf0-5058-85fe-b54e8ef25cc8",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "ULIKUWA WEWE",
+          "source": {
+            "file": "chants_de_lucifer.html",
+            "position": 1,
+            "number": "10",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-0",
+            "category_label": "Lucifer",
+            "lesson_id": "lesson-0",
+            "lesson_label": "Leçon 0 — Lucifer"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Ulikuwa (wewe) 2x katika edeni shamba la Mungu kerubi lenye kungaa, Lucifero ulipendwa na Bwana Mumba wako kakuvika mawe ya bei lulu ya damani."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Lusifero kwa wingi wa uchuruzi ulitengwa mbali na Mungu wa uzima.",
+                "- ulipo jitukuza",
+                "- ulipo jinyanyuwa karibieni mumbaji toka mu mambo ya watu 2x"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Uliponena moyoni mwako Lusifero nitapaa juu mbinguni kuliko nyota za Bwana, kuliko mulima wake takuwa juu."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Apo, apo, vita mbinguni Mikaeli na yule joka, shetani katupua chini na jeshi lake lote, Diabolo katupua chini na jeshi lake lote mukia ukakokota sehemu moja ku tatu ya nyota za mbingu furahini mbingu ole wako dunia."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "a6e022d4-fb08-5db6-b287-fcf0592d1f73",
+      "title": "KWANGUKA KWA JOKA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "42ff5a55-dd66-5eb9-9ef1-4ab6d6cc33a0",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "KWANGUKA KWA JOKA",
+          "source": {
+            "file": "chants_de_lucifer.html",
+            "position": 2,
+            "number": "11",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-0",
+            "category_label": "Lucifer",
+            "lesson_id": "lesson-0",
+            "lesson_label": "Leçon 0 — Lucifer"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Njoni kwa yesu mimi nawe njia tuonya hatuijui juwa jioni na mwenyezi Mungu na tu mu sii njo."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "(Wajoli twimbe na faraha) na furaha tutaiona (tutaiona)mioyoi ikitakaswa sana (kwake)kwake mwokozi kuonana(kuonana) na milele kukaa."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Wana na wazee watwambia furahaini mukisikia (wajoli) ndie Mufalme wetu pia natumusii njo."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Tumukaribie eh sisi zote Yesu Bwana utualika tumupingapo nimuoti na tumusii njo"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "05c2f056-e899-5849-82c0-23973d1f6fad",
+      "title": "FURAHA MBINGUNI",
+      "status": "review",
+      "versions": [
+        {
+          "id": "695643c5-a6c5-58f7-b905-0a0efc28d084",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "FURAHA MBINGUNI",
+          "source": {
+            "file": "chants_de_lucifer.html",
+            "position": 3,
+            "number": "12",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-0",
+            "category_label": "Lucifer",
+            "lesson_id": "lesson-0",
+            "lesson_label": "Leçon 0 — Lucifer"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Fuhara mbinguni ametupwa yule joka, (ole wako duniani mchongezi ameshushwa)2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Twimbe wokovu kwa bwana Mungu yeye anaeketi juu ya kiti cha enzi mwana kondoo wa Mungu, juu ya kiti cha enzi mwana kondoo wa Baba."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Joka kufika duniani kaharibu mambo yote harzi ku laaniwa na watu wakatabishwa. Kweli rehema yake Mungu kakumbuka israeli (Kwa neno hili la rohoni watu wakaokolewa)2x"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "b5fb5909-d76e-5767-a993-5f66ffb325d0",
+      "title": "EWE MALAIKA WA NURU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "cb054ea1-7079-562f-99f8-6c147a210d90",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "EWE MALAIKA WA NURU",
+          "source": {
+            "file": "chants_de_lucifer.html",
+            "position": 4,
+            "number": "9",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-0",
+            "category_label": "Lucifer",
+            "lesson_id": "lesson-0",
+            "lesson_label": "Leçon 0 — Lucifer"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Ewe malaika wa nuru, ewe nyota alfajiri lusifero ulipendwa sana kuko Bwana Mumba wako Akakuvika mawe ya bei lulu ya damani kubwa 2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Uchuruzi wako ulikujaza uzalimu toka katikati ya mawe ya moto wewe ulitenda zambi, lucifero ulinena kwamba nitapaa juu mbinguni kuliko mulima wa Mungu, lucifero ulinena kwamba nitapaa juu mbinguni kuliko nyota za Bwana."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Mawe ya bei lusifero uliyo vikua tazama, yakiki nyekundu, yakuti ya manjano, ulivikua na alimasi, zabarajadi, zumaridi na ya aspi, baharamani, shoamu na zahabu."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Vita kutoka mbinguni Mikaeli na jeshi lake kupigana na yule shetani na kundi lake lote Diabolo akatupwa chini na kundi lake lote, furahini ninyi mbingu pia na malaika wote ole wenu duniani na waishio ndani ya bahari, furahini ninyi watu waishimo mu neno la mungu."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": true
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "06d0d89e-1f32-5dd9-a4bf-a6079e1bbb8b",
+      "title": "NILIONA ALAMA KUBWA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "6580003c-a809-59c7-9ee0-827f16ad9d0d",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "NILIONA ALAMA KUBWA",
+          "source": {
+            "file": "chants_de_lucifer.html",
+            "position": 5,
+            "number": "13",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-0",
+            "category_label": "Lucifer",
+            "lesson_id": "lesson-0",
+            "lesson_label": "Leçon 0 — Lucifer"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Niliona alama kubwa kutoka mbinguni (kutoka mbinguni) Mwanamuke aliye vikwa juwa, mwezi na nyota tenashara kichuani mwake. Natena alama nyingine kajirika joka mukubwa mwekundu na vichwa saba na pembe kumi kasimama mbele yake."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Eh wajoli wangu tujiazari, Joka yule amekwisha simama kwa kuharibu kazi.",
+                "- Ni miongoni mwetu tujizari",
+                "- Ni pamoja nasi tujiazari"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Wewe ni muke yule umekuisha pewa hekima ya mbingu. Mwana ni roho wa Kristo ni karibu sasa kushuka kwetu(Ona sasa huaribifu huwo)",
+                "- Mambo ya vizazi inaanza tena",
+                "- Mukufuru Twende wapi na neno hiyo Wakristo nao awaambatane Waminifu nao awaambatane"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "a8d2568c-019c-5cd9-9ed7-0fc343e7b3b2",
+      "title": "VITA VIKALI UJIRIKA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "12f739ff-4482-5d07-96b4-448c2582a52c",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "VITA VIKALI UJIRIKA",
+          "source": {
+            "file": "chants_de_lucifer.html",
+            "position": 6,
+            "number": "14",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-0",
+            "category_label": "Lucifer",
+            "lesson_id": "lesson-0",
+            "lesson_label": "Leçon 0 — Lucifer"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "(Vita vikali ujirika mbinguni mwa Mungu) 2x (Mikaeli wa Mungu kamushinda shetani) 2x mbinguni muna furaha, dunia muna mateso.",
+                "- Kwani shetani yeye yule ametupwa chini.",
+                "- Kwani shetani yeye yule joka ametupwa chini."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "(Shetani ametupwa chini) 2x Yuna nahasira kali utafuta ufariki na nani kwani shetani, shetani yeye ametupwa chini."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Tuondokeni wote duniani muna mateso, tukae mbinguni muna furaha kwani shetani yeye shetani yeye ametupwa chini, kwani shetani yeye yule joka ametupwa chini."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Furahini wote mwishio mbinguni mwa Mungu laana ni kwao waketi wa duniani kwani shetani yeye shetani ametupwa chini, kwani shetani yeye yule joka ametupwa chini."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "9ee18313-56b5-539c-81d6-a3709f3eb41e",
+      "title": "UO NI UJUMBE",
+      "status": "review",
+      "versions": [
+        {
+          "id": "08eab93d-4589-5aea-a283-5de7fab57bd0",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "UO NI UJUMBE",
+          "source": {
+            "file": "chants_de_lucifer.html",
+            "position": 7,
+            "number": "15",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-0",
+            "category_label": "Lucifer",
+            "lesson_id": "lesson-0",
+            "lesson_label": "Leçon 0 — Lucifer"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Uo ni ujumbe utoka0 juu mbinguni kwa kuonyesha ya kama huduma zilizokuwa tanguawale zimetimilika kwahadi ya uweza wake mungu.",
+                "- Ujumbe kutoka mbinguni",
+                "- Ulishuka kutoka kwa baba",
+                "- ahadi ya Baba ya roho mwema"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "(wajoli) tuhutubu, tu hutubu tuhutubu kwa roho inayo ishi ndani mwetu apa sasa kwa uzima unayo shuka ndani mwetu kwa wakati wa mihula iyo."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Tukienenda katika huduma huo nasi tuwe na joka mukubwa hili tushinde yule aliyeshushwa alitupwa na Mikaeli wa Mufalme.",
+                "- Alieitwa Diabolo Shetani",
+                "- Ibilisi joka wa mapembe",
+                "- Alidanganya dunia muzima."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Sasa wokovu umeonekana katika mipaka yoteya, sayuni na yerusalema katika malisho ya ngombe zinazo geuzwa kuwa kondoo tushikamane tu sije (tuka jaribie uduma wetu bora)2x",
+                "- Kwa ulozi",
+                "- Kwa madawa",
+                "- Kwa uzini",
+                "- Kiburi"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "5ba05112-74f7-5284-90e7-ec06c68b5273",
+      "title": "OLE DUNIA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "567d34b9-36b2-5a6f-9b34-31bba8098e66",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "OLE DUNIA",
+          "source": {
+            "file": "chants_de_lucifer.html",
+            "position": 8,
+            "number": "16",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-0",
+            "category_label": "Lucifer",
+            "lesson_id": "lesson-0",
+            "lesson_label": "Leçon 0 — Lucifer"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "(Ole dunia makao ya yule shetani) 2x (Dunia ya ziki na mambo mimi sita ishi dunia) 2x ."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "- Niwe na bawa, dunia maombolezo sitaishi dunia",
+                "- Ni ruke kama ndeke...",
+                "- Ni kamwone baba...",
+                "- Baba wa mbinguni...",
+                "- Baba wa salama...",
+                "- Ni miongoni mwetu tujizari...",
+                "- Ni pamoja nasi tujiazari"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Ni kitazama huko dunia mimi si oni salama mateso na vilio yoyo mimi sitaishi dunia.(Mimi) sitaketi dunia mimi dunia ya wenye mateso mimi taketi ¨mbinguni¨ mbinguni ya wenye furaha wenye fuhari wenye uzima yoyoyo sitaishi dunia.Ukipenda kuona baba wewe achana na dunia¨2x mateso na vilio yoyo mimi sitaishi dunia."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": true
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "90981922-d828-5973-a37a-bdc57cc76ed0",
+      "title": "MUFALME WETU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "a4875277-675b-5095-b21f-d5b461c59f50",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "MUFALME WETU",
+          "source": {
+            "file": "chants_de_lucifer.html",
+            "position": 9,
+            "number": "18",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-0",
+            "category_label": "Lucifer",
+            "lesson_id": "lesson-0",
+            "lesson_label": "Leçon 0 — Lucifer"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "( Mufalme wetu) 2x mufalme wetu mushindi (Mufalme wetu) mufalme wetu mushindi apa duniani."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "(Twimbeni )2x twimbieni eh shangwe alelua mikaeli kamutoa shetani mbinguni kamushusha adeze. Ole bahari na dunia furahini nyinyi mbinguni kamutoa shetani mbinguni kamushusha adezi."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "(Mufalme Yesu, Mufalme Yesu, Mufalme Yesu mushindi) 2x (mufalme yesu ) mufalme yesu mushindi apa duniani. Mufalme roho, mufalme roho, mufalme roho mushindi )2x ( mufalme roho) mufalme roho mushindi apa duniani)."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "358001d2-46e5-5c6a-82bd-4792f7de7d25",
+      "title": "MIKAELI WA MUNGU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "467ff8cb-5629-5b40-97ab-8b34f58ed1d6",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "MIKAELI WA MUNGU",
+          "source": {
+            "file": "chants_de_lucifer.html",
+            "position": 10,
+            "number": "17",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-0",
+            "category_label": "Lucifer",
+            "lesson_id": "lesson-0",
+            "lesson_label": "Leçon 0 — Lucifer"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "(Mikael iwa Mungu ameshuka kwa vita)2x (Enyi wana wa mungu amkeni mukuwe tayari)2x."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "(Kwa kushinda shetani chukuweni sila zenu)2x (Enyi wana wa Mungu amkeni mukuwe tayari)2x"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "(Roho wa mungu ameshuka kwa kazi) 2x (Enyi wana wa Mungu amkeni mukuwe tayari. Mataifa yote wa mesimama leo) 2x (Enyi wana wa mungu amukeni mukuwe tayari)2x."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "87f37896-c0aa-5cde-9ac6-22d845992f83",
+      "title": "SHETANI MWANA WA GIZA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "2730a4d8-da41-5cd4-b9a3-b43c6a44de50",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "SHETANI MWANA WA GIZA",
+          "source": {
+            "file": "chants_de_lucifer.html",
+            "position": 11,
+            "number": "19",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-0",
+            "category_label": "Lucifer",
+            "lesson_id": "lesson-0",
+            "lesson_label": "Leçon 0 — Lucifer"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Shetani mwana wa giza ampinga mwana wa nuru (si yeye bwana wa rehema aumbae vitu hivi) 2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "(tumushinde shetani) 2x (sisi tu wana wa nuru) 2x tumushinde shetani Mungu ni mutawa wa viote."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Nimetia nguvu zangu kwa walio wa haya waasubui wa mushinde shetani hata katika giza."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "96a0d707-072b-54d9-a1ba-098e14a090a5",
+      "title": "WALOZI KAMA WA MESIMAMA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "216c1293-9a1e-573f-acc4-681798ba7708",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "WALOZI KAMA WA MESIMAMA",
+          "source": {
+            "file": "chants_de_lucifer.html",
+            "position": 12,
+            "number": "20",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-0",
+            "category_label": "Lucifer",
+            "lesson_id": "lesson-0",
+            "lesson_label": "Leçon 0 — Lucifer"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Walozi kama wa mesimama kufwatana na yule shetani alietupwa na ufahamu mwingi ili kwa kwaribu huduma."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Kweli kweli ole wako shetani umelaniwa dunia umepewa laana ole wako mulozi."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Nani atakae simama wakati wa Mikaeli kuja, nani atakae simama wakati wa Anaeli kuja walozi wote wamejuwa asira yake Jehova Mungu."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "04329fdd-31b8-5aff-b2d1-9a54672801dd",
+      "title": "MAPAMBANO YA VITA ILI KUWA KU MBINGU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "2e0148c5-6b40-56aa-9900-38a4bf54721f",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "MAPAMBANO YA VITA ILI KUWA KU MBINGU",
+          "source": {
+            "file": "chants_de_lucifer.html",
+            "position": 13,
+            "number": "24",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-0",
+            "category_label": "Lucifer",
+            "lesson_id": "lesson-0",
+            "lesson_label": "Leçon 0 — Lucifer"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "(Mapambano ya vita ilikuwa ku mbingu akatupwa chini yule joka na jeshi lake haaribu ulimwengu)2x"
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "Ulimwengu wa taabu, akatupwa chini yule joka na jeshi lake haaribu ulimwengu Ziki"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Bwana mungu akanena eh baba, eh baba Yoyoyo ni chaguwe bwana mumbaji wangu mimi ni taenda kweli kuokoa ulimwengu.",
+                "- Ulimwengu wa taabu: Ni chaguwe bwana mumbaji wangu mimi ni taenda kweli kuokowa ulimwengu",
+                "- Ulimwengu wa ziki: Ni chaguwe bwana mumbaji wangu mimi ni taenda kweli kuokowa ulimwengu."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Vita ikazidi ee)2x jehova mungu kauliza malaika nani ataenda kweli kuokowa ulimwengu.",
+                "- ulimwengu wa ziki: nani ataenda kweli kuokowa ulimwengu.",
+                "SOURCE_BLOCK",
+                "Kimia ikazidi ee mwana akanena ya kwamba mimi nitaenda kweli kuokoa ulimwengu:",
+                "- Ulimwengu wa taabu: Mwana Mungu akanena kwamba mimi nitaenda kweli kuokoa ulimwenngu",
+                "- Ulimwengu wa ziki: Mwana Mungu akanena kwamba mimi nitaenda kweli kuokoa ulimwenngu"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "38370e5f-892f-5ae8-b7a3-29d1c3f17082",
+      "title": "WANDUKU MUJIAZARINI NA MAMBO YA DUNIA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "31acbb2f-49de-57e1-862f-0ad7e49beabd",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "WANDUKU MUJIAZARINI NA MAMBO YA DUNIA",
+          "source": {
+            "file": "chants_de_lucifer.html",
+            "position": 14,
+            "number": "22",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-0",
+            "category_label": "Lucifer",
+            "lesson_id": "lesson-0",
+            "lesson_label": "Leçon 0 — Lucifer"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Wandugu mujiazarini na mambo ya dunia, shetani ametupwa chini na utukufu wake, yule joka shetani ametupwa chini na utukufu wake."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Alikuwa malaika wa nuru sasa amekuwa joka mu dunia kwa kwaribu wana wa mungu na ku wa shusha hadeze ( yule joka ) kwa ku haribu wana wa mungu na kuwa shusha hadeze."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "Wajoli wangu jazarini yoyoyo na Ibilisi nyoka wa zamani.",
+                "- Hata ku masemi yake: mujazareni yoyoyo na Ibilisi nyoka wa zamani",
+                "- Hata mafundisho yake: mujazareni yoyoyo na Ibilisi nyoka wa zamani"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Shetani ujulikana apingae kazi ya Mungu, shetani ujulikana kwa kauli zake (Mungu naye ) Mungu naye ujulikana kwa kauli zake 2x."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Maandiko unena kwamba tangu mwanzo ndani yake hamu kuwapo haki ya Mungu ni udanganyifu na mambo ya watu."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "d8710818-7658-538a-ae42-beb314c47efd",
+      "title": "WALOZI KAMA WA MESIMAMA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "25674c90-6dc2-5b5d-98e3-a1b474e21e5f",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "WALOZI KAMA WA MESIMAMA",
+          "source": {
+            "file": "chants_de_lucifer.html",
+            "position": 15,
+            "number": "23",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-0",
+            "category_label": "Lucifer",
+            "lesson_id": "lesson-0",
+            "lesson_label": "Leçon 0 — Lucifer"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Walozi kama wa mesimama kufwatana na yule shetani alietupwa na ufahamu mwingi ili kwa kwaribu huduma."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Tenda majabu yako eh baba, tenda eh Mungu"
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "Walozi wa kuogope: tenda eh baba tenda eh mungu",
+                "- dunia ikwabudu",
+                "- Sisi zote tukusifu."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Lucifero alikuwa malaika wa Mungu Baba (Alietupwa toka juu mbinguni kwajili ya ubaya wake)2x",
+                "(Mikaeli mwenye nguvu akamutupa Diabolo chini)2x Mikaeli uweza, Mikaeli mwenye ushindi¨2x"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "12863413-9ed2-5873-a3c2-dd8c9acf7b98",
+      "title": "TUDUMU DAIMA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "31e83d0a-3587-5b63-9994-affeb158c2bf",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "TUDUMU DAIMA",
+          "source": {
+            "file": "chants_de_lucifer.html",
+            "position": 16,
+            "number": "21",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-0",
+            "category_label": "Lucifer",
+            "lesson_id": "lesson-0",
+            "lesson_label": "Leçon 0 — Lucifer"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Tudumu daima katika njia ya bwana tudumu daima katika uduma huo tushindane naye shetani yule Ibilisi."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Ole wako shetani, ole wako wewe usie timiza uduma, heri mutu , heri mutu yule anaye timiza huduma."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Ole wako mulozi",
+                "- Ole wako kahaba"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Kwa siku za mwisho, kwa siku za mwisho itakuwa ni kilio kubwa na maombolezo kwa wasio timiza huduma.Kwa siku za bwana, kwa siku za bwana itakuwa ni furaha kubwa na kushangilia kwa wanao timiza huduma."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": true
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "50821099-7cbc-53f2-b093-f2fb7dd9f711",
+      "title": "SHETANI MWANA WA GIZA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "e13eea4b-dda4-5001-bcd9-87a8388853f6",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "SHETANI MWANA WA GIZA",
+          "source": {
+            "file": "chants_de_lucifer.html",
+            "position": 17,
+            "number": "19",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-0",
+            "category_label": "Lucifer",
+            "lesson_id": "lesson-0",
+            "lesson_label": "Leçon 0 — Lucifer"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Shetani mwana wa giza ampinga mwana wa nuru (si yeye bwana wa rehema aumbae vitu hivi) 2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "(tumushinde shetani) 2x (sisi tu wana wa nuru) 2x tumushinde shetani Mungu ni mutawa wa viote."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Nimetia nguvu zangu kwa walio wa haya wa asubui wa mushinde shetani hata katika giza."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "b9db035c-6d36-5bbc-9d6f-780cd5ae8ed0",
+      "title": "WALOZI KAMA WA MESIMAMA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "6d911e2a-6e9a-50a7-8375-edf8576be221",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "WALOZI KAMA WA MESIMAMA",
+          "source": {
+            "file": "chants_de_lucifer.html",
+            "position": 18,
+            "number": "20",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-0",
+            "category_label": "Lucifer",
+            "lesson_id": "lesson-0",
+            "lesson_label": "Leçon 0 — Lucifer"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Walozi kama wa mesimama kufwatana na yule shetani alietupwa na ufahamu mwingi ili kwa kwaribu huduma."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Kweli kweli ole wako shetani umelaniwa dunia umepewa laana ole wako mulozi."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Nani atakae simama wakati wa Mikaeli kuja, nani atakae simama wakati wa Anaeli kuja walozi wote wamejuwa asira yake Jehova Mungu."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "f644a17f-0701-51c5-a16b-d5742aba4ea2",
+      "title": "SHETANI MWANA WA GIZA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "9af5309b-0e8c-5d20-882a-674edbdc7e82",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "SHETANI MWANA WA GIZA",
+          "source": {
+            "file": "chants_de_lucifer.html",
+            "position": 19,
+            "number": "9",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-0",
+            "category_label": "Lucifer",
+            "lesson_id": "lesson-0",
+            "lesson_label": "Leçon 0 — Lucifer"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Shetani mwana wa giza ampinga mwana wa nuru si yeye bwana wa rehema aumbae vitu hivi 2x."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "tumushinde shetani 2x, sisi tu wana wa nuru 2x, tumushinde shetani, Mungu ni mutawa wa viote."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Nimetia nguvu zangu kwa walio wa haya wa asubui wa mushinde shetani hata katika giza."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    }
+  ]
 }

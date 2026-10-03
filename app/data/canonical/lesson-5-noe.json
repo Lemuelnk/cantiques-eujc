@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "corpus_status": "draft",
+  "corpus_status": "review",
   "taxonomy": {
     "domain": "lessons",
     "category_id": "lesson-5",
@@ -8,5 +8,814 @@
     "lesson_id": "lesson-5",
     "lesson_label": "Leçon 5 — NOÉ"
   },
-  "hymns": []
+  "source": {
+    "file": "chant_de_noe.html",
+    "extraction_file": "extraction_chant_de_noe.md"
+  },
+  "hymns": [
+    {
+      "schema_version": "1.0",
+      "id": "ca35e68f-845a-55e2-9171-ac087cdfe0d0",
+      "title": "UWOVU ULIKUWA DUNIANI",
+      "status": "review",
+      "versions": [
+        {
+          "id": "48b8697f-f9d5-5740-bbcd-8882cc954500",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "UWOVU ULIKUWA DUNIANI",
+          "source": {
+            "file": "chant_de_noe.html",
+            "position": 1,
+            "number": "57",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-5",
+            "category_label": "NOÉ",
+            "lesson_id": "lesson-5",
+            "lesson_label": "Leçon 5 — NOÉ"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Uwovu ulikuwa duniani, (Mafikili ya watu ya karibika noa jenga safina)2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Garika ku mbingu Eh noa uwaingize safinani viumbe viote vikaribika noa jenga safina.",
+                "Muhubiri wa neno: Eh noa uwaingize safinani viumbe viote vigarigika noa jenga safinani"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Safina ikaendelea juu ya uso wa maji (ikashinda milima yote garika ika koma) 2x Noa toa kunguru atoke akajaribu kazi yake akikula vitumba njiwa afwate akatimize uduma.",
+                "- Wa katolika",
+                "- Wa kiabudu sanamu"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "6a8ea119-43ab-548f-af0c-620817297ab1",
+      "title": "TSHIKONDOA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "09299e11-4383-5732-81da-ddb6dd3db25c",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "TSHIKONDOA",
+          "source": {
+            "file": "chant_de_noe.html",
+            "position": 2,
+            "number": "58",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-5",
+            "category_label": "NOÉ",
+            "lesson_id": "lesson-5",
+            "lesson_label": "Leçon 5 — NOÉ"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Tshikondo tshakale na kadji mu midima (Lelu munya wa kulwa kudji mutu yonso) 2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Eh Noa noa enza bwaato nyama ne nyuni ne bintu bionso biakabwela, biakabwela, biakabwela mu bwato.",
+                "- Ne bintu bionso: (biakabwela) 2x mu bwato",
+                "- Mbuji ne ngombe: (biakabwela) 2x mu bwato"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Nzambi kamwambila noa wakusonga mema (wa mbweja nyama ne mbitu bionso bidji nabio) 2x"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Nyimbilangani musambu bwadjisanka djidji naji nyoka ne ngandu mbuji ne ngomba bwapetshi moyo."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "e5fd8b61-a911-5ed1-8116-b31cf08d92a3",
+      "title": "LESA AMWEBELE NOA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "89e9e8f9-4c86-5f3e-8a9c-0bdc0f2744b7",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "LESA AMWEBELE NOA",
+          "source": {
+            "file": "chant_de_noe.html",
+            "position": 3,
+            "number": "63",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-5",
+            "category_label": "NOÉ",
+            "lesson_id": "lesson-5",
+            "lesson_label": "Leçon 5 — NOÉ"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "(Lesa amwebele noa ukubasa bwato) 2x iwe noa alo mwacilo ububi ndepaya bantu."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "(Noa anina mu bwato angila eh noa apususha bana) 2x Sehemu, Hamu, Yafeti baingila eh noa apususha bana.",
+                "- Muila baba kashi: baingila eh noa apususha",
+                "- Bantu kufupula noa Bana"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Baingile banse mu bwato finama ne fioni 2x (banesu) infula ya tampo kuloka, bushiku na kasuba"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "66e0c715-ac2c-5d50-b65e-05b678d83d6b",
+      "title": "TUMEKWISHA DUMU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "54c9879d-c1c2-5740-b355-325a4e3f0068",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "TUMEKWISHA DUMU",
+          "source": {
+            "file": "chant_de_noe.html",
+            "position": 4,
+            "number": "60",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-5",
+            "category_label": "NOÉ",
+            "lesson_id": "lesson-5",
+            "lesson_label": "Leçon 5 — NOÉ"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Tumekwisha dumu sisi katika giza (Leo nuru imeangaa mioyoni mwa watu) 2x Jehova mungu akatuma mutu mwema noa dunia imearibika ni taharibu inchi eh we noa jenga safina tangamiza watu."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Kwa leo ni fanye chombo ni hubiri neno kwa lugha zote kwa kila nyumba kwa kila mutu duniani pote."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Alipo kuwa Musa katika misri, mungu akatuma Musa kwa Farao kachukuwe israeli ende noa mujangwani kachukuwe watu wangu ende noa mujangwani."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Alipo shindwa musa katika jangwa, Yoshua, wana wa nuni kainuliwa kachukuwe watu wangu ende noa mu kanana kachukue israeli ende noa mukanana."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "a1a0a24f-bb0c-588a-886f-bd56d56ec2c7",
+      "title": "MUFALUME WANGU ZAWABU NI KUBWA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "77fcdd09-3058-59a0-a71d-295a7f8a82a9",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "MUFALUME WANGU ZAWABU NI KUBWA",
+          "source": {
+            "file": "chant_de_noe.html",
+            "position": 5,
+            "number": "61",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-5",
+            "category_label": "NOÉ",
+            "lesson_id": "lesson-5",
+            "lesson_label": "Leçon 5 — NOÉ"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Mufalume wangu zawabu ni kubwa, sita weza kuliimiliki (ah ah) neno la haki huku wajali wenye hekima ukawapa watoto wa changa.",
+                "SOURCE_BLOCK",
+                "(Neno lako) neno lako la wokovu mupenzi la dumu ata leo ni mbele yake hawai yeyote atakae amini (Yupi atakae nena mimi sikulisikia neno, neno hili neno la wokovu) 2x"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Zamani za nuhu watu walifanya anasa hawa kumutegemea mungu nayo mvua ikanyesha watu wakamutafuta bwana na kazalika hakuwasikia."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Zamani za lutu watu walifanya ginsi vitendekavio ata leo wanadamu walipinga kusikia maagizo ya bwana akawateketeza kwa moto."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "3da36c69-d46b-5f0e-82b7-c5b69ab2bf95",
+      "title": "BWANA KANYOSHA UPINDE MBINGUNI",
+      "status": "review",
+      "versions": [
+        {
+          "id": "a60a814b-9a84-5570-94e4-98b069e5fbea",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "BWANA KANYOSHA UPINDE MBINGUNI",
+          "source": {
+            "file": "chant_de_noe.html",
+            "position": 6,
+            "number": "65",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-5",
+            "category_label": "NOÉ",
+            "lesson_id": "lesson-5",
+            "lesson_label": "Leçon 5 — NOÉ"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Bwana kanyosha upinde mbinguni mvua zote zikakoma (Upepo kondoa maji dunia safina ikasimama mulimani hararati.) 2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Noa katoa, noa katoa zabihu za shukurani",
+                "- Akatowa na ndeke za shukurani",
+                "- Akatowa vyote via shukurani"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Noa katuma kunguru katazame inchi kama ya me kwisha kweli, aah kunguru kazunguuka kakula vitumba"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Noa akatuma njiwa akenda akirudi na majani ya mizetuni.",
+                "- Kwa kuakikisha neno",
+                "- Kwa kuakikisha kazi",
+                "- Kwa kuakikisha vyote."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Bwana kaondoa mulango viumbe viote vikatoka safina vikaenda zao Noa katika inchini akawa eh noa mulimaji mizabibu.",
+                "- Noa kakunywa muvinyo",
+                "- Noa kabaki utupu",
+                "- Noa akafunuliwa",
+                "- Noa katika inchini"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "37525f7c-add2-5992-b46f-fb16c58bfa99",
+      "title": "MUNGU KAMWAMBIA NOA JENGA SAFINA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "cfed3212-e968-54be-b12e-94e4c5a8e496",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "MUNGU KAMWAMBIA NOA JENGA SAFINA",
+          "source": {
+            "file": "chant_de_noe.html",
+            "position": 7,
+            "number": "62",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-5",
+            "category_label": "NOÉ",
+            "lesson_id": "lesson-5",
+            "lesson_label": "Leçon 5 — NOÉ"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Mungu kamwambia Noa, noa jenga safina noa jenga safina watu wote waingie, noa jenga safina watu wote waingie."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Kweli kweli mu safina y anoa mulingia nyama na watu pia na wa ndege:",
+                "- Muliingia kiboko: mulingia nyama na watu pia na ndege",
+                "- Muliingia na nyoka mulingia nyama na watu pia wa ndege"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Garika ya maji ikajaa duniani, safina ikanyakuliwa na mbingu ika funguliwa.",
+                "- Safina bethel ikanyakuliwa na mbingu ikafunguliwa",
+                "- Safina kolwezi ikanyakuliwa na mbingu ikafunguliwa"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "adc0fe6a-1cd4-53f7-b538-7a6ae7a5fde8",
+      "title": "LAMEKI ALIKUWA NA MIAKA NYINGI",
+      "status": "review",
+      "versions": [
+        {
+          "id": "a43f81be-c123-52a2-bf7b-943c141ebc30",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "LAMEKI ALIKUWA NA MIAKA NYINGI",
+          "source": {
+            "file": "chant_de_noe.html",
+            "position": 8,
+            "number": "55",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-5",
+            "category_label": "NOÉ",
+            "lesson_id": "lesson-5",
+            "lesson_label": "Leçon 5 — NOÉ"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Lameki alikuwa na miaka nyingi, akazaa mwana jina lake Nuhu kwani aliogopa Mungu mu mambo mbovu."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Dunia imeja na mambo, dunia imeja na jeuri watu wamechafuka na mafalume za ulimwenguni yoyoyo njoni kuonyeshe njia, njia nzuri, njia ya uzima."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Huu ni uzao na habari za Nuhu eh Nuhu alikuwa na wana watatu, kweli nuhu, alikuwa na wana watatu nyumbani mwake, (muko Sehemu, na Hamu, na Yafeti)"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Alipoona mungu ya kama dunia nzima imearibika watu wote wameja jeuri, akanyesha mvua ya siku arubaini kwakutoesha maharifa ya watu ilio chafuka."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "2b17397d-fc1c-5f45-bb3b-1260e437b4c9",
+      "title": "SAFINA KUSHUKA MU HARARATI",
+      "status": "review",
+      "versions": [
+        {
+          "id": "7e671586-df87-5365-874f-d080a871d482",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "SAFINA KUSHUKA MU HARARATI",
+          "source": {
+            "file": "chant_de_noe.html",
+            "position": 9,
+            "number": "196",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-5",
+            "category_label": "NOÉ",
+            "lesson_id": "lesson-5",
+            "lesson_label": "Leçon 5 — NOÉ"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Safina kushuka muhararati Noa akatoka na jamaa lake na nyama zote zilizo safi kwelekea pa kavu"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Upinde alama la agano kwetu ¨Faraja hiwe juu kwa samawi¨ 2x Faraja hiwe kwa zambarawi itawale kwa rangi nyekundu sita haribu tena kwa maji."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Noa akalima mizabibu yake ¨Kaingia tena hemani mwake katumia mvinyo kalala humo akamufunua"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Jazareni wanangu twepuke laana ya kanana simameni twende mbele cha mugongo tufunike utpu wa baba zetu tupate baraka ya Yafeti tupate baraka ya semu tutaishi milele.",
+                "- Vifaranga viangu twende mbele cha mungongo tufinike utupu wa baba zetu tupate baraka ya yafeti",
+                "- tupate baraka ya semu tutaishi milele.",
+                "- Malimbuko ya bwana",
+                "- Waminifu wa mungu",
+                "- Waminifu mu njia"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": true
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "87ea9bde-71ca-53e2-868d-d17a07f28e7e",
+      "title": "NOA KAJENGA SAFINA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "c6f3fec0-a90f-5663-ac9d-eda0aefac97b",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "NOA KAJENGA SAFINA",
+          "source": {
+            "file": "chant_de_noe.html",
+            "position": 10,
+            "number": "56",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-5",
+            "category_label": "NOÉ",
+            "lesson_id": "lesson-5",
+            "lesson_label": "Leçon 5 — NOÉ"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Noa kajenga safina iyo ya mut iwa goferi kama alivio agizwa na bwana Utajifania safina na ku ipakaa inje na ndani kwa lami (kwa iyo) 2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "(Enyi wajoli twimbeni) twimbieni Bwana (Wajoli wa Bwana twimbeni) twimbieni Bwana (Mungu Mumbaji wetu) alionesha utukufu wake mbele ya dunia, eh baba na kilicho kuwa ndani ya iyo ni Mungu mwenyezi."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Nimeona chukizo, ata dunia yote imejaa jeuri mbele yangu (kweli) kwa iyo ni tauwa mutu nyama na kilicho ndani ya dunia."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Bwana kamwambia noa ingia safina wewe na nyumba yako na nyama walio safi wa saba saba mume na mukewe. Na nyama wasio safi twa mbili mbili mume na mukewe na ndege vile vile za hewa twa saba saba mume na mukewe.",
+                "- Eh noa chunga uhai uzao wao ju ya uso wa inchi",
+                "- Mutume wa Mungu chunga uhai uzao wao juu ya uso wa inchi",
+                "- Noa wa Mungu chunga uhai uzao wao juu ya uso wa inchi"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": true
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "5cdb3f03-29cd-5a1b-a24a-2bb17fc4bc3a",
+      "title": "WAKATI NUHU ALIPO TOKA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "3c2f450c-0a22-58f0-b79b-84fa0d5ff6e7",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "WAKATI NUHU ALIPO TOKA",
+          "source": {
+            "file": "chant_de_noe.html",
+            "position": 11,
+            "number": "66",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-5",
+            "category_label": "NOÉ",
+            "lesson_id": "lesson-5",
+            "lesson_label": "Leçon 5 — NOÉ"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "(Wakati nuhu alipo toka, ndani ya safina) 2x alipanda mizabibu akajifaniya vinyo( eh nuhu) (Nuhu kakunywa kalala utupu hemani mwake) 2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Basi tazama nuhu utupu eh nuhu hemani mwake",
+                "- Kwa mizabibu yake: utupu eh nuhu hemani mwake",
+                "- Huko ndani ya hema: utupu eh nuhu hemani mwake",
+                "- Kafunuliwa: utupu eh nuhu hemani mwake"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Hamu naye kaingia hemani, hamu naye kakuta babae utupu eh nuhu hemani mwake. Hamu naye kambia nduguze, Ndugu zake wakaja na nguo kumufinika nuhu"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Nuhu naye alipo amuka, nuhu naye kalaani kanana mwana wa hamu (Alaaniwe kanana, kanana, kanana umelaaniwa) 2x",
+                "- Muchongezi wa watu: kanana, kanana umelaaniwa",
+                "- Musaliti wa neno: kanana, kanana umelaaniwa",
+                "- Mwaminifu muongo: kanana, kanana umelaaniwa"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "99ce313a-84e9-5393-954c-9951a5b699fd",
+      "title": "NOA SAFINANI",
+      "status": "review",
+      "versions": [
+        {
+          "id": "7876699d-ddda-5e7b-9455-3b40c4591029",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "NOA SAFINANI",
+          "source": {
+            "file": "chant_de_noe.html",
+            "position": 12,
+            "number": "64",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-5",
+            "category_label": "NOÉ",
+            "lesson_id": "lesson-5",
+            "lesson_label": "Leçon 5 — NOÉ"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Noa safinani akatuma kunguru nenda ukaone maji kama yamepunguka, sikilizeni eh kunguru akatoka tazameni eh (Tazama kunguru akenda kuketi yoyoyo akenda kuzunguruka (wajoli) hakupenda kurudi) 2x"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Noa auzunishwa kwajili ya kunguru akatuma ndege gani noa akatuma eh njiwa sikilizenie njiwa akatoka akenda Tazaùenie akakikisha akirudi kwake noa yoyoyo na majani ya mizetuni ( wajoli ) akamaliza uduma."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Adama na Hawa tazama wa kahuni mungun wetu yeye nao wao ukata uzima Sikilizenie watu wa melainiwa kwakuto kutii kwao magizo ya bwana yoyoyo wa kazarau uzima (wajoli) mateso ikawajia"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Mimi nawewe tulitumwa kwa uduma, uduma wa mimi na wewe kuponya mioyo za watu, sikilizenie mungu akatupa uduma, tazamenie bali twatimiza ao atukufanya yoyoyo kama alivio fanya kunguru (wajoli) akenda kuzunguruuka, wajoli hakupenda kurudi."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Wajoli wetu wenye kulala muhamukeni, sisi tulikuwa tupo sasa wana wa uzima, sikilizenie wenye kulala hamukeni, tazamenie twanenda nanyi ao mwabaki kulala yoyoyo amukeni mupate uzima wajoli uzima wa yesu mbinguni."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": true
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "95bc24ff-755d-51dc-a1f3-14eead1dd0d3",
+      "title": "NZAMBI WA KAMBA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "66cc5f25-0551-5212-a5a0-2c99fedecd49",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "NZAMBI WA KAMBA",
+          "source": {
+            "file": "chant_de_noe.html",
+            "position": 13,
+            "number": "59",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-5",
+            "category_label": "NOÉ",
+            "lesson_id": "lesson-5",
+            "lesson_label": "Leçon 5 — NOÉ"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Zambi wa kamba noa songa bwatu kofere (ikale) ikale mutshi wa bwato uwenzele nzumbu munda mikese isatu mu bwatu.",
+                "SOURCE_BLOCK",
+                "njonii (njoni kua yesu) njoni uchukuwe nawe nira yangu hii, (nira yangu hii) nira yani musalaba. 2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Mwishi wetu (Saka bwatu pa moyi enza mujimu wa nzambi papa wanyi enza mudjimu eu ujikija) 2x",
+                "- Noa wetu: saka bwatu pa mayi enza mujimu wa nzambi papa wanyi enza mudjimu eu ujikija",
+                "- Kyungu wetu saka bwatu pa mayi enza mujimu wa nzambi papa wanyi enza mudjimu eu ujikija"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Nzumbu ei isatu ya kenza noa mu bwatu, kuva nzumbu wa nyama, anu ibidji, ibidji. (Mutu amu) kuvua nzumbu wa bantu, bantu mwanda mukulu. Kuvua nzumbu ya nyunyi nyunyi anu ibidji, ibidji",
+                "SOURCE_BLOCK",
+                "Bwakubwela mu bwatu bwa noa ufila kenza weba udji pwekesha kudjii, ulwata mwanda mukulu iula djiidja nzambi upeta nyuma."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    }
+  ]
 }
