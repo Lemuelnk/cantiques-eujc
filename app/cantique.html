@@ -216,63 +216,6 @@
 
 
   <!-- =========================
-       PANNEAU PARTAGE
-  ========================== -->
-  <div class="share-panel-backdrop" id="share-panel-backdrop" hidden></div>
-
-  <div class="share-panel" id="share-panel" hidden aria-modal="true" role="dialog">
-    <div class="share-panel-handle" aria-hidden="true"></div>
-
-    <div class="share-panel-header">
-      <h2>Partager</h2>
-      <button type="button" class="share-panel-close" id="share-panel-close" aria-label="Fermer">
-        <i data-lucide="x"></i>
-      </button>
-    </div>
-
-    <div class="share-panel-options">
-
-      <button type="button" class="share-option" id="share-image">
-        <div class="share-option-icon"><i data-lucide="image"></i></div>
-        <div class="share-option-text">
-          <strong>Partager le cantique</strong>
-          <span>Créer une belle image</span>
-        </div>
-        <i data-lucide="chevron-right" class="share-option-arrow"></i>
-      </button>
-
-      <button type="button" class="share-option" id="share-link-app">
-        <div class="share-option-icon"><i data-lucide="link"></i></div>
-        <div class="share-option-text">
-          <strong>Partager avec le lien</strong>
-          <span>Image + lien de l'application</span>
-        </div>
-        <i data-lucide="chevron-right" class="share-option-arrow"></i>
-      </button>
-
-      <button type="button" class="share-option" id="share-copy-link">
-        <div class="share-option-icon"><i data-lucide="copy"></i></div>
-        <div class="share-option-text">
-          <strong>Copier le lien</strong>
-          <span>Lien vers ce cantique</span>
-        </div>
-        <i data-lucide="chevron-right" class="share-option-arrow"></i>
-      </button>
-
-      <button type="button" class="share-option" id="share-copy-lyrics">
-        <div class="share-option-icon"><i data-lucide="file-text"></i></div>
-        <div class="share-option-text">
-          <strong>Copier les paroles</strong>
-          <span>Texte brut des paroles</span>
-        </div>
-        <i data-lucide="chevron-right" class="share-option-arrow"></i>
-      </button>
-
-    </div>
-  </div>
-
-
-  <!-- =========================
        PANNEAU PARTAGE — IMAGE
   ========================== -->
   <div class="share-image-backdrop" id="share-image-backdrop" hidden></div>
@@ -316,6 +259,28 @@
         <strong>9:19</strong>
         <small>Très long</small>
       </button>
+    </div>
+
+    <div class="share-image-themes" id="share-image-themes" aria-label="Thème de l’image">
+      <p class="share-image-themes-label">Thème de design</p>
+      <div class="share-image-theme-options">
+        <button type="button" class="theme-btn is-active" data-theme="cream" aria-pressed="true">
+          <span class="theme-swatch theme-swatch-cream" aria-hidden="true"></span>
+          <span>Crème</span>
+        </button>
+        <button type="button" class="theme-btn" data-theme="forest" aria-pressed="false">
+          <span class="theme-swatch theme-swatch-forest" aria-hidden="true"></span>
+          <span>Forêt</span>
+        </button>
+        <button type="button" class="theme-btn" data-theme="midnight" aria-pressed="false">
+          <span class="theme-swatch theme-swatch-midnight" aria-hidden="true"></span>
+          <span>Nuit</span>
+        </button>
+        <button type="button" class="theme-btn" data-theme="botanical" aria-pressed="false">
+          <span class="theme-swatch theme-swatch-botanical" aria-hidden="true"></span>
+          <span>Botanique</span>
+        </button>
+      </div>
     </div>
 
     <button type="button" class="share-image-generate" id="share-image-generate">
