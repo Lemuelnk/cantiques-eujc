@@ -91,6 +91,50 @@ function renderHymn(hymn, versionIndex) {
 
   document.title = `${version.title || hymn.title} — Cantiques EUJC`;
 
+  // SEO : adapter les métadonnées au cantique réellement affiché.
+  // Le canonique conserve l'identifiant du cantique, pas les paramètres d'interface.
+  const seoTitle = document.title;
+  const seoDescription = `Consultez le cantique « ${version.title || hymn.title} »${langLabel ? ` en ${langLabel}` : ''} dans Cantiques EUJC, le recueil numérique des cantiques du Chemin, du Dimanche et de Prière.`;
+  const canonicalUrl = new URL(window.location.href);
+  canonicalUrl.hash = '';
+  canonicalUrl.searchParams.sort();
+  const canonical = canonicalUrl.href;
+
+  function setSeoMeta(selector, attribute, key, value) {
+    let element = document.head.querySelector(`${selector}[${attribute}="${key}"]`);
+    if (!element) {
+      element = document.createElement('meta');
+      element.setAttribute(attribute, key);
+      document.head.appendChild(element);
+    }
+    element.setAttribute('content', value);
+  }
+
+  let canonicalLink = document.head.querySelector('link[rel="canonical"]');
+  if (!canonicalLink) {
+    canonicalLink = document.createElement('link');
+    canonicalLink.rel = 'canonical';
+    document.head.appendChild(canonicalLink);
+  }
+  canonicalLink.href = canonical;
+
+  const descriptionTag = document.head.querySelector('meta[name="description"]');
+  if (descriptionTag) descriptionTag.content = seoDescription;
+  else setSeoMeta('meta', 'name', 'description', seoDescription);
+
+  setSeoMeta('meta', 'name', 'robots', 'index, follow, max-image-preview:large');
+  setSeoMeta('meta', 'property', 'og:type', 'article');
+  setSeoMeta('meta', 'property', 'og:site_name', 'Cantiques EUJC');
+  setSeoMeta('meta', 'property', 'og:locale', 'fr_FR');
+  setSeoMeta('meta', 'property', 'og:title', seoTitle);
+  setSeoMeta('meta', 'property', 'og:description', seoDescription);
+  setSeoMeta('meta', 'property', 'og:url', canonical);
+  setSeoMeta('meta', 'property', 'og:image', 'https://cantiques-eujc.lnk-studio.com/assets/icons/icon-512.png');
+  setSeoMeta('meta', 'name', 'twitter:card', 'summary');
+  setSeoMeta('meta', 'name', 'twitter:title', seoTitle);
+  setSeoMeta('meta', 'name', 'twitter:description', seoDescription);
+  setSeoMeta('meta', 'name', 'twitter:image', 'https://cantiques-eujc.lnk-studio.com/assets/icons/icon-512.png');
+
   // Onglets des versions (si plus d'une)
   let versionTabs = '';
   if (versions.length > 1) {
