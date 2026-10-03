@@ -17,12 +17,12 @@
         <span>Accueil</span>
       </a>
 
-      <button class="nav-item" type="button" data-nav="recherche">
+      <a class="nav-item" href="recherche.html" data-nav="recherche">
         <span class="nav-icon" aria-hidden="true">
           <i data-lucide="search"></i>
         </span>
         <span>Recherche</span>
-      </button>
+      </a>
 
       <a class="nav-item" href="categories.html" data-nav="bibliotheque">
         <span class="nav-icon" aria-hidden="true">
@@ -46,7 +46,7 @@
   if (['categories.html', 'lessons.html', 'cantiques.html', 'cantique.html',
        'dimanche.html', 'priere.html'].includes(page)) {
     activeSection = 'bibliotheque';
-  } else if (['search.html', 'recherche.html'].includes(page)) {
+  } else if (['recherche.html', 'search.html'].includes(page)) {
     activeSection = 'recherche';
   } else if (['plus.html', 'favoris.html', 'historique.html',
               'parametres.html'].includes(page)) {

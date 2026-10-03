@@ -137,10 +137,7 @@ function ouvrirCantique(id) {
 function lancerRecherche() {
   const valeur = $recherche.value.trim();
   if (!valeur) { $recherche.focus(); return; }
-  alert(
-    'Recherche : ' + valeur +
-    '\n\nL’écran de recherche sera raccordé dans la prochaine étape.'
-  );
+  window.location.href = `recherche.html?q=${encodeURIComponent(valeur)}`;
 }
 
 document.querySelectorAll('.quick-card').forEach(button => {
@@ -155,15 +152,16 @@ document.querySelectorAll('.quick-card').forEach(button => {
 document.querySelectorAll('.nav-item').forEach(button => {
   button.addEventListener('click', () => {
     const destination = button.dataset.nav;
+
+    // Liens déjà gérés par le href natif : on laisse passer
     if (destination === 'accueil') return;
-    if (destination === 'bibliotheque') {
-      window.location.href = 'categories.html';
-      return;
+    if (destination === 'bibliotheque') return;
+    if (destination === 'recherche') return;
+
+    // 'plus' : à brancher plus tard
+    if (destination === 'plus') {
+      alert('Plus — écran à construire.');
     }
-    alert(
-      { recherche: 'Recherche', plus: 'Plus' }[destination] +
-      '\n\nCette section sera construite ensuite.'
-    );
   });
 });
 

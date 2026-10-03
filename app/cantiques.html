@@ -7,12 +7,13 @@
   <title>Cantiques — Cantiques EUJC</title>
 
   <link rel="manifest" href="manifest.webmanifest">
-  <link rel="stylesheet" href="cantiques.css?v=26">
-  <link rel="stylesheet" href="bottom-nav.css?v=26">
+  <link rel="stylesheet" href="cantiques.css?v=31">
+  <link rel="stylesheet" href="bottom-nav.css?v=31">
   <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="stylesheet" href="report-fab.css?v=31">
 </head>
 
-<body>
+<body data-report-scope="cantiques">
   <main class="hymns-page">
 
     <header class="hymns-header">
@@ -106,15 +107,16 @@
     </div>
   </section>
 
-  <script src="bottom-nav.js?v=26"></script>
-  <script src="canonical-data.js?v=26"></script>
-  <script src="storage.js?v=26"></script>
-  <script src="cantiques.js?v=26"></script>
+  <script src="bottom-nav.js?v=31"></script>
+  <script src="canonical-data.js?v=31"></script>
+  <script src="storage.js?v=31"></script>
+  <script src="cantiques.js?v=31"></script>
   <script>
     lucide.createIcons();
   </script>
 <script src="https://cdn.jsdelivr.net/npm/eruda"></script>
   <script>eruda.init();</script>
-<script src="sw-register.js?v=26"></script>
+<script src="sw-register.js?v=31"></script>
+  <script src="report-fab.js?v=31"></script>
 </body>
 </html>

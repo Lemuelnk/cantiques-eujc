@@ -1,0 +1,57 @@
+/* ============================================================
+   Cantiques EUJC — Bouton flottant de signalement
+   ============================================================ */
+
+.report-fab {
+  position: fixed;
+  right: 16px;
+  bottom: calc(80px + env(safe-area-inset-bottom, 0px));
+  z-index: 40;
+
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+
+  display: grid;
+  place-items: center;
+
+  background: #0d2e22;
+  color: #e8c56a;
+  box-shadow: 0 6px 20px rgba(13, 46, 34, 0.25);
+
+  transition: transform 160ms ease, box-shadow 160ms ease;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.report-fab:active {
+  transform: scale(0.92);
+  box-shadow: 0 3px 12px rgba(13, 46, 34, 0.3);
+}
+
+.report-fab svg {
+  width: 22px;
+  height: 22px;
+  stroke-width: 2;
+}
+
+/* Accessibilité : quand on préfère moins d'animation */
+@media (prefers-reduced-motion: reduce) {
+  .report-fab {
+    transition: none;
+  }
+}
+
+/* Sur très petits écrans, on décale un peu */
+@media (max-width: 360px) {
+  .report-fab {
+    width: 46px;
+    height: 46px;
+    right: 12px;
+  }
+  .report-fab svg {
+    width: 20px;
+    height: 20px;
+  }
+}

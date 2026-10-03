@@ -8,8 +8,8 @@
   <title>Signaler un problème — Cantiques EUJC</title>
 
   <link rel="manifest" href="manifest.webmanifest">
-  <link rel="stylesheet" href="style.css?v=26">
-  <link rel="stylesheet" href="signaler.css?v=26">
+  <link rel="stylesheet" href="style.css?v=31">
+  <link rel="stylesheet" href="signaler.css?v=31">
 
   <script src="https://unpkg.com/lucide@latest"></script>
   <script src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit" async defer></script>
@@ -86,45 +86,67 @@
           </p>
 
           <div class="report-types" id="report-types" role="radiogroup">
-            <button type="button" class="report-type-card" data-type="orthographe">
+            <button type="button" class="report-type-card" data-type="orthographe" data-scopes="cantique">
               <i data-lucide="spell-check-2"></i>
               <span>Orthographe</span>
               <small>Faute de frappe dans les paroles</small>
             </button>
-            <button type="button" class="report-type-card" data-type="traduction">
+            <button type="button" class="report-type-card" data-type="traduction" data-scopes="cantique">
               <i data-lucide="languages"></i>
               <span>Traduction</span>
               <small>Mauvaise langue ou traduction incorrecte</small>
             </button>
-            <button type="button" class="report-type-card" data-type="titre">
+            <button type="button" class="report-type-card" data-type="titre" data-scopes="cantique,liste-cantiques,liste-lessons,liste-categories,liste-dimanche,liste-priere,global">
               <i data-lucide="heading"></i>
               <span>Titre</span>
               <small>Le titre est faux ou incomplet</small>
             </button>
-            <button type="button" class="report-type-card" data-type="couplet">
+            <button type="button" class="report-type-card" data-type="couplet" data-scopes="cantique">
               <i data-lucide="list-ordered"></i>
               <span>Couplet</span>
               <small>Un couplet précis est mal écrit</small>
             </button>
-            <button type="button" class="report-type-card" data-type="refrain">
+            <button type="button" class="report-type-card" data-type="refrain" data-scopes="cantique">
               <i data-lucide="music"></i>
               <span>Refrain</span>
               <small>Le refrain contient une erreur</small>
             </button>
-            <button type="button" class="report-type-card" data-type="ordre">
+            <button type="button" class="report-type-card" data-type="ordre" data-scopes="cantique,liste-cantiques,liste-lessons,liste-categories,liste-dimanche,liste-priere,global">
               <i data-lucide="arrow-up-down"></i>
               <span>Ordre</span>
               <small>Les blocs ne sont pas dans le bon ordre</small>
             </button>
-            <button type="button" class="report-type-card" data-type="categorie">
+            <button type="button" class="report-type-card" data-type="categorie" data-scopes="cantique,liste-cantiques,liste-lessons,liste-categories,liste-dimanche,liste-priere,global">
               <i data-lucide="folder-x"></i>
               <span>Catégorie</span>
               <small>Ce cantique appartient à une autre catégorie</small>
             </button>
-            <button type="button" class="report-type-card" data-type="autre">
+            <button type="button" class="report-type-card" data-type="autre" data-scopes="cantique,liste-cantiques,liste-lessons,liste-categories,liste-dimanche,liste-priere,global">
               <i data-lucide="more-horizontal"></i>
               <span>Autre</span>
               <small>Autre problème à décrire</small>
+            </button>
+
+            <!-- === TYPES STRUCTURELS (listes / catégories) === -->
+            <button type="button" class="report-type-card" data-type="cantique_manquant" data-scopes="liste-cantiques,liste-lessons,liste-categories,liste-dimanche,liste-priere,global" hidden>
+              <i data-lucide="file-plus"></i>
+              <span>Cantique manquant</span>
+              <small>Un cantique devrait être dans cette liste</small>
+            </button>
+            <button type="button" class="report-type-card" data-type="nom_incorrect" data-scopes="liste-lessons,liste-categories,liste-dimanche,liste-priere,global" hidden>
+              <i data-lucide="tag"></i>
+              <span>Nom incorrect</span>
+              <small>Le nom de cette catégorie ou étape est faux</small>
+            </button>
+            <button type="button" class="report-type-card" data-type="doublon" data-scopes="liste-cantiques,global" hidden>
+              <i data-lucide="copy"></i>
+              <span>Doublon</span>
+              <small>Ce cantique apparaît plusieurs fois</small>
+            </button>
+            <button type="button" class="report-type-card" data-type="categorie_manquante" data-scopes="global" hidden>
+              <i data-lucide="folder-plus"></i>
+              <span>Catégorie manquante</span>
+              <small>Une catégoriee ou étape du culte manque</small>
             </button>
           </div>
         </fieldset>
@@ -234,9 +256,9 @@
     </section>
   </main>
 
-  <script src="canonical-data.js?v=26"></script>
-  <script src="storage.js?v=26"></script>
-  <script src="signaler.js?v=26"></script>
-  <script src="sw-register.js?v=26"></script>
+  <script src="canonical-data.js?v=31"></script>
+  <script src="storage.js?v=31"></script>
+  <script src="signaler.js?v=31"></script>
+  <script src="sw-register.js?v=31"></script>
 </body>
 </html>

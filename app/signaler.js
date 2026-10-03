@@ -13,6 +13,32 @@ const params     = new URLSearchParams(window.location.search);
 const hymnId     = params.get('hymn');
 const categoryId = params.get('category') || 'lesson-1';
 
+// ------------------------------------------------------------
+// Détermination du scope (contexte du signalement)
+// ------------------------------------------------------------
+function detectScope() {
+  const explicit = params.get('scope');
+  if (explicit === 'lessons')   return 'liste-lessons';
+  if (explicit === 'cantiques') return 'liste-cantiques';
+  if (explicit === 'dimanche')  return 'liste-dimanche';
+  if (explicit === 'priere')    return 'liste-priere';
+  if (explicit === 'global')    return 'global';
+  if (hymnId)                   return 'cantique';
+  return 'global';
+}
+
+const currentScope = detectScope();
+
+// Textes adaptés selon le scope
+const SCOPE_TEXTS = {
+  'cantique':         { title: 'Signaler un problème', intro: 'Choisissez ce qui ne va pas dans ce cantique. Nous examinerons votre signalement pour l\'améliorer.' },
+  'liste-lessons':    { title: 'Signaler un problème', intro: 'Un problème dans la liste des leçons ? Signalez-le, nous l\'examinerons.' },
+  'liste-cantiques':  { title: 'Signaler un problème', intro: 'Un problème dans cette liste de cantiques ? Signalez-le, nous l\'examinerons.' },
+  'liste-dimanche':   { title: 'Signaler un problème', intro: 'Un problème dans les cantiques du Dimanche ? Signalez-le, nous l\'examinerons.' },
+  'liste-priere':     { title: 'Signaler un problème', intro: 'Un problème dans les cantiques de prière ? Signalez-le, nous l\'examinerons.' },
+  'global':           { title: 'Signaler un problème', intro: 'Un problème général dans l\'application ? Signalez-le, nous l\'examinerons.' }
+};
+
 const $loading        = document.getElementById('report-loading');
 const $form           = document.getElementById('report-form');
 const $success        = document.getElementById('report-success');
@@ -153,45 +179,78 @@ function getBlockText(block) {
 // Chargement du cantique
 // ------------------------------------------------------------
 async function loadHymn() {
-  if (!hymnId) {
-    $loading.textContent = 'Cantique introuvable.';
-    return null;
-  }
-
-  try {
-    const corpus = await loadCanonicalLesson(categoryId);
-    const hymns = Array.isArray(corpus.hymns) ? corpus.hymns : [];
-    const hymn = hymns.find(h => h.id === hymnId);
-
-    if (!hymn) {
+  // ---- Cas CANTIQUE : besoin de charger le corpus ----
+  if (currentScope === 'cantique') {
+    if (!hymnId) {
       $loading.textContent = 'Cantique introuvable.';
       return null;
     }
 
-    currentHymn = hymn;
-    currentVersion = (hymn.versions && hymn.versions[0]) || null;
-    contentBlocks = (currentVersion && currentVersion.content) || [];
+    try {
+      const corpus = await loadCanonicalLesson(categoryId);
+      const hymns = Array.isArray(corpus.hymns) ? corpus.hymns : [];
+      const hymn = hymns.find(h => h.id === hymnId);
 
-    const title = (currentVersion && currentVersion.title) || hymn.title;
-    const ref = currentVersion && currentVersion.source && currentVersion.source.number
-      ? `N° ${currentVersion.source.number}`
-      : '';
-    const catLabel = CATEGORIES_LABELS[categoryId] || categoryId;
+      if (!hymn) {
+        $loading.textContent = 'Cantique introuvable.';
+        return null;
+      }
 
-    $context.textContent = [ref, title, catLabel].filter(Boolean).join(' · ');
-    document.title = `Signaler — ${title} — Cantiques EUJC`;
+      currentHymn = hymn;
+      currentVersion = (hymn.versions && hymn.versions[0]) || null;
+      contentBlocks = (currentVersion && currentVersion.content) || [];
 
-    return hymn;
-  } catch (err) {
-    console.error('Erreur de chargement :', err);
-    $loading.textContent = 'Impossible de charger le cantique.';
-    return null;
+      const title = (currentVersion && currentVersion.title) || hymn.title;
+      const ref = currentVersion && currentVersion.source && currentVersion.source.number
+        ? `N° ${currentVersion.source.number}`
+        : '';
+      const catLabel = CATEGORIES_LABELS[categoryId] || categoryId;
+
+      $context.textContent = [ref, title, catLabel].filter(Boolean).join(' · ');
+      document.title = `Signaler — ${title} — Cantiques EUJC`;
+
+      return hymn;
+    } catch (err) {
+      console.error('Erreur de chargement :', err);
+      $loading.textContent = 'Impossible de charger le cantique.';
+      return null;
+    }
   }
+
+  // ---- Cas LISTE ou GLOBAL : pas de cantique à charger ----
+  const catLabel = CATEGORIES_LABELS[categoryId] || '';
+
+  if (currentScope === 'liste-lessons') {
+    $context.textContent = 'Liste des leçons du Chemin';
+  } else if (currentScope === 'liste-cantiques') {
+    $context.textContent = catLabel || 'Liste des cantiques';
+  } else if (currentScope === 'liste-dimanche') {
+    $context.textContent = 'Cantiques du Dimanche';
+  } else if (currentScope === 'liste-priere') {
+    $context.textContent = 'Cantiques de prière';
+  } else {
+    $context.textContent = 'Application Cantiques EUJC';
+  }
+
+  document.title = 'Signaler un problème — Cantiques EUJC';
+  return { mode: 'structure' };
 }
 
 // ------------------------------------------------------------
 // Sélection du type
 // ------------------------------------------------------------
+// ------------------------------------------------------------
+// Filtrer les types visibles selon le scope
+// ------------------------------------------------------------
+function filterTypesByScope() {
+  if (!$typesGrid) return;
+  $typesGrid.querySelectorAll('.report-type-card').forEach(card => {
+    const scopes = (card.dataset.scopes || 'cantique').split(',').map(s => s.trim());
+    const visible = scopes.includes(currentScope);
+    card.hidden = !visible;
+  });
+}
+
 function selectType(type) {
   selectedType = type;
 
@@ -475,9 +534,11 @@ async function submitReport(event) {
   if (!selectedType) return;
 
   const payload = {
-    cantiqueId: currentHymn ? currentHymn.id : hymnId,
+    scope: currentScope,
+    cantiqueId: currentHymn ? currentHymn.id : (hymnId || ''),
     cantiqueTitle: (currentVersion && currentVersion.title) || (currentHymn && currentHymn.title) || '',
     categoryId: categoryId,
+    scopeContext: currentScope === 'liste-cantiques' ? categoryId : '',
     mode: currentMode,
     languageCode: (currentVersion && currentVersion.language && currentVersion.language.code) || '',
     type: selectedType,
@@ -578,6 +639,16 @@ $form.addEventListener('submit', submitReport);
 
   $loading.hidden = true;
   $form.hidden = false;
+
+  // Adapter le titre et l'intro selon le scope
+  const texts = SCOPE_TEXTS[currentScope] || SCOPE_TEXTS['cantique'];
+  const $headerTitle = document.querySelector('.report-header-title h1');
+  const $intro = document.querySelector('.report-intro');
+  if ($headerTitle) $headerTitle.textContent = texts.title;
+  if ($intro) $intro.textContent = texts.intro;
+
+  // Filtrer les types visibles
+  filterTypesByScope();
 
   // Initialiser le stepper à l'étape 1
   updateStep(1);

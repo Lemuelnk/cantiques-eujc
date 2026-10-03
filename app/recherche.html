@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#0d2e22">
+  <meta name="description" content="Rechercher un cantique — Cantiques EUJC">
+  <title>Recherche — Cantiques EUJC</title>
+
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="style.css?v=31">
+  <link rel="stylesheet" href="bottom-nav.css?v=31">
+  <link rel="stylesheet" href="recherche.css?v=31">
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+  <main class="search-page">
+
+    <!-- HEADER -->
+    <header class="search-header">
+      <button class="icon-button" id="back-button" aria-label="Retour" type="button">
+        <i data-lucide="arrow-left"></i>
+      </button>
+
+      <div class="search-bar" role="search">
+        <i data-lucide="search" class="search-bar-icon" aria-hidden="true"></i>
+        <input
+          type="search"
+          id="search-input"
+          placeholder="Rechercher un cantique…"
+          autocomplete="off"
+          autocapitalize="off"
+          spellcheck="false"
+        >
+        <button
+          type="button"
+          class="search-clear"
+          id="search-clear"
+          aria-label="Effacer"
+          hidden
+        >
+          <i data-lucide="x"></i>
+        </button>
+      </div>
+
+      <button
+        type="button"
+        class="icon-button filter-btn"
+        id="filter-btn"
+        aria-label="Filtres"
+      >
+        <i data-lucide="sliders-horizontal"></i>
+        <span class="filter-badge" id="filter-badge" hidden>0</span>
+      </button>
+    </header>
+
+    <!-- FILTRES -->
+    <div class="search-filters" id="search-filters" role="tablist">
+      <button class="search-chip is-active" data-mode="all" type="button" role="tab">
+        Tous <span class="search-chip-count" id="count-all">0</span>
+      </button>
+      <button class="search-chip" data-mode="title" type="button" role="tab">
+        Titres <span class="search-chip-count" id="count-title">0</span>
+      </button>
+      <button class="search-chip" data-mode="content" type="button" role="tab">
+        Contenu <span class="search-chip-count" id="count-content">0</span>
+      </button>
+    </div>
+
+    <!-- RÉSULTATS -->
+    <section class="search-content">
+      <div class="search-loading" id="search-loading">
+        Chargement de la bibliothèque…
+      </div>
+
+      <p class="search-hint" id="search-hint" hidden>
+        Tapez un mot pour rechercher parmi les cantiques.
+      </p>
+
+      <p class="search-empty" id="search-empty" hidden>
+        Aucun résultat pour « <span id="search-empty-query"></span> ».
+      </p>
+
+      <div class="search-results" id="search-results"></div>
+    </section>
+  </main>
+
+  <div id="bottom-nav"></div>
+
+  <!-- =========================
+       PANNEAU FILTRES
+  ========================== -->
+  <div class="filters-backdrop" id="filters-backdrop" hidden></div>
+
+  <div class="filters-sheet" id="filters-sheet" hidden aria-modal="true" role="dialog">
+    <div class="filters-sheet-handle" aria-hidden="true"></div>
+
+    <div class="filters-sheet-header">
+      <h2>Filtres</h2>
+      <button type="button" class="filters-reset" id="filters-reset">
+        Réinitialiser
+      </button>
+    </div>
+
+    <div class="filters-sheet-body">
+      <div class="filter-field">
+        <label for="filter-category">Catégorie</label>
+        <select id="filter-category">
+          <option value="">Toutes les catégories</option>
+        </select>
+      </div>
+
+      <div class="filter-field">
+        <label for="filter-lesson">Leçon</label>
+        <select id="filter-lesson">
+          <option value="">Toutes les leçons</option>
+        </select>
+      </div>
+
+      <div class="filter-field">
+        <label for="filter-language">Langue</label>
+        <select id="filter-language">
+          <option value="">Toutes les langues</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="filters-sheet-footer">
+      <button type="button" class="filters-apply" id="filters-apply">
+        Voir les résultats (<span id="filters-count">0</span>)
+      </button>
+    </div>
+  </div>
+
+  <script src="bottom-nav.js?v=31"></script>
+  <script src="canonical-data.js?v=31"></script>
+  <script src="storage.js?v=31"></script>
+  <script src="recherche.js?v=31"></script>
+  <script src="sw-register.js?v=31"></script>
+</body>
+</html>
