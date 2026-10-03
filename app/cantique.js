@@ -258,14 +258,181 @@ if ($sharePanelBackdrop) {
   $sharePanelBackdrop.addEventListener('click', closeSharePanel);
 }
 
-// Option 1 : Partager le cantique (image à générer dans une prochaine étape)
+// ------------------------------------------------------------
+// Panneau Image
+// ------------------------------------------------------------
+const $shareImageBackdrop = document.getElementById('share-image-backdrop');
+const $shareImagePanel    = document.getElementById('share-image-panel');
+const $shareImageBack     = document.getElementById('share-image-back');
+const $shareImageClose    = document.getElementById('share-image-close');
+const $shareImageCanvas   = document.getElementById('share-image-canvas');
+const $shareImageLoading  = document.getElementById('share-image-loading');
+const $shareImageGenerate = document.getElementById('share-image-generate');
+const $formatBtns         = document.querySelectorAll('.format-btn');
+
+let currentImageFormat = '1:1';
+
+function openImagePanel() {
+  if (!$shareImagePanel || !$shareImageBackdrop) return;
+
+  // Déterminer le format automatique selon la longueur
+  if (window.ShareImage && currentHymn) {
+    currentImageFormat = window.ShareImage.autoFormatFor(currentHymn);
+  }
+
+  // Mettre à jour les boutons de format
+  $formatBtns.forEach(btn => {
+    btn.classList.toggle('is-active', btn.dataset.format === currentImageFormat);
+  });
+
+  $shareImageBackdrop.hidden = false;
+  $shareImagePanel.hidden = false;
+
+  // Générer l'image après un petit délai (pour que le panneau soit affiché)
+  setTimeout(generatePreview, 100);
+}
+
+function closeImagePanel() {
+  if ($shareImageBackdrop) $shareImageBackdrop.hidden = true;
+  if ($shareImagePanel) $shareImagePanel.hidden = true;
+}
+
+async function generatePreview() {
+  if ($shareImageLoading) $shareImageLoading.hidden = false;
+
+  if (!window.ShareImage) {
+    console.error('[Preview] ShareImage non chargé');
+    if ($shareImageLoading) $shareImageLoading.textContent = 'Erreur : ShareImage non chargé';
+    return;
+  }
+  if (!currentHymn || !currentVersion) {
+    console.error('[Preview] currentHymn ou currentVersion manquant');
+    if ($shareImageLoading) $shareImageLoading.textContent = 'Erreur : cantique non chargé';
+    return;
+  }
+
+  try {
+    await window.ShareImage.waitFonts();
+    window.ShareImage.generate($shareImageCanvas, currentHymn, currentVersion, currentImageFormat);
+    if ($shareImageLoading) $shareImageLoading.hidden = true;
+  } catch (err) {
+    console.error('[Preview] Erreur de génération :', err);
+    if ($shareImageLoading) $shareImageLoading.textContent = 'Erreur : ' + err.message;
+  }
+}
+
+// Boutons du panneau image
+if ($shareImageBack) {
+  $shareImageBack.addEventListener('click', () => {
+    closeImagePanel();
+    openSharePanel();
+  });
+}
+
+if ($shareImageClose) {
+  $shareImageClose.addEventListener('click', closeImagePanel);
+}
+
+if ($shareImageBackdrop) {
+  $shareImageBackdrop.addEventListener('click', closeImagePanel);
+}
+
+// Sélection du format
+$formatBtns.forEach(btn => {
+  btn.addEventListener('click', () => {
+    $formatBtns.forEach(b => b.classList.remove('is-active'));
+    btn.classList.add('is-active');
+    currentImageFormat = btn.dataset.format;
+    generatePreview();
+  });
+});
+
+// Option 1 : Partager le cantique (image)
 if ($shareImage) {
   $shareImage.addEventListener('click', () => {
     closeSharePanel();
-    // Placeholder : à brancher avec le générateur d'image
-    alert('Générateur d\'image — en construction. Pour l\'instant, utilisez "Partager avec le lien".');
+    openImagePanel();
   });
 }
+
+// Bouton Générer et partager
+if ($shareImageGenerate) {
+  $shareImageGenerate.addEventListener('click', async () => {
+    if (!window.ShareImage || !$shareImageCanvas) return;
+
+    const blob = await window.ShareImage.toBlob($shareImageCanvas);
+    if (!blob) {
+      alert('Impossible de générer l\'image');
+      return;
+    }
+
+    const fileName = `cantique-${currentVersion.source?.number || 'eujc'}.png`;
+    const file = new File([blob], fileName, { type: 'image/png' });
+
+    // Essayer le partage natif d'abord
+    if (navigator.canShare && navigator.canShare({ files: [file] })) {
+      try {
+        await navigator.share({
+          files: [file],
+          title: currentVersion.title || 'Cantique EUJC',
+          text: 'Cantique EUJC — partagé depuis l\'application'
+        });
+        return;
+      } catch (err) {
+        // Si l'utilisateur annule, on n'affiche rien
+        if (err.name === 'AbortError') return;
+      }
+    }
+
+    // Fallback : télécharger l'image
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = fileName;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
+  });
+}
+
+// Drag-to-dismiss du panneau image
+(function enableImageDragToDismiss() {
+  if (!$shareImagePanel) return;
+
+  let startY = 0, currentY = 0, isDragging = false;
+
+  function onTouchStart(e) {
+    if ($shareImagePanel.scrollTop > 0) return;
+    startY = e.touches[0].clientY;
+    currentY = startY;
+    isDragging = true;
+    $shareImagePanel.style.transition = 'none';
+  }
+  function onTouchMove(e) {
+    if (!isDragging) return;
+    currentY = e.touches[0].clientY;
+    const delta = currentY - startY;
+    if (delta > 0) $shareImagePanel.style.transform = `translateY(${delta}px)`;
+  }
+  function onTouchEnd() {
+    if (!isDragging) return;
+    isDragging = false;
+    const delta = currentY - startY;
+    $shareImagePanel.style.transition = 'transform 200ms ease';
+    if (delta > 100) {
+      $shareImagePanel.style.transform = 'translateY(100%)';
+      setTimeout(closeImagePanel, 200);
+    } else {
+      $shareImagePanel.style.transform = '';
+    }
+  }
+
+  $shareImagePanel.addEventListener('touchstart', onTouchStart, { passive: true });
+  $shareImagePanel.addEventListener('touchmove', onTouchMove, { passive: true });
+  $shareImagePanel.addEventListener('touchend', onTouchEnd);
+  $shareImagePanel.addEventListener('touchcancel', onTouchEnd);
+})();
 
 // Option 2 : Partager avec le lien (Web Share API)
 if ($shareLinkApp) {
