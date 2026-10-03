@@ -134,6 +134,47 @@ function renderHymn(hymn, versionIndex) {
   setSeoMeta('meta', 'name', 'twitter:title', seoTitle);
   setSeoMeta('meta', 'name', 'twitter:description', seoDescription);
   setSeoMeta('meta', 'name', 'twitter:image', 'https://cantiques-eujc.lnk-studio.com/assets/icons/icon-512.png');
+  // JSON-LD dynamique : MusicComposition pour chaque cantique
+  (function setJsonLd() {
+    var allLines = [];
+    (version.content || []).forEach(function(blk) {
+      (blk.lines || []).forEach(function(line) { allLines.push(line); });
+    });
+    var lyricsPreview = allLines.slice(0, 40).join('\n');
+
+    var oldLd = document.getElementById('hymn-jsonld');
+    if (oldLd) oldLd.remove();
+
+    var jsonLd = {
+      "@context": "https://schema.org",
+      "@type": "MusicComposition",
+      "name": version.title || hymn.title,
+      "inLanguage": (version.language && version.language.code) || 'fr',
+      "genre": prettyCategory(categoryId),
+      "lyrics": {
+        "@type": "CreativeWork",
+        "text": lyricsPreview
+      },
+      "isPartOf": {
+        "@type": "MusicAlbum",
+        "name": "Cantiques EUJC",
+        "url": "https://cantiques-eujc.lnk-studio.com/cantiques.html"
+      },
+      "url": canonical
+    };
+
+    if (source.number) {
+      jsonLd.alternateName = "Cantique n\u00b0 " + source.number;
+      jsonLd.position = source.number;
+    }
+
+    var script = document.createElement('script');
+    script.type = 'application/ld+json';
+    script.id = 'hymn-jsonld';
+    script.textContent = JSON.stringify(jsonLd);
+    document.head.appendChild(script);
+  })();
+
 
   // Onglets des versions (si plus d'une)
   let versionTabs = '';
