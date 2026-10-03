@@ -4,8 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <meta name="description" content="Cantiques EUJC — Le recueil dans votre poche">
-  <meta name="theme-color" content="#faf6ec" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#0b2b24" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#0b2b24">
   <meta name="color-scheme" content="dark">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -15,70 +14,54 @@
   <title>Cantiques EUJC</title>
 
   <link rel="manifest" href="manifest.webmanifest">
-  <link rel="stylesheet" href="charte.css?v=66">
-  <link rel="stylesheet" href="fonts.css?v=66">  <script>
-    /* Anti-FOUC : applique le thème + police avant tout rendu */
-    (function(){
-      try {
-        var p = JSON.parse(localStorage.getItem('cantiques-eujc-preferences') || '{}');
-        var t = p.theme || 'system';
-        var eff = t === 'system'
-          ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
-          : t;
-        document.documentElement.setAttribute('data-theme', eff);
-        if (eff === 'dark') {
-          document.documentElement.classList.add('theme-dark');
-          document.addEventListener('DOMContentLoaded', function(){
-            if (document.body) document.body.classList.add('theme-dark');
-          }, { once: true });
-        }
-        if (p.textScale) document.documentElement.style.setProperty('--text-scale', p.textScale);
-        var fonts = {'system':'var(--font-system)','open-sans':'var(--font-open-sans)','lora':'var(--font-lora)','atkinson':'var(--font-atkinson)'};
-        if (p.font && fonts[p.font]) {
-          document.documentElement.style.setProperty('--font-body', fonts[p.font]);
-          document.documentElement.style.setProperty('--font-heading', fonts[p.font]);
-        }
-      } catch(e) {}
-    })();
-  </script>
-
-  <link rel="stylesheet" href="splash.css?v=66">
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700;800&display=swap"
     rel="stylesheet"
   >
+  <link rel="stylesheet" href="splash.css?v=71">
 </head>
 
 <body>
   <main class="splash" id="splash">
 
-    <div class="leaf leaf-top"    aria-hidden="true"></div>
-    <div class="leaf leaf-bottom" aria-hidden="true"></div>
+    <!-- FEUILLAGES -->
+    <img class="leaf leaf-top" src="assets/share/leaves/leaves-top.png" alt="" aria-hidden="true">
+    <img class="leaf leaf-bottom" src="assets/share/leaves/leaves-bottom.png" alt="" aria-hidden="true">
 
+    <!-- PARTICULES DORÉES -->
+    <div class="particles" aria-hidden="true">
+      <span class="particle"></span>
+      <span class="particle"></span>
+      <span class="particle"></span>
+      <span class="particle"></span>
+      <span class="particle"></span>
+      <span class="particle"></span>
+      <span class="particle"></span>
+      <span class="particle"></span>
+      <span class="particle"></span>
+      <span class="particle"></span>
+      <span class="particle"></span>
+      <span class="particle"></span>
+      <span class="particle"></span>
+      <span class="particle"></span>
+      <span class="particle"></span>
+      <span class="particle"></span>
+      <span class="particle"></span>
+      <span class="particle"></span>
+    </div>
+
+    <!-- CONTENU -->
     <div class="splash-content">
 
       <div class="splash-logo-wrap">
+        <div class="logo-halo" aria-hidden="true"></div>
         <img
           class="splash-logo"
-          src="assets/logo/logo-cantiques-eujc.png"
+          src="assets/logo/logo-gold.png"
           alt="Logo Cantiques EUJC"
-          onerror="this.classList.add('is-missing')"
         >
-
-        <svg class="logo-fallback" viewBox="0 0 120 100" aria-hidden="true">
-          <path d="M60 20 C45 12 30 12 15 18 L15 78 C30 72 45 72 60 82 Z"
-                fill="none" stroke="#c9a44a" stroke-width="2.5" stroke-linejoin="round"/>
-          <path d="M60 20 C75 12 90 12 105 18 L105 78 C90 72 75 72 60 82 Z"
-                fill="none" stroke="#c9a44a" stroke-width="2.5" stroke-linejoin="round"/>
-          <path d="M60 20 L60 82" stroke="#c9a44a" stroke-width="2.5"/>
-          <path d="M25 30 L50 27 M25 42 L50 39 M25 54 L50 51"
-                stroke="#c9a44a" stroke-width="1.5" opacity="0.7" stroke-linecap="round"/>
-          <path d="M70 27 L95 30 M70 39 L95 42 M70 51 L95 54"
-                stroke="#c9a44a" stroke-width="1.5" opacity="0.7" stroke-linecap="round"/>
-        </svg>
       </div>
 
       <h1 class="splash-title">
@@ -91,10 +74,14 @@
       <p class="splash-tagline">Le recueil dans votre poche</p>
     </div>
 
+    <!-- BAS DE PAGE -->
     <p class="splash-sub">
       Louange · Prière · Adoration<br>
-      Partout. Toujours.
+      <span>Partout. Toujours.</span>
     </p>
+
+    <!-- LUEUR BAS DE PAGE -->
+    <div class="bottom-glow" aria-hidden="true"></div>
   </main>
 
   <script>
@@ -105,13 +92,12 @@
         redirected = true;
         window.location.href = 'index.html';
       }
-      setTimeout(go, 2600);
+      setTimeout(go, 3200);
       const splash = document.getElementById('splash');
       splash.addEventListener('click', go);
       splash.addEventListener('touchstart', go, { passive: true });
     })();
   </script>
-<script src="sw-register.js?v=66"></script>
-  <script src="preferences.js?v=66"></script>
+  <script src="sw-register.js?v=71"></script>
 </body>
 </html>
