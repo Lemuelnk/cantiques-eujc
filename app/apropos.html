@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#faf6ec" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0b2b24" media="(prefers-color-scheme: dark)">
+  <title>À propos — Cantiques EUJC</title>
+
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="charte.css?v=60">
+  <link rel="stylesheet" href="fonts.css?v=60">
+  <script>
+    (function(){
+      try {
+        var p = JSON.parse(localStorage.getItem('cantiques-eujc-preferences') || '{}');
+        var t = p.theme || 'system';
+        var eff = t === 'system'
+          ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
+          : t;
+        document.documentElement.setAttribute('data-theme', eff);
+        if (eff === 'dark') {
+          document.documentElement.classList.add('theme-dark');
+          document.addEventListener('DOMContentLoaded', function(){
+            if (document.body) document.body.classList.add('theme-dark');
+          }, { once: true });
+        }
+        if (p.textScale) document.documentElement.style.setProperty('--text-scale', p.textScale);
+        var fonts = {'system':'var(--font-system)','open-sans':'var(--font-open-sans)','lora':'var(--font-lora)','atkinson':'var(--font-atkinson)'};
+        if (p.font && fonts[p.font]) {
+          document.documentElement.style.setProperty('--font-body', fonts[p.font]);
+          document.documentElement.style.setProperty('--font-heading', fonts[p.font]);
+        }
+      } catch(e) {}
+    })();
+  </script>
+  <link rel="stylesheet" href="style.css?v=60">
+  <link rel="stylesheet" href="bottom-nav.css?v=60">
+  <link rel="stylesheet" href="parametres.css?v=60">
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+  <main class="settings-page">
+
+    <header class="settings-header">
+      <button class="icon-button" id="back-button" aria-label="Retour" type="button">
+        <i data-lucide="arrow-left"></i>
+      </button>
+      <div class="settings-header-title">
+        <h1>À propos</h1>
+      </div>
+      <span class="header-spacer" aria-hidden="true"></span>
+    </header>
+
+    <section class="settings-content">
+
+      <!-- Logo + description -->
+      <div class="about-hero">
+        <div class="about-logo">
+          <i data-lucide="book-open"></i>
+        </div>
+        <h2 class="about-title">Cantiques EUJC</h2>
+        <p class="about-tagline">Le recueil dans votre poche</p>
+        <p class="about-version" id="about-version">Version 1.0.0</p>
+      </div>
+
+      <!-- Description -->
+      <div class="settings-card about-description">
+        <p>
+          Cette application regroupe les cantiques de l'Église Universelle de Jésus-Christ
+          en plusieurs langues : Swahili, Tshiluba, Lingala et Français.
+        </p>
+        <p>
+          Louange · Prière · Adoration<br>
+          Partout. Toujours.
+        </p>
+      </div>
+
+      <!-- Statistiques -->
+      <h3 class="settings-section-title">Contenu</h3>
+      <div class="about-stats" id="about-stats">
+        <div class="about-stat-card">
+          <strong id="stat-hymns">—</strong>
+          <span>Cantiques</span>
+        </div>
+        <div class="about-stat-card">
+          <strong id="stat-categories">—</strong>
+          <span>Catégories</span>
+        </div>
+        <div class="about-stat-card">
+          <strong id="stat-languages">—</strong>
+          <span>Langues</span>
+        </div>
+      </div>
+
+      <!-- Liens -->
+      <h3 class="settings-section-title">Liens</h3>
+
+      <a class="settings-card settings-link" href="https://lnk-studio.com" target="_blank" rel="noopener">
+        <div class="settings-row">
+          <div class="settings-row-icon"><i data-lucide="globe"></i></div>
+          <span class="settings-label">Site web LNK Studio</span>
+          <i data-lucide="external-link" class="settings-arrow"></i>
+        </div>
+      </a>
+
+      <button type="button" class="settings-card settings-link" id="btn-contact">
+        <div class="settings-row">
+          <div class="settings-row-icon"><i data-lucide="mail"></i></div>
+          <span class="settings-label">Nous contacter</span>
+          <i data-lucide="chevron-right" class="settings-arrow"></i>
+        </div>
+      </button>
+
+      <a class="settings-card settings-link" href="signaler.html?scope=global">
+        <div class="settings-row">
+          <div class="settings-row-icon"><i data-lucide="flag"></i></div>
+          <span class="settings-label">Signaler un bug</span>
+          <i data-lucide="chevron-right" class="settings-arrow"></i>
+        </div>
+      </a>
+
+      <button type="button" class="settings-card settings-link" id="btn-share-apropos">
+        <div class="settings-row">
+          <div class="settings-row-icon"><i data-lucide="share-2"></i></div>
+          <span class="settings-label">Partager l'application</span>
+          <i data-lucide="chevron-right" class="settings-arrow"></i>
+        </div>
+      </button>
+
+      <!-- Crédits -->
+      <p class="settings-version">
+        Développé par LNK Studio<br>
+        © 2025 Église Universelle de Jésus-Christ<br>
+        Tous droits réservés
+      </p>
+
+    </section>
+  </main>
+
+  <div id="bottom-nav"></div>
+
+  <script src="bottom-nav.js?v=60"></script>
+  <script src="preferences.js?v=60"></script>
+  <script src="apropos.js?v=60"></script>
+  <script src="sw-register.js?v=60"></script>
+</body>
+</html>
