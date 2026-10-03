@@ -233,31 +233,32 @@
   flex: 1;
   -webkit-appearance: none;
   appearance: none;
-  height: 4px;
-  border-radius: 2px;
-  background: rgba(13, 46, 34, 0.15);
+  height: 6px;
+  border-radius: 3px;
+  background: var(--border-strong);
   outline: none;
 }
 
 #text-size-slider::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
-  width: 22px;
-  height: 22px;
+  width: 24px;
+  height: 24px;
   border-radius: 50%;
-  background: var(--accent-dark, #0d2e22);
-  border: 3px solid var(--bg-elevated, #fff);
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  background: var(--p-gold-500);
+  border: 3px solid var(--bg-elevated);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
   cursor: pointer;
+  margin-top: -9px;
 }
 
 #text-size-slider::-moz-range-thumb {
-  width: 22px;
-  height: 22px;
+  width: 24px;
+  height: 24px;
   border-radius: 50%;
-  background: var(--accent-dark, #0d2e22);
-  border: 3px solid var(--bg-elevated, #fff);
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  background: var(--p-gold-500);
+  border: 3px solid var(--bg-elevated);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
   cursor: pointer;
 }
 
