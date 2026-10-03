@@ -201,6 +201,96 @@ function closeSharePanel() {
   }
 }
 
+// --- Drag-to-dismiss du panneau Partager ---
+(function enableShareDragToDismiss() {
+  if (!$sharePanel) return;
+
+  let startY = 0;
+  let currentY = 0;
+  let isDragging = false;
+
+  function onTouchStart(e) {
+    if ($sharePanel.scrollTop > 0) return;
+    startY = e.touches[0].clientY;
+    currentY = startY;
+    isDragging = true;
+    $sharePanel.style.transition = 'none';
+  }
+
+  function onTouchMove(e) {
+    if (!isDragging) return;
+    currentY = e.touches[0].clientY;
+    const delta = currentY - startY;
+    if (delta > 0) {
+      $sharePanel.style.transform = `translateY(${delta}px)`;
+    }
+  }
+
+  function onTouchEnd() {
+    if (!isDragging) return;
+    isDragging = false;
+    const delta = currentY - startY;
+    $sharePanel.style.transition = 'transform 200ms ease';
+
+    if (delta > 100) {
+      $sharePanel.style.transform = 'translateY(100%)';
+      setTimeout(closeSharePanel, 200);
+    } else {
+      $sharePanel.style.transform = '';
+    }
+  }
+
+  $sharePanel.addEventListener('touchstart', onTouchStart, { passive: true });
+  $sharePanel.addEventListener('touchmove', onTouchMove, { passive: true });
+  $sharePanel.addEventListener('touchend', onTouchEnd);
+  $sharePanel.addEventListener('touchcancel', onTouchEnd);
+})();
+
+// --- Drag-to-dismiss du panneau Partager ---
+(function enableShareDragToDismiss() {
+  if (!$sharePanel) return;
+
+  let startY = 0;
+  let currentY = 0;
+  let isDragging = false;
+
+  function onTouchStart(e) {
+    if ($sharePanel.scrollTop > 0) return;
+    startY = e.touches[0].clientY;
+    currentY = startY;
+    isDragging = true;
+    $sharePanel.style.transition = 'none';
+  }
+
+  function onTouchMove(e) {
+    if (!isDragging) return;
+    currentY = e.touches[0].clientY;
+    const delta = currentY - startY;
+    if (delta > 0) {
+      $sharePanel.style.transform = `translateY(${delta}px)`;
+    }
+  }
+
+  function onTouchEnd() {
+    if (!isDragging) return;
+    isDragging = false;
+    const delta = currentY - startY;
+    $sharePanel.style.transition = 'transform 200ms ease';
+
+    if (delta > 100) {
+      $sharePanel.style.transform = 'translateY(100%)';
+      setTimeout(closeSharePanel, 200);
+    } else {
+      $sharePanel.style.transform = '';
+    }
+  }
+
+  $sharePanel.addEventListener('touchstart', onTouchStart, { passive: true });
+  $sharePanel.addEventListener('touchmove', onTouchMove, { passive: true });
+  $sharePanel.addEventListener('touchend', onTouchEnd);
+  $sharePanel.addEventListener('touchcancel', onTouchEnd);
+})();
+
 if (btnShare) {
   btnShare.addEventListener('click', openSharePanel);
 }
