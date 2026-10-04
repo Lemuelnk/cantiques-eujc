@@ -10,7 +10,7 @@ reader = PdfReader(PDF)
 print(f"Pages PDF : {len(reader.pages)}")
 
 # Joindre toutes les pages
-full = '\n'.join((p.extract_text() or '') for p in reader.pages)
+full = '\n'.join((reader.pages[i].extract_text() or '') for i in range(10, len(reader.pages)))
 
 # Nettoyer en-tetes repetitifs
 full = re.sub(r'Made By Therese Bilonda G4[^\n]*', '', full)
@@ -48,42 +48,36 @@ RE_REFRAIN = re.compile(r'^\s*R[ée]f\s*\.?\s*:?\s*(.*)$', re.IGNORECASE)
 RE_COMMENT = re.compile(r'^\s*Commentaires?\s*:?\s*(.*)$', re.IGNORECASE)
 
 
-def extract_title_and_body(block):
-    """Separe titre et corps. Le titre s'arrete a la premiere ligne qui
-    commence par 1) / Ref: / Ref. / Commentaires."""
+def extract_title_and_body(block, hymn_num):
+    """Separe titre (multi-lignes) et corps.
+    Le corps commence a la 1ere ligne qui matche '1)' ou 'Ref:' ou 'Commentaire'.
+    """
     lines = block.split('\n')
-    titre_lines = []
-    body_lines = []
-    in_title = True
+    body_start = None
 
     for i, line in enumerate(lines):
         s = line.strip()
-        if in_title:
-            # Fin du titre si on rencontre un marqueur de corps
-            if re.match(r'^\d{1,3}[\)\.]\s', s) or RE_REFRAIN.match(s) or RE_COMMENT.match(s):
-                in_title = False
-                body_lines.append(line)
-                continue
-            # Ligne vide : peut marquer la fin du titre si la suivante commence par 1)
-            if not s:
-                # Regarder la prochaine ligne non vide
-                j = i + 1
-                while j < len(lines) and not lines[j].strip():
-                    j += 1
-                if j < len(lines):
-                    nxt = lines[j].strip()
-                    if re.match(r'^\d{1,3}[\)\.]\s', nxt) or RE_REFRAIN.match(nxt):
-                        in_title = False
-                        continue
-                continue
-            titre_lines.append(s)
-        else:
-            body_lines.append(line)
+        if not s:
+            continue
+        # 1er verset en "1)" ou "1." (nombre 1 uniquement = debut du corps)
+        if re.match(r'^1[\).]\s', s):
+            body_start = i
+            break
+        if RE_REFRAIN.match(s) or RE_COMMENT.match(s):
+            body_start = i
+            break
 
-    titre = ' '.join(titre_lines).strip()
-    # Nettoyer le numero et point du titre
-    titre = re.sub(r'^\d{1,3}\.\s*', '', titre).strip()
-    return titre, '\n'.join(body_lines).strip()
+    if body_start is None:
+        body_start = len(lines)
+
+    title_lines = lines[:body_start]
+    body = '\n'.join(lines[body_start:])
+
+    # Nettoyer le titre
+    title = ' '.join(l.strip() for l in title_lines if l.strip())
+    title = re.sub(rf'^\s*{hymn_num}\.\s*', '', title).strip()
+    title = re.sub(r'\s+', ' ', title)
+    return title, body
 
 
 def parse_body(body):
@@ -176,7 +170,7 @@ for i, m in enumerate(vrais):
     end = vrais[i+1].start() if i+1 < len(vrais) else len(full)
     block = full[start:end]
 
-    titre, body = extract_title_and_body(block)
+    titre, body = extract_title_and_body(block, num)
     if not titre:
         continue
 
