@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "corpus_status": "review",
+  "taxonomy": {
+    "domain": "hymnal",
+    "category_id": "recueil-syllabus-tshiluba",
+    "category_label": "Syllabus Tshiluba",
+    "lesson_id": "recueil-syllabus-tshiluba",
+    "lesson_label": "Syllabus Tshiluba"
+  },
+  "source": {
+    "file": "SYLLABUS CANTIQUES TSHILUBA.pdf"
+  },
+  "hymns": []
+}
