@@ -475,3 +475,10 @@ body {
   from { transform: translateY(20px); opacity: 0; }
   to   { transform: translateY(0); opacity: 1; }
 }
+
+/* === iOS safe-area (encoche / Dynamic Island) === */
+@supports (padding: env(safe-area-inset-top)) {
+  .search-header {
+    padding-top: calc(12px + env(safe-area-inset-top, 0px));
+  }
+}

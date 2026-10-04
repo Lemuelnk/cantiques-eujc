@@ -216,3 +216,10 @@
 .lesson-row-wide {
   grid-template-columns: 1fr 20px;
 }
+
+/* === iOS safe-area (encoche / Dynamic Island) === */
+@supports (padding: env(safe-area-inset-top)) {
+  .lessons-header {
+    padding-top: calc(10px + env(safe-area-inset-top, 0px));
+  }
+}

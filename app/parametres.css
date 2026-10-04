@@ -453,3 +453,10 @@
   color: var(--text-secondary);
   font-weight: 600;
 }
+
+/* === iOS safe-area (encoche / Dynamic Island) === */
+@supports (padding: env(safe-area-inset-top)) {
+  .settings-header {
+    padding-top: calc(12px + env(safe-area-inset-top, 0px));
+  }
+}

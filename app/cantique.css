@@ -1089,3 +1089,10 @@ body.is-reading-mode .report-cta-btn:active {
 .share-image-generate[hidden] {
   display: none !important;
 }
+
+/* === iOS safe-area (encoche / Dynamic Island) === */
+@supports (padding: env(safe-area-inset-top)) {
+  .hymn-detail-header {
+    padding-top: calc(12px + env(safe-area-inset-top, 0px));
+  }
+}

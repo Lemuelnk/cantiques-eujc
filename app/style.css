@@ -696,3 +696,11 @@ input:focus-visible {
   font-style: italic;
   margin: 0;
 }
+
+/* === iOS safe-area (encoche / Dynamic Island) === */
+@supports (padding: env(safe-area-inset-top)) {
+  .app-header {
+    height: calc(68px + env(safe-area-inset-top, 0px));
+    padding-top: env(safe-area-inset-top, 0px);
+  }
+}

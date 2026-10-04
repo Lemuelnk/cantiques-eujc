@@ -11,7 +11,7 @@ if ('serviceWorker' in navigator) {
   } else {
     // En production : on enregistre normalement
     window.addEventListener('load', () => {
-      navigator.serviceWorker.register('sw.js', { scope: './' })
+      navigator.serviceWorker.register('/sw.js', { scope: '/' })
         .then(reg => console.log('✅ SW enregistré :', reg.scope))
         .catch(err => console.warn('⚠️ SW échec :', err));
     });

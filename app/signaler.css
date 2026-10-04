@@ -674,3 +674,10 @@ html.theme-dark .report-btn:disabled {
   color: rgba(255, 255, 255, 0.65) !important;
   border: 1px solid rgba(255, 255, 255, 0.20) !important;
 }
+
+/* === iOS safe-area (encoche / Dynamic Island) === */
+@supports (padding: env(safe-area-inset-top)) {
+  .report-header {
+    padding-top: calc(12px + env(safe-area-inset-top, 0px));
+  }
+}

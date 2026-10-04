@@ -431,3 +431,10 @@ button {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+/* === iOS safe-area (encoche / Dynamic Island) === */
+@supports (padding: env(safe-area-inset-top)) {
+  .hymns-header {
+    padding-top: calc(0px + env(safe-area-inset-top, 0px));
+  }
+}
