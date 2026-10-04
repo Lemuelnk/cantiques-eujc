@@ -1,0 +1,311 @@
+{
+  "schema_version": "1.0",
+  "corpus_status": "review",
+  "taxonomy": {
+    "domain": "lessons",
+    "category_id": "lesson-10",
+    "category_label": "Départ d’Israël pour l’Égypte",
+    "lesson_id": "lesson-10",
+    "lesson_label": "Leçon 10 — Départ d’Israël pour l’Égypte"
+  },
+  "source": {
+    "file": "chants_de_moise.html"
+  },
+  "hymns": [
+    {
+      "schema_version": "1.0",
+      "id": "cedfb693-5840-5f8c-a46b-d354b906e1e4",
+      "title": "BWANA KANENA WATU WANGU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "f4d818be-bfda-561d-b237-29c5c0160c3e",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "BWANA KANENA WATU WANGU",
+          "source": {
+            "file": "chants_de_moise.html",
+            "position": 1,
+            "number": "93",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-10",
+            "category_label": "Départ d’Israël pour l’Égypte",
+            "lesson_id": "lesson-10",
+            "lesson_label": "Leçon 10 — Départ d’Israël pour l’Égypte"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Bwana kanena watu wangu wanateswa, Musa ukawatoe huko misri ¨Wanenda katika muji (muji) ni liowahidia inchi iyo ya furaha ya jehova ¨2x Musa, Musa, Musa tuna tabika tupe maji ya kunywa tazama shindo la Farao, jazareni wajoli tupo ndani ya kibofu tupo ndani ya baba aleluya na yeye ndani mwetu."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Yoyoyo buatafunae kunde ni miongoni mwetu¨2x"
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Ukijesabia kuwa mu kisto, bulevi nabo aujaacha, ila unadanganya watu ni kumucha mungu.",
+                "- Ukijesabia kuwa mwaminifu, bulozi nabo aujaacha"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "ila unadanganya watu ni kumucha mungu. (yoyoyo) buatafunae kunde ni miongoni mwetu."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "a8b0518b-b311-556d-a36e-8c589ae995f0",
+      "title": "MUNGU WA MUSA UTUKARIBIE LEO",
+      "status": "review",
+      "versions": [
+        {
+          "id": "6b6c93fc-69b2-5e12-8cff-46cbd71df686",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "MUNGU WA MUSA UTUKARIBIE LEO",
+          "source": {
+            "file": "chants_de_moise.html",
+            "position": 2,
+            "number": "94",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-10",
+            "category_label": "Départ d’Israël pour l’Égypte",
+            "lesson_id": "lesson-10",
+            "lesson_label": "Leçon 10 — Départ d’Israël pour l’Égypte"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Mungu wa Musa utukaribie leo, ewe mungu wa baba sisi tumesongwa sana ¨ Farao na majeshi yake wametusonga vikali ¨2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Kweli kweli ewe Musa wa baba, tumesongwa sana bahari ni mbele yetu."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "Watoto wangu wamekufa mu jangwa Tafazali tunge baki mu misri Tafazali tunge kufa mu misri Musa muzazi akapata uchungu akaenda kuomba, kuomba mungu baba akapinga magoti kuomba mungu baba. Mungu naye akamujibu musa, ¨ Upige bakora mu maji wote wa vuke inhi kavu ¨2x Israeli wakapita wote Farao wakakufa wote wana watukuze bwana."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "a03a083f-fdeb-5489-8855-c97c34e33a36",
+      "title": "MUTU MWENGINE ALIKUWA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "9801bd89-9977-5fb2-af33-70a7e3d7a94e",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "MUTU MWENGINE ALIKUWA",
+          "source": {
+            "file": "chants_de_moise.html",
+            "position": 3,
+            "number": "95",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-10",
+            "category_label": "Départ d’Israël pour l’Égypte",
+            "lesson_id": "lesson-10",
+            "lesson_label": "Leçon 10 — Départ d’Israël pour l’Égypte"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Mutu mwengine alikuwa Musa muteule kwa kwanza wana isrzeli njiani, mufalme akawapa hekima akawafanyia mema akafurahisha wajoli aliokuwa nao hawali."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Kuku vifaranga usiviache jehova mungu wasije kushikwa wana kuko nyama."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Eh mungu: wasije kushikwa wana kuko nyama",
+                "- Vifaranga wako Hakida mufalme yesu twende mbele (twende mbele) na wana wachanga mungu awenasi daima, daima mungu awenasi, daima, daima milele."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "a8006729-fa8f-5b36-9e27-d3a783a80b59",
+      "title": "MUNGU KAMWAMBIA MUSA MUTUMISHI WANGU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "25ef9e4c-9e32-51a4-885b-5d3084f2a6f5",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "MUNGU KAMWAMBIA MUSA MUTUMISHI WANGU",
+          "source": {
+            "file": "chants_de_moise.html",
+            "position": 4,
+            "number": "96",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-10",
+            "category_label": "Départ d’Israël pour l’Égypte",
+            "lesson_id": "lesson-10",
+            "lesson_label": "Leçon 10 — Départ d’Israël pour l’Égypte"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Mungu kamwambwa Musa mutumishi wangu (2x) (Eh musa) chukuwa israeli uwapeleke kanana (Eh musa ) ishara nyingi ni kwako utamonesha Farao."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Mapigo ya chawa",
+                "ishara nyingi ni kwako utamonesha Farao",
+                "- Mapigo ya radi",
+                "- Mapigo ya zige"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Bwana akamwambia Musa ewe Musa, Musa mulawi toka wende kanana"
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Ukaokowe watu: Musa ewe Musa, Musa mulawi toka wende kanana",
+                "- Ukawatoshe misri",
+                "- Ukawavushe bahari"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Musa katazama uso wa Farao ¨2x ¨ Musa kakimbia misri bwana karudisha musa kwa Farao¨2x",
+                "- **Audio source present:** `Mungu Kamwambia Musa.mp3`"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "5197a1e9-b4ae-5e7a-bec7-214fb74d3a63",
+      "title": "EH WAJOLI MIMI NDIMI MU KRISTU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "d06d814f-6eae-5fbb-8763-1eed87e747c1",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "EH WAJOLI MIMI NDIMI MU KRISTU",
+          "source": {
+            "file": "chants_de_moise.html",
+            "position": 5,
+            "number": "97",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-10",
+            "category_label": "Départ d’Israël pour l’Égypte",
+            "lesson_id": "lesson-10",
+            "lesson_label": "Leçon 10 — Départ d’Israël pour l’Égypte"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Eh ee wajoli mimi ndimi mukristu uzima huu ni nao nita utautairi je?",
+                "- Eh ee wajoli mimi ndimi mukristu mwana huu ninaye nitamutairi je."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "( Tahiri mwana ) Eh ee wajoli sikilizeni. 2x",
+                "jambo lilifanya Sipora alipo elekea nyumbani mwa kulala kuwageni jehova alitaka kumuwa Sipora kachukua jiwe katahiri mwana ngovi ikamwangukia Musa miguuni",
+                "Ewe tukuza mungu wa uzima akilini mwako ewe chunga hekima kwake mungu wa uzima tumufanie uduma.2x",
+                "– Kutahiri ni alama ya agano letu na bwana kama alivio fanya jehova na babu zetu Ibrahimu kwa kutahiriwa kila mutu miongoni mwetu sharti apate kutahiriwa, ata akinunuliwa kwa feza sharti apate kutahiriwa, (kila mume miongoni mwetu, na kila muke miongoni mwetu sharti apate kutahiriwa.)",
+                "- Ilipotimia siku, siku iyo yanane ya kumutahiri yesu wakenda naye hekaluni kwa kumutahiri Simoni kamuchukuwa mikononi akamwimidi mufalme ana akashukuru jehova katabiri huhru utaokuja katika kristo."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    }
+  ]
+}

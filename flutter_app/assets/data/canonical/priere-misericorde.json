@@ -1,0 +1,275 @@
+{
+  "schema_version": "1.0",
+  "corpus_status": "review",
+  "taxonomy": {
+    "domain": "prayer",
+    "category_id": "priere-misericorde",
+    "category_label": "Cantiques de miséricorde",
+    "lesson_id": null,
+    "lesson_label": null
+  },
+  "source": {
+    "file": "chants_de_rehema.html"
+  },
+  "hymns": [
+    {
+      "schema_version": "1.0",
+      "id": "ec60d354-43f4-5bdc-ab66-e2d536efd03b",
+      "title": "YESU ALITAKASA MIOYO",
+      "status": "review",
+      "versions": [
+        {
+          "id": "e2c4586d-1f98-5c00-858b-9816d1e78e8b",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "YESU ALITAKASA MIOYO",
+          "source": {
+            "file": "chants_de_rehema.html",
+            "position": 1,
+            "number": "1",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-misericorde",
+            "category_label": "Cantiques de miséricorde",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Yesu, yesu, yesu ee \"alitakasa mioyo\" 2X"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "kweli, kweli ¨Bwana hangelikuwako twa weza kutabika 2x"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Ewe mutu, ewe mutu wee uje leo",
+                "utakasiwe kweli. Roho, roho mwema ee uje leo uingie nafsini e"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "e935a675-39e2-58bd-94fc-04055214b295",
+      "title": "BABA SAFISHA MOYO ROHO AINGIE",
+      "status": "review",
+      "versions": [
+        {
+          "id": "ee4f0c7b-835c-5eaa-b1e5-41b610783a88",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "BABA SAFISHA MOYO ROHO AINGIE",
+          "source": {
+            "file": "chants_de_rehema.html",
+            "position": 2,
+            "number": "2",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-misericorde",
+            "category_label": "Cantiques de miséricorde",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Baba safisha moyo roho aingie, e takasa,  takasa",
+                "moyo, ginsi usafishavyo koti takasa, takasa moyo.",
+                "- Mama safisha moyo roho aingie e takasa,",
+                "takasa moyo ginsi usafishavyo kikwembe takasa, takasa moyo ginsi usafishavio  blouse.",
+                "- Kaka safisha moyo roho aingie e takasa, takasa moyo ginsi usafishavyo shati takasa, takasa moyo ginsi usafishavyo",
+                "pantalon."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "991939ef-7693-5efe-82c7-65f406fb14db",
+      "title": "JEHOVA MUNGU EH EE MUNGU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "7881de0f-6e2d-5632-a090-1a0a46f63c69",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "JEHOVA MUNGU EH EE MUNGU",
+          "source": {
+            "file": "chants_de_rehema.html",
+            "position": 3,
+            "number": "447",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-misericorde",
+            "category_label": "Cantiques de miséricorde",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Jehova mungu eh ee mungu , mungu mumbaji eh ee mungu ¨Ukihukumu watu vikali hivi nani atakae simama duniani ¨2x",
+                "Yesu wa mungu eh ee yesu , mwana wa mungu eh ee yesu , yesu ¨Kwa rehema yako yesu wangu kawokoa watu duniani ¨2x",
+                "Roho damilifu eh ee roho , roho mufariji eh ee roho kwa neema yako mwema kafariji watu duniani."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "5102ee1b-446d-5069-af17-4e29a5db5c11",
+      "title": "MUNGU WANGU , MUNGU WANGU EWE MUNGU WA MABABU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "96fa9367-788e-5366-8220-c9ddd849d8d6",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "MUNGU WANGU , MUNGU WANGU EWE MUNGU WA MABABU",
+          "source": {
+            "file": "chants_de_rehema.html",
+            "position": 4,
+            "number": "501",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-misericorde",
+            "category_label": "Cantiques de miséricorde",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Mungu wangu, mungu wangu ewe mungu wa mababu ¨Ni metubu zambi zangu kwako , kwako mungu wa rehema ¨2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Kweli kweli ewe mungu wa rehema ameja rehema na tena na kweli nyingi.",
+                "Sasa leo ni mejuta kwa yale niliyo ya fanya na kiri sitarudi tena kuya tenda duniani."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "-Na ulozi wangu",
+                "-Na uchawi wangu"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "a4a370cc-a7df-5609-be84-3b9f37ff29f6",
+      "title": "NINA TUBU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "77e250bc-dc3a-5511-829b-346b53e73841",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "NINA TUBU",
+          "source": {
+            "file": "chants_de_rehema.html",
+            "position": 5,
+            "number": "152",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "prayer",
+            "category_id": "priere-misericorde",
+            "category_label": "Cantiques de miséricorde",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Nina tubu mimi nipate uzima bwana ni metoa vitu viangu viote uniokoe mfalme chukuwa matajiri nipate uzima wa milele."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Bwana mungu ni metoa ee nimetoa na",
+                "zaka ni pate uzima wa milele (toa basi)"
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Nimetoa na ya kila siku nipate uzima wa milele - Ni metoa na ya upendo - Ni metoa na ya haadi Naomboleza mimi nipate",
+                "raha, bwana unirehumu baba ninyakuwe mbinguni, uniteuwe bwana nipate kuku Hudumia. Nauzunika mimi nipate uzima¨2x bwana ni metoa vitu viangu viote ni vya bure via",
+                "nikosesha uzima sita virudia tena."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -22,9 +22,11 @@
         {
           "id": "b8eb4a57-7d37-484f-ad86-fa662d042b4f",
           "language": {
-            "code": null,
-            "label": null,
-            "status": "uncertain"
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto",
+            "score": 16
           },
           "title": "APO MWANZO",
           "source": {
@@ -90,9 +92,11 @@
         {
           "id": "5342ec6c-df41-45f3-be6f-2512cda0f228",
           "language": {
-            "code": null,
-            "label": null,
-            "status": "uncertain"
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto",
+            "score": 14
           },
           "title": "BWANA MUNGU EH MUMBAJI WANGU",
           "source": {
@@ -160,9 +164,11 @@
         {
           "id": "063c0780-9c84-45f2-b31b-c8b79496242e",
           "language": {
-            "code": null,
-            "label": null,
-            "status": "uncertain"
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto",
+            "score": 14
           },
           "title": "NITAZAMAPO HUDUMA ULIOFANYA MUNGU",
           "source": {
@@ -226,9 +232,11 @@
         {
           "id": "4e436c8e-45f7-4060-bda2-eb9f6d66539d",
           "language": {
-            "code": null,
-            "label": null,
-            "status": "uncertain"
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto",
+            "score": 8
           },
           "title": "ANASA WA DUNIA",
           "source": {
@@ -279,9 +287,11 @@
         {
           "id": "bb417759-d707-48f3-a427-4d02bcd630d5",
           "language": {
-            "code": null,
-            "label": null,
-            "status": "uncertain"
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto",
+            "score": 6
           },
           "title": "MUNGU ALIANZA KAZI",
           "source": {
@@ -336,9 +346,11 @@
         {
           "id": "6e385de5-fc9b-487a-84f8-2fe87e7fa91d",
           "language": {
-            "code": null,
-            "label": null,
-            "status": "uncertain"
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto",
+            "score": 9
           },
           "title": "ALIPO ANZA MUNGU HUDUMA",
           "source": {
@@ -390,9 +402,11 @@
         {
           "id": "2902a671-53f8-42a3-ae66-38e4c908c3fc",
           "language": {
-            "code": null,
-            "label": null,
-            "status": "uncertain"
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto",
+            "score": 8
           },
           "title": "HUDUMA ZILIANZA KATIKA MBINGU",
           "source": {
@@ -455,9 +469,11 @@
         {
           "id": "f1471986-a84b-4226-a153-4a99a8225cfa",
           "language": {
-            "code": null,
-            "label": null,
-            "status": "uncertain"
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto",
+            "score": 6
           },
           "title": "TWAKUSHUKURU EH MUNGU WANGU",
           "source": {
@@ -516,9 +532,11 @@
         {
           "id": "7658bc20-32c4-4b22-b896-1c7417a8b429",
           "language": {
-            "code": null,
-            "label": null,
-            "status": "uncertain"
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto",
+            "score": 14
           },
           "title": "TUWA HUDUMU HABARI MAALUMU",
           "source": {
@@ -575,9 +593,11 @@
         {
           "id": "1d1bce6c-2b00-4f7a-b799-42ecc7080903",
           "language": {
-            "code": null,
-            "label": null,
-            "status": "uncertain"
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto",
+            "score": 7
           },
           "title": "WAKATI MUNGU YOYOYO ALIPO UMBA",
           "source": {
@@ -636,9 +656,11 @@
         {
           "id": "9566ceb9-ad21-42b6-bd9f-d69596c1bd9f",
           "language": {
-            "code": null,
-            "label": null,
-            "status": "uncertain"
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto",
+            "score": 6
           },
           "title": "KWANGUKA KWA JOKA",
           "source": {
@@ -695,9 +717,11 @@
         {
           "id": "891c01db-1709-4fa4-bc01-6b07e202601f",
           "language": {
-            "code": null,
-            "label": null,
-            "status": "uncertain"
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto",
+            "score": 10
           },
           "title": "FURAHA MBINGUNI",
           "source": {

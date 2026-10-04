@@ -1,0 +1,430 @@
+{
+  "schema_version": "1.0",
+  "corpus_status": "review",
+  "taxonomy": {
+    "domain": "lessons",
+    "category_id": "lesson-23",
+    "category_label": "L'office du temple",
+    "lesson_id": "lesson-23",
+    "lesson_label": "Leçon 23 — L'office du temple"
+  },
+  "source": {
+    "file": "chants_de_sac_du_coheleth.html"
+  },
+  "hymns": [
+    {
+      "schema_version": "1.0",
+      "id": "b3ff29e3-8669-57a4-b599-4ef2115c736a",
+      "title": "MUNGU KAMWAMBIA EZEKIELI",
+      "status": "review",
+      "versions": [
+        {
+          "id": "fc1f2b7a-5edf-5581-a9d1-5ce777d68b28",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "MUNGU KAMWAMBIA EZEKIELI",
+          "source": {
+            "file": "chants_de_sac_du_coheleth.html",
+            "position": 1,
+            "number": "342",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-23",
+            "category_label": "L'office du temple",
+            "lesson_id": "lesson-23",
+            "lesson_label": "Leçon 23 — L'office du temple"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Mungu kamwambia Ezekieli, Ezekieli chukuwa ngombo ule kula ngombo ninalo kupa mwana wa watu uwe mutumishi wangu"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Kweli kweli Ezekieli akanena nipe ngombo eh baba niwe mutumishi wako."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Ngombo hii mafundisho la nipe ngombo eh baba niwe mutumishi kweli.",
+                "- Mimi natarajia neno...",
+                "- Ngombo hili mafundisho ya roho...",
+                "- Ngombo hili neno la rohoni...",
+                "- Nitafanya uduma..."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Alipo tumia gombo ile ilikuwa utamu kinywani Bali tumboni mwake uchungu Ezekieli akavumilia"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Ngombo ni neno la mungu baba unapo sikia ni furaha bali kwa kulitimiza ni ngumu neno hili shida kwa ziki na mambo."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Nanyi watu walio mu yesu shikeni shauri lake musiwe wasikiaji wa neno tu wajoli nyinyi awa muwe watenda wa neno"
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Waminifu wa neno musiwe wasikiaji wa neno tu wajoli nyinyi awa muwe watenda wa neno",
+                "- Enyi wafwatao wa neno...",
+                "- Kweli nyinyi awa..."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "ce5d85e9-a808-5063-a432-f06f4c212c91",
+      "title": "SAUTI KUTOKA MBINGUNI",
+      "status": "review",
+      "versions": [
+        {
+          "id": "654e216b-3a42-56b0-91c5-aa4a134ceb58",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "SAUTI KUTOKA MBINGUNI",
+          "source": {
+            "file": "chants_de_sac_du_coheleth.html",
+            "position": 2,
+            "number": "345",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-23",
+            "category_label": "L'office du temple",
+            "lesson_id": "lesson-23",
+            "lesson_label": "Leçon 23 — L'office du temple"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Sauti kutoka mbinguni, sauti unena hivio ¨Nani atenda duniani kuokowa watu"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Enyi wajoli uduma huo, uduma huo muna uzuni mapigo mateso mengi yo kwa kuokowa watu"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Wengi wakaja kwa kuokowa watu duniani wakapata mateso mengi sana tumwamini mwana wa mungu tupate uzima."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Ni wepesi kunena ila kutenda ni vigumu (shangwe ) shangwe shangwe yo mbinguni duniani kwajili ya mwana wa mungu kujitolea kuokowa watu."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "62257804-fb21-5495-ab57-f2179c58da3c",
+      "title": "EFILE WATAJILE",
+      "status": "review",
+      "versions": [
+        {
+          "id": "f370c8a9-03b1-5f12-81a3-6f2d61f308a0",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "EFILE WATAJILE",
+          "source": {
+            "file": "chants_de_sac_du_coheleth.html",
+            "position": 3,
+            "number": "346",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-23",
+            "category_label": "L'office du temple",
+            "lesson_id": "lesson-23",
+            "lesson_label": "Leçon 23 — L'office du temple"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Efile watajile bubi bubaji pa senga ¨ayawaitagile bwingi bwa ba mikeilo¨2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "¨Kutompola kwa yeso lele yayo aya yolele senga ma lwayo ¨2x"
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Yesu ne tshifulu tsha miba lele yayo aya yolele sengama lwayo.",
+                "- Kulongenji kungende lele\t¨\t¨\t¨\t¨\t¨\t¨"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Anani mwikeilo huno pakwenda pa senga wajakafwila bantu bwa bubi bubaji pa senga."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Yesu na mubaluile di aya yo ayayo ¨Amigende pa senga waja kafwila bantu ¨2x"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "e210e600-131c-51e5-84cc-0f71ffaa4ce8",
+      "title": "ALIKUWA MUTU YOANE",
+      "status": "review",
+      "versions": [
+        {
+          "id": "c0c54235-cb64-5096-8886-c18701d26f46",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "ALIKUWA MUTU YOANE",
+          "source": {
+            "file": "chants_de_sac_du_coheleth.html",
+            "position": 4,
+            "number": "347",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-23",
+            "category_label": "L'office du temple",
+            "lesson_id": "lesson-23",
+            "lesson_label": "Leçon 23 — L'office du temple"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Alikuwa mutu Yoane alitumwa na bwana kwa kufanya kazi ya habari njema kwa kutengeneza njia ya yesu mwana wa mungu Herode kafunga",
+                "Yoane kwani alimwambia wewe si vema uchukuwe muke wa ndugu yako hekima ya duniani usishiriki nayo ni mauti."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "- Ila kwa kula na kunywa Yoane yoyoyo Yoane akafa kwajili ya Herodia Yoane yoyoyo Yoane akafa",
+                "- Ila kwa kucheza kwake Yoane yoyoyo Yoane akafa."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Yoane yupo gerezani habari ya Yesu ikamujia akatuma wafwasi il iwa muulize Yesu naye kawajibu wafwasi nende mu mwambie Yoane: Vipofu",
+                "uona, Viwete utembea, Wenye ukoma utakaswa, Viziwi nao usikia, wafu wamefufuliwa harifu watu wengine neno la Mungu."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Usitazame mujoli wako weko na kwarifu wewe usiwe nawe Herode amekwisha funga Yoane alietumwa na mungu wa uzima kwa kumudumia yeye",
+                "tazama rafiki yako ndie yule balato usiishi na wewe kwajili ya chakula kerubi wa mufalume wa bwana ata kuazibu araka na vidudu vita",
+                "kukula."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "6cfaccdd-0aa7-595b-80cf-b75c7a64a7c4",
+      "title": "DII DIA YEPOWA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "f18bb4c0-c1b7-5785-95e7-c3a94123a372",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "DII DIA YEPOWA",
+          "source": {
+            "file": "chants_de_sac_du_coheleth.html",
+            "position": 5,
+            "number": "348",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-23",
+            "category_label": "L'office du temple",
+            "lesson_id": "lesson-23",
+            "lesson_label": "Leçon 23 — L'office du temple"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Dii dia yepowa diakala kudi Yona, ndaku muninawe (ndaye mu ninawe) bwa bubi bwa bantu bwa kutamba kumesu anyi ngani wanyi wa bambile",
+                "yoyo wakujilongolola."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Bakela menji bantu aba bakela shobwe, shobwe ya kakwata mwambi wa nzambi ye kelekele shobwe ya",
+                "ka kwata mwambi.",
+                "- Shobwe inghei shobwe ikakwata mwambi wa nzambi yekelekele shobwe ya kakwata mwambi.",
+                "- Shobwe ya bandi  ¨\t¨\t¨\t¨\t¨\t¨",
+                "- Shobwe yoyoyo\t¨\t¨\t¨\t¨\t¨\t¨"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Ashisha ba kamukonka twetu kukwenzele tshinyi bwa mayi manene matalala nganyi wa bambile yoyo bwa kudji longolola."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Nungumbule nugele mu mayi tshipupu tshilwalwa yoyoyo pa bwalu bwanyi nganyi we nganyi wanyi wa bambile yoyo bwa kudji longolola."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "ea4d05e1-181f-5fee-9fea-97bba8970169",
+      "title": "YOANE ALIKUWA MUTANGULIZI",
+      "status": "review",
+      "versions": [
+        {
+          "id": "0eb715b0-c726-5efa-b5af-263b501010b1",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "YOANE ALIKUWA MUTANGULIZI",
+          "source": {
+            "file": "chants_de_sac_du_coheleth.html",
+            "position": 6,
+            "number": "359",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-23",
+            "category_label": "L'office du temple",
+            "lesson_id": "lesson-23",
+            "lesson_label": "Leçon 23 — L'office du temple"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Yoane alikuwa mutangulizi wa yesu ¨Akapaza sauti yoyoyo mutengeneze mioyo ¨2x ah! ah"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Ajapo usiku wala akija muchana tuongojeni wote yoyoyo saa ijayo mufalme en ! en tuongojeni wote yoyoyo saa ijayo mufalme ah !ah"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "2. Yoane alikuwa amevaa singa za ngamia akila asali yoyoyo pia nzige ah ! ah."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "3. Tuu karibu ili twende kwa bwana wajoli wangu yoyoyo mutengeneze mioyo ah ! ah"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "4. Nali wambia juu ya kiti cha mungu enyi wajoli wangu ah ! ah kiti kilicho kimbiawa na mbingu dunia nacho ni mbele yenu ah! ah. Acheni",
+                "uzushi nyumbani mwa bwana ¨Ili sauti ikae mioyo ni mwenu ah ! ah ¨2x"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "5.\tKusogea karibu nyumbani mwa Mungu, kuna shinda sadaka ya kutolea tu ah ! ah."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    }
+  ]
+}
