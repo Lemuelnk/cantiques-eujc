@@ -51,7 +51,7 @@ function countBlocks(version, type) {
 
 async function loadCanonicalLesson(categoryId = 'lesson-1') {
   const slug = CANONICAL_FILE_MAP[categoryId] || categoryId;
-  const url = `data/canonical/${slug}.json`;
+  const url = `/data/canonical/${slug}.json`;
   const response = await fetch(url, { cache: 'no-store' });
 
   if (!response.ok) {
