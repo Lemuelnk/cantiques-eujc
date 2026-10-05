@@ -187,6 +187,7 @@ document.querySelectorAll('.quick-card').forEach(button => {
     if (action === 'lecons')   { window.location.href = 'lessons.html';   return; }
     if (action === 'dimanche') { window.location.href = 'dimanche.html';  return; }
     if (action === 'priere')   { window.location.href = 'priere.html';    return; }
+    if (action === 'a-classer') { window.location.href = 'a-classer.html'; return; }
   });
 });
 

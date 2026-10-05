@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "corpus_status": "review",
+  "taxonomy": {
+    "domain": "a-classer",
+    "category_id": "a-classer-autres",
+    "category_label": "Autres langues",
+    "lesson_id": "a-classer-autres",
+    "lesson_label": "Autres langues"
+  },
+  "source": {
+    "file": null
+  },
+  "hymns": []
+}

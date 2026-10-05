@@ -23,7 +23,13 @@ const CANONICAL_FILE_MAP = {
   'lesson-23': 'lesson-23-temple',
   'lesson-24': 'lesson-24-elie-elisee',
   'lesson-25': 'lesson-25-daniel',
-  'lesson-26': 'lesson-26-job'
+  'lesson-26': 'lesson-26-job',
+  // Cantiques à classer (non classés thématiquement)
+  'a-classer-francais': 'a-classer-francais',
+  'a-classer-swahili':  'a-classer-swahili',
+  'a-classer-tshiluba': 'a-classer-tshiluba',
+  'a-classer-lingala':  'a-classer-lingala',
+  'a-classer-autres':   'a-classer-autres'
 };
 
 function normalizeText(value) {

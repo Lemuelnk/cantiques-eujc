@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "corpus_status": "review",
+  "taxonomy": {
+    "domain": "a-classer",
+    "category_id": "a-classer-lingala",
+    "category_label": "Cantiques en lingala",
+    "lesson_id": "a-classer-lingala",
+    "lesson_label": "Cantiques en lingala"
+  },
+  "source": {
+    "file": null
+  },
+  "hymns": []
+}
