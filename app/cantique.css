@@ -162,6 +162,8 @@ body {
   font-size: var(--hymn-font-size);
   line-height: 1.65;
   color: var(--hymn-text);
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .lyric-block {
@@ -192,6 +194,8 @@ body {
   text-justify: inter-word;
   hyphens: auto;
   -webkit-hyphens: auto;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 /* --- Couplet numéroté (source_block / verse) --- */

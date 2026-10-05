@@ -95,17 +95,45 @@ function getShareFont() {
 async function waitFonts() {
   if (!document.fonts || !document.fonts.load) return;
   try {
-    await Promise.all([
-      document.fonts.load('700 16px "Kalam"'),
-      document.fonts.load('italic 16px "Kalam"'),
-      document.fonts.load('16px "Open Sans"'),
-      document.fonts.load('700 16px "Open Sans"'),
-      document.fonts.load('16px "Lora"'),
-      document.fonts.load('700 16px "Lora"'),
-      document.fonts.load('16px "Atkinson Hyperlegible"'),
-      document.fonts.load('700 16px "Atkinson Hyperlegible"')
-    ]);
+    // Charger les polices aux tailles REELLES utilisees dans le canvas
+    // + poids 500 (medium) qui est utilise pour le corps
+    const sizes = [16, 22, 24, 30, 39];
+    const loads = [];
+    for (const size of sizes) {
+      loads.push(
+        document.fonts.load(size + 'px "Open Sans"'),
+        document.fonts.load('500 ' + size + 'px "Open Sans"'),
+        document.fonts.load('700 ' + size + 'px "Open Sans"'),
+        document.fonts.load(size + 'px "Lora"'),
+        document.fonts.load('500 ' + size + 'px "Lora"'),
+        document.fonts.load('700 ' + size + 'px "Lora"'),
+        document.fonts.load(size + 'px "Atkinson Hyperlegible"'),
+        document.fonts.load('700 ' + size + 'px "Atkinson Hyperlegible"'),
+        document.fonts.load('700 ' + size + 'px "Kalam"')
+      );
+    }
+    await Promise.all(loads);
     await document.fonts.ready;
+
+    // Sanity check : s'assurer que les polices sont bien APPLIQUEES
+    // sur un contexte canvas de test avant de proceder
+    const test = document.createElement('canvas').getContext('2d');
+    const required = [
+      '22px "Open Sans"',
+      '500 22px "Open Sans"',
+      '500 22px "Lora"',
+      '700 22px "Kalam"'
+    ];
+    let attempts = 0;
+    while (attempts < 10) {
+      const allReady = required.every(f => document.fonts.check(f));
+      if (allReady) break;
+      await new Promise(r => setTimeout(r, 30));
+      attempts++;
+    }
+    if (attempts > 0) {
+      console.log('[ShareImage] Fonts ready after ' + attempts + ' attempts');
+    }
   } catch (_) { /* ignore */ }
 }
 
@@ -121,13 +149,17 @@ function getBlocks(version) {
 
 function wrapText(ctx, text, maxWidth) {
   if (maxWidth <= 0) return [String(text || '')];
+  // Buffer de securite : marge de 5% pour absorber les imprecisions
+  // de mesure entre navigateurs (police pas encore tout a fait chargee,
+  // differences de rendu Chrome/Safari/Firefox...)
+  const safeWidth = Math.max(20, Math.floor(maxWidth * 0.95));
   const words = String(text == null ? '' : text).split(/\s+/);
   const lines = [];
   let current = '';
 
   for (const word of words) {
     const candidate = current ? current + ' ' + word : word;
-    if (ctx.measureText(candidate).width <= maxWidth) {
+    if (ctx.measureText(candidate).width <= safeWidth) {
       current = candidate;
       continue;
     }
@@ -138,7 +170,7 @@ function wrapText(ctx, text, maxWidth) {
 
     for (const char of word) {
       const test = fragment + char;
-      if (fragment && ctx.measureText(test).width > maxWidth) {
+      if (fragment && ctx.measureText(test).width > safeWidth) {
         lines.push(fragment);
         fragment = char;
       } else {
@@ -241,7 +273,7 @@ function prepareLayout(ctx, hymn, version, width, scale) {
     if (!block.lines.length) continue;
 
     if (block.type === 'refrain') {
-      setFont(ctx, '500', bodySize, F.body);
+      setFont(ctx, '600', bodySize, F.body);
       const lines = measureLines(ctx, block.lines, contentWidth - Math.round(38 * scale));
       const labelHeight = Math.round(refrainLabelSize * 1.8);
       const paddingY = Math.round(15 * scale);
@@ -267,7 +299,7 @@ function prepareLayout(ctx, hymn, version, width, scale) {
     // Un verse n'affiche un numéro que si la donnée en fournit un.
     const hasExplicitNumber = block.type === 'verse' && block.number !== null;
     const numberGutter = hasExplicitNumber ? Math.round(46 * scale) : 0;
-    setFont(ctx, '500', bodySize, 'F.body');
+    setFont(ctx, '600', bodySize, 'F.body');
     const lines = measureLines(ctx, block.lines, contentWidth - numberGutter);
     elements.push({
       type: block.type, number: hasExplicitNumber ? block.number : null,
@@ -283,10 +315,23 @@ function prepareLayout(ctx, hymn, version, width, scale) {
   };
 }
 
-function drawLines(ctx, lines, x, y, lineHeight) {
+function drawLines(ctx, lines, x, y, lineHeight, maxWidth) {
+  // Garde-fou : on remesure CHAQUE ligne sur le ctx reel avant de dessiner.
+  // Si elle depasse la largeur dispo (mesure imprecise, police chargee
+  // differemment...), on la redecoupe en place.
+  const limit = maxWidth ? Math.floor(maxWidth * 0.98) : 0;
+
   for (const line of lines) {
-    ctx.fillText(line, x, y);
-    y += lineHeight;
+    if (limit > 0 && ctx.measureText(line).width > limit) {
+      const sublines = wrapText(ctx, line, limit);
+      for (const sub of sublines) {
+        ctx.fillText(sub, x, y);
+        y += lineHeight;
+      }
+    } else {
+      ctx.fillText(line, x, y);
+      y += lineHeight;
+    }
   }
 }
 
@@ -452,9 +497,9 @@ function drawComposition(canvas, hymn, version, formatKey, themeKey) {
       setFont(ctx, '700', element.size, F.title);
       ctx.fillStyle = palette.title;
       ctx.textAlign = 'center';
-      drawLines(ctx, element.lines, centerX, element.y, Math.round(element.size * 1.22));
+      drawLines(ctx, element.lines, centerX, element.y, Math.round(element.size * 1.22), layout.contentWidth);
     } else if (element.type === 'language') {
-      setFont(ctx, '500', element.size, '"Open Sans", "Inter", sans-serif');
+      setFont(ctx, '600', element.size, '"Open Sans", "Inter", sans-serif');
       ctx.fillStyle = palette.muted;
       ctx.textAlign = 'center';
       ctx.fillText(element.text, centerX, element.y);
@@ -479,14 +524,14 @@ function drawComposition(canvas, hymn, version, formatKey, themeKey) {
       ctx.fillText('REFRAIN', layout.marginX, textY);
       textY += Math.round(element.labelSize * 1.8);
 
-      setFont(ctx, '500', element.size, F.body);
+      setFont(ctx, '600', element.size, F.body);
       ctx.fillStyle = palette.text;
-      drawLines(ctx, element.lines, layout.marginX, textY, element.lineHeight);
+      drawLines(ctx, element.lines, layout.marginX, textY, element.lineHeight, layout.contentWidth - 28);
     } else if (element.type === 'comment') {
       setFont(ctx, 'italic', element.size, F.body);
       ctx.fillStyle = palette.comment;
       ctx.textAlign = 'left';
-      drawLines(ctx, element.lines, layout.marginX, element.y, element.lineHeight);
+      drawLines(ctx, element.lines, layout.marginX, element.y, element.lineHeight, layout.contentWidth);
     } else {
       ctx.textAlign = 'left';
       if (element.number !== null) {
@@ -494,9 +539,9 @@ function drawComposition(canvas, hymn, version, formatKey, themeKey) {
         ctx.fillStyle = palette.title;
         ctx.fillText(element.number + '.', layout.marginX, element.y);
       }
-      setFont(ctx, '500', element.size, F.body);
+      setFont(ctx, '600', element.size, F.body);
       ctx.fillStyle = palette.text;
-      drawLines(ctx, element.lines, layout.marginX + element.numberGutter, element.y, element.lineHeight);
+      drawLines(ctx, element.lines, layout.marginX + element.numberGutter, element.y, element.lineHeight, layout.contentWidth - element.numberGutter);
     }
   }
 
@@ -535,7 +580,7 @@ function drawComposition(canvas, hymn, version, formatKey, themeKey) {
   ctx.fillText(SHARE_BRAND.tagline, layout.marginX + Math.round(52 * scale), footY + Math.round(2 * scale));
 
   // URL à droite
-  setFont(ctx, '500', Math.round(12 * scale), '"Open Sans", "Inter", sans-serif');
+  setFont(ctx, '600', Math.round(12 * scale), '"Open Sans", "Inter", sans-serif');
   ctx.fillStyle = palette.accent;
   ctx.textAlign = 'right';
   ctx.fillText(window.location.host || 'Cantiques EUJC', width - layout.marginX, footY);
