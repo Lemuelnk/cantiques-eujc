@@ -20,6 +20,7 @@ const SHARE_THEMES = {
   cream: {
     background: '#faf6ec',
     image: 'assets/share/themes/theme-cream.jpg',
+    logoVariant: 'dark',
     overlay: 'rgba(250, 246, 236, 0.60)',
     title: '#1e3a2e', text: '#1a241f', muted: '#5a6660', accent: '#a07a3d',
     accentLight: '#b8935a', refrain: 'rgba(184, 147, 90, 0.22)', comment: '#5a6660'
@@ -27,13 +28,15 @@ const SHARE_THEMES = {
   forest: {
     background: '#081f19',
     image: 'assets/share/themes/theme-forest.jpg',
+    logoVariant: 'white',
     overlay: 'rgba(8, 31, 25, 0.55)',
     title: '#faf6ec', text: '#f2ede1', muted: '#c8d4c9', accent: '#e4c37f',
     accentLight: '#f0dfb5', refrain: 'rgba(240, 223, 181, 0.18)', comment: '#c8d4c9'
   },
   midnight: {
     background: '#101820',
-    image: 'assets/share/themes/theme-night.jpg',
+    image: 'assets/share/themes/theme-midnight.jpg',
+    logoVariant: 'white',
     overlay: 'rgba(10, 15, 25, 0.62)',
     title: '#f7f4ed', text: '#f0ede4', muted: '#c5cbd2', accent: '#e4c37f',
     accentLight: '#f0dfb5', refrain: 'rgba(228, 195, 127, 0.20)', comment: '#c5cbd2'
@@ -41,6 +44,7 @@ const SHARE_THEMES = {
   botanical: {
     background: '#f1f3e8',
     image: 'assets/share/themes/theme-botanical.jpg',
+    logoVariant: 'dark',
     overlay: 'rgba(241, 243, 232, 0.62)',
     title: '#20382d', text: '#243128', muted: '#5e6b5e', accent: '#8c7144',
     accentLight: '#a8863a', refrain: 'rgba(115, 134, 107, 0.22)', comment: '#5e6b5e'
@@ -242,6 +246,7 @@ function drawLines(ctx, lines, x, y, lineHeight) {
 // Chargement des images de thème (async, mis en cache)
 // ============================================================
 const THEME_IMAGES = {};
+const THEME_LOGOS = {};
 
 function loadImage(src) {
   return new Promise((resolve, reject) => {
@@ -271,6 +276,21 @@ async function ensureThemeImage(themeKey, formatKey) {
     return null;
   }
 }
+
+// Charge le logo selon la variante du thème
+async function ensureLogo(themeKey) {
+  const variant = (SHARE_THEMES[themeKey] || {}).logoVariant || 'dark';
+  if (THEME_LOGOS[variant]) return THEME_LOGOS[variant];
+  const url = 'assets/share/logo/logo-share-' + variant + '.png';
+  try {
+    THEME_LOGOS[variant] = await loadImage(url);
+    return THEME_LOGOS[variant];
+  } catch (e) {
+    console.warn('[ShareImage]', e.message);
+    return null;
+  }
+}
+
 
 function drawImageCover(ctx, img, width, height) {
   const imgAspect = img.width / img.height;
@@ -344,16 +364,23 @@ function drawComposition(canvas, hymn, version, formatKey, themeKey) {
 
   // ---- Header discret (sans bande) ----
   const centerX = width / 2;
-  drawBookLogo(ctx, centerX, Math.round(58 * scale), Math.round(48 * scale), palette.accent);
+  const logoImg = THEME_LOGOS[palette.logoVariant || 'dark'];
+  const logoSize = Math.round(70 * scale);
+  if (logoImg) {
+    ctx.drawImage(logoImg, centerX - logoSize / 2, Math.round(30 * scale), logoSize, logoSize);
+  } else {
+    // Fallback : livre vectoriel
+    drawBookLogo(ctx, centerX, Math.round(58 * scale), Math.round(48 * scale), palette.accent);
+  }
 
-  setFont(ctx, '700', Math.round(27 * scale), '"Montserrat", "Inter", sans-serif');
+  setFont(ctx, '700', Math.round(24 * scale), '"Montserrat", "Inter", sans-serif');
   ctx.textAlign = 'center';
   ctx.fillStyle = palette.title;
-  ctx.fillText(SHARE_BRAND.name, centerX, Math.round(92 * scale));
+  ctx.fillText(SHARE_BRAND.name, centerX, Math.round(114 * scale));
 
-  setFont(ctx, 'italic', Math.round(14 * scale), '"Cormorant Garamond", Georgia, serif');
+  setFont(ctx, 'italic', Math.round(13 * scale), '"Cormorant Garamond", Georgia, serif');
   ctx.fillStyle = palette.muted;
-  ctx.fillText(SHARE_BRAND.tagline, centerX, Math.round(120 * scale));
+  ctx.fillText(SHARE_BRAND.tagline, centerX, Math.round(140 * scale));
 
   // Fine ligne décorative sous le header
   ctx.save();
@@ -361,8 +388,8 @@ function drawComposition(canvas, hymn, version, formatKey, themeKey) {
   ctx.globalAlpha = 0.4;
   ctx.lineWidth = Math.max(1, Math.round(1.4 * scale));
   ctx.beginPath();
-  ctx.moveTo(centerX - Math.round(72 * scale), Math.round(146 * scale));
-  ctx.lineTo(centerX + Math.round(72 * scale), Math.round(146 * scale));
+  ctx.moveTo(centerX - Math.round(72 * scale), Math.round(164 * scale));
+  ctx.lineTo(centerX + Math.round(72 * scale), Math.round(164 * scale));
   ctx.stroke();
   ctx.restore();
 
@@ -442,16 +469,21 @@ function drawComposition(canvas, hymn, version, formatKey, themeKey) {
   const footY = footerLineY + Math.round(38 * scale);
 
   // Logo mini à gauche
-  drawBookLogo(ctx, layout.marginX + Math.round(16 * scale), footY, Math.round(28 * scale), palette.accent);
+  if (logoImg) {
+    const footLogoSize = Math.round(36 * scale);
+    ctx.drawImage(logoImg, layout.marginX + Math.round(4 * scale), footY - footLogoSize / 2 + Math.round(4 * scale), footLogoSize, footLogoSize);
+  } else {
+    drawBookLogo(ctx, layout.marginX + Math.round(16 * scale), footY, Math.round(28 * scale), palette.accent);
+  }
 
   setFont(ctx, '600', Math.round(15 * scale), '"Montserrat", "Inter", sans-serif');
   ctx.fillStyle = palette.title;
   ctx.textAlign = 'left';
-  ctx.fillText(SHARE_BRAND.name, layout.marginX + Math.round(42 * scale), footY - Math.round(14 * scale));
+  ctx.fillText(SHARE_BRAND.name, layout.marginX + Math.round(52 * scale), footY - Math.round(14 * scale));
 
   setFont(ctx, 'italic', Math.round(12 * scale), '"Cormorant Garamond", Georgia, serif');
   ctx.fillStyle = palette.muted;
-  ctx.fillText(SHARE_BRAND.tagline, layout.marginX + Math.round(42 * scale), footY + Math.round(2 * scale));
+  ctx.fillText(SHARE_BRAND.tagline, layout.marginX + Math.round(52 * scale), footY + Math.round(2 * scale));
 
   // URL à droite
   setFont(ctx, '500', Math.round(12 * scale), '"Open Sans", "Inter", sans-serif');
@@ -491,13 +523,13 @@ window.ShareImage = {
   preloadThemes: async function(formatKey) {
     const fk = formatKey || '1:1';
     const keys = Object.keys(SHARE_THEMES);
-    await Promise.all(keys.map(k => ensureThemeImage(k, fk)));
-    console.log('[ShareImage] Themes precharges pour ' + fk);
+    await Promise.all(keys.map(k => Promise.all([ensureThemeImage(k, fk), ensureLogo(k)])));
+    console.log('[ShareImage] Themes + logos precharges pour ' + fk);
   },
   generate: async function(canvas, hymn, version, formatKey, themeKey) {
     const tk = themeKey || 'cream';
     const fk = formatKey || '1:1';
-    await ensureThemeImage(tk, fk);
+    await Promise.all([ensureThemeImage(tk, fk), ensureLogo(tk)]);
     drawComposition(canvas, hymn, version, fk, tk);
   },
   autoFormatFor: autoFormatFor,

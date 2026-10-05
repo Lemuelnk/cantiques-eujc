@@ -49,3 +49,23 @@
 .share-format{padding:9px 3px}
 .share-format strong{font-size:12px}
 .share-format small{font-size:9px;line-height:1.1}
+
+/* === Vignettes de thème : images 1:1 === */
+.theme-thumb{
+  display:block;
+  width:min(100%,58px);
+  aspect-ratio:1;
+  border-radius:11px;
+  object-fit:cover;
+  border:1px solid rgba(0,0,0,.10);
+  background:#eee;
+}
+
+/* === Canvas aperçu : coins arrondis === */
+.share-preview #share-image-canvas{
+  border-radius:14px;
+  overflow:hidden;
+}
+.share-preview{
+  border-radius:20px;
+}
