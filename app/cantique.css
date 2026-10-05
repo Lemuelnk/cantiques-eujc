@@ -188,6 +188,10 @@ body {
   margin: 0;
   font-family: var(--font-body);
   line-height: 1.6;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+  -webkit-hyphens: auto;
 }
 
 /* --- Couplet numéroté (source_block / verse) --- */

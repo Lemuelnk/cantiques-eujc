@@ -56,10 +56,57 @@ const SHARE_BRAND = {
   tagline: 'Le recueil dans votre poche'
 };
 
+// ============================================================
+// Systeme de polices pour l'image de partage
+// ============================================================
+// ============================================================
+// Systeme de polices pour l'image de partage
+// - Titres : Kalam (fixe, manuscrite)
+// - Corps  : herite de la police du lecteur (via window.preferences)
+// ============================================================
+const SHARE_TITLE_FONT   = '"Kalam", "Caveat", cursive';
+const SHARE_LABEL_FONT   = '"Kalam", cursive';
+const SHARE_TAGLINE_FONT = '"Kalam", cursive';
+
+const SHARE_BODY_FONTS = {
+  'system':    '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif',
+  'open-sans': '"Open Sans", "Inter", sans-serif',
+  'lora':      '"Lora", "Open Sans", serif',
+  'atkinson':  '"Atkinson Hyperlegible", "Open Sans", sans-serif'
+};
+
+function getShareFont() {
+  let pref = 'open-sans';
+  try {
+    if (window.preferences && typeof window.preferences.get === 'function') {
+      pref = window.preferences.get('font') || 'open-sans';
+    }
+  } catch (e) { /* fallback */ }
+  const body = SHARE_BODY_FONTS[pref] || SHARE_BODY_FONTS['open-sans'];
+  return {
+    title: SHARE_TITLE_FONT,
+    body: body,
+    label_font: SHARE_LABEL_FONT,
+    tagline: SHARE_TAGLINE_FONT,
+    key: pref
+  };
+}
+
 async function waitFonts() {
-  if (document.fonts && document.fonts.ready) {
-    try { await document.fonts.ready; } catch (_) {}
-  }
+  if (!document.fonts || !document.fonts.load) return;
+  try {
+    await Promise.all([
+      document.fonts.load('700 16px "Kalam"'),
+      document.fonts.load('italic 16px "Kalam"'),
+      document.fonts.load('16px "Open Sans"'),
+      document.fonts.load('700 16px "Open Sans"'),
+      document.fonts.load('16px "Lora"'),
+      document.fonts.load('700 16px "Lora"'),
+      document.fonts.load('16px "Atkinson Hyperlegible"'),
+      document.fonts.load('700 16px "Atkinson Hyperlegible"')
+    ]);
+    await document.fonts.ready;
+  } catch (_) { /* ignore */ }
 }
 
 function getBlocks(version) {
@@ -172,7 +219,8 @@ function prepareLayout(ctx, hymn, version, width, scale) {
   }
 
   const title = String((version && version.title) || (hymn && hymn.title) || '').trim();
-  setFont(ctx, '700', titleSize, '"Montserrat", "Inter", sans-serif');
+  const F = getShareFont();
+  setFont(ctx, '700', titleSize, F.title);
   const titleLines = wrapText(ctx, title, contentWidth);
   elements.push({ type: 'title', lines: titleLines, y: y, size: titleSize });
   y += titleLines.length * Math.round(titleSize * 1.22) + Math.round(12 * scale);
@@ -193,7 +241,7 @@ function prepareLayout(ctx, hymn, version, width, scale) {
     if (!block.lines.length) continue;
 
     if (block.type === 'refrain') {
-      setFont(ctx, '500', bodySize, '"Lora", "Open Sans", serif');
+      setFont(ctx, '500', bodySize, F.body);
       const lines = measureLines(ctx, block.lines, contentWidth - Math.round(38 * scale));
       const labelHeight = Math.round(refrainLabelSize * 1.8);
       const paddingY = Math.round(15 * scale);
@@ -207,7 +255,7 @@ function prepareLayout(ctx, hymn, version, width, scale) {
     }
 
     if (block.type === 'comment') {
-      setFont(ctx, 'italic', smallSize, '"Lora", Georgia, serif');
+      setFont(ctx, 'italic', smallSize, F.body);
       const lines = measureLines(ctx, block.lines, contentWidth);
       const commentLineHeight = Math.round(smallSize * 1.5);
       elements.push({ type: 'comment', lines: lines, y: y, size: smallSize, lineHeight: commentLineHeight });
@@ -219,7 +267,7 @@ function prepareLayout(ctx, hymn, version, width, scale) {
     // Un verse n'affiche un numéro que si la donnée en fournit un.
     const hasExplicitNumber = block.type === 'verse' && block.number !== null;
     const numberGutter = hasExplicitNumber ? Math.round(46 * scale) : 0;
-    setFont(ctx, '500', bodySize, '"Lora", "Open Sans", serif');
+    setFont(ctx, '500', bodySize, 'F.body');
     const lines = measureLines(ctx, block.lines, contentWidth - numberGutter);
     elements.push({
       type: block.type, number: hasExplicitNumber ? block.number : null,
@@ -311,6 +359,7 @@ function drawImageCover(ctx, img, width, height) {
 }
 
 function drawComposition(canvas, hymn, version, formatKey, themeKey) {
+  const F = getShareFont();
   const format = SHARE_FORMATS[formatKey] || SHARE_FORMATS['1:1'];
   const palette = SHARE_THEMES[themeKey] || SHARE_THEMES.cream;
   const width = format.width;
@@ -373,12 +422,12 @@ function drawComposition(canvas, hymn, version, formatKey, themeKey) {
     drawBookLogo(ctx, centerX, Math.round(58 * scale), Math.round(48 * scale), palette.accent);
   }
 
-  setFont(ctx, '700', Math.round(24 * scale), '"Montserrat", "Inter", sans-serif');
+  setFont(ctx, '700', Math.round(24 * scale), F.title);
   ctx.textAlign = 'center';
   ctx.fillStyle = palette.title;
   ctx.fillText(SHARE_BRAND.name, centerX, Math.round(114 * scale));
 
-  setFont(ctx, 'italic', Math.round(13 * scale), '"Cormorant Garamond", Georgia, serif');
+  setFont(ctx, 'italic', Math.round(13 * scale), F.tagline);
   ctx.fillStyle = palette.muted;
   ctx.fillText(SHARE_BRAND.tagline, centerX, Math.round(140 * scale));
 
@@ -395,12 +444,12 @@ function drawComposition(canvas, hymn, version, formatKey, themeKey) {
 
   for (const element of layout.elements) {
     if (element.type === 'source-number') {
-      setFont(ctx, '700', element.size, '"Montserrat", "Inter", sans-serif');
+      setFont(ctx, '700', element.size, F.title);
       ctx.fillStyle = palette.accent;
       ctx.textAlign = 'center';
       ctx.fillText(element.text, centerX, element.y);
     } else if (element.type === 'title') {
-      setFont(ctx, '700', element.size, '"Montserrat", "Inter", sans-serif');
+      setFont(ctx, '700', element.size, F.title);
       ctx.fillStyle = palette.title;
       ctx.textAlign = 'center';
       drawLines(ctx, element.lines, centerX, element.y, Math.round(element.size * 1.22));
@@ -423,29 +472,29 @@ function drawComposition(canvas, hymn, version, formatKey, themeKey) {
       roundRect(ctx, x, element.y, boxWidth, element.height, 16);
       ctx.fill();
 
-      setFont(ctx, '700', element.labelSize, '"Montserrat", "Inter", sans-serif');
+      setFont(ctx, '700', element.labelSize, F.label_font);
       ctx.fillStyle = palette.accent;
       ctx.textAlign = 'left';
       let textY = element.y + element.paddingY;
       ctx.fillText('REFRAIN', layout.marginX, textY);
       textY += Math.round(element.labelSize * 1.8);
 
-      setFont(ctx, '500', element.size, '"Lora", "Open Sans", serif');
+      setFont(ctx, '500', element.size, F.body);
       ctx.fillStyle = palette.text;
       drawLines(ctx, element.lines, layout.marginX, textY, element.lineHeight);
     } else if (element.type === 'comment') {
-      setFont(ctx, 'italic', element.size, '"Lora", Georgia, serif');
+      setFont(ctx, 'italic', element.size, F.body);
       ctx.fillStyle = palette.comment;
       ctx.textAlign = 'left';
       drawLines(ctx, element.lines, layout.marginX, element.y, element.lineHeight);
     } else {
       ctx.textAlign = 'left';
       if (element.number !== null) {
-        setFont(ctx, '700', Math.round(element.size * 0.94), '"Montserrat", "Inter", sans-serif');
+        setFont(ctx, '700', Math.round(element.size * 0.94), F.title);
         ctx.fillStyle = palette.title;
         ctx.fillText(element.number + '.', layout.marginX, element.y);
       }
-      setFont(ctx, '500', element.size, '"Lora", "Open Sans", serif');
+      setFont(ctx, '500', element.size, F.body);
       ctx.fillStyle = palette.text;
       drawLines(ctx, element.lines, layout.marginX + element.numberGutter, element.y, element.lineHeight);
     }
@@ -476,12 +525,12 @@ function drawComposition(canvas, hymn, version, formatKey, themeKey) {
     drawBookLogo(ctx, layout.marginX + Math.round(16 * scale), footY, Math.round(28 * scale), palette.accent);
   }
 
-  setFont(ctx, '600', Math.round(15 * scale), '"Montserrat", "Inter", sans-serif');
+  setFont(ctx, '600', Math.round(15 * scale), F.title);
   ctx.fillStyle = palette.title;
   ctx.textAlign = 'left';
   ctx.fillText(SHARE_BRAND.name, layout.marginX + Math.round(52 * scale), footY - Math.round(14 * scale));
 
-  setFont(ctx, 'italic', Math.round(12 * scale), '"Cormorant Garamond", Georgia, serif');
+  setFont(ctx, 'italic', Math.round(12 * scale), F.tagline);
   ctx.fillStyle = palette.muted;
   ctx.fillText(SHARE_BRAND.tagline, layout.marginX + Math.round(52 * scale), footY + Math.round(2 * scale));
 
@@ -533,6 +582,7 @@ window.ShareImage = {
     drawComposition(canvas, hymn, version, fk, tk);
   },
   autoFormatFor: autoFormatFor,
+  getFont: getShareFont,
   waitFonts: waitFonts,
   toBlob: async function(canvas) {
     return new Promise(function(resolve) {

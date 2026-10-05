@@ -375,7 +375,7 @@ body {
 }
 
 .filters-sheet-header h2 {
-  font-family: "Montserrat", "Inter", sans-serif;
+  font-family: "Montserrat", "Open Sans", sans-serif;
   font-size: 18px;
   font-weight: 700;
   color: var(--text-primary);

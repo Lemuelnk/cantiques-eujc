@@ -32,8 +32,8 @@
   <meta name="twitter:image" content="https://cantiques-eujc.lnk-studio.com/og-image.png">
 
   <link rel="manifest" href="manifest.webmanifest">
-  <link rel="stylesheet" href="charte.css?v=82">
-  <link rel="stylesheet" href="fonts.css?v=82">  <script>
+  <link rel="stylesheet" href="charte.css?v=89">
+  <link rel="stylesheet" href="fonts.css?v=89">  <script>
     /* Anti-FOUC : applique le thème + police avant tout rendu */
     (function(){
       try {
@@ -59,11 +59,15 @@
     })();
   </script>
 
-  <link rel="stylesheet" href="style.css?v=82">
-  <link rel="stylesheet" href="cantique.css?v=82">
-  <link rel="stylesheet" href="share/share.css?v=5">
+  <link rel="stylesheet" href="style.css?v=89">
+  <link rel="stylesheet" href="cantique.css?v=89">
+  <link rel="stylesheet" href="share/share.css?v=12">
 
   <script src="https://unpkg.com/lucide@latest"></script>
+  <!-- Polices de partage (générateur d'image) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -231,7 +235,10 @@
         <button class="share-theme" type="button" data-theme="botanical" aria-pressed="false"><img class="theme-thumb" src="assets/share/themes/theme-botanical-1x1.jpg" alt=""><span>Botanique</span></button>
       </div>
     </section>
-    <button class="share-generate" id="share-image-generate" type="button"><i data-lucide="share-2"></i><span>Générer et partager</span></button>
+    <div class="share-actions-row">
+      <button class="share-generate share-save" id="share-image-save" type="button"><i data-lucide="download"></i><span>Enregistrer</span></button>
+      <button class="share-generate" id="share-image-generate" type="button"><i data-lucide="share-2"></i><span>Partager</span></button>
+    </div>
     <p class="share-image-note">Les paroles restent fidèles à la version choisie. L’image s’allonge si nécessaire pour ne rien couper.</p>
   </section>
   </main>
@@ -283,12 +290,12 @@
   </div>
 
 
-  <script src="preferences.js?v=82"></script>
-  <script src="canonical-data.js?v=82"></script>
-  <script src="storage.js?v=82"></script>
-  <script src="share-image.js?v=82"></script>
-  <script src="cantique.js?v=82"></script>
-  <script src="share/share-ui.js?v=5"></script>
-  <script src="sw-register.js?v=82"></script>
+  <script src="preferences.js?v=89"></script>
+  <script src="canonical-data.js?v=89"></script>
+  <script src="storage.js?v=89"></script>
+  <script src="share-image.js?v=89"></script>
+  <script src="cantique.js?v=89"></script>
+  <script src="share/share-ui.js?v=12"></script>
+  <script src="sw-register.js?v=89"></script>
 </body>
 </html>

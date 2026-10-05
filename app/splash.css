@@ -34,7 +34,7 @@ html, body {
 }
 
 body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, sans-serif;
   color: var(--sp-text);
   -webkit-tap-highlight-color: transparent;
   -webkit-font-smoothing: antialiased;
@@ -259,7 +259,7 @@ body {
 
 /* ---- Titre ---- */
 .splash-title {
-  font-family: 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
+  font-family: 'Lora', Georgia, serif;
   font-weight: 700;
   line-height: 1;
   display: flex;
@@ -347,7 +347,7 @@ body {
 
 /* ---- Tagline ---- */
 .splash-tagline {
-  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-family: 'Lora', Georgia, serif;
   font-style: italic;
   font-size: 1.15em;
   color: rgba(245, 240, 230, 0.85);
@@ -375,7 +375,7 @@ body {
   left: 0;
   right: 0;
   z-index: 3;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 0.62em;
   line-height: 1.9;
   letter-spacing: 0.32em;
