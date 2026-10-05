@@ -235,9 +235,19 @@ function drawComposition(canvas, hymn, version, formatKey, themeKey) {
 
   let scale = 1;
   let layout = prepareLayout(measureCtx, hymn, version, width, scale);
+  // 1) Réduire si le contenu dépasse la hauteur demandée
   while (layout.requiredHeight > format.height && scale > 0.68) {
     scale = Math.max(0.68, scale - 0.04);
     layout = prepareLayout(measureCtx, hymn, version, width, scale);
+  }
+  // 2) Agrandir si le contenu est trop petit pour remplir la page
+  const maxScale = 2.4;
+  while (layout.requiredHeight < format.height * 0.92 && scale < maxScale) {
+    const next = Math.min(maxScale, scale + 0.06);
+    const trial = prepareLayout(measureCtx, hymn, version, width, next);
+    if (trial.requiredHeight > format.height) break;
+    scale = next;
+    layout = trial;
   }
 
   // La hauteur s'adapte au texte : aucun break/cutoff de paroles.
@@ -357,7 +367,7 @@ function roundRect(ctx, x, y, width, height, radius) {
   ctx.moveTo(x + radius, y);
   ctx.arcTo(x + width, y, x + width, y + height, radius);
   ctx.arcTo(x + width, y + height, x, y + height, radius);
-  ctx.arcTo(x, y + height, x, y);
+  ctx.arcTo(x, y + height, x, y, radius);
   ctx.arcTo(x, y, x + width, y + height, radius);
   ctx.closePath();
 }
