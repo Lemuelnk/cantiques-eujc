@@ -30,3 +30,22 @@
 @keyframes share-enter{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
 @media(min-width:700px){.share-overlay{backdrop-filter:blur(5px)}.share-sheet{bottom:auto;top:50%;transform:translateY(-50%);border-radius:26px;max-height:90dvh}.share-preview{max-height:34dvh}#share-image-canvas{max-height:calc(34dvh - 28px)}}
 @media(prefers-reduced-motion:reduce){.share-sheet{animation:none}}
+
+/* === Formats : 8 formes proportionnelles === */
+.format-shape{display:inline-block;background:currentColor;border:none;opacity:.55;border-radius:2px}
+.share-format.is-active .format-shape{opacity:.95}
+
+.format-shape.fs-1x1  { width:22px; height:22px; }
+.format-shape.fs-4x5  { width:18px; height:22px; }
+.format-shape.fs-3x4  { width:17px; height:22px; }
+.format-shape.fs-2x3  { width:15px; height:22px; }
+.format-shape.fs-9x16 { width:13px; height:22px; }
+.format-shape.fs-9x17 { width:12px; height:22px; }
+.format-shape.fs-9x18 { width:11px; height:22px; }
+.format-shape.fs-9x19 { width:11px; height:23px; }
+
+/* === Grille format : 4 colonnes x 2 lignes === */
+.share-format-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+.share-format{padding:9px 3px}
+.share-format strong{font-size:12px}
+.share-format small{font-size:9px;line-height:1.1}

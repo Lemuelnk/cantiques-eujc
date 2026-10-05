@@ -6,32 +6,44 @@
 // ============================================================
 
 const SHARE_FORMATS = {
-  '1:1':  { width: 1080, height: 1080 },
-  '4:5':  { width: 1080, height: 1350 },
-  '9:16': { width: 1080, height: 1920 },
-  '9:19': { width: 1080, height: 2280 }
+  '1:1':  { width: 1080, height: 1080, imageKey: '1x1',  label: 'Court' },
+  '4:5':  { width: 1080, height: 1350, imageKey: '4x5',  label: 'Moyen' },
+  '3:4':  { width: 1080, height: 1440, imageKey: '3x4',  label: 'Moyen +' },
+  '2:3':  { width: 1080, height: 1620, imageKey: '2x3',  label: 'Long' },
+  '9:16': { width: 1080, height: 1920, imageKey: '9x16', label: 'Long +' },
+  '9:17': { width: 1080, height: 2040, imageKey: '9x17', label: 'Très long' },
+  '9:18': { width: 1080, height: 2160, imageKey: '9x18', label: 'Très long +' },
+  '9:19': { width: 1080, height: 2280, imageKey: '9x19', label: 'Max' }
 };
 
 const SHARE_THEMES = {
   cream: {
-    background: '#faf6ec', headerStart: '#14392e', headerEnd: '#2d5f4f', footer: '#14392e',
-    title: '#14392e', text: '#1a1f1d', muted: '#5a6660', accent: '#b8935a',
-    accentLight: '#e4c37f', refrain: 'rgba(184, 147, 90, 0.18)', comment: '#5a6660'
+    background: '#faf6ec',
+    image: 'assets/share/themes/theme-cream.jpg',
+    overlay: 'rgba(250, 246, 236, 0.60)',
+    title: '#1e3a2e', text: '#1a241f', muted: '#5a6660', accent: '#a07a3d',
+    accentLight: '#b8935a', refrain: 'rgba(184, 147, 90, 0.22)', comment: '#5a6660'
   },
   forest: {
-    background: '#081f19', headerStart: '#061711', headerEnd: '#2d5f4f', footer: '#061711',
-    title: '#faf6ec', text: '#faf6ec', muted: '#d0ddd4', accent: '#e4c37f',
-    accentLight: '#f0dfb5', refrain: 'rgba(240, 223, 181, 0.14)', comment: '#d0ddd4'
+    background: '#081f19',
+    image: 'assets/share/themes/theme-forest.jpg',
+    overlay: 'rgba(8, 31, 25, 0.55)',
+    title: '#faf6ec', text: '#f2ede1', muted: '#c8d4c9', accent: '#e4c37f',
+    accentLight: '#f0dfb5', refrain: 'rgba(240, 223, 181, 0.18)', comment: '#c8d4c9'
   },
   midnight: {
-    background: '#101820', headerStart: '#0a1118', headerEnd: '#243b53', footer: '#0a1118',
-    title: '#f7f4ed', text: '#f7f4ed', muted: '#c5cbd2', accent: '#e4c37f',
-    accentLight: '#f0dfb5', refrain: 'rgba(228, 195, 127, 0.16)', comment: '#c5cbd2'
+    background: '#101820',
+    image: 'assets/share/themes/theme-night.jpg',
+    overlay: 'rgba(10, 15, 25, 0.62)',
+    title: '#f7f4ed', text: '#f0ede4', muted: '#c5cbd2', accent: '#e4c37f',
+    accentLight: '#f0dfb5', refrain: 'rgba(228, 195, 127, 0.20)', comment: '#c5cbd2'
   },
   botanical: {
-    background: '#f1f3e8', headerStart: '#1e3027', headerEnd: '#73866b', footer: '#263e32',
-    title: '#263e32', text: '#243128', muted: '#5e6b5e', accent: '#8c7144',
-    accentLight: '#b9a06a', refrain: 'rgba(115, 134, 107, 0.18)', comment: '#5e6b5e'
+    background: '#f1f3e8',
+    image: 'assets/share/themes/theme-botanical.jpg',
+    overlay: 'rgba(241, 243, 232, 0.62)',
+    title: '#20382d', text: '#243128', muted: '#5e6b5e', accent: '#8c7144',
+    accentLight: '#a8863a', refrain: 'rgba(115, 134, 107, 0.22)', comment: '#5e6b5e'
   }
 };
 
@@ -226,6 +238,58 @@ function drawLines(ctx, lines, x, y, lineHeight) {
   }
 }
 
+// ============================================================
+// Chargement des images de thème (async, mis en cache)
+// ============================================================
+const THEME_IMAGES = {};
+
+function loadImage(src) {
+  return new Promise((resolve, reject) => {
+    const img = new Image();
+    img.onload = () => resolve(img);
+    img.onerror = () => reject(new Error('Image introuvable: ' + src));
+    img.src = src;
+  });
+}
+
+// Construit l'URL de l'image : theme-<theme>-<imageKey>.jpg
+function themeImageUrl(themeKey, formatKey) {
+  const fmt = SHARE_FORMATS[formatKey] || SHARE_FORMATS['1:1'];
+  return 'assets/share/themes/theme-' + themeKey + '-' + fmt.imageKey + '.jpg';
+}
+
+async function ensureThemeImage(themeKey, formatKey) {
+  const fmt = SHARE_FORMATS[formatKey] || SHARE_FORMATS['1:1'];
+  const cacheKey = themeKey + '-' + fmt.imageKey;
+  if (THEME_IMAGES[cacheKey]) return THEME_IMAGES[cacheKey];
+  const url = themeImageUrl(themeKey, formatKey);
+  try {
+    THEME_IMAGES[cacheKey] = await loadImage(url);
+    return THEME_IMAGES[cacheKey];
+  } catch (e) {
+    console.warn('[ShareImage]', e.message);
+    return null;
+  }
+}
+
+function drawImageCover(ctx, img, width, height) {
+  const imgAspect = img.width / img.height;
+  const canvasAspect = width / height;
+  let sx, sy, sw, sh;
+  if (imgAspect > canvasAspect) {
+    sh = img.height;
+    sw = img.height * canvasAspect;
+    sx = (img.width - sw) / 2;
+    sy = 0;
+  } else {
+    sw = img.width;
+    sh = img.width / canvasAspect;
+    sx = 0;
+    sy = (img.height - sh) / 2;
+  }
+  ctx.drawImage(img, sx, sy, sw, sh, 0, 0, width, height);
+}
+
 function drawComposition(canvas, hymn, version, formatKey, themeKey) {
   const format = SHARE_FORMATS[formatKey] || SHARE_FORMATS['1:1'];
   const palette = SHARE_THEMES[themeKey] || SHARE_THEMES.cream;
@@ -262,26 +326,45 @@ function drawComposition(canvas, hymn, version, formatKey, themeKey) {
   const ctx = canvas.getContext('2d');
   ctx.scale(pixelRatio, pixelRatio);
   ctx.textBaseline = 'top';
+
+  // Couleur de fond du thème (fallback)
   ctx.fillStyle = palette.background;
   ctx.fillRect(0, 0, width, height);
 
-  const headerGradient = ctx.createLinearGradient(0, 0, 0, layout.headerHeight);
-  headerGradient.addColorStop(0, palette.headerStart);
-  headerGradient.addColorStop(1, palette.headerEnd);
-  ctx.fillStyle = headerGradient;
-  ctx.fillRect(0, 0, width, layout.headerHeight);
+  // Image de fond (déjà au bon ratio) + voile de lisibilité
+  const fmt = SHARE_FORMATS[formatKey] || SHARE_FORMATS['1:1'];
+  const bgImage = THEME_IMAGES[themeKey + '-' + fmt.imageKey];
+  if (bgImage) {
+    drawImageCover(ctx, bgImage, width, height);
+    if (palette.overlay) {
+      ctx.fillStyle = palette.overlay;
+      ctx.fillRect(0, 0, width, height);
+    }
+  }
 
+  // ---- Header discret (sans bande) ----
   const centerX = width / 2;
-  drawBookLogo(ctx, centerX, Math.round(42 * scale), Math.round(44 * scale), palette.accentLight);
+  drawBookLogo(ctx, centerX, Math.round(58 * scale), Math.round(48 * scale), palette.accent);
 
-  setFont(ctx, '700', Math.round(29 * scale), '"Montserrat", "Inter", sans-serif');
+  setFont(ctx, '700', Math.round(27 * scale), '"Montserrat", "Inter", sans-serif');
   ctx.textAlign = 'center';
-  ctx.fillStyle = '#faf6ec';
-  ctx.fillText(SHARE_BRAND.name, centerX, Math.round(70 * scale));
+  ctx.fillStyle = palette.title;
+  ctx.fillText(SHARE_BRAND.name, centerX, Math.round(92 * scale));
 
-  setFont(ctx, 'italic', Math.round(15 * scale), '"Cormorant Garamond", Georgia, serif');
-  ctx.fillStyle = 'rgba(250, 246, 236, 0.82)';
-  ctx.fillText(SHARE_BRAND.tagline, centerX, Math.round(104 * scale));
+  setFont(ctx, 'italic', Math.round(14 * scale), '"Cormorant Garamond", Georgia, serif');
+  ctx.fillStyle = palette.muted;
+  ctx.fillText(SHARE_BRAND.tagline, centerX, Math.round(120 * scale));
+
+  // Fine ligne décorative sous le header
+  ctx.save();
+  ctx.strokeStyle = palette.accent;
+  ctx.globalAlpha = 0.4;
+  ctx.lineWidth = Math.max(1, Math.round(1.4 * scale));
+  ctx.beginPath();
+  ctx.moveTo(centerX - Math.round(72 * scale), Math.round(146 * scale));
+  ctx.lineTo(centerX + Math.round(72 * scale), Math.round(146 * scale));
+  ctx.stroke();
+  ctx.restore();
 
   for (const element of layout.elements) {
     if (element.type === 'source-number') {
@@ -341,25 +424,40 @@ function drawComposition(canvas, hymn, version, formatKey, themeKey) {
     }
   }
 
+  // ---- Footer discret (sans bande) ----
   const footerY = height - layout.footerHeight;
-  const footerCenterY = footerY + layout.footerHeight / 2;
-  ctx.fillStyle = palette.footer;
-  ctx.fillRect(0, footerY, width, layout.footerHeight);
-  drawBookLogo(ctx, 64, footerCenterY, 36, palette.accentLight);
+  const footerLineY = footerY + Math.round(30 * scale);
 
-  setFont(ctx, '700', 18, '"Montserrat", "Inter", sans-serif');
-  ctx.fillStyle = '#faf6ec';
+  // Fine ligne séparatrice
+  ctx.save();
+  ctx.strokeStyle = palette.accent;
+  ctx.globalAlpha = 0.4;
+  ctx.lineWidth = Math.max(1, Math.round(1.4 * scale));
+  ctx.beginPath();
+  ctx.moveTo(layout.marginX, footerLineY);
+  ctx.lineTo(width - layout.marginX, footerLineY);
+  ctx.stroke();
+  ctx.restore();
+
+  const footY = footerLineY + Math.round(38 * scale);
+
+  // Logo mini à gauche
+  drawBookLogo(ctx, layout.marginX + Math.round(16 * scale), footY, Math.round(28 * scale), palette.accent);
+
+  setFont(ctx, '600', Math.round(15 * scale), '"Montserrat", "Inter", sans-serif');
+  ctx.fillStyle = palette.title;
   ctx.textAlign = 'left';
-  ctx.fillText(SHARE_BRAND.name, 96, footerCenterY - 18);
+  ctx.fillText(SHARE_BRAND.name, layout.marginX + Math.round(42 * scale), footY - Math.round(14 * scale));
 
-  setFont(ctx, 'italic', 13, '"Cormorant Garamond", Georgia, serif');
-  ctx.fillStyle = 'rgba(250, 246, 236, 0.78)';
-  ctx.fillText(SHARE_BRAND.tagline, 96, footerCenterY + 7);
+  setFont(ctx, 'italic', Math.round(12 * scale), '"Cormorant Garamond", Georgia, serif');
+  ctx.fillStyle = palette.muted;
+  ctx.fillText(SHARE_BRAND.tagline, layout.marginX + Math.round(42 * scale), footY + Math.round(2 * scale));
 
-  setFont(ctx, '500', 12, '"Open Sans", "Inter", sans-serif');
-  ctx.fillStyle = palette.accentLight;
+  // URL à droite
+  setFont(ctx, '500', Math.round(12 * scale), '"Open Sans", "Inter", sans-serif');
+  ctx.fillStyle = palette.accent;
   ctx.textAlign = 'right';
-  ctx.fillText(window.location.host || 'Cantiques EUJC', width - 42, footerCenterY - 6);
+  ctx.fillText(window.location.host || 'Cantiques EUJC', width - layout.marginX, footY);
 }
 
 function roundRect(ctx, x, y, width, height, radius) {
@@ -380,14 +478,27 @@ function autoFormatFor(hymn, selectedVersion) {
   }, 0);
 
   if (characters < 240 && blocks.length <= 3) return '1:1';
-  if (characters < 650 && blocks.length <= 6) return '4:5';
-  if (characters < 1500 && blocks.length <= 10) return '9:16';
+  if (characters < 420 && blocks.length <= 4) return '4:5';
+  if (characters < 600 && blocks.length <= 5) return '3:4';
+  if (characters < 800 && blocks.length <= 6) return '2:3';
+  if (characters < 1100 && blocks.length <= 8) return '9:16';
+  if (characters < 1400 && blocks.length <= 10) return '9:17';
+  if (characters < 1800 && blocks.length <= 12) return '9:18';
   return '9:19';
 }
 
 window.ShareImage = {
-  generate: function(canvas, hymn, version, formatKey, themeKey) {
-    drawComposition(canvas, hymn, version, formatKey, themeKey || 'cream');
+  preloadThemes: async function(formatKey) {
+    const fk = formatKey || '1:1';
+    const keys = Object.keys(SHARE_THEMES);
+    await Promise.all(keys.map(k => ensureThemeImage(k, fk)));
+    console.log('[ShareImage] Themes precharges pour ' + fk);
+  },
+  generate: async function(canvas, hymn, version, formatKey, themeKey) {
+    const tk = themeKey || 'cream';
+    const fk = formatKey || '1:1';
+    await ensureThemeImage(tk, fk);
+    drawComposition(canvas, hymn, version, fk, tk);
   },
   autoFormatFor: autoFormatFor,
   waitFonts: waitFonts,
