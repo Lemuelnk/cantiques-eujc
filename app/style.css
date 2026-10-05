@@ -704,3 +704,15 @@ input:focus-visible {
     padding-top: env(safe-area-inset-top, 0px);
   }
 }
+
+/* ============================================================
+   Grands ecrans (1920px+) : layout principal plus large
+   ============================================================ */
+@media (min-width: 1920px) {
+  .app-header { padding: 0 32px; }
+  .app-main, .app-content {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

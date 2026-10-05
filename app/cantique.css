@@ -717,3 +717,19 @@ body.is-reading-mode .report-cta-btn:active {
     padding-top: calc(12px + env(safe-area-inset-top, 0px));
   }
 }
+
+/* ============================================================
+   Grands ecrans (1920px+) : lecteur plus large, plus confortable
+   ============================================================ */
+@media (min-width: 1920px) {
+  .hymn-detail-page,
+  #hymn-detail {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .lyric-lines p {
+    font-size: calc(18px * var(--text-scale, 1));
+    line-height: 1.75;
+  }
+}
