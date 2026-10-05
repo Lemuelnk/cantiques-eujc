@@ -35,3 +35,4 @@ Thumbs.db
 # Logs et debug
 *.log
 npm-debug.log*
+flutter_app.backup-*/

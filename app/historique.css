@@ -204,3 +204,10 @@
 .history-loading[hidden] {
   display: none !important;
 }
+
+/* === iOS safe-area (encoche / Dynamic Island) === */
+@supports (padding: env(safe-area-inset-top)) {
+  .history-header {
+    padding-top: calc(16px + env(safe-area-inset-top, 0px));
+  }
+}

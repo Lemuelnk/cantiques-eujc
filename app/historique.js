@@ -46,8 +46,9 @@ function createHistoryRow(hymn, category, ts) {
 
   const row = document.createElement('a');
   row.className = 'history-row';
-  row.href = `cantique.html?hymn=${encodeURIComponent(display.id)}`
-           + `&category=${encodeURIComponent(category)}`;
+  row.href = (typeof buildCantiqueUrl === 'function')
+    ? buildCantiqueUrl(hymn, category)
+    : `cantique.html?hymn=${encodeURIComponent(display.id)}&category=${encodeURIComponent(category)}`;
 
   const number = document.createElement('span');
   number.className = 'hist-number';

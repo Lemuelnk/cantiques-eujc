@@ -1,0 +1,427 @@
+{
+  "schema_version": "1.0",
+  "corpus_status": "review",
+  "taxonomy": {
+    "domain": "lessons",
+    "category_id": "lesson-26",
+    "category_label": "Job",
+    "lesson_id": "lesson-26",
+    "lesson_label": "Leçon 26 — Job"
+  },
+  "source": {
+    "file": "chants_de_daniel.html"
+  },
+  "hymns": [
+    {
+      "schema_version": "1.0",
+      "id": "2341540e-9c08-5373-b349-e243d78e4980",
+      "title": "MATESO MAKALI YA YOBU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "d32cd874-ffac-5452-9d8c-d26eb563e28e",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "MATESO MAKALI YA YOBU",
+          "source": {
+            "file": "chants_de_daniel.html",
+            "position": 1,
+            "number": "163",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-26",
+            "category_label": "Job",
+            "lesson_id": "lesson-26",
+            "lesson_label": "Leçon 26 — Job"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Mateso makali ya yobu (Eh yobu hakumwacha bwana kwa kupata mateso)2x",
+                "taabu nyingi kamujia wana wake wakafa eh yobu kwa kupata mateso."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Mwanadamu wewe usikufuru mungu ukipata mateso:",
+                "- Magonjua njiani usikufuru mungu ukipata mateso",
+                "- Mateso njiani Muke wa yobu kamwambia ukufuru mungu ukifwata njia za mababu utaishi nami tazama yobu akumjibu kitu kamusii mumbaji, rafiki wa tatu wa kamujia mbele ya",
+                "yobu eh yobu akunena kamwe mambo yote wanenayo:",
+                "- Ya kumuhasi mungu akunena kamwe mambo yote wanenayo."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "aa862f09-1184-5bee-8d17-ad7ae43ec0dc",
+      "title": "SUFURIA YANGU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "464f89c7-adfe-59b9-b8b7-fa33a6d7bcb3",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "SUFURIA YANGU",
+          "source": {
+            "file": "chants_de_daniel.html",
+            "position": 2,
+            "number": "164",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-26",
+            "category_label": "Job",
+            "lesson_id": "lesson-26",
+            "lesson_label": "Leçon 26 — Job"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Sufuria yangu ndani ya shamba ya bwana, mimi yobu nyalike nuhuru initenge na marafiki awa."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Pembe ine za dunianizimefungwa na pepo mbele yangu mimi yobu kweli mumbaji wangu usinyache kamwe na marafikiza dunia:",
+                "- Sitara langu usiniache kamwe na marafiki za dunia",
+                "- Mumbaji wangu - Wewe ni ukingoni wangu Na nilipo kuwa umu shambani mwa bwana, habari nyingi zikanijia umu shambani mwa bwana mimi yobu ni kufuru mungu ni fwate njia",
+                "za mababu"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "4a2abc95-605d-5b1c-97b0-ee5f472a1c50",
+      "title": "MASWALI YOTE YA DUNIA HII",
+      "status": "review",
+      "versions": [
+        {
+          "id": "6fb7b255-c2a1-57d7-8c1b-02f4ac620aaa",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "MASWALI YOTE YA DUNIA HII",
+          "source": {
+            "file": "chants_de_daniel.html",
+            "position": 3,
+            "number": "165",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-26",
+            "category_label": "Job",
+            "lesson_id": "lesson-26",
+            "lesson_label": "Leçon 26 — Job"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Maswali yote ya dunia hii yahukumiwa kwa matendo yao (uzuni ni nao sile wala sinywe moyoni mwangu munamo sikitiko)2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Yoyoyo mateso, haya mateso moyoni mwangu (Yameniuzunisha) 2x. Ninge lifahamu mimi singe lizaliwa, ninge lifariki",
+                "tumboni mwa mamangu, ili ni sione mateso ya duniani."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "2. Wakati mimi nilipo zaliwa wazazi wangu na watu wengineo (walifurahi na wakanywa pombe leo hii watu hawa wame uzunishwa)2x"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "3. Nita laani kwa siku zile nilipo zaliwa tumboni mwa mamangu na maziwa ya mama yangu yalikuweko kwa mimi kunyonya inchini pote",
+                "kwa siku zile nilipo zaliwa."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "90d56739-f122-5191-96c0-2fa019e76846",
+      "title": "KULIKUWA MUTU MUNIOFU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "ebf8fff9-8941-5bb2-bee4-2c49e9d61995",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "KULIKUWA MUTU MUNIOFU",
+          "source": {
+            "file": "chants_de_daniel.html",
+            "position": 4,
+            "number": "166",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-26",
+            "category_label": "Job",
+            "lesson_id": "lesson-26",
+            "lesson_label": "Leçon 26 — Job"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Kulikuwa mutu muniofu alie pendwa na mungu mwenye imani nyingi jina lake ayubu katika ubishi mukali wa mungu na ibilisi ¨2x"
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Ibilisi kamwambia mungu",
+                "nataka ayubu akuhache - Ibilisi kamwambia mungu nataka ayubu akuhasi"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Eh ayubu mutu mwenye imani (ayubu eh) akumutukana mungu. Mungu kamwambia Ibilisi fanya",
+                "lolote utakalo ila mimi na jua uyo awezi kuniacha, ila mimi na jua uyo awezi kuni hasi shetani kamwendea yobu na kumwambia amwabudu lakini ayubu alibaki imara mutu",
+                "mwenye imani alimuogopa mungu.Mali na vifungo viake viote vikapotea¨2x ayubu aliteseka kwa kidonda vidonda, marafiki wakamcheka, familia likamupotea ¨lakini yobu",
+                "kabaki imara kwa mungu ¨2x"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "ad642472-3632-5814-add5-ec92ae7c26fb",
+      "title": "KULIKUWA RAFIKI WA TATU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "d248bf53-f3d1-55cf-a0f7-2601a67f70ba",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "KULIKUWA RAFIKI WA TATU",
+          "source": {
+            "file": "chants_de_daniel.html",
+            "position": 5,
+            "number": "167",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-26",
+            "category_label": "Job",
+            "lesson_id": "lesson-26",
+            "lesson_label": "Leçon 26 — Job"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Kulikuwa rafiki wa tatu waliarifiwa taabu ya ayobu hqwali (yoyowe 2x yobu, yobu mwenye taabu."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Yobu mateso yobue yobu yobu mwenye taabu - Yobu teseka"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Bildadi musui¨2x Elifasi mutemani, tazama Zofahari munamati rafiki ze yobu, yobu yobue yobu yobu mwenye taabu."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Yobu mateso yobue yobu, yobu mwenye",
+                "taabu. Muke wake kamwambia yobu ¨2x ukufuru njia ya bwana na wifwate njia za mababu yobu, yobu eh, yobu, yobu mwenye taabu.",
+                "- Yobu mateso yobu eh yobu, yobu",
+                "mwenye taabu. Kuji kana ni kwema ¨2x alivio fanya yobu hawali hakwitaji wana kamwe, hakwitaji punda kamwe, akuteta bwana kamwe Yobu eh yobu, yobu mwenye taabu",
+                "- Yobu tabika yobu eh yobu yobu mwenye taabu."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "7ed6f63a-5257-50e1-9297-edaea6fb6221",
+      "title": "TUPO MIONGONI MWA YOBU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "29e5c73f-1187-59de-b90a-0781ecaabf0d",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "TUPO MIONGONI MWA YOBU",
+          "source": {
+            "file": "chants_de_daniel.html",
+            "position": 6,
+            "number": "168",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-26",
+            "category_label": "Job",
+            "lesson_id": "lesson-26",
+            "lesson_label": "Leçon 26 — Job"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Tupo miongoni mwa yobu eh yobu akwitaji mwana eh yobu akwitaji mutumishi, Ibrahimu wa mungu akwitaji mwana eh yobu akwitaji",
+                "mutumishi."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Kujikuza kwako wewe usizarau uduma huwa bwana mu mambo mafu anasa za duniani kwa wewe mujoli mu mambo mafu hekima ya",
+                "duniani."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "2. Yesu kamwambia Petro simoni Petro¨ rudi nyuma wewe.",
+                "kikwazo rudi nyuma wewe shetani ¨2x"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "3. Mungu wa Petro, mungu wa Yoane, Mungu wa Yakobo njoni, njoni leo, njoni kwetu mufalume wajoli njoni, njoni leo, njoni kwetu",
+                "mufalume."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "e88e5740-b4e9-59ea-a1fe-53d9fc756463",
+      "title": "MIMI YOBU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "042deee2-8cad-5c8d-adc0-0d311beb8c0b",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "MIMI YOBU",
+          "source": {
+            "file": "chants_de_daniel.html",
+            "position": 7,
+            "number": "169",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-26",
+            "category_label": "Job",
+            "lesson_id": "lesson-26",
+            "lesson_label": "Leçon 26 — Job"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. (Mimi yobu ni meteswa mwilini)2x (Ewe Mungu muzima shuka leo unione)2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Kweli wa ngombe wa menishutumu Mungu wenu yuko wapi.",
+                "- Marafiki wa baya wamenishutumu Mungu wenu yuko wapi",
+                "- Majirani wa baya wamenishutumu Mungu wenu yuko wapi.",
+                "- shangazi mulozi, wamenishutumu Mungu wenu yuko wapi",
+                "- Ewe Mungu muzima, shuka leo unione"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "2. Mungu muzima mwili umeteswa sana ¨nafsi imesongwa sana mimi ni muombe nani ¨2x",
+                "¨Ewe Mungu muzima shuka leo unione ¨2x"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    }
+  ]
+}

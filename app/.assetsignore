@@ -1,0 +1,21 @@
+# Scripts locaux (pas pour la prod)
+serve.py
+generate-leaves.py
+generate-icons.py
+*.py
+
+# Fichiers de debug
+debug.html
+
+# Backups et fichiers temporaires
+*.bak
+*.bak-*
+*.old
+*.tmp
+
+# Typos / orphelins
+priere.j
+
+# Dossiers systeme
+.gitkeep
+**/.gitkeep

@@ -706,3 +706,10 @@ body.is-reading-mode .report-cta-btn:active {
 }
 
 /* Share UI styles live in share/share.css. */
+
+/* === iOS safe-area (encoche / Dynamic Island) === */
+@supports (padding: env(safe-area-inset-top)) {
+  .hymn-detail-header {
+    padding-top: calc(12px + env(safe-area-inset-top, 0px));
+  }
+}

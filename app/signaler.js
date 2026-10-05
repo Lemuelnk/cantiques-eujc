@@ -391,7 +391,7 @@ function initTurnstile() {
 
   turnstileId = turnstile.render('#turnstile-container', {
     sitekey: TURNSTILE_SITE_KEY,
-    size: 'invisible',
+    size: 'managed',
     callback: (token) => {
       turnstileToken = token;
       updateSubmitState();

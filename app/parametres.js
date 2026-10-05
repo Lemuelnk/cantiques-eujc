@@ -74,7 +74,7 @@ if ($shareApp) {
     const shareData = {
       title: 'Cantiques EUJC',
       text: 'Découvrez Cantiques EUJC — Le recueil dans votre poche.',
-      url: 'https://lnk-studio.com/apps.html'
+      url: 'https://cantiques-eujc.lnk-studio.com/'
     };
 
     if (navigator.share) {

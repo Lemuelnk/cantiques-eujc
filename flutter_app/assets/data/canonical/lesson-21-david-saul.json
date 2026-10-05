@@ -1,0 +1,369 @@
+{
+  "schema_version": "1.0",
+  "corpus_status": "review",
+  "taxonomy": {
+    "domain": "lessons",
+    "category_id": "lesson-21",
+    "category_label": "Le royaume de David",
+    "lesson_id": "lesson-21",
+    "lesson_label": "Leçon 21 — Le royaume de David est celui de Saül"
+  },
+  "source": {
+    "file": "chants_de_david.html"
+  },
+  "hymns": [
+    {
+      "schema_version": "1.0",
+      "id": "03ddafe0-493e-5468-bece-5bfa392cf27c",
+      "title": "APO MIONGONI MWA WATU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "b8666349-c4b1-580b-9236-940984be4250",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "APO MIONGONI MWA WATU",
+          "source": {
+            "file": "chants_de_david.html",
+            "position": 1,
+            "number": "141",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-21",
+            "category_label": "Le royaume de David",
+            "lesson_id": "lesson-21",
+            "lesson_label": "Leçon 21 — Le royaume de David est celui de Saül"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Apo miongoni mwa watu mupo ufalme wa Mungu mupo mafalme ya watu vita kubwa ufanyika mu watu (Humo humo mupo Goliati na Daudi)2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Mungu unifariji ata mu mateso yangu pia ata mufuraha (eh baba) vita ijapo asubui, vita ijapo jioni ata kati ya usiku Mungu wangu niwe na uzima ¨2X"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Goliati usimama unena juu ya nguvu alikuwa na mupiganisha juu ya ufalme, Daudi ka mupiga jiwe akanguka kifudifudi."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Daudi uko na piganishwa namna nyingi, Goliati umupiganisha, sauli umupiganisha, sauli kafurahi ju aliuwa mia za watu, Daudi ka mushinda ju aliuwa elfu za watu."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "111658c7-272c-5a6f-ae27-792396245eb0",
+      "title": "UFALME WA DAUDI UMEINGIA NDANI MWETU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "0bb544d5-85cc-506e-8997-aa6c59075c06",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "UFALME WA DAUDI UMEINGIA NDANI MWETU",
+          "source": {
+            "file": "chants_de_david.html",
+            "position": 2,
+            "number": "142",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-21",
+            "category_label": "Le royaume de David",
+            "lesson_id": "lesson-21",
+            "lesson_label": "Leçon 21 — Le royaume de David est celui de Saül"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Ufalme wa Daudi umeingia ndani mwetu leo kwa kufanya kazi"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Parapanda italia furaha na vilio wajoli twende twende mbele tusiangamie."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Mu mbingu ya baba twende, twende mbele tusiangamie - Mu mbingu ya musa",
+                "- Mu mbingu ya Elia\tSiku atakayo kuja wote bila kujuwa, siku atakayo kuja ni karibu.",
+                "- Jehova mungu siku atakae kuja ni karibu",
+                "- Yesu mwana",
+                "- Roho mwema"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "3dd4c46d-909f-5002-9ac7-a4a180e541d9",
+      "title": "DAUDI MUTU WA VITA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "42df9453-5269-5224-94ad-8ebf5d7356b9",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "DAUDI MUTU WA VITA",
+          "source": {
+            "file": "chants_de_david.html",
+            "position": 3,
+            "number": "143",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-21",
+            "category_label": "Le royaume de David",
+            "lesson_id": "lesson-21",
+            "lesson_label": "Leçon 21 — Le royaume de David est celui de Saül"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Daudi mutu wa vita (Daudi), Bwana kamupa ushindi Daudi wa kushinda Goliati. Bondeni mwa yordani wakifia ufalme."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Ushindi wa nan iwa Daudi, wa nani wa Daudi mufalme wa kupigana vita."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Wa kushinda madui wa Daudi, wa nani wa Daudi mfalme Walipo kuwa mulimani Goliati kasimama, mwenye urefu wa mikono sita na nusu mukuki mkononi mwake tushuke",
+                "bondeni. Daudi kaona ndani mwake mulikuwa mawe mbili akaiweka kwenye kombeo akapiga Goliati mu uso akanguka Daudi mushindi kakata",
+                "kichwa akaenda nakyo yerusalema.",
+                "- Kwa kuonesha ushindi kakata kichwa akaenda nakio yerusalema",
+                "- Kwa kuonesha ufalme"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "25420f0c-2ad4-5fd1-a54f-c63deea9f74a",
+      "title": "VITA NYINGI NA KALI",
+      "status": "review",
+      "versions": [
+        {
+          "id": "bbf8ade1-7a16-5987-a9ab-2e9b23d62d07",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "VITA NYINGI NA KALI",
+          "source": {
+            "file": "chants_de_david.html",
+            "position": 4,
+            "number": "144",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-21",
+            "category_label": "Le royaume de David",
+            "lesson_id": "lesson-21",
+            "lesson_label": "Leçon 21 — Le royaume de David est celui de Saül"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Vita nyingi na kali zi menijia mimi huyu ¨Jehova Mungu mufalme ujitukuze kwa mambo aya¨2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Ila kwa jina lako baba mufalme wangu usinyache.",
+                "- Jehova Mungu baba mufalme wangu usinyache",
+                "- Ata nikipiganishwa",
+                "- Ata na walozi wote Mafalme za giza wame kusanya eh, mafalme za giza wamekusanya ila kwa jina lako baba mufalme wangu usinyache."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Wame nichimbia shimo wametandika mitego wa metafuta uzima wangu kwajili ya neno la uzima."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Ulimwokoa Abramu, ulimwokoa na Lutu, Ulimwokoa Danieli pangoni, ukamushindia Daudi 2x"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "17880b24-6ef2-5465-9c3a-c17819f880e0",
+      "title": "JEHOVA MUNGU EH MUNGU WANGU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "8cacd316-1104-5fde-81a1-22a3ac9d8583",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "JEHOVA MUNGU EH MUNGU WANGU",
+          "source": {
+            "file": "chants_de_david.html",
+            "position": 5,
+            "number": "145",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-21",
+            "category_label": "Le royaume de David",
+            "lesson_id": "lesson-21",
+            "lesson_label": "Leçon 21 — Le royaume de David est celui de Saül"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Jehova mungu eh mungu wangu Na kuita leo baba unirshindie vita."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Mumbaji wangu na kuita leo baba unishindie vita",
+                "- Mufalme wangu",
+                "- Tegemeo langu",
+                "Ulimuokowa Abramu, ulimuokoa na Lutu, ukamushindia Daudi unishindie vita, Na kwita yesu mwana unishindie vita",
+                "- Kweli vita ni kali na kwita yesu mwana unishindie vita",
+                "- Vita yote ya ndani",
+                "- Vita yote ya inje Sauli unipiganisha, Goliati unipiganisha, zige nange unipiganisha sikia roho mwema unishindie vita",
+                "- Roho wa mitume sikia roho mwema unishindie vita",
+                "- Roho wa Kadima",
+                "- Roho wa mababu Kweli vita ni kali vit aya pembe yote"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "3847b333-5154-5623-beae-09b7fdcf6852",
+      "title": "WAISRAELI KUNYANYUWA SANDUKU YA BWANA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "95e8e9f0-840c-5a90-b54c-3e9bc5cee2b8",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "WAISRAELI KUNYANYUWA SANDUKU YA BWANA",
+          "source": {
+            "file": "chants_de_david.html",
+            "position": 6,
+            "number": "146",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-21",
+            "category_label": "Le royaume de David",
+            "lesson_id": "lesson-21",
+            "lesson_label": "Leçon 21 — Le royaume de David est celui de Saül"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Waisraeli kunyanyuwa sanduku ya bwana kwa shangwe miguu sita mfalme kacheza ¨2x mfalme Daudi akafunga Efondi."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Nasi wajoli wangu tudumu katika uduma huwo",
+                "tazama Delila musaliti kweli wa neno la uzima,"
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Tazama Yudas musaliti naye wa neno la uzima - Tazama na wewe Jazareni ¨ Basi wajoli wangu tumwimbie yoyoyo",
+                "tumwimbie mufalme.¨2x Mikali katika dirisha katazama Daudi yeye kamutusi moyoni mwake kwani amejifunuwa, mufalme Daudi akuacha kuimba, mufalme Daudi akuacha kucheza.",
+                "Yesu kapewa mamlaka yote (mamlaka) ya mbinguni na duniani tumwimbie yoyoyo tutukuze mfalme."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    }
+  ]
+}

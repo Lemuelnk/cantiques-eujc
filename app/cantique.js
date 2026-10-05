@@ -20,9 +20,21 @@ const menuClose    = document.getElementById('menu-close');
 const reportCta    = document.getElementById('report-cta');
 const reportCtaBtn = document.getElementById('report-cta-btn');
 
+// Lecture des parametres : priorite au path /cantique/:cat/:num
+// Fallback sur query ?hymn=UUID&category=cat pour retrocompat
 const detailParams = new URLSearchParams(window.location.search);
-const hymnId       = detailParams.get('hymn');
-const categoryId   = detailParams.get('category') || 'lesson-1';
+let   hymnId       = detailParams.get('hymn');
+let   categoryId   = detailParams.get('category') || 'lesson-1';
+let   hymnNumber   = null;
+
+(function parsePath() {
+  var m = window.location.pathname.match(/^\/cantique\/([^\/]+)\/([^\/]+)\/?$/);
+  if (m) {
+    categoryId  = decodeURIComponent(m[1]);
+    hymnNumber  = decodeURIComponent(m[2]);
+    hymnId      = null; // sera resolu par number dans loadDetail
+  }
+})();
 
 let currentHymn     = null;
 let currentVersion  = null;
@@ -90,6 +102,99 @@ function renderHymn(hymn, versionIndex) {
   const blocks = (version.content || []).map(renderBlock).join('');
 
   document.title = `${version.title || hymn.title} — Cantiques EUJC`;
+
+  // SEO : adapter les métadonnées au cantique réellement affiché.
+  // Le canonique conserve l'identifiant du cantique, pas les paramètres d'interface.
+  const seoTitle = document.title;
+  const seoDescription = `Consultez le cantique « ${version.title || hymn.title} »${langLabel ? ` en ${langLabel}` : ''} dans Cantiques EUJC, le recueil numérique des cantiques du Chemin, du Dimanche et de Prière.`;
+  // Canonical : URL propre /cantique/:cat/:num si possible
+  let canonical;
+  if (hymnNumber != null && categoryId) {
+    canonical = 'https://cantiques-eujc.lnk-studio.com'
+      + '/cantique/' + encodeURIComponent(categoryId)
+      + '/' + encodeURIComponent(hymnNumber);
+  } else {
+    const canonicalUrl = new URL(window.location.href);
+    canonicalUrl.hash = '';
+    canonicalUrl.searchParams.sort();
+    canonical = canonicalUrl.href;
+  }
+
+  function setSeoMeta(selector, attribute, key, value) {
+    let element = document.head.querySelector(`${selector}[${attribute}="${key}"]`);
+    if (!element) {
+      element = document.createElement('meta');
+      element.setAttribute(attribute, key);
+      document.head.appendChild(element);
+    }
+    element.setAttribute('content', value);
+  }
+
+  let canonicalLink = document.head.querySelector('link[rel="canonical"]');
+  if (!canonicalLink) {
+    canonicalLink = document.createElement('link');
+    canonicalLink.rel = 'canonical';
+    document.head.appendChild(canonicalLink);
+  }
+  canonicalLink.href = canonical;
+
+  const descriptionTag = document.head.querySelector('meta[name="description"]');
+  if (descriptionTag) descriptionTag.content = seoDescription;
+  else setSeoMeta('meta', 'name', 'description', seoDescription);
+
+  setSeoMeta('meta', 'name', 'robots', 'index, follow, max-image-preview:large');
+  setSeoMeta('meta', 'property', 'og:type', 'article');
+  setSeoMeta('meta', 'property', 'og:site_name', 'Cantiques EUJC');
+  setSeoMeta('meta', 'property', 'og:locale', 'fr_FR');
+  setSeoMeta('meta', 'property', 'og:title', seoTitle);
+  setSeoMeta('meta', 'property', 'og:description', seoDescription);
+  setSeoMeta('meta', 'property', 'og:url', canonical);
+  setSeoMeta('meta', 'property', 'og:image', 'https://cantiques-eujc.lnk-studio.com/assets/icons/icon-512.png');
+  setSeoMeta('meta', 'name', 'twitter:card', 'summary');
+  setSeoMeta('meta', 'name', 'twitter:title', seoTitle);
+  setSeoMeta('meta', 'name', 'twitter:description', seoDescription);
+  setSeoMeta('meta', 'name', 'twitter:image', 'https://cantiques-eujc.lnk-studio.com/assets/icons/icon-512.png');
+  // JSON-LD dynamique : MusicComposition pour chaque cantique
+  (function setJsonLd() {
+    var allLines = [];
+    (version.content || []).forEach(function(blk) {
+      (blk.lines || []).forEach(function(line) { allLines.push(line); });
+    });
+    var lyricsPreview = allLines.slice(0, 40).join('\n');
+
+    var oldLd = document.getElementById('hymn-jsonld');
+    if (oldLd) oldLd.remove();
+
+    var jsonLd = {
+      "@context": "https://schema.org",
+      "@type": "MusicComposition",
+      "name": version.title || hymn.title,
+      "inLanguage": (version.language && version.language.code) || 'fr',
+      "genre": prettyCategory(categoryId),
+      "lyrics": {
+        "@type": "CreativeWork",
+        "text": lyricsPreview
+      },
+      "isPartOf": {
+        "@type": "MusicAlbum",
+        "name": "Cantiques EUJC",
+        "url": "https://cantiques-eujc.lnk-studio.com/cantiques.html"
+      },
+      "url": canonical
+    };
+
+    if (source.number) {
+      jsonLd.alternateName = "Cantique n\u00b0 " + source.number;
+      jsonLd.position = source.number;
+    }
+
+    var script = document.createElement('script');
+    script.type = 'application/ld+json';
+    script.id = 'hymn-jsonld';
+    script.textContent = JSON.stringify(jsonLd);
+    document.head.appendChild(script);
+  })();
+
 
   // Onglets des versions (si plus d'une)
   let versionTabs = '';
@@ -364,11 +469,10 @@ if (btnNext) {
     if (currentIndex < 0 || allHymnsInCat.length === 0) return;
     const nextIdx = (currentIndex + 1) % allHymnsInCat.length;
     const nextHymn = allHymnsInCat[nextIdx];
-    // replace() au lieu de href : ne crée pas de nouvelle entrée dans l'historique
-    window.location.replace(
-      `cantique.html?hymn=${encodeURIComponent(nextHymn.id)}`
-      + `&category=${encodeURIComponent(categoryId)}`
-    );
+    const url = (typeof buildCantiqueUrl === 'function')
+      ? buildCantiqueUrl(nextHymn, categoryId)
+      : `cantique.html?hymn=${encodeURIComponent(nextHymn.id)}&category=${encodeURIComponent(categoryId)}`;
+    window.location.replace(url);
   });
 }
 if (btnPrev) {
@@ -376,11 +480,10 @@ if (btnPrev) {
     if (currentIndex < 0 || allHymnsInCat.length === 0) return;
     const prevIdx = (currentIndex - 1 + allHymnsInCat.length) % allHymnsInCat.length;
     const prevHymn = allHymnsInCat[prevIdx];
-    // replace() au lieu de href
-    window.location.replace(
-      `cantique.html?hymn=${encodeURIComponent(prevHymn.id)}`
-      + `&category=${encodeURIComponent(categoryId)}`
-    );
+    const url = (typeof buildCantiqueUrl === 'function')
+      ? buildCantiqueUrl(prevHymn, categoryId)
+      : `cantique.html?hymn=${encodeURIComponent(prevHymn.id)}&category=${encodeURIComponent(categoryId)}`;
+    window.location.replace(url);
   });
 }
 
@@ -405,7 +508,7 @@ function openSignaler() {
 }
 
 async function loadDetail() {
-  if (!hymnId) {
+  if (!hymnId && !hymnNumber) {
     detailRoot.innerHTML = '<p class="detail-empty">Cantique introuvable.</p>';
     return;
   }
@@ -415,16 +518,24 @@ async function loadDetail() {
     const hymns = Array.isArray(corpus.hymns) ? corpus.hymns : [];
     allHymnsInCat = hymns;
 
-    const hymn = hymns.find(h => h.id === hymnId);
+    // Priorite : chercher par number (nouveau format)
+    // Sinon fallback : chercher par id (ancien format)
+    let hymn = null;
+    if (hymnNumber != null && typeof findHymnByNumber === 'function') {
+      hymn = findHymnByNumber(corpus, hymnNumber);
+    }
+    if (!hymn && hymnId) {
+      hymn = hymns.find(h => h.id === hymnId);
+    }
     if (!hymn) {
       detailRoot.innerHTML = '<p class="detail-empty">Cantique introuvable.</p>';
       return;
     }
 
+    hymnId = hymn.id;
     currentIndex = hymns.indexOf(hymn);
     renderHymn(hymn, 0);
 
-    // Enregistrer dans l'historique
     if (typeof addRecent === 'function') {
       addRecent(hymnId, categoryId);
     }

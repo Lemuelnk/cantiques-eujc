@@ -1,14 +1,16 @@
 import 'package:flutter/services.dart';
 
-import '../models.dart';
+import '../models/models.dart';
 
 class HymnRepository {
   const HymnRepository();
 
-  Future<CanonicalCorpus> loadLessonOne() async {
-    final source = await rootBundle.loadString(
-      'assets/data/lesson-1-creation.json',
-    );
+  Future<CanonicalCorpus> loadCategory(String categoryId) async {
+    final path = 'assets/data/canonical/$categoryId.json';
+    final source = await rootBundle.loadString(path);
     return CanonicalCorpus.fromJson(decodeObject(source));
   }
+
+  Future<CanonicalCorpus> loadLessonOne() =>
+      loadCategory('lesson-1-creation');
 }

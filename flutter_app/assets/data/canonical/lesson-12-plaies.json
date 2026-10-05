@@ -1,0 +1,1555 @@
+{
+  "schema_version": "1.0",
+  "corpus_status": "review",
+  "taxonomy": {
+    "domain": "lessons",
+    "category_id": "lesson-12",
+    "category_label": "Les 10 plaies",
+    "lesson_id": "lesson-12",
+    "lesson_label": "Leçon 12 — Les 10 plaies"
+  },
+  "source": {
+    "file": "chants_de_plaies.html"
+  },
+  "hymns": [
+    {
+      "schema_version": "1.0",
+      "id": "5a6af0c3-1caa-53e1-85e2-351eda4bbc5f",
+      "title": "MISRI EE MISRI",
+      "status": "review",
+      "versions": [
+        {
+          "id": "f878ce69-3416-5812-a3e0-7fae5443923d",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "MISRI EE MISRI",
+          "source": {
+            "file": "chants_de_plaies.html",
+            "position": 1,
+            "number": "98",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-12",
+            "category_label": "Les 10 plaies",
+            "lesson_id": "lesson-12",
+            "lesson_label": "Leçon 12 — Les 10 plaies"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Misri eh e misri)2x Jehova mungu kahidia toka wewe inchi yako."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Eh we mwanangu, eh we mwanangu tazama uduma huu ulikutoa toka misri usirejee yoyoyo usirejee misri."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Mukutenda maovu usirejee yoyoyo usirejee misri",
+                "- Mutenda uzini",
+                "- Mukuruka usiku",
+                "- Mutumwa wa zambi Nishutumiwapo njiani humu, nitukaniapo njiani humo ¨ Sitaacha yoyoyo sitaacha uduma ¨2x eh mimi"
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- kwa kulala ku saba sitaacha yoyoyo sitaacha uduma",
+                "- Kwa ku fanya faraja",
+                "- Uduma ni kazi",
+                "- Kwa kwimbia mungu"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "b4769735-c7b5-5ca9-90a4-e587ce8361d8",
+      "title": "KWELEKEA KWA JEHOVA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "9aa38f73-fa4b-5970-bbed-8dea06fe3fa7",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "KWELEKEA KWA JEHOVA",
+          "source": {
+            "file": "chants_de_plaies.html",
+            "position": 2,
+            "number": "99",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-12",
+            "category_label": "Les 10 plaies",
+            "lesson_id": "lesson-12",
+            "lesson_label": "Leçon 12 — Les 10 plaies"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Kwelekea kwa jehova inchini mwa misri ¨2x Jehova safarini mwake akauwa mwana wa kwanza, mwana wa mutu yote mwana wa mu misri watu wakalia. Atupo mu kanana, eh atupo mu kanana, atupo mukanana wajoli atupo mukanana yoyoyo kweli Musa musa akwingia mukanana (Bali watu wake) Bali watu wote wa kariti inchi ya kanana. Watu katika safari yao kwelekea kanana ¨2x Bahari mbele maadui nyuma (kweli watu) wakalia sana yoyoyo watu wa kalia. Njiani walimo safiri wali musengenya Musa ¨2x (kweli Musa) ingelikuwa vema sisi kufariki ya misri, mateso ya laana yoyoyo mateso ya laana."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Safari ni ndefu mateso ya laana yoyoyo mateso ya laana",
+                "- Njaa njiani",
+                "- Magojwa njiani."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "7b954263-c5a0-5416-9572-4cb2eac010c1",
+      "title": "PIGO KUMI LA FARAO",
+      "status": "review",
+      "versions": [
+        {
+          "id": "8ab78c04-37d8-566b-bb94-77b6209e619e",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "PIGO KUMI LA FARAO",
+          "source": {
+            "file": "chants_de_plaies.html",
+            "position": 3,
+            "number": "100",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-12",
+            "category_label": "Les 10 plaies",
+            "lesson_id": "lesson-12",
+            "lesson_label": "Leçon 12 — Les 10 plaies"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Pigo kumi la Farao wajoli israeli wote wakatoka utumwani kwelekea kanana inhi ya amani."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Wanaisraeli wameingia yoyoyo wameriti kanana"
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Inchi ya furaha wameingia yoyoyo wameriti kanana",
+                "- Inchi ya amani",
+                "- Inchi ya mababu",
+                "- Inhi ya salama"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Farao katuma majeshi kufuata israeli ¨2x wakaingia bahari nyekundu jeshi lote likafa, israeli wa mufalme wamevuka bahari. Walipo fika jangwani vita kali nyikanyi ¨2x kwakushinda miji ile tisa kuingia kanana, israeli wa mufalme wa meriti kanana ."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "b2bd4728-90cd-5009-ad7b-d82456f4a43f",
+      "title": "PAKUTUKA YAYA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "548462ee-d310-5028-b73d-2461553b73e7",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "PAKUTUKA YAYA",
+          "source": {
+            "file": "chants_de_plaies.html",
+            "position": 4,
+            "number": "101",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-12",
+            "category_label": "Les 10 plaies",
+            "lesson_id": "lesson-12",
+            "lesson_label": "Leçon 12 — Les 10 plaies"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Pakutuka yaya musenga Egypito, kubadi , mwanda wakukanya kumpala kwa mfumu falo¨2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Ntumbo yobe mwanana ayayo mwanana ntumbo yobe mwanana."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Ntumbo yobe Kadima aya yo mwanana ntumbo yobe mwanana.",
+                "- Ntumbo yobe Milemba Ba mwanana ba tumia milau ekumi ¨2x Nkumpala kwa nfumu falo na binangoshi biaye."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "2c0ef4b5-13b4-5854-986e-7ba4ccc0ae4f",
+      "title": "MULIMA OREBU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "1cfa9bce-a2e5-54f9-8283-bca713cf4f71",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "MULIMA OREBU",
+          "source": {
+            "file": "chants_de_plaies.html",
+            "position": 5,
+            "number": "102",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-12",
+            "category_label": "Les 10 plaies",
+            "lesson_id": "lesson-12",
+            "lesson_label": "Leçon 12 — Les 10 plaies"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Mulima orebu, bwana kamutuma Musa, (Musa wewe) simameni mukaone mufalme katika inhi ya misri kweli eh Musa we simameni mukaone mufalme katika inchi ya misri."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Mufalme wa misri",
+                "- Mufalme Farao"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Aruni na Musa ndugu yako: simameni."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "Kweli Aruni wewe, simameni, na Musa ndugu yako, simameni muokowe israeli, simameni, israeli utabika, simameni utabika kwa misri, (kweli Aruni wewe) simameni muokoe israeli kwa mufalume Farao."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Musa kanena mumbaji wangu tazama mimi ni mwenye utasi tasema nini kwa mufalume (kweli eh Musa wewe)"
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Kweli eh Musa wewe;",
+                "- majabu utenda: simameni",
+                "- Na Aruni ndugu yako,",
+                "- kweli eh Musa wewe simameni mukaone mufalume katika inchi ya misri",
+                "- Ngongo uko nayo"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "0c0c7a27-bafb-585f-bf55-a88e7912a68d",
+      "title": "TUMEVUKA LEO BAHARI KUBWA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "90a61cef-5f29-5f58-9c64-1eaf358bc221",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "TUMEVUKA LEO BAHARI KUBWA",
+          "source": {
+            "file": "chants_de_plaies.html",
+            "position": 6,
+            "number": "103",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-12",
+            "category_label": "Les 10 plaies",
+            "lesson_id": "lesson-12",
+            "lesson_label": "Leçon 12 — Les 10 plaies"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Tumevuka leo bahari kubwa kwelekea kanana inchi ya amani, ¨Farao na jeshi yake yote wamekufa baharini ¨2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Wenye kulala muhamke, wenye kuketi musimame, vit aya tuongojeya mbele yetu hili tusiingie kanana inchi ya wateule wajoli twende. Basi twende kanana, twende, twende kanana"
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Tukashinde vikwaza twende, twende kanana",
+                "- Tukariti uzima",
+                "- Tukashinde na miji"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Jazareni wenzangu tusiwe mu miji yote miji ni kitu kibaya tusi fariki njiani tusiwe mateka. Miji eh e miji eh, miji ni kitu kibaya ili uli uwisha yoane wa mungu kwa Herode mufalme basi yoane wetu akafa, yoane kwajili ya miji."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Miji ya kula na kunywa akafa yoane kwajili ya miji",
+                "- Miji ya kutumbukiya",
+                "- Miji ya kuomba omba"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Tuwe na imani yenye bayana na hakikisho tusiwe kama wajinga katika akili zetu , bayana kwa kila jambo wajoli katika neno la mungu tusiwe mateka 2x miji eh e miji ni kitu kibaya ili uwisha yoane wa mungu kwa Herode mufalme , basi yoane wetu akafa , yoane kwajili ya miji."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "-Miji ya kutumbukia akafa yoane kwajili ya miji",
+                "- Miji ya kupenda vipia",
+                "- Miji ya kula na kunywa"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "b6731428-38f5-5464-8a32-ad6b8b317877",
+      "title": "JESHI LA FARAO WAMEKUFA BAHARINI",
+      "status": "review",
+      "versions": [
+        {
+          "id": "297b2630-4f81-50b1-a7bb-bd5541fd1f61",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "JESHI LA FARAO WAMEKUFA BAHARINI",
+          "source": {
+            "file": "chants_de_plaies.html",
+            "position": 7,
+            "number": "104",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-12",
+            "category_label": "Les 10 plaies",
+            "lesson_id": "lesson-12",
+            "lesson_label": "Leçon 12 — Les 10 plaies"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Jeshi la Farao wamekufa baharini kwa kumufwata musa pia na wana israeli."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Kweli kweli israeli akasema leo ni kwetu kwa kumutukuza mungu"
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Israeli akasema leo ni kwetu kwa kumutukuza mungu",
+                "- Huyu mungu wa mababu",
+                "- Huyu mungu wa Kadima"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Wana israeli katika hem aya bwana ¨ Wote walifurahi kwa kumutukuza mungu ¨2xMimi, mimi huyu sitarudi tena kwa mufalme Farao mimi nilie teseka, mimi nilie tabika mimi sitarudi tena kwa mufalme Farao."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "2b43eada-7e17-5bc4-8001-02712864fbca",
+      "title": "TASEMA NINI MIMI MUNAZIRI WA MUNGU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "07bec50b-9ab7-5570-8079-5b0047c7ba79",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "TASEMA NINI MIMI MUNAZIRI WA MUNGU",
+          "source": {
+            "file": "chants_de_plaies.html",
+            "position": 8,
+            "number": "105",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-12",
+            "category_label": "Les 10 plaies",
+            "lesson_id": "lesson-12",
+            "lesson_label": "Leçon 12 — Les 10 plaies"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Tasema nini mimi munaziri wa mungu (eh mungu) Tasema nini mimi munaziri wa mufalme ¨ Nimetekwatekwa njiani kwa mitego moyo wangu ufazaika ¨2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Ila Jehova mungu uniokowe eh baba katikati ya njia, katikati ya njia uniokowe eh baba katikati ya njia"
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Mbele ya walozi wote",
+                "- Mbele ya wa pinga neno"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Ulipiga Hogi mufalume wa basani (eh mungu wangu)2x ukagarikisha Farao pia na jeshi lake. Jehova mungu mufalme wa haki (mungu wangu) jehova mungu mufalume wa haki ¨ Uliangusha mafalme ukasimamisha ufalme¨2x"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "ed7315cd-bf7a-52fc-9514-2e877c680184",
+      "title": "NIMEMUONA BWANA MOYONI MWANGU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "646225ce-3e25-5326-a9e9-b059a238ada4",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "NIMEMUONA BWANA MOYONI MWANGU",
+          "source": {
+            "file": "chants_de_plaies.html",
+            "position": 9,
+            "number": "106",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-12",
+            "category_label": "Les 10 plaies",
+            "lesson_id": "lesson-12",
+            "lesson_label": "Leçon 12 — Les 10 plaies"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Nimemuona bwana moyoni mwangu (kweli moyoni mwangu) maana neno lako limefika kwangu."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Yesu amesimama mulangoni pa moyo (mulangoni pa moyo) ili akuokowe wewe unae potea Ahaa alelua¨2X Alelua amina"
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "Pokea sifa alelua alelua amen."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Kwa kuriti kanana tujitakase,(tujitaakase) tupigane vita na miji hiyo: - muhiti, mwamori, muyebusi, mu hamori, mufilistini, muhu na muperezi, mugilkasi, muhiti na mutengia. Rahaba kahaba kaokolewa (kaokolewa) kwani alificha wa pelelezi ¨2x"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "9790abb4-01cb-5c92-998a-22ecc2f2c54b",
+      "title": "WATU WENGI WANAPENDA KUPATA UZIMA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "c3a453d6-aad5-5f71-83a2-77bcaa99cf2c",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "WATU WENGI WANAPENDA KUPATA UZIMA",
+          "source": {
+            "file": "chants_de_plaies.html",
+            "position": 10,
+            "number": "107",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-12",
+            "category_label": "Les 10 plaies",
+            "lesson_id": "lesson-12",
+            "lesson_label": "Leçon 12 — Les 10 plaies"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Watu wengi wanapenda kupata uzima kwalakini neno la uzima ni ngumu kwa kuyatimiza 2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Kweli kweli na ma jeshi kumbingu mwinunge sasa vita hiyo ni mbele yetu."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Mikaeli wa mungu mwinunge sasa vit hiyo ni mbele yetu"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Ulijita Jehova, jina la hasira, (Farao anatesa wana wako siku nyingi sana)2x Tukipenda kuomba sisi tulie kwa baba tumwalike Mikaeli wa mungu aje atujaze nguvu. Tumwalike Somsoni wa mungu aje atujaze nguvu"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "2a10e204-e295-5c9e-9040-15fd55401e1f",
+      "title": "BWANA AKAMWAMBIA MUSA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "268ce534-0245-5b2a-a160-ed8844b73580",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "BWANA AKAMWAMBIA MUSA",
+          "source": {
+            "file": "chants_de_plaies.html",
+            "position": 11,
+            "number": "108",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-12",
+            "category_label": "Les 10 plaies",
+            "lesson_id": "lesson-12",
+            "lesson_label": "Leçon 12 — Les 10 plaies"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Bwana, bwana akamwambia Musa (eh Musa takasa israeli wajiweke tayari, (watu) ¨ wavue mavazi yao mpaka siku ya tatu, watu wote ¨2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Bwana ameshuka leo mulimani, mulimani tetemeko kubwa."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Ameshuka na balance: mulimani, mulimani tetemeko kubwa.",
+                "- Ameshuka na malaika: Mungu katia mipaka kumulima sinai ¨2x ¨"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Yeyote atakae gusa sinai atauwawa kwa mawe ¨2x Walio gusa sinai wote tetemeko kubwa ¨2x (eh radi) ¨ Radi na lalo kalia sauti ya baragumu kalia tetemeko kubwa ¨2x"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "fed06a0a-21c5-577f-8896-3f0cf0788187",
+      "title": "MUNGU AKAMWAMBIA MUSA NENDA KWAO",
+      "status": "review",
+      "versions": [
+        {
+          "id": "f8c1934d-8ca7-5277-a869-14612b4f7a3f",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "MUNGU AKAMWAMBIA MUSA NENDA KWAO",
+          "source": {
+            "file": "chants_de_plaies.html",
+            "position": 12,
+            "number": "109",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-12",
+            "category_label": "Les 10 plaies",
+            "lesson_id": "lesson-12",
+            "lesson_label": "Leçon 12 — Les 10 plaies"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Mungu akamwambia Musa nenda kwao uwatakase leo na kesho wa fue mavazi hili wawe tayari kwa siku ya tatu wana wa israeli wakakimbia muke ¨2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Mwanadamu wewe usiguse sinai wewe usije ukafa."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Utatobolewa usiguse sinai usije ukafa",
+                "- Utapigwa mawe",
+                "- Mwanadamu wewe",
+                "- Wewe usitende zambi"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Ilipotimia siku ya tatu asubui likawa radi na lalo na wingu, baragumu kalia kwanguvu mulima wa sinai ukatikisika waishio kambi wakakimbia. Mulima wa sinai ukatowa moshi, moshi kama wa tanuru kwa sababu bwana alishuka mulimani katika moto."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "d4545ee6-338d-5117-8b0b-c89d0cac05f9",
+      "title": "MUSA ALIPO SHUKA MULIMANI",
+      "status": "review",
+      "versions": [
+        {
+          "id": "66a33429-d55c-503d-8c07-0cab89175358",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "MUSA ALIPO SHUKA MULIMANI",
+          "source": {
+            "file": "chants_de_plaies.html",
+            "position": 13,
+            "number": "110",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-12",
+            "category_label": "Les 10 plaies",
+            "lesson_id": "lesson-12",
+            "lesson_label": "Leçon 12 — Les 10 plaies"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Musa alipo shuka mulimani uso wake ukaanga ¨ Israeli wakakimbia kwajili ya Musa ¨2x"
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "-Musa vwa shela israeli akakimbia kwajili ya Musa",
+                "- Vuwa shela kichwani"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Andiko linauwa lakini roho anapatiza uzima"
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Kwa kuhubiri watu roho anapatiza uzima",
+                "- Kwa kuokowa watu",
+                "- Mafundisho ya roho"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Walipo letea Aruni ndama ili awafanize Miungu watakayo abudu."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Miungu ya pete na zaabu atakae abudu",
+                "- Kila mutu mu sheria yake",
+                "- Kila mutu mu asili yake"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "4a19ed8c-6240-5e45-9fbf-f4b6697cebaa",
+      "title": "USIWE NA MIUNGU MINGINE",
+      "status": "review",
+      "versions": [
+        {
+          "id": "99b4c1ce-de7d-528b-9a1d-8c5038b8bada",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "USIWE NA MIUNGU MINGINE",
+          "source": {
+            "file": "chants_de_plaies.html",
+            "position": 14,
+            "number": "111",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-12",
+            "category_label": "Les 10 plaies",
+            "lesson_id": "lesson-12",
+            "lesson_label": "Leçon 12 — Les 10 plaies"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Usiwe na Miungu mingine pamoja nami usijifanyie sanamu ao kivuli cha kitu chochote cha duniani ao kicho mbinguni, ¨ Ao kilicho majini usikishududie ¨2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Mulimani moto na mangurumo, mulimani panda umeme wa mvuwa ¨ Usiguse sinai mikono usije ukafe (ndugu yangu)¨2x"
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Ukiwa nyama usiguse sinai mikono usije ukafe",
+                "- Ukiwa mutu"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Usitaje jina la jehova bure, uusiuane, usizini wala kwiba. Usi singigizie jirani, ¨ Usitamana moyoni nyumba ya mwenzio ao kitu chochote cha jirani ¨2x Uikumbuke sabato uifanye takatifu ujifanyie kazi yako siku hizi sita ¨ Bali siku ya sabato ujifanye mutakatifu ndugu yangu ¨2x"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "a50a6fc2-7da6-576b-ba88-e4f97d64d1ab",
+      "title": "KUONDOKA KWA MUSA MULIMANI",
+      "status": "review",
+      "versions": [
+        {
+          "id": "05bbad0e-e4ad-54c8-9eb1-8ee9da2e89c4",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "KUONDOKA KWA MUSA MULIMANI",
+          "source": {
+            "file": "chants_de_plaies.html",
+            "position": 15,
+            "number": "112",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-12",
+            "category_label": "Les 10 plaies",
+            "lesson_id": "lesson-12",
+            "lesson_label": "Leçon 12 — Les 10 plaies"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Kuondoka kwa Musa mulimani sinai ¨2x Musa akavaa shela kichwani mwake kwani waisraeli wote walikimbia."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Jehova mungu nina kuomba )2x mimi nisiwe nami mutenda ùambo mbovu."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Ikiwa habari njema ina sheria ( sheria) iko kuko watu wenye uwovu ¨Kwani joka wa zamani anae danganya watu¨2x Sheria imeondoshwa mukristu pahali roho wa mufalme ndipo kuna uhuru roho ameshuka mwilini mwetu."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "d3c8529b-ec74-5f8d-bb83-6007221f5652",
+      "title": "DIPATUKA DIA BENA ISALELA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "087fd450-aeeb-566e-8789-09b67247338c",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "DIPATUKA DIA BENA ISALELA",
+          "source": {
+            "file": "chants_de_plaies.html",
+            "position": 16,
+            "number": "113",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-12",
+            "category_label": "Les 10 plaies",
+            "lesson_id": "lesson-12",
+            "lesson_label": "Leçon 12 — Les 10 plaies"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Dipatuka dia bena isalela kale mu egypito divua dikole ( bendanga ) ¨ Benda bakengesha bana ba isalela mu egypito bavua ba pika ¨2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Ah yoyoyoe bakapatuka benda basanka yoyoyoe nzambi kushipa yoyoyoe bene egypito."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Wakasungila shadalake ni meshake abedenengo mutshikuta wa kasengila ne Daniele kuji ntambwe bamwele mubwina bwa bamuje.Mu ntatu yenu ne makenga enu onso nu lombe bukole kudji nzambi bwaye udji witabija muntu onso alwekudie ne majituandji."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "e1d0dff4-540b-5cc3-9cf8-06d165e2fd86",
+      "title": "MUSA MULMANI MUNGU AKAMWAMBIA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "fbcdb076-85c5-54ed-99f8-4cba2eaaef00",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "MUSA MULMANI MUNGU AKAMWAMBIA",
+          "source": {
+            "file": "chants_de_plaies.html",
+            "position": 17,
+            "number": "114",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-12",
+            "category_label": "Les 10 plaies",
+            "lesson_id": "lesson-12",
+            "lesson_label": "Leçon 12 — Les 10 plaies"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Musa mulimani mungu akamwambia ¨2x (eh musa ) uhandike mambo yote ginsi uyaona mulimani mimi Mungu ni roho."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Musa mutumishi akumusikia mungu – Eh Musa akandika bibilia mwilini."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Ndio mwanzo wa zambi duniani akandika bibilia mwilini",
+                "- Ubatizo asema ku maji",
+                "- Na sadaka asema makuta"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Yesu aliitwa mwana alimusikia mungu (eh yesu ndio maana aliitwa mukombozi, mukombozi wa zambi duniani."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Aliitwa simba la wayuda ndio maana aliitwa mukombozi",
+                "- Aliitwa mukate wa mbinguni"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Mungu ni roho tumwabudu rohoni (eh baba ) ndio wale wafanyao uduma."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Na Kadima baba wa imani ndio wale wafanyao uduma",
+                "- Na mutume baba wa imani",
+                "- Baba Kyungu baba wa imani"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "112f5e0a-4870-57b0-bc43-12beda1f6c8e",
+      "title": "YAWE YOYOYO AAH",
+      "status": "review",
+      "versions": [
+        {
+          "id": "da96ba31-ab39-5c78-936b-f33286f44e3b",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "YAWE YOYOYO AAH",
+          "source": {
+            "file": "chants_de_plaies.html",
+            "position": 18,
+            "number": "115",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-12",
+            "category_label": "Les 10 plaies",
+            "lesson_id": "lesson-12",
+            "lesson_label": "Leçon 12 — Les 10 plaies"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Yawe yoyoyo aah yawe apende kamwe watu wajikuzao wamuhimidi bwana na roho damilifu."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "wakavuka ma bahari makubwa wakenda kwa miguu (wana israeli) wakaenda washududu bwana. Wakapotoka na Musa mu jangwani bwana akawaongoza (wana israeli ) wakaenda , wakaenda wakishududu bwana. Njaa kubwa nao ikawashika bwana akawalisha (wana israeli) wakaenda, waka enda, wakishududu bwana."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Haibu yoyoyo en, yoyoyo haibu ika washika watu wajikuzao wamuimidi bwana na roho damilifu."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "305d925e-9de9-51d0-9bde-f84646bc76a1",
+      "title": "BWANA AKA MWAPIA MUSA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "1128e74d-987b-5dfa-aa20-f6ce741b6add",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "BWANA AKA MWAPIA MUSA",
+          "source": {
+            "file": "chants_de_plaies.html",
+            "position": 19,
+            "number": "116",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-12",
+            "category_label": "Les 10 plaies",
+            "lesson_id": "lesson-12",
+            "lesson_label": "Leçon 12 — Les 10 plaies"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Bwana aka mwapia Musa autaingia kanana inchi ya watu wangu unitie Yoshua aingize watu wangu."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Kweli mungu hesabu wema wa watu Musa rafiki yake akuingia kanana nawe mutenda hautaingia kanana."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "Nawe mutenda zambi hautaingia kanana"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Yoshua akafanya agano mbele ya mungu baba masikiani mwa watu wa kubwa na wadogo kwa kutii maagizo na sheria ya mungu. Mungu baba si mungu wa uzalimu ¨2x ni mungu wa ukweli pia na wa utakaso ¨2x"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "2a2689d6-17c3-5e5a-9420-9c3c6a16f9aa",
+      "title": "MALAIKA ZA MBINGUNI",
+      "status": "review",
+      "versions": [
+        {
+          "id": "3da1e460-407a-5600-9250-959d3a4c1b46",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "MALAIKA ZA MBINGUNI",
+          "source": {
+            "file": "chants_de_plaies.html",
+            "position": 20,
+            "number": "117",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-12",
+            "category_label": "Les 10 plaies",
+            "lesson_id": "lesson-12",
+            "lesson_label": "Leçon 12 — Les 10 plaies"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Malaika za mbinguni wapo na mutukuza bali wewe duniani uko natanga-tanga Jehova Mungu, Mungu mumbaji wangu akaenda mbinguni kachukuwa mbingu kwa kuumba nazo mbingu zingine. Ambia ndege za mbingu ndege mutikisike ndege ikatikisika dunia ifurahiwe."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "¨Wajoli wangu bunene yoyoyo bunene wa jehova ¨2x Wana israeli kwingia yoyoyo kwingia mu kanana wakitoa yoe kwa furaha yoyoye ingia mu kanana."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "2. Musa akaenda jangwa moabu ¨2x kwelekea mu muji wa yeriko ¨2x kumilima ya nebo na pisiga, wakamuonesha mipaka yote ya, gileadi na dani na nafutali, efurahimu, manase, yuda¨2x.",
+                "- **Audio source present:** `Malaika za mbinguni1.mp3`"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "d5c6835f-da6a-54a1-9e32-5d0114bdb5d6",
+      "title": "WANA WAISRAELI KWELEKEYA INCHINI YA KANANA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "2f3a4fe8-66c7-51a4-8a69-844062b88315",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "WANA WAISRAELI KWELEKEYA INCHINI YA KANANA",
+          "source": {
+            "file": "chants_de_plaies.html",
+            "position": 21,
+            "number": "118",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-12",
+            "category_label": "Les 10 plaies",
+            "lesson_id": "lesson-12",
+            "lesson_label": "Leçon 12 — Les 10 plaies"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Wana wa israeli kwelekea inchini ya kanana 2x wakakuta Balama mumoabu wakatuma wajumbe kwa Balama ¨ Nabi iwa mungu ili alaani israeli wa mufalme¨2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Nangojea hadi, nangojea hadi eh mimi nangojea roho wa mungu sitaki shuruli za watu mimi nangojea mufariji mwema nipate wokovu."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Balama mwana wa Beori akaamka alfajiri kumwendea bwana mungu eh mungu ni metumwa na Balama (eh mimi ) kulaani jeshi hilio ya misri, jehova akamujibu usijaribu kwa tendo wala kuatamko Balama kulaani wa pakaliwa mafuta.Kwa tamaa zake mbaya Balama kachukuwa ngombe saba za wana wa moabu ili alaani israeli (Balama) kamuka asubui kapandia punda wake kwelekea mazabau (Balama) ¨2x"
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "- Punda wa Balama akamuonya yoyoyo usikufuru mungu wako",
+                "- Mungu kujirika mu punda",
+                "- Mungu kujirika mu nyama",
+                "- Sauti kujirika mu punda"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "66714573-5d3b-5206-957e-c396160ca101",
+      "title": "KUFA KWAKE MUSA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "07430df4-8253-570d-bedb-221ac5b2029a",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "KUFA KWAKE MUSA",
+          "source": {
+            "file": "chants_de_plaies.html",
+            "position": 22,
+            "number": "119",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-12",
+            "category_label": "Les 10 plaies",
+            "lesson_id": "lesson-12",
+            "lesson_label": "Leçon 12 — Les 10 plaies"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Kufa kwake Musa wajoli nabi iwa mungu (enyi wajoli) 2x ¨Bwana mungu kainuwa Yoshua aongoze wana israeli ¨2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Kutaza yeriko, kuta za yeriko ¨2x (kweli) kuta za yeriko zimebomolewa leo (kweli)2x"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Yoshua kafika yeriko kuta za yeriko zimechungwa na walinzi, kweli, kweli malaika za bwana kasimama mbele na upanga kauwa walinzi"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "fff03d32-d819-591e-b6aa-b95c764552dd",
+      "title": "WANA ISRAELI KWAUONGOZI WA MUSA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "50273dfa-1979-53cf-be73-44fb8c92cf40",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "WANA ISRAELI KWAUONGOZI WA MUSA",
+          "source": {
+            "file": "chants_de_plaies.html",
+            "position": 23,
+            "number": "120",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-12",
+            "category_label": "Les 10 plaies",
+            "lesson_id": "lesson-12",
+            "lesson_label": "Leçon 12 — Les 10 plaies"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Wana israeli kwauongozi wa Musa wakatoka misri Musa akawavusha bahari nyekundu kuingia nao jangwani humo akashindwa huduma zake, kuingia nao jangwani humo hakuwa fikisha mwisho."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Mimi taenda nitariti inchi, niriti inchi, inchi ya babangu ya raha na amani Mimi taenda tariti inchi makao ya babangu Isaka. Mimi Yakobo Juu ya mulima nebo Musa katazama inchi ya kanana kwa mbali"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "¨Eh Musa akafariki pale jehova mungu aka muzika na Yoshua akasimamishwa ¨2x Wana israeli kwa ongozi wa Yoshua mwana wa Nuni waka vuka Yordani na wakangush Yeriko waka riti kanana inchi ya maziwa na asali."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "653a5ec4-c3f6-5ea7-8ce4-ac01e2e90dfb",
+      "title": "HUDUMA HUDUMA ZA BABA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "3a2d32ef-1032-542f-a938-eeaece244388",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "HUDUMA HUDUMA ZA BABA",
+          "source": {
+            "file": "chants_de_plaies.html",
+            "position": 24,
+            "number": "121",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-12",
+            "category_label": "Les 10 plaies",
+            "lesson_id": "lesson-12",
+            "lesson_label": "Leçon 12 — Les 10 plaies"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Huduma, huduma za baba, huduma za mwana, huduma pia za roho, ¨Ukipenda kuriti muuduma za baba usiriti kwa fitina huduma za baba ¨2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Mimi tamwita nani baba eh baba nione yesu wangu sikia roho mwema uje uduma zitimilike - Mimi tamwita nani baba njiani humo mateso roho mwema uje huduma zitimilike."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Mungu kwa rehema yako kawokoa misri ukawaingiza kanana inchi ulio waidia¨2x Waliokuwa na chuki, waliokuwa na jeuri, waliokuwa na fitina walibaki mujangwa¨2x"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "668866b9-f960-5076-90dc-ce550cde36b5",
+      "title": "AWA TULIKUWA NAO KATIKA MISRI",
+      "status": "review",
+      "versions": [
+        {
+          "id": "ec012769-4eeb-5b3a-80d7-142cc9b95f6c",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "AWA TULIKUWA NAO KATIKA MISRI",
+          "source": {
+            "file": "chants_de_plaies.html",
+            "position": 25,
+            "number": "122",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "lessons",
+            "category_id": "lesson-12",
+            "category_label": "Les 10 plaies",
+            "lesson_id": "lesson-12",
+            "lesson_label": "Leçon 12 — Les 10 plaies"
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Awa tulikuwa nao katika misri awa kujuwa neno la mungu leo wameangaika awa kujuwa neno la haki leo wametanga tanga eh munguee eh baba usiniache, eh mungu eeh eh baba, baba usiniache."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Eh we ndie kimbilio langu mungu wangu baba usiniache, ewe ndie tegemeo langu mungu baba usiniache eh mungu ee eh baba baba usiniache."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Leo siunabaki uwezo wa baba umekuja oho leo shiunabaki utukufu wa baba umekuja oho leo shiunabaki mamulaka ya baba umekuja. Tuta ulizana siku bwana atakuja¨2x ¨na wa malaika wake sikuzile itakuwa shangwe¨2x"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    }
+  ]
+}

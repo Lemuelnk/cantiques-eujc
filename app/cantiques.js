@@ -25,9 +25,18 @@ if (categoryCount) categoryCount.textContent = 'Chargement…';
 // ------------------------------------------------------------
 // Navigation
 // ------------------------------------------------------------
-function openHymn(hymnId) {
-  const url = `cantique.html?hymn=${encodeURIComponent(hymnId)}`
-            + `&category=${encodeURIComponent(categoryId)}`;
+function openHymn(hymnOrId) {
+  let url;
+  if (hymnOrId && typeof hymnOrId === 'object' && typeof buildCantiqueUrl === 'function') {
+    url = buildCantiqueUrl(hymnOrId, categoryId);
+  } else if (typeof buildCantiqueUrl === 'function') {
+    // Compat : ancien appel avec l'id seul -> essayer de retrouver l'hymn
+    const found = Array.isArray(allHymns) ? allHymns.find(h => h.id === hymnOrId) : null;
+    url = found ? buildCantiqueUrl(found, categoryId)
+                : `cantique.html?hymn=${encodeURIComponent(hymnOrId)}&category=${encodeURIComponent(categoryId)}`;
+  } else {
+    url = `cantique.html?hymn=${encodeURIComponent(hymnOrId)}&category=${encodeURIComponent(categoryId)}`;
+  }
   window.location.href = url;
 }
 
@@ -108,11 +117,11 @@ function createHymnRow(hymn) {
   });
 
   // ---- Ouverture du cantique ----
-  row.addEventListener('click', () => openHymn(display.id));
+  row.addEventListener('click', () => openHymn(hymn));
   row.addEventListener('keydown', event => {
     if (event.key === 'Enter' || event.key === ' ') {
       event.preventDefault();
-      openHymn(display.id);
+      openHymn(hymn);
     }
   });
 
@@ -128,6 +137,43 @@ async function loadCategoryHymns() {
     const corpus = await loadCanonicalLesson(categoryId);
     const hymns = Array.isArray(corpus.hymns) ? corpus.hymns : [];
     const taxonomy = corpus.taxonomy || {};
+    const seoCategory = taxonomy.category_label || taxonomy.lesson_label || 'Cantiques EUJC';
+    const seoTitle = `${seoCategory} — Cantiques EUJC`;
+    const seoDescription = `Consultez les paroles des cantiques de la catégorie ${seoCategory} dans le recueil numérique Cantiques EUJC.`;
+    document.title = seoTitle;
+
+    const canonicalUrl = new URL(window.location.href);
+    canonicalUrl.hash = '';
+    canonicalUrl.searchParams.sort();
+    let canonicalLink = document.head.querySelector('link[rel="canonical"]');
+    if (!canonicalLink) {
+      canonicalLink = document.createElement('link');
+      canonicalLink.rel = 'canonical';
+      document.head.appendChild(canonicalLink);
+    }
+    canonicalLink.href = canonicalUrl.href;
+
+    const updateMeta = (selector, attribute, key, value) => {
+      let meta = document.head.querySelector(`${selector}[${attribute}="${key}"]`);
+      if (!meta) {
+        meta = document.createElement('meta');
+        meta.setAttribute(attribute, key);
+        document.head.appendChild(meta);
+      }
+      meta.setAttribute('content', value);
+    };
+    updateMeta('meta', 'name', 'description', seoDescription);
+    updateMeta('meta', 'name', 'robots', 'index, follow, max-image-preview:large');
+    updateMeta('meta', 'property', 'og:type', 'website');
+    updateMeta('meta', 'property', 'og:site_name', 'Cantiques EUJC');
+    updateMeta('meta', 'property', 'og:title', seoTitle);
+    updateMeta('meta', 'property', 'og:description', seoDescription);
+    updateMeta('meta', 'property', 'og:url', canonicalUrl.href);
+    updateMeta('meta', 'property', 'og:image', 'https://cantiques-eujc.lnk-studio.com/assets/icons/icon-512.png');
+    updateMeta('meta', 'name', 'twitter:card', 'summary');
+    updateMeta('meta', 'name', 'twitter:title', seoTitle);
+    updateMeta('meta', 'name', 'twitter:description', seoDescription);
+    updateMeta('meta', 'name', 'twitter:image', 'https://cantiques-eujc.lnk-studio.com/assets/icons/icon-512.png');
 
     if (categoryTitle) {
       categoryTitle.textContent =

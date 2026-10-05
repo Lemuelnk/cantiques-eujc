@@ -36,10 +36,10 @@ async function chargerCantiques() {
   try {
     const data = await loadCanonicalLesson();
     etat.cantiques = Array.isArray(data.hymns) ? data.hymns : [];
-    afficherRecents();
+    await afficherRecents();
   } catch (err) {
     console.error('Erreur de chargement des cantiques :', err);
-    afficherRecents();
+    await afficherRecents();
   }
 }
 
@@ -59,17 +59,49 @@ function chargerHistorique() {
   }
 }
 
-function afficherRecents() {
+// Cache de corpus pour retrouver un cantique hors lesson-1
+const _corpusCache = new Map();
+async function _getCorpus(category) {
+  if (_corpusCache.has(category)) return _corpusCache.get(category);
+  try {
+    const data = await loadCanonicalLesson(category);
+    _corpusCache.set(category, data);
+    return data;
+  } catch {
+    _corpusCache.set(category, null);
+    return null;
+  }
+}
+
+async function afficherRecents() {
   const historique = chargerHistorique();
 
-  let elements = historique
-    .map(item => {
-      const id = (typeof item === 'string') ? item : item.id;
-      return etat.cantiques.find(c => c.id === id);
-    })
-    .filter(Boolean);
+  // Grouper les ids par catégorie (format {id, category, ts})
+  const byCat = new Map();
+  historique.forEach(item => {
+    const id  = (typeof item === 'string') ? item : item.id;
+    const cat = (item && typeof item === 'object' && item.category)
+      ? item.category
+      : 'lesson-1';
+    if (!id) return;
+    if (!byCat.has(cat)) byCat.set(cat, []);
+    byCat.get(cat).push(id);
+  });
 
-  // État vide : aucun cantique consulté pour l'instant
+  // Résoudre chaque cantique dans SON corpus
+  const elements = [];
+  for (const [cat, ids] of byCat.entries()) {
+    const corpus = (cat === 'lesson-1' && etat.cantiques.length)
+      ? { hymns: etat.cantiques }
+      : await _getCorpus(cat);
+    if (!corpus || !Array.isArray(corpus.hymns)) continue;
+    ids.forEach(id => {
+      const hymn = corpus.hymns.find(h => h.id === id);
+      if (hymn) elements.push({ hymn, category: cat });
+    });
+  }
+
+  // État vide
   if (elements.length === 0) {
     $recents.innerHTML =
       '<p class="recent-empty">Vos cantiques récemment ouverts apparaîtront ici.</p>';
@@ -78,26 +110,24 @@ function afficherRecents() {
   }
 
   $recents.innerHTML = '';
-
-  elements.slice(0, 5).forEach((cantique) => {
-    const index = etat.cantiques.indexOf(cantique);
-
-    const button = document.createElement('button');
-    button.className = 'recent-item';
-    button.dataset.id = cantique.id;
-
-    const version = versionPrincipale(cantique);
+  elements.slice(0, 5).forEach(({ hymn, category }) => {
+    const index = etat.cantiques.indexOf(hymn);
+    const version = versionPrincipale(hymn);
     const lang = (version && version.language && version.language.label)
       ? version.language.label
       : 'Langue à confirmer';
 
+    const button = document.createElement('button');
+    button.className = 'recent-item';
+    button.dataset.id = hymn.id;
+
     button.innerHTML =
       '<span class="recent-number">' +
-      echapper(numero(cantique, index)) +
+      echapper(numero(hymn, index)) +
       '</span>' +
       '<span class="recent-content">' +
         '<span class="recent-title">' +
-        echapper(titre(cantique, index)) +
+        echapper(titre(hymn, index)) +
         '</span>' +
         '<span class="recent-meta">' +
         echapper(lang) +
@@ -105,7 +135,7 @@ function afficherRecents() {
       '</span>' +
       '<span class="recent-arrow" aria-hidden="true"><i data-lucide="chevron-right"></i></span>';
 
-    button.addEventListener('click', () => ouvrirCantique(cantique.id));
+    button.addEventListener('click', () => ouvrirCantique(hymn.id, category));
     $recents.appendChild(button);
   });
 
@@ -126,12 +156,23 @@ function enregistrerRecent(id, category) {
   );
 }
 
-function ouvrirCantique(id) {
-  enregistrerRecent(id, 'lesson-1');
-  const cantique = etat.cantiques.find(c => c.id === id);
+function ouvrirCantique(id, category) {
+  const cat = category || 'lesson-1';
+  enregistrerRecent(id, cat);
+
+  let cantique = etat.cantiques.find(c => c.id === id);
+  if (!cantique) {
+    const cached = _corpusCache.get(cat);
+    if (cached && Array.isArray(cached.hymns)) {
+      cantique = cached.hymns.find(h => h.id === id);
+    }
+  }
   if (!cantique) return;
-  window.location.href =
-    `cantique.html?hymn=${encodeURIComponent(cantique.id)}&category=lesson-1`;
+
+  const url = (typeof buildCantiqueUrl === 'function')
+    ? buildCantiqueUrl(cantique, cat)
+    : `cantique.html?hymn=${encodeURIComponent(cantique.id)}&category=${encodeURIComponent(cat)}`;
+  window.location.href = url;
 }
 
 function lancerRecherche() {
