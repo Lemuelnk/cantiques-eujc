@@ -1,0 +1,36 @@
+/* Cantiques EUJC — flux de partage indépendant */
+(function(){
+'use strict';
+const $=id=>document.getElementById(id), overlay=$('share-overlay'), sheet=$('share-sheet'), imageSheet=$('share-image-sheet'), canvas=$('share-image-canvas'), loading=$('share-image-loading'), generateButton=$('share-image-generate'),saveButton=$('share-image-save');
+const formats=[...document.querySelectorAll('.share-format')],themes=[...document.querySelectorAll('.share-theme')];
+let panel=null,format='1:1',theme='cream',previousFocus=null;
+const hymn=()=>typeof currentHymn!=='undefined'?currentHymn:null;
+const version=()=>typeof currentVersion!=='undefined'?currentVersion:null;
+const url=()=>location.href.split('#')[0];
+function setPanel(next){panel=next;overlay.hidden=!next;sheet.hidden=next!=='share';imageSheet.hidden=next!=='image';document.body.classList.toggle('share-open',!!next);if(next){const el=(next==='image'?imageSheet:sheet).querySelector('button');el?.focus({preventScroll:true});window.lucide?.createIcons?.()}else if(previousFocus?.isConnected)previousFocus.focus({preventScroll:true})}
+function openShare(){previousFocus=document.activeElement;setPanel('share')}
+function closeShare(){setPanel(null)}
+function showLoading(text,show){loading.textContent=text;loading.hidden=!show}
+async function preview(){if(!hymn()||!version()||!window.ShareImage){showLoading('Les données du cantique ne sont pas disponibles.',true);return}showLoading('Préparation de l’aperçu…',true);try{await window.ShareImage.waitFonts();window.ShareImage.generate(canvas,hymn(),version(),format,theme);showLoading('',false)}catch(e){console.error('[Partage]',e);showLoading('Erreur : '+(e&&e.message?e.message:JSON.stringify(e)),true)}}
+function openImage(){if(!hymn()||!version()||!window.ShareImage){alert('Le cantique est encore en cours de chargement. Réessayez.');return}format=window.ShareImage.autoFormatFor(hymn(),version());formats.forEach(b=>{let on=b.dataset.format===format;b.classList.toggle('is-active',on);b.setAttribute('aria-pressed',String(on))});setPanel('image');requestAnimationFrame(preview)}
+function lyricsText(){const h=hymn(),v=version();if(!h||!v)return '';const blocks=(v.content||[]).map(b=>{const lines=(b.lines||[]).join('\n');if(b.type==='refrain')return 'REFRAIN\n'+lines;if(b.type==='comment')return 'NOTE\n'+lines;if(b.type==='verse'&&b.number!=null&&String(b.number).trim())return String(b.number)+'.  '+lines;return lines}).filter(Boolean).join('\n\n');const number=v.source?.number!=null&&String(v.source.number).trim()?'N° '+v.source.number:'';const language=v.language?.label||v.language_label||v.source?.language||'';const category=v.taxonomy?.lesson_label||v.taxonomy?.category_label||'';return [number,v.title||h.title, [language,category].filter(Boolean).join(' · '), '',blocks,'','Cantiques EUJC'].filter((x,i,a)=>x!==''||(i>0&&a[i-1]!=='')).join('\n').trim()}
+async function copy(text,message){try{if(navigator.clipboard?.writeText)await navigator.clipboard.writeText(text);else{const t=document.createElement('textarea');t.value=text;t.style.cssText='position:fixed;opacity:0';document.body.appendChild(t);t.select();if(!document.execCommand('copy'))throw Error('copy failed');t.remove()}closeShare();alert(message)}catch(e){closeShare();prompt('Copiez le contenu ci-dessous :',text)}}
+async function native(data){if(!navigator.share)return false;try{await navigator.share(data);return true}catch(e){return e?.name==='AbortError'}}
+async function shareText(){const h=hymn(),v=version();if(!h||!v)return;const text=lyricsText(),ok=await native({title:(v.title||h.title||'Cantique')+' — Cantiques EUJC',text,url:url()});if(ok)closeShare();else await copy(text+'\n\n'+url(),'Le texte est prêt à être partagé.')}
+async function shareLink(){const h=hymn(),v=version();if(!h||!v)return;const title=(v.title||h.title||'Cantique')+' — Cantiques EUJC',link=url(),ok=await native({title,text:'Découvrez ce cantique dans Cantiques EUJC.',url:link});if(ok)closeShare();else await copy(title+'\n'+link,'Lien copié.')}
+async function download(blob,name){const u=URL.createObjectURL(blob),a=document.createElement('a');a.href=u;a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),1500)}
+function buildFilename(){
+  const n = version().source?.number;
+  const num = (n == null ? 'cantique' : String(n).replace(/[^\w-]/g,'-'));
+  const fmt = (format || '1:1').replace(':', 'x');
+  const thm = (theme || 'cream');
+  return 'cantiques-eujc-' + num + '-' + fmt + '-' + thm + '.png';
+}
+async function generateAndDownload(){if(!hymn()||!version()||!window.ShareImage)return;saveButton.disabled=true;const label=saveButton.querySelector('span'),old=label.textContent;label.textContent='Préparation…';try{await preview();const blob=await window.ShareImage.toBlob(canvas);if(!blob)throw Error('PNG indisponible');const name=buildFilename();await download(blob,name)}catch(e){console.error('[Enregistrer]',e);alert('Impossible de préparer cette image pour le moment.')}finally{saveButton.disabled=false;label.textContent=old}}
+async function generateAndShare(){if(!hymn()||!version()||!window.ShareImage)return;generateButton.disabled=true;const label=generateButton.querySelector('span'),old=label.textContent;label.textContent='Préparation…';try{await preview();const blob=await window.ShareImage.toBlob(canvas);if(!blob)throw Error('PNG indisponible');const name=buildFilename(),file=new File([blob],name,{type:'image/png'}),title=(version().title||hymn().title||'Cantique')+' — Cantiques EUJC',data={title,text:'Cantique partagé depuis Cantiques EUJC.\n'+url(),files:[file]};if(navigator.share&&navigator.canShare?.({files:[file]})){try{await navigator.share(data)}catch(e){if(e?.name!=='AbortError')await download(blob,name)}}else await download(blob,name)}catch(e){console.error('[Partage image]',e);alert('Impossible de préparer cette image pour le moment.')}finally{generateButton.disabled=false;label.textContent=old}}
+overlay.addEventListener('click',closeShare);$('share-close').addEventListener('click',closeShare);$('share-image-close').addEventListener('click',closeShare);$('share-image-back').addEventListener('click',()=>setPanel('share'));$('share-open-image').addEventListener('click',openImage);$('share-open-text').addEventListener('click',shareText);$('share-open-link').addEventListener('click',shareLink);generateButton.addEventListener('click',generateAndShare);saveButton.addEventListener('click',generateAndDownload);
+formats.forEach(b=>b.addEventListener('click',()=>{format=b.dataset.format;formats.forEach(x=>{const on=x===b;x.classList.toggle('is-active',on);x.setAttribute('aria-pressed',String(on))});preview()}));
+themes.forEach(b=>b.addEventListener('click',()=>{theme=b.dataset.theme;themes.forEach(x=>{const on=x===b;x.classList.toggle('is-active',on);x.setAttribute('aria-pressed',String(on))});preview()}));
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&panel)closeShare()});
+const entry=$('btn-share')||$('btnShare')||document.querySelector('[data-action="share"]');if(entry)entry.addEventListener('click',openShare);else console.warn('[Partage] Bouton de partage introuvable.');
+})();

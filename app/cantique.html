@@ -32,8 +32,8 @@
   <meta name="twitter:image" content="https://cantiques-eujc.lnk-studio.com/og-image.png">
 
   <link rel="manifest" href="manifest.webmanifest">
-  <link rel="stylesheet" href="charte.css?v=77">
-  <link rel="stylesheet" href="fonts.css?v=77">  <script>
+  <link rel="stylesheet" href="charte.css?v=89">
+  <link rel="stylesheet" href="fonts.css?v=89">  <script>
     /* Anti-FOUC : applique le thème + police avant tout rendu */
     (function(){
       try {
@@ -59,10 +59,15 @@
     })();
   </script>
 
-  <link rel="stylesheet" href="style.css?v=77">
-  <link rel="stylesheet" href="cantique.css?v=77">
+  <link rel="stylesheet" href="style.css?v=89">
+  <link rel="stylesheet" href="cantique.css?v=89">
+  <link rel="stylesheet" href="share/share.css?v=12">
 
   <script src="https://unpkg.com/lucide@latest"></script>
+  <!-- Polices de partage (générateur d'image) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -181,172 +186,61 @@
     </div>
 
 
-  <!-- =========================
-       PANNEAU PARTAGE
-  ========================== -->
-  <div class="share-panel-backdrop" id="share-panel-backdrop" hidden></div>
-
-  <div class="share-panel" id="share-panel" hidden aria-modal="true" role="dialog">
-    <div class="share-panel-handle" aria-hidden="true"></div>
-
-    <div class="share-panel-header">
-      <h2>Partager</h2>
-      <button type="button" class="share-panel-close" id="share-panel-close" aria-label="Fermer">
-        <i data-lucide="x"></i>
-      </button>
+  <!-- Share UI isolated from the hymn reader -->
+  <div class="share-overlay" id="share-overlay" hidden></div>
+  <section class="share-sheet" id="share-sheet" role="dialog" aria-modal="true" aria-labelledby="share-title" hidden>
+    <div class="share-handle" aria-hidden="true"></div>
+    <header class="share-header">
+      <button class="share-icon-button" id="share-close" type="button" aria-label="Fermer"><i data-lucide="x"></i></button>
+      <h2 id="share-title">Partager le cantique</h2><span></span>
+    </header>
+    <div class="share-actions">
+      <button class="share-action share-action-primary" id="share-open-image" type="button"><span class="share-action-icon"><i data-lucide="image"></i></span><span><strong>Partager en image</strong><small>Créer une fiche élégante avec les paroles</small></span><i data-lucide="chevron-right"></i></button>
+      <button class="share-action" id="share-open-text" type="button"><span class="share-action-icon"><i data-lucide="file-text"></i></span><span><strong>Partager en texte</strong><small>Paroles structurées, prêtes à envoyer</small></span><i data-lucide="chevron-right"></i></button>
+      <button class="share-action" id="share-open-link" type="button"><span class="share-action-icon"><i data-lucide="link"></i></span><span><strong>Partager le lien</strong><small>Ouvrir directement cette fiche</small></span><i data-lucide="chevron-right"></i></button>
     </div>
+    <p class="share-footnote">Une seule version linguistique est partagée à la fois.</p>
+  </section>
 
-    <div class="share-panel-options">
-
-      <button type="button" class="share-option" id="share-image">
-        <div class="share-option-icon"><i data-lucide="image"></i></div>
-        <div class="share-option-text">
-          <strong>Partager le cantique</strong>
-          <span>Créer une belle image</span>
-        </div>
-        <i data-lucide="chevron-right" class="share-option-arrow"></i>
-      </button>
-
-      <button type="button" class="share-option" id="share-link-app">
-        <div class="share-option-icon"><i data-lucide="link"></i></div>
-        <div class="share-option-text">
-          <strong>Partager avec le lien</strong>
-          <span>Image + lien de l'application</span>
-        </div>
-        <i data-lucide="chevron-right" class="share-option-arrow"></i>
-      </button>
-
-      <button type="button" class="share-option" id="share-copy-link">
-        <div class="share-option-icon"><i data-lucide="copy"></i></div>
-        <div class="share-option-text">
-          <strong>Copier le lien</strong>
-          <span>Lien vers ce cantique</span>
-        </div>
-        <i data-lucide="chevron-right" class="share-option-arrow"></i>
-      </button>
-
-      <button type="button" class="share-option" id="share-copy-lyrics">
-        <div class="share-option-icon"><i data-lucide="file-text"></i></div>
-        <div class="share-option-text">
-          <strong>Copier les paroles</strong>
-          <span>Texte brut des paroles</span>
-        </div>
-        <i data-lucide="chevron-right" class="share-option-arrow"></i>
-      </button>
-
+  <section class="share-sheet share-image-sheet" id="share-image-sheet" role="dialog" aria-modal="true" aria-labelledby="share-image-title" hidden>
+    <div class="share-handle" aria-hidden="true"></div>
+    <header class="share-header">
+      <button class="share-icon-button" id="share-image-back" type="button" aria-label="Retour"><i data-lucide="arrow-left"></i></button>
+      <h2 id="share-image-title">Créer une image</h2>
+      <button class="share-icon-button" id="share-image-close" type="button" aria-label="Fermer"><i data-lucide="x"></i></button>
+    </header>
+    <div class="share-preview" id="share-image-preview">
+      <canvas id="share-image-canvas" aria-label="Aperçu de l’image du cantique"></canvas>
+      <div class="share-image-loading" id="share-image-loading">Préparation de l’aperçu…</div>
     </div>
-  </div>
-
-
-  <!-- =========================
-       PANNEAU PARTAGE
-  ========================== -->
-  <div class="share-panel-backdrop" id="share-panel-backdrop" hidden></div>
-
-  <div class="share-panel" id="share-panel" hidden aria-modal="true" role="dialog">
-    <div class="share-panel-handle" aria-hidden="true"></div>
-
-    <div class="share-panel-header">
-      <h2>Partager</h2>
-      <button type="button" class="share-panel-close" id="share-panel-close" aria-label="Fermer">
-        <i data-lucide="x"></i>
-      </button>
+    <section class="share-control" aria-labelledby="share-format-label">
+      <div class="share-control-heading"><h3 id="share-format-label">Format de l’image</h3><span>Adapté à la longueur</span></div>
+      <div class="share-format-grid" id="share-image-formats">
+        <button class="share-format is-active" type="button" data-format="1:1" aria-pressed="true"><i class="format-shape fs-1x1"></i><strong>1:1</strong><small>Court</small></button>
+        <button class="share-format" type="button" data-format="4:5" aria-pressed="false"><i class="format-shape fs-4x5"></i><strong>4:5</strong><small>Moyen</small></button>
+        <button class="share-format" type="button" data-format="3:4" aria-pressed="false"><i class="format-shape fs-3x4"></i><strong>3:4</strong><small>Moyen +</small></button>
+        <button class="share-format" type="button" data-format="2:3" aria-pressed="false"><i class="format-shape fs-2x3"></i><strong>2:3</strong><small>Long</small></button>
+        <button class="share-format" type="button" data-format="9:16" aria-pressed="false"><i class="format-shape fs-9x16"></i><strong>9:16</strong><small>Long +</small></button>
+        <button class="share-format" type="button" data-format="9:17" aria-pressed="false"><i class="format-shape fs-9x17"></i><strong>9:17</strong><small>Très long</small></button>
+        <button class="share-format" type="button" data-format="9:18" aria-pressed="false"><i class="format-shape fs-9x18"></i><strong>9:18</strong><small>Très long +</small></button>
+        <button class="share-format" type="button" data-format="9:19" aria-pressed="false"><i class="format-shape fs-9x19"></i><strong>9:19</strong><small>Max</small></button>
+      </div>
+    </section>
+    <section class="share-control" aria-labelledby="share-theme-label">
+      <div class="share-control-heading"><h3 id="share-theme-label">Thème de design</h3></div>
+      <div class="share-theme-grid" id="share-image-themes">
+        <button class="share-theme is-active" type="button" data-theme="cream" aria-pressed="true"><img class="theme-thumb" src="assets/share/themes/theme-cream-1x1.jpg" alt=""><span>Crème</span></button>
+        <button class="share-theme" type="button" data-theme="forest" aria-pressed="false"><img class="theme-thumb" src="assets/share/themes/theme-forest-1x1.jpg" alt=""><span>Forêt</span></button>
+        <button class="share-theme" type="button" data-theme="midnight" aria-pressed="false"><img class="theme-thumb" src="assets/share/themes/theme-midnight-1x1.jpg" alt=""><span>Nuit</span></button>
+        <button class="share-theme" type="button" data-theme="botanical" aria-pressed="false"><img class="theme-thumb" src="assets/share/themes/theme-botanical-1x1.jpg" alt=""><span>Botanique</span></button>
+      </div>
+    </section>
+    <div class="share-actions-row">
+      <button class="share-generate share-save" id="share-image-save" type="button"><i data-lucide="download"></i><span>Enregistrer</span></button>
+      <button class="share-generate" id="share-image-generate" type="button"><i data-lucide="share-2"></i><span>Partager</span></button>
     </div>
-
-    <div class="share-panel-options">
-
-      <button type="button" class="share-option" id="share-image">
-        <div class="share-option-icon"><i data-lucide="image"></i></div>
-        <div class="share-option-text">
-          <strong>Partager le cantique</strong>
-          <span>Créer une belle image</span>
-        </div>
-        <i data-lucide="chevron-right" class="share-option-arrow"></i>
-      </button>
-
-      <button type="button" class="share-option" id="share-link-app">
-        <div class="share-option-icon"><i data-lucide="link"></i></div>
-        <div class="share-option-text">
-          <strong>Partager avec le lien</strong>
-          <span>Image + lien de l'application</span>
-        </div>
-        <i data-lucide="chevron-right" class="share-option-arrow"></i>
-      </button>
-
-      <button type="button" class="share-option" id="share-copy-link">
-        <div class="share-option-icon"><i data-lucide="copy"></i></div>
-        <div class="share-option-text">
-          <strong>Copier le lien</strong>
-          <span>Lien vers ce cantique</span>
-        </div>
-        <i data-lucide="chevron-right" class="share-option-arrow"></i>
-      </button>
-
-      <button type="button" class="share-option" id="share-copy-lyrics">
-        <div class="share-option-icon"><i data-lucide="file-text"></i></div>
-        <div class="share-option-text">
-          <strong>Copier les paroles</strong>
-          <span>Texte brut des paroles</span>
-        </div>
-        <i data-lucide="chevron-right" class="share-option-arrow"></i>
-      </button>
-
-    </div>
-  </div>
-
-
-  <!-- =========================
-       PANNEAU PARTAGE — IMAGE
-  ========================== -->
-  <div class="share-image-backdrop" id="share-image-backdrop" hidden></div>
-
-  <div class="share-image-panel" id="share-image-panel" hidden aria-modal="true" role="dialog">
-    <div class="share-image-handle" aria-hidden="true"></div>
-
-    <div class="share-image-header">
-      <button type="button" class="share-image-back" id="share-image-back" aria-label="Retour">
-        <i data-lucide="arrow-left"></i>
-      </button>
-      <h2>Créer une image</h2>
-      <button type="button" class="share-image-close" id="share-image-close" aria-label="Fermer">
-        <i data-lucide="x"></i>
-      </button>
-    </div>
-
-    <div class="share-image-preview" id="share-image-preview">
-      <canvas id="share-image-canvas"></canvas>
-      <div class="share-image-loading" id="share-image-loading">Génération…</div>
-    </div>
-
-    <div class="share-image-formats" id="share-image-formats">
-      <button type="button" class="format-btn is-active" data-format="1:1">
-        <span class="format-icon" aria-hidden="true"></span>
-        <strong>1:1</strong>
-        <small>Court</small>
-      </button>
-      <button type="button" class="format-btn" data-format="4:5">
-        <span class="format-icon" aria-hidden="true"></span>
-        <strong>4:5</strong>
-        <small>Moyen</small>
-      </button>
-      <button type="button" class="format-btn" data-format="9:16">
-        <span class="format-icon" aria-hidden="true"></span>
-        <strong>9:16</strong>
-        <small>Long</small>
-      </button>
-      <button type="button" class="format-btn" data-format="9:19">
-        <span class="format-icon" aria-hidden="true"></span>
-        <strong>9:19</strong>
-        <small>Très long</small>
-      </button>
-    </div>
-
-    <button type="button" class="share-image-generate" id="share-image-generate">
-      <i data-lucide="share-2"></i>
-      <span>Générer et partager</span>
-    </button>
-  </div>
-
+    <p class="share-image-note">Les paroles restent fidèles à la version choisie. L’image s’allonge si nécessaire pour ne rien couper.</p>
+  </section>
   </main>
 
   <!-- =========================
@@ -396,11 +290,12 @@
   </div>
 
 
-  <script src="preferences.js?v=77"></script>
-  <script src="canonical-data.js?v=77"></script>
-  <script src="storage.js?v=77"></script>
-  <script src="share-image.js?v=77"></script>
-  <script src="cantique.js?v=77"></script>
-  <script src="sw-register.js?v=77"></script>
+  <script src="preferences.js?v=89"></script>
+  <script src="canonical-data.js?v=89"></script>
+  <script src="storage.js?v=89"></script>
+  <script src="share-image.js?v=89"></script>
+  <script src="cantique.js?v=89"></script>
+  <script src="share/share-ui.js?v=12"></script>
+  <script src="sw-register.js?v=89"></script>
 </body>
 </html>
