@@ -72,13 +72,14 @@
 .favorite-row {
   display: flex;
   align-items: center;
-  gap: 14px;
-  padding: 14px 16px;
-  background: var(--bg-elevated);
-  border-radius: 14px;
+  gap: 12px;
+  min-height: 72px;
+  padding: 12px 14px;
+  background: var(--surface, var(--bg-elevated));
+  border-radius: 16px;
   border: 1px solid rgba(13, 46, 34, 0.06);
   cursor: pointer;
-  transition: transform 120ms ease, box-shadow 120ms ease;
+  transition: transform 140ms ease, box-shadow 140ms ease;
   text-decoration: none;
   color: inherit;
 }
@@ -90,11 +91,16 @@
 
 .favorite-row .fav-number {
   flex: 0 0 auto;
-  min-width: 42px;
-  height: 42px;
+  min-width: 36px;
+  height: 36px;
   padding: 0 10px;
   border-radius: 10px;
-  background: var(--p-forest-700);
+  background: var(--hover-teal);
+  color: var(--teal);
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   color: var(--accent-gold);
   font-weight: 600;
   font-size: 15px;

@@ -151,15 +151,15 @@ button {
 
 .hymn-row {
   display: grid;
-  grid-template-columns: 38px minmax(0, 1fr) 40px;
+  grid-template-columns: 36px minmax(0, 1fr) 40px;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
   min-height: 72px;
-  padding: 10px 10px 10px 12px;
-  border: 1px solid var(--border);
+  padding: 12px 14px;
+  border: 1px solid rgba(13, 46, 34, 0.06);
   border-radius: 16px;
   background: var(--surface);
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  transition: transform 140ms ease, box-shadow 140ms ease;
 }
 
 .hymn-row:active {
@@ -175,8 +175,8 @@ button {
 }
 
 .hymn-number {
-  width: 34px;
-  height: 34px;
+  width: 36px;
+  height: 36px;
   display: flex;
   align-items: center;
   justify-content: center;

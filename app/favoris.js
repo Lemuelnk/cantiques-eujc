@@ -57,7 +57,7 @@ function createFavoriteRow(hymn, category) {
   removeBtn.className = 'fav-remove';
   removeBtn.type = 'button';
   removeBtn.setAttribute('aria-label', `Retirer ${display.title} des favoris`);
-  removeBtn.innerHTML = '<i data-lucide="star"></i>';
+  removeBtn.innerHTML = '<i data-lucide="heart"></i>';
 
   removeBtn.addEventListener('click', event => {
     event.preventDefault();

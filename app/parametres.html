@@ -19,11 +19,11 @@
   <meta name="mobile-web-app-capable" content="yes">
 
   <link rel="manifest" href="manifest.webmanifest">
-  <link rel="stylesheet" href="charte.css?v=107">
-  <link rel="stylesheet" href="fonts.css?v=107">
-  <link rel="stylesheet" href="style.css?v=107">
-  <link rel="stylesheet" href="bottom-nav.css?v=107">
-  <link rel="stylesheet" href="parametres.css?v=107">
+  <link rel="stylesheet" href="charte.css?v=111">
+  <link rel="stylesheet" href="fonts.css?v=111">
+  <link rel="stylesheet" href="style.css?v=111">
+  <link rel="stylesheet" href="bottom-nav.css?v=111">
+  <link rel="stylesheet" href="parametres.css?v=111">
 
   <script>
     /* Anti-FOUC : applique le thème + police avant tout rendu */
@@ -100,14 +100,16 @@
           <span class="settings-label">Taille du texte</span>
           <div class="text-size-row">
             <span class="text-size-a">Aa</span>
-            <input type="range" id="text-size-slider" min="0" max="3" step="1" value="1">
+            <div class="text-size-slider-wrap">
+              <input type="range" id="text-size-slider" min="0" max="3" step="1" value="1">
+              <div class="text-size-labels">
+                <span data-index="0">S</span>
+                <span data-index="1">M</span>
+                <span data-index="2">L</span>
+                <span data-index="3">XL</span>
+              </div>
+            </div>
             <span class="text-size-a text-size-a-large">Aa</span>
-          </div>
-          <div class="text-size-labels">
-            <span>Petit</span>
-            <span>Normal</span>
-            <span>Grand</span>
-            <span>Très grand</span>
           </div>
         </div>
       </div>
@@ -142,7 +144,7 @@
       <a class="settings-card settings-link" href="favoris.html">
         <div class="settings-row">
           <div class="settings-row-icon">
-            <i data-lucide="star"></i>
+            <i data-lucide="heart"></i>
           </div>
           <span class="settings-label">Mes favoris</span>
           <i data-lucide="chevron-right" class="settings-arrow"></i>
@@ -200,9 +202,9 @@
 
   <div id="bottom-nav"></div>
 
-  <script src="bottom-nav.js?v=107"></script>
-  <script src="preferences.js?v=107"></script>
-  <script src="parametres.js?v=107"></script>
-  <script src="sw-register.js?v=107"></script>
+  <script src="bottom-nav.js?v=111"></script>
+  <script src="preferences.js?v=111"></script>
+  <script src="parametres.js?v=111"></script>
+  <script src="sw-register.js?v=111"></script>
 </body>
 </html>

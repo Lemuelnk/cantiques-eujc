@@ -59,11 +59,21 @@ function updateSliderUI() {
 }
 
 if ($slider) {
+  const updateSliderLabel = (idx) => {
+    document.querySelectorAll('.text-size-labels span').forEach((el, i) => {
+      el.classList.toggle('is-active', i === idx);
+    });
+  };
+
   $slider.addEventListener('input', () => {
     const idx = parseInt($slider.value, 10);
     const scale = TEXT_SCALES[idx] || 1;
     preferences.setTextScale(scale);
+    updateSliderLabel(idx);
   });
+
+  // Init : marquer le label actif au chargement
+  updateSliderLabel(parseInt($slider.value, 10));
 }
 
 // ------------------------------------------------------------

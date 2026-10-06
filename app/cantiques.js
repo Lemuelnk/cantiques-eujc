@@ -89,7 +89,7 @@ function createHymnRow(hymn) {
   const favorite = document.createElement('button');
   favorite.className = 'favorite-button';
   favorite.type = 'button';
-  favorite.innerHTML = '<i data-lucide="star"></i>';
+  favorite.innerHTML = '<i data-lucide="heart"></i>';
 
   const dejaFavori = (typeof isFavorite === 'function') && isFavorite(display.id);
   if (dejaFavori) {
