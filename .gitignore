@@ -45,3 +45,5 @@ pdfs/word/
 duplicates_*.txt
 canonical-backup-*/
 dups_*.txt
+tsh_*.txt
+tsh_*.pkl
