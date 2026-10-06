@@ -152,7 +152,7 @@
           "title": "FURAHAMBINGUNI",
           "source": {
             "file": "Cantiques_swahili.pdf",
-            "position": 143,
+            "position": 3,
             "number": "12",
             "section": "",
             "reference": null,
@@ -214,7 +214,7 @@
           "title": "EWE MALAIKA WA NURU",
           "source": {
             "file": "Cantiques_swahili.pdf",
-            "position": 140,
+            "position": 4,
             "number": "9",
             "section": "",
             "reference": null,
@@ -334,7 +334,7 @@
           "title": "VITA VIKALI UJIRIKA",
           "source": {
             "file": "Cantiques_swahili.pdf",
-            "position": 146,
+            "position": 6,
             "number": "14",
             "section": "",
             "reference": null,
@@ -398,7 +398,7 @@
           "title": "UO NI UJUMBE",
           "source": {
             "file": "Cantiques_swahili.pdf",
-            "position": 147,
+            "position": 7,
             "number": "15",
             "section": "",
             "reference": null,
@@ -538,7 +538,7 @@
           "title": "MUFALME WETU",
           "source": {
             "file": "Cantiques_swahili.pdf",
-            "position": 151,
+            "position": 9,
             "number": "18",
             "section": "",
             "reference": null,
@@ -600,7 +600,7 @@
           "title": "MIKAELI WA MUNGU",
           "source": {
             "file": "Cantiques_swahili.pdf",
-            "position": 150,
+            "position": 10,
             "number": "17",
             "section": "",
             "reference": null,
@@ -662,7 +662,7 @@
           "title": "SHETANI MWANA WA GIZA",
           "source": {
             "file": "Cantiques_swahili.pdf",
-            "position": 155,
+            "position": 11,
             "number": "19",
             "section": "",
             "reference": null,
@@ -717,7 +717,7 @@
           "title": "WALOZI KAMA WA MESIMAMA",
           "source": {
             "file": "Cantiques_swahili.pdf",
-            "position": 152,
+            "position": 12,
             "number": "20",
             "section": "",
             "reference": null,
@@ -839,7 +839,7 @@
           "title": "WANDUKU MUJIAZARINI NA MAMBO YA DUNIA",
           "source": {
             "file": "Cantiques_swahili.pdf",
-            "position": 155,
+            "position": 14,
             "number": "22",
             "section": "",
             "reference": null,
@@ -972,7 +972,7 @@
           "title": "TUDUMU DAIMA",
           "source": {
             "file": "Cantiques_swahili.pdf",
-            "position": 154,
+            "position": 16,
             "number": "21",
             "section": "",
             "reference": null,
@@ -1017,61 +1017,6 @@
               "number": "3",
               "lines": [
                 "Kwa siku za bwana, kwa siku za bwana itakuwa ni furaha kubwa na kushangilia kwa wanao timiza huduma."
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "schema_version": "1.0",
-      "id": "f644a17f-0701-51c5-a16b-d5742aba4ea2",
-      "title": "SHETANI MWANA WA GIZA",
-      "status": "updated_from_a_classer",
-      "versions": [
-        {
-          "id": "9af5309b-0e8c-5d20-882a-674edbdc7e82",
-          "language": {
-            "code": "sw",
-            "label": "Swahili",
-            "status": "confirmed",
-            "detection": "auto"
-          },
-          "title": "SHETANI MWANA WA GIZA",
-          "source": {
-            "file": "Cantiques_swahili.pdf",
-            "position": 155,
-            "number": "19",
-            "section": "",
-            "reference": null,
-            "updated_from": "a-classer-swahili/sw-0155"
-          },
-          "taxonomy": {
-            "domain": "hymnal",
-            "category_id": "a-classer-swahili",
-            "category_label": "Cantiques en swahili",
-            "lesson_id": "a-classer-swahili",
-            "lesson_label": "Cantiques en swahili"
-          },
-          "content": [
-            {
-              "type": "verse",
-              "number": "1",
-              "lines": [
-                "Shetani mwana wa giza ampinga mwana wa nuru. \"si yeye bwana wa rehema aumbae vitu hivi^2x"
-              ]
-            },
-            {
-              "type": "refrain",
-              "lines": [
-                "tumushinde shetani \"2x sisi tu wana wa nuru^2x tumushinde shetani , mungu ni mutawa wa viote."
-              ]
-            },
-            {
-              "type": "verse",
-              "number": "2",
-              "lines": [
-                "Nimetia nguvu zangu kwa walio wa haya wa asubui wa mushinde shetani hata katika giza."
               ]
             }
           ]
