@@ -42,3 +42,5 @@ app/data/canonical-backup-*/
 ambiguous_cases.txt
 verification.txt
 pdfs/word/
+duplicates_*.txt
+canonical-backup-*/
