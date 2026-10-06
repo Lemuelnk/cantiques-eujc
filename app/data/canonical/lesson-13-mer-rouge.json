@@ -194,7 +194,7 @@
       "schema_version": "1.0",
       "id": "69e5d298-11fd-5777-8411-dd0139f9b2e6",
       "title": "YERIKO UMEZUNGUKWA KWA VITA",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "a1328440-9c51-50ac-a35b-0762e2e39368",
@@ -206,37 +206,49 @@
           },
           "title": "YERIKO UMEZUNGUKWA KWA VITA",
           "source": {
-            "file": "Chants_de_jourdain.html",
-            "position": 4,
+            "file": "Cantiques_swahili.pdf",
+            "position": 289,
             "number": "126",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0289"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-13",
-            "category_label": "Le passage de la mer Rouge",
-            "lesson_id": "lesson-13",
-            "lesson_label": "Leçon 13 — Le passage de la mer Rouge"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. Yeriko umeaungukwa kwa vita ¨2x Yeriko yule muji wa ukuta ulikuwa Yeriko uka itwa kanana."
+                "Yeriko umeaungukwa kwa vita \"2x Yeriko yule muji wa ukuta ulikuwa Yeriko uka itwa kanana."
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Eh mufalme tumeriti kanana, asali na maziwa ni chakula chetu.",
-                "Kuhani wa mungu alie hai akapika baragumu mufalme wa Yeriko mikononi mwa Yoshua na vitu viake viote vimelaaniwa leo. Ujumbe wa mungu alie hai ulifikia Rahaba",
-                "alificha wapelelezi ndani ya dari yake, alama nyekundu ni wokovu kwetu."
+                "Eh mufalme tumeriti kanana , asali na maziwa ni chakula chetu."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Kuhani wa mungu alie hai akapika baragumu mufalme wa Yeriko mikononi mwa Yoshua na vitu viake viote vimelaaniwa leo."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Ujumbe wa mungu alie hai ulifikia Rahaba alificha wapelelezi ndani ya dari yake , alama nyekundu ni wokovu kwetu."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -244,7 +256,7 @@
       "schema_version": "1.0",
       "id": "5c9a3b15-26ce-52a3-b768-f9df997d9f20",
       "title": "KWA KUAKIKISHA KUBOMOKA KWA YERIKO",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "989381b2-8298-55a0-ac36-0ec1be1eb7fd",
@@ -256,37 +268,49 @@
           },
           "title": "KWA KUAKIKISHA KUBOMOKA KWA YERIKO",
           "source": {
-            "file": "Chants_de_jourdain.html",
-            "position": 5,
+            "file": "Cantiques_swahili.pdf",
+            "position": 290,
             "number": "127",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0290"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-13",
-            "category_label": "Le passage de la mer Rouge",
-            "lesson_id": "lesson-13",
-            "lesson_label": "Leçon 13 — Le passage de la mer Rouge"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. Kwa ku hakikisha kubomoka kwa Yeriko, funga milango yote usianze kutoka ¨Mutu asingie kamwe kubomoka kwa Yeriko¨2x"
+                "Kwa ku hakikisha kubomoka kwa Yeriko , funga milango yote usianze kutoka \"Mutu asingie kamwe kubomoka kwa Yeriko\"2x"
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Kweli mimi sitrejea tena kwa kujenga",
-                "muji ukuta ume anguka (mimi)2x ukuta wa Yeriko. Walipiga parapanda siku sita siku yake ya saba wa kangusha Yeriko ¨Wakaingia kanana wakariti hii muji ¨2x Laana kwa",
-                "yule atakaye jenga muji, nyama yule ata akikisha kubomoka kwa Yeriko, atauwawa muzaliwa wa kwanza na mudogo tena."
+                "Kweli mimi sitrejea tena kwa kujenga muji ukuta ume anguka (mimi)2x ukuta wa Yeriko."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Walipiga parapanda siku sita siku yake ya saba wa kangusha Yeriko \"Wakaingia kanana wakariti hii muji \"2x"
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Laana kwa yule atakaye jenga muji, nyama yule ata akikisha kubomoka kwa Yeriko , atauwawa muzaliwa wa kwanza na mudogo tena."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -420,7 +444,7 @@
       "schema_version": "1.0",
       "id": "a6124a9c-7c90-540b-9267-d34736be1309",
       "title": "SAFARI YA KWENDA KANANA",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "0b2f21c6-62eb-502c-97fc-69e9952c8c4b",
@@ -432,37 +456,42 @@
           },
           "title": "SAFARI YA KWENDA KANANA",
           "source": {
-            "file": "Chants_de_jourdain.html",
-            "position": 8,
+            "file": "Cantiques_swahili.pdf",
+            "position": 294,
             "number": "130",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0294"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-13",
-            "category_label": "Le passage de la mer Rouge",
-            "lesson_id": "lesson-13",
-            "lesson_label": "Leçon 13 — Le passage de la mer Rouge"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. Safari ya kwenda kanana ilikuwa ndefu ¨Watu wengi awakuriti sababu ya mizigo yao¨2x."
+                "Safari ya kwenda kanana ilikuwa ndefu \"Watu wengi awakuriti sababu ya mizigo yao\"2x."
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Mujoli wangu kwa kuriti kanana chunga mawazo yako, chunga ulimi",
-                "wako, chunga matendo yako wewe utariti inchi. Matendo yote ya duniani ya metufungia njia kusudi tu siriti inchi inchi, inchi iyo ya hadi, kusudi tusiriti inchi,",
-                "inchi iyo ya amani."
+                "Mujoli wangu kwa kuriti kanana chunga mawazo yako, chunga ulimi wako , chunga matendo yako wewe utariti inchi."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Matendo yote ya duniani ya metufungia njia kusudi tu siriti inchi inchi , inchi iyo ya hadi , kusudi tusiriti inchi , inchi iyo ya amani."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -575,7 +604,7 @@
       "schema_version": "1.0",
       "id": "e273d282-239b-5761-8b97-93e686c7936c",
       "title": "NDIMBIKILA MBIKILA YESU WA NZAMBI",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "3eb2beb6-054e-555a-a848-a2d18645e04b",
@@ -587,37 +616,49 @@
           },
           "title": "NDIMBIKILA MBIKILA YESU WA NZAMBI",
           "source": {
-            "file": "Chants_de_jourdain.html",
-            "position": 11,
+            "file": "Cantiques_swahili.pdf",
+            "position": 298,
             "number": "133",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0298"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-13",
-            "category_label": "Le passage de la mer Rouge",
-            "lesson_id": "lesson-13",
-            "lesson_label": "Leçon 13 — Le passage de la mer Rouge"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. Ndimbikila mbikila yesu wa nzambi mbwa yeye ambweje mumasanka a moyo.2x"
+                "Ndimbikila mbikila yesu wa nzambi mbwa yeye ambweje mumasanka a moyo.2x"
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Ndingenda njinga njinga ¨Bambweje mukanana mumansanka a moyo¨2x mukana muji",
-                "mpuitchine mabele muma sanka moyo Tatu mukanana muji mpuitchi ne mabele mumasanka moyo Yesu Ndimwimane mumusulu yaya dena ¨Bwameme kwambula dibwe mumakasa aba",
-                "kuidi¨2x Ndintumbija tumbija yesu wa nzambi ¨mbwa yeye andeje mumasanka moyo ¨2x"
+                "Ndingenda njinga njinga \"Bambweje mukanana mumansanka a moyo\"2x mukana muji mpuitchine mabele muma sanka moyo Tatu mukanana muji mpuitchi ne mabele mumasanka moyo Yesu \" \" \" \" \" \" \" \" \" \" \" \" \" \" \""
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Ndimwimane mumusulu yaya dena \"Bwameme kwambula dibwe mumakasa aba kuidi\"2x"
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Ndintumbija tumbija yesu wa nzambi \"mbwa yeye andeje mumasanka moyo \"2x"
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },

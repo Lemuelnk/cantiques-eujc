@@ -608,7 +608,7 @@
       "schema_version": "1.0",
       "id": "2f6927f9-5f37-55e5-a717-e2e1b05135ed",
       "title": "NABOTI ALIKUWA NA SHAMBA",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "cdc7c182-7e52-5e50-9049-6762845f85d5",
@@ -620,48 +620,49 @@
           },
           "title": "NABOTI ALIKUWA NA SHAMBA",
           "source": {
-            "file": "chants_de_daniel.html",
-            "position": 11,
+            "file": "Cantiques_swahili.pdf",
+            "position": 347,
             "number": "170",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0347"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-25",
-            "category_label": "Daniel",
-            "lesson_id": "lesson-25",
-            "lesson_label": "Leçon 25 — Daniel"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. Naboti alikuwa na shamba mizabibu kando ya nyumba ya mufalme habu mwana wa samaria ¨2x"
+                "Naboti alikuwa na shamba mizabibu kando ya nyumba ya mufalme habu mwana wa samaria \"2x"
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Muhulaa, muhula umekuja, muhula huo umekaribia Naboti watatakuzulumu shamba lako.",
-                "¨Ah yoyowe, yoyowe machozi ya meshuka isabela amefarikisha Naboti ¨2x"
+                "Muhulaa , muhula umekuja , muhula huo umekaribia Naboti watatakuzulumu shamba lako . \"Ah yoyowe , yoyowe machozi ya meshuka isabela amefarikisha Naboti \"2x"
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "2. Ahaba kamwambia Naboti nipe shamba lako liwe kama tatu langu la maboga ah.¨2x"
+                "Ahaba kamwambia Naboti nipe shamba lako liwe kama tatu langu la maboga ah . \"2x"
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "3",
               "lines": [
-                "3. Naboti kamwambia ahabu mungu ameni kataza kwa mimi uriti wa mababu zangu aha.¨2x"
+                "Naboti kamwambia ahabu mungu ameni kataza kwa mimi uriti wa mababu zangu aha . \"2x"
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },

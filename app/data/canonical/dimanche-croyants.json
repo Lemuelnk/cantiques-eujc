@@ -610,7 +610,7 @@
       "schema_version": "1.0",
       "id": "a28fee9b-c944-59f2-9912-47708b7a393e",
       "title": "MULIMANI MWA SAYUNI",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "a8b8aff7-eb7a-5ef0-8ccb-449f60ce02ac",
@@ -622,47 +622,49 @@
           },
           "title": "MULIMANI MWA SAYUNI",
           "source": {
-            "file": "chants_de_sac_de_croyants.html",
-            "position": 12,
+            "file": "Cantiques_swahili.pdf",
+            "position": 390,
             "number": "216",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0390"
           },
           "taxonomy": {
-            "domain": "sunday",
-            "category_id": "dimanche-croyants",
-            "category_label": "Sacrifice des croyants",
-            "lesson_id": null,
-            "lesson_label": null
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. ¨Mulimani mwa sayuni yesu akajirika kwa wafwasi wake¨2x ¨Mulimani ndefu sana ndipo roho alipo shuka mwilini mwetu¨2x"
+                "\"Mulimani mwa sayuni yesu akajirika kwa wafwasi wake \"2x \"Mulimani ndefu sana ndipo roho alipo shuka mwilini mwetu \"2x"
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Ah Jehova Mungu roho ameshuka mwilini mwetu ¨Lindeni Mwana muwe na uzima¨2x"
+                "Ah jeho va mungu roho ameshuka mwilini mwetu \"Lindeni mwana muwe na uzima\"2x"
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "2.¨Siku kuu ya pentekoste shindo ikanguruma chumbani cha juu ¨2x Gafula ikazidi mbingu ikatingisika dunia katetemeka."
+                "\"Siku kuu ya pentekoste shindo ikanguruma chumbani cha juu \"2x Gafula ikazidi mbingu ikatingisika dunia katetemeka ."
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "3",
               "lines": [
-                "3. ¨Muti muzuri utshipukao unaonekana kwa matunda yake ¨2x ¨Mwanadamu akiwa mupya anatambulikana kwa matendo yake ¨2x"
+                "\"Muti muzuri utshipukao unaonekana kwa matunda yake \"2x \"Mwanadamu akiwa mupya anatambulikana kwa matendo yake \"2x"
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -962,7 +964,7 @@
       "schema_version": "1.0",
       "id": "143c1e6f-b1ef-5985-be0d-9fcf771d3318",
       "title": "AHADI YA BABA",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "0748f435-b5b1-5c48-995c-b1c415e4a5f2",
@@ -974,37 +976,49 @@
           },
           "title": "AHADI YA BABA",
           "source": {
-            "file": "chants_de_sac_de_croyants.html",
-            "position": 18,
+            "file": "Cantiques_swahili.pdf",
+            "position": 397,
             "number": "223",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0397"
           },
           "taxonomy": {
-            "domain": "sunday",
-            "category_id": "dimanche-croyants",
-            "category_label": "Sacrifice des croyants",
-            "lesson_id": null,
-            "lesson_label": null
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. Ahadi ya baba imetimia leo , ahadi ya mungu roho mwema amekuja aliadia watu wake kwa kinywa cha Yoeli kwamba kwa siku za mwisho ni tamwanga roho yangu juu ya wana israeli."
+                "Ahadi ya baba imetimia leo , ahadi ya mungu roho mwema amekuja aliadia watu wake kwa kinywa cha Yoeli kwamba kwa siku za mwisho ni tamwanga roho yangu juu ya wana israeli."
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Eh mungu nimepata chapa yako roho mwema ameshuka uliaidia watu wako ¨Ah , eh baba nimevikwa joo lako mufariji ameshuka¨2x",
-                "Dunia taabu yako , dunia ole wako nyinyi walozi ole wenu muliteswa watu wangu ¨Njoni muone ishara yangu roho mwema ameshuka, njoni muone ishara yangu roho wa uwezo ameshuka ¨2x",
-                "Mufalume wa mbingu na dunia wewe bwana wangu baba mina kuomba juu ya ufalme wako uje mapenzi yako ya timizwe mbingu na duniani kwa wa chakuliwa wako.¨"
+                "Eh mungu nimepata chapa yako roho mwema ameshuka uliaidia watu wako \"Ah , eh baba nimevikwa joo lako mufariji ameshuka\"2x"
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Dunia taabu yako , dunia ole wako nyinyi walozi ole wenu muliteswa watu wangu \"Njoni muone ishara yangu roho mwema ameshuka, njoni muone ishara yangu roho wa uwezo ameshuka \"2x"
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Mufalume wa mbingu na dunia wewe bwana wangu baba mina kuomba juu ya ufalme wako uje mapenzi yako ya timizwe mbingu na duniani kwa wa chakuliwa wako."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -1012,7 +1026,7 @@
       "schema_version": "1.0",
       "id": "d17c236d-9910-53a3-903b-438c33891ef4",
       "title": "YESU KAWAMBIA WAFWASI",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "089c785a-938a-53d3-8159-cd10d26ff062",
@@ -1024,37 +1038,49 @@
           },
           "title": "YESU KAWAMBIA WAFWASI",
           "source": {
-            "file": "chants_de_sac_de_croyants.html",
-            "position": 19,
+            "file": "Cantiques_swahili.pdf",
+            "position": 398,
             "number": "224",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0398"
           },
           "taxonomy": {
-            "domain": "sunday",
-            "category_id": "dimanche-croyants",
-            "category_label": "Sacrifice des croyants",
-            "lesson_id": null,
-            "lesson_label": null
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. Yesu kawambia wafwasi mungoje hadi roho wa Mungu alie hai mukono wa uweza ¨2x roho mwema ameshuka leo vicwani petu hapa."
+                "Yesu kawambia wafwasi mungoje hadi roho wa mungu alie hai mukono wa uweza \"2x roho mwema ameshuka leo vicwani petu hapa."
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "(Nani yule ) nani atakae nyagiza kuja kwa yesu ulimwenguni) nani yule kweli nani atakae nyagizia kwa neno nimepata uzima nani yule kweli , nani atakae nyagizia uzima umeshuka mwilini ¨2x",
-                "Jiwe langu la tegemeo yani roho ya mungu ¨Kwa shida na magonjua , taabu na mauti ¨2x kweli viote vimeondolewa nami ni me pata uzima.",
-                "Nguvu hihizi ni me vaa ni dawa ya vita ¨2x kwa mimi kushinda mambo kshinda na kifo kweli mimi ni meshinda vikwazo viote via watu na vitu."
+                "(Nani yule ) nani atakae nyagiza kuja kwa yesu ulimwenguni) nani yule kweli nani atakae nyagizia kwa neno nimepata uzima nani yule kweli , nani atakae nyagizia uzima umeshuka mwilini \"2x"
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Jiwe langu la tegemeo yani roho ya mungu \"Kwa shida na magonjua , taabu na mauti \"2x kweli viote.vimeondolewa nami ni me pata uzima."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Nguvu hihizi ni me vaa ni dawa ya vita \"2x kwa mimi kushinda mambo kshinda na kifo kweli mimi ni meshinda vikwazo viote via watu na vitu."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -1062,7 +1088,7 @@
       "schema_version": "1.0",
       "id": "e7fc4b9f-57d8-52b4-9769-7ca3d14faa91",
       "title": "APO MWANZO LILIKUWEKO",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "f22e67c9-332a-5a73-bbfe-56a5815fc8b8",
@@ -1074,38 +1100,56 @@
           },
           "title": "APO MWANZO LILIKUWEKO",
           "source": {
-            "file": "chants_de_sac_de_croyants.html",
-            "position": 20,
+            "file": "Cantiques_swahili.pdf",
+            "position": 400,
             "number": "225",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0400"
           },
           "taxonomy": {
-            "domain": "sunday",
-            "category_id": "dimanche-croyants",
-            "category_label": "Sacrifice des croyants",
-            "lesson_id": null,
-            "lesson_label": null
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. Apo mwanzo, Apo mwanzo lilikuweko neno naye neno alikuwa huyu mwanzo , huyu mwanzo alikuweko kwa mungu akatenda mema kweli ."
+                "Apo mwanzo, Apo mwanzo lilikuweko neno naye neno alikuwa huyu mwanzo , huyu mwanzo alikuweko kwa mungu akatenda mema kweli ."
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Naja leo , naja leo naja kwako masiya napenda nipelekwe.",
-                "Nakiri , nakiri zambi zangu zote unirehemu mimi ni mukosefu , nikasikia , nikasikia wito wa bwana ukiniagiza nitapeleka nani.",
-                "Uduma , uduma za bwana mungu ni ngumu twitimize kwa hiyari , ¨Tufanye ¨2x kwa maharifa na kwa hekima na vitu vietu viote.",
-                "4.Ulifanya , ulifanya uduma njema mungu mwenyezi mumbaji wa viote."
+                "Naja leo , naja leo naja kwako masiya napenda nipelekwe."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Nakiri , nakiri zambi zangu zote unirehemu mimi ni mukosefu , nikasikia , nikasikia wito wa bwana ukiniagiza nitapeleka nani."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Uduma , uduma za bwana mungu ni ngumu twitimize kwa hiyari , \"Tufanye \"2x kwa maharifa na kwa hekima na vitu vietu viote."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "4",
+              "lines": [
+                "Ulifanya, ulifanya uduma njema mungu mwenyezi mumbaji wa viote."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },

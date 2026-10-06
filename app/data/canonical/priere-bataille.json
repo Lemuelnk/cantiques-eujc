@@ -127,7 +127,7 @@
       "schema_version": "1.0",
       "id": "f5f2bd11-6e82-5916-96dc-e67b167a7908",
       "title": "UNISHUSHIE UWEZA WAKO",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "cce31ff8-abbd-5e95-a0c7-f137a5125cb4",
@@ -139,37 +139,37 @@
           },
           "title": "UNISHUSHIE UWEZA WAKO",
           "source": {
-            "file": "chants_de_vita.html",
-            "position": 3,
+            "file": "Cantiques_swahili.pdf",
+            "position": 663,
             "number": "493",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0663"
           },
           "taxonomy": {
-            "domain": "prayer",
-            "category_id": "priere-bataille",
-            "category_label": "Cantiques de bataille",
-            "lesson_id": null,
-            "lesson_label": null
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
                 "Unishushie uweza wako baba ilinishindee vita iyo",
-                "- Vita mupembe ya kwanza ili nishinde eh vita iyo",
-                "- Vita mupembe ya pili ili nishinde eh vita iyo",
-                "- Vita ya pepo wachafu ili nishinde eh vita iyo",
-                "- Vita ya walozi wote ili nishinde eh vita iyo",
-                "- Vita ya wachawi wote ili nishinde eh vita iyo",
-                "- Unishushie na nguvu yako ili nishinde baba vita iyo",
-                "- Unishushie mamulaka yako baba ili nishinde eh vita iyo",
-                "- Unishushie na moto yako baba ili ni shinde eh vita iyo"
+                "-Vita mupembe ya kwanza ili nishinde eh vita iyo",
+                "-Vita mupembe ya pili ili nishinde eh vita iyo",
+                "-Vita ya pepo wachafu ili nishinde eh vita iyo",
+                "-Vita ya walozi wote ili nishinde eh vita iyo",
+                "-Vita ya wachawi wote ili nishinde eh vita iyo",
+                "-Unishushie na nguvu yako ili nishinde baba vita iyo",
+                "-Unishushie mamulaka yako baba ili nishinde eh vita iyo",
+                "-Unishushie na moto yako baba ili ni shinde eh vita iyo"
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },

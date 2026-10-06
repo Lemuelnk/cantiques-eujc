@@ -295,7 +295,7 @@
       "schema_version": "1.0",
       "id": "ba1af236-127a-5a39-b349-89c691bf430b",
       "title": "YEREMIA MIMI NI NABII WA MUNGU",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "dca89560-13f2-5852-bdd6-ebe6b1215500",
@@ -307,37 +307,49 @@
           },
           "title": "YEREMIA MIMI NI NABII WA MUNGU",
           "source": {
-            "file": "chants_de_samson.html",
-            "position": 6,
+            "file": "Cantiques_swahili.pdf",
+            "position": 306,
             "number": "140",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0306"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-20",
-            "category_label": "Samson",
-            "lesson_id": "lesson-20",
-            "lesson_label": "Leçon 20 — Samson"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. Yeremia mimi ni nabii iwa mungu munitendee ngisi mupendavyo mimi ni mikononi mwenu."
+                "Yeremia mimi ni nabii iwa mungu munitendee ngisi mupendavyo mimi ni mikononi mwenu."
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Ila kitu moja mujuwe ya kwamba mukinyuwa mimi Yeremia laana ni",
-                "kwenu, laana ni kwenu na watoto wenu na miji yenu. Tazama Delila akaunga singa na wachawi ¨Kusaliti neno la uzima kamutowa mupakua wa mafuta¨2x Mu kabila la Yuda",
-                "enyi malaika za mbingu ¨Tukuzeni mungu wa uzima bwana mungu ameshinda ¨2x"
+                "Ila kitu moja mujuwe ya kwamba mukinyuwa mimi Yeremia laana ni kwenu, laana ni kwenu na watoto wenu na miji yenu."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Tazama Delila akaunga singa na wachawi \"Kusaliti neno la uzima kamutowa mupakua wa mafuta \"2x"
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Mu kabila la Yuda enyi malaika za mbingu `Tukuzeni mungu wa uzima bwana mungu ameshinda `2x"
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     }

@@ -227,7 +227,7 @@
       "schema_version": "1.0",
       "id": "3c650e65-7dd0-4432-80d9-9fcbbc1ab39d",
       "title": "ANASA WA DUNIA",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "4e436c8e-45f7-4060-bda2-eb9f6d66539d",
@@ -235,26 +235,28 @@
             "code": "sw",
             "label": "Swahili",
             "status": "confirmed",
-            "detection": "auto",
-            "score": 8
+            "detection": "auto"
           },
           "title": "ANASA WA DUNIA",
           "source": {
-            "file": "chants_de_la_creation.html",
-            "position": 4,
+            "file": "Cantiques_swahili.pdf",
+            "position": 169,
             "number": "32",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0169"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-1",
-            "category_label": "Création",
-            "lesson_id": "lesson-1",
-            "lesson_label": "Leçon 1 — Création"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
                 "Anasa, anasa za dunia zimetusonga sana oh anasa za dunia."
               ]
@@ -262,19 +264,17 @@
             {
               "type": "refrain",
               "lines": [
-                "Roho wewe ndiye mungu (eh roho) roho oh wewe ndiye mungu (Eh roho wewe ndiye mufalme kuliko mafalme za dunia)2x"
+                "Roho wewe ndiye mungu (eh roho) roho oh wewe ndiye mungu \"Eh roho wewe ndiye mufalme kuliko mafalme za dunia \"2x"
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "(Roho ulinena ya kwamba maji na maji ya tengane maji ya juu na maji ya chini)2x (Katikati ukaita nafasi, nafasi ukaita mbinguni)2x Oh oh roho wa baba nafasi ukaita mbinguni."
+                "Roho ulinena ya kwamba maji na maji ya tengane maji ya juu na maji ya chini~2x Katikati ukaita nafasi, nafasi ukaita mbinguni~2x Oh oh roho wa baba nafasi ukaita mbinguni."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },

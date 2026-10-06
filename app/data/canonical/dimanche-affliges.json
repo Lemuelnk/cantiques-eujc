@@ -16,10 +16,10 @@
       "schema_version": "1.0",
       "id": "b077f368-0eeb-54aa-afbe-2a046ef6f2e7",
       "title": "AHADI YA BABA",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
-          "id": "f195e68c-0c67-5038-9a6d-39bebee871b0",
+          "id": "0748f435-b5b1-5c48-995c-b1c415e4a5f2",
           "language": {
             "code": "sw",
             "label": "Swahili",
@@ -28,47 +28,49 @@
           },
           "title": "AHADI YA BABA",
           "source": {
-            "file": "chants_de_sac_deprouves.html",
-            "position": 1,
+            "file": "Cantiques_swahili.pdf",
+            "position": 397,
             "number": "223",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0397"
           },
           "taxonomy": {
-            "domain": "sunday",
-            "category_id": "dimanche-affliges",
-            "category_label": "Sacrifice des affligés",
-            "lesson_id": null,
-            "lesson_label": null
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "Ahadi ya baba imetimia leo, ahadi ya mungu roho mwema amekuja aliadia watu wake kwa kinywa cha Yoeli kwamba kwa siku za mwisho ni tamwanga roho yangu juu ya wana israeli."
+                "Ahadi ya baba imetimia leo , ahadi ya mungu roho mwema amekuja aliadia watu wake kwa kinywa cha Yoeli kwamba kwa siku za mwisho ni tamwanga roho yangu juu ya wana israeli."
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Eh mungu nimepata chapa yako roho mwema ameshuka uliaidia watu wako ¨Ah, eh baba nimevikwa joo lako mufariji ameshuka¨2x"
+                "Eh mungu nimepata chapa yako roho mwema ameshuka uliaidia watu wako \"Ah , eh baba nimevikwa joo lako mufariji ameshuka\"2x"
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "Dunia taabu yako, dunia ole wako nyinyi walozi ole wenu muliteswa watu wangu ¨Njoni muone ishara yangu roho mwema ameshuka, njoni muone ishara yangu roho wa uwezo ameshuka ¨2x"
+                "Dunia taabu yako , dunia ole wako nyinyi walozi ole wenu muliteswa watu wangu \"Njoni muone ishara yangu roho mwema ameshuka, njoni muone ishara yangu roho wa uwezo ameshuka \"2x"
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "3",
               "lines": [
-                "Mufalume wa mbingu na dunia wewe bwana wangu baba mina kuomba juu ya ufalme wako uje mapenzi yako ya timizwe mbingu na duniani kwa wa chakuliwa wako.¨"
+                "Mufalume wa mbingu na dunia wewe bwana wangu baba mina kuomba juu ya ufalme wako uje mapenzi yako ya timizwe mbingu na duniani kwa wa chakuliwa wako."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -562,7 +564,7 @@
       "schema_version": "1.0",
       "id": "f15385ce-53b1-58ff-80a2-3a4909d55451",
       "title": "SISI WAKRISTU",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "8bf8c281-f555-5a6f-859f-7c6619b5924b",
@@ -574,37 +576,49 @@
           },
           "title": "SISI WAKRISTU",
           "source": {
-            "file": "chants_de_sac_deprouves.html",
-            "position": 10,
+            "file": "Cantiques_swahili.pdf",
+            "position": 381,
             "number": "207",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0381"
           },
           "taxonomy": {
-            "domain": "sunday",
-            "category_id": "dimanche-affliges",
-            "category_label": "Sacrifice des affligés",
-            "lesson_id": null,
-            "lesson_label": null
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "Sisi wakristu wa bwana mungu wetu ¨Tu sishiriki na marafiki (eh marafiki ) na watu wa uwovu wote wa ulimwengu¨2x"
+                "Sisi wakristu wa bwana mungu wetu \"Tu sishiriki na marafiki (eh marafiki ) na watu wa uwovu wote wa ulimwengu\" 2x"
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Tufanye nini leo tu shirikiane na bwana mungu wetu ¨ ili twaweza kupata baraka ya mbingu ¨2x",
-                "Zamani za kale Enoka alishika urafiki na bwana mungu (na bwana mungu ) ali safiri naye pote hata mbinguni.",
+                "Tufanye nini leo tu shirikiane na bwana mungu wetu \" ili twaweza kupata baraka ya mbingu \"2x"
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Zamani za kale Enoka alishika urafiki na bwana mungu (na bwana mungu ) ali safiri naye pote hata mbinguni."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
                 "Tufunguwe milango nafsini mwetu ili bwana yesu aingie (yesu aingie ) sharti awe rafiki mwema wa utulivu."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -733,7 +747,7 @@
       "schema_version": "1.0",
       "id": "c47fc6f2-4351-5ffc-a395-3e996a29cd99",
       "title": "MOYO WANGU UKO KATIKATI YA NYAMA",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "078c5916-75a2-59ed-8058-f5f55ec7687a",
@@ -745,37 +759,49 @@
           },
           "title": "MOYO WANGU UKO KATIKATI YA NYAMA",
           "source": {
-            "file": "chants_de_sac_deprouves.html",
-            "position": 13,
+            "file": "Cantiques_swahili.pdf",
+            "position": 436,
             "number": "264",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0436"
           },
           "taxonomy": {
-            "domain": "sunday",
-            "category_id": "dimanche-affliges",
-            "category_label": "Sacrifice des affligés",
-            "lesson_id": null,
-            "lesson_label": null
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. \tMoyo wanguuko, katikati ya nyama , moyo wangu katikati ya nyama na simba matendo yangu wamenifanyia wavu wamenichimbia shimo kuitafuta nafsi yangu."
+                "Moyo wanguuko, katikati ya nyama , moyo wangu katikati ya nyama na simba matendo yangu wamenifanyia wavu wamenichimbia shimo kuitafuta nafsi yangu."
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Ehi Ehi , Ehi Ehi taabu jehova mungu wangu ¨Haya ni mateso ¨2x katika uduma wako muko taabu bwana muko kifo pia na machozi.",
-                "Nyama ya simba ya meniongojea , tazama chui ameninioshea kuchwa , tembo naye amenisegemea (amenielemea) na mbweha nime wa tendea nini.",
+                "Ehi Ehi , Ehi Ehi taabu jeho va mungu wangu \"Haya ni mateso \"2x katika uduma wako muko taabu bwana muko kifo pia na machozi."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Nyama ya simba ya meniongojea , tazama chui ameninioshea kuchwa , tembo naye amenisegemea (amenielemea) na mbweha nime wa tendea nini."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
                 "Magonjua haya yapo miongoni mwa watu : upofu , ububu , wenye safura ulia pia na homa wenye vifafa wanguka na manda mikono ya kupoza itatunzwa."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },

@@ -432,7 +432,7 @@
       "schema_version": "1.0",
       "id": "0318aa35-dde1-50ef-ac46-66b79fb6842b",
       "title": "MAISHA NA MOYO WANGU",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "8265ccef-33ed-5b46-a442-34deab9bc92a",
@@ -444,21 +444,24 @@
           },
           "title": "MAISHA NA MOYO WANGU",
           "source": {
-            "file": "chants_de_sac_des_rois.html",
-            "position": 7,
+            "file": "Cantiques_swahili.pdf",
+            "position": 456,
             "number": "285",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0456"
           },
           "taxonomy": {
-            "domain": "sunday",
-            "category_id": "dimanche-rois",
-            "category_label": "Sacrifice des rois",
-            "lesson_id": null,
-            "lesson_label": null
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
                 "Maisha na moyo wangu nina kupa bwana unilinde siku zote mikononi mwako ijapo vita ni kali hapa duniani wewe ndie mumba wangu baba usinyache."
               ]
@@ -466,20 +469,17 @@
             {
               "type": "refrain",
               "lines": [
-                "Maisha yangu yote nina kupa baba, baba unishindie, na bulozi bwangu bote nina kupa baba, baba unishindie Ah eh baba nishindie vita iyo ya walozi na wachawi,",
-                "nishindie vita iyo ya wafalme wa shetani."
+                "Maisha yangu yote nina kupa baba , baba unishindie , na bulozi bwangu bote nina kupa baba , baba unishindie Ah eh baba nishindie vita iyo ya walozi na wachawi, nishindie vita iyo ya wafalme wa shetani."
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "Ningekuwa ndege za mbingu singe pata taabu ningeita malaika wa kunipigania, ningeita mikaeli nguvu za mungu baba pia na kasieli mutawala wetu."
+                "Ningekuwa ndege za mbingu singe pata taabu ningeita malaika wa kunipigania , ningeita mikaeli nguvu za mungu baba pia na kasieli mutawala wetu."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -619,7 +619,7 @@
       "schema_version": "1.0",
       "id": "6abec47e-1362-5175-a2c6-864856e54681",
       "title": "MUKABILA LA YUDA E",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "8ebb9a30-7b96-5c14-a811-415b377f089e",
@@ -631,23 +631,26 @@
           },
           "title": "MUKABILA LA YUDA E",
           "source": {
-            "file": "chants_de_sac_des_rois.html",
-            "position": 10,
+            "file": "Cantiques_swahili.pdf",
+            "position": 460,
             "number": "290",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0460"
           },
           "taxonomy": {
-            "domain": "sunday",
-            "category_id": "dimanche-rois",
-            "category_label": "Sacrifice des rois",
-            "lesson_id": null,
-            "lesson_label": null
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. Mukabila la yudae mulitoka mufalme mufariji wa watu ¨yoyoyo mulitoka mufalme mukombozi wa watu ¨2x"
+                "Mukabila la yudae mulitoka mufalme mufariji wa watu yoyoyo mulitoka mufalme mukombozi wa watu \"2x"
               ]
             },
             {
@@ -657,21 +660,20 @@
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "2. Kwa kuvunja mihurie ¨Ili kuwa na funga ufalume wa mungu ¨2x"
+                "Kwa kuvunja mihurie \"Ili kuwa na funga ufalume wa mungu \"2x"
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "3",
               "lines": [
-                "3. Kwa leo twimbeni shangwe (eh baba shangwe mufalme."
+                "Kwa leo twimbeni shangwe (eh baba shangwe mufalme ."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -679,7 +681,7 @@
       "schema_version": "1.0",
       "id": "c52c767b-3b91-5516-8345-0948ceeab68d",
       "title": "SHETANI UVUTA YESU",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "46e7da7c-29e3-5392-973c-0e5e7254dc67",
@@ -691,48 +693,56 @@
           },
           "title": "SHETANI UVUTA YESU",
           "source": {
-            "file": "chants_de_sac_des_rois.html",
-            "position": 11,
+            "file": "Cantiques_swahili.pdf",
+            "position": 416,
             "number": "240",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0416"
           },
           "taxonomy": {
-            "domain": "sunday",
-            "category_id": "dimanche-rois",
-            "category_label": "Sacrifice des rois",
-            "lesson_id": null,
-            "lesson_label": null
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. Shetani uvuta yesu uvuta wewe itaji unakoenda ¨2x"
+                "Shetani uvuta yesu uvuta wewe itaji unakoenda \"2x"
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Bwana Mungu mimi ni kosefu duniani Bwana wangu, bwana wangu unirehemu."
+                "Bwana mungu mimi ni kosefu duniani bwana wangu , bwana wangu unirehemu."
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "2. Mimi sina, sina haja na marafiki za ulimwengu Bwana wangu unirehemu."
+                "Mimi sina , sina haja na marafiki za ulimwengu bwana wangu unirehemu ."
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "3",
               "lines": [
-                "3. Wengi, wengi wana upendeleo kwa wajoli wao Bwana wangu unirehemu.",
-                "Marafiki wema ni malaika za mbinguni Bwana wangu unirehemu."
+                "Wengi , wengi wana upendeleo kwa wajoli wao bwana wangu unirehemu."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "4",
+              "lines": [
+                "Marafiki wema ni malaika za mbinguni bwana wangu unirehemu."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },

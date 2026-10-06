@@ -194,7 +194,7 @@
       "schema_version": "1.0",
       "id": "96dc1fb2-733e-5ffd-94e6-659e43ee339b",
       "title": "NYUMBANI MWA BWANA",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "32ada9a1-4da5-5daa-adb3-a66d58bfb53a",
@@ -206,37 +206,49 @@
           },
           "title": "NYUMBANI MWA BWANA",
           "source": {
-            "file": "chants_de_salomon.html",
-            "position": 4,
+            "file": "Cantiques_swahili.pdf",
+            "position": 320,
             "number": "151",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0320"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-22",
-            "category_label": "Salomon",
-            "lesson_id": "lesson-22",
-            "lesson_label": "Leçon 22 — Salomon"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "Nyumbani mwa bwanamuna makao mengi yesu ututayarishia fasi kule (tupate kula naye kwa kila siku bila kuona haya ata siku moja)2x"
+                "Nyumbani mwa bwanamuna makao mengi yesu ututayarishia fasi kule \"tupate kula naye kwa kila siku bila kuona haya ata siku moja \"2x"
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Eh mimi, mimi na chagua kukaa nyumbani mwa bwana wangu niwe kama nguzo nyumbani mwa bwana milele na milele. Nanapiga hodi kwenye mulango wako unifungulie eh bwana na",
-                "kuomba univalishe kanzu ya karamu nipate kula pamoja na wakubwa. Inje kuna giza na kusaga meno baridi kali mimi sita vumilia nina kulilia ewe mungu wangu mwokozi na bwana",
-                "unisikilize."
+                "Eh mimi , mimi na chagua kukaa nyumbani mwa bwana wangu niwe kama nguzo nyumbani mwa bwana milele na milele ."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Nanapiga hodi kwenye mulango wako unifungulie eh bwana na kuomba univalishe kanzu ya karamu nipate kula pamoja na wakubwa."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Inje kuna giza na kusaga meno baridi kali mimi sita vumilia nina kulilia ewe mungu wangu mwokozi na bwana unisikilize."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },

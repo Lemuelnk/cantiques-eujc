@@ -611,10 +611,10 @@
       "schema_version": "1.0",
       "id": "87f37896-c0aa-5cde-9ac6-22d845992f83",
       "title": "SHETANI MWANA WA GIZA",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
-          "id": "2730a4d8-da41-5cd4-b9a3-b43c6a44de50",
+          "id": "9af5309b-0e8c-5d20-882a-674edbdc7e82",
           "language": {
             "code": "sw",
             "label": "Swahili",
@@ -623,41 +623,42 @@
           },
           "title": "SHETANI MWANA WA GIZA",
           "source": {
-            "file": "chants_de_lucifer.html",
-            "position": 11,
+            "file": "Cantiques_swahili.pdf",
+            "position": 155,
             "number": "19",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0155"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-0",
-            "category_label": "Lucifer",
-            "lesson_id": "lesson-0",
-            "lesson_label": "Leçon 0 — Lucifer"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "Shetani mwana wa giza ampinga mwana wa nuru (si yeye bwana wa rehema aumbae vitu hivi) 2x"
+                "Shetani mwana wa giza ampinga mwana wa nuru. \"si yeye bwana wa rehema aumbae vitu hivi^2x"
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "(tumushinde shetani) 2x (sisi tu wana wa nuru) 2x tumushinde shetani Mungu ni mutawa wa viote."
+                "tumushinde shetani \"2x sisi tu wana wa nuru^2x tumushinde shetani , mungu ni mutawa wa viote."
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "Nimetia nguvu zangu kwa walio wa haya waasubui wa mushinde shetani hata katika giza."
+                "Nimetia nguvu zangu kwa walio wa haya wa asubui wa mushinde shetani hata katika giza."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -978,7 +979,7 @@
       "schema_version": "1.0",
       "id": "f644a17f-0701-51c5-a16b-d5742aba4ea2",
       "title": "SHETANI MWANA WA GIZA",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "9af5309b-0e8c-5d20-882a-674edbdc7e82",
@@ -990,41 +991,42 @@
           },
           "title": "SHETANI MWANA WA GIZA",
           "source": {
-            "file": "chants_de_lucifer.html",
-            "position": 19,
-            "number": "9",
-            "reference": null
+            "file": "Cantiques_swahili.pdf",
+            "position": 155,
+            "number": "19",
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0155"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-0",
-            "category_label": "Lucifer",
-            "lesson_id": "lesson-0",
-            "lesson_label": "Leçon 0 — Lucifer"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "Shetani mwana wa giza ampinga mwana wa nuru si yeye bwana wa rehema aumbae vitu hivi 2x."
+                "Shetani mwana wa giza ampinga mwana wa nuru. \"si yeye bwana wa rehema aumbae vitu hivi^2x"
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "tumushinde shetani 2x, sisi tu wana wa nuru 2x, tumushinde shetani, Mungu ni mutawa wa viote."
+                "tumushinde shetani \"2x sisi tu wana wa nuru^2x tumushinde shetani , mungu ni mutawa wa viote."
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "2",
               "lines": [
                 "Nimetia nguvu zangu kwa walio wa haya wa asubui wa mushinde shetani hata katika giza."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     }

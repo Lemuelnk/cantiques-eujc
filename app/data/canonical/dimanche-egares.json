@@ -283,7 +283,7 @@
       "schema_version": "1.0",
       "id": "34415f2e-0331-56b9-9872-df2693f4c570",
       "title": "NIA ZA MWILI",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "2db47710-d8b2-5080-aec4-d8d7dda454b0",
@@ -295,37 +295,49 @@
           },
           "title": "NIA ZA MWILI",
           "source": {
-            "file": "chants_de_sac_degares.html",
-            "position": 5,
+            "file": "Cantiques_swahili.pdf",
+            "position": 405,
             "number": "230",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0405"
           },
           "taxonomy": {
-            "domain": "sunday",
-            "category_id": "dimanche-egares",
-            "category_label": "Sacrifice des égarés",
-            "lesson_id": null,
-            "lesson_label": null
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "Nia za mwili na za roho ¨ziko zina shindana kama vita ¨2x"
+                "Nia za mwili na za roho \"ziko zina shindana kama vita \"2x"
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Chaguwa, chaguwa wewe chaguwa yako njia eh we mujoli chaguwa yako njia ya wewe kwenda Nia za mwili ni ngumu sana ¨hupinga furaha, kupenda mateso¨2x",
-                "mwili huyu mwili unitenganisha na mungu wa uzima.",
+                "Chaguwa , chaguwa wewe chaguwa yako njia eh we mujoli chaguwa yako njia ya wewe kwenda"
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Nia za mwili ni ngumu sana \"hupinga furaha , kupenda mateso\"2x mwili huyu mwili unitenganisha na mungu wa uzima ."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
                 "Vita ya mambo haya ni ngumu sana sio ya nyama na damu ya mwili zetu vita hiyo ya mafalme ya mamlaka ya ulimwenguni."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -383,7 +395,7 @@
       "schema_version": "1.0",
       "id": "31fcce4a-0843-53a4-9624-43713d4fe303",
       "title": "MAMBO YOTE NILIONA YO",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "a78102bf-3d22-53d4-bada-3ca0ba2d61e6",
@@ -395,38 +407,49 @@
           },
           "title": "MAMBO YOTE NILIONA YO",
           "source": {
-            "file": "chants_de_sac_degares.html",
-            "position": 7,
+            "file": "Cantiques_swahili.pdf",
+            "position": 407,
             "number": "232",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0407"
           },
           "taxonomy": {
-            "domain": "sunday",
-            "category_id": "dimanche-egares",
-            "category_label": "Sacrifice des égarés",
-            "lesson_id": null,
-            "lesson_label": null
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. Mambo yote niliona yo apa duniani haimupendeze mungu baba kwani nalipotea¨2x"
+                "Mambo yote niliona yo apa duniani haimupendeze mungu baba kwani nalipotea\"2x"
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Mushauri wangu yuko wapi faida ya upotevu yuko wapi mwongozi mwema yuko wapi hii napotea jamani na ingia mu mambo ya watu na potea mu wajoli na mu watu wa dunia",
-                "Hehi na potea jamanina ingia mu hila ya nyoka na potea mu wajoli na ùu watu wa dunia.",
-                "2.\tMwalimu wangu kristu ni wewe njia yangu ¨nuru ya walio gizani mukombozi wa mataifa ¨2x",
+                "Mushauri wangu yuko wapi faida ya upotevu yuko wapi mwongozi mwema yuko wapi hii napotea jamani na ingia mu mambo ya watu na potea mu wajoli na mu watu wa dunia Hehi na potea jamanina ingia mu hila ya nyoka na potea mu wajoli na ùu watu wa dunia."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Mwalimu wangu kristu ni wewe njia yangu \"nuru ya walio gizani mukombozi wa mataifa \"2x"
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
                 "Mungu onyesha rehema yako unyumbie mbingu na dunia muko mwana wa mungu akiketi malaika wana mwimbia."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },

@@ -16,7 +16,7 @@
       "schema_version": "1.0",
       "id": "e69cc5c0-4c87-5475-94ab-8aad99e26c98",
       "title": "TAZAMENI JAMBO LA MAJABU",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "53283233-b3b0-548b-b3d7-77603b19e829",
@@ -28,21 +28,24 @@
           },
           "title": "TAZAMENI JAMBO LA MAJABU",
           "source": {
-            "file": "chants_de_jacob.html",
-            "position": 1,
+            "file": "Cantiques_swahili.pdf",
+            "position": 239,
             "number": "90",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0239"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-9",
-            "category_label": "Jacob et ses fils",
-            "lesson_id": "lesson-9",
-            "lesson_label": "Leçon 9 — Jacob et ses fils"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
                 "Tazameni jambo la majabu (yo) jambo, la majabu wakamuza Yusufu neno la mungu wa uzima kwa wa Ismaeli."
               ]
@@ -50,15 +53,17 @@
             {
               "type": "refrain",
               "lines": [
-                "Kapiteni potifari wa inchi ya misri kamushika Yusufu, kamutupa",
-                "gerezani ju ya muke wake alimunenea hivi tazama Yusufu ameningilia leo, Tazama kitani ni mikononi mwangu Jehovamungu kamwambia Musa kiongozi¨2x ni taokowa israeli ju ya",
-                "zambi zao ku mulima sinai katika mwezi wa kwanza mu mwaka wa pili katika mwezi wa kwanza."
+                "Kapiteni potifari wa inchi ya misri kamushika Yusufu , kamutupa gerezani ju ya muke wake alimunenea hivi tazama Yusufu ameningilia leo, Tazama kitani ni mikononi mwangu"
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Jehova mungu kamwambia Musa kiongozi ~2x ni taokowa israeli ju ya zambi zao ku mulima sinai katika mwezi wa kwanza mu mwaka wa pili katika mwezi wa kwanza."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },

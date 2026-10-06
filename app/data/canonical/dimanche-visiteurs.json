@@ -312,7 +312,7 @@
       "schema_version": "1.0",
       "id": "ed571872-2254-501c-b575-acb097cbf6e5",
       "title": "WATU WA ZAMANI",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "ea558ef8-44af-536c-a8a2-f88e3a20f6b0",
@@ -324,21 +324,24 @@
           },
           "title": "WATU WA ZAMANI",
           "source": {
-            "file": "chants_de_sac_de_visiteurs.html",
-            "position": 6,
+            "file": "Cantiques_swahili.pdf",
+            "position": 477,
             "number": "309",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0477"
           },
           "taxonomy": {
-            "domain": "sunday",
-            "category_id": "dimanche-visiteurs",
-            "category_label": "Sacrifice des visiteurs",
-            "lesson_id": null,
-            "lesson_label": null
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
                 "Watu wa zamani kujikuza kwa anasa zao yesu uwambia uondoke kwangu misiwajuwi."
               ]
@@ -346,25 +349,24 @@
             {
               "type": "refrain",
               "lines": [
-                "Maombolezo iyoyowe ah! iyoyowe! a wajoli iyoyowe mimi siwajuwi."
+                "Maombolezo iyoyowe ah ! iyoyowe ! a wajoli iyoyowe mimi siwajuwi."
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "2",
               "lines": [
                 "Tufate yesu wajoli tupewe nasi uzima wa milele."
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "3",
               "lines": [
                 "Rafiki zangu yoyoyo musitarajie anasa haba furaha nyingi yoyoyo ziko mbinguni juu kwa mungu baba."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -479,7 +481,7 @@
       "schema_version": "1.0",
       "id": "f2ad6fc9-3f67-52b7-aab0-c32f77b98861",
       "title": "ENYI WATEULE WA MUNGU",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "7c277032-51e4-5bc2-bac3-522b9f57274f",
@@ -491,31 +493,43 @@
           },
           "title": "ENYI WATEULE WA MUNGU",
           "source": {
-            "file": "chants_de_sac_de_visiteurs.html",
-            "position": 9,
+            "file": "Cantiques_swahili.pdf",
+            "position": 485,
             "number": "316",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0485"
           },
           "taxonomy": {
-            "domain": "sunday",
-            "category_id": "dimanche-visiteurs",
-            "category_label": "Sacrifice des visiteurs",
-            "lesson_id": null,
-            "lesson_label": null
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. \tEnyi wateule wa mungu wa pakwa mafuta wa bwana wajoli tuna wasalimu yoyoyo kwa jina la bwana.",
-                "Mambo mengi tuliona kupigwa kushutumiwa hatukwacha neno ili wajoli tunawasalimu yoyo yo kwa jina la bwana.",
+                "Enyi wateule wa mungu wa pakwa mafuta wa bwana wajoli tuna wasalimu yoyoyo kwa jina la bwana."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Mambo mengi tuliona kupigwa kushutumiwa hatukwacha neno ili wajoli tunawasalimu yoyo yo kwa jina la bwana."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
                 "Roho mwama shuka kwetu onesha uweza wako utukuzwe ulimwengu duniani pote wajoli tuna wasalimu yoyoyo kwa jina la bwana."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },

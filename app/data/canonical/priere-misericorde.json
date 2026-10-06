@@ -118,7 +118,7 @@
       "schema_version": "1.0",
       "id": "991939ef-7693-5efe-82c7-65f406fb14db",
       "title": "JEHOVA MUNGU EH EE MUNGU",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "7881de0f-6e2d-5632-a090-1a0a46f63c69",
@@ -130,31 +130,43 @@
           },
           "title": "JEHOVA MUNGU EH EE MUNGU",
           "source": {
-            "file": "chants_de_rehema.html",
-            "position": 3,
+            "file": "Cantiques_swahili.pdf",
+            "position": 625,
             "number": "447",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0625"
           },
           "taxonomy": {
-            "domain": "prayer",
-            "category_id": "priere-misericorde",
-            "category_label": "Cantiques de miséricorde",
-            "lesson_id": null,
-            "lesson_label": null
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "Jehova mungu eh ee mungu , mungu mumbaji eh ee mungu ¨Ukihukumu watu vikali hivi nani atakae simama duniani ¨2x",
-                "Yesu wa mungu eh ee yesu , mwana wa mungu eh ee yesu , yesu ¨Kwa rehema yako yesu wangu kawokoa watu duniani ¨2x",
+                "Jehova mungu eh ee mungu , mungu mumbaji eh ee mungu \"Ukihukumu watu vikali hivi nani atakae simama duniani \"2x"
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Yesu wa mungu eh ee yesu , mwana wa mungu eh ee yesu , yesu \"Kwa rehema yako yesu wangu kawokoa watu duniani \"2x"
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
                 "Roho damilifu eh ee roho , roho mufariji eh ee roho kwa neema yako mwema kafariji watu duniani."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },

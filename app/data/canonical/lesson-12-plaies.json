@@ -855,7 +855,7 @@
       "schema_version": "1.0",
       "id": "4a19ed8c-6240-5e45-9fbf-f4b6697cebaa",
       "title": "USIWE NA MIUNGU MINGINE",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "99b4c1ce-de7d-528b-9a1d-8c5038b8bada",
@@ -867,48 +867,56 @@
           },
           "title": "USIWE NA MIUNGU MINGINE",
           "source": {
-            "file": "chants_de_plaies.html",
-            "position": 14,
+            "file": "Cantiques_swahili.pdf",
+            "position": 263,
             "number": "111",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0267"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-12",
-            "category_label": "Les 10 plaies",
-            "lesson_id": "lesson-12",
-            "lesson_label": "Leçon 12 — Les 10 plaies"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. Usiwe na Miungu mingine pamoja nami usijifanyie sanamu ao kivuli cha kitu chochote cha duniani ao kicho mbinguni, ¨ Ao kilicho majini usikishududie ¨2x"
+                "Usiwe na Miungu mingine pamoja nami usijifanyie sanamu ao kivuli cha kitu chochote cha duniani ao kicho mbinguni , \" Ao kilicho majini usikishududie \"2x"
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Mulimani moto na mangurumo, mulimani panda umeme wa mvuwa ¨ Usiguse sinai mikono usije ukafe (ndugu yangu)¨2x"
+                "Mulimani moto na mangurumo, mulimani panda umeme wa mvuaa \" Usiguse sinai mikono usije ukafe (ndugu yangu) \"2x"
               ]
             },
             {
               "type": "comment",
               "lines": [
-                "- Ukiwa nyama usiguse sinai mikono usije ukafe",
-                "- Ukiwa mutu"
+                "Com : -Ukiwa nyama usiguse sinai mikono usije ukafe",
+                "-Ukiwa mutu \" \" \" \" \" \""
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "Usitaje jina la jehova bure, uusiuane, usizini wala kwiba. Usi singigizie jirani, ¨ Usitamana moyoni nyumba ya mwenzio ao kitu chochote cha jirani ¨2x Uikumbuke sabato uifanye takatifu ujifanyie kazi yako siku hizi sita ¨ Bali siku ya sabato ujifanye mutakatifu ndugu yangu ¨2x"
+                "Usitaje jina la jehoa bure, uusiuane , usizini wala kwiba. Usi singigizie jirani , \" Usitamana moyoni nyumba ya mwenzio ao kitu chochote cha jirani \"2x"
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Uikumbuke sabato uifanye takatifu ujifanyie kazi yako siku hizi sita \" Bali siku ya sabato ujifanye mutakatifu ndugu yangu \"2x"
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -1338,8 +1346,8 @@
     {
       "schema_version": "1.0",
       "id": "66714573-5d3b-5206-957e-c396160ca101",
-      "title": "KUFA KWAKE MUSA",
-      "status": "review",
+      "title": "KUFA KW AKE MUS A",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "07430df4-8253-570d-bedb-221ac5b2029a",
@@ -1349,43 +1357,44 @@
             "status": "confirmed",
             "detection": "auto"
           },
-          "title": "KUFA KWAKE MUSA",
+          "title": "KUFA KW AKE MUS A",
           "source": {
-            "file": "chants_de_plaies.html",
-            "position": 22,
+            "file": "Cantiques_swahili.pdf",
+            "position": 279,
             "number": "119",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0279"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-12",
-            "category_label": "Les 10 plaies",
-            "lesson_id": "lesson-12",
-            "lesson_label": "Leçon 12 — Les 10 plaies"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "Kufa kwake Musa wajoli nabi iwa mungu (enyi wajoli) 2x ¨Bwana mungu kainuwa Yoshua aongoze wana israeli ¨2x"
+                "Kufa kwake Musa wajoli nabi iwa mungu (enyi wajoli) 2x \"Bwana mungu kainuwa Yoshua aongoze wana israeli \"2x"
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Kutaza yeriko, kuta za yeriko ¨2x (kweli) kuta za yeriko zimebomolewa leo (kweli)2x"
+                "Kutaza yeriko , kuta za yeriko \"2x (kweli) kuta za yeriko zimebomolewa leo (kweli)2x"
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "Yoshua kafika yeriko kuta za yeriko zimechungwa na walinzi, kweli, kweli malaika za bwana kasimama mbele na upanga kauwa walinzi"
+                "Yoshua kafika yeriko kuta za yeriko zimechungwa na walinzi , kweli, kweli malaika za bwana kasimama mbele na upanga kauwa walinzi."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -1393,7 +1402,7 @@
       "schema_version": "1.0",
       "id": "fff03d32-d819-591e-b6aa-b95c764552dd",
       "title": "WANA ISRAELI KWAUONGOZI WA MUSA",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "50273dfa-1979-53cf-be73-44fb8c92cf40",
@@ -1405,41 +1414,49 @@
           },
           "title": "WANA ISRAELI KWAUONGOZI WA MUSA",
           "source": {
-            "file": "chants_de_plaies.html",
-            "position": 23,
+            "file": "Cantiques_swahili.pdf",
+            "position": 281,
             "number": "120",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0281"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-12",
-            "category_label": "Les 10 plaies",
-            "lesson_id": "lesson-12",
-            "lesson_label": "Leçon 12 — Les 10 plaies"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. Wana israeli kwauongozi wa Musa wakatoka misri Musa akawavusha bahari nyekundu kuingia nao jangwani humo akashindwa huduma zake, kuingia nao jangwani humo hakuwa fikisha mwisho."
+                "Wana israeli kwauongozi wa Musa wakatoka misri Musa akawavusha bahari nyekundu kuingia nao jangwani humo akashindwa huduma zake , kuingia nao jangwani humo hakuwa fikisha mwisho."
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Mimi taenda nitariti inchi, niriti inchi, inchi ya babangu ya raha na amani Mimi taenda tariti inchi makao ya babangu Isaka. Mimi Yakobo Juu ya mulima nebo Musa katazama inchi ya kanana kwa mbali"
+                "Mimi taenda nitariti inchi , niriti inchi , inchi ya babangu ya raha na amani Mimi taenda tariti inchi makao ya babangu Isaka. Mimi \" \" \" \" \" \" \" \" \" \" \" \" Yakobo"
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "¨Eh Musa akafariki pale jehova mungu aka muzika na Yoshua akasimamishwa ¨2x Wana israeli kwa ongozi wa Yoshua mwana wa Nuni waka vuka Yordani na wakangush Yeriko waka riti kanana inchi ya maziwa na asali."
+                "Juu ya mulima nebo Musa katazama inchi ya kanana kwa mbali \"Eh Musa akafariki pale jeho va mungu aka muzika na Yoshua akasimamishwa \"2x"
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Wana israeli kwa ongozi wa Yoshua mwana wa Nuni waka vuka Yordani na wakangush Yeriko waka riti kanana inchi ya maziwa na asali."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },

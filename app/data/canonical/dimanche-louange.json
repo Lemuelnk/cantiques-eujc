@@ -131,7 +131,7 @@
       "schema_version": "1.0",
       "id": "cd008f45-50f1-5dfb-b029-1cf345738466",
       "title": "NJONI WOTE MUONE",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "ebec405a-5357-532d-b4cc-f1c5a47eb824",
@@ -143,47 +143,56 @@
           },
           "title": "NJONI WOTE MUONE",
           "source": {
-            "file": "chants_de_louange.html",
-            "position": 3,
+            "file": "Cantiques_swahili.pdf",
+            "position": 354,
             "number": "178",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0354"
           },
           "taxonomy": {
-            "domain": "sunday",
-            "category_id": "dimanche-louange",
-            "category_label": "Cantiques de louange",
-            "lesson_id": null,
-            "lesson_label": null
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "Njoni wote muone, njoni wote muone ginsi nuru iangazavio ¨2x"
+                "Njoni wote muone, njoni wote muone ginsi nuru iangazavio \"2x"
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Ah Mungu wangu yuko, nione njia ya uzima uje unishike mukononi rafiki yangu usinyache kamwe"
+                "Ah mungu wangu yuko , nione njia ya uzima uje unishike mukononi rafiki yangu usinyache kamwe ."
               ]
             },
             {
-              "type": "source_block",
+              "type": "comment",
               "lines": [
-                "Ah yesu wangu yuko nione njia ya uzima uje unishike mukononi rafiki yangu usiniache kamwe"
+                "-Ah yesu wangu yuko nione njia ya uzima uje unishike mukononi rafiki yangu usiniache kamwe",
+                "-Ah roho mwema yuko \" \" \" \" \" \" \" \" \" \" \" \""
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "Ah roho mwema yuko ¨Nani asie ona, nani asie ona ginsi nuru iangazavio\tNishangwe kubwa leo, ni shangwe kubwa leo ginsi nuru iangazavio."
+                "Nani asie ona , nani asie ona ginsi nuru iangazavio ."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Nishangwe kubwa leo , ni shangwe kubwa leo ginsi nuru iangazavio."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -633,7 +642,7 @@
       "schema_version": "1.0",
       "id": "6cb06fef-1516-5a53-9fe0-9a95f6a85d6e",
       "title": "KULIKUWA MZEE MOJA",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "645fcf0e-a95e-5b61-acc7-b7e5cf7ca0e7",
@@ -645,21 +654,24 @@
           },
           "title": "KULIKUWA MZEE MOJA",
           "source": {
-            "file": "chants_de_louange.html",
-            "position": 12,
+            "file": "Cantiques_swahili.pdf",
+            "position": 363,
             "number": "187",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0363"
           },
           "taxonomy": {
-            "domain": "sunday",
-            "category_id": "dimanche-louange",
-            "category_label": "Cantiques de louange",
-            "lesson_id": null,
-            "lesson_label": null
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
                 "Kulikuwa mzee moja jina simeoni alikuwa mutu mwenye miaka mingi sana alimuomba mungu kwa kumuona mwokozi macho yake yaona yesu Ah ah"
               ]
@@ -667,20 +679,17 @@
             {
               "type": "refrain",
               "lines": [
-                "Sime, oni ali lalamika sana, alimulilia Mungu yoyoyo unichungie roho yangu, unichungie roho Baba yangu unichungie roho yangu yoyoyo unichungie roho mupaka siku nita muona",
-                "mwana wa mungu yoyoyo unichungie roho."
+                "Sime, oni ali lalamika sana , alimulilia mungu yoyoyo unichungie roho yangu , unichungie roho Baba yangu unichungie roho yangu yoyoyo unichungie roho mupaka siku nita muona mwana wa mungu yoyoyo unichungie roho."
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "2",
               "lines": [
                 "Simeoni alibeba yesu mikononi naye alimushukuru baba wa mbinguni aleluya furaha jua ya nyangazia macho yangu yaona yesu."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },

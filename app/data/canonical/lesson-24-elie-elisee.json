@@ -79,7 +79,7 @@
       "schema_version": "1.0",
       "id": "8957ebe8-9965-5292-9da7-a0043aa2e026",
       "title": "ELIA AKAMWAMBIA ELISA",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "c8368847-bef6-5089-abb9-9af84536df23",
@@ -91,38 +91,51 @@
           },
           "title": "ELIA AKAMWAMBIA ELISA",
           "source": {
-            "file": "chants_delie.html",
-            "position": 2,
+            "file": "Cantiques_swahili.pdf",
+            "position": 323,
             "number": "154",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0323"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-24",
-            "category_label": "Élie et Élysée",
-            "lesson_id": "lesson-24",
-            "lesson_label": "Leçon 24 — Élie et Élysée"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "Elia akamwambia Elisa, Elia akamwambia Elisa giligali tumeondoka mungu wamajeshi amenituma kwa mimi kwenda uku yeriko",
-                "- Mungu wamajeshi amenituma nifike ata uko betheli",
-                "- Mungu wamajeshi amenituma ifike ata uko yordani kumafundisho ya haki na kweli, kweli."
+                "Elia akamwambia Elisa , Elia akamwambia Elisa giligali tumeondoka mungu wamajeshi amenituma kwa mimi kwenda uku yeriko",
+                "-Mungu wamajeshi amenituma nifike ata uko betheli",
+                "-Mungu wamajeshi amenituma ifike ata uko yordani kumafundisho ya haki na kweli , kweli."
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Aleluya mungu wa uzima, aleluya bwana wa majeshi wewe kimbilio la waminifu wapotevu kweli. Elia akamwambia Elisa, Elia akamutuma Elisa akalima na ngombe zake kumi na mbili",
-                "Elia akamutupia vazi lake Elisa akamwambia ni busu baba na mama kisha ni kufwate Elia. Amsini wana wa manabii wakamwambia Elia."
+                "Aleluya mungu wa uzima , aleluya bwana wa majeshi wewe kimbilio la waminifu wapotevu kweli."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Elia akamwambia Elisa , Elia akamutuma Elisa akalima na ngombe zake kumi na mbili Elia akamutupia vazi lake Elisa akamwambia ni busu baba na mama kisha ni kufwate Elia."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Amsini wana wa manabii wakamwambia Elia."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -366,7 +379,7 @@
       "schema_version": "1.0",
       "id": "f425bb15-b707-565f-914e-2a1fe2927a4b",
       "title": "MIMI NAJA NYUMBANI MWA BWANA",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "8dc6f9f6-b9ab-5a8c-b8f9-56b8d73934cf",
@@ -378,36 +391,49 @@
           },
           "title": "MIMI NAJA NYUMBANI MWA BWANA",
           "source": {
-            "file": "chants_delie.html",
-            "position": 7,
+            "file": "Cantiques_swahili.pdf",
+            "position": 329,
             "number": "159",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0329"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-24",
-            "category_label": "Élie et Élysée",
-            "lesson_id": "lesson-24",
-            "lesson_label": "Leçon 24 — Élie et Élysée"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. Mimi naja nyumbani mwa bwana naomba baba unipe makao ili nami nipate uzima."
+                "Mimi naja nyumbani mwa bwana naomba baba unipe makao ili nami nipate uzima ."
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Sikuhasi mimi sikukufuru mimi jehova mungu neno, jehova mungu roho mwema.",
-                "Mwana yule si mupotevu alirudi nyumbani mwa baba kapewa pete na ndama miguuni viato vipia. Kama vile Elisa akamuona Elia kamuomba mara dufu ili Elia amupe roho."
+                "Sikuhasi mimi sikukufuru mimi jeho va mungu neno , jeho va mungu roho mwema ."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Mwana yule si mupotevu alirudi nyumbani mwa baba kapewa pete na ndama miguuni viato vipia."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Kama vile Elisa akamuona Elia kamuomba mara dufu ili Elia amupe roho."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     }
