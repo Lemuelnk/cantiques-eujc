@@ -1,0 +1,207 @@
+{
+  "schema_version": "1.0",
+  "corpus_status": "review",
+  "taxonomy": {
+    "domain": "a-classer",
+    "category_id": "a-classer-autres",
+    "category_label": "Autres langues",
+    "lesson_id": "a-classer-autres",
+    "lesson_label": "Autres langues"
+  },
+  "source": {
+    "file": null
+  },
+  "hymns": [
+    {
+      "schema_version": "1.0",
+      "id": "autres-0001",
+      "title": "PAKUTUKA YAYA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "autres-0001-v1",
+          "language": {
+            "code": "autres",
+            "label": "Langue indéterminée",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "PAKUTUKA YAYA",
+          "source": {
+            "file": "Cantiques_swahili.pdf",
+            "position": 1,
+            "number": "101",
+            "section": "",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "hymnal",
+            "category_id": "a-classer-autres",
+            "category_label": "Autres langues",
+            "lesson_id": "a-classer-autres",
+            "lesson_label": "Autres langues"
+          },
+          "content": [
+            {
+              "type": "verse",
+              "number": "1",
+              "lines": [
+                "Pakutuka yaya musenga Egypito , kubadi , mwanda wakukanya kumpala kwa mfumu falo \"2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Ntumbo yobe mwanana ayayo mwanana ntumbo yobe mwanana."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "Com : -Ntumbo yobe Kadima aya yo mwanana ntumbo yobe mwanana.",
+                "-Ntumbo yobe Milemba \" - - - - - - - - - -"
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Ba mwanana ba tumia milau ekumi \"2x Nkumpala kwa nfumu falo na binangoshi biaye."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "autres-0002",
+      "title": "ONSE ULE UNFWE FIEBO FIANDI",
+      "status": "review",
+      "versions": [
+        {
+          "id": "autres-0002-v1",
+          "language": {
+            "code": "autres",
+            "label": "Langue indéterminée",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "ONSE ULE UNFWE FIEBO FIANDI",
+          "source": {
+            "file": "Cantiques_swahili.pdf",
+            "position": 2,
+            "number": "378",
+            "section": "",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "hymnal",
+            "category_id": "a-classer-autres",
+            "category_label": "Autres langues",
+            "lesson_id": "a-classer-autres",
+            "lesson_label": "Autres langues"
+          },
+          "content": [
+            {
+              "type": "verse",
+              "number": "1",
+              "lines": [
+                "Onse ule unfwe fiebo fiandi ifino kuficita \"Akapashanya kumuntu uwacejela \"2x \"Uwakulile inganda yakwe pa mwalala \"2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Wamano , wamano , wamano, \"Wamano asumine wamano asumine cebo\"2x"
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "Com : -Ici cebo la Lesa asumine wamano asumine cebo",
+                "-Ici cebo la Tata \" \" \" \" \" \"",
+                "-Ici cebo la Mwana\" \" \" \" \" \"",
+                "-Ici cebo la Mweo \" \" \" \" \" \""
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Onse ulu unfwe fiebo fiandi ifino kufikana akapasha nyakumuntu uwta tumpile \"Uwa kulile inganda ya kwepa musenga \"2x"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "autres-0003",
+      "title": "TUMBU NINALO",
+      "status": "review",
+      "versions": [
+        {
+          "id": "autres-0003-v1",
+          "language": {
+            "code": "autres",
+            "label": "Langue indéterminée",
+            "status": "confirmed",
+            "detection": "manual"
+          },
+          "title": "TUMBU NINALO",
+          "source": {
+            "file": "cantiques_eujc_lingala.json",
+            "position": 3,
+            "number": "103",
+            "section": "CANTIQUES TOME I",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "hymnal",
+            "category_id": "a-classer-autres",
+            "category_label": "Autres langues",
+            "lesson_id": "a-classer-autres",
+            "lesson_label": "Autres langues"
+          },
+          "content": [
+            {
+              "type": "verse",
+              "number": "1",
+              "lines": [
+                "“Tumbu ninalo nakutumbula muana nandi”muana na nakutumbula ani file Abalayama muana nakutumbula ani file a Isaka muana na nakutumbula ani file a Yakobo"
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "“Tualuje lutumbu tumutumbule file yaya”ah ah file Abalayama tumutumbule file Abalayama obe yaya file a Isaka tumutumbule file a Isaka obe yaya file a Yakobo tumutumbule file a Yakobo"
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "“tuateyi masatshe tumutumbule file yaya” ah ah file Abalayama tumutumbule file Abalayama obe yaya file a Isaka tumutumbule file a Isaka obe yaya file a Yakobo tumutumbule file a Yakobo"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Abalama tukawende kanana Abalama tuka wende lele ah"
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

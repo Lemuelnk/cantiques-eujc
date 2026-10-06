@@ -36,3 +36,9 @@ Thumbs.db
 *.log
 npm-debug.log*
 flutter_app.backup-*/
+
+# Backups et rapports locaux (ne pas committer)
+app/data/canonical-backup-*/
+ambiguous_cases.txt
+verification.txt
+pdfs/word/

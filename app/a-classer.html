@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="theme-color" content="#faf6ec" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0b2b24" media="(prefers-color-scheme: dark)">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+  >
+
+  <meta
+    name="description"
+    content="Cantiques de Prière — Cantiques EUJC"
+  >
+
+  <title>Cantiques de Prière — Cantiques EUJC</title>
+  <!-- Favicons -->
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Cantiques EUJC">
+  <meta name="mobile-web-app-capable" content="yes">
+
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://cantiques-eujc.lnk-studio.com/priere.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Cantiques EUJC">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:title" content="Cantiques de Prière — Cantiques EUJC">
+  <meta property="og:description" content="Explorez les cantiques de prière, de miséricorde, d’invocation et de bataille dans le recueil Cantiques EUJC.">
+  <meta property="og:url" content="https://cantiques-eujc.lnk-studio.com/priere.html">
+  <meta property="og:image" content="https://cantiques-eujc.lnk-studio.com/og-image.png">
+  <meta property="og:image:alt" content="Icône de l’application Cantiques EUJC">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Cantiques de Prière — Cantiques EUJC">
+  <meta name="twitter:description" content="Explorez les cantiques de prière, de miséricorde, d’invocation et de bataille dans le recueil Cantiques EUJC.">
+  <meta name="twitter:image" content="https://cantiques-eujc.lnk-studio.com/og-image.png">
+
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="charte.css?v=97">
+  <link rel="stylesheet" href="fonts.css?v=97">  <script>
+    /* Anti-FOUC : applique le thème + police avant tout rendu */
+    (function(){
+      try {
+        var p = JSON.parse(localStorage.getItem('cantiques-eujc-preferences') || '{}');
+        var t = p.theme || 'system';
+        var eff = t === 'system'
+          ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
+          : t;
+        document.documentElement.setAttribute('data-theme', eff);
+        if (eff === 'dark') {
+          document.documentElement.classList.add('theme-dark');
+          document.addEventListener('DOMContentLoaded', function(){
+            if (document.body) document.body.classList.add('theme-dark');
+          }, { once: true });
+        }
+        if (p.textScale) document.documentElement.style.setProperty('--text-scale', p.textScale);
+        var fonts = {'system':'var(--font-system)','open-sans':'var(--font-open-sans)','lora':'var(--font-lora)','atkinson':'var(--font-atkinson)'};
+        if (p.font && fonts[p.font]) {
+          document.documentElement.style.setProperty('--font-body', fonts[p.font]);
+          document.documentElement.style.setProperty('--font-heading', fonts[p.font]);
+        }
+      } catch(e) {}
+    })();
+  </script>
+
+  <link rel="stylesheet" href="style.css?v=97">
+  <link rel="stylesheet" href="bottom-nav.css?v=97">
+  <link rel="stylesheet" href="a-classer.css?v=97">
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="stylesheet" href="report-fab.css?v=97">
+</head>
+
+<body data-report-scope="a-classer">
+
+  <div class="lessons-page">
+
+    <!-- HEADER -->
+    <header class="lessons-header">
+
+      <a
+        class="back-button"
+        href="categories.html"
+        aria-label="Retour aux catégories"
+      >
+        <i data-lucide="arrow-left"></i>
+      </a>
+
+      <div class="lessons-header-title">
+        <h1>Cantiques à classer</h1>
+        <span>5 langues</span>
+      </div>
+
+      <span class="header-spacer" aria-hidden="true"></span>
+
+    </header>
+
+
+    <!-- CONTENU -->
+    <main class="lessons-content">
+
+        <section class="lessons-list" aria-label="Cantiques à classer par langue">
+
+          <a class="lesson-row lesson-row-wide" href="cantiques.html?category=a-classer-francais">
+            <span class="lesson-name">Cantiques en français</span>
+            <i data-lucide="chevron-right"></i>
+          </a>
+
+          <a class="lesson-row lesson-row-wide" href="cantiques.html?category=a-classer-swahili">
+            <span class="lesson-name">Cantiques en swahili</span>
+            <i data-lucide="chevron-right"></i>
+          </a>
+
+          <a class="lesson-row lesson-row-wide" href="cantiques.html?category=a-classer-tshiluba">
+            <span class="lesson-name">Cantiques en tshiluba</span>
+            <i data-lucide="chevron-right"></i>
+          </a>
+
+          <a class="lesson-row lesson-row-wide" href="cantiques.html?category=a-classer-lingala">
+            <span class="lesson-name">Cantiques en lingala</span>
+            <i data-lucide="chevron-right"></i>
+          </a>
+
+          <a class="lesson-row lesson-row-wide" href="cantiques.html?category=a-classer-autres">
+            <span class="lesson-name">Autres langues</span>
+            <i data-lucide="chevron-right"></i>
+          </a>
+
+        </section>
+
+    </main>
+
+
+    <!-- SHARED BOTTOM NAVIGATION -->
+    <div id="bottom-nav"></div>
+
+  </div>
+
+
+  <script src="bottom-nav.js?v=97"></script>
+  <script src="a-classer.js?v=97"></script>
+
+<script src="sw-register.js?v=97"></script>
+  <script src="report-fab.js?v=97"></script>
+  <script src="preferences.js?v=97"></script>
+</body>
+</html>

@@ -64,7 +64,9 @@ async function loadStats() {
       'lesson-20','lesson-21','lesson-22','lesson-23','lesson-24','lesson-25','lesson-26',
       'dimanche-louange','dimanche-croyants','dimanche-affliges','dimanche-egares',
       'dimanche-rois','dimanche-visiteurs','dimanche-divers',
-      'priere-misericorde','priere-invocation','priere-general','priere-bataille'
+      'priere-misericorde','priere-invocation','priere-general','priere-bataille',
+      'a-classer-francais','a-classer-swahili','a-classer-tshiluba',
+      'a-classer-lingala','a-classer-autres'
     ];
 
     let totalHymns = 0;
