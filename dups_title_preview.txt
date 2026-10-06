@@ -1,0 +1,972 @@
+==========================================================================================
+APERCU DES DOUBLONS PAR TITRE (129 cantiques a-classer concernes)
+==========================================================================================
+
+Format : [N] ac_id (fichier) titre
+         -> similarite  |  fichier cible / id
+
+A valider : marquer [OK] ou [SKIP] a cote du numero
+
+
+[1] sw-0200  (a-classer-swahili)
+     Titre : "TUMEKWISHA DUMU"
+     1ere ligne : Tumekwisha dumu sisi katika giza " Leo nuru imeangaa mioyoni mwa watu "2x Jehova
+     -> 100%  |  lesson-5-noe / 66e0c715-ac2c-5d50-b65e-05b678d83d6b
+                Titre : "TUMEKWISHA DUMU"
+                1ere ligne : Tumekwisha dumu sisi katika giza (Leo nuru imeangaa mioyoni mwa watu) 2x Jehova 
+
+[2] sw-0286  (a-classer-swahili)
+     Titre : "AWA TULIKUWA NAO KATIKA MISRI"
+     1ere ligne : Awa tulikuwa nao katika misri awa kujuwa neno la mungu leo wameangaika awa kujuw
+     -> 100%  |  lesson-12-plaies / 668866b9-f960-5076-90dc-ce550cde36b5
+                Titre : "AWA TULIKUWA NAO KATIKA MISRI"
+                1ere ligne : 1. Awa tulikuwa nao katika misri awa kujuwa neno la mungu leo wameangaika awa ku
+
+[3] sw-0375  (a-classer-swahili)
+     Titre : "KATIKA MAISHA YANGU"
+     1ere ligne : Katika maisha yangu mimi na tarajia bwana mimi masikini wa mungu mimi mukosefu w
+     -> 100%  |  dimanche-croyants / 747c6062-520d-5f82-a600-1f2ded083575
+                Titre : "KATIKA MAISHA YANGU"
+                1ere ligne : Katika maisha yangu mimi na tarajia bwana mimi masikini wa mungu mimi mukosefu w
+
+[4] sw-0343  (a-classer-swahili)
+     Titre : "TUPO MIONGONI MWA YOBU"
+     1ere ligne : Tupo miongoni mwa yobu eh yobu akwitaji mwana eh yobu akwitaji mutumishi, Ibrahi
+     -> 100%  |  priere-invocation / f4352a25-61c5-5be6-8a26-3c3f16085376
+                Titre : "TUPO MIONGONI MWA YOBU"
+                1ere ligne : Tupo miongoni mwa yobu eh yobu akwitaji mwana eh yobu akwitaji mutumishi, Ibrahi
+     -> 100%  |  lesson-25-daniel / fb06a09e-f595-5d4d-b297-c565d1f741f2
+                Titre : "TUPO MIONGONI MWA YOBU"
+                1ere ligne : 1. Tupo miongoni mwa yobu eh yobu akwitaji mwana eh yobu akwitaji mutumishi, Ibr
+     -> 100%  |  lesson-26-job / 7ed6f63a-5257-50e1-9297-edaea6fb6221
+                Titre : "TUPO MIONGONI MWA YOBU"
+                1ere ligne : 1. Tupo miongoni mwa yobu eh yobu akwitaji mwana eh yobu akwitaji mutumishi, Ibr
+
+[5] sw-0283  (a-classer-swahili)
+     Titre : "HUDUMA HUDUMA ZA BABA"
+     1ere ligne : Huduma , huduma za baba , huduma za mwana , huduma pia za roho , "Ukipenda kurit
+     -> 100%  |  lesson-12-plaies / 653a5ec4-c3f6-5ea7-8ce4-ac01e2e90dfb
+                Titre : "HUDUMA HUDUMA ZA BABA"
+                1ere ligne : 1. Huduma, huduma za baba, huduma za mwana, huduma pia za roho, ¨Ukipenda kuriti
+
+[6] sw-0328  (a-classer-swahili)
+     Titre : "MANABII WA BALI WA BALI NA ELIA"
+     1ere ligne : Manabii wa bal iwa bali na Elia , mbona nyinyi mutakuwa na mawazo ma wili kama b
+     -> 100%  |  lesson-24-elie-elisee / f0bedf13-a11c-5475-8f5f-16c710b80bbb
+                Titre : "MANABII WA BALI WA BALI NA ELIA"
+                1ere ligne : 1. Manabii wa bal iwa bali na Elia, mbona nyinyi mutakuwa na mawazo ma wili kama
+
+[7] sw-0513  (a-classer-swahili)
+     Titre : "SAUTI KUTOKA MBINGUNI"
+     1ere ligne : Sauti kutoka mbinguni , sauti unena hivio "Nani atenda duniani kuokowa watu "2x
+     -> 100%  |  lesson-23-temple / ce5d85e9-a808-5063-a432-f06f4c212c91
+                Titre : "SAUTI KUTOKA MBINGUNI"
+                1ere ligne : Sauti kutoka mbinguni, sauti unena hivio ¨Nani atenda duniani kuokowa watu
+
+[8] sw-0268  (a-classer-swahili)
+     Titre : "KUONDOKA KWA MUSA MULIMANI"
+     1ere ligne : Kuondoka kwa Musa mulimani sinai "2x Musa akavaa shela kichwani mwake kwani wais
+     -> 100%  |  lesson-12-plaies / a50a6fc2-7da6-576b-ba88-e4f97d64d1ab
+                Titre : "KUONDOKA KWA MUSA MULIMANI"
+                1ere ligne : 1. Kuondoka kwa Musa mulimani sinai ¨2x Musa akavaa shela kichwani mwake kwani w
+
+[9] sw-0359  (a-classer-swahili)
+     Titre : "WAJOLI WETU PIA NA WA MALAIKA"
+     1ere ligne : Wajoli wetu pia na wa malaika twimbieni shangwe aleluya shangwe aleluya mbinguni
+     -> 100%  |  dimanche-louange / 96c8d676-3d8f-5aec-9b80-ad8469068990
+                Titre : "WAJOLI WETU PIA NA WA MALAIKA"
+                1ere ligne : Wajoli wetu pia na wa malaika twimbieni shangwe aleluya shangwe aleluya mbinguni
+     -> 100%  |  priere-invocation / b53f2ba8-074e-5012-9e09-b5c9f2e52256
+                Titre : "WAJOLI WETU PIA NA WA MALAIKA"
+                1ere ligne : Wajoli wetu pia na wa malaika twimbieni shangwe aleluya shangwe aleluya mbinguni
+
+[10] sw-0362  (a-classer-swahili)
+     Titre : "HUU NI MUHULA MWEMA"
+     1ere ligne : Huu ni muhula mwema kumuhimidi alie (alie hai) "fahari na iwe kwake bwana mungu 
+     -> 100%  |  dimanche-louange / 2f70e6eb-82fa-5c5c-af87-dc56b1e3b279
+                Titre : "HUU NI MUHULA MWEMA"
+                1ere ligne : Huu ni muhula mwema kumuhimidi alie (alie hai) fahari na iwe kwake bwana mungu w
+
+[11] sw-0221  (a-classer-swahili)
+     Titre : "MUNGU AKATUMA WATU KW AKE LOTI"
+     1ere ligne : Mungu akatuma watu kwake Loti mwende mukamuharifu ni taaribu muji .
+     -> 100%  |  lesson-7-lot / a79171ef-1572-52d2-b01d-3fa8fca47705
+                Titre : "MUNGU AKATUMA WATU KWAKE LOTI"
+                1ere ligne : Mungu akatuma watu kwake Loti mwende mukamuharifu ni taaribu muji.
+
+[12] sw-0149  (a-classer-swahili)
+     Titre : "VITA VIKALI UJIRIKA"
+     1ere ligne : Vita vikali ujirika mbinguni mwa mungu~2x Mikael iwa mungu kamushinda shetani~2x
+     -> 100%  |  lesson-0-lucifer / a8d2568c-019c-5cd9-9ed7-0fc343e7b3b2
+                Titre : "VITA VIKALI UJIRIKA"
+                1ere ligne : (Vita vikali ujirika mbinguni mwa Mungu) 2x (Mikaeli wa Mungu kamushinda shetani
+
+[13] sw-0249  (a-classer-swahili)
+     Titre : "EH WAJOLI MIMI NDIMI MU KRISTU"
+     1ere ligne : Eh ee wajoli mimi ndimi mukristu uzima huu ni nao nita utautairi je ?
+     -> 100%  |  lesson-10-egypte / 5197a1e9-b4ae-5e7a-bec7-214fb74d3a63
+                Titre : "EH WAJOLI MIMI NDIMI MU KRISTU"
+                1ere ligne : Eh ee wajoli mimi ndimi mukristu uzima huu ni nao nita utautairi je?
+     -> 100%  |  lesson-11-moise / 5197a1e9-b4ae-5e7a-bec7-214fb74d3a63
+                Titre : "EH WAJOLI MIMI NDIMI MU KRISTU"
+                1ere ligne : Eh ee wajoli mimi ndimi mukristu uzima huu ni nao nita utautairi je?
+
+[14] sw-0287  (a-classer-swahili)
+     Titre : "WANA ISRAELI WA MEVUKA YORDANI LEO"
+     1ere ligne : Wana israeli wamevuka Yordani leo yoyoe aa yakini enh yoyoe ogopa sanduku fwata 
+     -> 100%  |  lesson-13-mer-rouge / 68b05848-a4ef-5de5-bb03-8277e7ca0f14
+                Titre : "WANA ISRAELI WA MEVUKA YORDANI LEO"
+                1ere ligne : Wana israeli wamevuka Yordani leo yoyoe aa yakini enh yoyoe ogopa sanduku fwata 
+
+[15] sw-0316  (a-classer-swahili)
+     Titre : "SOLOMONO MFALME MWANA WA DAUDI"
+     1ere ligne : Solomono mufalme mwana wa Daudi ee solomono mufalme mwana wa Daudi, solomono muf
+     -> 100%  |  lesson-22-salomon / 833b0f18-3d55-51df-bf56-54fe709ff408
+                Titre : "SOLOMONO MFALME MWANA WA DAUDI"
+                1ere ligne : Solomono mufalme mwana wa Daudi ee solomono mufalme mwana wa Daudi, solomono muf
+
+[16] sw-0437  (a-classer-swahili)
+     Titre : "JEHOVA MUNGU KAULIZA"
+     1ere ligne : Jehova mungu kauliza nimutumne nani ulimwenguni yesu wa mungu kajibu: "Eh baba t
+     -> 100%  |  dimanche-affliges / 977caf36-2205-5d7f-bb2b-042574d6e0ef
+                Titre : "JEHOVA MUNGU KAULIZA"
+                1ere ligne : 1. Jehova mungu kauliza nimutume nani ulimwenguni yesu wa mungu kajibu ¨Eh baba 
+
+[17] sw-0426  (a-classer-swahili)
+     Titre : "YESU MUSHAMBA LA GETESEMANE"
+     1ere ligne : Yesu mushamba la getesemane machozi ikamutoka aliomba kwa baba kikombe kinipitie
+     -> 100%  |  dimanche-affliges / 828c9f0a-7faa-5d86-b4be-11ef640cd93a
+                Titre : "YESU MUSHAMBA LA GETESEMANE"
+                1ere ligne : Yesu mushamba la getesemane machozi ikamutoka aliomba kwa baba kikombe kinipitie
+
+[18] sw-0302  (a-classer-swahili)
+     Titre : "KWA KUZALIWA KWA SAMSONI"
+     1ere ligne : Kwa kuzaliwa kwa samsoni munaziri malaika kajirika kwa manoa mutu wa sora ( mala
+     -> 100%  |  lesson-20-samson / 37430b55-3fb9-5200-b372-c120fd326075
+                Titre : "KWA KUZALIWA KWA SAMSONI"
+                1ere ligne : 1. Kwa kuzaliwa kwa samsoni munaziri malaika kajirika kwa manoa mutu wa sora ( m
+
+[19] sw-0653  (a-classer-swahili)
+     Titre : "NALIA MIMI NAOMBOLEZA"
+     1ere ligne : "Nalia mimi naomboleza "2x yakini mimi jehoa mungu sipate jibu .
+     -> 100%  |  priere-general / d88aa92b-5e91-58c8-9b39-c2df36079ce6
+                Titre : "NALIA MIMI NAOMBOLEZA"
+                1ere ligne : ¨Nalia mimi naomboleza ¨2x yakini mimi jehova mungu sipate jibu .
+
+[20] sw-0475  (a-classer-swahili)
+     Titre : "SALAMU KWENU"
+     1ere ligne : Salamu kwenu, Salamu kwenu , salamu kwenu rafiki za mufalume enyi wajoli wa neno
+     -> 100%  |  dimanche-visiteurs / 532390bb-31c5-5cb6-b16a-df3913b689e1
+                Titre : "SALAMU KWENU"
+                1ere ligne : Salamu kwenu, Salamu kwenu, salamu kwenu rafiki za mufalume enyi wajoli wa neno 
+
+[21] sw-0272  (a-classer-swahili)
+     Titre : "YAWE YOYOYO AAH"
+     1ere ligne : Yawe yoyoyo aah yawe apende kamwe watu wajikuzao wamuhimidi bwana na roho damili
+     -> 100%  |  lesson-12-plaies / 112f5e0a-4870-57b0-bc43-12beda1f6c8e
+                Titre : "YAWE YOYOYO AAH"
+                1ere ligne : 1. Yawe yoyoyo aah yawe apende kamwe watu wajikuzao wamuhimidi bwana na roho dam
+
+[22] sw-0358  (a-classer-swahili)
+     Titre : "SHANGILIENI WOTE"
+     1ere ligne : Shangilieni wote ufalme wa mungu : shangilieni wote mumbaji wa watu , baba katum
+     -> 100%  |  dimanche-louange / 00535c11-df1e-5e62-9904-1ff41cfee526
+                Titre : "SHANGILIENI WOTE"
+                1ere ligne : Shangilieni wote ufalme wa Mungu: shangilieni wote mumbaji wa watu, baba katuma 
+
+[23] sw-0232  (a-classer-swahili)
+     Titre : "KATIKA WANA WA YAKOBO"
+     1ere ligne : Katika wana wa Yakobo wa kakosa upendo " wakauza nduguze aitwae Yusufu"2x
+     -> 100%  |  lesson-8-fils-isaac / cee6fd5b-e3cf-5a6a-b59e-ab966d085aa7
+                Titre : "KATIKA WANA WA YAKOBO"
+                1ere ligne : 1	Katika wana wa Yakobo wa kakosa upendo ¨ wakauza nduguze aitwae Yusufu¨2x
+
+[24] sw-0171  (a-classer-swahili)
+     Titre : "NITAZAMAPO HUDUMA ULIOFANYA MUNGU"
+     1ere ligne : Nitazamapo huduma uliofanya mungu kwa mikono yake chini ya jua (kweli mimi) sina
+     -> 99%  |  lesson-1-creation / cc83ce03-99fb-4c0a-9dda-10daae056a83
+                Titre : "NITAZAMAPO HUDUMA ULIOFANYA MUNGU"
+                1ere ligne : Nitazamapo huduma uliofanya Mungu kwa mikono yake chini ya jua (kweli mimi) sina
+     -> 100%  |  lesson-6-abraham / e77957ef-80cd-5ff9-a50f-47a7a07dec5f
+                Titre : "NITAZAMAPO HUDUMA ULIOFANYA MUNGU"
+                1ere ligne : Nitazamapo huduma uliofanya mungu kwa mikono yake chini ya jua (kweli mimi) sina
+
+[25] sw-0650  (a-classer-swahili)
+     Titre : "BATWE TUDJI BASHIDJIKA BA YESU KRISTU"
+     1ere ligne : Batwe tudji bashidjika ba yesu kristu twaenda mu bulwi bwa mianda ;ia mfumu betu
+     -> 100%  |  priere-general / f3775725-0ae3-5a23-b2c0-cc714f0385fa
+                Titre : "BATWE TUDJI BASHIDJIKA BA YESU KRISTU"
+                1ere ligne : Batwe tudji bashidjika ba yesu kristu twaenda mu bulwi bwa mianda ;ia mfumu betu
+
+[26] sw-0361  (a-classer-swahili)
+     Titre : "KWA KWENDA MBINGUNI EH"
+     1ere ligne : Kwa kwenda mbinguni mbinguni eh kupitia kwake yesu yoyowe "Kwa kwenda mbinguni k
+     -> 100%  |  dimanche-louange / 9cb19a3b-3d64-57c9-9fa8-04d0d697bf1a
+                Titre : "KWA KWENDA MBINGUNI EH"
+                1ere ligne : kwenda mbinguni mbinguni eh kupitia kwake yesu yoyowe (Kwa kwenda mbinguni kupit
+
+[27] sw-0647  (a-classer-swahili)
+     Titre : "KATIKA SHIDA ZANGU MIMI"
+     1ere ligne : Katika shida zangu mimi na ziki zote nategemea bwana mungu aniokowe vitani.
+     -> 100%  |  priere-general / ab4862e6-c6ce-54dc-8064-ba17be99912e
+                Titre : "KATIKA SHIDA ZANGU MIMI"
+                1ere ligne : Katika shida zangu mimi na ziki zote nategemea bwana mungu aniokowe vitani.
+
+[28] sw-0134  (a-classer-swahili)
+     Titre : "YESU ALITAKASA MIOYO"
+     1ere ligne : Yesu, yesu, yesu ee " alitakasa mioyo"2X
+     -> 100%  |  priere-misericorde / ec60d354-43f4-5bdc-ab66-e2d536efd03b
+                Titre : "YESU ALITAKASA MIOYO"
+                1ere ligne : 1. Yesu, yesu, yesu ee "alitakasa mioyo" 2X
+
+[29] sw-0196  (a-classer-swahili)
+     Titre : "LAMEKI ALIKUWA NA MIAKA NYINGI"
+     1ere ligne : Lameki alikuwa na miaka nyingi , akazaa mwana jina lake Nuhu kwani aliogopa mung
+     -> 100%  |  lesson-5-noe / adc0fe6a-1cd4-53f7-b538-7a6ae7a5fde8
+                Titre : "LAMEKI ALIKUWA NA MIAKA NYINGI"
+                1ere ligne : Lameki alikuwa na miaka nyingi, akazaa mwana jina lake Nuhu kwani aliogopa Mungu
+
+[30] sw-0506  (a-classer-swahili)
+     Titre : "SAFARI YA YESU KUTOKA BETANIA"
+     1ere ligne : Ayo ili kwa ni safari ya Yesu kutoka betania alipo sikia njaa akauona muti kwa m
+     -> 100%  |  dimanche-divers / fd2f7e8a-99fb-5611-8d0c-784234ebf7c4
+                Titre : "SAFARI YA YESU KUTOKA BETANIA"
+                1ere ligne : Ayo ili kwa ni safari ya Yesu kutoka betania alipo sikia njaa akauona muti kwa m
+
+[31] sw-0264  (a-classer-swahili)
+     Titre : "MUNGU AKAMWAMBIA MUSA NENDA KWAO"
+     1ere ligne : Mungu akamwambia Musa nenda kwao uwatakase leo na kesho wa fue mavazi hili wawe 
+     -> 100%  |  lesson-12-plaies / fed06a0a-21c5-577f-8896-3f0cf0788187
+                Titre : "MUNGU AKAMWAMBIA MUSA NENDA KWAO"
+                1ere ligne : 1. Mungu akamwambia Musa nenda kwao uwatakase leo na kesho wa fue mavazi hili wa
+
+[32] sw-0321  (a-classer-swahili)
+     Titre : "NINA TUBU"
+     1ere ligne : Nina tubu mimi nipate uzima bwana ni metoa vitu viangu viote uniokoe mfalme chuk
+     -> 100%  |  priere-misericorde / a4a370cc-a7df-5609-be84-3b9f37ff29f6
+                Titre : "NINA TUBU"
+                1ere ligne : 1. Nina tubu mimi nipate uzima bwana ni metoa vitu viangu viote uniokoe mfalme c
+     -> 100%  |  lesson-22-salomon / ddf9eb6e-82d7-5b52-92fc-4357ac6bcdd6
+                Titre : "NINA TUBU"
+                1ere ligne : Nina tubu mimi nipate uzima bwana ni metoa vitu viangu viote uniokoe mfalme chuk
+
+[33] sw-0319  (a-classer-swahili)
+     Titre : "SOLOMONO KUKATA MANENO"
+     1ere ligne : Solomono kukata maneno ya wake wawili walifia mutoto moja usiku kauwa mwanae kwa
+     -> 100%  |  lesson-22-salomon / fab2de42-8a00-50bf-ab4c-301d478aea4e
+                Titre : "SOLOMONO KUKATA MANENO"
+                1ere ligne : Solomono kukata maneno ya wake wawili walifia mutoto moja usiku kauwa mwanae kwa
+
+[34] sw-0154  (a-classer-swahili)
+     Titre : "MUFALME WETU"
+     1ere ligne : ( Mufalme wetu)2x mufalme wetu mushindi (Mufalme wetu) mufalme wetu mushindi apa
+     -> 100%  |  lesson-0-lucifer / 90981922-d828-5973-a37a-bdc57cc76ed0
+                Titre : "MUFALME WETU"
+                1ere ligne : ( Mufalme wetu) 2x mufalme wetu mushindi (Mufalme wetu) mufalme wetu mushindi ap
+
+[35] sw-0156  (a-classer-swahili)
+     Titre : "WALOZI KAMA WA MESIMAMA"
+     1ere ligne : Walozi kama wa mesimama kufwatana na yule shetani alietupwa na ufahamu mwingi il
+     -> 100%  |  lesson-0-lucifer / 96a0d707-072b-54d9-a1ba-098e14a090a5
+                Titre : "WALOZI KAMA WA MESIMAMA"
+                1ere ligne : Walozi kama wa mesimama kufwatana na yule shetani alietupwa na ufahamu mwingi il
+
+[36] sw-0376  (a-classer-swahili)
+     Titre : "SAFARI YA KWENDA KANANA"
+     1ere ligne : Safari ya kwenda kanana ilikuwa ndefu watu wote awakuriti sababu ya miziko yabo.
+     -> 100%  |  dimanche-croyants / 4669949a-bd6a-58fd-a903-41d26b9ac7d9
+                Titre : "SAFARI YA KWENDA KANANA"
+                1ere ligne : Safari ya kwenda kanana ilikuwa ndefu watu wote awakuriti sababu ya miziko yabo.
+
+[37] sw-0401  (a-classer-swahili)
+     Titre : "KUREJEA KWANGU"
+     1ere ligne : Kurejea kwangu kuna furahisha baba yakini , yakini baba nimekoseya mbingu mimi ,
+     -> 100%  |  dimanche-egares / dce80213-0955-5b40-9482-5ed755342416
+                Titre : "KUREJEA KWANGU"
+                1ere ligne : Kurejea kwangu kuna furahisha baba yakini, yakini baba nimekoseya mbingu mimi, y
+
+[38] sw-0483  (a-classer-swahili)
+     Titre : "KWA KUWA MUFWASI WAKE"
+     1ere ligne : Kwa kuwa mufwasi wake "2x yesu wa mungu anasema ukane wa zazi wako ukane muke wa
+     -> 100%  |  dimanche-visiteurs / 1465db7a-e35c-509e-9b45-01c11a12b45e
+                Titre : "KWA KUWA MUFWASI WAKE"
+                1ere ligne : Kwa kuwa mufwasi wake ¨2x yesu wa mungu anasema ukane wa zazi wako ukane muke wa
+
+[39] sw-0641  (a-classer-swahili)
+     Titre : "NIMESIMAMA KATIKATI YA NJIA"
+     1ere ligne : Nimesimama katikati ya njia ni kitafuta kwa kwenda nisimamapo na faraka na moyon
+     -> 100%  |  priere-general / b5593bd5-94dd-5a00-aae1-a31f2aa0bf5c
+                Titre : "NIMESIMAMA KATIKATI YA NJIA"
+                1ere ligne : Nimesimama katikati ya njia ni kitafuta kwa kwenda nisimamapo na faraka na moyon
+
+[40] sw-0300  (a-classer-swahili)
+     Titre : "MUTUMANO A WA DANI"
+     1ere ligne : Mutumanoa wa dani alikuwa na muke wake tasa "Bwana mungu kajirika kwao kwa malai
+     -> 100%  |  lesson-20-samson / 9ad73c3d-f53c-5884-bb5d-87d550383364
+                Titre : "MUTUMANOA WA DANI"
+                1ere ligne : 1. Mutumanoa wa dani alikuwa na muke wake tasa ¨Bwana mungu kajirika kwao kwa ma
+
+[41] sw-0296  (a-classer-swahili)
+     Titre : "MUNGU UNIFARIJI KWA SAFARI"
+     1ere ligne : Mungu unifariji kwa safari ndefu ni nayo niriti inchi ya hadi inchi ya kana, inc
+     -> 100%  |  lesson-13-mer-rouge / fa55d88b-b18f-5d94-8a76-32fe6f420d8e
+                Titre : "MUNGU UNIFARIJI KWA SAFARI"
+                1ere ligne : 1. Mungu unifariji kwa safari ndefu ni nayo niriti inchi ya hadi inchi ya kana, 
+
+[42] sw-0659  (a-classer-swahili)
+     Titre : "TUPO KATIKA MASHINDANO"
+     1ere ligne : Tupo katika mashindano ya vita na shetani "Uweza wako wewe jehova mungu utulinde
+     -> 100%  |  priere-general / 7db9b55e-7a3f-5fd8-b553-60eefec6fcce
+                Titre : "TUPO KATIKA MASHINDANO"
+                1ere ligne : Tupo katika mashindano ya vita na shetani ¨Uweza wako wewe jehova mungu utulinde
+
+[43] sw-0480  (a-classer-swahili)
+     Titre : "ENYI WAJOLI WA BWANA"
+     1ere ligne : Enyi wajoli wa bwana tutafute ndugu zetu walio mu dunia sisi awa tuwape hekima n
+     -> 100%  |  dimanche-visiteurs / abfebb64-ee85-528b-9727-72618d5cee10
+                Titre : "ENYI WAJOLI WA BWANA"
+                1ere ligne : Enyi wajoli wa bwana tutafute ndugu zetu walio mu dunia sisi awa tuwape hekima n
+
+[44] sw-0158  (a-classer-swahili)
+     Titre : "TUDUMU DAIMA"
+     1ere ligne : Tudumu daima katika njia ya bwana tudumu daima katika uduma huo tushindane naye 
+     -> 100%  |  lesson-0-lucifer / 12863413-9ed2-5873-a3c2-dd8c9acf7b98
+                Titre : "TUDUMU DAIMA"
+                1ere ligne : Tudumu daima katika njia ya bwana tudumu daima katika uduma huo tushindane naye 
+
+[45] sw-0258  (a-classer-swahili)
+     Titre : "JESHILA FARAO WAMEKUFA BAHARINI"
+     1ere ligne : Jeshi la Farao wamekufa baharini kwa kumufwata musa pia na wana israeli .
+     -> 100%  |  lesson-12-plaies / b6731428-38f5-5464-8a32-ad6b8b317877
+                Titre : "JESHI LA FARAO WAMEKUFA BAHARINI"
+                1ere ligne : Jeshi la Farao wamekufa baharini kwa kumufwata musa pia na wana israeli.
+
+[46] sw-0332  (a-classer-swahili)
+     Titre : "WAKAMUTUPA DANIELI PANGONIMWA SIMBA"
+     1ere ligne : Wakamutupa Danieli pangoni mwa simba kwani alikuwa mufanya kazi wa mungu wa uzim
+     -> 100%  |  priere-invocation / a1d4fd86-ce9a-5a5c-9d69-0cbc4475cafc
+                Titre : "WAKAMUTUPA DANIELI PANGONI MWA SIMBA"
+                1ere ligne : Wakamutupa Danieli pangoni mwa simba kwani alikuwa mufanya kazi wa mungu wa uzim
+     -> 100%  |  lesson-25-daniel / 600d4ecd-97b7-5d5c-95be-cb01c685f088
+                Titre : "WAKAMUTUPA DANIELI PANGONI MWA SIMBA"
+                1ere ligne : Wakamutupa Danieli pangoni mwa simba kwani alikuwa mufanya kazi wa mungu wa uzim
+
+[47] sw-0273  (a-classer-swahili)
+     Titre : "BWANA AKA MWAPIA MUSA"
+     1ere ligne : Bwana aka mwapia Musa autaingia kanana inchi ya watu wangu unitie Yoshua aingize
+     -> 100%  |  lesson-12-plaies / 305d925e-9de9-51d0-9bde-f84646bc76a1
+                Titre : "BWANA AKA MWAPIA MUSA"
+                1ere ligne : 1. Bwana aka mwapia Musa autaingia kanana inchi ya watu wangu unitie Yoshua aing
+
+[48] sw-0602  (a-classer-swahili)
+     Titre : "LANGO LA FUNGULIWA JEHOVA MUNGU"
+     1ere ligne : Lango la funguliwa jehoa mungu ningie ohoo lango la funguliwa jehoa mungu ningie
+     -> 100%  |  priere-bataille / d8de7e73-b31a-565e-bd33-3ce560c66599
+                Titre : "LANGO LA FUNGULIWA JEHOVA MUNGU"
+                1ere ligne : Lango la funguliwa jehova mungu ningie ohoo lango la funguliwa jehova mungu ning
+
+[49] sw-0385  (a-classer-swahili)
+     Titre : "WAKATI YESU ALIPOELEKEA"
+     1ere ligne : Wakati yesu alipo elekea njiani akaona mutini mwema wa matunda alipo fika kutafu
+     -> 100%  |  dimanche-croyants / d3f34ff1-f91a-5f45-b02f-62dfb9c9b042
+                Titre : "WAKATI YESU ALIPOELEKEA"
+                1ere ligne : 1. Wakati yesu alipo elekea njiani akaona muti mwema wa matunda alipo fika kutaf
+
+[50] sw-0164  (a-classer-swahili)
+     Titre : "WAKATI MUNGU YOYOYO ALIPO UMBA"
+     1ere ligne : Wakati mungu yoyoyo alipo umba mbingu na dunia¨2x Akaumba nuru yoyoyo akatenga n
+     -> 99%  |  lesson-1-creation / e5cd49a8-830b-42f7-9157-5dc946e28bd1
+                Titre : "WAKATI MUNGU YOYOYO ALIPO UMBA"
+                1ere ligne : (Wakati mungu yoyoyo alipo umba mbingu na dunia)2x (Akaumba nuru yoyoyo akatenga
+
+[51] sw-0606  (a-classer-swahili)
+     Titre : "LANGOLA FUNGULIWA VITA IMEINGIA"
+     1ere ligne : "Lango la funguliwa vita imeingia mu israeli "2x "Mungu wangu vita imeingia mu i
+     -> 99%  |  priere-bataille / 34ba33d4-8829-54a3-a87a-1b609a0d93c0
+                Titre : "LANGO LA FUNGULIWA VITA IMEINGIA"
+                1ere ligne : (Lango la funguliwa vita imeingia mu israeli)2x (Mungu wangu vita imeingia mu is
+
+[52] sw-0386  (a-classer-swahili)
+     Titre : "SAFARI NI MWANGU"
+     1ere ligne : Safari ni mwangu ninaomba mungu na tuma mungu mbele ili anitangulie"2x
+     -> 99%  |  dimanche-croyants / 1dcd929f-c067-59e0-accc-8de42a0f1237
+                Titre : "SAFARI NI MWANGU"
+                1ere ligne : 1. Safari ni mwangu ninaomba Mungu na tuma Mungu mbele ili anitangulie (2x)
+
+[53] sw-0210  (a-classer-swahili)
+     Titre : "NILALAPO MIMI"
+     1ere ligne : Nilalapo mimi katika uzaifu ~ Jehova mungu uje ni fariji ni ku udumie ~2x ~Ulimu
+     -> 99%  |  lesson-6-abraham / 15df5e9d-720c-52ae-8112-e09a63d5e69c
+                Titre : "NILALAPO MIMI"
+                1ere ligne : Nilalapo mimi katika uzaifu (Jehova mungu uje ni fariji ni ku udumie¨)2x (Ulimut
+
+[54] sw-0339  (a-classer-swahili)
+     Titre : "MASWALI YOTE YA DUNIA HII"
+     1ere ligne : Maswali yote ya dunia hii ya hukumiwa kwa matendo yao "uzuni ni naos ile wala si
+     -> 99%  |  priere-invocation / f86236a3-309d-57d6-8865-47c816317203
+                Titre : "MASWALI YOTE YA DUNIA HII"
+                1ere ligne : Maswali yote ya dunia hii yahukumiwa kwa matendo yao (uzuni ni nao sile wala sin
+     -> 99%  |  lesson-25-daniel / 375b7a37-c8c0-5b7a-a90e-90b5bd071d39
+                Titre : "MASWALI YOTE YA DUNIA HII"
+                1ere ligne : 1. Maswali yote ya dunia hii yahukumiwa kwa matendo yao (uzuni ni nao sile wala 
+     -> 99%  |  lesson-26-job / 4a2abc95-605d-5b1c-97b0-ee5f472a1c50
+                Titre : "MASWALI YOTE YA DUNIA HII"
+                1ere ligne : 1. Maswali yote ya dunia hii yahukumiwa kwa matendo yao (uzuni ni nao sile wala 
+
+[55] sw-0288  (a-classer-swahili)
+     Titre : "VINANDA IVI VIA MBINGU"
+     1ere ligne : Vinanda ivi via mbingu na via dunia via kumutukuza mungu baba kwa utukufu wake.~
+     -> 99%  |  lesson-13-mer-rouge / 24cf356d-7366-53dd-a71e-3ebc273288bf
+                Titre : "VINANDA IVI VIA MBINGU"
+                1ere ligne : 1. Vinanda ivi via mbingu na via dunia via kumutukuza mungu baba kwa utukufu wak
+
+[56] sw-0227  (a-classer-swahili)
+     Titre : "WAKATI ISAKA ALIKWISHA KUPOFUKA MACHO"
+     1ere ligne : "Wakati Isaka alikwisha kupofuka macho yeye akaita Esau "2x
+     -> 99%  |  lesson-8-fils-isaac / 5478dd72-e673-50ff-842d-ed587ed46a1b
+                Titre : "WAKATI ISAKA ALIKWISHA KUPOFUKA MACHO"
+                1ere ligne : 1. ¨Wakati Isaka alikwisha kupofuka macho yeye akaita Esau ¨2x
+
+[57] sw-0143  (a-classer-swahili)
+     Titre : "EWE MALAIKA WA NURU"
+     1ere ligne : Ewe malaika wa nuru , ewe nyota alfajiri lusifero ulipendwa sana kuko bwana mumb
+     -> 99%  |  lesson-0-lucifer / b5fb5909-d76e-5767-a993-5f66ffb325d0
+                Titre : "EWE MALAIKA WA NURU"
+                1ere ligne : Ewe malaika wa nuru, ewe nyota alfajiri lusifero ulipendwa sana kuko Bwana Mumba
+
+[58] sw-0322  (a-classer-swahili)
+     Titre : "ELIA AKAMWAMBIA ELISA MUFWASI WAKE"
+     1ere ligne : Mungu tenda nawe , Mungu tenda nawe , jehova tenda nawe vikwazo ni vingi mimi pa
+     -> 99%  |  lesson-24-elie-elisee / e360390a-a853-5dea-b1a2-59c7cd883bbe
+                Titre : "ELIA AKAMWAMBIA ELISA MUFWASI WAKE"
+                1ere ligne : Mungu tenda nawe, Mungu tenda nawe, jehova tenda nawe vikwazo ni vingi mimi paka
+
+[59] sw-0391  (a-classer-swahili)
+     Titre : "WA NDUGU MUSINITAABISHE"
+     1ere ligne : Wa ndugu musinitaabishe hamujui huko niendako naenda kwa baba kunako makao mengi
+     -> 99%  |  dimanche-croyants / f4b75162-baa8-525e-9c4a-b8ccf9e64161
+                Titre : "WA NDUGU MUSINITAABISHE"
+                1ere ligne : 1. Wa ndugu musinitaabishe hamujuwi huko niendako naenda kwa baba kunako makao m
+
+[60] sw-0664  (a-classer-swahili)
+     Titre : "BABA FUNGUWA MBINGU"
+     1ere ligne : "Baba funguwa mbingu "2x jehova fungua mbingu wana wako wanalia.
+     -> 99%  |  priere-general / db3d3cf8-5b17-51ad-8f6c-bdbba10152a1
+                Titre : "BABA FUNGUWA MBINGU"
+                1ere ligne : ¨Baba funguwa mbingu ¨2x jehova fungua mbingu wana wako wanalia.
+
+[61] sw-0372  (a-classer-swahili)
+     Titre : "HUMU NJIANI MWA BWANA"
+     1ere ligne : Humu njiani mwa bwana muna visiki na magogo "Vinavio angusha wengi wasifike uko 
+     -> 99%  |  dimanche-croyants / d8da7890-4f26-5da3-8eeb-017c76dd0ea7
+                Titre : "HUMU NJIANI MWA BWANA"
+                1ere ligne : 1.Humu njiani mwa bwana muna visiki na magogo ¨Vinavio angusha wengi wasifike uk
+
+[62] sw-0304  (a-classer-swahili)
+     Titre : "KUJIRIKA KWA MALAIKA WA MUNGU KWA MANOA"
+     1ere ligne : Kujirika malaika wa mungu kwa manoa "Ewe manoa muke wako , atapata mimba atazaa 
+     -> 99%  |  lesson-20-samson / cd2260db-9677-5b25-b202-728e59b6e333
+                Titre : "KUJIRIKA KWA MALAIKA WA MUNGU KWA MANOA"
+                1ere ligne : 1. Kujirika malaika wa mungu kwa manoa ¨Ewe manoa muke wako, atapata mimba ataza
+
+[63] sw-0597  (a-classer-swahili)
+     Titre : "NAKUALIKA JEHOVA MUNGU WANGU"
+     1ere ligne : "Nakualika jehoa mungu wangu usiwe mbali uwenami "2x Mufulume wangu njooo maadui
+     -> 99%  |  priere-invocation / 2c36d7d3-f2c9-5d8b-8a92-4a31663b6b9a
+                Titre : "NAKUALIKA JEHOVA MUNGU WANGU"
+                1ere ligne : (Nakualika jehova mungu wangu usiwe mbali uwenami)2x Mufalume wangu njooo maadui
+
+[64] sw-0208  (a-classer-swahili)
+     Titre : "BWANA MUNGU WANGU"
+     1ere ligne : Bwana mungu wangu ee mungu wangu tenda majabu ginsi ulimwokowa abramu~2x
+     -> 99%  |  lesson-6-abraham / 38757f8f-cd6b-5f96-8f07-3e1d75878f9f
+                Titre : "BWANA MUNGU WANGU"
+                1ere ligne : (Bwana mungu wangu ee mungu wangu tenda majabu ginsi ulimwokowa abramu) 2x
+
+[65] sw-0165  (a-classer-swahili)
+     Titre : "TWAKUSHUKURU EH MUNGU WANGU"
+     1ere ligne : Twakushukuru eh mungu wangu katika , kazi uliotenda tangu hawali zimetimilika le
+     -> 99%  |  lesson-1-creation / 73f1bdde-b2e0-4959-a1e4-1d0fcea920ce
+                Titre : "TWAKUSHUKURU EH MUNGU WANGU"
+                1ere ligne : 1. Twakushukuru eh mungu wangu katika, kazi uliotenda tangu hawali zimetimilika 
+
+[66] sw-0472  (a-classer-swahili)
+     Titre : "JAMBO YENU"
+     1ere ligne : Jambo yenu , jambo yenu ( jambo yenu) tuwa salimie na furaha "2x
+     -> 99%  |  dimanche-visiteurs / 567d0785-3992-57ae-846d-4b7faee8ed4f
+                Titre : "JAMBO YENU"
+                1ere ligne : Jambo yenu, jambo yenu (jambo yenu) tuwa salimie na furaha
+
+[67] sw-0244  (a-classer-swahili)
+     Titre : "MUNGU WA MUSA UTUKARIBIE LEO"
+     1ere ligne : Mungu wa Musa utukaribie leo , ewe mungu wa baba sisi tumesongwa sana " Farao na
+     -> 99%  |  lesson-10-egypte / a8b0518b-b311-556d-a36e-8c589ae995f0
+                Titre : "MUNGU WA MUSA UTUKARIBIE LEO"
+                1ere ligne : Mungu wa Musa utukaribie leo, ewe mungu wa baba sisi tumesongwa sana ¨ Farao na 
+     -> 99%  |  lesson-11-moise / a8b0518b-b311-556d-a36e-8c589ae995f0
+                Titre : "MUNGU WA MUSA UTUKARIBIE LEO"
+                1ere ligne : Mungu wa Musa utukaribie leo, ewe mungu wa baba sisi tumesongwa sana ¨ Farao na 
+
+[68] sw-0365  (a-classer-swahili)
+     Titre : "YESU KANYANYULIWA"
+     1ere ligne : Yesu kanyanyuliwa kaenda kwa baba , kawaagiza hivi chungeni wote ahadi za baba "
+     -> 99%  |  dimanche-louange / 868d139f-5373-54bd-b713-4a1cd38cf8da
+                Titre : "YESU KANYANYULIWA"
+                1ere ligne : Yesu kanyanyuliwa kaenda kwa baba, kawaagiza hivi chungeni wote ahadi za baba
+
+[69] sw-0360  (a-classer-swahili)
+     Titre : "SHANGWE SHANGWE"
+     1ere ligne : Shangwe , shangwe , shangwe yoyo amani chini safiri wone mambo"2x
+     -> 99%  |  dimanche-louange / 17b41795-d937-5cb8-aa01-6a277f2aa456
+                Titre : "SHANGWE SHANGWE"
+                1ere ligne : Shangwe, shangwe, shangwe yoyoyo amani chini safiri wone mambo.
+
+[70] sw-0442  (a-classer-swahili)
+     Titre : "LAZARO ALIPO KUFA"
+     1ere ligne : Lazaro alipokufa yesu kauzunika , kalia kaomboleza akafufuwa Lazaro.
+     -> 99%  |  dimanche-affliges / e0072ef7-d4e5-52a0-981e-441759015cba
+                Titre : "LAZARO ALIPO KUFA"
+                1ere ligne : 1. 	Lazaro alipokufa yesu kauzunika , kalia kaomboleza akafufuwa Lazaro.
+
+[71] sw-0438  (a-classer-swahili)
+     Titre : "BETSAIDA"
+     1ere ligne : Betsaida kisima cha bwana , betsaida kisima takatifu bwana alimutumamalaika moja
+     -> 99%  |  dimanche-affliges / 8ce6156b-2a47-5c42-80a1-d699b86bb00f
+                Titre : "BETSAIDA"
+                1ere ligne : 1. 	Betsaida kisima cha bwana , betsaida kisima takatifu bwana alimutuma malaika
+
+[72] sw-0237  (a-classer-swahili)
+     Titre : "YUSUFU NDUGU YA BENYAMINA"
+     1ere ligne : Yusufu ndugu ya Benyamina mwana wa Rakeli "Alivikwa njoo nzuri ya rangi mbali mb
+     -> 99%  |  lesson-8-fils-isaac / 63115ce1-9822-51fd-99ef-bd616b6c5cd7
+                Titre : "YUSUFU NDUGU YA BENYAMINA"
+                1ere ligne : 1. Yusufu ndugu ya Benyamina mwana wa Rakeli ¨Alivikwa joo nzuri ya rangi mbali 
+
+[73] sw-0377  (a-classer-swahili)
+     Titre : "AHADI YETU SISI NIKARIBU KUJA"
+     1ere ligne : Ahadi yetu hu nikaribu kuja ewe ungali unafala roho mwema amekuja wewe ungali un
+     -> 99%  |  dimanche-croyants / ec1eddaa-e27b-5b2a-b360-41c1a2239e42
+                Titre : "AHADI YETU SISI NIKARIBU KUJA"
+                1ere ligne : Ahadi yetu hu nikaribu kuja ewe ungali unalala roho mwema amekuja wewe ungali un
+
+[74] sw-0473  (a-classer-swahili)
+     Titre : "MUNGU USIKILIZE"
+     1ere ligne : Mungu usikilize maombolezo yetu bwana uje karibu utufarijie .
+     -> 99%  |  dimanche-visiteurs / 377e9167-43cc-5475-8973-083e1dd04c17
+                Titre : "MUNGU USIKILIZE"
+                1ere ligne : Mungu usikilize maombolezo yetu Bwana uje karibu utufarijie.
+
+[75] sw-0136  (a-classer-swahili)
+     Titre : "BABA SAFISHA MOYO ROHO AINGIE"
+     1ere ligne : Baba safisha moyo roho aingie , e takasa , takasa moyo , ginsi usafishavyo koti 
+     -> 99%  |  priere-misericorde / e935a675-39e2-58bd-94fc-04055214b295
+                Titre : "BABA SAFISHA MOYO ROHO AINGIE"
+                1ere ligne : 1. Baba safisha moyo roho aingie, e takasa,  takasa
+
+[76] sw-0402  (a-classer-swahili)
+     Titre : "MWANA MUPOTEVU"
+     1ere ligne : "Mwana mupotevu akenda kwa baba e "2x huyu mwana "Akamwambia hivi unipe sehemu z
+     -> 99%  |  dimanche-egares / 7f5fddb9-566c-5d92-b784-5d24bd7c7eac
+                Titre : "MWANA MUPOTEVU"
+                1ere ligne : Mwana mupotevu akenda kwa baba eh huyu mwana Akamwambia hivi unipe sehemu za mal
+
+[77] sw-0311  (a-classer-swahili)
+     Titre : "JEHOVA MUNGU EH MUNGU WANGU"
+     1ere ligne : Jehova mungu eh mungu wangu "Na kuita leo baba unirshindie vita"2x
+     -> 99%  |  lesson-21-david-saul / 17880b24-6ef2-5465-9c3a-c17819f880e0
+                Titre : "JEHOVA MUNGU EH MUNGU WANGU"
+                1ere ligne : Jehova mungu eh mungu wangu Na kuita leo baba unirshindie vita.
+
+[78] sw-0202  (a-classer-swahili)
+     Titre : "MUFALUME WANGU ZAWABU NI KUBWA"
+     1ere ligne : Mufulume wangu zawabu ni kubwa , sita weza kuliimiliki (ah ah) neno la haki huku
+     -> 99%  |  lesson-5-noe / a1a0a24f-bb0c-588a-886f-bd56d56ec2c7
+                Titre : "MUFALUME WANGU ZAWABU NI KUBWA"
+                1ere ligne : Mufalume wangu zawabu ni kubwa, sita weza kuliimiliki (ah ah) neno la haki huku 
+
+[79] sw-0313  (a-classer-swahili)
+     Titre : "WAISRAELI KUNYANYUWA SANDUKU YA BWANA"
+     1ere ligne : Waisraeli kunyanyuwa sanduku ya bwana kwa shangwe miguu sita mfalme kacheza "2x 
+     -> 99%  |  priere-invocation / 67c47257-321f-571a-b639-31b17cb043b3
+                Titre : "WAISRAELI KUNYANYUWA SANDUKU YA BWANA"
+                1ere ligne : Waisraeli kunyanyuwa sanduku ya bwana kwa shangwe miguu sita mfalme kacheza ¨2x 
+
+[80] sw-0291  (a-classer-swahili)
+     Titre : "ISRAELI WALITOKA MISRI"
+     1ere ligne : Israeli walitoka misri walijua wanaenda kanana " Sisi leo tunatoka wapi ? na ten
+     -> 98%  |  lesson-13-mer-rouge / 3facf9b8-07b9-558b-9b4b-8ee95340e928
+                Titre : "ISRAELI WALITOKA MISRI"
+                1ere ligne : 1. Israeli walitoka misri walijua wanaenda kanana ¨ Sisi leo tunatoka wapi ? na 
+
+[81] sw-0271  (a-classer-swahili)
+     Titre : "MUSA MULMANI MUNGU AKAMWAMBIA"
+     1ere ligne : Musa mulimani mungu akamwambia "2x (eh musa ) uhandike mambo yote ginsi uyaona m
+     -> 98%  |  lesson-12-plaies / e1d0dff4-540b-5cc3-9cf8-06d165e2fd86
+                Titre : "MUSA MULMANI MUNGU AKAMWAMBIA"
+                1ere ligne : 1. Musa mulimani mungu akamwambia ¨2x (eh musa ) uhandike mambo yote ginsi uyaon
+
+[82] sw-0453  (a-classer-swahili)
+     Titre : "VITA VIETU SI VIA MWILI"
+     1ere ligne : Vita vyetu si via mwili (si vya mwili ) wala vita si vya damu baba yangu baba , 
+     -> 98%  |  dimanche-rois / 0416a599-8822-56bb-830f-13ff8d100070
+                Titre : "VITA VIETU SI VIA MWILI"
+                1ere ligne : Vita vyetu si via mwili (si vya mwili ) wala vita si vya damu baba yangu baba, E
+
+[83] sw-0406  (a-classer-swahili)
+     Titre : "KATIKA MUJI WA YERUSALEMA"
+     1ere ligne : Katika muji wa yerusalema mufalme Herode akauwa wana wa changa wasio na hatia ye
+     -> 98%  |  dimanche-egares / a336f872-4a48-546e-84e2-601834d0a507
+                Titre : "KATIKA MUJI WA YERUSALEMA"
+                1ere ligne : 1. 	Katika muji wa yerusalema mufalme Herode akauwa wana wa changa wasio na hati
+
+[84] sw-0489  (a-classer-swahili)
+     Titre : "PETRO KAMWAMBIA YESU"
+     1ere ligne : Petro kamwambia yesu , mfulame wangu mimi ni na huodari wa kufariki na wewe "Nit
+     -> 98%  |  dimanche-divers / e6edc4b1-4458-5c48-b59b-ae88bafa6b17
+                Titre : "PETRO KAMWAMBIA YESU"
+                1ere ligne : Petro kamwambia yesu, mufalume wangu mimi ni na huodari wa kufariki na wewe ¨Nit
+
+[85] sw-0495  (a-classer-swahili)
+     Titre : "YESU UNENA ,UNENA HAKI KWELI"
+     1ere ligne : "Yesu unena , unena haki kweli yoyoyo "2x yakiniew yoyoyo , tumiharifu ni namna 
+     -> 98%  |  dimanche-divers / d9093692-8dcc-57b7-9d1b-4b80b03cba6b
+                Titre : "YESU UNENA, UNENA HAKI KWELI"
+                1ere ligne : ¨Yesu unena, unena haki kweli yoyoyo¨2x yakiniwe yoyoyo tumiharifu ni namna gani
+
+[86] sw-0600  (a-classer-swahili)
+     Titre : "ENYI MILANGO MILANGO ZA MBINGU"
+     1ere ligne : Enyi milango , milango , milango ya mbingu , milango ya mbingu , milango funguka
+     -> 98%  |  priere-invocation / 08bc3b02-73ef-5efe-a86e-f14e3f4f32c9
+                Titre : "ENYI MILANGO MILANGO ZA MBINGU"
+                1ere ligne : Enyi milango, milango, milango ya mbingu, milango ya mbingu, milango funguka nam
+
+[87] sw-0146  (a-classer-swahili)
+     Titre : "FURAHAMBINGUNI"
+     1ere ligne : Fuhara mbinguni ametupwa yule joka, "ole wako duniani mchongezi ameshushwa^2x
+     -> 98%  |  lesson-1-creation / abc5db07-fe6e-46ab-8d62-3c8f25849c66
+                Titre : "FURAHA MBINGUNI"
+                1ere ligne : 1. Fuhara mbinguni ametupwa yule joka, (ole wako duniani mchongezi ameshushwa)2x
+     -> 98%  |  lesson-0-lucifer / 05c2f056-e899-5849-82c0-23973d1f6fad
+                Titre : "FURAHA MBINGUNI"
+                1ere ligne : Fuhara mbinguni ametupwa yule joka, (ole wako duniani mchongezi ameshushwa)2x
+
+[88] sw-0150  (a-classer-swahili)
+     Titre : "UO NI UJUMBE"
+     1ere ligne : Uo ni ujumbe kutoka juu mbinguni kwa kuonyesha ya kama hutuba zilizokuwa tanguaw
+     -> 97%  |  lesson-0-lucifer / 9ee18313-56b5-539c-81d6-a3709f3eb41e
+                Titre : "UO NI UJUMBE"
+                1ere ligne : Uo ni ujumbe utoka0 juu mbinguni kwa kuonyesha ya kama huduma zilizokuwa tanguaw
+
+[89] sw-0652  (a-classer-swahili)
+     Titre : "JEHOVA MUNGU TWAOMBOLEZA TWAKUOMBA"
+     1ere ligne : Jehova mungu twaomboleza twakuomba baba sisi tu wana wako.
+     -> 97%  |  priere-general / ef2a7f5d-eb18-5179-8969-28c35d1e0431
+                Titre : "JEHOVA MUNGU TWAOMBOLEZA TWAKUOMBA"
+                1ere ligne : 1.	Jehova mungu twaomboleza twakuomba baba sisi tu wana wako.
+
+[90] sw-0153  (a-classer-swahili)
+     Titre : "MIKAELI WA MUNGU"
+     1ere ligne : Mikael iwa mungu ameshuka kwa vita^2x enyi wana wa mungu amkeni mukuwe tayari^2x
+     -> 97%  |  lesson-0-lucifer / 358001d2-46e5-5c6a-82bd-4792f7de7d25
+                Titre : "MIKAELI WA MUNGU"
+                1ere ligne : (Mikael iwa Mungu ameshuka kwa vita)2x (Enyi wana wa mungu amkeni mukuwe tayari)
+
+[91] sw-0658  (a-classer-swahili)
+     Titre : "SISI TUPO HEMANI"
+     1ere ligne : "Sisi tupo hemani karibia jehova mungu karibia "2x jehova mungu karibia mungu mm
+     -> 97%  |  priere-invocation / 97bb649b-1807-5085-80eb-88f6359bd049
+                Titre : "SISI TUPO HEMANI"
+                1ere ligne : ¨Sisi tupo hemani karibia jehova mungu karibia ¨2x jehova mungu karibia mungu mu
+
+[92] sw-0292  (a-classer-swahili)
+     Titre : "KUMBUKENI KWA SAFARI NDEFU"
+     1ere ligne : Kumbukeni kwa safari ndefu tuliovushwa ma bahari ma kubwa ma wili ili turiti inc
+     -> 97%  |  lesson-13-mer-rouge / f1b5642c-a6b8-52d3-ae1f-bc650c67c95e
+                Titre : "KUMBUKENI KWA SAFARI NDEFU"
+                1ere ligne : 1. Kumbukeni kwa safari ndefu tuliovushwa ma bahari ma kubwa ma wili ili turiti 
+
+[93] sw-0342  (a-classer-swahili)
+     Titre : "KULIKUWA RAFIKI WA TATU"
+     1ere ligne : Kulikuwa rafiki wa tatu waliarifiwa taabu ya ayobu hqwali ( yoyowe 2x yobu, yobu
+     -> 97%  |  priere-invocation / b8a23891-e302-5812-8e83-af1534bdd5bb
+                Titre : "KULIKUWA RAFIKI WA TATU"
+                1ere ligne : Kulikuwa rafiki wa tatu waliarifiwa taabu ya ayobu hqwali (yoyowe 2x yobu, yobu 
+     -> 97%  |  lesson-25-daniel / 4bf9bb4d-4bed-5fcb-92f1-9d78f280c5ea
+                Titre : "KULIKUWA RAFIKI WA TATU"
+                1ere ligne : 1. Kulikuwa rafiki wa tatu waliarifiwa taabu ya ayobu hqwali (yoyowe 2x yobu, yo
+     -> 97%  |  lesson-26-job / ad642472-3632-5814-add5-ec92ae7c26fb
+                Titre : "KULIKUWA RAFIKI WA TATU"
+                1ere ligne : 1. Kulikuwa rafiki wa tatu waliarifiwa taabu ya ayobu hqwali (yoyowe 2x yobu, yo
+
+[94] sw-0263  (a-classer-swahili)
+     Titre : "BWANA AKAMWAMBIA MUSA"
+     1ere ligne : Bwana, bwana akamwambia Musa ( eh Musa takasa israeli wajiweke tayari, (watu) " 
+     -> 95%  |  lesson-12-plaies / 2a10e204-e295-5c9e-9040-15fd55401e1f
+                Titre : "BWANA AKAMWAMBIA MUSA"
+                1ere ligne : 1. Bwana, bwana akamwambia Musa (eh Musa takasa israeli wajiweke tayari, (watu) 
+
+[95] sw-0194  (a-classer-swahili)
+     Titre : "SAUTI YA ABELI"
+     1ere ligne : Sauti ya Abeli kutoka shambani , ikalia shambani humo " Shambani mwa bwana " ni 
+     -> 95%  |  lesson-3-premier-peche / d49b9737-7d32-5688-8b5b-57517d4a389b
+                Titre : "SAUTI YA ABELI"
+                1ere ligne : Sauti ya Abeli kutoka shambani, ikalia shambani humo, Shambani mwa Bwana nimeuwa
+     -> 95%  |  lesson-4-fils-adam / d49b9737-7d32-5688-8b5b-57517d4a389b
+                Titre : "SAUTI YA ABELI"
+                1ere ligne : Sauti ya Abeli kutoka shambani, ikalia shambani humo, Shambani mwa Bwana nimeuwa
+
+[96] sw-0599  (a-classer-swahili)
+     Titre : "FUNGUWA MBINGU KAZI YONEKANE"
+     1ere ligne : Fungwaa mbingu , mbingu na zingine , fungwaa leo kazi yonekane .
+     -> 95%  |  priere-invocation / 370c1997-835e-5957-abd5-443a9a5fef95
+                Titre : "FUNGUWA MBINGU KAZI YONEKANE"
+                1ere ligne : Funguwa mbingu, mbingu na zingine, funguwa leo kazi yonekane.
+
+[97] sw-0275  (a-classer-swahili)
+     Titre : "MALAIKA ZA MBINGUNI"
+     1ere ligne : Malaika za mbinguni wapo na mutukuza kwani wewe duniani ukona tanga tanga jeho v
+     -> 95%  |  lesson-12-plaies / 2a2689d6-17c3-5e5a-9420-9c3c6a16f9aa
+                Titre : "MALAIKA ZA MBINGUNI"
+                1ere ligne : 1. Malaika za mbinguni wapo na mutukuza bali wewe duniani uko natanga-tanga Jeho
+
+[98] sw-0598  (a-classer-swahili)
+     Titre : "JEHOVA MUNGU FUNGUWA MBINGU"
+     1ere ligne : Jehoa mungu fungwaa mbingu , fungwaa mbingu tuketi nawe fungwaa.
+     -> 94%  |  priere-invocation / 13083f10-6f5e-5555-b167-3eaf49b005bd
+                Titre : "JEHOVA MUNGU FUNGUWA MBINGU"
+                1ere ligne : Jehova mungu funguwa mbingu, funguwa mbingu tuketi nawe funguwa.
+
+[99] sw-0230  (a-classer-swahili)
+     Titre : "YAKOBO AKAAMKA USIKU ULE"
+     1ere ligne : Yakobo aka amka usiku ule ,( Yakobo ) kachukuwa wake wake wa wili na vijakazi na
+     -> 94%  |  lesson-8-fils-isaac / e4abe3ff-abab-53e2-ac10-aabf65569a85
+                Titre : "YAKOBO AKAAMKA USIKU ULE"
+                1ere ligne : 1. Yakobo aka amka usiku ule,(Yakobo) kachukuwa wake wake wa wili na vijakazi na
+
+[100] sw-0609  (a-classer-swahili)
+     Titre : "UWEZA WAKO"
+     1ere ligne : Uweza wako oh twaomba mungu baba uweza wako utujie toka mbingu hapa duniani.
+     -> 92%  |  priere-general / 75ac335a-9c9e-5acb-8993-3d1535e9ce89
+                Titre : "UWEZA WAKO"
+                1ere ligne : Uweza wako oh twaomba mungu baba uweza wako utujie toka mbingu hapa duniani.
+
+[101] sw-0071  (a-classer-swahili)
+     Titre : "SHANGWE SHANGWE"
+     1ere ligne : Shangwe, shangwe, yoyo shangwe yoyoyo amani chini safari uone mambo (X2)
+     -> 92%  |  dimanche-louange / 17b41795-d937-5cb8-aa01-6a277f2aa456
+                Titre : "SHANGWE SHANGWE"
+                1ere ligne : Shangwe, shangwe, shangwe yoyoyo amani chini safiri wone mambo.
+
+[102] sw-0159  (a-classer-swahili)
+     Titre : "WANDUKU MUJIAZARINI NA MAMBO YA DUNIA"
+     1ere ligne : Wandugu mujiazarini na mambo ya dunia, shetani ametupwa chini na utukufu wake, y
+     -> 92%  |  lesson-0-lucifer / 38370e5f-892f-5ae8-b7a3-29d1c3f17082
+                Titre : "WANDUKU MUJIAZARINI NA MAMBO YA DUNIA"
+                1ere ligne : Wandugu mujiazarini na mambo ya dunia, shetani ametupwa chini na utukufu wake, y
+
+[103] sw-0318  (a-classer-swahili)
+     Titre : "SOLOMONO KAPEWA HEKIMA"
+     1ere ligne : Solomono kapewa hekima kwa bwana , Solomono kajenga Hekalu la bwana chumba chake
+     -> 92%  |  lesson-22-salomon / a7252eab-5136-5976-8140-3ef722fd8672
+                Titre : "SOLOMONO KAPEWA HEKIMA"
+                1ere ligne : Solomono kapewa hekima kwa bwana, Solomono kajenga Hekalu la bwana chumba chake 
+
+[104] sw-0499  (a-classer-swahili)
+     Titre : "JEHOVA MUNGU WETU KA ELEZA WANADAMU"
+     1ere ligne : Jehova mungu wetu kaeleza wanadamu kumbukeni neno hili uliomba kwangu.
+     -> 91%  |  dimanche-divers / f1a25e90-8a5e-58a8-85a4-a38f3cec4afe
+                Titre : "JEHOVA MUNGU WETU KAELEZA WANADAMU"
+                1ere ligne : Jehova mungu wetu kaeleza wanadamu kumbukeni neno hili uliomba kwangu.
+
+[105] sw-0500  (a-classer-swahili)
+     Titre : "MAMBO ILIOFANYA YESU"
+     1ere ligne : Mambo ilofanya Yesu alipo fuufka ku wafu akajirika huhai siku arubaini kanena ma
+     -> 90%  |  dimanche-divers / 64cf23e1-29cf-57e1-8c9f-55775ad6bd5f
+                Titre : "MAMBO ILIOFANYA YESU"
+                1ere ligne : 1. Mambo ilofanya Yesu alipo fufuka ku wafu akajirika huhai siku arubaini kanena
+
+[106] sw-0327  (a-classer-swahili)
+     Titre : "MULIMA KARMELI"
+     1ere ligne : Mulima karmeli Elia na manabii wa bali Elia kawaziaki sisi tuombe kwa baba , Kam
+     -> 90%  |  lesson-24-elie-elisee / 45c0b52e-800b-533a-8b3f-bf775ba3132e
+                Titre : "MULIMA KARMELI"
+                1ere ligne : Mulima karmeli Elia na manabii wa bali Elia kawaziaki sisi tuombe kwa baba, Kama
+
+[107] sw-0505  (a-classer-swahili)
+     Titre : "MIMI NI MUSAFIRI DUNIANI"
+     1ere ligne : Mimi ni musafiri duniani safari ndefu sijuwi ni na poenda ni muji gani "Sina ndu
+     -> 89%  |  dimanche-divers / 45c9aed3-1071-5a5b-ba55-684b251585f0
+                Titre : "MIMI NI MUSAFIRI DUNIANI"
+                1ere ligne : Mimi ni musafiri duniani safari ndefu sijuwi ni na poenda ni muji gani ¨Sina ndu
+
+[108] sw-0348  (a-classer-swahili)
+     Titre : "UNIPE SHAMBA LAKO"
+     1ere ligne : Unipe shamba lako nilifanye langu la maboga kwa sababu ni karibu yangu nitakupa 
+     -> 89%  |  priere-invocation / 4af17e99-0be5-57b9-8a3c-40b747e179e6
+                Titre : "UNIPE SHAMBA LAKO"
+                1ere ligne : Unipe shamba lako nilifanye langu la maboga kwa sababu ni karibu yangu nitakupa 
+     -> 89%  |  lesson-25-daniel / da5733b9-b2eb-59f9-9e82-703a30cfe9fc
+                Titre : "UNIPE SHAMBA LAKO"
+                1ere ligne : 1. Unipe shamba lako nilifanye langu la maboga kwa sababu ni karibu yangu nitaku
+
+[109] sw-0616  (a-classer-swahili)
+     Titre : "BABA TUNANZA KAZI YAKO LEO"
+     1ere ligne : "Baba tunanza kazi yako leo , bwana mungu tunanza kazi yako leo , "Utume malaika
+     -> 89%  |  priere-invocation / 325eeaed-824c-5d12-8bf3-dd89f2637664
+                Titre : "BABA TUNANZA KAZI YAKO LEO"
+                1ere ligne : Baba tunanza kazi yako leo, bwana mungu tunanza kazi yako leo, (Utume malaika, a
+
+[110] sw-0671  (a-classer-swahili)
+     Titre : "MUNGU WANGU , MUNGU WANGU EWE MUNGU WA MABABU"
+     1ere ligne : Mungu wangu , mungu wangu ewe mungu wa mababu "Ni metubu zambi zangu kwako , kwa
+     -> 89%  |  priere-misericorde / 5102ee1b-446d-5069-af17-4e29a5db5c11
+                Titre : "MUNGU WANGU , MUNGU WANGU EWE MUNGU WA MABABU"
+                1ere ligne : Mungu wangu, mungu wangu ewe mungu wa mababu ¨Ni metubu zambi zangu kwako , kwak
+
+[111] sw-0193  (a-classer-swahili)
+     Titre : "IKI NI KILIO CHA ABELI"
+     1ere ligne : Iki ni kilio cha Abeli mwana wa Adamu ku mashariki ya Edeni.
+     -> 89%  |  lesson-3-premier-peche / 6ae26112-3466-511e-ba1d-fdc149dabc65
+                Titre : "IKI NI KILIO CHA ABELI"
+                1ere ligne : Iki ni kilio cha Abeli mwana wa Adamu ku mashariki ya Edeni.
+     -> 89%  |  lesson-4-fils-adam / 6ae26112-3466-511e-ba1d-fdc149dabc65
+                Titre : "IKI NI KILIO CHA ABELI"
+                1ere ligne : Iki ni kilio cha Abeli mwana wa Adamu ku mashariki ya Edeni.
+
+[112] sw-0166  (a-classer-swahili)
+     Titre : "MUNGU ALIANZA KAZI"
+     1ere ligne : Mungu alianza kazi katika dunia "mimi si ku juwa kitu kwajili ya kazi iyo ~2x
+     -> 89%  |  lesson-1-creation / 3220d5f5-702a-437f-8ad6-54a810e73b07
+                Titre : "MUNGU ALIANZA KAZI"
+                1ere ligne : 1. Mungu alianza kazi katika dunia (mimi si ku juwa kitu kwajili ya kazi iyo)2x
+
+[113] sw-0335  (a-classer-swahili)
+     Titre : "MATESO MAKALI YA YOBU"
+     1ere ligne : Mateso makali ya yobu "Eh yobu hakumwacha bwana kwa kupata mateso "2x taabu nyin
+     -> 89%  |  priere-invocation / 31251d19-adcf-566f-b554-56dc1352c0ab
+                Titre : "MATESO MAKALI YA YOBU"
+                1ere ligne : Mateso makali ya yobu (Eh yobu hakumwacha bwana kwa kupata mateso)2x taabu nying
+     -> 89%  |  lesson-25-daniel / ee8f3d39-3775-5442-88b7-c3f98868e8a4
+                Titre : "MATESO MAKALI YA YOBU"
+                1ere ligne : Mateso makali ya yobu (Eh yobu hakumwacha bwana kwa kupata mateso)2x
+     -> 89%  |  lesson-26-job / 2341540e-9c08-5373-b349-e243d78e4980
+                Titre : "MATESO MAKALI YA YOBU"
+                1ere ligne : Mateso makali ya yobu (Eh yobu hakumwacha bwana kwa kupata mateso)2x
+
+[114] sw-0462  (a-classer-swahili)
+     Titre : "NA KUALIKA MUFALME"
+     1ere ligne : Na kualika mufalme mungu mumbaji wa watu "uje utawale mafalme apo myongoni mwa w
+     -> 88%  |  dimanche-rois / 1e648292-5599-5f66-984a-42c8fbf7e3b4
+                Titre : "NA KUALIKA MUFALME"
+                1ere ligne : 1. 	Na kualika mufalme mungu mumbaji wa watu ¨uje utawale mafalme apo myongoni m
+
+[115] sw-0205  (a-classer-swahili)
+     Titre : "NOA SAFINANI"
+     1ere ligne : Noa safinani akatuma kunguru nenda ukaone maji kama yamepunguka, sikilizeni eh k
+     -> 88%  |  lesson-5-noe / 99ce313a-84e9-5393-954c-9951a5b699fd
+                Titre : "NOA SAFINANI"
+                1ere ligne : Noa safinani akatuma kunguru nenda ukaone maji kama yamepunguka, sikilizeni eh k
+
+[116] sw-0254  (a-classer-swahili)
+     Titre : "PIGO KUMI LA FARAO"
+     1ere ligne : Pigo kumi la Farao wajoli israeli wote wakatoka utumwani kwelekea kanana inhi ya
+     -> 88%  |  lesson-12-plaies / 7b954263-c5a0-5416-9572-4cb2eac010c1
+                Titre : "PIGO KUMI LA FARAO"
+                1ere ligne : 1. Pigo kumi la Farao wajoli israeli wote wakatoka utumwani kwelekea kanana inhi
+
+[117] sw-0345  (a-classer-swahili)
+     Titre : "MIMI YOBU"
+     1ere ligne : Mimi yobu ni meteswa mwilini "2x "Ewe mungu muzima shuka leo unione"2x
+     -> 87%  |  priere-invocation / b222ede5-97af-5ce7-98f2-b38fcfaca053
+                Titre : "MIMI YOBU"
+                1ere ligne : (Mimi yobu ni meteswa mwilini)2x (Ewe Mungu muzima shuka leo unione)2x
+     -> 87%  |  lesson-25-daniel / 0a2b6ee8-f16d-5eff-91d2-c8a56b4e5385
+                Titre : "MIMI YOBU"
+                1ere ligne : 1. (Mimi yobu ni meteswa mwilini)2x (Ewe Mungu muzima shuka leo unione)2x
+     -> 87%  |  lesson-26-job / e88e5740-b4e9-59ea-a1fe-53d9fc756463
+                Titre : "MIMI YOBU"
+                1ere ligne : 1. (Mimi yobu ni meteswa mwilini)2x (Ewe Mungu muzima shuka leo unione)2x
+
+[118] sw-0494  (a-classer-swahili)
+     Titre : "HUDUMA HUDUMA HUDUMA BWANA MUNGU WE"
+     1ere ligne : Huduma , huduma, huduma bwana mungu we uduma za jeho va huduma, huduma takatifu 
+     -> 87%  |  dimanche-divers / a10508d8-be33-5efd-af78-555ba84291e3
+                Titre : "HUDUMA HUDUMA HUDUMA BWANA MUNGU WE"
+                1ere ligne : Huduma , huduma, huduma bwana mungu we uduma za jehova huduma, huduma takatifu e
+
+[119] sw-0250  (a-classer-swahili)
+     Titre : "MISRI EE MISRI"
+     1ere ligne : Misri eh e misri)2x Jehova mungu kahidia toka wewe inchi yako .
+     -> 87%  |  lesson-12-plaies / 5a6af0c3-1caa-53e1-85e2-351eda4bbc5f
+                Titre : "MISRI EE MISRI"
+                1ere ligne : 1. Misri eh e misri)2x Jehova mungu kahidia toka wewe inchi yako.
+
+[120] sw-0211  (a-classer-swahili)
+     Titre : "ABRAMU ALIKUWA MWANA WA MUTU MUKAIDI"
+     1ere ligne : Abramu alikuwa mwana wa mutu mukaidi ~2x yoyoyo mukaidi kweli , mukaidi tangu ha
+     -> 87%  |  lesson-6-abraham / 1b54116c-bcaa-5043-8577-0af9d8006a36
+                Titre : "ABRAMU ALIKUWA MWANA WA MUTU MUKAIDI"
+                1ere ligne : Abramu alikuwa mwana wa mutu mukaidi (2x yoyoyo mukaidi kweli, mukaidi tangu haw
+
+[121] sw-0496  (a-classer-swahili)
+     Titre : "WAJOLI WETU WAPENZI"
+     1ere ligne : Wajoli wetu wapenzi nilio kwa nao katika Musa "Wanaanza kutenda kama wa chawi wo
+     -> 86%  |  dimanche-divers / e4b726a0-c826-55aa-b3be-1a398234e037
+                Titre : "WAJOLI WETU WAPENZI"
+                1ere ligne : Wajoli wetu wapenzi nilio kwa nao katika Musa ¨Wanaanza kutenda kama wa chawi wo
+
+[122] sw-0514  (a-classer-swahili)
+     Titre : "ALIKUWA MUTU YOANE"
+     1ere ligne : Alikuwa mutu Yoane alitumwa na bwana kwa kufanya kazi ya habari njema kwa kuteng
+     -> 86%  |  lesson-23-temple / e210e600-131c-51e5-84cc-0f71ffaa4ce8
+                Titre : "ALIKUWA MUTU YOANE"
+                1ere ligne : Alikuwa mutu Yoane alitumwa na bwana kwa kufanya kazi ya habari njema kwa kuteng
+
+[123] sw-0445  (a-classer-swahili)
+     Titre : "TIMIZA NAZIRI"
+     1ere ligne : Timiza naziri zako kwa mumbaji "Usitazame mawimngu usitazame upepo shambani, usi
+     -> 86%  |  dimanche-affliges / 05fefe13-4dbc-5ea3-8d2a-1f6923aed358
+                Titre : "TIMIZA NAZIRI"
+                1ere ligne : 1. Timiza naziri zako kwa Mumbaji ¨Usitazame mawimngu, usitazame upepo shambani,
+
+[124] sw-0204  (a-classer-swahili)
+     Titre : "MUNGU KAMWAMBIA NOA JENGA SAFINA"
+     1ere ligne : Mungu kamwambia Noa, noa jenga safina noa jenga safina watu wote waingie, noa je
+     -> 86%  |  lesson-5-noe / 37525f7c-add2-5992-b46f-fb16c58bfa99
+                Titre : "MUNGU KAMWAMBIA NOA JENGA SAFINA"
+                1ere ligne : Mungu kamwambia Noa, noa jenga safina noa jenga safina watu wote waingie, noa je
+
+[125] sw-0352  (a-classer-swahili)
+     Titre : "TWAKUSHUKURU"
+     1ere ligne : Twakushukuru "3x bwana twakushukuru "watu wote walio pinga njoni wote muone "2x 
+     -> 86%  |  dimanche-louange / 19f19e5c-0d44-5fbd-a017-dfdf0ef036e4
+                Titre : "TWAKUSHUKURU"
+                1ere ligne : Twakushukuru (3x) bwana twakushukuru watu wote walio pinga
+
+[126] sw-0455  (a-classer-swahili)
+     Titre : "MISINGI IMESIMAMA"
+     1ere ligne : Misingi imesimama majeshi mutikisike "Ushuuda huonekane mu mbingu na mu dunia."2
+     -> 85%  |  dimanche-rois / f90d11d0-5548-59da-97ac-b5e30037c4ce
+                Titre : "MISINGI IMESIMAMA"
+                1ere ligne : Misingi imesimama majeshi mutikisike. Ushuuda huonekane mu mbingu na mu dunia.
+
+[127] sw-0137  (a-classer-swahili)
+     Titre : "NAWE BABA NAWE MAMA"
+     1ere ligne : Nawe baba , nawe mama mukumbuke leo mufalme mukubwa ndie mungu , djawabu yake ni
+     -> 84%  |  priere-invocation / a7c619f0-dddf-5603-84ab-f35006924cda
+                Titre : "NAWE BABA NAWE MAMA"
+                1ere ligne : Nawe baba, nawe mama mukumbuke leo mufalme mukubwa ndie Mungu, jawabu yake ni ku
+
+[128] sw-0163  (a-classer-swahili)
+     Titre : "ALIPO ANZA MUNGU HUDUMA"
+     1ere ligne : Alipo anza mungu huduma za kuumba na kufanya mbingu zi ka umbiwa, dunia ika umbi
+     -> 84%  |  lesson-1-creation / 33934ead-d247-47ad-ac19-7dffa39a68ea
+                Titre : "ALIPO ANZA MUNGU HUDUMA"
+                1ere ligne : 1. Alipo anza mungu huduma za kuumba na kufanya mbingu zi ka umbiwa, dunia ika u
+
+[129] sw-0434  (a-classer-swahili)
+     Titre : "KILIO CHANGU MIMI"
+     1ere ligne : Kilio changu mimi nalia kumusalaba ku mioyna kwangu mimi na mioyna kwa machozi n
+     -> 80%  |  dimanche-affliges / f6e26e11-a210-53bd-a61c-666065238a8d
+                Titre : "KILIO CHANGU MIMI"
+                1ere ligne : 1. Kilio changu mimi nalia kumusalaba ku mionya kwangu mimi na mionya kwa machoz

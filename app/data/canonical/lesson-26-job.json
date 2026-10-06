@@ -16,7 +16,7 @@
       "schema_version": "1.0",
       "id": "2341540e-9c08-5373-b349-e243d78e4980",
       "title": "MATESO MAKALI YA YOBU",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "d32cd874-ffac-5452-9d8c-d26eb563e28e",
@@ -28,40 +28,54 @@
           },
           "title": "MATESO MAKALI YA YOBU",
           "source": {
-            "file": "chants_de_daniel.html",
-            "position": 1,
+            "file": "Cantiques_swahili.pdf",
+            "position": 317,
             "number": "163",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0335"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-26",
-            "category_label": "Job",
-            "lesson_id": "lesson-26",
-            "lesson_label": "Leçon 26 — Job"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "Mateso makali ya yobu (Eh yobu hakumwacha bwana kwa kupata mateso)2x",
-                "taabu nyingi kamujia wana wake wakafa eh yobu kwa kupata mateso."
+                "Mateso makali ya yobu \"Eh yobu hakumwacha bwana kwa kupata mateso \"2x taabu nyingi kamujia wana wake wakafa eh yobu kwa kupata mateso."
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Mwanadamu wewe usikufuru mungu ukipata mateso:",
-                "- Magonjua njiani usikufuru mungu ukipata mateso",
-                "- Mateso njiani Muke wa yobu kamwambia ukufuru mungu ukifwata njia za mababu utaishi nami tazama yobu akumjibu kitu kamusii mumbaji, rafiki wa tatu wa kamujia mbele ya",
-                "yobu eh yobu akunena kamwe mambo yote wanenayo:",
-                "- Ya kumuhasi mungu akunena kamwe mambo yote wanenayo."
+                "Mwanadamu wewe usikufuru mungu ukipata mateso ."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "Com : -Magonjua njiani usikufuru mungu ukipata mateso -Mateso njiani \" \" \" \" \" \""
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Muke wa yobu kamwambia ukufuru mungu ukifwata njia za mababu utaishi nami tazama yobu akumjibu kitu kamusii mumbaji , rafiki wa tatu wa kamujia mbele ya yobu eh yobu akunena kamwe mambo yote wanenayo."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "Com : -Ya kumuhasi mungu akunena kamwe mambo yote wanenayo."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -120,7 +134,7 @@
       "schema_version": "1.0",
       "id": "4a2abc95-605d-5b1c-97b0-ee5f472a1c50",
       "title": "MASWALI YOTE YA DUNIA HII",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "6fb7b255-c2a1-57d7-8c1b-02f4ac620aaa",
@@ -132,49 +146,49 @@
           },
           "title": "MASWALI YOTE YA DUNIA HII",
           "source": {
-            "file": "chants_de_daniel.html",
-            "position": 3,
+            "file": "Cantiques_swahili.pdf",
+            "position": 321,
             "number": "165",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0339"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-26",
-            "category_label": "Job",
-            "lesson_id": "lesson-26",
-            "lesson_label": "Leçon 26 — Job"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. Maswali yote ya dunia hii yahukumiwa kwa matendo yao (uzuni ni nao sile wala sinywe moyoni mwangu munamo sikitiko)2x"
+                "Maswali yote ya dunia hii ya hukumiwa kwa matendo yao \"uzuni ni naos ile wala si nywe moyoni mwangu mnamo sikitiko \"2x"
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Yoyoyo mateso, haya mateso moyoni mwangu (Yameniuzunisha) 2x. Ninge lifahamu mimi singe lizaliwa, ninge lifariki",
-                "tumboni mwa mamangu, ili ni sione mateso ya duniani."
+                "Yavoyo mateso , haya mateso moyoni mwangu \"Ya meniuzunisha \"2x ninge lifahamu mimi singe lizaliwa ninge lifariki tumboni mwa mamangu ili ni sione mateso ya duniani."
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "2. Wakati mimi nilipo zaliwa wazazi wangu na watu wengineo (walifurahi na wakanywa pombe leo hii watu hawa wame uzunishwa)2x"
+                "Wakati mimi nilipo zaliwa wazazi wangu na watu wengineo \" walifurahi na wakanywa pombe leo hii watu hawa wame uzunishwa \"2x"
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "3",
               "lines": [
-                "3. Nita laani kwa siku zile nilipo zaliwa tumboni mwa mamangu na maziwa ya mama yangu yalikuweko kwa mimi kunyonya inchini pote",
-                "kwa siku zile nilipo zaliwa."
+                "Nita laani kwa siku zile nilipo zaliwa tumboni mwa mamangu na maziwa ya mama yangu yalikuweko kwa mimi ku nyonya inchini pote kwa siku zile nilipo zaliwa."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -240,7 +254,7 @@
       "schema_version": "1.0",
       "id": "ad642472-3632-5814-add5-ec92ae7c26fb",
       "title": "KULIKUWA RAFIKI WA TATU",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "d248bf53-f3d1-55cf-a0f7-2601a67f70ba",
@@ -252,51 +266,73 @@
           },
           "title": "KULIKUWA RAFIKI WA TATU",
           "source": {
-            "file": "chants_de_daniel.html",
-            "position": 5,
+            "file": "Cantiques_swahili.pdf",
+            "position": 324,
             "number": "167",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0342"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-26",
-            "category_label": "Job",
-            "lesson_id": "lesson-26",
-            "lesson_label": "Leçon 26 — Job"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. Kulikuwa rafiki wa tatu waliarifiwa taabu ya ayobu hqwali (yoyowe 2x yobu, yobu mwenye taabu."
+                "Kulikuwa rafiki wa tatu waliarifiwa taabu ya ayobu hqwali ( yoyowe 2x yobu, yobu mwenye taabu."
               ]
             },
             {
               "type": "comment",
               "lines": [
-                "- Yobu mateso yobue yobu yobu mwenye taabu - Yobu teseka"
+                "Com :-Yobu mateso yobue yobu yobu mwenye taabu -Yobu teseka \" \" \" \" \" \" \""
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Bildadi musui¨2x Elifasi mutemani, tazama Zofahari munamati rafiki ze yobu, yobu yobue yobu yobu mwenye taabu."
+                "Bildadi musui \"2x Elifasi mutemani, tazama Zofahari munamati rafiki ze yobu , yobu yobue yobu yobu mwenye taabu ."
               ]
             },
             {
               "type": "comment",
               "lines": [
-                "- Yobu mateso yobue yobu, yobu mwenye",
-                "taabu. Muke wake kamwambia yobu ¨2x ukufuru njia ya bwana na wifwate njia za mababu yobu, yobu eh, yobu, yobu mwenye taabu.",
-                "- Yobu mateso yobu eh yobu, yobu",
-                "mwenye taabu. Kuji kana ni kwema ¨2x alivio fanya yobu hawali hakwitaji wana kamwe, hakwitaji punda kamwe, akuteta bwana kamwe Yobu eh yobu, yobu mwenye taabu",
-                "- Yobu tabika yobu eh yobu yobu mwenye taabu."
+                "Com : -Yobu mateso yobue yobu , yobu mwenye taabu ."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Muke wake kamwambia yobu \"2x ukufuru njia ya bwana na wifwate njia za mababu yobu , yobu eh , yobu ,yobu mwenye taabu."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "Com : -Yobu mateso yobu eh yobu ,yobu mwenye taabu."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Kuji kana ni kwema \"2x alivio fanya yobu hawali hakwitaji wana kamwe , hakwitaji punda kamwe , akuteta bwana kamwe Yobu eh yobu , yobu mwenye taabu"
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "Com : -Yobu tabika yobu eh yobu yobu mwenye taabu."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -304,7 +340,7 @@
       "schema_version": "1.0",
       "id": "7ed6f63a-5257-50e1-9297-edaea6fb6221",
       "title": "TUPO MIONGONI MWA YOBU",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "29e5c73f-1187-59de-b90a-0781ecaabf0d",
@@ -316,51 +352,49 @@
           },
           "title": "TUPO MIONGONI MWA YOBU",
           "source": {
-            "file": "chants_de_daniel.html",
-            "position": 6,
+            "file": "Cantiques_swahili.pdf",
+            "position": 325,
             "number": "168",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0343"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-26",
-            "category_label": "Job",
-            "lesson_id": "lesson-26",
-            "lesson_label": "Leçon 26 — Job"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. Tupo miongoni mwa yobu eh yobu akwitaji mwana eh yobu akwitaji mutumishi, Ibrahimu wa mungu akwitaji mwana eh yobu akwitaji",
-                "mutumishi."
+                "Tupo miongoni mwa yobu eh yobu akwitaji mwana eh yobu akwitaji mutumishi, Ibrahimiu wa mungu akwitaji mwana eh yobu akwitaji mutumishi ."
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Kujikuza kwako wewe usizarau uduma huwa bwana mu mambo mafu anasa za duniani kwa wewe mujoli mu mambo mafu hekima ya",
-                "duniani."
+                "Kujikuza kwako wewe usizarau uduma huwa bwana mu mambo mafu anasa za duniani kwa wewe mujoli mu mambo mafu hekima ya duniani."
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "2. Yesu kamwambia Petro simoni Petro¨ rudi nyuma wewe.",
-                "kikwazo rudi nyuma wewe shetani ¨2x"
+                "Yesu kamwambia Petro simoni Petro\" rudi nyuma wewe kikwazo rudi nyuma wewe shetani \"2x"
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "3",
               "lines": [
-                "3. Mungu wa Petro, mungu wa Yoane, Mungu wa Yakobo njoni, njoni leo, njoni kwetu mufalume wajoli njoni, njoni leo, njoni kwetu",
-                "mufalume."
+                "Mungu wa Petro , mungu wa Yoane , Mungu wa Yakobo njoni , njoni leo , njoni kwetu mufalume wajoli njoni , njoni leo , njoni kwetu mufalume."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -368,7 +402,7 @@
       "schema_version": "1.0",
       "id": "e88e5740-b4e9-59ea-a1fe-53d9fc756463",
       "title": "MIMI YOBU",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "042deee2-8cad-5c8d-adc0-0d311beb8c0b",
@@ -380,46 +414,48 @@
           },
           "title": "MIMI YOBU",
           "source": {
-            "file": "chants_de_daniel.html",
-            "position": 7,
+            "file": "Cantiques_swahili.pdf",
+            "position": 327,
             "number": "169",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0345"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-26",
-            "category_label": "Job",
-            "lesson_id": "lesson-26",
-            "lesson_label": "Leçon 26 — Job"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. (Mimi yobu ni meteswa mwilini)2x (Ewe Mungu muzima shuka leo unione)2x"
+                "Mimi yobu ni meteswa mwilini \"2x \"Ewe mungu muzima shuka leo unione\"2x"
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Kweli wa ngombe wa menishutumu Mungu wenu yuko wapi.",
-                "- Marafiki wa baya wamenishutumu Mungu wenu yuko wapi",
-                "- Majirani wa baya wamenishutumu Mungu wenu yuko wapi.",
-                "- shangazi mulozi, wamenishutumu Mungu wenu yuko wapi",
-                "- Ewe Mungu muzima, shuka leo unione"
+                "Kweli wa ngombe wa menishutumu mungu wenu yuko wapi ."
               ]
             },
             {
-              "type": "source_block",
+              "type": "comment",
               "lines": [
-                "2. Mungu muzima mwili umeteswa sana ¨nafsi imesongwa sana mimi ni muombe nani ¨2x",
-                "¨Ewe Mungu muzima shuka leo unione ¨2x"
+                "Com : -Marafiki wa bava wamenishutumu mungu wenu yuko wapi -Majirani wa baya \" \" \" \" \" \" \" \" Ewe mungu muzima shuka leo unione ."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Mungu muzima mwili umeteswa sana \"nafsi imesongwa sana mimi ni muombe nani \"2x \"Ewe mungu muzima shuka leo unione \"2x"
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     }

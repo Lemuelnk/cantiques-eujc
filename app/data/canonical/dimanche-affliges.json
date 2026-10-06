@@ -138,7 +138,7 @@
       "schema_version": "1.0",
       "id": "828c9f0a-7faa-5d86-b4be-11ef640cd93a",
       "title": "YESU MUSHAMBA LA GETESEMANE",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "a20dd21b-78f1-535e-a928-33b6e97fbdb2",
@@ -150,47 +150,49 @@
           },
           "title": "YESU MUSHAMBA LA GETESEMANE",
           "source": {
-            "file": "chants_de_sac_deprouves.html",
-            "position": 3,
+            "file": "Cantiques_swahili.pdf",
+            "position": 397,
             "number": "253",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0426"
           },
           "taxonomy": {
-            "domain": "sunday",
-            "category_id": "dimanche-affliges",
-            "category_label": "Sacrifice des affligés",
-            "lesson_id": null,
-            "lesson_label": null
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "Yesu mushamba la getesemane machozi ikamutoka aliomba kwa baba kikombe kinipitie (mbali) ¨Ila mapenzi yako ya fanyike upenda vyo ¨2x"
+                "Yesu mushamba la getesemane machozi ikamutoka aliomba kwa baba kikombe kinipitie (mbali) \"lla mapenzi yako ya fanyike upenda vyo \"2x"
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Mwana wa mungu alilia eh Eloi Eloi eh Eloi Eloi baba lamasabakatani mungu wangu kwa nini umeniacha mimi mwana mupendelevu, baba kwanini umeniacha mimi mwana mupendelevu."
+                "Mwana wa mungu alilia eh Eloi Eloi eh Eloi Eloi baba lamasabakatani mungu wangu kwa nini umeniacha mimi mwana mupendelevu , baba kwanini umeniacha mimi mwana mupendelevu."
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "Mateso mwilini (mwilini) uchungu moyoni jamani eh akunena jambo kamwe wayuda wakenda naye midjeledi wa kamupika mwokozi kasikitika Eloi lamasabakatani."
+                "Mateso mwilini (mwilini) uchungu moyoni jamani eh akunena jambo kamwe wayuda wakenda naye midjele di wa kamupika mwokozi kasikitika Eloi lamasabakatani."
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "3",
               "lines": [
                 "Roho ni tayari bali mwili ni zaifu alifazaika mwokozi yesu wa fwasi wote kalala amkeni nyinyi wanangu musianguke majaribuni."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -626,7 +628,7 @@
       "schema_version": "1.0",
       "id": "f6e26e11-a210-53bd-a61c-666065238a8d",
       "title": "KILIO CHANGU MIMI",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "7ad2e3a7-0191-5b4f-8de2-010725453dda",
@@ -638,47 +640,49 @@
           },
           "title": "KILIO CHANGU MIMI",
           "source": {
-            "file": "chants_de_sac_deprouves.html",
-            "position": 11,
+            "file": "Cantiques_swahili.pdf",
+            "position": 405,
             "number": "261",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0434"
           },
           "taxonomy": {
-            "domain": "sunday",
-            "category_id": "dimanche-affliges",
-            "category_label": "Sacrifice des affligés",
-            "lesson_id": null,
-            "lesson_label": null
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. Kilio changu mimi nalia kumusalaba ku mionya kwangu mimi na mionya kwa machozi. (x2) Nalilia Baba na tabika na tabika mimi na tabika.(x2)"
+                "Kilio changu mimi nalia kumusalaba ku mioyna kwangu mimi na mioyna kwa machozi nalilia baba na tabika na tabika mimi na tabika."
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Mimi na lilia Baba na tabika mimi nalilia Mwana na tabika nalilia Roho na tabika na tabika kweli na tabika."
+                "Mimi na lilia baba na tabika mimi nalilia mwana na tabika nalilia roho na tabika na tabika kweli na tabika."
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "2. Vazi langu limechafuka haya shaka na hofu wananitabisha mimi munaziri nalilia Mwana na tabika."
+                "Vazi langu limechafuka haya shaka na hofu viani tabisha mimi munaziri nalilia mwana na tabika."
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "3",
               "lines": [
-                "3. Kiapo changu mimi na choka na bya dunia na subiri Roho Mufariji. Nalilia Roho na tabika atani fariji mu taabu yangu na ziki zote duniani."
+                "Kiapo changu mimi na choka na via dunia na subiri roho mufariji nalilia roho na tabika atani fariji mu taabu yangu na ziki zote duniani."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -809,7 +813,7 @@
       "schema_version": "1.0",
       "id": "977caf36-2205-5d7f-bb2b-042574d6e0ef",
       "title": "JEHOVA MUNGU KAULIZA",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "83e3b766-ce4d-561f-850e-6454c603b32b",
@@ -821,37 +825,49 @@
           },
           "title": "JEHOVA MUNGU KAULIZA",
           "source": {
-            "file": "chants_de_sac_deprouves.html",
-            "position": 14,
+            "file": "Cantiques_swahili.pdf",
+            "position": 407,
             "number": "265",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0437"
           },
           "taxonomy": {
-            "domain": "sunday",
-            "category_id": "dimanche-affliges",
-            "category_label": "Sacrifice des affligés",
-            "lesson_id": null,
-            "lesson_label": null
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. Jehova mungu kauliza nimutume nani ulimwenguni yesu wa mungu kajibu ¨Eh baba tenda , tenda eh baba katika dunia ni kakwinulie uzao ¨2x"
+                "Jehova mungu kauliza nimutumne nani ulimwenguni yesu wa mungu kajibu: \"Eh baba tenda , tenda eh baba katika dunia ni kakwinulie uzao \"2x"
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Sasa roho ametujia sisi haadi imetiùilika kwetu tupeane salama wajoli tusimame twende kufanya uduma za baba tukamwinulie uzao .",
-                "Sisi njo uzao wako tusibaki mu yerusalema wajoli twende mu yudea yote na mu samaria na mipaka ya dunia wajoli njaa , utupu na kifo visituzuie kwa mwinulia uzao .",
-                "Yesu wa mungu alipo tujia njaa utupu na kifo akuofu kamwe kwa ku muinulia baba uzao alama mikononi miguuni , Ubavu vifaranga vyangu sina lawama ¨eh baba tukuza mwana kwa utukufu alio kuwa nao tangu hawali."
+                "Sasa roho ametujia sisi haadi imetiùilika kwetu tupeane salama wajoli tusimame twende kufanya uduma za baba tukamwinulie uzao ."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Sisi njo uzao wako tusibaki mu yerusalema wajoli twende mu yudea yote na mu samaria na mipaka ya dunia wajoli njaa , utupu na kifo visituzuie kwa mwinulia uzao ."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Yesu wa mungu alipo tujia njaa utupu na kifo akuofu kamwe kwa ku muinulia baba uzao alama mikononi miguuni , Ubavu vifaranga vyangu sina lawama \"eh baba tukuza mwana kwa utukufu alio kuwa nao tangu hawali."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -859,7 +875,7 @@
       "schema_version": "1.0",
       "id": "8ce6156b-2a47-5c42-80a1-d699b86bb00f",
       "title": "BETSAIDA",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "1a0b7845-2500-5fc9-9e6e-a7428731d75c",
@@ -871,23 +887,26 @@
           },
           "title": "BETSAIDA",
           "source": {
-            "file": "chants_de_sac_deprouves.html",
-            "position": 15,
+            "file": "Cantiques_swahili.pdf",
+            "position": 408,
             "number": "266",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0438"
           },
           "taxonomy": {
-            "domain": "sunday",
-            "category_id": "dimanche-affliges",
-            "category_label": "Sacrifice des affligés",
-            "lesson_id": null,
-            "lesson_label": null
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. \tBetsaida kisima cha bwana , betsaida kisima takatifu bwana alimutuma malaika moja kwingia kisima betsaida."
+                "Betsaida kisima cha bwana , betsaida kisima takatifu bwana alimutumamalaika moja kwingia kisima betsaida."
               ]
             },
             {
@@ -899,15 +918,25 @@
             {
               "type": "comment",
               "lines": [
-                "-Ndugu amka wewe ubebe kitanda unapona -Shukuru mungu ¨ ¨ ¨ ¨ ¨",
-                "Kulikuwa na mutu mumoja aliekuwa na ugonjua wake miaka makumi tatu na mi nane alie tunzwa kwake bwana yesu.",
-                "Enyi vipofu viwete viziwi karibieni kwake mutu yule anaetia watu birigani wakati maji inapo chemuka."
+                "Com : -Ndugu amka wewe ubebe kitanda unapona",
+                "-Shukuru mungu"
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Kulikuwa na mutu mumoja aliekuwa na ugonjua wake miaka makumi tatu na mi nane alie tanzwa kwake bwana yesu."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Enyi vipofu viwete viziiwi karibieni kwake mutu yule anaetia watu birigani wakati maji inapo chemuka."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -915,7 +944,7 @@
       "schema_version": "1.0",
       "id": "e0072ef7-d4e5-52a0-981e-441759015cba",
       "title": "LAZARO ALIPO KUFA",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "e9788857-5e3f-5d7a-8c84-ab6fbfdef65e",
@@ -927,23 +956,26 @@
           },
           "title": "LAZARO ALIPO KUFA",
           "source": {
-            "file": "chants_de_sac_deprouves.html",
-            "position": 16,
+            "file": "Cantiques_swahili.pdf",
+            "position": 412,
             "number": "269",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0442"
           },
           "taxonomy": {
-            "domain": "sunday",
-            "category_id": "dimanche-affliges",
-            "category_label": "Sacrifice des affligés",
-            "lesson_id": null,
-            "lesson_label": null
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. \tLazaro alipokufa yesu kauzunika , kalia kaomboleza akafufuwa Lazaro."
+                "Lazaro alipokufa yesu kauzunika , kalia kaomboleza akafufuwa Lazaro."
               ]
             },
             {
@@ -955,20 +987,28 @@
             {
               "type": "comment",
               "lines": [
-                "-Niokowe mu taabu\tbaba kweli mwana wa mungu uniokowe.",
-                "-Mu mambo ya watu ¨\t\t¨\t¨\t¨\t¨\t¨\t¨",
-                "-Uniokowe mu shida\t¨\t\t¨\t¨\t¨\t¨\t¨\t¨",
-                "2.  Yesu musalabani mikovu kaonekana tomasi uje uguse uwakikishe ukweli.",
-                "-Mikono ya Yesu\tTomasi uje uguse uwakikishe ukweli",
-                "-Ku mbavu ya yesu\t¨\t\t¨\t¨\t\t¨\t¨",
-                "-Basi Tomasi wewe  ¨\t\t¨\t¨\t\t¨\t¨",
-                "-Ukweli wewe\t¨\t\t¨\t¨\t\t¨\t¨"
+                "Com :-Niokowe mu taabu baba kweli mwana wa mungu uniokowe.",
+                "-Mu mambo ya watu \" \" \" \" \" \"",
+                "-Uniokowe mu shida \" \" \" \" \" \""
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Yesu musalabani mikovu kaonekana tomasi uje uguse uwakikishe ukweli."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "Com :-Mikono ya Yesu Tomasi uje uguse uwakikishe ukweli",
+                "-Ku mbavu ya yesu \" \" \" \" \" \"",
+                "-Basi Tomasi wewe \" \" \" \" \" \"",
+                "-Ukweli wewe \" \" \" \" \" \""
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -976,7 +1016,7 @@
       "schema_version": "1.0",
       "id": "05fefe13-4dbc-5ea3-8d2a-1f6923aed358",
       "title": "TIMIZA NAZIRI",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "1577925f-5857-5879-aa87-d9c55913dfbd",
@@ -988,51 +1028,57 @@
           },
           "title": "TIMIZA NAZIRI",
           "source": {
-            "file": "chants_de_sac_deprouves.html",
-            "position": 17,
+            "file": "Cantiques_swahili.pdf",
+            "position": 415,
             "number": "272",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0445"
           },
           "taxonomy": {
-            "domain": "sunday",
-            "category_id": "dimanche-affliges",
-            "category_label": "Sacrifice des affligés",
-            "lesson_id": null,
-            "lesson_label": null
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. Timiza naziri zako kwa Mumbaji ¨Usitazame mawimngu, usitazame upepo shambani, usitazame mawambi tupa mbegu bahari itatulia ¨2x"
+                "Timiza naziri zako kwa mumbaji \"Usitazame mawimngu usitazame upepo shambani, usitazame mawambi tupa mbego bahari itatulia \"2x"
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Ole wangu oole, ole wangu babangu kanizaa mutu wa taabu akaniza mutu wa shida nilicho nunuwa nimenyanganywa ni sicho",
-                "kopeshwa ni me daiwa njiani shutumu zisizo kuwa na hatia.",
-                "- Basi ni mwalike nani malaika wa Bwana unitangulie, malaika uliye jirika kwangu unitangulie kambini.",
-                "- Basi Mikaeli naye\t¨\t¨\t¨\t¨\t¨\t¨\t¨\t¨",
-                "- Basi Samsoni naye\t¨\t¨\t¨\t¨\t¨\t¨\t¨\t¨"
+                "(Kweli) Ole wangu oleo , ole wangu babangu kanizaa mutu wa taabu akaniza mutu wa shida nilicho nunuwa nimenyanganywa ni sicho kopeshwa ni me daiwa njiani shutumu zisizo kuwa na hatia."
               ]
             },
             {
-              "type": "source_block",
+              "type": "comment",
               "lines": [
-                "2. Timiza naziri zako kwa mumbaji kwa nini kulia juu ya mwiba neema yako imekutosha utukufu wako ni mu mwiba huo."
+                "Com : -Basi ni mwalike nani malaika wa bwana unitangulie , malaika jirika kwangu unitangulie kambini.",
+                "-Basi Mikaeli naye",
+                "-Basi Samsoni naye"
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "3. Kwa nini kujuta kwa naziri zenu ngisi nilivyo kuwa na baba zenu ndivyo nitakavyo kuwa nanyi sita wa pungukiya kamwe."
+                "Timiza naziri zako kwa mumbaji kwa nini kulia juu ya mwiba neema yako imekutosha utukufu wako ni mu mwiba huo."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Kwa nini kujuta kwa naziri zenu ngisi nilivyo kuwa na baba zenu ndivyo nitakavyo kuwa nanyi sita wa pungukiya kamwe."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },

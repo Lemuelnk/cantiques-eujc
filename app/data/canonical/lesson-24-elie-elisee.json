@@ -16,7 +16,7 @@
       "schema_version": "1.0",
       "id": "e360390a-a853-5dea-b1a2-59c7cd883bbe",
       "title": "ELIA AKAMWAMBIA ELISA MUFWASI WAKE",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "188ab5cf-f1df-5a4a-a2ce-ee60149313a2",
@@ -28,50 +28,57 @@
           },
           "title": "ELIA AKAMWAMBIA ELISA MUFWASI WAKE",
           "source": {
-            "file": "chants_delie.html",
-            "position": 1,
+            "file": "Cantiques_swahili.pdf",
+            "position": 306,
             "number": "153",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0322"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-24",
-            "category_label": "Élie et Élysée",
-            "lesson_id": "lesson-24",
-            "lesson_label": "Leçon 24 — Élie et Élysée"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "refrain",
               "lines": [
-                "Mungu tenda nawe, Mungu tenda nawe, jehova tenda nawe vikwazo ni vingi mimi paka nishinde vikwazo hivi viote."
+                "Mungu tenda nawe , Mungu tenda nawe , jehova tenda nawe vikwazo ni vingi mimi paka nishinde vikwazo hivi viote."
               ]
             },
             {
               "type": "comment",
               "lines": [
-                "- Mimi paka ni riti joo lako",
-                "- Mimi paka ni riti roho mwema",
-                "- Mimi paka ni riti roho damilifu (yoyoyo) Elia akamwambia Elisa mufwasi wake tume kwisha andoka mu giligali na kusii ya kama uishi uko",
-                "kwani jehova Mungu amenituma kwa mimi kwenda uko geriko.",
-                "- Kwani jehova mungu amenituma kwa mimi kwenda Beteli",
-                "- Kwani huko Yordani kumafundisho ya haki. Wana wa",
-                "manabii amusini wa kamwambia Elisa umejuwa ya kwama, umejua ya kama, jehova mungu ata muondosha mufalme wako ju yako leo (Jibu la Elisa kweli, kweli na jua",
-                "nyamazeni kwanza yoyoyo)2x"
+                "Com : -Mimi paka ni riti joo lako -Mimi paka ni riti roho mwema -Mimi paka ni riti roho damilifu (yoyoyo)"
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "Walipo vuka Yordani Elia akamwambia Elisa (Omba kwangu lolote wakati huu si jaondolewa)2x",
-                "ombi la Elisa (nina kuomba sehemu mara dufu ya roho yako",
-                "iwe juu yangu)2x yoyoyo"
+                "Elia akamwambia Elisa mufwasi wake tume kwisha andoka mu giligali na kusii ya kama uishi uko kwani jehova Mungu amenituma kwa mimi kwenda uko geriko.",
+                "-Kwani jehova mungu amenituma kwa mimi kwenda Beteli",
+                "-Kwani \" \" \" \" \" \" \" huko Yordani kumafundisho ya haki."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Wana wa manabii amusini wa kamwambia Elisa umejuwa ya kwama , umejua ya kama , jehova mungu ata muondosha mufalme wako ju yako leo \"jibu la Elisa kweli, kweli na jua nyamazeni kwanza \"2x yoyoyo."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Walipo vuka Yordani Elia akamwambia Elisa \"Omba kwangu lolote wakati huu si jaondolewa \"2x ombi la Elisa \"nina kuomba sehemu mara dufu ya roho yako iwe juu yangu \"2x yoyoyo."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -273,7 +280,7 @@
       "schema_version": "1.0",
       "id": "45c0b52e-800b-533a-8b3f-bf775ba3132e",
       "title": "MULIMA KARMELI",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "97c5339c-ce94-5b20-b680-2528c275f3fb",
@@ -285,44 +292,61 @@
           },
           "title": "MULIMA KARMELI",
           "source": {
-            "file": "chants_delie.html",
-            "position": 5,
+            "file": "Cantiques_swahili.pdf",
+            "position": 310,
             "number": "157",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0327"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-24",
-            "category_label": "Élie et Élysée",
-            "lesson_id": "lesson-24",
-            "lesson_label": "Leçon 24 — Élie et Élysée"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "Mulima karmeli Elia na manabii wa bali Elia kawaziaki sisi tuombe kwa baba, Kama mungu wa bali tuombe kwa baba sisi zote tumwabudu, Kama mungu wa Elia"
+                "Mulima karmeli Elia na manabii wa bali Elia kawaziaki sisi tuombe kwa baba , Kama mungu wa bali tuombe kwa baba sisi zote tumwabudu , Kama mungu wa Elia \" \" \" \" \" \" \""
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Mujoli wangu umechakuwa nani mungu wa Elia ndie mungu wa uwezo. Baba yangu Mama yangu Manabii wa bal iwa kalia kwa mungu wao (asubui adi hazuuri mungu wao amelala)2x",
-                "Elia kawaziaki mungu wao amelala."
+                "Mujoli wangu umechakuwa nani mungu wa Elia ndie mungu wa uwezo. Baba yangu \" \" \" \" \" \" \" Mama yangu \" \" \" \" \" \" \""
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Manabii wa bal iwa kalia kwa mungu wao \"asubui adi hazuuri mungu wao amelala \"2x Elia kawaziaki mungu wao amelala ."
               ]
             },
             {
               "type": "comment",
               "lines": [
-                "- Mungu wao kipofu kawaziaki mungu wao amelala",
-                "- Mungu wao kiziwi Elia akalia ewe mungu wa mababu jehova ndio jina lako shusha moto toka mbingu uteketeze mazabahu jina lako litukuzwe.",
-                "- Tutukuze mumbaji mungu wa Elia jina lako litukuzwe."
+                "Com : -Mungu wao kipofu kawaziaki mungu wao amelala -Mungu wao kiziwi \" \" \" \" \" \""
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Elia akalia ewe mungu wa mababu jeho va ndio jina lako shusha moto toka mbingu uteketeze mazabahu jina lako lituku zwe."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "Com : -Tutukuze mumbaji mungu wa Elia jina lako lituku zwe."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -330,7 +354,7 @@
       "schema_version": "1.0",
       "id": "f0bedf13-a11c-5475-8f5f-16c710b80bbb",
       "title": "MANABII WA BALI WA BALI NA ELIA",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "0e1300a1-fef6-514f-ad3a-9aa6b2b676a8",
@@ -342,36 +366,49 @@
           },
           "title": "MANABII WA BALI WA BALI NA ELIA",
           "source": {
-            "file": "chants_delie.html",
-            "position": 6,
+            "file": "Cantiques_swahili.pdf",
+            "position": 311,
             "number": "158",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0328"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-24",
-            "category_label": "Élie et Élysée",
-            "lesson_id": "lesson-24",
-            "lesson_label": "Leçon 24 — Élie et Élysée"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. Manabii wa bal iwa bali na Elia, mbona nyinyi mutakuwa na mawazo ma wili kama bali ni mungu na nyinyi mu mufwate kama bwana ni mungu na yeye mu mufwate."
+                "Manabii wa bal iwa bali na Elia , mbona nyinyi mutakuwa na mawazo ma wili kama bali ni mungu na nyinyi mu mufwate kama bwana ni mungu na yeye mu mufwate."
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Chaguwa leo, chaguwa leo chaguwa yako njia ya uzima kweli chaguwa leo, chaguwa njia ya uzima utariti salama¨2x Watu wakahalika bali ¨äsubui hadi jioni nao awakupata",
-                "jibu¨2x Elia akalika mungu, mungu yule wa mababu ¨Mungu naye akashusha moto iteketeze ngombe saba ¨2x"
+                "Chaguwa leo , chaguwa leo chaguwa yako njia ya uzima kweli chaguwa leo , chaguwa njia ya uzima utariti salama \"2x"
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Watu wakahalika bali \"asubui hadi jioni nao awakupata jibu\"2x"
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Elia akalika mungu , mungu yule wa mababu \"Mungu naye akashusha moto iteketeze ngombe saba \"2x"
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },

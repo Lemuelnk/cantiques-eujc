@@ -16,7 +16,7 @@
       "schema_version": "1.0",
       "id": "833b0f18-3d55-51df-bf56-54fe709ff408",
       "title": "SOLOMONO MFALME MWANA WA DAUDI",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "3c57db91-675c-53ab-9181-dc4cab2731bc",
@@ -28,21 +28,24 @@
           },
           "title": "SOLOMONO MFALME MWANA WA DAUDI",
           "source": {
-            "file": "chants_de_salomon.html",
-            "position": 1,
+            "file": "Cantiques_swahili.pdf",
+            "position": 301,
             "number": "148",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0316"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-22",
-            "category_label": "Salomon",
-            "lesson_id": "lesson-22",
-            "lesson_label": "Leçon 22 — Salomon"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
                 "Solomono mufalme mwana wa Daudi ee solomono mufalme mwana wa Daudi, solomono mufalme mwana wa Daudi, mujengaji wa nyumba ya mufalme solomono mwana waDaudi."
               ]
@@ -50,26 +53,24 @@
             {
               "type": "refrain",
               "lines": [
-                "Kwa kujenga nyumba ya mufalme wajoli (enyi wajoli) nyundo isisikiwe, chombo cha chuma chochote (Sauti yake isisikiwe humo ndani ya nyumba ya mungu wa uzima)2x"
+                "Kwa kujenga nyumba ya mufalme wajoli ( enyi wajoli ) nyundo isisikiwe , chombo cha chuma chochote ¨Sauti yake isisikiwe humo ndani ya nyumba ya mungu wa uzima ¨2x Solomono mufalme mwana wa Daudi Mujengaji mufalme ¨ Mujengaji wa nyumba ¨ Kwa hakili zake mufalme ¨"
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "Solomono mufalme mwana wa Daudi Mujengaji mufalme Mujengaji wa nyumba Kwa hakili zake mufalme\tMalikia wa sheba akasikia habari za mufalme solomono ¨Nitaenda kuakiki",
-                "sha ni kajue ilio haki nyumbani mwake mimi mwenyewe. Solomono mufalme mwana wa Daudi mufalme."
+                "Malikia wa sheba akasikia habari za mufalme solomono ¨Nitaenda kuakikisha ni kajue ilio haki nyumbani mwake mimi mwenyewe¨2x Solomono mufalme mwana wa Daudi mufalme."
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "3",
               "lines": [
-                "Alipo fika humo nyumbani mwake (enyi wajoli moyo wake ufazaika kwa Vijakazi kwa mali mali na kwa akili zake Solomono). Solomono mufalme, mwana wa Daudi mufalme."
+                "Alipo fika humo nyumbani mwake ( enyi wajoli moyo wake ufazaika kwa ¨ Vijakazi kwa mali mali na kwa akili zake Solomono ¨2x Solomono mufalme , mwana wa Daudi mufalme ."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -77,7 +78,7 @@
       "schema_version": "1.0",
       "id": "a7252eab-5136-5976-8140-3ef722fd8672",
       "title": "SOLOMONO KAPEWA HEKIMA",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "363da40c-1020-56e0-b891-488800c4cfb6",
@@ -89,45 +90,58 @@
           },
           "title": "SOLOMONO KAPEWA HEKIMA",
           "source": {
-            "file": "chants_de_salomon.html",
-            "position": 2,
+            "file": "Cantiques_swahili.pdf",
+            "position": 303,
             "number": "149",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0318"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-22",
-            "category_label": "Salomon",
-            "lesson_id": "lesson-22",
-            "lesson_label": "Leçon 22 — Salomon"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "Solomono kapewa hekima kwa bwana, Solomono kajenga Hekalu la bwana chumba chake tatu."
+                "Solomono kapewa hekima kwa bwana , Solomono kajenga Hekalu la bwana chumba chake tatu."
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Solomono mufalme kamutukuza mungu solomono mufalme.",
-                "- Kwa kumaliza kazi",
-                "- Kwa maagizo ya bwana",
-                "- Kwa kumwabudu bwana",
-                "- Kwa kumutukuza bwana Maweya chongwa tayari, vitu viote ni tayari unyasi toka mbinguni kapima hekalu Solomono akafanya kazi."
+                "Solomono mufalme kamutukuza mungu solomono mufalme ."
               ]
             },
             {
-              "type": "source_block",
+              "type": "comment",
               "lines": [
-                "wa sheba akasikia habari kwa mbali akakuja kutazama Hekalu malkia akatoa zahabu na manemane Malkia wa sheba katazama chakula cha bwana na mavazi ya watumishi."
+                "-Kwa kumaliza kazi ¨ ¨ ¨ ¨",
+                "-Kwa maagizo ya bwana ¨ ¨ ¨ ¨",
+                "-Kwa kumwabudu bwana ¨ ¨ ¨ ¨",
+                "-Kwa kumutukuza bwana ¨ ¨ ¨ ¨"
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Maweya chongwa tayari , vitu viote ni tayari unyasi toka mbinguni kapima hekalu Solomon o akafanya kazi ."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Malkia wa sheba akasikia habari kwa mbali akakuja kutazama Hekalu malkia akatoa zahabu na manemane"
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -135,7 +149,7 @@
       "schema_version": "1.0",
       "id": "fab2de42-8a00-50bf-ab4c-301d478aea4e",
       "title": "SOLOMONO KUKATA MANENO",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "088a9803-7dca-5159-bd52-df63aec865b9",
@@ -147,46 +161,48 @@
           },
           "title": "SOLOMONO KUKATA MANENO",
           "source": {
-            "file": "chants_de_salomon.html",
-            "position": 3,
+            "file": "Cantiques_swahili.pdf",
+            "position": 304,
             "number": "150",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0319"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-22",
-            "category_label": "Salomon",
-            "lesson_id": "lesson-22",
-            "lesson_label": "Leçon 22 — Salomon"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "Solomono kukata maneno ya wake wawili walifia mutoto moja usiku kauwa mwanae kwa kumulalia kachukuwa mwana wa mwenzake awe wake yoyoyo faraka ikakuwa¨Wake awa",
-                "wakenda naye jamani usiwe mutoto avumie mwenzangu.¨2x"
+                "Solomono kukata maneno ya wake wawili walifia mutoto moja usiku kauwa mwanae kwa kumulalia kachukuwa mwana wa mwenzake awe wake yoyoyo faraka ikakuwa\"Wake awa wakenda naye jamani usiwe mutoto avumie mwenzangu.\"2x"
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Akili ya mungu kukata maneno mwana siwako mwana alie huai.",
-                "- Delila musaliti mwana siwako mwana alie na huai",
-                "- Ewe mwenzangu....",
-                "- Ndugu tunafia nini...",
-                "- Nawe uzale wako...."
+                "Akili ya mungu kukata maneno mwana siwako mwana alie huai."
               ]
             },
             {
-              "type": "source_block",
+              "type": "comment",
               "lines": [
-                "Yesu alinena, alisema asie na mwana yeye ni mufu, alie na mwana ana uzima wa milele mwana si wako, mwana alie na huai.2x"
+                "Com :-Delila musaliti mwana siwako mwana alie na huai -Ewe mwenzangu \" \" \" \" \" -Ndugu tunafia nini \" \" \" \" \" -Nawe uzale wako \" \" \" \" \""
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Yesu alinena , alisema asie na mwana yeye ni mufu , alie na mwana ana uzima wa milele mwana si wako, mwana alie na huai . 2x"
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -256,7 +272,7 @@
       "schema_version": "1.0",
       "id": "ddf9eb6e-82d7-5b52-92fc-4357ac6bcdd6",
       "title": "NINA TUBU",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "8cfbb266-15f9-58d5-93d1-2b58fe1347f9",
@@ -268,21 +284,24 @@
           },
           "title": "NINA TUBU",
           "source": {
-            "file": "chants_de_salomon.html",
-            "position": 5,
+            "file": "Cantiques_swahili.pdf",
+            "position": 305,
             "number": "152",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0321"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-22",
-            "category_label": "Salomon",
-            "lesson_id": "lesson-22",
-            "lesson_label": "Leçon 22 — Salomon"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
                 "Nina tubu mimi nipate uzima bwana ni metoa vitu viangu viote uniokoe mfalme chukuwa matajiri nipate uzima wa milele."
               ]
@@ -290,23 +309,30 @@
             {
               "type": "refrain",
               "lines": [
-                "Bwana mungu ni metoa ee nimetoa na",
-                "zaka ni pate uzima wa milele (toa basi)"
+                "Bwana mungu ni metoa ee nimetoa na zaka ni pate uzima wa milele (toa basi)"
               ]
             },
             {
               "type": "comment",
               "lines": [
-                "- Nimetoa na ya kila siku nipate uzima wa milele",
-                "- Ni metoa na ya upendo",
-                "- Ni metoa na ya haadi Naomboleza mimi nipate raha, bwana unirehumu baba ninyakuwe mbinguni, uniteuwe bwana nipate kuku Hudumia. Nauzunika mimi nipate uzima.",
-                "Bwana ni metoa vitu viangu viote ni vya bure via nikosesha uzima sita virudia tena."
+                "Com : -Nimetoa na ya kila siku nipate uzima wa milele -Ni metoa na ya upendo \" \" \" \" -Ni metoa na ya haadi\" \" \" \""
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Naomboleza mimi nipate raha , bwana unirehumu baba ninyakuwe mbinguni , uniteuwe bwana nipate kuku Hudumia."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Nauzunika mimi nipate uzima\"2x bwana ni metoa vitu viangu viote ni vya bure via nikosesha uzima sita virudia tena."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     }

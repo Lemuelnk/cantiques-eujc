@@ -196,7 +196,7 @@
       "schema_version": "1.0",
       "id": "5478dd72-e673-50ff-842d-ed587ed46a1b",
       "title": "WAKATI ISAKA ALIKWISHA KUPOFUKA MACHO",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "deb9d50c-a611-51df-8d0c-091b25958909",
@@ -208,42 +208,48 @@
           },
           "title": "WAKATI ISAKA ALIKWISHA KUPOFUKA MACHO",
           "source": {
-            "file": "chants_de_fils_disaac.html",
-            "position": 4,
+            "file": "Cantiques_swahili.pdf",
+            "position": 222,
             "number": "82",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0227"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-8",
-            "category_label": "Les fils d'Isaac",
-            "lesson_id": "lesson-8",
-            "lesson_label": "Leçon 8 — Les fils d'Isaac"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. ¨Wakati Isaka alikwisha kupofuka macho yeye akaita Esau ¨2x"
+                "\"Wakati Isaka alikwisha kupofuka macho yeye akaita Esau \"2x"
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Akaita Esau, ( Esau ) Yakobo akanena mimi apa bwana Yakobo utawale juu yetu, mimi apa bwana"
+                "Akaita Esau, ( Esau ) Yakobo akanena mimi apa bwana Yakobo utawale juu yetu , mimi apa bwana"
               ]
             },
             {
               "type": "comment",
               "lines": [
-                "Yakobo umepata baraka mimi apa bwana Yakobo ubarikiwe na bwana. Isaka ndie uzima, Rebeka mawazo ya mbingu, Esau tendo la mwili, Yakobo naye mafundisho ya",
-                "rohoni."
+                "Com : Yakobo umepata baraka mimi apa bwana Yakobo ubarikiwe na bwana."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Isaka ndie uzima , Rebeka mawazo ya mbingu ,Esau tendo la mwili , Yakobo naye mafundisho ya rohoni."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -307,7 +313,7 @@
       "schema_version": "1.0",
       "id": "e4abe3ff-abab-53e2-ac10-aabf65569a85",
       "title": "YAKOBO AKAAMKA USIKU ULE",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "a1624fb9-2a13-5fc8-aea9-38e7b0f6ab0c",
@@ -319,44 +325,55 @@
           },
           "title": "YAKOBO AKAAMKA USIKU ULE",
           "source": {
-            "file": "chants_de_fils_disaac.html",
-            "position": 6,
+            "file": "Cantiques_swahili.pdf",
+            "position": 225,
             "number": "84",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0230"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-8",
-            "category_label": "Les fils d'Isaac",
-            "lesson_id": "lesson-8",
-            "lesson_label": "Leçon 8 — Les fils d'Isaac"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. Yakobo aka amka usiku ule,(Yakobo) kachukuwa wake wake wa wili na vijakazi na watoto kuwavusha yaboki naye Yakobo aliachwa peke mutu kushindana naye akagusa",
-                "paja lake muvunguni ukasitushwa."
+                "Yakobo aka amka usiku ule ,( Yakobo ) kachukuwa wake wake wa wili na vijakazi na watoto kuwavusha yaboki naye Yakobo aliachwa peke mutu kushindana naye akagusa paja lake muvunguni ukasitushwa ."
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Yakobo unIache nIende mimi sitakwacha unibariki"
+                "Yakobo unlache nlende mimi sitakwacha unibariki"
               ]
             },
             {
               "type": "comment",
               "lines": [
-                "- Mungu kanena unIache nIende mimi sita kwacha unibariki - Mungu katubu",
-                "uniache nIende mimi sitakwacha unibariki. Jina lako nani mujoli eh mimi jina langu Yakobo hautaitwa Yakobo utaitwa Israeli kashindana na mungu pia na watu",
-                "akawashinda¨2x Nimemuona bwana, uso kwa uso mahali apa penueli nimepata uzima.2x"
+                "Com : -Mungu kanena unlache nlende mimi sita kwacha unibariki -Mungu katubu uniache nlende mimi sitakwacha unibariki."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Jina lako nani mujoli eh mimi jina langu Yakobo hautaitwa Yakobo utaitwa Israeli kashindana na mungu pia na watu akawashinda\"2x"
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Nimemuona bwana , uso kwa uso mahali apa penueli nimepata uzima.2x"
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -364,7 +381,7 @@
       "schema_version": "1.0",
       "id": "cee6fd5b-e3cf-5a6a-b59e-ab966d085aa7",
       "title": "KATIKA WANA WA YAKOBO",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "3473bdde-38e3-5d2f-8b71-796cca72c4a2",
@@ -376,37 +393,49 @@
           },
           "title": "KATIKA WANA WA YAKOBO",
           "source": {
-            "file": "chants_de_fils_disaac.html",
-            "position": 7,
+            "file": "Cantiques_swahili.pdf",
+            "position": 227,
             "number": "85",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0232"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-8",
-            "category_label": "Les fils d'Isaac",
-            "lesson_id": "lesson-8",
-            "lesson_label": "Leçon 8 — Les fils d'Isaac"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1\tKatika wana wa Yakobo wa kakosa upendo ¨ wakauza nduguze aitwae Yusufu¨2x"
+                "Katika wana wa Yakobo wa kakosa upendo \" wakauza nduguze aitwae Yusufu\"2x"
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Eh we mujoli uenda wapi njiani mwa mufalme, wewe mujoli uenda leo njiani mwa",
-                "mufalme Ujazare usiuwe mwana mu mambo ya duniani, Ujazare usiuze neno mu mambo ya duniani. Wakashika Yusufu wakamutupa birikani wa kaenda kumuza kwenye wa Ismaeli.",
+                "Eh we mujoli uenda wapi njiani mwa mufalme , wewe mujoli uenda leo njiani mwa mufalme Ujazare usiuwe mwana mu mambo ya duniani , Ujazare usiune neno mu mambo ya duniani."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Wakashika Yusufu wakamutupa birikani wa kaenda kumuza kwenye wa Ismaeli."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
                 "Kuchafua joo lake kwa damu ya ufugo ¨ kumdanganya Yakobo nyama mukali amemula leo¨2x"
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -520,7 +549,7 @@
       "schema_version": "1.0",
       "id": "63115ce1-9822-51fd-99ef-bd616b6c5cd7",
       "title": "YUSUFU NDUGU YA BENYAMINA",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "343e48e0-ea5d-5600-aa98-f152bad8bfd0",
@@ -532,39 +561,56 @@
           },
           "title": "YUSUFU NDUGU YA BENYAMINA",
           "source": {
-            "file": "chants_de_fils_disaac.html",
-            "position": 10,
+            "file": "Cantiques_swahili.pdf",
+            "position": 232,
             "number": "88",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0237"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-8",
-            "category_label": "Les fils d'Isaac",
-            "lesson_id": "lesson-8",
-            "lesson_label": "Leçon 8 — Les fils d'Isaac"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. Yusufu ndugu ya Benyamina mwana wa Rakeli ¨Alivikwa joo nzuri ya rangi mbali mbali¨2x"
+                "Yusufu ndugu ya Benyamina mwana wa Rakeli \"Alivikwa njoo nzuri ya rangi mbali mbali¨2x"
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Wakristu wa penzi tudumu ndani ya neno ( mungu atawapa kila mutu",
-                "zawadi yake) tazama chuki na wivu zina leta haibu na ziki.",
-                "2. Miongoni mwa wale tenashara wana wa vijakazi walichukiya Yusufu kwa kazi aliotenda.",
-                "3. Tazama kuchafuwa joo lake wakamuzaa Yusufu asiishi na babae. Baada ya kushinda majaribu ata ndani ya gereza Yusufu ni",
-                "mufalme katika inchi ya misri"
+                "Wakristu wa penzi tudumu ndani ya neno ( mungu atawapa kila mutu zawadi yake) tazama chuki na wivu zina leta haibu na ziki."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Miongoni mwa wale tenashara wana wa vijakazi walichukiya Yusufu kwa kazi aliotenda."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Tazama kwa wivu kuchafuwa joo lake wakamuzaa Yusufu asiishi na babae."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "4",
+              "lines": [
+                "Baada ya kushinda majaribu ata ndani ya gereza Yusufu ni mufalme katika inchi ya misri."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     }

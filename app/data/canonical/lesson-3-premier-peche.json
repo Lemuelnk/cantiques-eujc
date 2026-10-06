@@ -85,7 +85,7 @@
       "schema_version": "1.0",
       "id": "6ae26112-3466-511e-ba1d-fdc149dabc65",
       "title": "IKI NI KILIO CHA ABELI",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "1d205ef4-5d79-5c5f-94a8-f4727fbccbf9",
@@ -97,21 +97,24 @@
           },
           "title": "IKI NI KILIO CHA ABELI",
           "source": {
-            "file": "chants_de_fils_dadam.html",
-            "position": 2,
+            "file": "Cantiques_swahili.pdf",
+            "position": 188,
             "number": "52",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0193"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-3",
-            "category_label": "Premier péché",
-            "lesson_id": "lesson-3",
-            "lesson_label": "Leçon 3 — Premier péché"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
                 "Iki ni kilio cha Abeli mwana wa Adamu ku mashariki ya Edeni."
               ]
@@ -119,27 +122,23 @@
             {
               "type": "refrain",
               "lines": [
-                "Ndugu mujoli sina jambo na wewer, umeniuwa bure kumashariki ya Edeni"
+                "Ndugu mujoli sina jambo na wewe , umeniuwa bure kumashariki ya Edeni"
               ]
             },
             {
               "type": "comment",
               "lines": [
-                "- Acha asira sina jambo na wewe Umeniuwa bure ku mashariki ya Edeni",
-                "- Acha chuki sina jambo na wewe",
-                "- Acha fitina sina jambo na wewe"
+                "Com : -Acha asira sina jambo na wewe Umeniuwa bure ku mashariki ya Edeni -Acha chuki sina jambo na wewe -Acha fitina sina jambo na wewe"
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "2",
               "lines": [
                 "Mungu kauliza Kaini, ndugu yako Abeli ni wapi usinyulize mimi si muchungaji wa ndugun yangu."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -147,7 +146,7 @@
       "schema_version": "1.0",
       "id": "d49b9737-7d32-5688-8b5b-57517d4a389b",
       "title": "SAUTI YA ABELI",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "f71438cc-3ff8-5928-aab8-8768b02df1cf",
@@ -159,48 +158,49 @@
           },
           "title": "SAUTI YA ABELI",
           "source": {
-            "file": "chants_de_fils_dadam.html",
-            "position": 3,
+            "file": "Cantiques_swahili.pdf",
+            "position": 189,
             "number": "53",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0194"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-3",
-            "category_label": "Premier péché",
-            "lesson_id": "lesson-3",
-            "lesson_label": "Leçon 3 — Premier péché"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "Sauti ya Abeli kutoka shambani, ikalia shambani humo, Shambani mwa Bwana nimeuwawa bure, nimeuwawa na Kaini"
+                "Sauti ya Abeli kutoka shambani , ikalia shambani humo \" Shambani mwa bwana \" ni meuwawa bure , ni meuwawa na Kaini\" 2x"
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Ndugu tutafia nini, kila mutu na zawadi yake mbele yake Mungu, Ata ukila na kunywa kwangu mimi sikitu (sikitu) kamwe sitaiga mutu."
+                "Ndugu tutafia nini kila mutu na zawadi yake mbele yake mungu , Ata ukila na kunywa kwangu mimi sikitu (sikitu) kamwe sitaiga mutu ."
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "Nilipo kuwa humo shambani, nilipo kuwa shambani mwa Bwana, nilichukuwa gongo, sikuchukuwa upanga, ila Mungu peke yake alikuwa mwamuzi wangu.",
-                "gongo langu eh baba gongo langu la uzima."
+                "Nilipo kuwa humo shambani, nilipo kuwa shambani mwa bwana , nilichukuwa gongo , sikuchukuwa upanga , ila mungu peke yake alikuwa mwamuzi wangu . \"Ngongo langu e baba ngongo langu la uzima ."
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "3",
               "lines": [
-                "Yule joka akisha kwaribu, utafuta afariki na nani. Upanda mbinguni, ushuka duniani, utafuta afariki na nani"
+                "Yule joka akisha kwaribu , kutafuta ufariki na nani \" Upanda mbinguni, ushuka duniani utafuta ufariki na nani\"2x"
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },

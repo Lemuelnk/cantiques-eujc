@@ -192,7 +192,7 @@
       "schema_version": "1.0",
       "id": "66e0c715-ac2c-5d50-b65e-05b678d83d6b",
       "title": "TUMEKWISHA DUMU",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "54c9879d-c1c2-5740-b355-325a4e3f0068",
@@ -204,23 +204,26 @@
           },
           "title": "TUMEKWISHA DUMU",
           "source": {
-            "file": "chant_de_noe.html",
-            "position": 4,
+            "file": "Cantiques_swahili.pdf",
+            "position": 195,
             "number": "60",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0200"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-5",
-            "category_label": "NOÉ",
-            "lesson_id": "lesson-5",
-            "lesson_label": "Leçon 5 — NOÉ"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "Tumekwisha dumu sisi katika giza (Leo nuru imeangaa mioyoni mwa watu) 2x Jehova mungu akatuma mutu mwema noa dunia imearibika ni taharibu inchi eh we noa jenga safina tangamiza watu."
+                "Tumekwisha dumu sisi katika giza \" Leo nuru imeangaa mioyoni mwa watu \"2x Jehova mungu akatuma mutu mwema noa dunia imearibika ni taharibu inchi e we noa jenga safina tangamiza watu."
               ]
             },
             {
@@ -230,21 +233,20 @@
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "Alipo kuwa Musa katika misri, mungu akatuma Musa kwa Farao kachukuwe israeli ende noa mujangwani kachukuwe watu wangu ende noa mujangwani."
+                "Alipo kuwa Musa katika misri , mungu akatuma Musa kwa Farao kachukuwe israeli ende noa mujangwani kachukuwe watu wangu ende noa mujangwani."
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "3",
               "lines": [
-                "Alipo shindwa musa katika jangwa, Yoshua, wana wa nuni kainuliwa kachukuwe watu wangu ende noa mu kanana kachukue israeli ende noa mukanana."
+                "Alipo shindwa musa katika jangwa , Yoshua ,wana wa nuni kainuliwa kachukuwe watu wanguende noa mu kanana kachukue israeli ende noa mukanana."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -252,7 +254,7 @@
       "schema_version": "1.0",
       "id": "a1a0a24f-bb0c-588a-886f-bd56d56ec2c7",
       "title": "MUFALUME WANGU ZAWABU NI KUBWA",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "77fcdd09-3058-59a0-a71d-295a7f8a82a9",
@@ -264,43 +266,49 @@
           },
           "title": "MUFALUME WANGU ZAWABU NI KUBWA",
           "source": {
-            "file": "chant_de_noe.html",
-            "position": 5,
+            "file": "Cantiques_swahili.pdf",
+            "position": 197,
             "number": "61",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0202"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-5",
-            "category_label": "NOÉ",
-            "lesson_id": "lesson-5",
-            "lesson_label": "Leçon 5 — NOÉ"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "Mufalume wangu zawabu ni kubwa, sita weza kuliimiliki (ah ah) neno la haki huku wajali wenye hekima ukawapa watoto wa changa.",
-                "SOURCE_BLOCK",
-                "(Neno lako) neno lako la wokovu mupenzi la dumu ata leo ni mbele yake hawai yeyote atakae amini (Yupi atakae nena mimi sikulisikia neno, neno hili neno la wokovu) 2x"
+                "Mufulume wangu zawabu ni kubwa , sita weza kuliimiliki (ah ah) neno la haki huku wajali wenye hekima ukawapa watoto wa changa."
               ]
             },
             {
-              "type": "source_block",
+              "type": "refrain",
+              "lines": [
+                "(Neno lako) neno lako la wokovu mupenzi la dumu ata leo ni mbele yake hawai yeyote atakae amini \" Yupi atakae nena mimi sikulisikia neno , neno hili neno la wokovu\"2x"
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
               "lines": [
                 "Zamani za nuhu watu walifanya anasa hawa kumutegemea mungu nayo mvua ikanyesha watu wakamutafuta bwana na kazalika hakuwasikia."
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "3",
               "lines": [
                 "Zamani za lutu watu walifanya ginsi vitendekavio ata leo wanadamu walipinga kusikia maagizo ya bwana akawateketeza kwa moto."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -383,7 +391,7 @@
       "schema_version": "1.0",
       "id": "37525f7c-add2-5992-b46f-fb16c58bfa99",
       "title": "MUNGU KAMWAMBIA NOA JENGA SAFINA",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "cfed3212-e968-54be-b12e-94e4c5a8e496",
@@ -395,21 +403,24 @@
           },
           "title": "MUNGU KAMWAMBIA NOA JENGA SAFINA",
           "source": {
-            "file": "chant_de_noe.html",
-            "position": 7,
+            "file": "Cantiques_swahili.pdf",
+            "position": 199,
             "number": "62",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0204"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-5",
-            "category_label": "NOÉ",
-            "lesson_id": "lesson-5",
-            "lesson_label": "Leçon 5 — NOÉ"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
                 "Mungu kamwambia Noa, noa jenga safina noa jenga safina watu wote waingie, noa jenga safina watu wote waingie."
               ]
@@ -417,23 +428,29 @@
             {
               "type": "refrain",
               "lines": [
-                "Kweli kweli mu safina y anoa mulingia nyama na watu pia na wa ndege:",
-                "- Muliingia kiboko: mulingia nyama na watu pia na ndege",
-                "- Muliingia na nyoka mulingia nyama na watu pia wa ndege"
+                "Kweli kweli mu safina y anoa mulingia nyama na watu pia na wa ndege ."
               ]
             },
             {
-              "type": "source_block",
+              "type": "comment",
               "lines": [
-                "Garika ya maji ikajaa duniani, safina ikanyakuliwa na mbingu ika funguliwa.",
-                "- Safina bethel ikanyakuliwa na mbingu ikafunguliwa",
-                "- Safina kolwezi ikanyakuliwa na mbingu ikafunguliwa"
+                "Com : -Mulilingia kiboko : mulingia nyama na watu pia na wa ndege -Mulilingia na nyoka : \" \" \" \" \" \" \" \" \" \" \" \""
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Garika ya maji ikajaa duniani , safina ikanyakuliwa na mbingu ika funguliwa."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "Com : -Safina bethel ikanyakuliwa na mbingu ikafunguliwa -Safina kolwezi \" \" \" \" \" \" \" \" \" \""
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -441,7 +458,7 @@
       "schema_version": "1.0",
       "id": "adc0fe6a-1cd4-53f7-b538-7a6ae7a5fde8",
       "title": "LAMEKI ALIKUWA NA MIAKA NYINGI",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "a43f81be-c123-52a2-bf7b-943c141ebc30",
@@ -453,47 +470,49 @@
           },
           "title": "LAMEKI ALIKUWA NA MIAKA NYINGI",
           "source": {
-            "file": "chant_de_noe.html",
-            "position": 8,
+            "file": "Cantiques_swahili.pdf",
+            "position": 191,
             "number": "55",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0196"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-5",
-            "category_label": "NOÉ",
-            "lesson_id": "lesson-5",
-            "lesson_label": "Leçon 5 — NOÉ"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "Lameki alikuwa na miaka nyingi, akazaa mwana jina lake Nuhu kwani aliogopa Mungu mu mambo mbovu."
+                "Lameki alikuwa na miaka nyingi , akazaa mwana jina lake Nuhu kwani aliogopa mungu mu mambo mbovu ."
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Dunia imeja na mambo, dunia imeja na jeuri watu wamechafuka na mafalume za ulimwenguni yoyoyo njoni kuonyeshe njia, njia nzuri, njia ya uzima."
+                "Dunia imeja na mambo , dunia imeja na jeuri watu wamechafuka na mafalume za ulimwenguni yoyoyo njoni konyeshe njia , njia nzuri , njia ya uzima ."
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "Huu ni uzao na habari za Nuhu eh Nuhu alikuwa na wana watatu, kweli nuhu, alikuwa na wana watatu nyumbani mwake, (muko Sehemu, na Hamu, na Yafeti)"
+                "Huu ni uzao na habari za nuhu e nuhu alikuwa na wana watatu , kweli nuhu , alikuwa na wana watatu nyumbani mwake , \"muko Sehemu , na Hamu , na Yafeti\"2x"
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "3",
               "lines": [
-                "Alipoona mungu ya kama dunia nzima imearibika watu wote wameja jeuri, akanyesha mvua ya siku arubaini kwakutoesha maharifa ya watu ilio chafuka."
+                "Alipoona mungu ya kama dunia nzima imearibika watu wote wameja jeuri, akanyesha mvua ya siku arubaini kwakutoesha maharifa ya watu ilio chafuka ."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -695,7 +714,7 @@
       "schema_version": "1.0",
       "id": "99ce313a-84e9-5393-954c-9951a5b699fd",
       "title": "NOA SAFINANI",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "7876699d-ddda-5e7b-9455-3b40c4591029",
@@ -707,53 +726,57 @@
           },
           "title": "NOA SAFINANI",
           "source": {
-            "file": "chant_de_noe.html",
-            "position": 12,
+            "file": "Cantiques_swahili.pdf",
+            "position": 200,
             "number": "64",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0205"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-5",
-            "category_label": "NOÉ",
-            "lesson_id": "lesson-5",
-            "lesson_label": "Leçon 5 — NOÉ"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "Noa safinani akatuma kunguru nenda ukaone maji kama yamepunguka, sikilizeni eh kunguru akatoka tazameni eh (Tazama kunguru akenda kuketi yoyoyo akenda kuzunguruka (wajoli) hakupenda kurudi) 2x"
+                "Noa safinani akatuma kunguru nenda ukaone maji kama yamepunguka, sikilizeni eh kunguru akatoka tazameni eh \" Tazama kunguru akenda kuketi yoyoyo akenda kuzunguruka (wajoli ) hakupenda kurudi \"2x"
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "Noa auzunishwa kwajili ya kunguru akatuma ndege gani noa akatuma eh njiwa sikilizenie njiwa akatoka akenda Tazaùenie akakikisha akirudi kwake noa yoyoyo na majani ya mizetuni ( wajoli ) akamaliza uduma."
+                "Noa auzunishwa kwajili ya kunguru akatuma ndege gani noa akatuma e njiwa sikilizenie njiwa akatoka akenda \" Tazauenie akakikisha akirudi kwake noa yoyoyo na majani ya mizetuni ( wajoli ) akamaliza uduma .\""
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "3",
               "lines": [
-                "Adama na Hawa tazama wa kahuni mungun wetu yeye nao wao ukata uzima Sikilizenie watu wa melainiwa kwakuto kutii kwao magizo ya bwana yoyoyo wa kazarau uzima (wajoli) mateso ikawajia"
+                "Adama na Hawa tazama wa kahuni mungun wetu yeye nao wao ukata uzima \"Sikilizenie watu wa melainiwa kwakuto kutii kwao magizo ya bwana yoyoyo wa kazarau uzima ( wajoli ) mateso ikawajia~2x"
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "4",
               "lines": [
-                "Mimi nawewe tulitumwa kwa uduma, uduma wa mimi na wewe kuponya mioyo za watu, sikilizenie mungu akatupa uduma, tazamenie bali twatimiza ao atukufanya yoyoyo kama alivio fanya kunguru (wajoli) akenda kuzunguruuka, wajoli hakupenda kurudi."
+                "Mimi nawewe tulitumwa kwa uduma , uduma wa mimi na wewe kuponya mioyo za watu , sikilizenie mungu akatupa uduma, tazamenie bali twatimiza ao atukufanya yoyoyo kama alivio fanya kunguru ( wajoli ) akenda kuzunguruuka, wajoli hakupenda kurudi."
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "5",
               "lines": [
-                "Wajoli wetu wenye kulala muhamukeni, sisi tulikuwa tupo sasa wana wa uzima, sikilizenie wenye kulala hamukeni, tazamenie twanenda nanyi ao mwabaki kulala yoyoyo amukeni mupate uzima wajoli uzima wa yesu mbinguni."
+                "Wajoli wetu wenye kulala muhamukeni , sisi tulikuwa tupo sasa wana wa uzima , sikilizenie wenye kulala hamukeni, tazamenie twanenda nanyi ao mwabaki kulala yoyoyo amukeni mupate uzima wajoli uzima wa yesu mbinguni."
               ]
             }
-          ],
-          "media": {
-            "audio_present": true
-          }
+          ]
         }
       ]
     },

@@ -231,7 +231,7 @@
       "schema_version": "1.0",
       "id": "0416a599-8822-56bb-830f-13ff8d100070",
       "title": "VITA VIETU SI VIA MWILI",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "8b4f91bf-a720-5390-8800-23fc3f6debb9",
@@ -243,44 +243,54 @@
           },
           "title": "VITA VIETU SI VIA MWILI",
           "source": {
-            "file": "chants_de_sac_des_rois.html",
-            "position": 4,
+            "file": "Cantiques_swahili.pdf",
+            "position": 423,
             "number": "281",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0453"
           },
           "taxonomy": {
-            "domain": "sunday",
-            "category_id": "dimanche-rois",
-            "category_label": "Sacrifice des rois",
-            "lesson_id": null,
-            "lesson_label": null
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "Vita vyetu si via mwili (si vya mwili ) wala vita si vya damu baba yangu baba, Eh! baba yangu nalika jeshi la mbingu."
+                "Vita vyetu si via mwili (si vya mwili ) wala vita si vya damu baba yangu baba , Eh ! baba yangu nalika jeshi la mbingu."
               ]
             },
             {
-              "type": "source_block",
+              "type": "comment",
               "lines": [
-                "- Ni nalika Mikaeli\tEh! baba yangu nalika jeshi la mbingu",
-                "- Ni nalika Nafutali...",
-                "- Ni nalika Samsoni..."
+                "Com :-Ni nalika Mikaeli Eh ! baba yangu nalika jeshi la mbingu",
+                "-Ni nalika Nafutali",
+                "-Ni nalika Samsoni"
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "Wanadamu walisema (walisema) roho mwema hatashuka tena kwetu leo ¨Eh baba yangu mungu wa rehema.¨2x",
-                "- Baba yetu wa rehema",
-                "- Katolika walisema roho mwema hasitashuka tena kwetu leo mungu wa rehema",
-                "- Watemai..."
+                "Wanadamu walisema (walisema) roho mwema hatashuka tena kwetu leo \"Eh baba yangu mungu wa rehema.\"2x"
               ]
             },
             {
-              "type": "source_block",
+              "type": "comment",
+              "lines": [
+                "Com :-Baba yetu wa rehema",
+                "-Katolika walisema roho mwema hasitashuka tena kwetu leo mungu wa rehema",
+                "-Watemai \" -"
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
               "lines": [
                 "Watu wote njoni mwone roho mwema ameshuka tena kwetu leo eh baba yangu (Fahari na iwe ) eh baba yangu fahari iwe kwako."
               ]
@@ -288,15 +298,12 @@
             {
               "type": "comment",
               "lines": [
-                "- Fahari iwe kwa mungu wa kadima baba eh baba yangu fahari iwe kwako",
-                "- Fahari iwe kwa mungu wa muneno...",
-                "- Fahari iwe kwa mungu wa kyungu..."
+                "Com :-Fahari iwe kwa mungu wa kadima baba eh baba yangu fahari iwe kwako",
+                "-Fahari iwe kwa mungu wa muneno",
+                "-Fahari iwe kwa mungu wa kyungu"
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -365,7 +372,7 @@
       "schema_version": "1.0",
       "id": "f90d11d0-5548-59da-97ac-b5e30037c4ce",
       "title": "MISINGI IMESIMAMA",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "d8b4a46e-5780-555f-a384-320c8ba6ea93",
@@ -377,23 +384,26 @@
           },
           "title": "MISINGI IMESIMAMA",
           "source": {
-            "file": "chants_de_sac_des_rois.html",
-            "position": 6,
+            "file": "Cantiques_swahili.pdf",
+            "position": 425,
             "number": "284",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0455"
           },
           "taxonomy": {
-            "domain": "sunday",
-            "category_id": "dimanche-rois",
-            "category_label": "Sacrifice des rois",
-            "lesson_id": null,
-            "lesson_label": null
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "Misingi imesimama majeshi mutikisike. Ushuuda huonekane mu mbingu na mu dunia."
+                "Misingi imesimama majeshi mutikisike \"Ushuuda huonekane mu mbingu na mu dunia.\"2x"
               ]
             },
             {
@@ -405,26 +415,18 @@
             {
               "type": "comment",
               "lines": [
-                "- Mikaeli uje\tmapambano ni makali mu mbingu na mu dunia",
-                "- Samsoni uje"
+                "Com : -Mikaeli uje mapambano ni makali mu mbingu na mu dunia",
+                "-Samsoni uje \" \" \" \" \" \" \""
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "2",
               "lines": [
                 "Kizazi kia kwanza na kia pili kiungane na kia tatu na kizazi kia ine kimeja na utukufu."
               ]
-            },
-            {
-              "type": "source_block",
-              "lines": [
-                "Mungu onyesha rehema yako unyumbie mbingu na dunia muko mwana wa mungu akiketi malaika wana mwimbia."
-              ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -750,7 +752,7 @@
       "schema_version": "1.0",
       "id": "1e648292-5599-5f66-984a-42c8fbf7e3b4",
       "title": "NA KUALIKA MUFALME",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "d3fa829c-f498-5eb7-9304-adde2f405319",
@@ -762,45 +764,49 @@
           },
           "title": "NA KUALIKA MUFALME",
           "source": {
-            "file": "chants_de_sac_des_rois.html",
-            "position": 12,
+            "file": "Cantiques_swahili.pdf",
+            "position": 430,
             "number": "293",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0462"
           },
           "taxonomy": {
-            "domain": "sunday",
-            "category_id": "dimanche-rois",
-            "category_label": "Sacrifice des rois",
-            "lesson_id": null,
-            "lesson_label": null
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. \tNa kualika mufalme mungu mumbaji wa watu ¨uje utawale mafalme apo myongoni mwa watu ¨2x"
+                "Na kualika mufalme mungu mumbaji wa watu \"uje utawale mafalme apo myongoni mwa watu \"2x"
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Rebeka wewe ) Rebeka shuka kupunda ukalale kwa Sara kwa siku ,mbili na",
-                "urudi kwa mume wako Isaka."
+                "Rebeka wewe ) Rebeka shuka kupunda ukalale kwa Sara kwa siku ,mbili na urudi kwa mume wako Isaka."
               ]
             },
             {
-              "type": "comment",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "-Rebeka wangu Rebeka shuka kupunda ukalale kwa Sara kwa siku mbili urudi kwa mume wako Isaka",
-                "-Rebeka ni wewe ¨\t¨\t¨\t¨\t¨\t¨\t¨\t¨\t¨\t¨",
-                "Kujichukulia kwa kiti usiku uneingia mu ufalme ( muchana na usiku mu ufalme ) kukamata utukufu wako kutuza na miungu mingine .",
+                "Kujichukulia kwa kiti usiku uneingia mu ufalme ( muchana na usiku mu ufalme ) kukamata utukufu wako kutuza na miungu mingine ."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
                 "Mafalme na usultani na mawazo maovu duniani wapona tabisha mutu katika shuruli za dunia."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },

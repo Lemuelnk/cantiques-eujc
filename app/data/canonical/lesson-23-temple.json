@@ -100,7 +100,7 @@
       "schema_version": "1.0",
       "id": "ce5d85e9-a808-5063-a432-f06f4c212c91",
       "title": "SAUTI KUTOKA MBINGUNI",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "654e216b-3a42-56b0-91c5-aa4a134ceb58",
@@ -112,47 +112,49 @@
           },
           "title": "SAUTI KUTOKA MBINGUNI",
           "source": {
-            "file": "chants_de_sac_du_coheleth.html",
-            "position": 2,
+            "file": "Cantiques_swahili.pdf",
+            "position": 475,
             "number": "345",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0513"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-23",
-            "category_label": "L'office du temple",
-            "lesson_id": "lesson-23",
-            "lesson_label": "Leçon 23 — L'office du temple"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "Sauti kutoka mbinguni, sauti unena hivio ¨Nani atenda duniani kuokowa watu"
+                "Sauti kutoka mbinguni , sauti unena hivio \"Nani atenda duniani kuokowa watu \"2x"
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Enyi wajoli uduma huo, uduma huo muna uzuni mapigo mateso mengi yo kwa kuokowa watu"
+                "Enyi wajoli uduma huo , uduma huo muna uzuni mapigo mateso mengi yo kwa kuokowa watu"
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "2",
               "lines": [
                 "Wengi wakaja kwa kuokowa watu duniani wakapata mateso mengi sana tumwamini mwana wa mungu tupate uzima."
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "3",
               "lines": [
                 "Ni wepesi kunena ila kutenda ni vigumu (shangwe ) shangwe shangwe yo mbinguni duniani kwajili ya mwana wa mungu kujitolea kuokowa watu."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -227,7 +229,7 @@
       "schema_version": "1.0",
       "id": "e210e600-131c-51e5-84cc-0f71ffaa4ce8",
       "title": "ALIKUWA MUTU YOANE",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "c0c54235-cb64-5096-8886-c18701d26f46",
@@ -239,52 +241,50 @@
           },
           "title": "ALIKUWA MUTU YOANE",
           "source": {
-            "file": "chants_de_sac_du_coheleth.html",
-            "position": 4,
+            "file": "Cantiques_swahili.pdf",
+            "position": 476,
             "number": "347",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0514"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-23",
-            "category_label": "L'office du temple",
-            "lesson_id": "lesson-23",
-            "lesson_label": "Leçon 23 — L'office du temple"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "Alikuwa mutu Yoane alitumwa na bwana kwa kufanya kazi ya habari njema kwa kutengeneza njia ya yesu mwana wa mungu Herode kafunga",
-                "Yoane kwani alimwambia wewe si vema uchukuwe muke wa ndugu yako hekima ya duniani usishiriki nayo ni mauti."
+                "Alikuwa mutu Yoane alitumwa na bwana kwa kufanya kazi ya habari njema kwa kutengeneza njia ya yesu mwana wa mungu Herode kafunga Yoane kwani alimwambia wewe si vema uchukuwe muke wa ndugu yako hekima ya duniani usishiriki nayo ni mauti."
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "- Ila kwa kula na kunywa Yoane yoyoyo Yoane akafa kwajili ya Herodia Yoane yoyoyo Yoane akafa",
-                "- Ila kwa kucheza kwake Yoane yoyoyo Yoane akafa."
+                "-Ila kwa kula na kunywa Yoane yoyoyo Yoane akafa kwajili ya Herodia Yoane yoyoyo Yoane akafa",
+                "-Ila kwa kucheza kwake Yoane yoyoyo Yoane akafa."
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "Yoane yupo gerezani habari ya Yesu ikamujia akatuma wafwasi il iwa muulize Yesu naye kawajibu wafwasi nende mu mwambie Yoane: Vipofu",
-                "uona, Viwete utembea, Wenye ukoma utakaswa, Viziwi nao usikia, wafu wamefufuliwa harifu watu wengine neno la Mungu."
+                "Yoane yupo gerezani habari ya Yesu ikamujia akatuma wafwasi il iwa muulize Yesu naye kawajibu wafwasi nende mu mwambie Yoane : Vipofu uona, Vivete utembea, Wenye ukoma utakaswa, Viziiw nao usikia, wafu wamefufuliwa harifu watu wengine neno la mungu."
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "3",
               "lines": [
-                "Usitazame mujoli wako weko na kwarifu wewe usiwe nawe Herode amekwisha funga Yoane alietumwa na mungu wa uzima kwa kumudumia yeye",
-                "tazama rafiki yako ndie yule balato usiishi na wewe kwajili ya chakula kerubi wa mufalume wa bwana ata kuazibu araka na vidudu vita",
-                "kukula."
+                "Usitazame mujoli wako weko na kwarifu wewe usiwe nawe Herode amekwisha funga Yoane alietumwa na mungu wa uzima kwa kumudumia yeye tazama rafiki yako ndie yule balato usiishi na wewe kwajili ya chakula kerubi wa mufalume wa bwana ata kuazibu araka na vidudu vita kukula."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },

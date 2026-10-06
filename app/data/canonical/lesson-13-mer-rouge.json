@@ -16,7 +16,7 @@
       "schema_version": "1.0",
       "id": "68b05848-a4ef-5de5-bb03-8277e7ca0f14",
       "title": "WANA ISRAELI WA MEVUKA YORDANI LEO",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "d61ed5e5-b4d0-51ea-9069-cc216feac6f5",
@@ -28,52 +28,49 @@
           },
           "title": "WANA ISRAELI WA MEVUKA YORDANI LEO",
           "source": {
-            "file": "Chants_de_jourdain.html",
-            "position": 1,
+            "file": "Cantiques_swahili.pdf",
+            "position": 278,
             "number": "123",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0287"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-13",
-            "category_label": "Le passage de la mer Rouge",
-            "lesson_id": "lesson-13",
-            "lesson_label": "Leçon 13 — Le passage de la mer Rouge"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "Wana israeli wamevuka Yordani leo yoyoe aa yakini enh yoyoe ogopa sanduku fwata sanduku nyuma yoyoe aa! aa! yakini en yoyowe achia",
-                "sanduku nafasi mikono elfu mbili yoyoe en en yakini en yoyowe."
+                "Wana israeli wamevuka Yordani leo yoyoe aa yakini enh yoyoe ogopa sanduku fwata sanduku nyuma yoyoe aa ! aa ! yakini en yoyowe achia sanduku nafasi mikono elfu mbili yoyoe en en yakini en yoyowe."
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Nenda usitupe, nenda usitupe jiwe lako kauliza nani bwana wangue jiwe limebaki kama kumbu kumbu la jambo kati yetu we Yoshua",
-                "amesimamisha jiwe mujini mwa telebinta."
+                "Nenda usitupe , nenda usitupe jiwe lako kauliza nani bwana wangue jiwe limebaki kama kumbu kumbu la jambo kati yetu we Yoshua amesimamisha jiwe mujini mwa telebinta."
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "Kwa kuvuka Yordani tu simame imara mu Yordani yoyowe ah ah! yakini ah! yoyowe kila mwanadamu achukuwe jiwe lake mu Yordani",
-                "yoyowe ah ah! yakini ah! yoyowe Twanenda kupigana vita na Yeriko yoyowe ah ah! yakini ah! yoyowe."
+                "Kwa kuivuka Yordani tu simame imara mu Yordani yoyowe ah ah ! yakini ah ! yoyowe kila mwanadamu achukuwe jiwe lake mu Yordani yoyowe ah ah ! yakini ah ! yoyowe Twanenda kupigana vita na Yeriko yoyowe ah ah ! yakini ah ! yoyowe."
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "3",
               "lines": [
-                "Wa hubiri wa mechukuwa sanduku la neno la jehova yoyowe ah ah!",
-                "yakini en yoyowe Wamesima imara katika inchi kavu mu Yordani yoyowe ah ah! yakini wote wamevuka katika inchi kavu kwa miguu",
-                "yoyowe ah ah! yakini ah! yoyowe."
+                "Wa hubiri wa mechukuwa sanduku la neno la jehoa yoyowe ah ah ! yakini en yoyowe Wamesima imara katika inchi kavu mu Yordani yoyowe ah ah ! yakini wote wamevuka katika inchi kavu kwa miguu yoyowe ah ah ! yakini ah ! yoyowe."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -81,7 +78,7 @@
       "schema_version": "1.0",
       "id": "24cf356d-7366-53dd-a71e-3ebc273288bf",
       "title": "VINANDA IVI VIA MBINGU",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "637f04a0-90ed-5500-8608-1fe3489970f7",
@@ -93,23 +90,26 @@
           },
           "title": "VINANDA IVI VIA MBINGU",
           "source": {
-            "file": "Chants_de_jourdain.html",
-            "position": 2,
+            "file": "Cantiques_swahili.pdf",
+            "position": 279,
             "number": "124",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0288"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-13",
-            "category_label": "Le passage de la mer Rouge",
-            "lesson_id": "lesson-13",
-            "lesson_label": "Leçon 13 — Le passage de la mer Rouge"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. Vinanda ivi via mbingu na via dunia via kumutukuza mungu baba kwa utukufu wake.¨2x"
+                "Vinanda ivi via mbingu na via dunia via kumutukuza mungu baba kwa utukufu wake.~2x"
               ]
             },
             {
@@ -121,15 +121,17 @@
             {
               "type": "comment",
               "lines": [
-                "- Mu kanana",
-                "mulingia mitume mu kanana yoyoyo muliingia ma babu. - Mu kanana muliingia Kadima\tmu kanana yoyoyo muliingia ma babu. Mu kanana mu kanana ¨ Muliingia ma babu humo",
-                "twingie wote¨2x"
+                "Com : -Mu kanana mulingia mitume mu kanana yoyoyo muliingia ma babu . -Mu kanana muliingia Kadima mu kanana yoyoyo muliingia ma babu."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Mu kanana mu kanana ~ Muliingia ma babu humo twingie wote~2x"
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -318,7 +320,7 @@
       "schema_version": "1.0",
       "id": "3facf9b8-07b9-558b-9b4b-8ee95340e928",
       "title": "ISRAELI WALITOKA MISRI",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "ffc39884-cc22-5417-aa65-d4f0bb761b70",
@@ -330,44 +332,54 @@
           },
           "title": "ISRAELI WALITOKA MISRI",
           "source": {
-            "file": "Chants_de_jourdain.html",
-            "position": 6,
+            "file": "Cantiques_swahili.pdf",
+            "position": 280,
             "number": "128",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0291"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-13",
-            "category_label": "Le passage de la mer Rouge",
-            "lesson_id": "lesson-13",
-            "lesson_label": "Leçon 13 — Le passage de la mer Rouge"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. Israeli walitoka misri walijua wanaenda kanana ¨ Sisi leo tunatoka wapi ? na tena tunaenda wapi? ¨2xCom:- Wakristu wa mungu  munatoka wapi ? na tena munaenda",
-                "wapi - Watoto mu njia"
-              ]
-            },
-            {
-              "type": "refrain",
-              "lines": [
-                "Wajoli wa bwana tupendane wote kila mutu aone mwenzake ni mu bora kama wa jiona¨2x"
+                "Israeli walitoka misri walijua wanaenda kanana \" Sisi leo tunatoka wapi ? na tena tunaenda wapi ? \"2x"
               ]
             },
             {
               "type": "comment",
               "lines": [
-                "- Ukiwa na mali uone mwenzako ni mubora kama wa",
-                "jioni - Ukiwa na gari - Ukiwa musomi - Ukiwa tajiri Ni kiwa muzima ni mependwa na watu Ni kiwa tajiri Mu mateso ni mekataliwa na kuonekana wa bureMu magumu Mu",
-                "taabu"
+                "Com : Wakristu wa mungu munatoka wapi ? na tena munaenda wapi ? -Watoto mu njia \" \" \" \" \" \""
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Wajoli wa bwana tupendane wote kila mutu aone mwenzake ni mu bora kama wa jiona\"2x"
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "Com :-Ukiwa na mali uone mwenzako ni mubora kama wa jiona -Ukiwa na gari \" \" \" \" \" \" -Ukiwa musomi \" \" \" \" \" \" -Ukiwa tajiri \" \" \" \" \" \""
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Ni kiwa muzima ni mependwa na watu Ni kiwa tajiri \" \" \" \" \" Mu mateso ni mekataliwa na kuonekana wa bure Mu magumu \" \" \" \" \" \""
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -375,7 +387,7 @@
       "schema_version": "1.0",
       "id": "f1b5642c-a6b8-52d3-ae1f-bc650c67c95e",
       "title": "KUMBUKENI KWA SAFARI NDEFU",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "53e30373-6ca0-5b69-b755-bd88a075e838",
@@ -387,56 +399,55 @@
           },
           "title": "KUMBUKENI KWA SAFARI NDEFU",
           "source": {
-            "file": "Chants_de_jourdain.html",
-            "position": 7,
+            "file": "Cantiques_swahili.pdf",
+            "position": 281,
             "number": "129",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0292"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-13",
-            "category_label": "Le passage de la mer Rouge",
-            "lesson_id": "lesson-13",
-            "lesson_label": "Leçon 13 — Le passage de la mer Rouge"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. Kumbukeni kwa safari ndefu tuliovushwa ma bahari ma kubwa ma wili ili turiti inchi sio kwa nguvu zetu (eh baba) ila kwa yeye alie",
-                "tuwezesha ili turiti inchi. Sio kwa nguvu zetu eh ila kwa yeye alie tuwezesha ili turiti kanana."
+                "Kumbukeni kwa safari ndefu tuliovushwa ma bahari ma kubwa ma wili ili turiti inchi sio kwa nguvu zetu (eh baba) ila kwa yeye alie tuwezesha ili turiti inchi Isio kwa nguvu zetu eh ila kwa yeye alie tuwezesha ili turiti kanana."
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Acheni anasa wajoli sisi tusifuate shuruli za dunia isio na mwisho tuka muudumie yeye alietuwokowa wajoli sikilizeni"
+                "Acheni anasa wajoli sisi tusifuate shuruli za dunia isio na mwisho tuka muudumie yeye alietuwokowa wajoli sikilizeni ( wajoli wa bwana)"
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "2. Enyi vifaranga viangu, Mulio riti pamoja nami inchi hii mumeni tendea je? (2X). Mumeabudu mwingu mingine mumeketi malangoni pamuji",
-                "kwa kwaribu wajoli wageni Jehova Mungu (eh baba) tazama wana awa ulionipa wameniacha ukiwa."
+                "Enyi vifaranga viangu \"Mulio riti pamoja nami inchi hii mumeni tendea je ?\"2X Mtumeabudu mwingu mingine mumeketi malangoni pamuiji kwa kwaribu wajoli wageni Jehova mungu (eh baba ) tazama wana awa ulionipa wameniacha ukiwa."
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "3",
               "lines": [
-                "Miongoni mwa awa ulionipa ¨Wasio fwata shuruli za duniani wameniongezea uzao.¨2x"
+                "Miongoni mwa awa ulionipa \"Wasio fwata shuruli za duniani wameniongezea uzao, \"2x"
               ]
             },
             {
               "type": "comment",
               "lines": [
-                "- Basi mutume naye anenda vitani tumukumbukebaba.",
-                "- Basi Kadima naye na Milemba wake wanenda vitani tuwa kumbuke baba."
+                "Com : -Basi mutume naye anenda vitani tumukumbukebaba. -Basi Kadima naye na Milemba wake wanenda vitani tuwa kumbuke baba."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -549,7 +560,7 @@
       "schema_version": "1.0",
       "id": "fa55d88b-b18f-5d94-8a76-32fe6f420d8e",
       "title": "MUNGU UNIFARIJI KWA SAFARI",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "3adb4aff-bafa-52d3-aa15-1a1a7b1af1df",
@@ -561,42 +572,48 @@
           },
           "title": "MUNGU UNIFARIJI KWA SAFARI",
           "source": {
-            "file": "Chants_de_jourdain.html",
-            "position": 10,
+            "file": "Cantiques_swahili.pdf",
+            "position": 284,
             "number": "132",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0296"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-13",
-            "category_label": "Le passage de la mer Rouge",
-            "lesson_id": "lesson-13",
-            "lesson_label": "Leçon 13 — Le passage de la mer Rouge"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. Mungu unifariji kwa safari ndefu ni nayo niriti inchi ya hadi inchi ya kana, inchi iliachiwa ma babu inchi ya kanana ,ya maziwa na asali inchi ya kanana."
+                "Mungu unifariji kwa safari ndefu ni nayo niriti inchi ya hadi inchi ya kana, inchi iliachiwa ma babu inchi ya kanana ,ya maziwa na asali inchi ya kanana."
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Eh baba mungu usiniache 2x nisipoteze uzima wa neno kwajili ya anasa za dunia. Nikitazama uko niendako, yoyoyo simba wa kali wameniongojea falme za giza nao",
-                "usimama ¨Ili kwaribu uzima wangu ni sivikwe joo lako¨2x"
+                "Eh baba mungu usiniache 2x nisipoteze uzima wa neno kwajili ya anasa za dunia."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Nikitazama uko niendako , yoyoyo simba wa kali wameniongojea falme za giza nao usimama \"Ili kwaribu uzima wangu ni sivikwe joo lako \"2x"
               ]
             },
             {
               "type": "comment",
               "lines": [
-                "- Joo la uzima ili kwaribu uzima wangu ni sivikwe joo lako - Joo la mbinguni - Joo lako baba"
+                "Com : -Joo la uzima ili kwaribu uzima wangu ni sivikwe joo lako -Joo la mbinguni \" - - - - - - - - - - - - -Joo lako baba \" - - - - - - - - - - - - -"
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },

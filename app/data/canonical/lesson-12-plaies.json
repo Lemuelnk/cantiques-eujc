@@ -16,7 +16,7 @@
       "schema_version": "1.0",
       "id": "5a6af0c3-1caa-53e1-85e2-351eda4bbc5f",
       "title": "MISRI EE MISRI",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "f878ce69-3416-5812-a3e0-7fae5443923d",
@@ -28,53 +28,51 @@
           },
           "title": "MISRI EE MISRI",
           "source": {
-            "file": "chants_de_plaies.html",
-            "position": 1,
+            "file": "Cantiques_swahili.pdf",
+            "position": 244,
             "number": "98",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0250"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-12",
-            "category_label": "Les 10 plaies",
-            "lesson_id": "lesson-12",
-            "lesson_label": "Leçon 12 — Les 10 plaies"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. Misri eh e misri)2x Jehova mungu kahidia toka wewe inchi yako."
+                "Misri eh e misri)2x Jehova mungu kahidia toka wewe inchi yako ."
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Eh we mwanangu, eh we mwanangu tazama uduma huu ulikutoa toka misri usirejee yoyoyo usirejee misri."
+                "Eh we mwanangu , eh we mwanangu tazama uduma huu ulikutoa toka misri usirejee yoyoyo usirejee misri."
               ]
             },
             {
               "type": "comment",
               "lines": [
-                "- Mukutenda maovu usirejee yoyoyo usirejee misri",
-                "- Mutenda uzini",
-                "- Mukuruka usiku",
-                "- Mutumwa wa zambi Nishutumiwapo njiani humu, nitukaniapo njiani humo ¨ Sitaacha yoyoyo sitaacha uduma ¨2x eh mimi"
+                "Com : -Mukutenda maovu usirejee yoyoyo usirejee misri .",
+                "-Mutenda uzini - - - - - -",
+                "-Mukuruka usiku - - - - - -",
+                "-Mutumwa wa zambi - - - - - -"
               ]
             },
             {
-              "type": "comment",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "- kwa kulala ku saba sitaacha yoyoyo sitaacha uduma",
-                "- Kwa ku fanya faraja",
-                "- Uduma ni kazi",
-                "- Kwa kwimbia mungu"
+                "Nishutumiwapo njiani humu , nitukaniapo njiani humo ¨ Sitaacha yoyoyo sitaacha uduma ¨2x eh mimi"
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -132,7 +130,7 @@
       "schema_version": "1.0",
       "id": "7b954263-c5a0-5416-9572-4cb2eac010c1",
       "title": "PIGO KUMI LA FARAO",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "8ab78c04-37d8-566b-bb94-77b6209e619e",
@@ -144,23 +142,26 @@
           },
           "title": "PIGO KUMI LA FARAO",
           "source": {
-            "file": "chants_de_plaies.html",
-            "position": 3,
+            "file": "Cantiques_swahili.pdf",
+            "position": 248,
             "number": "100",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0254"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-12",
-            "category_label": "Les 10 plaies",
-            "lesson_id": "lesson-12",
-            "lesson_label": "Leçon 12 — Les 10 plaies"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. Pigo kumi la Farao wajoli israeli wote wakatoka utumwani kwelekea kanana inhi ya amani."
+                "Pigo kumi la Farao wajoli israeli wote wakatoka utumwani kwelekea kanana inhi ya amani."
               ]
             },
             {
@@ -172,22 +173,27 @@
             {
               "type": "comment",
               "lines": [
-                "- Inchi ya furaha wameingia yoyoyo wameriti kanana",
-                "- Inchi ya amani",
-                "- Inchi ya mababu",
-                "- Inhi ya salama"
+                "Com : -Inchi ya furaha wameingia yoyoyo wameriti kanana",
+                "-Inchi ya amani - - - - - - -",
+                "-Inchi ya mababu - - - - - -",
+                "-Inhi ya salama - - - - -"
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "Farao katuma majeshi kufuata israeli ¨2x wakaingia bahari nyekundu jeshi lote likafa, israeli wa mufalme wamevuka bahari. Walipo fika jangwani vita kali nyikanyi ¨2x kwakushinda miji ile tisa kuingia kanana, israeli wa mufalme wa meriti kanana ."
+                "\"Farao katuma majeshi kufuata israeli \"2x wakaingia bahari nyekundu jeshi lote likafa, israeli wa mufalme wamevuka bahari ."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "\"Walipo fika jangwani vita kali nyikanyi \"2x kwakushinda miji ile tisa kuingia kanana , israeli wa mufalme wa meriti kanana ."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -410,8 +416,8 @@
     {
       "schema_version": "1.0",
       "id": "b6731428-38f5-5464-8a32-ad6b8b317877",
-      "title": "JESHI LA FARAO WAMEKUFA BAHARINI",
-      "status": "review",
+      "title": "JESHILA FARAO WAMEKUFA BAHARINI",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "297b2630-4f81-50b1-a7bb-bd5541fd1f61",
@@ -421,25 +427,28 @@
             "status": "confirmed",
             "detection": "auto"
           },
-          "title": "JESHI LA FARAO WAMEKUFA BAHARINI",
+          "title": "JESHILA FARAO WAMEKUFA BAHARINI",
           "source": {
-            "file": "chants_de_plaies.html",
-            "position": 7,
+            "file": "Cantiques_swahili.pdf",
+            "position": 252,
             "number": "104",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0258"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-12",
-            "category_label": "Les 10 plaies",
-            "lesson_id": "lesson-12",
-            "lesson_label": "Leçon 12 — Les 10 plaies"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "Jeshi la Farao wamekufa baharini kwa kumufwata musa pia na wana israeli."
+                "Jeshi la Farao wamekufa baharini kwa kumufwata musa pia na wana israeli ."
               ]
             },
             {
@@ -451,21 +460,26 @@
             {
               "type": "comment",
               "lines": [
-                "- Israeli akasema leo ni kwetu kwa kumutukuza mungu",
-                "- Huyu mungu wa mababu",
-                "- Huyu mungu wa Kadima"
+                "Com :-Israeli akasema leo ni kwetu kwa kumutukuza mungu",
+                "-Huyu mungu wa mababu",
+                "-Huyu mungu wa Kadima"
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "Wana israeli katika hem aya bwana ¨ Wote walifurahi kwa kumutukuza mungu ¨2xMimi, mimi huyu sitarudi tena kwa mufalme Farao mimi nilie teseka, mimi nilie tabika mimi sitarudi tena kwa mufalme Farao."
+                "Wana israeli katika hem aya bwana \" Wote walifurahi kwa kumutukuza mungu \"2x"
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Mimi , mimi huyu sitarudi tena kwa mufalme Farao mimi nilie teseka , mimi nilie tabika mimi sitarudi tena kwa mufalme Farao."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -654,7 +668,7 @@
       "schema_version": "1.0",
       "id": "2a10e204-e295-5c9e-9040-15fd55401e1f",
       "title": "BWANA AKAMWAMBIA MUSA",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "268ce534-0245-5b2a-a160-ed8844b73580",
@@ -666,48 +680,56 @@
           },
           "title": "BWANA AKAMWAMBIA MUSA",
           "source": {
-            "file": "chants_de_plaies.html",
-            "position": 11,
+            "file": "Cantiques_swahili.pdf",
+            "position": 257,
             "number": "108",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0263"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-12",
-            "category_label": "Les 10 plaies",
-            "lesson_id": "lesson-12",
-            "lesson_label": "Leçon 12 — Les 10 plaies"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. Bwana, bwana akamwambia Musa (eh Musa takasa israeli wajiweke tayari, (watu) ¨ wavue mavazi yao mpaka siku ya tatu, watu wote ¨2x"
+                "Bwana, bwana akamwambia Musa ( eh Musa takasa israeli wajiweke tayari, (watu) \" wavue mavazi yao mpaka siku ya tatu , watu wote \"2x"
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Bwana ameshuka leo mulimani, mulimani tetemeko kubwa."
+                "Bwana ameshuka leo mulimani , mulimani tetemeko kubwa."
               ]
             },
             {
               "type": "comment",
               "lines": [
-                "- Ameshuka na balance: mulimani, mulimani tetemeko kubwa.",
-                "- Ameshuka na malaika: Mungu katia mipaka kumulima sinai ¨2x ¨"
+                "Com :-Ameshuka na balance : mulimani , mulimani tetemeko kubwa.",
+                "-Ameshuka na malaika : \" \" \" \" \" \" \" \" \" \" \" \""
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "Yeyote atakae gusa sinai atauwawa kwa mawe ¨2x Walio gusa sinai wote tetemeko kubwa ¨2x (eh radi) ¨ Radi na lalo kalia sauti ya baragumu kalia tetemeko kubwa ¨2x"
+                "Mungu katia mipaka kumulima sinai \"2x \" Yeyote atakae gusa sinai atauwawa kwa mawe \"2x"
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "\" Walio gusa sinai wote tetemeko kubwa \"2x (eh radi) \" Radi na lalo kalia sauti ya baragumu kalia tetemeko kubwa \"2x"
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -715,7 +737,7 @@
       "schema_version": "1.0",
       "id": "fed06a0a-21c5-577f-8896-3f0cf0788187",
       "title": "MUNGU AKAMWAMBIA MUSA NENDA KWAO",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "f8c1934d-8ca7-5277-a869-14612b4f7a3f",
@@ -727,50 +749,58 @@
           },
           "title": "MUNGU AKAMWAMBIA MUSA NENDA KWAO",
           "source": {
-            "file": "chants_de_plaies.html",
-            "position": 12,
+            "file": "Cantiques_swahili.pdf",
+            "position": 258,
             "number": "109",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0264"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-12",
-            "category_label": "Les 10 plaies",
-            "lesson_id": "lesson-12",
-            "lesson_label": "Leçon 12 — Les 10 plaies"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. Mungu akamwambia Musa nenda kwao uwatakase leo na kesho wa fue mavazi hili wawe tayari kwa siku ya tatu wana wa israeli wakakimbia muke ¨2x"
+                "Mungu akamwambia Musa nenda kwao uwatakase leo na kesho wa fue mavazi hili wawe tayari kwa siku ya tatu wana wa israeli wakakimbia muke \"2x"
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Mwanadamu wewe usiguse sinai wewe usije ukafa."
+                "Mwanadamu wewe usiguse sinai wewe usije ukafa ."
               ]
             },
             {
               "type": "comment",
               "lines": [
-                "- Utatobolewa usiguse sinai usije ukafa",
-                "- Utapigwa mawe",
-                "- Mwanadamu wewe",
-                "- Wewe usitende zambi"
+                "Com : -Utatobolewa usiguse sinai usije ukafa",
+                "-Utapigwa mawe \" \" \" \" \" \"",
+                "-Mwanadamu wewe \" \" \" \" \" \"",
+                "-Wewe usitende zambi \" \" \" \" \" \""
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "Ilipotimia siku ya tatu asubui likawa radi na lalo na wingu, baragumu kalia kwanguvu mulima wa sinai ukatikisika waishio kambi wakakimbia. Mulima wa sinai ukatowa moshi, moshi kama wa tanuru kwa sababu bwana alishuka mulimani katika moto."
+                "Ilipotimia siku ya tatu asubui likawa radi na lalo na wingu, baragumu kalia kwanguvu mulima wa sinai ukatikisika waishio kambi wakakimbia."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Mulima wa sinai ukatowa moshi , moshi kama wa tanuru kwa sababu bwana alishuka mulimani katika moto."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -924,7 +954,7 @@
       "schema_version": "1.0",
       "id": "a50a6fc2-7da6-576b-ba88-e4f97d64d1ab",
       "title": "KUONDOKA KWA MUSA MULIMANI",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "05bbad0e-e4ad-54c8-9eb1-8ee9da2e89c4",
@@ -936,41 +966,49 @@
           },
           "title": "KUONDOKA KWA MUSA MULIMANI",
           "source": {
-            "file": "chants_de_plaies.html",
-            "position": 15,
+            "file": "Cantiques_swahili.pdf",
+            "position": 261,
             "number": "112",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0268"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-12",
-            "category_label": "Les 10 plaies",
-            "lesson_id": "lesson-12",
-            "lesson_label": "Leçon 12 — Les 10 plaies"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. Kuondoka kwa Musa mulimani sinai ¨2x Musa akavaa shela kichwani mwake kwani waisraeli wote walikimbia."
+                "Kuondoka kwa Musa mulimani sinai \"2x Musa akavaa shela kichwani mwake kwani waisraeli wote walikimbia."
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Jehova mungu nina kuomba )2x mimi nisiwe nami mutenda ùambo mbovu."
+                "Jehova mungu nina kuomba )2x mimi nisiwe nami mutenda uambo mbovu."
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "Ikiwa habari njema ina sheria ( sheria) iko kuko watu wenye uwovu ¨Kwani joka wa zamani anae danganya watu¨2x Sheria imeondoshwa mukristu pahali roho wa mufalme ndipo kuna uhuru roho ameshuka mwilini mwetu."
+                "Ikiwa habari njema ina sheria ( sheria) iko kuko watu wenye uwovu \"Kwani joka wa zamani anae danganya watu\"2x"
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Sheria imeondoshwa mukristu pahali roho wa mufalme ndipo kuna uhuru roho ameshuka mwilini mwetu."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -1032,7 +1070,7 @@
       "schema_version": "1.0",
       "id": "e1d0dff4-540b-5cc3-9cf8-06d165e2fd86",
       "title": "MUSA MULMANI MUNGU AKAMWAMBIA",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "fbcdb076-85c5-54ed-99f8-4cba2eaaef00",
@@ -1044,41 +1082,45 @@
           },
           "title": "MUSA MULMANI MUNGU AKAMWAMBIA",
           "source": {
-            "file": "chants_de_plaies.html",
-            "position": 17,
+            "file": "Cantiques_swahili.pdf",
+            "position": 264,
             "number": "114",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0271"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-12",
-            "category_label": "Les 10 plaies",
-            "lesson_id": "lesson-12",
-            "lesson_label": "Leçon 12 — Les 10 plaies"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. Musa mulimani mungu akamwambia ¨2x (eh musa ) uhandike mambo yote ginsi uyaona mulimani mimi Mungu ni roho."
+                "Musa mulimani mungu akamwambia \"2x (eh musa ) uhandike mambo yote ginsi uyaona mulimani mimi Mungu ni roho."
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Musa mutumishi akumusikia mungu – Eh Musa akandika bibilia mwilini."
+                "Musa mutumishi akumusikia mungu – Eh Musa akandika bibilia mwilini,"
               ]
             },
             {
               "type": "comment",
               "lines": [
-                "- Ndio mwanzo wa zambi duniani akandika bibilia mwilini",
-                "- Ubatizo asema ku maji",
-                "- Na sadaka asema makuta"
+                "Com : -Ndio mwanzo wa zambi duniani akandika bibilia mwilini",
+                "-Ubatizo asema ku maji",
+                "-Na sadaka asema makuta"
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "2",
               "lines": [
                 "Yesu aliitwa mwana alimusikia mungu (eh yesu ndio maana aliitwa mukombozi, mukombozi wa zambi duniani."
               ]
@@ -1086,12 +1128,13 @@
             {
               "type": "comment",
               "lines": [
-                "- Aliitwa simba la wayuda ndio maana aliitwa mukombozi",
-                "- Aliitwa mukate wa mbinguni"
+                "Com : -Aliitwa simba la wayuda ndio maana aliitwa mukombozi",
+                "-Aliitwa mukate wa mbinguni"
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "3",
               "lines": [
                 "Mungu ni roho tumwabudu rohoni (eh baba ) ndio wale wafanyao uduma."
               ]
@@ -1099,15 +1142,12 @@
             {
               "type": "comment",
               "lines": [
-                "- Na Kadima baba wa imani ndio wale wafanyao uduma",
-                "- Na mutume baba wa imani",
-                "- Baba Kyungu baba wa imani"
+                "Com : -Na Kadima baba wa imani ndio wale wafanyao uduma",
+                "-Na mutume baba wa imani \" \" \" \" \" \"",
+                "-Baba Kyungu baba wa imani \""
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -1115,7 +1155,7 @@
       "schema_version": "1.0",
       "id": "112f5e0a-4870-57b0-bc43-12beda1f6c8e",
       "title": "YAWE YOYOYO AAH",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "da96ba31-ab39-5c78-936b-f33286f44e3b",
@@ -1127,41 +1167,56 @@
           },
           "title": "YAWE YOYOYO AAH",
           "source": {
-            "file": "chants_de_plaies.html",
-            "position": 18,
+            "file": "Cantiques_swahili.pdf",
+            "position": 265,
             "number": "115",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0272"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-12",
-            "category_label": "Les 10 plaies",
-            "lesson_id": "lesson-12",
-            "lesson_label": "Leçon 12 — Les 10 plaies"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. Yawe yoyoyo aah yawe apende kamwe watu wajikuzao wamuhimidi bwana na roho damilifu."
+                "Yawe yoyoyo aah yawe apende kamwe watu wajikuzao wamuhimidi bwana na roho damilifu."
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "wakavuka ma bahari makubwa wakenda kwa miguu (wana israeli) wakaenda washududu bwana. Wakapotoka na Musa mu jangwani bwana akawaongoza (wana israeli ) wakaenda , wakaenda wakishududu bwana. Njaa kubwa nao ikawashika bwana akawalisha (wana israeli) wakaenda, waka enda, wakishududu bwana."
+                "wakavuka ma bahari makubwa wakenda kwa miguu (wana israeli ) wakaenda washududu bwana."
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "Haibu yoyoyo en, yoyoyo haibu ika washika watu wajikuzao wamuimidi bwana na roho damilifu."
+                "Wakapotoka na Musa mu jangwani bwana akawaongoza (wana israeli ) wakaenda, wakaenda wakishududu bwana."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Njaa kubwa nao ikawashika bwana akawalisha (wana israeli) wakaenda , waka enda , wakishududu bwana ."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "4",
+              "lines": [
+                "Haibu yoyoyo en , yoyoyo haibu ika washika watu wajikuzao wamuumidi bwana na roho damilifu."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -1169,7 +1224,7 @@
       "schema_version": "1.0",
       "id": "305d925e-9de9-51d0-9bde-f84646bc76a1",
       "title": "BWANA AKA MWAPIA MUSA",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "1128e74d-987b-5dfa-aa20-f6ce741b6add",
@@ -1181,23 +1236,26 @@
           },
           "title": "BWANA AKA MWAPIA MUSA",
           "source": {
-            "file": "chants_de_plaies.html",
-            "position": 19,
+            "file": "Cantiques_swahili.pdf",
+            "position": 266,
             "number": "116",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0273"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-12",
-            "category_label": "Les 10 plaies",
-            "lesson_id": "lesson-12",
-            "lesson_label": "Leçon 12 — Les 10 plaies"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. Bwana aka mwapia Musa autaingia kanana inchi ya watu wangu unitie Yoshua aingize watu wangu."
+                "Bwana aka mwapia Musa autaingia kanana inchi ya watu wangu unitie Yoshua aingize watu wangu."
               ]
             },
             {
@@ -1209,19 +1267,24 @@
             {
               "type": "comment",
               "lines": [
-                "Nawe mutenda zambi hautaingia kanana"
+                "Com : Nawe mutenda zambi hautaingia kanana"
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "Yoshua akafanya agano mbele ya mungu baba masikiani mwa watu wa kubwa na wadogo kwa kutii maagizo na sheria ya mungu. Mungu baba si mungu wa uzalimu ¨2x ni mungu wa ukweli pia na wa utakaso ¨2x"
+                "Yoshua akafanya agano mbele ya mungu baba masikiani mwa watu wa kubwa na wadogo kwa kutii maagizo na sheria ya mungu ."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Mungu baba si mungu wa uzalimu \"2x ni mungu wa ukweli pia na wa utakaso \"2x"
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -1229,7 +1292,7 @@
       "schema_version": "1.0",
       "id": "2a2689d6-17c3-5e5a-9420-9c3c6a16f9aa",
       "title": "MALAIKA ZA MBINGUNI",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "3da1e460-407a-5600-9250-959d3a4c1b46",
@@ -1241,42 +1304,49 @@
           },
           "title": "MALAIKA ZA MBINGUNI",
           "source": {
-            "file": "chants_de_plaies.html",
-            "position": 20,
+            "file": "Cantiques_swahili.pdf",
+            "position": 268,
             "number": "117",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0275"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-12",
-            "category_label": "Les 10 plaies",
-            "lesson_id": "lesson-12",
-            "lesson_label": "Leçon 12 — Les 10 plaies"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. Malaika za mbinguni wapo na mutukuza bali wewe duniani uko natanga-tanga Jehova Mungu, Mungu mumbaji wangu akaenda mbinguni kachukuwa mbingu kwa kuumba nazo mbingu zingine. Ambia ndege za mbingu ndege mutikisike ndege ikatikisika dunia ifurahiwe."
+                "Malaika za mbinguni wapo na mutukuza kwani wewe duniani ukona tanga tanga jeho va mungu, mungu mumbaji wangu akaenda mbinguni kachukuwa mbingu kwa kuumba nazo mbingu zingine ambia ndege za mbingu ndege itikisike ndege ikatikisika dunia ifurahiwe."
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "¨Wajoli wangu bunene yoyoyo bunene wa jehova ¨2x Wana israeli kwingia yoyoyo kwingia mu kanana wakitoa yoe kwa furaha yoyoye ingia mu kanana."
+                "\"Wajoli wangu bunene yoyoyo bunene wa jeho va \"2x"
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "2. Musa akaenda jangwa moabu ¨2x kwelekea mu muji wa yeriko ¨2x kumilima ya nebo na pisiga, wakamuonesha mipaka yote ya, gileadi na dani na nafutali, efurahimu, manase, yuda¨2x.",
-                "- **Audio source present:** `Malaika za mbinguni1.mp3`"
+                "Wana israeli kwingia yoyoyo kwingia mu kanana wakitoa yoe kwa furaha yoyoye ingia mu kanana."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Musa akaenda jangwa muwabu \"2x kwelekea mu muji wa yeriko \"2x kumilima ya nebo na pisiga, wakamuonesha mipaka yote ya , gileadi na dani na nafutali, efurahimu , manase ,yuda\"2x."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -1284,7 +1354,7 @@
       "schema_version": "1.0",
       "id": "d5c6835f-da6a-54a1-9e32-5d0114bdb5d6",
       "title": "WANA WAISRAELI KWELEKEYA INCHINI YA KANANA",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "2f3a4fe8-66c7-51a4-8a69-844062b88315",
@@ -1296,50 +1366,58 @@
           },
           "title": "WANA WAISRAELI KWELEKEYA INCHINI YA KANANA",
           "source": {
-            "file": "chants_de_plaies.html",
-            "position": 21,
+            "file": "Cantiques_swahili.pdf",
+            "position": 270,
             "number": "118",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0277"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-12",
-            "category_label": "Les 10 plaies",
-            "lesson_id": "lesson-12",
-            "lesson_label": "Leçon 12 — Les 10 plaies"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. Wana wa israeli kwelekea inchini ya kanana 2x wakakuta Balama mumoabu wakatuma wajumbe kwa Balama ¨ Nabi iwa mungu ili alaani israeli wa mufalme¨2x"
+                "Wana wa israeli kwelekea inchini ya kanana 2x wakakuta Balama mumoabu wakatuma wajumbe kwa Balama \" Nabi iwa mungu ili alaani israeli wa mufalme \"2x"
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Nangojea hadi, nangojea hadi eh mimi nangojea roho wa mungu sitaki shuruli za watu mimi nangojea mufariji mwema nipate wokovu."
+                "Nangojea hadi , nangojea hadi eh mimi nangojea roho wa mungu sitaki shuruli za watu mimi nangojea mufariji mwema nipate wokovu."
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "Balama mwana wa Beori akaamka alfajiri kumwendea bwana mungu eh mungu ni metumwa na Balama (eh mimi ) kulaani jeshi hilio ya misri, jehova akamujibu usijaribu kwa tendo wala kuatamko Balama kulaani wa pakaliwa mafuta.Kwa tamaa zake mbaya Balama kachukuwa ngombe saba za wana wa moabu ili alaani israeli (Balama) kamuka asubui kapandia punda wake kwelekea mazabau (Balama) ¨2x"
+                "Balama mwana wa Beori akaamka alfajiri kumwendea bwana mungu eh mungu ni metumwa na Balama (eh mimi ) kulaani jeshi hilio ya misri, jeho va akamujibu usijaribu kwa tendo wala kuatamko Balama kulaani wa pakaliwa mafuta."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Kwa tamaa zake mbaya Balama kachukuwa ngombe saba za wana wa moabu ili alaani israeli (Balama) kamuka asubui kapandia punda wake kwelekea mazabau (Balama) \"2x"
               ]
             },
             {
               "type": "comment",
               "lines": [
-                "- Punda wa Balama akamuonya yoyoyo usikufuru mungu wako",
-                "- Mungu kujirika mu punda",
-                "- Mungu kujirika mu nyama",
-                "- Sauti kujirika mu punda"
+                "Com :-Punda wa Balama akamuonya yovoyo usikufuru mungu wako",
+                "-Mungu kujirika mu punda \"",
+                "-Mungu kujirika mu nyama \"",
+                "-Sauti kujirika mu punda \""
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -1464,7 +1542,7 @@
       "schema_version": "1.0",
       "id": "653a5ec4-c3f6-5ea7-8ce4-ac01e2e90dfb",
       "title": "HUDUMA HUDUMA ZA BABA",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "3a2d32ef-1032-542f-a938-eeaece244388",
@@ -1476,41 +1554,50 @@
           },
           "title": "HUDUMA HUDUMA ZA BABA",
           "source": {
-            "file": "chants_de_plaies.html",
-            "position": 24,
+            "file": "Cantiques_swahili.pdf",
+            "position": 274,
             "number": "121",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0283"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-12",
-            "category_label": "Les 10 plaies",
-            "lesson_id": "lesson-12",
-            "lesson_label": "Leçon 12 — Les 10 plaies"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. Huduma, huduma za baba, huduma za mwana, huduma pia za roho, ¨Ukipenda kuriti muuduma za baba usiriti kwa fitina huduma za baba ¨2x"
+                "Huduma , huduma za baba , huduma za mwana , huduma pia za roho , \"Ukipenda kuriti muuduma za baba usiriti kwa fitina huduma za baba \"2x"
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Mimi tamwita nani baba eh baba nione yesu wangu sikia roho mwema uje uduma zitimilike - Mimi tamwita nani baba njiani humo mateso roho mwema uje huduma zitimilike."
+                "Mimi tamwita nani baba eh baba nione yesu wangu sikia roho mwema uje uduma zitimilike",
+                "-Mimi tamwita nani baba njiani humo mateso roho mwema uje huduma zitimilike."
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "Mungu kwa rehema yako kawokoa misri ukawaingiza kanana inchi ulio waidia¨2x Waliokuwa na chuki, waliokuwa na jeuri, waliokuwa na fitina walibaki mujangwa¨2x"
+                "Mungu kwa rehema yako kawokoa misri ukawaingiza kanana inchi ulio waidia~2x"
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Waliokuwa na chuki , waliokuwa na jeuri, waliokuwa na fitina waliabaki mujangwa~2x"
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -1518,7 +1605,7 @@
       "schema_version": "1.0",
       "id": "668866b9-f960-5076-90dc-ce550cde36b5",
       "title": "AWA TULIKUWA NAO KATIKA MISRI",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "ec012769-4eeb-5b3a-80d7-142cc9b95f6c",
@@ -1530,41 +1617,49 @@
           },
           "title": "AWA TULIKUWA NAO KATIKA MISRI",
           "source": {
-            "file": "chants_de_plaies.html",
-            "position": 25,
+            "file": "Cantiques_swahili.pdf",
+            "position": 277,
             "number": "122",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0286"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-12",
-            "category_label": "Les 10 plaies",
-            "lesson_id": "lesson-12",
-            "lesson_label": "Leçon 12 — Les 10 plaies"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. Awa tulikuwa nao katika misri awa kujuwa neno la mungu leo wameangaika awa kujuwa neno la haki leo wametanga tanga eh munguee eh baba usiniache, eh mungu eeh eh baba, baba usiniache."
+                "Awa tulikuwa nao katika misri awa kujuwa neno la mungu leo wameangaika awa kujuwa neno la haki leo wametanga tanga eh munguee eh baba usiniache , eh mungu ee eh baba , baba usiniache."
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Eh we ndie kimbilio langu mungu wangu baba usiniache, ewe ndie tegemeo langu mungu baba usiniache eh mungu ee eh baba baba usiniache."
+                "Eh we ndie kimbilio langu mungu wangu baba usiniache , ewe ndie tegemeo langu mungu baba usiniache eh mungu ee eh baba baba usiniache."
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "Leo siunabaki uwezo wa baba umekuja oho leo shiunabaki utukufu wa baba umekuja oho leo shiunabaki mamulaka ya baba umekuja. Tuta ulizana siku bwana atakuja¨2x ¨na wa malaika wake sikuzile itakuwa shangwe¨2x"
+                "Leo siunabaki uwezo wa baba umekuja oho leo shiunabaki utukufu wa baba umekuja oho leo shiunabaki mamulaka ya baba umekuja."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Tuta ulizana siku bwana atakuja~2x ~na wa malaika wake sikuzile itakuwa shangwe~2x"
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     }

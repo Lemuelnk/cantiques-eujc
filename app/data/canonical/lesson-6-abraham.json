@@ -17,7 +17,7 @@
       "schema_version": "1.0",
       "id": "38757f8f-cd6b-5f96-8f07-3e1d75878f9f",
       "title": "BWANA MUNGU WANGU",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "853b8257-5648-5bb4-90bf-56fca70a8dd8",
@@ -29,36 +29,35 @@
           },
           "title": "BWANA MUNGU WANGU",
           "source": {
-            "file": "chant_dabraham.html",
-            "position": 1,
+            "file": "Cantiques_swahili.pdf",
+            "position": 203,
             "number": "67",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0208"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-6",
-            "category_label": "Abraham",
-            "lesson_id": "lesson-6",
-            "lesson_label": "Leçon 6 — Abraham"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "(Bwana mungu wangu ee mungu wangu tenda majabu ginsi ulimwokowa abramu) 2x",
-                "Uliokowa mitume:",
-                "Tenda majabu ginsi ulimwokowa Abramu",
-                "- Uliokowa na Lutu:",
-                "- Mu kizazi kia kwanza: Eh mungu wangu tenda majabu ginsi ulimwokowa Abramu",
-                "- Mu kizazi kia pili:",
-                "- Mu kizazi kia tatu",
-                "- Mu kizazi kia ine:"
+                "Bwana mungu wangu ee mungu wangu tenda majabu ginsi ulimwokowa abramu~2x"
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "Com : Uliokowa mitume : Tenda majabu ginsi ulimwokowa Abramu -Uliokowa na Lutu : -Mu kizazi kia kwanza : Eh mungu wangu tenda majabu ginsi ulimwokowa Abramu -Mu kizazi kia pili : -Mu kizazi kia tatu : -Mu kizazi kia ine :"
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -66,7 +65,7 @@
       "schema_version": "1.0",
       "id": "15df5e9d-720c-52ae-8112-e09a63d5e69c",
       "title": "NILALAPO MIMI",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "6f47e2fd-635a-5514-9f5a-a15d68786d4d",
@@ -78,42 +77,48 @@
           },
           "title": "NILALAPO MIMI",
           "source": {
-            "file": "chant_dabraham.html",
-            "position": 2,
+            "file": "Cantiques_swahili.pdf",
+            "position": 205,
             "number": "68",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0210"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-6",
-            "category_label": "Abraham",
-            "lesson_id": "lesson-6",
-            "lesson_label": "Leçon 6 — Abraham"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "Nilalapo mimi katika uzaifu (Jehova mungu uje ni fariji ni ku udumie¨)2x (Ulimutoa Abramu nyumbani mwa babae hukumwesabu makosa)2x"
+                "Nilalapo mimi katika uzaifu ~ Jehova mungu uje ni fariji ni ku udumie ~2x ~Ulimutoa Abramu nyumbani mwa babae hukumwesabu makosa~2x"
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Mungu taenda, Mungu taenda (eh baba, jehova taenda ni kufanie bwana huduma)",
-                "- Basi ni tume mimi: taenda yoyoyo ni kufanie bwana uduma"
+                "Mungu taenda, mungu taenda ( eh baba , jehova taenda ni kufanie bwana huduma ."
               ]
             },
             {
-              "type": "source_block",
+              "type": "comment",
+              "lines": [
+                "Com : -Basi ni tume mimi : taenda yoyoyo ni kufanie bwana uduma"
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
               "lines": [
                 "Kazi ulinipa mimi ni memaliza awa wamejirika kwako mungu wangu unibariki."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -353,7 +358,7 @@
       "schema_version": "1.0",
       "id": "e77957ef-80cd-5ff9-a50f-47a7a07dec5f",
       "title": "NITAZAMAPO HUDUMA ULIOFANYA MUNGU",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "3200711b-01f5-55eb-8666-59baeb7fd404",
@@ -365,21 +370,24 @@
           },
           "title": "NITAZAMAPO HUDUMA ULIOFANYA MUNGU",
           "source": {
-            "file": "chant_dabraham.html",
-            "position": 7,
+            "file": "Cantiques_swahili.pdf",
+            "position": 166,
             "number": "34",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0171"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-6",
-            "category_label": "Abraham",
-            "lesson_id": "lesson-6",
-            "lesson_label": "Leçon 6 — Abraham"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
                 "Nitazamapo huduma uliofanya mungu kwa mikono yake chini ya jua (kweli mimi) sina na furaha mu mambo yote ya uzima wangu apa duniani."
               ]
@@ -393,26 +401,24 @@
             {
               "type": "comment",
               "lines": [
-                "Mumbaji wangu paka wewe akuna mwingine",
-                "- Tegemeo langu paka wewe akuna mwingine"
+                "Com :Mumbaji wangu paka wewe akuna mwingine -Tegemeo langu paka wewe akuna mwingine"
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "2",
               "lines": [
                 "Mungu uniokowe mu mambo ya dunia ili ni sione taabu ya mwisho wa dunia (wewe) wewe ulimutoa mwana wako wa peke ili kila mwamini asife kamwe."
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "3",
               "lines": [
                 "Kama ukiapa kwa mungu wako usisite kamwe timiza naziri yako (kweli yeye) yeye a furahi juu ya wajinga urejee kamwe timiza haadi yako."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -484,7 +490,7 @@
       "schema_version": "1.0",
       "id": "33458059-71be-5607-a4dc-7e6a41ed57ae",
       "title": "TUWA HUDUMU HABARI MAALUMU",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "17721b01-af50-5fe5-ae2b-61cf2dcf913c",
@@ -496,47 +502,49 @@
           },
           "title": "TUWA HUDUMU HABARI MAALUMU",
           "source": {
-            "file": "chant_dabraham.html",
-            "position": 9,
+            "file": "Cantiques_swahili.pdf",
+            "position": 165,
             "number": "33",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0170"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-6",
-            "category_label": "Abraham",
-            "lesson_id": "lesson-6",
-            "lesson_label": "Leçon 6 — Abraham"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "Tuwa hudumu habari maalumu tuliachiwa na bwana ili tuwa udumie kuvipasha viumbe habari njema (Hayawani simba na chuwi, tembo na mbwea, viura, nyoka na panzi nge na mamba, mamba na kunguru)2x."
+                "Tuwa hudumu habari maalumu tuliachiwa na bwana ili tuwa udumie kuvipasha viumbe habari njema \"Hayawani simba na chuwi, tembo na mbwea, viura , nyoka na panzi nge na mamba, mamba na kunguru~2x"
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Kwa leo tuwa batize kwa jina la baba (kwa jina la baba) tbatize kwa jina la mwana (kwa jina la mwana) tuwa batize kwa jina la roho damilifu amina."
+                "Kwa leo tuwa batize kwa jina la baba ( kwa jina la baba)tbatize kwa jina la mwana ( kwa jina la mwana) tuwa batize kwa jina la roho damilifu amina."
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "Habari njema wajoli tunayo waarifu si kwa andiko la herufi liuwalo ila yesu mwana mungu mukombozi wa watu Neno la mungu alie hai likajifanya mwili kuwaliwa mara moja na kufa mara moja kainuliwa 2x"
+                "Habari njema wajoli tunayo waarifu si kwa andiko la herufi liuwalo ila yesu mwana mungu mukombozi wa watu ~ Neno la mungu alie hai likajifanya mwili kuwaliwa mara moja na kufa mara moja kainuliwa ~2x"
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "3",
               "lines": [
-                "Ubatizo maana yake, ubatizo ni fundisho tuliachiwa na bwana ili tuwa fundishe (Kufundisha mungu baba mumbaji, kufundisha Yesu mwana mukombozi wa watu, kufundisha naye roho katika sehemu za roho yote tatu)2x"
+                "Ubatizo maana yake , ubatizo ni fundisho tuliachiwa na bwana ili tuwa fundishe ~ Kufundisha mungu baba mumbai, kufundisha Yesu mwana mukombozi wa watu , kufundisha naye roho katika sehemu za roho yote tatu ~2x"
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -544,7 +552,7 @@
       "schema_version": "1.0",
       "id": "1b54116c-bcaa-5043-8577-0af9d8006a36",
       "title": "ABRAMU ALIKUWA MWANA WA MUTU MUKAIDI",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "8451b245-778e-55c2-acbc-5d33f4d6296d",
@@ -556,47 +564,49 @@
           },
           "title": "ABRAMU ALIKUWA MWANA WA MUTU MUKAIDI",
           "source": {
-            "file": "chant_dabraham.html",
-            "position": 10,
+            "file": "Cantiques_swahili.pdf",
+            "position": 206,
             "number": "69",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0211"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-6",
-            "category_label": "Abraham",
-            "lesson_id": "lesson-6",
-            "lesson_label": "Leçon 6 — Abraham"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "Abramu alikuwa mwana wa mutu mukaidi (2x yoyoyo mukaidi kweli, mukaidi tangu hawali)2x Bwana kapenda Abramu kamutoa nyumbani mwa babae akamutoa ili wote wa fanye uduma njema nzuri"
+                "Abramu alikuwa mwana wa mutu mukaidi ~2x yoyoyo mukaidi kweli , mukaidi tangu hawali~2x Bwana kapenda Abramu kamutoa nyumbani mwa babae akamutoa ili wote wa fanye uduma nzuri ."
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Huduma, huduma za bwana, (Huduma upo miongoni mwetu) 2x twajizuwiza ku utimiza."
+                "Huduma , huduma za bwana , ~ Huduma upo miongoni mwetu ~2x twajizuwiza ku utimiza."
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "Bwana akamwambia Abramu mwanangu toka wewe katika inchi yako toka wewe nyumbani mwa babako nitakufanya wewe kuwa baba wa mataifa nawe uwe baraka. akaumba nyama, mutu akuwako. Akaumba mutu yoyoyo akamubariki muzidi na kuongezeka."
+                "Bwana akamwambia Abramu mwanangu toka wewe katika inchi yako toka wewe nyumbani mwa babako nitakufanya wewe kuwa baba wa mataifa nawe uwe baraka."
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "3",
               "lines": [
                 "Njaa kuingia inchini Abramu kashuka na muke wake Sarai kwelekea misri, wewe ni muke muzuri sana wa misri wa siniuwe (Sarai) uwe dadangu yoyoyo ewe muke mimi nisije ni kafa yoyoyo kwa wa misri awa."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },

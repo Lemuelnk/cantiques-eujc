@@ -156,7 +156,7 @@
       "schema_version": "1.0",
       "id": "747c6062-520d-5f82-a600-1f2ded083575",
       "title": "KATIKA MAISHA YANGU",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "edf6ef20-75f9-59f5-afc5-10bd59455081",
@@ -168,42 +168,49 @@
           },
           "title": "KATIKA MAISHA YANGU",
           "source": {
-            "file": "chants_de_sac_de_croyants.html",
-            "position": 3,
+            "file": "Cantiques_swahili.pdf",
+            "position": 354,
             "number": "200",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0375"
           },
           "taxonomy": {
-            "domain": "sunday",
-            "category_id": "dimanche-croyants",
-            "category_label": "Sacrifice des croyants",
-            "lesson_id": null,
-            "lesson_label": null
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "Katika maisha yangu mimi na tarajia bwana mimi masikini wa mungu mimi mukosefu wa bwana, kanitowesha toka maovu yangu yote ninayo ya tenda mimi apa pa dunia"
+                "Katika maisha yangu mimi na tarajia bwana mimi masikini wa mungu mimi mukosefu wa bwana , kanitowesha toka maovu yangu yote ninayo ya tenda mimi apa pa dunia"
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Ninayo safari ya kwenda kwa baba mwili unitenganisha safari ni ndefu ya kwenda mbinguni mwili unitenganisha nisije nikienda",
-                "mbinguni kumuhimidi Mungu wa uzima."
+                "Ninayo safari ya kwenda kwa baba mwili unitenganisha safari ni ndefu ya kwenda mbinguni mwili unitenganisha nisije ni kenda mbinguni kumuhimidi mungu wa uzima."
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "Mungu kwa rehema yako kamuchukuwa Enoka kenda naye mbinguni mungu wangu akakuhimidi. Mungu kwa rehema yako unishushie roho wako ilinichukuwe nami sikuzile nika kuhimidi."
+                "Mungu kwa rehema yako kamuchukuwa Enoka kenda naye mbinguni mungu wangu akakuhimidi."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Mungu kwa rehema yako unishushie roho wako ilinichukuwe nami sikuzile nika kuhimidi."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -260,7 +267,7 @@
       "schema_version": "1.0",
       "id": "4669949a-bd6a-58fd-a903-41d26b9ac7d9",
       "title": "SAFARI YA KWENDA KANANA",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "9bc54e60-64bd-5b10-8c71-133c3340c1b9",
@@ -272,21 +279,24 @@
           },
           "title": "SAFARI YA KWENDA KANANA",
           "source": {
-            "file": "chants_de_sac_de_croyants.html",
-            "position": 5,
+            "file": "Cantiques_swahili.pdf",
+            "position": 355,
             "number": "202",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0376"
           },
           "taxonomy": {
-            "domain": "sunday",
-            "category_id": "dimanche-croyants",
-            "category_label": "Sacrifice des croyants",
-            "lesson_id": null,
-            "lesson_label": null
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
                 "Safari ya kwenda kanana ilikuwa ndefu watu wote awakuriti sababu ya miziko yabo."
               ]
@@ -294,21 +304,24 @@
             {
               "type": "refrain",
               "lines": [
-                "Ndugu yangu kwa kuriti kanana chunga ulimi wako, chunga matendo yako, chunga mawazo yako wewe utariti inchi."
+                "Ndugu yangu kwa kuriti kanana chunga ulimi wako, chunga matendo yako , chunga mawazo yako wewe utariti inchi ."
               ]
             },
             {
               "type": "comment",
               "lines": [
-                "- Mujoli wangu kwa kuriti kanana chunga ulimi wako, chunga matenda yako, chunga mawazo yako wewe utariti inchi",
-                "- Baba yangu kwa kuriti kanana ¨\t¨\t¨\t¨\t¨\t¨",
-                "Matendo yote ya duniani yametufungiya njia kusudi tusiriti inchi, inchi iyo ya hadi, kusudi tusiriti inchi , inchi hiyo ya amani."
+                "Com : -Mujoli wangu kwa kuriti kanana chunga ulimi wako, chunga matenda yako, chunga mawazo yako wewe utariti inchi",
+                "-Baba yangu kwa kuriti kanana \" \" \" \" \""
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Matendo yote ya duniani yametufungiya njia kusudi tusiriti inchi , inchi iyo ya hadi, kusudi tusiriti inchi , inchi hiyo ya amani."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -316,7 +329,7 @@
       "schema_version": "1.0",
       "id": "ec1eddaa-e27b-5b2a-b360-41c1a2239e42",
       "title": "AHADI YETU SISI NIKARIBU KUJA",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "ec03b857-621b-5586-a00c-884f64a519b6",
@@ -328,54 +341,67 @@
           },
           "title": "AHADI YETU SISI NIKARIBU KUJA",
           "source": {
-            "file": "chants_de_sac_de_croyants.html",
-            "position": 6,
+            "file": "Cantiques_swahili.pdf",
+            "position": 356,
             "number": "203",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0377"
           },
           "taxonomy": {
-            "domain": "sunday",
-            "category_id": "dimanche-croyants",
-            "category_label": "Sacrifice des croyants",
-            "lesson_id": null,
-            "lesson_label": null
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "Ahadi yetu hu nikaribu kuja ewe ungali unalala roho mwema amekuja wewe ungali unalala roho mwema amekuja."
+                "Ahadi yetu hu nikaribu kuja ewe ungali unafala roho mwema amekuja wewe ungali unalala roho mwema amekuja."
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Ndugu amka twende, unaongoja nini tena roho mwema amekuja",
-                "Safari  ni ndefu\t¨\t¨\t¨\t¨\t¨",
-                "Safari ya kwenda kanana¨\t¨\t¨\t¨\t¨",
-                "Amka twende kanana\t¨\t¨\t¨\t¨\t¨",
-                "Mulozi acha kuloka\t¨\t¨\t¨\t¨\t¨"
+                "Ndugu amka twende , unaongoja nini tena roho mwema amekuja",
+                "Safari ni ndefu \" \" \" \" \"",
+                "Safari ya kwenda kanana\" \" \" \" \" \"",
+                "Amka twende kanana \" \" \" \" \"",
+                "Mulizi acha kuloka \" \" \" \" \""
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "Yesu alisema mutu mwenye kunifwata, chukia baba na mama na ujikane mwenyewe."
+                "Yesu alisema mutu mwenye kunifwata , chukia baba na mama na ujikane mwenyewe ."
               ]
             },
             {
               "type": "comment",
               "lines": [
-                "-Chukia madawa  chukia baba na mama na ujikane mwenyewe -Chukia bulozi    ¨     ¨     ¨     ¨     ¨    ¨     ¨",
-                "Wewe munaziri timiza naziri yako uliomba kwa mungu nichaguwe mimi takufanyiya uduma.",
-                "-kwa kuombea watu ni chaguwe mimi takufania uduma",
-                "- kwa kufundisha watu"
+                "Com : -Chukia madawa chukia baba na mama na ujikane mwenyewe",
+                "-Chukia bulozi \" \" \" \" \" \""
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Wewe munaziri timiza naziri yako uliomba kwa mungu nichaguwe mimi takufanyiya uduma."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "Com : -kwa kuombea watu ni chaguwe mimi takufania uduma",
+                "-kwa kufundisha watu \" \" \" \" \" \""
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -433,7 +459,7 @@
       "schema_version": "1.0",
       "id": "d3f34ff1-f91a-5f45-b02f-62dfb9c9b042",
       "title": "WAKATI YESU ALIPOELEKEA",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "967e4807-3220-526a-a3d8-e7ddcd3a61fe",
@@ -445,47 +471,49 @@
           },
           "title": "WAKATI YESU ALIPOELEKEA",
           "source": {
-            "file": "chants_de_sac_de_croyants.html",
-            "position": 8,
+            "file": "Cantiques_swahili.pdf",
+            "position": 363,
             "number": "211",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0385"
           },
           "taxonomy": {
-            "domain": "sunday",
-            "category_id": "dimanche-croyants",
-            "category_label": "Sacrifice des croyants",
-            "lesson_id": null,
-            "lesson_label": null
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. Wakati yesu alipo elekea njiani akaona muti mwema wa matunda alipo fika kutafuta matunda hakuona kamwe tunda ata moja."
+                "Wakati yesu alipo elekea njiani akaona mutini mwema wa matunda alipo fika kutafuta matunda hakuona kamwe tunda ata moja ."
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Chunguzeni matendo yenu munapo tendea bwana jiazareni wasi walaumu marafiki na wuovu mpenzi jehova Mungu wa yakobo unirehemu."
+                "Chunguzeni matendo yenu munapo tendea bwana jiazareni wasi walaumu marafiki na wuovu mpenzi jehoa mungu wa yakobo unirehemu."
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "1. Jiazareni enyi wana wa jehova shoka ni chini ya kila shina yote mutini wote usiotoa matunda utakatwa na kutupwa motoni."
+                "Jiazareni enyi wana wa jehoa shoka ni chini ya kila shina yote mutini wote usiotoa matunda utakatwa na kutupwa motoni."
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "3",
               "lines": [
-                "3. Sisi zote tulio humu hekaluni wa baba wa mama marafiki zetu atatukiwa wa kristu kweli tutoe matunda yanayo mpendeza."
+                "Sisi zote tulio humu hekaluni wa baba wa mama marafiki zetu atatukiwa wa kristu kweli tutoe matunda yanayo mpendeza."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -493,7 +521,7 @@
       "schema_version": "1.0",
       "id": "1dcd929f-c067-59e0-accc-8de42a0f1237",
       "title": "SAFARI NI MWANGU",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "de713129-6c22-5e36-a5e0-bf9a0ec340af",
@@ -505,47 +533,49 @@
           },
           "title": "SAFARI NI MWANGU",
           "source": {
-            "file": "chants_de_sac_de_croyants.html",
-            "position": 9,
+            "file": "Cantiques_swahili.pdf",
+            "position": 364,
             "number": "212",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0386"
           },
           "taxonomy": {
-            "domain": "sunday",
-            "category_id": "dimanche-croyants",
-            "category_label": "Sacrifice des croyants",
-            "lesson_id": null,
-            "lesson_label": null
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. Safari ni mwangu ninaomba Mungu na tuma Mungu mbele ili anitangulie (2x)"
+                "Safari ni mwangu ninaomba mungu na tuma mungu mbele ili anitangulie\"2x"
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Mungu wangu uniondoshe atari zote na shida, na shida zote ngumu. Apo mimi ni fikapo ni tapiga goti mpenzi jehova Mungu ni takushukuru (2x)"
+                "Mungu wangu uniondoshe atari zote na shida , na shida zote ngumu apo mimi ni fikapo ni tapiga gati mpenzi jehoa mungu ni takushukuru\"2x"
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "2. Uku mbele kuna vita kuu ya giza na shimu ndefu sana ili ni sipate uzima (2x)"
+                "Uku mbele kuna vita kuu ya giza na shimu ndefu sana ili ni sipate uzima \"2x"
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "3",
               "lines": [
-                "3. Ukiwahuja toka ndani ya vitu na mu mambo ya watu ewe utafariki kweli."
+                "Ukiwahuja toka ndani ya vitu na mu mambo ya watu ewe utafariki kweli."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -672,7 +702,7 @@
       "schema_version": "1.0",
       "id": "f4b75162-baa8-525e-9c4a-b8ccf9e64161",
       "title": "WA NDUGU MUSINITAABISHE",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "341f0f1f-1d64-50ec-b15f-0ce6cad72902",
@@ -684,45 +714,57 @@
           },
           "title": "WA NDUGU MUSINITAABISHE",
           "source": {
-            "file": "chants_de_sac_de_croyants.html",
-            "position": 13,
+            "file": "Cantiques_swahili.pdf",
+            "position": 368,
             "number": "217",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0391"
           },
           "taxonomy": {
-            "domain": "sunday",
-            "category_id": "dimanche-croyants",
-            "category_label": "Sacrifice des croyants",
-            "lesson_id": null,
-            "lesson_label": null
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. Wa ndugu musinitaabishe hamujuwi huko niendako naenda kwa baba kunako makao mengi, twache kuchukiyana kusingiziana maneno mengi (eh mimi) naenda kwa baba kunako makao mengi."
+                "Wa ndugu musinitaabishe hamujui huko niendako naenda kwa baba kunako makao mengi, twache kuchukiyana kusingizana maneno mengi (eh mimi) naenda kwa baba kunako makao mengi."
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "ni faida gani ni kufuru roho nipate uzima kwa nani ni faida gani ni kufuru neno nipate uzima kwa nani¨2x Mungu yoyoyo ni shutumiwapo sikitu kwangu hakika bwana sitakuacha.",
-                "Furaha yangu katika bwana haipendeze wingine miongoni mwetu, mungu wangu , mungu ni wewe ulinipa furaha .",
+                "ni faida gani ni kufuru roho nipate uzima kwa nani ni faida gani ni kufuru neno nipate uzima kwa nani\"2x Mungu yoyoyo ni shutumiwapo sikitu kwangu hakika bwana sitakuacha."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Furaha yangu katika bwana haipendeze wingine miongoni mwetu , mungu wangu , mungu ni wewe ulinipa furaha ."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
                 "Ni fanye nini mungu nipate kuriti uzima wako eh baba kwa imani tu eh tukipenda kuriti kwa imani tutariti inchi."
               ]
             },
             {
               "type": "comment",
               "lines": [
-                "-kweli , kweli baba zetu aliriti kwa imani tutariti inchi",
-                "-Ndugu yangu ukipenda kuriti  ¨\t¨\t¨\t¨",
-                "-Na mitume waliriti kanana"
+                "Com : -kweli , kweli baba zetu aliriti kwa imani tutariti inchi",
+                "-Ndugu yangu ukipenda kuriti \" \" \" \" \" \" \" \"",
+                "-Na mitume waliriti kanana \" \" \" \" \" \" \" \""
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -1157,7 +1199,7 @@
       "schema_version": "1.0",
       "id": "d8da7890-4f26-5da3-8eeb-017c76dd0ea7",
       "title": "HUMU NJIANI MWA BWANA",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "031b2824-8771-502c-8f14-6909c732cd23",
@@ -1169,23 +1211,26 @@
           },
           "title": "HUMU NJIANI MWA BWANA",
           "source": {
-            "file": "chants_de_sac_de_croyants.html",
-            "position": 21,
+            "file": "Cantiques_swahili.pdf",
+            "position": 351,
             "number": "197",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0372"
           },
           "taxonomy": {
-            "domain": "sunday",
-            "category_id": "dimanche-croyants",
-            "category_label": "Sacrifice des croyants",
-            "lesson_id": null,
-            "lesson_label": null
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1.Humu njiani mwa bwana muna visiki na magogo ¨Vinavio angusha wengi wasifike uko mwisho¨2x"
+                "Humu njiani mwa bwana muna visiki na magogo \"Vinavio angusha wengi wasifike uko mwisho\"2x"
               ]
             },
             {
@@ -1197,15 +1242,19 @@
             {
               "type": "comment",
               "lines": [
-                "-Taraja langu\t¨\t¨\t¨\t¨\t¨",
-                "-Sitara langu\t¨\t¨\t¨\t¨\t¨",
-                "-Mumbaji wangu\t¨\t¨\t¨\t¨Ngurumo uvumi uja juu yangu mimi munaziri wa mungu yo bahari nayo unigarikisha mimi mimi na potea."
+                "Com:-Taraja langu",
+                "-Sitara langu",
+                "-Mumbaji wangu"
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Ngurumo uvumi uja juu yangu mimi munaziri wa mungu yo bahari nayo unigarikisha mimi mimi na potea."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     }

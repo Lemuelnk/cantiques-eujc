@@ -15,8 +15,8 @@
     {
       "schema_version": "1.0",
       "id": "a79171ef-1572-52d2-b01d-3fa8fca47705",
-      "title": "MUNGU AKATUMA WATU KWAKE LOTI",
-      "status": "review",
+      "title": "MUNGU AKATUMA WATU KW AKE LOTI",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "3873622a-4401-523c-b82c-f50b11d44233",
@@ -26,49 +26,51 @@
             "status": "confirmed",
             "detection": "auto"
           },
-          "title": "MUNGU AKATUMA WATU KWAKE LOTI",
+          "title": "MUNGU AKATUMA WATU KW AKE LOTI",
           "source": {
-            "file": "chants_de_lot.html",
-            "position": 1,
+            "file": "Cantiques_swahili.pdf",
+            "position": 216,
             "number": "77",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0221"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-7",
-            "category_label": "Lot",
-            "lesson_id": "lesson-7",
-            "lesson_label": "Leçon 7 — Lot"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "Mungu akatuma watu kwake Loti mwende mukamuharifu ni taaribu muji."
+                "Mungu akatuma watu kwake Loti mwende mukamuharifu ni taaribu muji ."
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Mungu wangu, mungu wangu ninakuomba (Mimi nisiwe kama muke wa Loti kwakutazama nyuma)"
+                "Mungu wangu , mungu wangu ninakuomba ~ Mimi nisiwe kama muke wa Loti kwakutazama nyuma ~2x"
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "2",
               "lines": [
                 "Loti akasita sita kuondoka mujini bwana akamutoa kwa mukono wa nguvu aondoke mujini."
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "3",
               "lines": [
                 "Mungu akatuma Loti mulimani akaingia pangoni akazini na wanawe."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },

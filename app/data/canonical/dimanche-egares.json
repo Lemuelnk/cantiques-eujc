@@ -16,7 +16,7 @@
       "schema_version": "1.0",
       "id": "dce80213-0955-5b40-9482-5ed755342416",
       "title": "KUREJEA KWANGU",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "9cdad113-93bd-59c5-98ed-c2bb72dc06b8",
@@ -28,58 +28,55 @@
           },
           "title": "KUREJEA KWANGU",
           "source": {
-            "file": "chants_de_sac_degares.html",
-            "position": 1,
+            "file": "Cantiques_swahili.pdf",
+            "position": 375,
             "number": "226",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0401"
           },
           "taxonomy": {
-            "domain": "sunday",
-            "category_id": "dimanche-egares",
-            "category_label": "Sacrifice des égarés",
-            "lesson_id": null,
-            "lesson_label": null
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
               "type": "refrain",
               "lines": [
-                "Kurejea kwangu kuna furahisha baba yakini, yakini baba nimekoseya mbingu mimi, yakini, yakini baba ah, ah ni metenda zambi machoni pako",
-                "usinite muzaliwa wako mimi ni mutumishi wako."
+                "Kurejea kwangu kuna furahisha baba yakini , yakini baba nimekoseya mbingu mimi , yakini , yakini baba ah, ah ni metenda zambi machoni pako usinite muzaliwa wako mimi ni mutumishi wako."
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "Mavazi yangu ya mepasuka mimi muharibifu wa vitu vya baba maganda ya miti viakula via nguruwe ni vyakula vyangu (mimi) ¨Nime pote",
-                "anime potea baba yangu ¨2x"
+                "Mavazi yangu ya mepasuka mimi muharibifu wa vitu vya baba maganda ya miti viakula via nguruwe ni vyakula vyangu (mimi) \"Nime pote anime potea baba yangu \"2x"
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "Nirudi, nyende kwenye baba nilie eh nimepotea niliee eh nime potea, nime potea , nime potea baba yangu nime rejea, nime rejea, nime",
-                "rejea baba yangu."
+                "Nirudi , nyende kwenye baba nilie eh nimepotea niliee eh nime potea, nime potea, nime potea baba yangu nime rejea , nime rejea , nime rejea baba yangu."
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "3",
               "lines": [
-                "muvikeni mwana wangu kitani nzuri, mu muvikeni ii pete kukidole, mu muvikeni ii viato ku miguu njoni twimbe tu",
-                "furahiwe kwajili ya mwana."
+                "Mu muvikeni mwana wangu kitani nzuri , mu muvikeni ii pete kukidole , mu muvikeni ii viato ku miguu njoni twimbe tu furahiwe kwajili ya mwana."
               ]
             },
             {
               "type": "comment",
               "lines": [
-                "- Kwajili ya mwanangu, ya mwanangu alie potea, alipotelea wapi mu mambo yawatu, alie potea mu bulozi na chuki, alie potea mu",
-                "bulevi na bwizi, ana rudia leo njoni twimbe tufurahiwe kwajili ya mwana, njoni twimbee tufurahiwe kwajili ya mwana."
+                "Com :-Kwajili ya mwanangu , ya mwanangu ali e potea , alipotelea wapi mu mambo yawat u, ali e potea mu bulozi na chuki , ali e potea mu bulevi na bwizi , ana rudia leo njoni twimbe tufurahiwe kwajili ya mwana , njoni twimbee tufurahiwe kwajili ya mwana."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -87,7 +84,7 @@
       "schema_version": "1.0",
       "id": "7f5fddb9-566c-5d92-b784-5d24bd7c7eac",
       "title": "MWANA MUPOTEVU",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "e5753787-a113-52eb-a177-bce670a0b62d",
@@ -99,39 +96,51 @@
           },
           "title": "MWANA MUPOTEVU",
           "source": {
-            "file": "chants_de_sac_degares.html",
-            "position": 2,
+            "file": "Cantiques_swahili.pdf",
+            "position": 376,
             "number": "227",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0402"
           },
           "taxonomy": {
-            "domain": "sunday",
-            "category_id": "dimanche-egares",
-            "category_label": "Sacrifice des égarés",
-            "lesson_id": null,
-            "lesson_label": null
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "Mwana mupotevu akenda kwa baba eh huyu mwana Akamwambia hivi unipe sehemu za mali mimi naenda mahali pangu"
+                "\"Mwana mupotevu akenda kwa baba e \"2x huyu mwana \"Akamwambia hivi unipe sehemu za mali \"2x mimi naenda mahali pangu\"2x"
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "Baba akafikili akamupa sehemu za mali akienda akifurahi katikati ya njia, akienda akifurahi katikati ya njia."
+                "Baba akafikili akamupa sehemu za mali 2x akienda akifurahi katikati ya njia , akienda akifurahi katikati ya njia."
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "3",
               "lines": [
-                "Mahali alipoenda akapoteza mali kwa maisha mabaya ya wa sherati.Mwana akafikili kwa kurejea nyumbani mwao kuko babae."
+                "Mahali alipoenda akapoteza mali \"2x kwa maisha mabaya ya wa sherati."
               ]
             },
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "4",
+              "lines": [
+                "\"Mwana akafikili kwa kurejea \"2x nyumbani mwao kuko babae ."
+              ]
+            },
+            {
+              "type": "refrain",
               "lines": [
                 "Babayangu mupendwa baba umupokee yoyoyo kwa kuonesha upendo wako"
               ]
@@ -139,16 +148,13 @@
             {
               "type": "comment",
               "lines": [
-                "- Mutoto mpumbafu...",
-                "- Mutoto mujinga...",
-                "- Mutoto mulozi...",
-                "- Mutoto kahaba..."
+                "Com :-Mutoto mpumbafu \" \" \" \" \" \" \"",
+                "-Mutoto mujinga \" \" \" \" \" \" \"",
+                "-Mutoto mulozi \" \" \" \" \" \" \"",
+                "-Mutoto kahaba \" \" \" \" \" \" \""
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -345,7 +351,7 @@
       "schema_version": "1.0",
       "id": "a336f872-4a48-546e-84e2-601834d0a507",
       "title": "KATIKA MUJI WA YERUSALEMA",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "cfa09428-84c4-537c-9e86-fb9999cf3ff6",
@@ -357,37 +363,42 @@
           },
           "title": "KATIKA MUJI WA YERUSALEMA",
           "source": {
-            "file": "chants_de_sac_degares.html",
-            "position": 6,
+            "file": "Cantiques_swahili.pdf",
+            "position": 379,
             "number": "231",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0406"
           },
           "taxonomy": {
-            "domain": "sunday",
-            "category_id": "dimanche-egares",
-            "category_label": "Sacrifice des égarés",
-            "lesson_id": null,
-            "lesson_label": null
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. \tKatika muji wa yerusalema mufalme Herode akauwa wana wa changa wasio na hatia yeye akizania ya kwamba yesu atapatikamo vidudu kamwangukia Herode akakufa gafula."
+                "Katika muji wa yerusalema mufalme Herode akauwa wana wa changa wasio na hatia yeye akizania ya kwamba yesu atapatikamo vidudu kamwangukia Herode akakufa gafula."
               ]
             },
             {
               "type": "refrain",
               "lines": [
-                "Eh sikieni wajoli sauti kasikiwa rama vilio na maombolezo , Rakeli akililia wana wake wana wake wa changa hataki kufarijiwa sababu awake.",
-                "Wajoli jiazareni kwa mambo mu ya nenayo",
-                "Wajoli jiazareni kwa mambo mu ya tendayo , Mungu wetu siwa kutenganisha ni mungu wa rehema nyingi ah , ah weme usiwe mududu kati ya wana israeli usije ukakuwa wewe shamba lake ni rama."
+                "Eh sikieni wajoli sauti kasikiwa rama vilio na maombolezo , Rakeli akililia wana wake wana wake wa changa hataki kufarijiwa sababu awake."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Waohi liaza renki waa mambo mu ya nenayo Wajoli jiazareni kwa mambo mu ya tendayo , Mungu wetu siwa kutenganisha ni mungu wa rehema nyingi ah , ah weme usiwe mududu kati ya wana israeli usije ukakuwa wewe shamba lake ni rama."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },

@@ -257,7 +257,7 @@
       "schema_version": "1.0",
       "id": "17880b24-6ef2-5465-9c3a-c17819f880e0",
       "title": "JEHOVA MUNGU EH MUNGU WANGU",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "8cacd316-1104-5fde-81a1-22a3ac9d8583",
@@ -269,44 +269,61 @@
           },
           "title": "JEHOVA MUNGU EH MUNGU WANGU",
           "source": {
-            "file": "chants_de_david.html",
-            "position": 5,
+            "file": "Cantiques_swahili.pdf",
+            "position": 296,
             "number": "145",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0311"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-21",
-            "category_label": "Le royaume de David",
-            "lesson_id": "lesson-21",
-            "lesson_label": "Leçon 21 — Le royaume de David est celui de Saül"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "Jehova mungu eh mungu wangu Na kuita leo baba unirshindie vita."
+                "Jehova mungu eh mungu wangu \"Na kuita leo baba unirshindie vita\"2x"
               ]
             },
             {
               "type": "comment",
               "lines": [
-                "- Mumbaji wangu na kuita leo baba unishindie vita",
-                "- Mufalme wangu",
-                "- Tegemeo langu",
-                "Ulimuokowa Abramu, ulimuokoa na Lutu, ukamushindia Daudi unishindie vita, Na kwita yesu mwana unishindie vita",
-                "- Kweli vita ni kali na kwita yesu mwana unishindie vita",
-                "- Vita yote ya ndani",
-                "- Vita yote ya inje Sauli unipiganisha, Goliati unipiganisha, zige nange unipiganisha sikia roho mwema unishindie vita",
-                "- Roho wa mitume sikia roho mwema unishindie vita",
-                "- Roho wa Kadima",
-                "- Roho wa mababu Kweli vita ni kali vit aya pembe yote"
+                "Com : -Mumbaji wangu na kuita leo baba unishindie vita -Mufalme wangu \" \" \" \" \" \" \" \" -Tegemeo langu \" \" \" \" \" \" \" \""
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Ulimuokowa Abramu , ulimuokoa na Lutu , ukamushindia Daudi unishindie vita , \"Na kwita yesu mwana unishindie vita \"2x"
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "Com : -Kweli vita ni kali na kwita yesu mwana unishindie vita. -Vita yote ya ndani \" \" \" \" \" \" \" -Vita yote ya inje \" \" \" \" \" \" \""
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Sauli unipiganisha , Goliati unipiganisha , zige nange unipiganisha sikia roho mwema unishindie vita \"2X"
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "Com : -Roho wa mitume sikia roho mwema unishindie vita -Roho wa Kadima \" \" \" \" \" \" \" -Roho wa mababu \" \" \" \" \" \" \" Kweli vita ni kali vit aya pembe yote"
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
