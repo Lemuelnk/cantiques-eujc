@@ -5,7 +5,7 @@
   --share-cream:#faf6ec;
   --share-gold:#c9a44a;
   --share-line:rgba(16,47,39,.13);
-  --share-handle:#d9dfdc;
+  --share-handle:rgba(13,46,34,.18);
   --share-preview-bg:#f3f0e7;
   --share-preview-bg-fade:rgba(243,240,231,.95);
   --share-preview-fg:#56645d;
@@ -14,8 +14,8 @@
 }
 .share-overlay{position:fixed;inset:0;z-index:120;background:rgba(7,18,15,.58);-webkit-backdrop-filter:blur(3px);backdrop-filter:blur(3px)}
 .share-overlay[hidden],.share-sheet[hidden],.share-image-loading[hidden]{display:none!important}
-.share-sheet{position:fixed;z-index:121;left:0;right:0;bottom:0;width:min(100%,720px);margin:auto;box-sizing:border-box;max-height:94vh;max-height:94dvh;overflow-y:auto;overscroll-behavior:contain;padding:8px 20px calc(22px + env(safe-area-inset-bottom,0px));border-radius:26px 26px 0 0;background:var(--bg-sheet,#fff);color:var(--text-primary,#18231f);box-shadow:0 -16px 56px #0003;animation:share-enter .2s ease-out}
-.share-handle{width:42px;height:4px;margin:2px auto 14px;border-radius:99px;background:var(--share-handle)}
+.share-sheet{position:fixed;z-index:121;left:0;right:0;bottom:0;width:min(100%,720px);margin:auto;box-sizing:border-box;max-height:94vh;max-height:94dvh;overflow-y:auto;overscroll-behavior:contain;padding:8px 20px calc(22px + env(safe-area-inset-bottom,0px));border-radius:24px 24px 0 0;background:var(--bg-elevated,#fff);color:var(--text-primary,#18231f);box-shadow:0 -12px 40px rgba(0,0,0,0.22);animation:share-enter .2s ease-out}
+.share-handle{width:40px;height:4px;margin:4px auto 14px;border-radius:99px;background:var(--share-handle)}
 .share-header{display:grid;grid-template-columns:42px 1fr 42px;align-items:center;gap:8px;margin-bottom:22px}
 .share-header h2{margin:0;text-align:center;font:700 19px/1.25 var(--font-heading,sans-serif);letter-spacing:-.025em}
 .share-icon-button{display:grid;place-items:center;width:42px;height:42px;border:0;border-radius:50%;background:transparent;color:inherit;cursor:pointer}
@@ -40,7 +40,7 @@
 .share-generate{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;min-height:58px;padding:14px 18px;border:0;border-radius:17px;background:var(--share-btn-bg);color:var(--share-btn-fg);font:700 16px/1.2 var(--font-heading,sans-serif);cursor:pointer}.share-generate:active{transform:scale(.99)}.share-generate:disabled{opacity:.65;cursor:wait}.share-generate svg{width:21px;height:21px}
 .share-image-note{margin:11px 8px 0;color:var(--text-secondary,#65716c);font-size:11px;line-height:1.45;text-align:center}.share-sheet button:focus-visible{outline:3px solid var(--share-teal);outline-offset:3px}
 @keyframes share-enter{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
-@media(min-width:700px){.share-overlay{-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px)}.share-sheet{bottom:auto;top:50%;transform:translateY(-50%);border-radius:26px;max-height:90vh;max-height:90dvh}.share-preview{max-height:34vh;max-height:34dvh}#share-image-canvas{max-height:calc(34vh - 28px);max-height:calc(34dvh - 28px)}}
+@media(min-width:700px){.share-overlay{-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px)}.share-sheet{bottom:auto;top:50%;transform:translateY(-50%);border-radius:24px;max-height:90vh;max-height:90dvh}.share-preview{max-height:34vh;max-height:34dvh}#share-image-canvas{max-height:calc(34vh - 28px);max-height:calc(34dvh - 28px)}}
 @media(prefers-reduced-motion:reduce){.share-sheet{animation:none}}
 
 /* === Formats : 8 formes proportionnelles === */
@@ -169,7 +169,7 @@ body.theme-dark #share-image-canvas {
 @media (min-width: 1920px) {
   .share-sheet {
     max-width: 900px;
-    padding: 12px 32px calc(26px + env(safe-area-inset-bottom, 0px));
+    padding: 12px 32px calc(24px + env(safe-area-inset-bottom, 0px));
   }
   .share-action { min-height: 84px; padding: 14px 18px; }
   .share-action strong { font-size: 16px; }
@@ -181,4 +181,22 @@ body.theme-dark #share-image-canvas {
   .share-control-heading h3 { font-size: 16px; }
   .share-control-heading span { font-size: 13px; }
   .theme-thumb { max-width: 72px; }
+}
+
+/* === Fix : coins arrondis stables (clip-path + border-radius) === */
+.share-sheet,
+.share-image-sheet {
+  border-radius: 24px 24px 0 0;
+  /* clip-path découpe le rendu en contour -> pas de "claquage" */
+  -webkit-clip-path: inset(0 round 24px 24px 0 0);
+  clip-path: inset(0 round 24px 24px 0 0);
+}
+
+@media (min-width: 700px) {
+  .share-sheet,
+  .share-image-sheet {
+    border-radius: 24px;
+    -webkit-clip-path: inset(0 round 24px);
+    clip-path: inset(0 round 24px);
+  }
 }
