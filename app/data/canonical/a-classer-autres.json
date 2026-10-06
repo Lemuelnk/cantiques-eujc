@@ -14,12 +14,12 @@
   "hymns": [
     {
       "schema_version": "1.0",
-      "id": "sw-Cantique-101",
+      "id": "autres-0001",
       "title": "PAKUTUKA YAYA",
       "status": "review",
       "versions": [
         {
-          "id": "sw-Cantique-101-v1",
+          "id": "autres-0001-v1",
           "language": {
             "code": "autres",
             "label": "Langue indéterminée",
@@ -75,12 +75,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "sw-Cantique-378",
+      "id": "autres-0002",
       "title": "ONSE ULE UNFWE FIEBO FIANDI",
       "status": "review",
       "versions": [
         {
-          "id": "sw-Cantique-378-v1",
+          "id": "autres-0002-v1",
           "language": {
             "code": "autres",
             "label": "Langue indéterminée",
@@ -138,12 +138,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "autres-recover-cantique-103",
+      "id": "autres-0003",
       "title": "TUMBU NINALO",
       "status": "review",
       "versions": [
         {
-          "id": "autres-recover-cantique-103-v1",
+          "id": "autres-0003-v1",
           "language": {
             "code": "autres",
             "label": "Langue indéterminée",

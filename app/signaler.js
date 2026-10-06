@@ -131,6 +131,11 @@ const TYPE_HINTS = {
 };
 
 const CATEGORIES_LABELS = {
+  'a-classer-francais': 'Cantiques a classer - Francais',
+  'a-classer-swahili':  'Cantiques a classer - Swahili',
+  'a-classer-tshiluba': 'Cantiques a classer - Tshiluba',
+  'a-classer-lingala':  'Cantiques a classer - Lingala',
+  'a-classer-autres':   'Cantiques a classer - Autres langues',
   'lesson-0': 'Leçon 0 — Lucifer',
   'lesson-1': 'Leçon 1 — Création',
   'lesson-2': 'Leçon 2 — Éden',

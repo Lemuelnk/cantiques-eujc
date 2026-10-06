@@ -56,10 +56,17 @@ const CATEGORIES = [
   'dimanche-egares', 'dimanche-rois', 'dimanche-visiteurs',
   'dimanche-divers',
   'priere-misericorde', 'priere-invocation',
-  'priere-general', 'priere-bataille'
+  'priere-general', 'priere-bataille',
+  'a-classer-francais', 'a-classer-swahili', 'a-classer-tshiluba',
+  'a-classer-lingala', 'a-classer-autres'
 ];
 
 const CATEGORY_LABELS = {
+  'a-classer-francais': 'Cantiques a classer - Francais',
+  'a-classer-swahili':  'Cantiques a classer - Swahili',
+  'a-classer-tshiluba': 'Cantiques a classer - Tshiluba',
+  'a-classer-lingala':  'Cantiques a classer - Lingala',
+  'a-classer-autres':   'Cantiques a classer - Autres langues',
   'lesson-0':  'Leçon 0 — Lucifer',
   'lesson-1':  'Leçon 1 — Création',
   'lesson-2':  'Leçon 2 — Éden',

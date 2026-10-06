@@ -14,12 +14,12 @@
   "hymns": [
     {
       "schema_version": "1.0",
-      "id": "tsh-CHANTS_E-0",
+      "id": "tsh-0001",
       "title": "« SAFARI YETU JEHOVA AA »",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-CHANTS_E-0-v1",
+          "id": "tsh-0001-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -87,12 +87,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-1",
+      "id": "tsh-0002",
       "title": "BADI BASUE LUPANDU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-1-v1",
+          "id": "tsh-0002-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -151,12 +151,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-2",
+      "id": "tsh-0003",
       "title": "LUAYI KUDI YESU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-2-v1",
+          "id": "tsh-0003-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -216,12 +216,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-3",
+      "id": "tsh-0004",
       "title": "PAKAKUATA NZAMBI MUDIMU WAKUFUKA NE KUENZA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-3-v1",
+          "id": "tsh-0004-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -281,12 +281,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-4",
+      "id": "tsh-0005",
       "title": "KALE KU TSHIBANGIDILU NZAMBI WAKAFUKA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-4-v1",
+          "id": "tsh-0005-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -370,12 +370,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-5",
+      "id": "tsh-0006",
       "title": "NZAMBI WAKELA MEJI BUA KUFUKA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-5-v1",
+          "id": "tsh-0006-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -436,12 +436,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-6",
+      "id": "tsh-0007",
       "title": "NZAMBI WANYI WAKAFUKA DIULU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-6-v1",
+          "id": "tsh-0007-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -497,12 +497,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-7",
+      "id": "tsh-0008",
       "title": "NZAMBI WAKATUFUKA MU TSHINFUANYI TSHIENDE",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-7-v1",
+          "id": "tsh-0008-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -570,12 +570,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-8",
+      "id": "tsh-0009",
       "title": "KALE KU TSHIBANGIDILU DÎ DIA NZAMBI DIAKADI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-8-v1",
+          "id": "tsh-0009-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -629,12 +629,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-9",
+      "id": "tsh-0010",
       "title": "PAKAJIKIJA NZAMBI KUFUKA BINTU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-9-v1",
+          "id": "tsh-0010-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -697,12 +697,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-10",
+      "id": "tsh-0011",
       "title": "KU KALE KU KALE NZAMBI KUFUKA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-10-v1",
+          "id": "tsh-0011-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -766,12 +766,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-11",
+      "id": "tsh-0012",
       "title": "MUKAJI WAKADIA TSHIMUMA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-11-v1",
+          "id": "tsh-0012-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -834,12 +834,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-12",
+      "id": "tsh-0013",
       "title": "NZAMBI MUNENE WAKAFUKA BANTU ABA BABIDI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-12-v1",
+          "id": "tsh-0013-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -896,12 +896,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-13",
+      "id": "tsh-0014",
       "title": "ADAMA WAKAMANYANGANA NI EVA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-13-v1",
+          "id": "tsh-0014-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -961,12 +961,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-14",
+      "id": "tsh-0015",
       "title": "ADAMA NE EVA BAKAPIDIA NZAMBI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-14-v1",
+          "id": "tsh-0015-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -1022,12 +1022,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-15",
+      "id": "tsh-0016",
       "title": "ADAMA WAKADI NE BANA BABIDI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-15-v1",
+          "id": "tsh-0016-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -1085,12 +1085,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-16",
+      "id": "tsh-0017",
       "title": "BUALU BUA MILAMBU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-16-v1",
+          "id": "tsh-0017-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -1147,12 +1147,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-17",
+      "id": "tsh-0018",
       "title": "LEMEKA WAKADI NE BIDIMU BIA BUNYI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-17-v1",
+          "id": "tsh-0018-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -1212,12 +1212,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-18",
+      "id": "tsh-0019",
       "title": "PAKABANGA BANTU KUVULANGANA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-18-v1",
+          "id": "tsh-0019-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -1278,12 +1278,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-19",
+      "id": "tsh-0020",
       "title": "PAKAVULANGANA BUBI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-19-v1",
+          "id": "tsh-0020-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -1346,12 +1346,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-20",
+      "id": "tsh-0021",
       "title": "TSHIKONDO TSHIA KALE NAKADI MU MIDIMA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-20-v1",
+          "id": "tsh-0021-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -1401,12 +1401,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-21",
+      "id": "tsh-0022",
       "title": "TUAKUMANA KUENDA MU MIDIMA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-21-v1",
+          "id": "tsh-0022-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -1466,12 +1466,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-22",
+      "id": "tsh-0023",
       "title": "NOA MU BUATU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-22-v1",
+          "id": "tsh-0023-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -1540,12 +1540,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-23",
+      "id": "tsh-0024",
       "title": "NZAMBI WAKABIKILA ABALAMA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-23-v1",
+          "id": "tsh-0024-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -1609,12 +1609,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-24",
+      "id": "tsh-0025",
       "title": "PAKUNVUA ABALAMA DÎ DIMUBIKILA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-24-v1",
+          "id": "tsh-0025-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -1675,12 +1675,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-25",
+      "id": "tsh-0026",
       "title": "ABALAMA KUNVUA DI DIA NZAMBI WA MUOYO",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-25-v1",
+          "id": "tsh-0026-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -1745,12 +1745,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-26",
+      "id": "tsh-0027",
       "title": "NZAMBI WAKATUMA BANTU KUDI ABALAHAMA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-26-v1",
+          "id": "tsh-0027-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -1807,12 +1807,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-27",
+      "id": "tsh-0028",
       "title": "BANTU BA SODOMA NE AMOLA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-27-v1",
+          "id": "tsh-0028-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -1868,12 +1868,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-28",
+      "id": "tsh-0029",
       "title": "BANJELO BAKAYA BUA KUSUNGILA LOTA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-28-v1",
+          "id": "tsh-0029-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -1935,12 +1935,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-29",
+      "id": "tsh-0030",
       "title": "MU MUSOKO WA SODOMA NE AMOLA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-29-v1",
+          "id": "tsh-0030-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -2005,12 +2005,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-30",
+      "id": "tsh-0031",
       "title": "NDI KUBIKILA MUKALENGA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-30-v1",
+          "id": "tsh-0031-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -2069,12 +2069,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-31",
+      "id": "tsh-0032",
       "title": "ISAKA MUNTU MUNUNU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-31-v1",
+          "id": "tsh-0032-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -2130,12 +2130,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-32",
+      "id": "tsh-0033",
       "title": "NZAMBI WANYI NFUKILA MUTSHIMA MUIMPE",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-32-v1",
+          "id": "tsh-0033-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -2192,12 +2192,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-33",
+      "id": "tsh-0034",
       "title": "YAKOBA WAKADI NE BANA DIKUMI NE BABIDI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-33-v1",
+          "id": "tsh-0034-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -2254,12 +2254,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-34",
+      "id": "tsh-0035",
       "title": "MU BANA BA YAKOBA KABAKASUANGANA TO",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-34-v1",
+          "id": "tsh-0035-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -2316,12 +2316,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-35",
+      "id": "tsh-0036",
       "title": "MONAYI! BUALU EBU BUA DIKEMA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-35-v1",
+          "id": "tsh-0036-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -2371,12 +2371,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-36",
+      "id": "tsh-0037",
       "title": "BENA ISALELA KUDIBUEJA MU BUPIKA BUA PALO",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-36-v1",
+          "id": "tsh-0037-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -2439,12 +2439,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-37",
+      "id": "tsh-0038",
       "title": "MALU AKUKEMA A KUDI YEHOWA NZAMBI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-37-v1",
+          "id": "tsh-0038-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -2504,12 +2504,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-38",
+      "id": "tsh-0039",
       "title": "PAKADI ISALELA MU EJIPITU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-38-v1",
+          "id": "tsh-0039-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -2568,12 +2568,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-39",
+      "id": "tsh-0040",
       "title": "TUETU KUKENGA MU BUPIKA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-39-v1",
+          "id": "tsh-0040-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -2632,12 +2632,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-40",
+      "id": "tsh-0041",
       "title": "KUVUA MUNTU MUKUABU MOISE MUSUNGULA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-40-v1",
+          "id": "tsh-0041-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -2687,12 +2687,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-41",
+      "id": "tsh-0042",
       "title": "NZAMBI WAKALAYA BANKAMBUA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-41-v1",
+          "id": "tsh-0042-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -2751,12 +2751,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-42",
+      "id": "tsh-0043",
       "title": "TUAKUMANA KUKENGA MU EJIPITU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-42-v1",
+          "id": "tsh-0043-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -2812,12 +2812,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-42",
+      "id": "tsh-0044",
       "title": "YUDASA KWENZA BWALU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-42-v1",
+          "id": "tsh-0044-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -2873,12 +2873,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-43",
+      "id": "tsh-0045",
       "title": "NZAMBI YOYOYO AN",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-43-v1",
+          "id": "tsh-0045-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -2930,12 +2930,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-43",
+      "id": "tsh-0046",
       "title": "MU MUSOKO WA SODOMO NA AMOLA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-43-v1",
+          "id": "tsh-0046-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -2991,12 +2991,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-44",
+      "id": "tsh-0047",
       "title": "PAKAYA BENA ISALELA KUMONANGANA NE NZAMBI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-44-v1",
+          "id": "tsh-0047-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -3055,12 +3055,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-44",
+      "id": "tsh-0048",
       "title": "YEPOWA NZAMBI KUBIKILA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-44-v1",
+          "id": "tsh-0048-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -3116,12 +3116,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-45",
+      "id": "tsh-0049",
       "title": "DIPATUKA DIA BENA ISALELA KALE",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-45-v1",
+          "id": "tsh-0049-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -3177,12 +3177,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-46",
+      "id": "tsh-0050",
       "title": "ABA BA NGANYI?",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-46-v1",
+          "id": "tsh-0050-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -3233,12 +3233,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-47",
+      "id": "tsh-0051",
       "title": "BENA ISALELA BAYIDI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-47-v1",
+          "id": "tsh-0051-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -3302,12 +3302,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-48",
+      "id": "tsh-0052",
       "title": "KUIKADI NE NZAMBI MIKUABO",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-48-v1",
+          "id": "tsh-0052-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -3366,12 +3366,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-48",
+      "id": "tsh-0053",
       "title": "BALUNDA BANYI BAKASHIDI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-48-v1",
+          "id": "tsh-0053-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -3437,12 +3437,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-49",
+      "id": "tsh-0054",
       "title": "KANUANGATSHIDI MUANA WENU MULUMA (KANANA)",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-49-v1",
+          "id": "tsh-0054-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -3502,12 +3502,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-50",
+      "id": "tsh-0055",
       "title": "BAKANTUMA MEME MU BISAMBA BIA BENDE",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-50-v1",
+          "id": "tsh-0055-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -3567,12 +3567,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-51",
+      "id": "tsh-0056",
       "title": "MU MALU ONSO, MALU APA BULOBA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-51-v1",
+          "id": "tsh-0056-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -3625,12 +3625,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-51",
+      "id": "tsh-0057",
       "title": "TSHIAKADI MUMANYA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-51-v1",
+          "id": "tsh-0057-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -3686,12 +3686,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-52",
+      "id": "tsh-0058",
       "title": "BIOMBELU EBI BIA MU DIULU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-52-v1",
+          "id": "tsh-0058-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -3741,12 +3741,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-53",
+      "id": "tsh-0059",
       "title": "BENA ISALELA BAKADI NE MOSE",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-53-v1",
+          "id": "tsh-0059-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -3803,12 +3803,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-54",
+      "id": "tsh-0060",
       "title": "MONA NDI TUMA MUANJELO WANYI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-54-v1",
+          "id": "tsh-0060-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -3865,12 +3865,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-54",
+      "id": "tsh-0061",
       "title": "NDIKUBIKILA MUKALENGA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-54-v1",
+          "id": "tsh-0061-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -3926,12 +3926,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-55",
+      "id": "tsh-0062",
       "title": "YOSHUA WAKATUMA BATENTEKEDI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-55-v1",
+          "id": "tsh-0062-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -3987,12 +3987,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-56",
+      "id": "tsh-0063",
       "title": "BENA ISALELA BASABUKA YADENA LELU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-56-v1",
+          "id": "tsh-0063-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -4055,12 +4055,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-57",
+      "id": "tsh-0064",
       "title": "NDI MONA MUKALENGA MU MUOYO WANYI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-57-v1",
+          "id": "tsh-0064-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -4123,12 +4123,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-57",
+      "id": "tsh-0065",
       "title": "KALE KUTSHIMBANGIDILU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-57-v1",
+          "id": "tsh-0065-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -4184,12 +4184,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-58",
+      "id": "tsh-0066",
       "title": "BUA KUJADIKA DIBUTUKA DIA YELEKO",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-58-v1",
+          "id": "tsh-0066-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -4245,12 +4245,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-58",
+      "id": "tsh-0067",
       "title": "TSHIKONDO",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-58-v1",
+          "id": "tsh-0067-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -4312,12 +4312,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-59",
+      "id": "tsh-0068",
       "title": "INDI JINGULULA KANANA SI MUSOKO",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-59-v1",
+          "id": "tsh-0068-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -4376,12 +4376,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-59",
+      "id": "tsh-0069",
       "title": "NZAMBI WA KAMBA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-59-v1",
+          "id": "tsh-0069-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -4449,12 +4449,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-60",
+      "id": "tsh-0070",
       "title": "BANJELO BADI MU DIULU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-60-v1",
+          "id": "tsh-0070-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -4506,12 +4506,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-61",
+      "id": "tsh-0071",
       "title": "MISOKO TSHITEMA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-61-v1",
+          "id": "tsh-0071-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -4567,12 +4567,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-62",
+      "id": "tsh-0072",
       "title": "KUVUA MUNTU MUKUABU WA MU DIKU DIA DANA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-62-v1",
+          "id": "tsh-0072-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -4633,12 +4633,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-63",
+      "id": "tsh-0073",
       "title": "MUKALENGA SHAULA UVUA MUELA MANYI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-63-v1",
+          "id": "tsh-0073-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -4696,12 +4696,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-63",
+      "id": "tsh-0074",
       "title": "LESA AMWEBELE NOA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-63-v1",
+          "id": "tsh-0074-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -4756,12 +4756,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-64",
+      "id": "tsh-0075",
       "title": "YEHOWA NZAMBI KUAMBILA MUAMBI SAMUELA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-64-v1",
+          "id": "tsh-0075-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -4818,12 +4818,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-64",
+      "id": "tsh-0076",
       "title": "BANJELU BADI MIDIULU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-64-v1",
+          "id": "tsh-0076-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -4872,12 +4872,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-65",
+      "id": "tsh-0077",
       "title": "ANU MUNKATSHI MUA BANTU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-65-v1",
+          "id": "tsh-0077-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -4934,12 +4934,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-66",
+      "id": "tsh-0078",
       "title": "WEWE GOLIATA DAVIDI NE AKUSHEBEYA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-66-v1",
+          "id": "tsh-0078-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -5016,12 +5016,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-67",
+      "id": "tsh-0079",
       "title": "MUKALENGA WANYI BUALU EBU BUNENE",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-67-v1",
+          "id": "tsh-0079-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -5077,12 +5077,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-68",
+      "id": "tsh-0080",
       "title": "BULELELA KAYI MPINDIEU (BULELELA BUA NZAMBI)",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-68-v1",
+          "id": "tsh-0080-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -5146,12 +5146,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-69",
+      "id": "tsh-0081",
       "title": "NDI NJINGA BUA KUSABUKA YADENA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-69-v1",
+          "id": "tsh-0081-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -5211,12 +5211,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-70",
+      "id": "tsh-0082",
       "title": "NDI DILA MUADI BUA BISAMBA BIA BANTU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-70-v1",
+          "id": "tsh-0082-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -5275,12 +5275,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-71",
+      "id": "tsh-0083",
       "title": "NZAMBI WAKAMBILA DAVIDI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-71-v1",
+          "id": "tsh-0083-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -5337,12 +5337,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-72",
+      "id": "tsh-0084",
       "title": "NAKADI MULUNDA WA MALU APA BULOBA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-72-v1",
+          "id": "tsh-0084-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -5398,12 +5398,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-73",
+      "id": "tsh-0085",
       "title": "MU NJILA YONSO INDI NGENDA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-73-v1",
+          "id": "tsh-0085-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -5462,12 +5462,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-74",
+      "id": "tsh-0086",
       "title": "MU LUENDU LUANYI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-74-v1",
+          "id": "tsh-0086-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -5523,12 +5523,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-75",
+      "id": "tsh-0087",
       "title": "BANA BETU TUMBUSHAYI MPATA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-75-v1",
+          "id": "tsh-0087-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -5584,12 +5584,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-76",
+      "id": "tsh-0088",
       "title": "NDI MBIKILA, MBIKILA YESU WA NZAMBI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-76-v1",
+          "id": "tsh-0088-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -5646,12 +5646,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-77",
+      "id": "tsh-0089",
       "title": "KUAKADI BALUNDA BASATU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-77-v1",
+          "id": "tsh-0089-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -5710,12 +5710,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-78",
+      "id": "tsh-0090",
       "title": "YOBO MUNTU WA NZAMBI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-78-v1",
+          "id": "tsh-0090-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -5772,12 +5772,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-79",
+      "id": "tsh-0091",
       "title": "BAKAYA KELA DANIELE MU BUINA BUA NTAMBUA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-79-v1",
+          "id": "tsh-0091-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -5835,12 +5835,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-80",
+      "id": "tsh-0092",
       "title": "LUAYI BONSO BUENU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-80-v1",
+          "id": "tsh-0092-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -5898,12 +5898,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-80",
+      "id": "tsh-0093",
       "title": "NDJIKUBIKILA MUKALENGA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-80-v1",
+          "id": "tsh-0093-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -5959,12 +5959,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-81",
+      "id": "tsh-0094",
       "title": "MALU ONSO A PA BULOBA EBU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-81-v1",
+          "id": "tsh-0094-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -6021,12 +6021,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-82",
+      "id": "tsh-0095",
       "title": "NABOTA WAKADI NE BUDIMI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-82-v1",
+          "id": "tsh-0095-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -6083,12 +6083,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-83",
+      "id": "tsh-0096",
       "title": "AHABA WAKADI MUKOKESHI MU BULOBA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-83-v1",
+          "id": "tsh-0096-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -6147,12 +6147,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-83",
+      "id": "tsh-0097",
       "title": "YAKOBO WA KADI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-83-v1",
+          "id": "tsh-0097-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -6214,12 +6214,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-85",
+      "id": "tsh-0098",
       "title": "BENA MUHONGO",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-85-v1",
+          "id": "tsh-0098-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -6270,12 +6270,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-86",
+      "id": "tsh-0099",
       "title": "NI KATAZAMA MUJI MTAKATIFU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-86-v1",
+          "id": "tsh-0099-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -6337,12 +6337,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-88",
+      "id": "tsh-0100",
       "title": "BETANIA UDI MUSOKO",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-88-v1",
+          "id": "tsh-0100-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -6403,12 +6403,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-88",
+      "id": "tsh-0101",
       "title": "DIYI DIA YEPOWA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-88-v1",
+          "id": "tsh-0101-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -6464,12 +6464,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-89",
+      "id": "tsh-0102",
       "title": "YESU KUAMBILA BAYIDI TUYAYI MU BETANIA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-89-v1",
+          "id": "tsh-0102-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -6526,12 +6526,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-89",
+      "id": "tsh-0103",
       "title": "DIYI KE DIDI DILAMA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-89-v1",
+          "id": "tsh-0103-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -6587,12 +6587,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-90",
+      "id": "tsh-0104",
       "title": "MUANA WA NZAMBI KULEJA BAYIDI BANDI MENE",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-90-v1",
+          "id": "tsh-0104-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -6644,12 +6644,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-90",
+      "id": "tsh-0105",
       "title": "YESU WAKALWA PANSHI PA BULOBA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-90-v1",
+          "id": "tsh-0105-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -6705,12 +6705,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-91",
+      "id": "tsh-0106",
       "title": "YESU KUAMBAYE KUAMBA BULELELA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-91-v1",
+          "id": "tsh-0106-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -6774,12 +6774,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-92",
+      "id": "tsh-0107",
       "title": "NDI NTONDA BUA MPETA MULAYI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-92-v1",
+          "id": "tsh-0107-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -6835,12 +6835,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-93",
+      "id": "tsh-0108",
       "title": "MALU A MUBIDI ADI MIMANYINANGANA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-93-v1",
+          "id": "tsh-0108-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -6897,12 +6897,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-93",
+      "id": "tsh-0109",
       "title": "YESU PAKADIYE MU NJILA WA YELIKO",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-93-v1",
+          "id": "tsh-0109-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -6951,12 +6951,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-94",
+      "id": "tsh-0110",
       "title": "MALU A MUBIDI NE A NYUMA ADI MIMANYINANGANA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-94-v1",
+          "id": "tsh-0110-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -7013,12 +7013,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-95",
+      "id": "tsh-0111",
       "title": "NDI NGELA LUBILA BU YONE WA NZ.",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-95-v1",
+          "id": "tsh-0111-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -7068,12 +7068,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-97",
+      "id": "tsh-0112",
       "title": "MU DINA DIA TATU NZAMBI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-97-v1",
+          "id": "tsh-0112-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -7143,12 +7143,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-97",
+      "id": "tsh-0113",
       "title": "MALU A MUBIDI NIA NYUMA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-97-v1",
+          "id": "tsh-0113-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -7204,12 +7204,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-98",
+      "id": "tsh-0114",
       "title": "PAKADI YESU WENDAKANA MU NJILA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-98-v1",
+          "id": "tsh-0114-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -7265,12 +7265,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-98",
+      "id": "tsh-0115",
       "title": "KU KALE MU EDENA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-98-v1",
+          "id": "tsh-0115-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -7335,12 +7335,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-99",
+      "id": "tsh-0116",
       "title": "YESU UVUA WENDAKANA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-99-v1",
+          "id": "tsh-0116-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -7389,12 +7389,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-99",
+      "id": "tsh-0117",
       "title": "DILUA DIA MUANA WA MUNTU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-99-v1",
+          "id": "tsh-0117-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -7456,12 +7456,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-100",
+      "id": "tsh-0118",
       "title": "BANTU BADI ANU BAMANYA BIMANYINU BIA NVULA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-100-v1",
+          "id": "tsh-0118-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -7518,12 +7518,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-101",
+      "id": "tsh-0119",
       "title": "BUA KUSABUKA MU BUATU BIMPE",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-101-v1",
+          "id": "tsh-0119-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -7580,12 +7580,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-102",
+      "id": "tsh-0120",
       "title": "KULUMBULULA KUA MALU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-102-v1",
+          "id": "tsh-0120-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -7641,12 +7641,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-103",
+      "id": "tsh-0121",
       "title": "BANA BAKAJI BA MU YELUSHALEMA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-103-v1",
+          "id": "tsh-0121-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -7705,12 +7705,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-104",
+      "id": "tsh-0122",
       "title": "PAKADI YONE UBATIZA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-104-v1",
+          "id": "tsh-0122-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -7760,12 +7760,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-104",
+      "id": "tsh-0123",
       "title": "BANABETU BANANGA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-104-v1",
+          "id": "tsh-0123-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -7836,12 +7836,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-105",
+      "id": "tsh-0124",
       "title": "TUAKUBANGA MUDIMU EU NE NZAMBI TATU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-105-v1",
+          "id": "tsh-0124-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -7900,12 +7900,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-105",
+      "id": "tsh-0125",
       "title": "NAKALUILA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-105-v1",
+          "id": "tsh-0125-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -7961,12 +7961,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-106",
+      "id": "tsh-0126",
       "title": "KUAMBA KUA YESU KU MUKUNA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-106-v1",
+          "id": "tsh-0126-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -8022,12 +8022,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-107",
+      "id": "tsh-0127",
       "title": "PAKADI YESU KU MUTSHI MUTSHIAMAKANE",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-107-v1",
+          "id": "tsh-0127-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -8083,12 +8083,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-108",
+      "id": "tsh-0128",
       "title": "NDI MUIMANE KU LUMUENU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-108-v1",
+          "id": "tsh-0128-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -8145,12 +8145,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-108",
+      "id": "tsh-0129",
       "title": "MUKALENGA WANYI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-108-v1",
+          "id": "tsh-0129-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -8206,12 +8206,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-109",
+      "id": "tsh-0130",
       "title": "NVITA MINENE KUENZEKA MU DIULU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-109-v1",
+          "id": "tsh-0130-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -8267,12 +8267,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-110",
+      "id": "tsh-0131",
       "title": "KUDIKANDA NDIMUMA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-110-v1",
+          "id": "tsh-0131-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -8324,12 +8324,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-110",
+      "id": "tsh-0132",
       "title": "ANU MUNKATSHI MUA BANTU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-110-v1",
+          "id": "tsh-0132-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -8385,12 +8385,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-111",
+      "id": "tsh-0133",
       "title": "BAKESE NE BAYA MU DIULU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-111-v1",
+          "id": "tsh-0133-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -8453,12 +8453,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-112",
+      "id": "tsh-0134",
       "title": "BANTU WETU KUAMBILA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-112-v1",
+          "id": "tsh-0134-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -8515,12 +8515,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-113",
+      "id": "tsh-0135",
       "title": "BIFUKIBUA BIONSO MULU MU DIULU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-113-v1",
+          "id": "tsh-0135-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -8586,12 +8586,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-113",
+      "id": "tsh-0136",
       "title": "DIPATUKA DIA BENA ISALELA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-113-v1",
+          "id": "tsh-0136-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -8641,12 +8641,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-114",
+      "id": "tsh-0137",
       "title": "NAKADI NGENDAKANA DINDA NE DILOLO",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-114-v1",
+          "id": "tsh-0137-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -8703,12 +8703,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-115",
+      "id": "tsh-0138",
       "title": "TSHINTU TSHILAMAKAJA KUDI NZAMBI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-115-v1",
+          "id": "tsh-0138-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -8764,12 +8764,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-116",
+      "id": "tsh-0139",
       "title": "NZAMBI WAKASUA BANTU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-116-v1",
+          "id": "tsh-0139-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -8834,12 +8834,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-117",
+      "id": "tsh-0140",
       "title": "YEKELÉKELE BANSANTU WA YAYA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-117-v1",
+          "id": "tsh-0140-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -8902,12 +8902,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-118",
+      "id": "tsh-0141",
       "title": "BENA KUITABUJA NUADIMUKA BIENU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-118-v1",
+          "id": "tsh-0141-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -8964,12 +8964,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-119",
+      "id": "tsh-0142",
       "title": "YESU WAKAMBA MEME NYAYA KULU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-119-v1",
+          "id": "tsh-0142-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -9025,12 +9025,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-120",
+      "id": "tsh-0143",
       "title": "MUKAJI WA MU SAMALEA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-120-v1",
+          "id": "tsh-0143-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -9102,12 +9102,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-123",
+      "id": "tsh-0144",
       "title": "DITENGUDIBUA DIDI TSHIMANYINU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-123-v1",
+          "id": "tsh-0144-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -9163,12 +9163,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-124",
+      "id": "tsh-0145",
       "title": "BUA KULEDIBUA KUA SHIMISHONA MUNAZI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-124-v1",
+          "id": "tsh-0145-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -9225,12 +9225,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-125",
+      "id": "tsh-0146",
       "title": "KALE KU TSHIBANGIDILU DÎ DIAKADIKU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-125-v1",
+          "id": "tsh-0146-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -9287,12 +9287,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-126",
+      "id": "tsh-0147",
       "title": "MUOYO WANYI UDI MUNKATSHI MUA NYAMA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-126-v1",
+          "id": "tsh-0147-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -9348,12 +9348,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-127",
+      "id": "tsh-0148",
       "title": "KULUA KUA MUANA WA MUNTU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-127-v1",
+          "id": "tsh-0148-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -9410,12 +9410,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-128",
+      "id": "tsh-0149",
       "title": "MUKALENGA NZAMBI WA ISALELA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-128-v1",
+          "id": "tsh-0149-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -9471,12 +9471,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-129",
+      "id": "tsh-0150",
       "title": "BAKASHIPA BA PROFETA NE BAPOSTOLO BA YESU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-129-v1",
+          "id": "tsh-0150-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -9533,12 +9533,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-130",
+      "id": "tsh-0151",
       "title": "NYUMA MUIMPE WA YEHOWA MUFUMA MU DIULU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-130-v1",
+          "id": "tsh-0151-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -9601,12 +9601,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-131",
+      "id": "tsh-0152",
       "title": "BADI NE MAJITU LUAYI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-131-v1",
+          "id": "tsh-0152-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -9651,12 +9651,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-132",
+      "id": "tsh-0153",
       "title": "DIBIKIDIBUA DIA ELISHA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-132-v1",
+          "id": "tsh-0153-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -9712,12 +9712,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-133",
+      "id": "tsh-0154",
       "title": "MU ULA MUAMUA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-133-v1",
+          "id": "tsh-0154-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -9775,12 +9775,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-134",
+      "id": "tsh-0155",
       "title": "MU BUKOKESHI BUA MUKALENGA HELODA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-134-v1",
+          "id": "tsh-0155-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -9836,12 +9836,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-135",
+      "id": "tsh-0156",
       "title": "KULEDIBUA KUA YONE MUANA WA ZEKAYO",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-135-v1",
+          "id": "tsh-0156-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -9897,12 +9897,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-137",
+      "id": "tsh-0157",
       "title": "MUNTU WAKADIKU YONE MUTUMA KUDI MUKALENGA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-137-v1",
+          "id": "tsh-0157-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -9961,12 +9961,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-138",
+      "id": "tsh-0158",
       "title": "ABALAHAMA WAKADI NE BANA BABIDI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-138-v1",
+          "id": "tsh-0158-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -10026,12 +10026,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-139",
+      "id": "tsh-0159",
       "title": "NKUASA WA BUTUMBI UDI MUIMANE",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-139-v1",
+          "id": "tsh-0159-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -10089,12 +10089,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-140",
+      "id": "tsh-0160",
       "title": "DITUKU DIA TSHIJILA DIDI DIKUATSHISHA BOWA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-140-v1",
+          "id": "tsh-0160-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -10152,12 +10152,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-141",
+      "id": "tsh-0161",
       "title": "NAKATANGILA TSHIMANYINU TSHIMUENEKA MU DIULU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-141-v1",
+          "id": "tsh-0161-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -10213,12 +10213,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-142",
+      "id": "tsh-0162",
       "title": "NAMANA MUENA NSUDI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-142-v1",
+          "id": "tsh-0162-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -10275,12 +10275,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-143",
+      "id": "tsh-0163",
       "title": "MU SULIYA MUAKADI MUNTU DINA NAMANA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-143-v1",
+          "id": "tsh-0163-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -10337,12 +10337,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-144",
+      "id": "tsh-0164",
       "title": "YAKOBA WAKALUANGANA NVITA NE YEHOWA NZAMBI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-144-v1",
+          "id": "tsh-0164-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -10402,12 +10402,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-145",
+      "id": "tsh-0165",
       "title": "MUNTU MUKUABU WAKADIKU DINA SHIMEONA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-145-v1",
+          "id": "tsh-0165-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -10457,12 +10457,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-146",
+      "id": "tsh-0166",
       "title": "KU KALE MU EDENA YEHOWA WAKAKUNA MITSHI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-146-v1",
+          "id": "tsh-0166-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -10521,12 +10521,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-147",
+      "id": "tsh-0167",
       "title": "MONA BANTU BA MATUKU AA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-147-v1",
+          "id": "tsh-0167-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -10587,12 +10587,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-148",
+      "id": "tsh-0168",
       "title": "MULAMI MUIMPE NYA WAMBA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-148-v1",
+          "id": "tsh-0168-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -10648,12 +10648,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-149",
+      "id": "tsh-0169",
       "title": "MUTSHI WA NFIGI NE UME",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-149-v1",
+          "id": "tsh-0169-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -10710,12 +10710,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-150",
+      "id": "tsh-0170",
       "title": "BULOBA BUA KAFUKA TATU NZAMBI KALE",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-150-v1",
+          "id": "tsh-0170-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -10771,12 +10771,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-151",
+      "id": "tsh-0171",
       "title": "NZAMBI WAKAFUKA BINTU BIDI BIMUEKA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-151-v1",
+          "id": "tsh-0171-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -10844,12 +10844,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-152",
+      "id": "tsh-0172",
       "title": "LEKELAYI MUTOYI, BANTU NULEKELA BIAMBAMBA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-152-v1",
+          "id": "tsh-0172-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -10905,12 +10905,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-153",
+      "id": "tsh-0173",
       "title": "NAKATANGILA MUSOKO WA TSHIJILA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-153-v1",
+          "id": "tsh-0173-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -10968,12 +10968,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-154",
+      "id": "tsh-0174",
       "title": "BUA KUIKALA MUENA KILISTO",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-154-v1",
+          "id": "tsh-0174-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -11029,12 +11029,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-156",
+      "id": "tsh-0175",
       "title": "EYI BANANGA MEME MUENA KILISTO",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-156-v1",
+          "id": "tsh-0175-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -11088,12 +11088,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-157",
+      "id": "tsh-0176",
       "title": "NDI MUIMANE MU MASANGU A NJILA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-157-v1",
+          "id": "tsh-0176-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -11145,12 +11145,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-158",
+      "id": "tsh-0177",
       "title": "NDI KUBIKILA WEWE NFUMU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-158-v1",
+          "id": "tsh-0177-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -11207,12 +11207,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-159",
+      "id": "tsh-0178",
       "title": "PAKALUA LUMU LUA BUKALENGA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-159-v1",
+          "id": "tsh-0178-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -11268,12 +11268,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-160",
+      "id": "tsh-0179",
       "title": "NDI NJINGA BUA KUPETA NYUMA WA KILISTO",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-160-v1",
+          "id": "tsh-0179-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -11330,12 +11330,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-163",
+      "id": "tsh-0180",
       "title": "PAKUNVUA BENA NINIWA BUA DIBUTUKA DIABO",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-163-v1",
+          "id": "tsh-0180-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -11393,12 +11393,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-164",
+      "id": "tsh-0181",
       "title": "KU TSHIDIMU KU TSHIDIMU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-164-v1",
+          "id": "tsh-0181-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -11454,12 +11454,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-165",
+      "id": "tsh-0182",
       "title": "DÎ DIA YEHOWA DIAKALUA KUDI YONA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-165-v1",
+          "id": "tsh-0182-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -11515,12 +11515,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-166",
+      "id": "tsh-0183",
       "title": "DÎ DIA NZAMBI KALE DIAKADI NE BULELELA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-166-v1",
+          "id": "tsh-0183-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -11577,12 +11577,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-166",
+      "id": "tsh-0184",
       "title": "PAKABANGA BANTU KUVULANGANA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-166-v1",
+          "id": "tsh-0184-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -11638,12 +11638,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-167",
+      "id": "tsh-0185",
       "title": "KUVUA MUNTU UMBUKA MU YELUSHALEMA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-167-v1",
+          "id": "tsh-0185-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -11700,12 +11700,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-168",
+      "id": "tsh-0186",
       "title": "NZAMBI KUFUKA MUNTU, KU MUNANGA BIKOLE",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-168-v1",
+          "id": "tsh-0186-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -11766,12 +11766,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-169",
+      "id": "tsh-0187",
       "title": "KU DIAMBEDI TUAKADI MU MIDIMA YA MUNYA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-169-v1",
+          "id": "tsh-0187-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -11827,12 +11827,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-170",
+      "id": "tsh-0188",
       "title": "BUA KULAMBULA BALA MILAMBU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-170-v1",
+          "id": "tsh-0188-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -11888,12 +11888,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-171",
+      "id": "tsh-0189",
       "title": "NZAMBI WAKAFUKA, WAKAFUKA DIULU NE BULOBA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-171-v1",
+          "id": "tsh-0189-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -11955,12 +11955,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-172",
+      "id": "tsh-0190",
       "title": "TSHIAKUIDI TSHIA NZAMBI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-172-v1",
+          "id": "tsh-0190-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -12019,12 +12019,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-173",
+      "id": "tsh-0191",
       "title": "YESU WAKELA BANTU BAKAMUPIDIA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-173-v1",
+          "id": "tsh-0191-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -12086,12 +12086,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-174",
+      "id": "tsh-0192",
       "title": "BANA BETU WAYAYA BUA KUPETA NYUMA WA NZAMBI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-174-v1",
+          "id": "tsh-0192-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -12153,12 +12153,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-175",
+      "id": "tsh-0193",
       "title": "KU MUKUNA WA SIONA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-175-v1",
+          "id": "tsh-0193-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -12217,12 +12217,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-176",
+      "id": "tsh-0194",
       "title": "YONE, YONE WAKATUMA BAYIDI BANDI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-176-v1",
+          "id": "tsh-0194-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -12285,12 +12285,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-177",
+      "id": "tsh-0195",
       "title": "MUANA WA NZAMBI WAKATUMA BAYIDI BANDI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-177-v1",
+          "id": "tsh-0195-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -12346,12 +12346,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-178",
+      "id": "tsh-0196",
       "title": "SATANA MUIMANE, YESU MUIMANE",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-178-v1",
+          "id": "tsh-0196-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -12414,12 +12414,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-179",
+      "id": "tsh-0197",
       "title": "BIALOPOKA NYUMA WA BUKOYA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-179-v1",
+          "id": "tsh-0197-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -12470,12 +12470,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-180",
+      "id": "tsh-0198",
       "title": "NE NGAMBA TSHINYI KUDI NZAMBI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-180-v1",
+          "id": "tsh-0198-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -12531,12 +12531,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-181",
+      "id": "tsh-0199",
       "title": "WEWE MUAN’ETU MUNANGA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-181-v1",
+          "id": "tsh-0199-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -12592,12 +12592,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-182",
+      "id": "tsh-0200",
       "title": "BENA KILISTO BAKENGA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-182-v1",
+          "id": "tsh-0200-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -12655,12 +12655,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-183",
+      "id": "tsh-0201",
       "title": "BUA KULUA MUYIDI WENDE",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-183-v1",
+          "id": "tsh-0201-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -12719,12 +12719,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-184",
+      "id": "tsh-0202",
       "title": "MALU A KENZA YESU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-184-v1",
+          "id": "tsh-0202-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -12782,12 +12782,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-185",
+      "id": "tsh-0203",
       "title": "PANDI NTANGILA MUDIMU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-185-v1",
+          "id": "tsh-0203-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -12846,12 +12846,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-186",
+      "id": "tsh-0204",
       "title": "YESU WAKALUA PANSHI PA BULOBA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-186-v1",
+          "id": "tsh-0204-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -12907,12 +12907,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-187",
+      "id": "tsh-0205",
       "title": "ENDA NE DINA DIA YESU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-187-v1",
+          "id": "tsh-0205-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -12968,12 +12968,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-188",
+      "id": "tsh-0206",
       "title": "BALA MUKANDA WA NZAMBI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-188-v1",
+          "id": "tsh-0206-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -13036,12 +13036,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-189",
+      "id": "tsh-0207",
       "title": "BAKAJI BAKAYA BUA KUTANGILA KU LUKITA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-189-v1",
+          "id": "tsh-0207-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -13091,12 +13091,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-190",
+      "id": "tsh-0208",
       "title": "BALUNDA TUDIKONKE",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-190-v1",
+          "id": "tsh-0208-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -13146,12 +13146,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-191",
+      "id": "tsh-0209",
       "title": "BANJELO BABIDI BAKAYA MU MUSOKO",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-191-v1",
+          "id": "tsh-0209-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -13209,12 +13209,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-193",
+      "id": "tsh-0210",
       "title": "NZAMBI UDI NFUMU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-193-v1",
+          "id": "tsh-0210-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -13270,12 +13270,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-194",
+      "id": "tsh-0211",
       "title": "NZAMBI WAKAMBA NE BANA BANYI BAKUDILA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-194-v1",
+          "id": "tsh-0211-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -13320,12 +13320,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-195",
+      "id": "tsh-0212",
       "title": "TSHIBANGIDILU TSHIA LUMU LUIMPE LUA KILISTO",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-195-v1",
+          "id": "tsh-0212-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -13388,12 +13388,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-196",
+      "id": "tsh-0213",
       "title": "DÎ DINUAKUNVUA DIDI NYUMA BULELELA NE MUOYO",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-196-v1",
+          "id": "tsh-0213-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -13452,12 +13452,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-197",
+      "id": "tsh-0214",
       "title": "BUDIMI BUA NABOTA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-197-v1",
+          "id": "tsh-0214-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -13520,12 +13520,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-198",
+      "id": "tsh-0215",
       "title": "YESU WAKAMBILA BAYIDI NUINDILE MULAYI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-198-v1",
+          "id": "tsh-0215-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -13583,12 +13583,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-199",
+      "id": "tsh-0216",
       "title": "LONGOLOLA NJILA WA MUKALENGA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-199-v1",
+          "id": "tsh-0216-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -13637,12 +13637,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-200",
+      "id": "tsh-0217",
       "title": "KULEDIBUA KUA ESAU NE YAKOBA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-200-v1",
+          "id": "tsh-0217-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -13704,12 +13704,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-201",
+      "id": "tsh-0218",
       "title": "YEHOWA UDI MUNYA WANYI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-201-v1",
+          "id": "tsh-0218-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -13772,12 +13772,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-201",
+      "id": "tsh-0219",
       "title": "LWENDO LWA KWENDA KENANI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-201-v1",
+          "id": "tsh-0219-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -13826,12 +13826,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-202",
+      "id": "tsh-0220",
       "title": "DIBA MUNDA MUNYA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-202-v1",
+          "id": "tsh-0220-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -13894,12 +13894,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-203",
+      "id": "tsh-0221",
       "title": "NYOKA KULUA KUNDI MEME",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-203-v1",
+          "id": "tsh-0221-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -13955,12 +13955,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-204",
+      "id": "tsh-0222",
       "title": "MUANZA NKONGOLO WAKIMANA MU MATUTU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-204-v1",
+          "id": "tsh-0222-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -14016,12 +14016,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-205",
+      "id": "tsh-0223",
       "title": "TUENDAYI BU BANA BA MUNYA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-205-v1",
+          "id": "tsh-0223-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -14071,12 +14071,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-206",
+      "id": "tsh-0224",
       "title": "MONA MUINDA WA NZAMBI WETU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-206-v1",
+          "id": "tsh-0224-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -14132,12 +14132,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-207",
+      "id": "tsh-0225",
       "title": "YESU UDI UTUBIKILA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-207-v1",
+          "id": "tsh-0225-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -14193,12 +14193,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-208",
+      "id": "tsh-0226",
       "title": "ANU MU TSHIPELA KE MUDI MOSE UDISHILA MIKOKO",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-208-v1",
+          "id": "tsh-0226-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -14260,12 +14260,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-209",
+      "id": "tsh-0227",
       "title": "YESU WAKADI WENDA UYISHA BANTU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-209-v1",
+          "id": "tsh-0227-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -14322,12 +14322,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-210",
+      "id": "tsh-0228",
       "title": "YEHOWA NZAMBI WA MUOYO NYA WELA LUBILA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-210-v1",
+          "id": "tsh-0228-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -14387,12 +14387,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-212",
+      "id": "tsh-0229",
       "title": "BUA MIDIMU YONSO YA PA BULOBA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-212-v1",
+          "id": "tsh-0229-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -14448,12 +14448,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-213",
+      "id": "tsh-0230",
       "title": "KUALUKILA KUANYI MEME",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-213-v1",
+          "id": "tsh-0230-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -14514,12 +14514,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-214",
+      "id": "tsh-0231",
       "title": "DIULU BULOBA NE BIJIMINE BIONSO",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-214-v1",
+          "id": "tsh-0231-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -14576,12 +14576,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-215",
+      "id": "tsh-0232",
       "title": "NZAMBI ULAMA MUOYO WANYI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-215-v1",
+          "id": "tsh-0232-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -14637,12 +14637,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-216",
+      "id": "tsh-0233",
       "title": "PAKADI BENA ISALEBA BAMANA KUENDA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-216-v1",
+          "id": "tsh-0233-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -14701,12 +14701,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-217",
+      "id": "tsh-0234",
       "title": "NZAMBI WAKATETA ABALAHAMA MUNDA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-217-v1",
+          "id": "tsh-0234-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -14755,12 +14755,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-218",
+      "id": "tsh-0235",
       "title": "NYAYA KU LIENDU LULE",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-218-v1",
+          "id": "tsh-0235-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -14813,12 +14813,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-219",
+      "id": "tsh-0236",
       "title": "NZAMBI MUFUKI WETU TUDI TUKULOMBA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-219-v1",
+          "id": "tsh-0236-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -14874,12 +14874,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-220",
+      "id": "tsh-0237",
       "title": "PAKABANGA YESU MUDIMU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-220-v1",
+          "id": "tsh-0237-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -14941,12 +14941,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-221",
+      "id": "tsh-0238",
       "title": "PAKABANDA YESU KU MUKUNA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-221-v1",
+          "id": "tsh-0238-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -15003,12 +15003,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-222",
+      "id": "tsh-0239",
       "title": "WEWE MUANA WA MUNTU WAKADI MU EDENA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-222-v1",
+          "id": "tsh-0239-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -15080,12 +15080,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-223",
+      "id": "tsh-0240",
       "title": "DIA KUNSHIKIDILU NE UYE PENYI ?",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-223-v1",
+          "id": "tsh-0240-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -15154,12 +15154,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-224",
+      "id": "tsh-0241",
       "title": "NYUMA MUIMPE KULOMBOLA YESU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-224-v1",
+          "id": "tsh-0241-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -15220,12 +15220,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-225",
+      "id": "tsh-0242",
       "title": "TELEJA DÎ DIA MUOYO",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-225-v1",
+          "id": "tsh-0242-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -15294,12 +15294,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-226",
+      "id": "tsh-0243",
       "title": "TUELANGANAYI MUOYO NE KUTUANGANA KUA MISHIKU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-226-v1",
+          "id": "tsh-0243-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -15355,12 +15355,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-227",
+      "id": "tsh-0244",
       "title": "PROFETA YESHAYI KUELA LUBILA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-227-v1",
+          "id": "tsh-0244-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -15421,12 +15421,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-228",
+      "id": "tsh-0245",
       "title": "DIBIKIDIBUA DIANYI DIDI MU YESU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-228-v1",
+          "id": "tsh-0245-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -15486,12 +15486,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-229",
+      "id": "tsh-0246",
       "title": "YESU UDI UDIMUISHA BAYIDI BANDI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-229-v1",
+          "id": "tsh-0246-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -15550,12 +15550,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-230",
+      "id": "tsh-0247",
       "title": "YESU UDI WAMBA MEME NDI MUTSHI MUNENE",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-230-v1",
+          "id": "tsh-0247-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -15612,12 +15612,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-231",
+      "id": "tsh-0248",
       "title": "PAKAVUA YESU UBANDA MU DIULU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-231-v1",
+          "id": "tsh-0248-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -15675,12 +15675,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-232",
+      "id": "tsh-0249",
       "title": "NAKENDAKANA MU MALU A PA BULOBA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-232-v1",
+          "id": "tsh-0249-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -15740,12 +15740,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-234",
+      "id": "tsh-0250",
       "title": "MUKALENGA DAVIDI WAKENZA BUALU BUBI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-234-v1",
+          "id": "tsh-0250-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -15804,12 +15804,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-235",
+      "id": "tsh-0251",
       "title": "(YELUSHALEMA) 3X MUSOKO WA TSHIJILA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-235-v1",
+          "id": "tsh-0251-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -15871,12 +15871,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-236",
+      "id": "tsh-0252",
       "title": "YEHOWA NZAMBI WANYI MAKENGA AKUNTONDA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-236-v1",
+          "id": "tsh-0252-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -15935,12 +15935,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-237",
+      "id": "tsh-0253",
       "title": "YAKOBA WAKASABULA BAKAJI BANDI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-237-v1",
+          "id": "tsh-0253-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -15996,12 +15996,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-238",
+      "id": "tsh-0254",
       "title": "TUASAKIDILA 3X NZAMBI TUASAKIDILA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-238-v1",
+          "id": "tsh-0254-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -16057,12 +16057,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-239",
+      "id": "tsh-0255",
       "title": "LUAYI TUIMBAYI NE DISANKA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-239-v1",
+          "id": "tsh-0255-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -16118,12 +16118,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-240",
+      "id": "tsh-0256",
       "title": "YESU WAKALUA PA BULOBA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-240-v1",
+          "id": "tsh-0256-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -16179,12 +16179,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-241",
+      "id": "tsh-0257",
       "title": "MALU ONSO ANAKAMONA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-241-v1",
+          "id": "tsh-0257-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -16241,12 +16241,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-241",
+      "id": "tsh-0258",
       "title": "PANKUVWA BENA NINAWA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-241-v1",
+          "id": "tsh-0258-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -16310,12 +16310,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-242",
+      "id": "tsh-0259",
       "title": "LUAYI BONSO TUBANDE KU MUKUNA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-242-v1",
+          "id": "tsh-0259-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -16372,12 +16372,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-243",
+      "id": "tsh-0260",
       "title": "TSHIAKADI MUMANYE",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-243-v1",
+          "id": "tsh-0260-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -16433,12 +16433,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-245",
+      "id": "tsh-0261",
       "title": "BUTUMBI EE YOYOYO",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-245-v1",
+          "id": "tsh-0261-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -16476,12 +16476,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-246",
+      "id": "tsh-0262",
       "title": "YESU WAKAMBILA TATU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-246-v1",
+          "id": "tsh-0262-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -16538,12 +16538,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-247",
+      "id": "tsh-0263",
       "title": "KUAKADI MUIMAINNI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-247-v1",
+          "id": "tsh-0263-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -16599,12 +16599,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-248",
+      "id": "tsh-0264",
       "title": "TELA WAKUMBUKA MU ULA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-248-v1",
+          "id": "tsh-0264-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -16661,12 +16661,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-248",
+      "id": "tsh-0265",
       "title": "KUVUA MUTU UMUKA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-248-v1",
+          "id": "tsh-0265-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -16722,12 +16722,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-249",
+      "id": "tsh-0266",
       "title": "MEME NDI NE LUENDU LUA KUYA MU DIULU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-249-v1",
+          "id": "tsh-0266-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -16784,12 +16784,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-250",
+      "id": "tsh-0267",
       "title": "DÎ DIA NZAMBI DIODIO KE MUELA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-250-v1",
+          "id": "tsh-0267-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -16845,12 +16845,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-251",
+      "id": "tsh-0268",
       "title": "LUSE LUDI LUKENGA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-251-v1",
+          "id": "tsh-0268-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -16906,12 +16906,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-252",
+      "id": "tsh-0269",
       "title": "MU NZUBU MUA TATU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-252-v1",
+          "id": "tsh-0269-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -16968,12 +16968,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-253",
+      "id": "tsh-0270",
       "title": "YESU MUANA WA NZAMBI UDI MULAMI MUIMPE",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-253-v1",
+          "id": "tsh-0270-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -17029,12 +17029,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-254",
+      "id": "tsh-0271",
       "title": "NUENU BAMUELA MANYI BANA BA NZAMBI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-254-v1",
+          "id": "tsh-0271-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -17092,12 +17092,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-255",
+      "id": "tsh-0272",
       "title": "MUDIMU WA NZAMBI UDI MULENGA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-255-v1",
+          "id": "tsh-0272-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -17154,12 +17154,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-256",
+      "id": "tsh-0273",
       "title": "KAKUENA WABINGA NZAMBI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-256-v1",
+          "id": "tsh-0273-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -17218,12 +17218,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-257",
+      "id": "tsh-0274",
       "title": "YEHOWA DIBUE DIANYI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-257-v1",
+          "id": "tsh-0274-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -17273,12 +17273,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-258",
+      "id": "tsh-0275",
       "title": "NZAMBI KUFUKAYE MITSHI MINENE IBIDI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-258-v1",
+          "id": "tsh-0275-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -17338,12 +17338,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-259",
+      "id": "tsh-0276",
       "title": "PAULO NE SILA BAKAYA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-259-v1",
+          "id": "tsh-0276-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -17392,12 +17392,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-260",
+      "id": "tsh-0277",
       "title": "BAKASHIPA BAPROFETE",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-260-v1",
+          "id": "tsh-0277-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -17453,12 +17453,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-261",
+      "id": "tsh-0278",
       "title": "NZAMBI WAKATUFUKA MU TSHINFUANYI TSHIENDE",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-261-v1",
+          "id": "tsh-0278-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -17514,12 +17514,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-262",
+      "id": "tsh-0279",
       "title": "NDI NSANKA BUA NYUMA MUIMPE",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-262-v1",
+          "id": "tsh-0279-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -17575,12 +17575,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-262",
+      "id": "tsh-0280",
       "title": "YUDASA KWENZA BWALU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-262-v1",
+          "id": "tsh-0280-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -17646,12 +17646,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-263",
+      "id": "tsh-0281",
       "title": "NZAMBI WAKATEKA KUMPALA KUA MUNTU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-263-v1",
+          "id": "tsh-0281-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -17707,12 +17707,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-264",
+      "id": "tsh-0282",
       "title": "ELIYA WAKAMBILA ELISHA MUYIDI WENDE",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-264-v1",
+          "id": "tsh-0282-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -17764,12 +17764,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-265",
+      "id": "tsh-0283",
       "title": "MALU MABI AKUNTONDA BUA MEME KUBUELA MU DIULU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-265-v1",
+          "id": "tsh-0283-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -17805,12 +17805,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-267",
+      "id": "tsh-0284",
       "title": "NDI NGELA MEJI BUA LUENDU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-267-v1",
+          "id": "tsh-0284-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -17867,12 +17867,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-269",
+      "id": "tsh-0285",
       "title": "DIAMUAMUA DIA MUSULU WA YADENA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-269-v1",
+          "id": "tsh-0285-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -17933,12 +17933,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-270",
+      "id": "tsh-0286",
       "title": "MUOYO WA TSHIENDELELA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-270-v1",
+          "id": "tsh-0286-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -17994,12 +17994,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-271",
+      "id": "tsh-0287",
       "title": "ABALAMA KUAMBILA MUAN’ANDI LOTA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-271-v1",
+          "id": "tsh-0287-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -18057,12 +18057,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-272",
+      "id": "tsh-0288",
       "title": "MUNTU MUBANJI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-272-v1",
+          "id": "tsh-0288-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -18119,12 +18119,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-273",
+      "id": "tsh-0289",
       "title": "NZAMBI WAKELA MILAU MU EJIPITU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-273-v1",
+          "id": "tsh-0289-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -18181,12 +18181,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-274",
+      "id": "tsh-0290",
       "title": "KUIKALA NE MINGA NZAMBI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-274-v1",
+          "id": "tsh-0290-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -18236,12 +18236,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-275",
+      "id": "tsh-0291",
       "title": "PAKAYA BATENTEKEDI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-275-v1",
+          "id": "tsh-0291-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -18297,12 +18297,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-276",
+      "id": "tsh-0292",
       "title": "NDI NJINGA BUA KUBUELA MU KANANA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-276-v1",
+          "id": "tsh-0292-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -18358,12 +18358,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-277",
+      "id": "tsh-0293",
       "title": "BIPUPU BIKOLE",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-277-v1",
+          "id": "tsh-0293-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -18426,12 +18426,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-277",
+      "id": "tsh-0294",
       "title": "NAMANA MWENA SUDI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-277-v1",
+          "id": "tsh-0294-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -18487,12 +18487,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-278",
+      "id": "tsh-0295",
       "title": "NZAMBI WAKATUMA TSHIANZA TSHIENDA KUDI BELESHASA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-278-v1",
+          "id": "tsh-0295-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -18542,12 +18542,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-279",
+      "id": "tsh-0296",
       "title": "HAKAFIKA TSHIKONDO TSHIAKASUNGULA YEHOWA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-279-v1",
+          "id": "tsh-0296-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -18608,12 +18608,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-280",
+      "id": "tsh-0297",
       "title": "DAVIDI WAKASUA KUASHILA YEHOWA NTEMPELO",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-280-v1",
+          "id": "tsh-0297-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -18677,12 +18677,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-281",
+      "id": "tsh-0298",
       "title": "NZAMBI TELEJA MUADI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-281-v1",
+          "id": "tsh-0298-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -18745,12 +18745,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-282",
+      "id": "tsh-0299",
       "title": "DÎ KE DIDI DILAMA NYUMA WA NZ",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-282-v1",
+          "id": "tsh-0299-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -18809,12 +18809,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-283",
+      "id": "tsh-0300",
       "title": "NZAMBI WAKANSUNGULA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-283-v1",
+          "id": "tsh-0300-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -18870,12 +18870,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-283",
+      "id": "tsh-0301",
       "title": "NDIKUBIKILA MUKALENGA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-283-v1",
+          "id": "tsh-0301-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -18938,12 +18938,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-284",
+      "id": "tsh-0302",
       "title": "MUBIDI LUKUKA LUEBA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-284-v1",
+          "id": "tsh-0302-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -18991,12 +18991,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-285",
+      "id": "tsh-0303",
       "title": "MUNTU WASUNGULA DÎ",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-285-v1",
+          "id": "tsh-0303-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -19047,12 +19047,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-286",
+      "id": "tsh-0304",
       "title": "NDI TUMBISHA NZAMBI WA BANKAMBUA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-286-v1",
+          "id": "tsh-0304-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -19111,12 +19111,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-287",
+      "id": "tsh-0305",
       "title": "TUDI BIMANA MU NGALA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-287-v1",
+          "id": "tsh-0305-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -19172,12 +19172,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-287",
+      "id": "tsh-0306",
       "title": "WEWE MIWANETU MIUNANGA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-287-v1",
+          "id": "tsh-0306-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -19233,12 +19233,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-289",
+      "id": "tsh-0307",
       "title": "TUDI MU TSHIKONDO TSHIMPE",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-289-v1",
+          "id": "tsh-0307-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -19294,12 +19294,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-290",
+      "id": "tsh-0308",
       "title": "INDI MUENA LUENDU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-290-v1",
+          "id": "tsh-0308-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -19357,12 +19357,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-291",
+      "id": "tsh-0309",
       "title": "NZAMBI KUTUMAYE MUAN’ANDI YESU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-291-v1",
+          "id": "tsh-0309-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -19418,12 +19418,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-291",
+      "id": "tsh-0310",
       "title": "VITA YA KAKWATA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-291-v1",
+          "id": "tsh-0310-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -19479,12 +19479,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-292",
+      "id": "tsh-0311",
       "title": "YESU KUAMBILA BAYIDI KANULADI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-292-v1",
+          "id": "tsh-0311-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -19527,12 +19527,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-293",
+      "id": "tsh-0312",
       "title": "YESU WA NZAMBI KUAMBILA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-293-v1",
+          "id": "tsh-0312-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -19588,12 +19588,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-294",
+      "id": "tsh-0313",
       "title": "YUDASA KUENZA BUALU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-294-v1",
+          "id": "tsh-0313-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -19653,12 +19653,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-294",
+      "id": "tsh-0314",
       "title": "BENA NZAMBI TUDJIKONKE",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-294-v1",
+          "id": "tsh-0314-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -19717,12 +19717,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-295",
+      "id": "tsh-0315",
       "title": "YUDASA ISAKALIOTA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-295-v1",
+          "id": "tsh-0315-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -19778,12 +19778,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-296",
+      "id": "tsh-0316",
       "title": "WEWE MUAN’ETU WANYI MU YESU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-296-v1",
+          "id": "tsh-0316-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -19836,12 +19836,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-297",
+      "id": "tsh-0317",
       "title": "MUKALENGA UDI MUSUE",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-297-v1",
+          "id": "tsh-0317-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -19898,12 +19898,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-298",
+      "id": "tsh-0318",
       "title": "BANTU BA MU TSHIKONDO ETSHI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-298-v1",
+          "id": "tsh-0318-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -19959,12 +19959,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-299",
+      "id": "tsh-0319",
       "title": "YESU EU SE MUYISHI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-299-v1",
+          "id": "tsh-0319-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -20020,12 +20020,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-300",
+      "id": "tsh-0320",
       "title": "PAKITABUJA BENA SAMALEYA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-300-v1",
+          "id": "tsh-0320-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -20081,12 +20081,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-301",
+      "id": "tsh-0321",
       "title": "YAKOBA WAKATUMA YOSEFU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-301-v1",
+          "id": "tsh-0321-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -20144,12 +20144,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-302",
+      "id": "tsh-0322",
       "title": "MAKALENGA NE MATUMBI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-302-v1",
+          "id": "tsh-0322-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -20192,12 +20192,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-305",
+      "id": "tsh-0323",
       "title": "DITUKU NE DILUE",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-305-v1",
+          "id": "tsh-0323-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -20239,12 +20239,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-307",
+      "id": "tsh-0324",
       "title": "NZAMBI WA MOSE TUBANGA NEBE",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-307-v1",
+          "id": "tsh-0324-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -20294,12 +20294,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-308",
+      "id": "tsh-0325",
       "title": "YESU UKUBIKILA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-308-v1",
+          "id": "tsh-0325-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -20348,12 +20348,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-309",
+      "id": "tsh-0326",
       "title": "YEHOWA NZAMBI UDI WAMBA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-309-v1",
+          "id": "tsh-0326-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -20403,12 +20403,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-310",
+      "id": "tsh-0327",
       "title": "MUDIMU WA YEHOWA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-310-v1",
+          "id": "tsh-0327-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -20451,12 +20451,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-311",
+      "id": "tsh-0328",
       "title": "BANANGA TUNANGANGANAYI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-311-v1",
+          "id": "tsh-0328-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -20526,12 +20526,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-312",
+      "id": "tsh-0329",
       "title": "DILUA DIA MUANA WA MUNTU DIDI BU DITUKU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-312-v1",
+          "id": "tsh-0329-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -20587,12 +20587,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-313",
+      "id": "tsh-0330",
       "title": "NGANYI WAKAKENGA BU YOBO",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-313-v1",
+          "id": "tsh-0330-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -20648,12 +20648,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-315",
+      "id": "tsh-0331",
       "title": "TSHIANGA NE BUTUMBI LELU KUDI NZAMBI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-315-v1",
+          "id": "tsh-0331-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -20713,12 +20713,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-316",
+      "id": "tsh-0332",
       "title": "TSHIENA NE KUA KUNYEMENA TO",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-316-v1",
+          "id": "tsh-0332-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -20781,12 +20781,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-317",
+      "id": "tsh-0333",
       "title": "KU LUSE LUEBA YEHOWA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-317-v1",
+          "id": "tsh-0333-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -20842,12 +20842,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-318",
+      "id": "tsh-0334",
       "title": "WEWA NZAMBI WAKANGELA MANYI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-318-v1",
+          "id": "tsh-0334-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -20904,12 +20904,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-319",
+      "id": "tsh-0335",
       "title": "EYI BANA BETU TSHIKONDO TSHIAKUKUMBANA WE",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-319-v1",
+          "id": "tsh-0335-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -20965,12 +20965,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-319",
+      "id": "tsh-0336",
       "title": "NDINGELA LUBILA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-319-v1",
+          "id": "tsh-0336-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -21029,12 +21029,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-320",
+      "id": "tsh-0337",
       "title": "MU MATUKU A KUNSHIKIDILU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-320-v1",
+          "id": "tsh-0337-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -21090,12 +21090,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-321",
+      "id": "tsh-0338",
       "title": "TSHIKONDO ETSHI TSHIA KUSUNGULULA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-321-v1",
+          "id": "tsh-0338-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -21149,12 +21149,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-322",
+      "id": "tsh-0339",
       "title": "PELABU MPUNGI WA NZAMBI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-322-v1",
+          "id": "tsh-0339-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -21210,12 +21210,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-323",
+      "id": "tsh-0340",
       "title": "UNVUA KULOMBA KUANYI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-323-v1",
+          "id": "tsh-0340-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -21272,12 +21272,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-324",
+      "id": "tsh-0341",
       "title": "MUPROFETA KATU NE BUTUMBI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-324-v1",
+          "id": "tsh-0341-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -21333,12 +21333,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-325",
+      "id": "tsh-0342",
       "title": "NJILA WA MUOYO",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-325-v1",
+          "id": "tsh-0342-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -21394,12 +21394,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-326",
+      "id": "tsh-0343",
       "title": "TSHIBANGIDILU TSHIA LUMU LUIMPE LUA YESU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-326-v1",
+          "id": "tsh-0343-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -21449,12 +21449,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-327",
+      "id": "tsh-0344",
       "title": "NYAYA MUTANGILE MU BISAMBA BIA BENDE",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-327-v1",
+          "id": "tsh-0344-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -21510,12 +21510,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-328",
+      "id": "tsh-0345",
       "title": "NZAMBI WAKAMBA NOA ENZA BUATU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-328-v1",
+          "id": "tsh-0345-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -21571,12 +21571,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-329",
+      "id": "tsh-0346",
       "title": "KUJIKIJA KUA MUDIMU WA MUAMBI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-329-v1",
+          "id": "tsh-0346-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -21632,12 +21632,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-330",
+      "id": "tsh-0347",
       "title": "MUNTU WA MU TSHISAMBA TSHIA LEWI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-330-v1",
+          "id": "tsh-0347-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -21693,12 +21693,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-331",
+      "id": "tsh-0348",
       "title": "NUENU BENA ATHENA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-331-v1",
+          "id": "tsh-0348-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -21755,12 +21755,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-332",
+      "id": "tsh-0349",
       "title": "LELU DITUKU DITUAKAPATUKA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-332-v1",
+          "id": "tsh-0349-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -21816,12 +21816,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-333",
+      "id": "tsh-0350",
       "title": "BAMBI BA NZAMBI NUATULAMA BIMPE",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-333-v1",
+          "id": "tsh-0350-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -21884,12 +21884,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-334",
+      "id": "tsh-0351",
       "title": "DIA KUKUATA NVULA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-334-v1",
+          "id": "tsh-0351-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -21946,12 +21946,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-335",
+      "id": "tsh-0352",
       "title": "NE NGANVI WALUMBULUSHA BASUNGULA BA NZAMBI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-335-v1",
+          "id": "tsh-0352-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -22003,12 +22003,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-336",
+      "id": "tsh-0353",
       "title": "NAYAYA KU LUENDU LULE LULE",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-336-v1",
+          "id": "tsh-0353-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -22064,12 +22064,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-337",
+      "id": "tsh-0354",
       "title": "BAWAKUPESHA BUKOKESHI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-337-v1",
+          "id": "tsh-0354-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -22126,12 +22126,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-338",
+      "id": "tsh-0355",
       "title": "NDI NSANKA BUA DÎ DIA MUOYO",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-338-v1",
+          "id": "tsh-0355-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -22187,12 +22187,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-339",
+      "id": "tsh-0356",
       "title": "YAKOBA WAKALUANGANA NE NZAMBI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-339-v1",
+          "id": "tsh-0356-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -22248,12 +22248,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-340",
+      "id": "tsh-0357",
       "title": "NAKAKUATA MUDIMU UWAKAMBIKIDILA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-340-v1",
+          "id": "tsh-0357-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -22309,12 +22309,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-341",
+      "id": "tsh-0358",
       "title": "NYAYA MU LIUNDU LELU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-341-v1",
+          "id": "tsh-0358-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -22370,12 +22370,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-342",
+      "id": "tsh-0359",
       "title": "SHAULA UVUA NE DIKIMA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-342-v1",
+          "id": "tsh-0359-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -22431,12 +22431,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-343",
+      "id": "tsh-0360",
       "title": "NGAMBILA NGANYI DÎ",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-343-v1",
+          "id": "tsh-0360-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -22506,12 +22506,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-344",
+      "id": "tsh-0361",
       "title": "TUDI MASALAYI A YESU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-344-v1",
+          "id": "tsh-0361-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -22567,12 +22567,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-345",
+      "id": "tsh-0362",
       "title": "TUETU TUDI MASALAYI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-345-v1",
+          "id": "tsh-0362-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -22628,12 +22628,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-346",
+      "id": "tsh-0363",
       "title": "EFILE WATAJILE",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-346-v1",
+          "id": "tsh-0363-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -22697,12 +22697,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-347",
+      "id": "tsh-0364",
       "title": "NDI NDOMBA DIAMPA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-347-v1",
+          "id": "tsh-0364-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -22752,12 +22752,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-348",
+      "id": "tsh-0365",
       "title": "EDI DÎ DIAKAMBA YESU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-348-v1",
+          "id": "tsh-0365-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -22813,12 +22813,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-348",
+      "id": "tsh-0366",
       "title": "DII DIA YEPOWA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-348-v1",
+          "id": "tsh-0366-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -22882,12 +22882,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-349",
+      "id": "tsh-0367",
       "title": "TUDI BENA MUDIMU WA LUMU LUIMPE",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-349-v1",
+          "id": "tsh-0367-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -22946,12 +22946,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-351",
+      "id": "tsh-0368",
       "title": "LUMU LUIMPE LUA YESU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-351-v1",
+          "id": "tsh-0368-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -23007,12 +23007,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-352",
+      "id": "tsh-0369",
       "title": "YEHOWA MULAMI MUIMPE",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-352-v1",
+          "id": "tsh-0369-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -23069,12 +23069,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-353",
+      "id": "tsh-0370",
       "title": "MUNTU WA MU TSHISAMBA TSHIA DAVIDI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-353-v1",
+          "id": "tsh-0370-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -23133,12 +23133,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-354",
+      "id": "tsh-0371",
       "title": "KUHITA KUA YEHOWA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-354-v1",
+          "id": "tsh-0371-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -23194,12 +23194,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-355",
+      "id": "tsh-0372",
       "title": "BIWASHIPA MUANENU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-355-v1",
+          "id": "tsh-0372-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -23255,12 +23255,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-356",
+      "id": "tsh-0373",
       "title": "TSHIKUMINA TSHIENZEKE",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-356-v1",
+          "id": "tsh-0373-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -23316,12 +23316,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-357",
+      "id": "tsh-0374",
       "title": "MULU MUA DIULU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-357-v1",
+          "id": "tsh-0374-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -23379,12 +23379,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-358",
+      "id": "tsh-0375",
       "title": "ELIYA KUMBILA ELISHA YEHOWA WAKUNTUMA KU BETELE",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-358-v1",
+          "id": "tsh-0375-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -23441,12 +23441,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-359",
+      "id": "tsh-0376",
       "title": "PAKADI ISALELA MULOMBODIBUA KUDI SHAULA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-359-v1",
+          "id": "tsh-0376-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -23502,12 +23502,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-360",
+      "id": "tsh-0377",
       "title": "KUMBUKA KU SINAI BUA KUYA KU SIONA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-360-v1",
+          "id": "tsh-0377-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -23556,12 +23556,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-360",
+      "id": "tsh-0378",
       "title": "KWA ISHILIO MUNTU YOANE",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-360-v1",
+          "id": "tsh-0378-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -23620,12 +23620,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-361",
+      "id": "tsh-0379",
       "title": "MEME NA KADIAMBA NE NDI MUENA NZAMBI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-361-v1",
+          "id": "tsh-0379-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -23681,12 +23681,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-362",
+      "id": "tsh-0380",
       "title": "PAKALUA DITUKU DIA PENTECOSTE",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-362-v1",
+          "id": "tsh-0380-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -23742,12 +23742,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-363",
+      "id": "tsh-0381",
       "title": "DITUTU DIA KALOMBOLA TSHISAMBA TSHIA ISALELA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-363-v1",
+          "id": "tsh-0381-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -23804,12 +23804,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-364",
+      "id": "tsh-0382",
       "title": "MONA MISOKO TSHITEMA IDI ILUISHA ISALELA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-364-v1",
+          "id": "tsh-0382-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -23865,12 +23865,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-365",
+      "id": "tsh-0383",
       "title": "SOLOMO WAKIBAKA NZUBU MU YELUSHALEMA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-365-v1",
+          "id": "tsh-0383-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -23927,12 +23927,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-366",
+      "id": "tsh-0384",
       "title": "YELUSHALEMA MUSOKO MULENGELA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-366-v1",
+          "id": "tsh-0384-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -23989,12 +23989,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-367",
+      "id": "tsh-0385",
       "title": "MOSE WAKABENGA BUA KUJIDILA YEHOWA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-367-v1",
+          "id": "tsh-0385-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -24050,12 +24050,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-368",
+      "id": "tsh-0386",
       "title": "YELUSHALEMA WA MU DIULU MUPUEKA LELU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-368-v1",
+          "id": "tsh-0386-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -24111,12 +24111,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-369",
+      "id": "tsh-0387",
       "title": "NZAMBI WAKALAYA BENA ISALELA BULOBA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-369-v1",
+          "id": "tsh-0387-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -24172,12 +24172,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-369",
+      "id": "tsh-0388",
       "title": "YESU EUSEMUYIJI WAKADI WIYIJABAIDI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-369-v1",
+          "id": "tsh-0388-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -24233,12 +24233,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-370",
+      "id": "tsh-0389",
       "title": "BAYIDI BA YESU KUEBEJA YESU WA NZAMBI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-370-v1",
+          "id": "tsh-0389-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -24294,12 +24294,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-371",
+      "id": "tsh-0390",
       "title": "SIMONA BAYONA UDISHA MIKOKO YANYI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-371-v1",
+          "id": "tsh-0390-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -24375,12 +24375,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-372",
+      "id": "tsh-0391",
       "title": "BUA KUBUELA MU YELUSHALEMA WIKALA NE MALALA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-372-v1",
+          "id": "tsh-0391-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -24443,12 +24443,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-372",
+      "id": "tsh-0392",
       "title": "DJII TWA KUNVWA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-372-v1",
+          "id": "tsh-0392-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -24504,12 +24504,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-373",
+      "id": "tsh-0393",
       "title": "TSHIANGA EYI TSHIANGA, TSHIANGA MU YELUSHALEMA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-373-v1",
+          "id": "tsh-0393-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -24565,12 +24565,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-374",
+      "id": "tsh-0394",
       "title": "TATU WETU UDI MU DIULU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-374-v1",
+          "id": "tsh-0394-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -24626,12 +24626,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-375",
+      "id": "tsh-0395",
       "title": "BAFALESA KUAMBILA YESU UMBUKA KUNOKU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-375-v1",
+          "id": "tsh-0395-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -24687,12 +24687,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-396",
+      "id": "tsh-0396",
       "title": "KYABA KINO KYA KUPEPULA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-396-v1",
+          "id": "tsh-0396-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -24755,12 +24755,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-407",
+      "id": "tsh-0397",
       "title": "NYUMA MWIMPE WA YEPOWA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-407-v1",
+          "id": "tsh-0397-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -24823,12 +24823,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-408",
+      "id": "tsh-0398",
       "title": "TWADI TUDILA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-408-v1",
+          "id": "tsh-0398-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -24893,12 +24893,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-422",
+      "id": "tsh-0399",
       "title": "TWASANKIJILA BWA MUDJIMU NZAMBI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-422-v1",
+          "id": "tsh-0399-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -24941,12 +24941,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-423",
+      "id": "tsh-0400",
       "title": "TWASANKIDJILA NZAMBI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-423-v1",
+          "id": "tsh-0400-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -25011,12 +25011,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-430",
+      "id": "tsh-0401",
       "title": "DJALELU WE BANTU TUMBISHAI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-430-v1",
+          "id": "tsh-0401-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -25066,12 +25066,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-431",
+      "id": "tsh-0402",
       "title": "YEPOWA NZAMBI TELEJA KUDJILA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-431-v1",
+          "id": "tsh-0402-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -25148,12 +25148,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-432",
+      "id": "tsh-0403",
       "title": "NZAMBI UNZULULA DJULU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-432-v1",
+          "id": "tsh-0403-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -25203,12 +25203,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-433",
+      "id": "tsh-0404",
       "title": "NZAMBI NETUYA NEBE",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-433-v1",
+          "id": "tsh-0404-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -25266,12 +25266,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-461",
+      "id": "tsh-0405",
       "title": "NZAMBI TATU YOYO NZAMBI MUFUKI WETU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-461-v1",
+          "id": "tsh-0405-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -25321,12 +25321,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-472",
+      "id": "tsh-0406",
       "title": "NZAMBI WANYI TUZANJIKA PAMPALA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-472-v1",
+          "id": "tsh-0406-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -25376,12 +25376,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-473",
+      "id": "tsh-0407",
       "title": "YEOPOWA WA NZAMBI UTUMWILA",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-473-v1",
+          "id": "tsh-0407-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -25463,12 +25463,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-475",
+      "id": "tsh-0408",
       "title": "MUBILUMBU BIANYI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-475-v1",
+          "id": "tsh-0408-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -25524,12 +25524,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-485",
+      "id": "tsh-0409",
       "title": "NDJIMWENA MUDJIMU WEBE",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-485-v1",
+          "id": "tsh-0409-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -25579,12 +25579,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-Cantique-486",
+      "id": "tsh-0410",
       "title": "TUDJI BIMANE KUMPALA KWEBE NZAMBI",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-Cantique-486-v1",
+          "id": "tsh-0410-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -25634,12 +25634,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "sw-Cantique-304",
+      "id": "tsh-0411",
       "title": "TUAKUMBUKA MUKUNA WA SINAI",
       "status": "review",
       "versions": [
         {
-          "id": "sw-Cantique-304-v1",
+          "id": "tsh-0411-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -25696,12 +25696,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "sw-Cantique-306",
+      "id": "tsh-0412",
       "title": "NZAMBI WANYI NZ WANYI WE",
       "status": "review",
       "versions": [
         {
-          "id": "sw-Cantique-306-v1",
+          "id": "tsh-0412-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -25751,12 +25751,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "sw-Cantique-346",
+      "id": "tsh-0413",
       "title": "WANSUNGILA NGANYI?",
       "status": "review",
       "versions": [
         {
-          "id": "sw-Cantique-346-v1",
+          "id": "tsh-0413-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -25806,12 +25806,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "sw-Cantique-171",
+      "id": "tsh-0414",
       "title": "NABOTE WAJI NE BUJIMI",
       "status": "review",
       "versions": [
         {
-          "id": "sw-Cantique-171-v1",
+          "id": "tsh-0414-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -25867,12 +25867,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "sw-Cantique-244",
+      "id": "tsh-0415",
       "title": "SUBULUNDU MBIDI",
       "status": "review",
       "versions": [
         {
-          "id": "sw-Cantique-244-v1",
+          "id": "tsh-0415-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -25930,12 +25930,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "sw-Cantique-482",
+      "id": "tsh-0416",
       "title": "NZAMBI NDJIKULOMBA TATU",
       "status": "review",
       "versions": [
         {
-          "id": "sw-Cantique-482-v1",
+          "id": "tsh-0416-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -25985,12 +25985,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-recover-cantique-96",
+      "id": "tsh-0417",
       "title": "TSHIANGA WE TSHIANGA WE YO",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-recover-cantique-96-v1",
+          "id": "tsh-0417-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",
@@ -26046,12 +26046,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-recover-cantique-301",
+      "id": "tsh-0418",
       "title": "YEPOWA , YEPOWA TUMA BA ANGELU",
       "status": "review",
       "versions": [
         {
-          "id": "tsh-recover-cantique-301-v1",
+          "id": "tsh-0418-v1",
           "language": {
             "code": "tsh",
             "label": "Tshiluba",

@@ -14,12 +14,12 @@
   "hymns": [
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-2",
+      "id": "lin-0001",
       "title": "KALA NA EBANDELI",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-2-v1",
+          "id": "lin-0001-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -82,12 +82,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-3",
+      "id": "lin-0002",
       "title": "NA EBANDELI BISO",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-3-v1",
+          "id": "lin-0002-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -143,12 +143,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-4",
+      "id": "lin-0003",
       "title": "NZAMBE NA NGA",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-4-v1",
+          "id": "lin-0003-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -204,12 +204,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-5",
+      "id": "lin-0004",
       "title": "EKOTALA NGA MOSALA",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-5-v1",
+          "id": "lin-0004-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -265,12 +265,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-6",
+      "id": "lin-0005",
       "title": "TOZALI BASODAT",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-6-v1",
+          "id": "lin-0005-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -326,12 +326,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-7",
+      "id": "lin-0006",
       "title": "BISO TOZALI BASODAT",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-7-v1",
+          "id": "lin-0006-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -387,12 +387,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-8",
+      "id": "lin-0007",
       "title": "NZAMBE AKELAKI LOLA",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-8-v1",
+          "id": "lin-0007-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -448,12 +448,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-9",
+      "id": "lin-0008",
       "title": "NZAMBE AKELAKI LOLA",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-9-v1",
+          "id": "lin-0008-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -509,12 +509,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-i",
+      "id": "lin-0009",
       "title": "NZAMBE TOBANDI MOSALA",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-i-v1",
+          "id": "lin-0009-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -564,12 +564,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-v",
+      "id": "lin-0010",
       "title": "YAWE NZAMBE NAZALI MOSALI NAYO",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-v-v1",
+          "id": "lin-0010-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -619,12 +619,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-x",
+      "id": "lin-0011",
       "title": "TOZALI KATI YA EBUNDELI",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-x-v1",
+          "id": "lin-0011-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -674,12 +674,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-10",
+      "id": "lin-0012",
       "title": "ADAMA PE EWA",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-10-v1",
+          "id": "lin-0012-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -735,12 +735,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-11",
+      "id": "lin-0013",
       "title": "NZAMBE ATINDAKI BATO",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-11-v1",
+          "id": "lin-0013-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -796,12 +796,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-12",
+      "id": "lin-0014",
       "title": "BOYA TOYEMBA NA ESENGO",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-12-v1",
+          "id": "lin-0014-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -857,12 +857,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-14",
+      "id": "lin-0015",
       "title": "KOMBO NINI MOSUSU",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-14-v1",
+          "id": "lin-0015-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -918,12 +918,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-15",
+      "id": "lin-0016",
       "title": "KOSAMBISA YA MAKAMBO",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-15-v1",
+          "id": "lin-0016-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -979,12 +979,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-17",
+      "id": "lin-0017",
       "title": "NKEMBO NKEMBO NKEMBO",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-17-v1",
+          "id": "lin-0017-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -1040,12 +1040,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-18",
+      "id": "lin-0018",
       "title": "MOTO MOKO AZALAKI NA LIBOTA",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-18-v1",
+          "id": "lin-0018-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -1101,12 +1101,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-19",
+      "id": "lin-0019",
       "title": "KOBOTAMA YA EZAWU PE YAKOBO",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-19-v1",
+          "id": "lin-0019-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -1162,12 +1162,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-21",
+      "id": "lin-0020",
       "title": "BANINGA TOMITUNA",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-21-v1",
+          "id": "lin-0020-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -1216,12 +1216,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-22",
+      "id": "lin-0021",
       "title": "MABOTA LIBWA",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-22-v1",
+          "id": "lin-0021-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -1277,12 +1277,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-23",
+      "id": "lin-0022",
       "title": "NZAMBE ALOBAKI NOWA SALA BWATO",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-23-v1",
+          "id": "lin-0022-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -1338,12 +1338,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-24",
+      "id": "lin-0023",
       "title": "MOKILI EZALISAKI TATA NZAMBE",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-24-v1",
+          "id": "lin-0023-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -1399,12 +1399,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-25",
+      "id": "lin-0024",
       "title": "PONA KOSOLOLA",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-25-v1",
+          "id": "lin-0024-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -1460,12 +1460,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-26",
+      "id": "lin-0025",
       "title": "NAKUMISI NZAMBE",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-26-v1",
+          "id": "lin-0025-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -1528,12 +1528,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-27",
+      "id": "lin-0026",
       "title": "KOMONANA YA MWANJE",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-27-v1",
+          "id": "lin-0026-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -1582,12 +1582,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-28",
+      "id": "lin-0027",
       "title": "ENDIMAKI BA SAMALIYA",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-28-v1",
+          "id": "lin-0027-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -1643,12 +1643,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-29",
+      "id": "lin-0028",
       "title": "BANSO BALINGI LOBIKO",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-29-v1",
+          "id": "lin-0028-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -1704,12 +1704,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-30",
+      "id": "lin-0029",
       "title": "YAKA NA YESU",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-30-v1",
+          "id": "lin-0029-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -1765,12 +1765,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-31",
+      "id": "lin-0030",
       "title": "NZAMBE YOKA KOLELA",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-31-v1",
+          "id": "lin-0030-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -1833,12 +1833,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-32",
+      "id": "lin-0031",
       "title": "OYO TANGO MALAMU",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-32-v1",
+          "id": "lin-0031-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -1894,12 +1894,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-33",
+      "id": "lin-0032",
       "title": "ESILISAKI NZAMBE KOKELA BILOKO",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-33-v1",
+          "id": "lin-0032-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -1955,12 +1955,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-34",
+      "id": "lin-0033",
       "title": "MAKAMBO NIONSO YA MOKILI OYO",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-34-v1",
+          "id": "lin-0033-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -2016,12 +2016,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-35",
+      "id": "lin-0034",
       "title": "EZALAKI MOTO MOKO",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-35-v1",
+          "id": "lin-0034-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -2070,12 +2070,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-36",
+      "id": "lin-0035",
       "title": "EBANDELI YA SANGO MALAMU",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-36-v1",
+          "id": "lin-0035-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -2137,12 +2137,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-45",
+      "id": "lin-0036",
       "title": "TALA BATO YA MIKOLO OYO",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-45-v1",
+          "id": "lin-0036-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -2198,12 +2198,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-46",
+      "id": "lin-0037",
       "title": "BANJE BAKENDEKI PONA KOSUNGA LOTA",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-46-v1",
+          "id": "lin-0037-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -2259,12 +2259,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-47",
+      "id": "lin-0038",
       "title": "NZAMBE AMITUNGISAKI",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-47-v1",
+          "id": "lin-0038-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -2320,12 +2320,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-52",
+      "id": "lin-0039",
       "title": "TOSALA MOSALA",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-52-v1",
+          "id": "lin-0039-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -2381,12 +2381,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-53",
+      "id": "lin-0040",
       "title": "KATI NA MOBEMBO",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-53-v1",
+          "id": "lin-0040-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -2442,12 +2442,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-55",
+      "id": "lin-0041",
       "title": "NASALI MOBEMBO LELO",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-55-v1",
+          "id": "lin-0041-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -2503,12 +2503,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-56",
+      "id": "lin-0042",
       "title": "NA NDAKO YA TATA EZA BISIKA MINGI",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-56-v1",
+          "id": "lin-0042-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -2564,12 +2564,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-66",
+      "id": "lin-0043",
       "title": "LUCIFELO",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-66-v1",
+          "id": "lin-0043-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -2625,12 +2625,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-68",
+      "id": "lin-0044",
       "title": "NZAMBE NDE MOKONZI",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-68-v1",
+          "id": "lin-0044-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -2686,12 +2686,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-70",
+      "id": "lin-0045",
       "title": "MOTO MOKO AKITAKI",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-70-v1",
+          "id": "lin-0045-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -2747,12 +2747,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-71",
+      "id": "lin-0046",
       "title": "NZAMBE YA SOLO",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-71-v1",
+          "id": "lin-0046-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -2808,12 +2808,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-74",
+      "id": "lin-0047",
       "title": "YEZU MWANA YA NZAMBE",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-74-v1",
+          "id": "lin-0047-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -2869,12 +2869,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-75",
+      "id": "lin-0048",
       "title": "MOKONZI SAULO APAKOLAMI MAFUTA",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-75-v1",
+          "id": "lin-0048-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -2930,12 +2930,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-76",
+      "id": "lin-0049",
       "title": "TOSALA MOSALA YA NZAMBE MOKONZI",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-76-v1",
+          "id": "lin-0049-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -2991,12 +2991,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-78",
+      "id": "lin-0050",
       "title": "NGA NAMONAKI MBOKA MOSANTU",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-78-v1",
+          "id": "lin-0050-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -3053,12 +3053,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-81",
+      "id": "lin-0051",
       "title": "NZAMBE ALOBAKI",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-81-v1",
+          "id": "lin-0051-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -3109,12 +3109,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-82",
+      "id": "lin-0052",
       "title": "BANA ISALELE BAKOTAKI NA BOWUMBU",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-82-v1",
+          "id": "lin-0052-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -3177,12 +3177,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-85",
+      "id": "lin-0053",
       "title": "BETESETA",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-85-v1",
+          "id": "lin-0053-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -3238,12 +3238,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-86",
+      "id": "lin-0054",
       "title": "NA EBANDELI NZAMBE AKELAKI",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-86-v1",
+          "id": "lin-0054-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -3307,12 +3307,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-91",
+      "id": "lin-0055",
       "title": "NOWA NA BWATO",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-91-v1",
+          "id": "lin-0055-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -3376,12 +3376,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-95",
+      "id": "lin-0056",
       "title": "TOTAMBOLAKI NA MOLILI",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-95-v1",
+          "id": "lin-0056-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -3437,12 +3437,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-ii",
+      "id": "lin-0057",
       "title": "NZAMBE NABELEMI",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-ii-v1",
+          "id": "lin-0057-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -3492,12 +3492,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-iv",
+      "id": "lin-0058",
       "title": "NZAMBE TATA NA BISO",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-iv-v1",
+          "id": "lin-0058-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -3547,12 +3547,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-ix",
+      "id": "lin-0059",
       "title": "NZAMBE N’ABALAYAMA",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-ix-v1",
+          "id": "lin-0059-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -3602,12 +3602,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-vi",
+      "id": "lin-0060",
       "title": "YAWE NZAMBE MOKELI NA BISO",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-vi-v1",
+          "id": "lin-0060-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -3657,12 +3657,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-xi",
+      "id": "lin-0061",
       "title": "NZAMBE LAKISA NGUYA",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-xi-v1",
+          "id": "lin-0061-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -3712,12 +3712,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-100",
+      "id": "lin-0062",
       "title": "LEMEKA AZALAKI NA MBULA EBELE",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-100-v1",
+          "id": "lin-0062-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -3773,12 +3773,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-101",
+      "id": "lin-0063",
       "title": "EZALAKI MOLONI MOKO",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-101-v1",
+          "id": "lin-0063-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -3834,12 +3834,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-107",
+      "id": "lin-0064",
       "title": "MAYE MANSO",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-107-v1",
+          "id": "lin-0064-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -3895,12 +3895,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-111",
+      "id": "lin-0065",
       "title": "BANDEKO NANGA",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-111-v1",
+          "id": "lin-0065-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -3962,12 +3962,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-114",
+      "id": "lin-0066",
       "title": "TALA LIKAMBO YA KOKAMUA",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-114-v1",
+          "id": "lin-0066-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -4016,12 +4016,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-115",
+      "id": "lin-0067",
       "title": "LILOBA NAYO",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-115-v1",
+          "id": "lin-0067-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -4077,12 +4077,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-120",
+      "id": "lin-0068",
       "title": "KOBIANGAMA NA NGA",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-120-v1",
+          "id": "lin-0068-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -4138,12 +4138,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-122",
+      "id": "lin-0069",
       "title": "BETANIEZALI MBOKA YA MARTA PE MARIA",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-122-v1",
+          "id": "lin-0069-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -4205,12 +4205,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-123",
+      "id": "lin-0070",
       "title": "KOBIMAYA BANA ISALELE KALA NA EGYPITO",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-123-v1",
+          "id": "lin-0070-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -4266,12 +4266,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-124",
+      "id": "lin-0071",
       "title": "KAKA OKATIYA BATO",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-124-v1",
+          "id": "lin-0071-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -4327,12 +4327,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-125",
+      "id": "lin-0072",
       "title": "EBOSONO",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-125-v1",
+          "id": "lin-0072-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -4388,12 +4388,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-126",
+      "id": "lin-0073",
       "title": "KOZALA NA NZAMBE MOSUSUTE (10 cmd)",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-126-v1",
+          "id": "lin-0073-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -4449,12 +4449,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-127",
+      "id": "lin-0074",
       "title": "NAKOMBO YA TATA",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-127-v1",
+          "id": "lin-0074-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -4524,12 +4524,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-128",
+      "id": "lin-0075",
       "title": "NDEKO BOTUNGISA NGAI TE",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-128-v1",
+          "id": "lin-0075-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -4585,12 +4585,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-130",
+      "id": "lin-0076",
       "title": "EBANDA YA SANGO MALAMU",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-130-v1",
+          "id": "lin-0076-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -4646,12 +4646,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-131",
+      "id": "lin-0077",
       "title": "MOZUI MOKO YA ELENGE",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-131-v1",
+          "id": "lin-0077-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -4707,12 +4707,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-133",
+      "id": "lin-0078",
       "title": "MUANA NA NZAMBE ALOBAKI",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-133-v1",
+          "id": "lin-0078-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -4768,12 +4768,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-134",
+      "id": "lin-0079",
       "title": "BOYAKA MAKELELE",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-134-v1",
+          "id": "lin-0079-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -4829,12 +4829,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-135",
+      "id": "lin-0080",
       "title": "SATANA ATELEMI",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-135-v1",
+          "id": "lin-0080-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -4890,12 +4890,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-136",
+      "id": "lin-0081",
       "title": "NAMONI MOKONZI NA MOTEMA NA NGA",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-136-v1",
+          "id": "lin-0081-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -4958,12 +4958,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-137",
+      "id": "lin-0082",
       "title": "TATA NA LOLA",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-137-v1",
+          "id": "lin-0082-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -5019,12 +5019,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-138",
+      "id": "lin-0083",
       "title": "MAKAMBO MABE",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-138-v1",
+          "id": "lin-0083-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -5074,12 +5074,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-139",
+      "id": "lin-0084",
       "title": "YESU AZA KOKEBISA BAYEKOLI NAYE",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-139-v1",
+          "id": "lin-0084-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -5135,12 +5135,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-140",
+      "id": "lin-0085",
       "title": "MOTEMA NA NGA ETUNGISAMI",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-140-v1",
+          "id": "lin-0085-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -5214,12 +5214,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-141",
+      "id": "lin-0086",
       "title": "BATINDAKI NGAI NA MABOTA YA BATO",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-141-v1",
+          "id": "lin-0086-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -5268,12 +5268,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-144",
+      "id": "lin-0087",
       "title": "BATO YASODOMA NA AMOLA",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-144-v1",
+          "id": "lin-0087-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -5329,12 +5329,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-149",
+      "id": "lin-0088",
       "title": "NAZANGAKI KOYEBA",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-149-v1",
+          "id": "lin-0088-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -5390,12 +5390,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-150",
+      "id": "lin-0089",
       "title": "BAKILISTO BANYOKWAMA",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-150-v1",
+          "id": "lin-0089-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -5451,12 +5451,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-151",
+      "id": "lin-0090",
       "title": "KELELO EKOBETA",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-151-v1",
+          "id": "lin-0090-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -5519,12 +5519,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-152",
+      "id": "lin-0091",
       "title": "YAKOBO ABUNDAKI ETUMBA NA YAWE NZAMBE",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-152-v1",
+          "id": "lin-0091-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -5580,12 +5580,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-153",
+      "id": "lin-0092",
       "title": "NDEKO NANGA KATINA YESU",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-153-v1",
+          "id": "lin-0092-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -5647,12 +5647,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-154",
+      "id": "lin-0093",
       "title": "NKOLO AKOLINGAKA ETE BANINGA",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-154-v1",
+          "id": "lin-0093-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -5708,12 +5708,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-155",
+      "id": "lin-0094",
       "title": "EKOLONGWA MOLIMO YA MBINDO",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-155-v1",
+          "id": "lin-0094-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -5762,12 +5762,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-157",
+      "id": "lin-0095",
       "title": "LILOBAYA MOTO",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-157-v1",
+          "id": "lin-0095-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -5823,12 +5823,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-158",
+      "id": "lin-0096",
       "title": "PO OKOMA MOKILISTO",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-158-v1",
+          "id": "lin-0096-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -5884,12 +5884,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-159",
+      "id": "lin-0097",
       "title": "EBOSONO",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-159-v1",
+          "id": "lin-0097-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -5945,12 +5945,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-160",
+      "id": "lin-0098",
       "title": "NZAMBE ABANDAKI MOSALA",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-160-v1",
+          "id": "lin-0098-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -6007,12 +6007,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-161",
+      "id": "lin-0099",
       "title": "NDEKO KATI MOKOLO",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-161-v1",
+          "id": "lin-0099-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -6061,12 +6061,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-162",
+      "id": "lin-0100",
       "title": "NAZALAKI KOTAMBOLA",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-162-v1",
+          "id": "lin-0100-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -6122,12 +6122,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-167",
+      "id": "lin-0101",
       "title": "ELANGAYA NABOTA",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-167-v1",
+          "id": "lin-0101-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -6199,12 +6199,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-191",
+      "id": "lin-0102",
       "title": "BAOYO BA NANI OYO",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-191-v1",
+          "id": "lin-0102-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -6277,12 +6277,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-401",
+      "id": "lin-0103",
       "title": "NA EBANDELI",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-401-v1",
+          "id": "lin-0103-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -6338,12 +6338,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-402",
+      "id": "lin-0104",
       "title": "SATANA ATELEMI",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-402-v1",
+          "id": "lin-0104-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -6406,12 +6406,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-403",
+      "id": "lin-0105",
       "title": "ADAMO PE EWA",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-403-v1",
+          "id": "lin-0105-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -6467,12 +6467,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-404",
+      "id": "lin-0106",
       "title": "KATI NA MOBEMBO",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-404-v1",
+          "id": "lin-0106-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -6528,12 +6528,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-405",
+      "id": "lin-0107",
       "title": "TOZALI KATI NA BIBUNDELI (flambeau)",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-405-v1",
+          "id": "lin-0107-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -6583,12 +6583,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-iii",
+      "id": "lin-0108",
       "title": "YOKA KOLELA PE KOSENGA NA BISO",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-iii-v1",
+          "id": "lin-0108-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -6624,12 +6624,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-vii",
+      "id": "lin-0109",
       "title": "NZAMBE TATA",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-vii-v1",
+          "id": "lin-0109-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -6679,12 +6679,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-xii",
+      "id": "lin-0110",
       "title": "EH YAWE",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-xii-v1",
+          "id": "lin-0110-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -6753,12 +6753,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-xix",
+      "id": "lin-0111",
       "title": "NAZANGI EKIMELO",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-xix-v1",
+          "id": "lin-0111-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -6821,12 +6821,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-xvi",
+      "id": "lin-0112",
       "title": "",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-xvi-v1",
+          "id": "lin-0112-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -6876,12 +6876,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "lin-Cantique-viii",
+      "id": "lin-0113",
       "title": "YAWE NZAMBE NABELEMI N’EKUKE",
       "status": "review",
       "versions": [
         {
-          "id": "lin-Cantique-viii-v1",
+          "id": "lin-0113-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -6931,12 +6931,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "sw-Cantique-69",
+      "id": "lin-0114",
       "title": "NGA NAMONAKI PASI",
       "status": "review",
       "versions": [
         {
-          "id": "sw-Cantique-69-v1",
+          "id": "lin-0114-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -6992,12 +6992,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "sw-Cantique-80",
+      "id": "lin-0115",
       "title": "NZAMBE ATINDAKI MWANA NA YE",
       "status": "review",
       "versions": [
         {
-          "id": "sw-Cantique-80-v1",
+          "id": "lin-0115-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",
@@ -7053,12 +7053,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "sw-Cantique-410",
+      "id": "lin-0116",
       "title": "MOLIMO MOSANTU YA YAWE",
       "status": "review",
       "versions": [
         {
-          "id": "sw-Cantique-410-v1",
+          "id": "lin-0116-v1",
           "language": {
             "code": "lin",
             "label": "Lingala",

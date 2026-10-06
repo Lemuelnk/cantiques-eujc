@@ -14,12 +14,12 @@
   "hymns": [
     {
       "schema_version": "1.0",
-      "id": "fr-CHANTS_E-0",
+      "id": "fr-0001",
       "title": "IL Y AVAIT UN HOMME DU NOM DE SIMEON",
       "status": "review",
       "versions": [
         {
-          "id": "fr-CHANTS_E-0-v1",
+          "id": "fr-0001-v1",
           "language": {
             "code": "fr",
             "label": "Français",
@@ -68,12 +68,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-CHANTS_E-0",
+      "id": "fr-0002",
       "title": "VENEZ CHANTER AVEC ALLEGRESSE",
       "status": "review",
       "versions": [
         {
-          "id": "fr-CHANTS_E-0-v1",
+          "id": "fr-0002-v1",
           "language": {
             "code": "fr",
             "label": "Français",
@@ -129,12 +129,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-CHANTS_E-0",
+      "id": "fr-0003",
       "title": "PARMI LES FILS DE JACOB",
       "status": "review",
       "versions": [
         {
-          "id": "fr-CHANTS_E-0-v1",
+          "id": "fr-0003-v1",
           "language": {
             "code": "fr",
             "label": "Français",
@@ -190,12 +190,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-Chants_e-0",
+      "id": "fr-0004",
       "title": "OH CONDUIS-MOI",
       "status": "review",
       "versions": [
         {
-          "id": "fr-Chants_e-0-v1",
+          "id": "fr-0004-v1",
           "language": {
             "code": "fr",
             "label": "Français",
@@ -259,12 +259,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-Chants_e-0",
+      "id": "fr-0005",
       "title": "METTONS-NOUS A L’OEUVRE",
       "status": "review",
       "versions": [
         {
-          "id": "fr-Chants_e-0-v1",
+          "id": "fr-0005-v1",
           "language": {
             "code": "fr",
             "label": "Français",
@@ -341,12 +341,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-Chants_e-0",
+      "id": "fr-0006",
       "title": "AU COMMENCEMENT DE L’UNIVERS",
       "status": "review",
       "versions": [
         {
-          "id": "fr-Chants_e-0-v1",
+          "id": "fr-0006-v1",
           "language": {
             "code": "fr",
             "label": "Français",
@@ -410,12 +410,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-Chants_e-0",
+      "id": "fr-0007",
       "title": "LES TENEBRES",
       "status": "review",
       "versions": [
         {
-          "id": "fr-Chants_e-0-v1",
+          "id": "fr-0007-v1",
           "language": {
             "code": "fr",
             "label": "Français",
@@ -482,12 +482,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-Chants_e-0",
+      "id": "fr-0008",
       "title": "TA PAROLE OH DIEU",
       "status": "review",
       "versions": [
         {
-          "id": "fr-Chants_e-0-v1",
+          "id": "fr-0008-v1",
           "language": {
             "code": "fr",
             "label": "Français",
@@ -554,12 +554,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-Chants_e-0",
+      "id": "fr-0009",
       "title": "SOLDATS DE JESUS",
       "status": "review",
       "versions": [
         {
-          "id": "fr-Chants_e-0-v1",
+          "id": "fr-0009-v1",
           "language": {
             "code": "fr",
             "label": "Français",
@@ -621,12 +621,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-Chants_e-0",
+      "id": "fr-0010",
       "title": "L’ETERNEL EST MA LUMIERE",
       "status": "review",
       "versions": [
         {
-          "id": "fr-Chants_e-0-v1",
+          "id": "fr-0010-v1",
           "language": {
             "code": "fr",
             "label": "Français",
@@ -701,12 +701,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-Chants_e-0",
+      "id": "fr-0011",
       "title": "ECOUTE NOS PRIERES",
       "status": "review",
       "versions": [
         {
-          "id": "fr-Chants_e-0-v1",
+          "id": "fr-0011-v1",
           "language": {
             "code": "fr",
             "label": "Français",
@@ -756,12 +756,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-Chants_e-0",
+      "id": "fr-0012",
       "title": "JE SUIS TON HUMBLE SERVITEUR",
       "status": "review",
       "versions": [
         {
-          "id": "fr-Chants_e-0-v1",
+          "id": "fr-0012-v1",
           "language": {
             "code": "fr",
             "label": "Français",
@@ -818,12 +818,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-Chants_e-0",
+      "id": "fr-0013",
       "title": "NOUS TE BENISSONS",
       "status": "review",
       "versions": [
         {
-          "id": "fr-Chants_e-0-v1",
+          "id": "fr-0013-v1",
           "language": {
             "code": "fr",
             "label": "Français",
@@ -866,12 +866,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-Chants_e-0",
+      "id": "fr-0014",
       "title": "NOUS TE SUPPLIONS",
       "status": "review",
       "versions": [
         {
-          "id": "fr-Chants_e-0-v1",
+          "id": "fr-0014-v1",
           "language": {
             "code": "fr",
             "label": "Français",
@@ -921,12 +921,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-Chants_e-0",
+      "id": "fr-0015",
       "title": "PEU DE GENS IRONT AU CIEL",
       "status": "review",
       "versions": [
         {
-          "id": "fr-Chants_e-0-v1",
+          "id": "fr-0015-v1",
           "language": {
             "code": "fr",
             "label": "Français",
@@ -998,12 +998,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-Chants_e-0",
+      "id": "fr-0016",
       "title": "SODOME ET GOMORRHE",
       "status": "review",
       "versions": [
         {
-          "id": "fr-Chants_e-0-v1",
+          "id": "fr-0016-v1",
           "language": {
             "code": "fr",
             "label": "Français",
@@ -1071,12 +1071,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-Chants_e-0",
+      "id": "fr-0017",
       "title": "METTONS-NOUS AU TRAVAIL",
       "status": "review",
       "versions": [
         {
-          "id": "fr-Chants_e-0-v1",
+          "id": "fr-0017-v1",
           "language": {
             "code": "fr",
             "label": "Français",
@@ -1138,12 +1138,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-Chants_e-0",
+      "id": "fr-0018",
       "title": "CHANTONS AVEC ALLEGRESSE",
       "status": "review",
       "versions": [
         {
-          "id": "fr-Chants_e-0-v1",
+          "id": "fr-0018-v1",
           "language": {
             "code": "fr",
             "label": "Français",
@@ -1211,12 +1211,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-Chants_e-0",
+      "id": "fr-0019",
       "title": "MON LONG PERIPLE",
       "status": "review",
       "versions": [
         {
-          "id": "fr-Chants_e-0-v1",
+          "id": "fr-0019-v1",
           "language": {
             "code": "fr",
             "label": "Français",
@@ -1283,12 +1283,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-Chants_e-0",
+      "id": "fr-0020",
       "title": "NAISSANCE D’ESAÜ ET DE JACOB",
       "status": "review",
       "versions": [
         {
-          "id": "fr-Chants_e-0-v1",
+          "id": "fr-0020-v1",
           "language": {
             "code": "fr",
             "label": "Français",
@@ -1360,12 +1360,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-Chants_e-0",
+      "id": "fr-0021",
       "title": "LA DESTRUCTION DE JERICHO",
       "status": "review",
       "versions": [
         {
-          "id": "fr-Chants_e-0-v1",
+          "id": "fr-0021-v1",
           "language": {
             "code": "fr",
             "label": "Français",
@@ -1425,12 +1425,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-Chants_e-0",
+      "id": "fr-0022",
       "title": "JESUS DEMANDA A SON PERE",
       "status": "review",
       "versions": [
         {
-          "id": "fr-Chants_e-0-v1",
+          "id": "fr-0022-v1",
           "language": {
             "code": "fr",
             "label": "Français",
@@ -1512,12 +1512,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-Chants_e-0",
+      "id": "fr-0023",
       "title": "LOUONS L’ETERNEL",
       "status": "review",
       "versions": [
         {
-          "id": "fr-Chants_e-0-v1",
+          "id": "fr-0023-v1",
           "language": {
             "code": "fr",
             "label": "Français",
@@ -1567,12 +1567,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-Chants_e-0",
+      "id": "fr-0024",
       "title": "TOI MON SEIGNEUR",
       "status": "review",
       "versions": [
         {
-          "id": "fr-Chants_e-0-v1",
+          "id": "fr-0024-v1",
           "language": {
             "code": "fr",
             "label": "Français",
@@ -1637,12 +1637,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-Chants_e-0",
+      "id": "fr-0025",
       "title": "IL EXISTAIT UN HOMME",
       "status": "review",
       "versions": [
         {
-          "id": "fr-Chants_e-0-v1",
+          "id": "fr-0025-v1",
           "language": {
             "code": "fr",
             "label": "Français",
@@ -1707,12 +1707,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-Chants_e-0",
+      "id": "fr-0026",
       "title": "NOUS SOMMES LES SOLDATS",
       "status": "review",
       "versions": [
         {
-          "id": "fr-Chants_e-0-v1",
+          "id": "fr-0026-v1",
           "language": {
             "code": "fr",
             "label": "Français",
@@ -1775,12 +1775,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-Chants_e-0",
+      "id": "fr-0027",
       "title": "SORTIE D’EGYPTE",
       "status": "review",
       "versions": [
         {
-          "id": "fr-Chants_e-0-v1",
+          "id": "fr-0027-v1",
           "language": {
             "code": "fr",
             "label": "Français",
@@ -1841,12 +1841,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-Chants_e-0",
+      "id": "fr-0028",
       "title": "NOTRE EXHORTATEUR",
       "status": "review",
       "versions": [
         {
-          "id": "fr-Chants_e-0-v1",
+          "id": "fr-0028-v1",
           "language": {
             "code": "fr",
             "label": "Français",
@@ -1910,12 +1910,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-Chants_e-0",
+      "id": "fr-0029",
       "title": "APRES SIX JOURS",
       "status": "review",
       "versions": [
         {
-          "id": "fr-Chants_e-0-v1",
+          "id": "fr-0029-v1",
           "language": {
             "code": "fr",
             "label": "Français",
@@ -1977,12 +1977,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-Chants_e-0",
+      "id": "fr-0030",
       "title": "DIEU D'ABRAHAM",
       "status": "review",
       "versions": [
         {
-          "id": "fr-Chants_e-0-v1",
+          "id": "fr-0030-v1",
           "language": {
             "code": "fr",
             "label": "Français",
@@ -2032,12 +2032,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-Chants_e-0",
+      "id": "fr-0031",
       "title": "LE SEIGNEUR JESUS",
       "status": "review",
       "versions": [
         {
-          "id": "fr-Chants_e-0-v1",
+          "id": "fr-0031-v1",
           "language": {
             "code": "fr",
             "label": "Français",
@@ -2093,12 +2093,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-Chants_e-0",
+      "id": "fr-0032",
       "title": "LES ENFANTS D’ISRAEL",
       "status": "review",
       "versions": [
         {
-          "id": "fr-Chants_e-0-v1",
+          "id": "fr-0032-v1",
           "language": {
             "code": "fr",
             "label": "Français",
@@ -2161,12 +2161,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-Chants_e-0",
+      "id": "fr-0033",
       "title": "CHANTONS L’UNITE",
       "status": "review",
       "versions": [
         {
-          "id": "fr-Chants_e-0-v1",
+          "id": "fr-0033-v1",
           "language": {
             "code": "fr",
             "label": "Français",
@@ -2229,12 +2229,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-Chants_e-0",
+      "id": "fr-0034",
       "title": "OH TOIMON SAUVEUR",
       "status": "review",
       "versions": [
         {
-          "id": "fr-Chants_e-0-v1",
+          "id": "fr-0034-v1",
           "language": {
             "code": "fr",
             "label": "Français",
@@ -2290,12 +2290,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-Chants_e-0",
+      "id": "fr-0035",
       "title": "AU TEMPS DE LA FIN",
       "status": "review",
       "versions": [
         {
-          "id": "fr-Chants_e-0-v1",
+          "id": "fr-0035-v1",
           "language": {
             "code": "fr",
             "label": "Français",
@@ -2351,12 +2351,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-Chants_e-0",
+      "id": "fr-0036",
       "title": "VENEZ CHANTER AVEC JOIE",
       "status": "review",
       "versions": [
         {
-          "id": "fr-Chants_e-0-v1",
+          "id": "fr-0036-v1",
           "language": {
             "code": "fr",
             "label": "Français",
@@ -2412,12 +2412,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-Chants_e-0",
+      "id": "fr-0037",
       "title": "PEUPLE VENEZ NOMBREUX",
       "status": "review",
       "versions": [
         {
-          "id": "fr-Chants_e-0-v1",
+          "id": "fr-0037-v1",
           "language": {
             "code": "fr",
             "label": "Français",
@@ -2473,12 +2473,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-Chants_e-0",
+      "id": "fr-0038",
       "title": "JESUS T’APPELLE",
       "status": "review",
       "versions": [
         {
-          "id": "fr-Chants_e-0-v1",
+          "id": "fr-0038-v1",
           "language": {
             "code": "fr",
             "label": "Français",
@@ -2520,12 +2520,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-Cantique-142",
+      "id": "fr-0039",
       "title": "SOLDATS DE JESUS",
       "status": "review",
       "versions": [
         {
-          "id": "fr-Cantique-142-v1",
+          "id": "fr-0039-v1",
           "language": {
             "code": "fr",
             "label": "Français",
@@ -2581,12 +2581,12 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-Cantique-192",
+      "id": "fr-0040",
       "title": "BAFUE BADI BAFUE MU MUKALENGA",
       "status": "review",
       "versions": [
         {
-          "id": "fr-Cantique-192-v1",
+          "id": "fr-0040-v1",
           "language": {
             "code": "fr",
             "label": "Français",
