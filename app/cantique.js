@@ -283,13 +283,25 @@ if (btnFavorite) {
 // ------------------------------------------------------------
 // Menu contextuel
 // ------------------------------------------------------------
+let menuJustOpened = false;
 function openMenu() {
+  menuJustOpened = true;
   menuBackdrop.hidden = false;
   menuSheet.hidden = false;
+  requestAnimationFrame(() => {
+    menuBackdrop.classList.add('is-open');
+    menuSheet.classList.add('is-open');
+    setTimeout(() => { menuJustOpened = false; }, 350);
+  });
 }
 function closeMenu() {
-  menuBackdrop.hidden = true;
-  menuSheet.hidden = true;
+  if (menuJustOpened) return;  // Ignore le ghost-click juste apres l'ouverture
+  menuBackdrop.classList.remove('is-open');
+  menuSheet.classList.remove('is-open');
+  setTimeout(() => {
+    menuBackdrop.hidden = true;
+    menuSheet.hidden = true;
+  }, 250);
 }
 
 if (btnMenu)   btnMenu.addEventListener('click', openMenu);
@@ -311,16 +323,50 @@ if (menuClose) menuClose.addEventListener('click', closeMenu);
 if (menuBackdrop) menuBackdrop.addEventListener('click', closeMenu);
 
 if (menuCopy) {
-  menuCopy.addEventListener('click', async () => {
-    if (!currentVersion) return;
+  menuCopy.addEventListener('click', () => {
+    if (!currentVersion) {
+      alert('Cantique non chargé, réessayez.');
+      return;
+    }
     const text = (currentVersion.content || [])
       .map(b => (b.lines || []).join('\n'))
       .join('\n\n');
+
+    // Méthode 1 : execCommand (fiable sur mobile)
+    let success = false;
     try {
-      await navigator.clipboard.writeText(text);
+      const ta = document.createElement('textarea');
+      ta.value = text;
+      ta.setAttribute('readonly', '');
+      ta.style.position = 'fixed';
+      ta.style.left = '-9999px';
+      ta.style.top = '0';
+      document.body.appendChild(ta);
+      ta.focus();
+      ta.select();
+      ta.setSelectionRange(0, ta.value.length);
+      success = document.execCommand('copy');
+      document.body.removeChild(ta);
+    } catch (e) {
+      console.warn('[copy] execCommand échoué :', e);
+    }
+
+    // Méthode 2 : Clipboard API (fallback)
+    if (!success && navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(() => {
+        alert('Paroles copiées');
+      }).catch((e) => {
+        console.warn('[copy] clipboard API échouée :', e);
+        prompt('Copiez manuellement (Ctrl+C) :', text);
+      });
+      closeMenu();
+      return;
+    }
+
+    if (success) {
       alert('Paroles copiées');
-    } catch {
-      alert('Impossible de copier');
+    } else {
+      prompt('Copiez manuellement :', text);
     }
     closeMenu();
   });

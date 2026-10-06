@@ -335,37 +335,7 @@ body {
 /* ------------------------------------------------------------
    Backdrop + Sheet
    ------------------------------------------------------------ */
-.filters-backdrop {
-  position: fixed;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.4);
-  z-index: 60;
-  animation: filterFadeIn 180ms ease;
-}
-
-.filters-sheet {
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 61;
-  background: var(--bg-elevated);
-  border-radius: 22px 22px 0 0;
-  padding: 8px 20px calc(20px + env(safe-area-inset-bottom, 0px));
-  box-shadow: 0 -8px 40px rgba(0, 0, 0, 0.15);
-  animation: filterSlideUp 220ms ease;
-  max-height: 85vh;
-  overflow-y: auto;
-  box-sizing: border-box;
-}
-
-.filters-sheet-handle {
-  width: 40px;
-  height: 4px;
-  background: rgba(13, 46, 34, 0.15);
-  border-radius: 2px;
-  margin: 4px auto 16px;
-}
+/* Backdrop + Sheet : styles migrés vers sheets.css (classe .sheet unifiée) */
 
 .filters-sheet-header {
   display: flex;

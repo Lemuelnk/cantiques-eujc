@@ -266,13 +266,17 @@ if (sortButton && sortSheet && sortBackdrop && closeSort) {
 function openSort() {
   sortBackdrop.hidden = false;
   sortSheet.setAttribute('aria-hidden', 'false');
-  requestAnimationFrame(() => sortSheet.classList.add('open'));
+  requestAnimationFrame(() => {
+    sortBackdrop.classList.add('is-open');
+    sortSheet.classList.add('is-open');
+  });
 }
 
 function closeSortSheet() {
-  sortSheet.classList.remove('open');
+  sortSheet.classList.remove('is-open');
+  sortBackdrop.classList.remove('is-open');
   sortSheet.setAttribute('aria-hidden', 'true');
-  setTimeout(() => { sortBackdrop.hidden = true; }, 220);
+  setTimeout(() => { sortBackdrop.hidden = true; }, 250);
 }
 
 sortOptions.forEach(option => {

@@ -1,0 +1,88 @@
+/* ============================================================
+   Cantiques EUJC — Bottom sheets unifiés
+   ============================================================ */
+.sheet {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  width: min(100%, 720px);
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 8px 20px calc(22px + env(safe-area-inset-bottom, 0px));
+  border-radius: 24px 24px 0 0;
+  background: var(--bg-elevated, #fff);
+  color: var(--text-primary, #18231f);
+  box-shadow: 0 -12px 40px rgba(0, 0, 0, 0.22);
+  max-height: 90vh;
+  max-height: 90dvh;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  transform: translateY(100%);
+  transition: transform 0.24s ease-out;
+  will-change: transform;
+  touch-action: pan-y;
+}
+
+.sheet.is-open {
+  transform: translateY(0);
+}
+
+.sheet[hidden] {
+  display: none !important;
+}
+
+.sheet-handle {
+  width: 40px;
+  height: 4px;
+  margin: 4px auto 14px;
+  border-radius: 99px;
+  background: rgba(13, 46, 34, 0.18);
+  flex-shrink: 0;
+  cursor: grab;
+  touch-action: none;
+}
+
+.sheet-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 99;
+  background: rgba(0, 26, 23, 0.42);
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+  opacity: 0;
+  transition: opacity 0.24s ease;
+}
+
+.sheet-backdrop.is-open {
+  opacity: 1;
+}
+
+.sheet-backdrop[hidden] {
+  display: none !important;
+}
+
+@media (min-width: 700px) {
+  .sheet {
+    bottom: auto;
+    top: 50%;
+    transform: translateY(-50%) scale(0.95);
+    opacity: 0;
+    border-radius: 26px;
+    max-height: 90vh;
+    max-height: 90dvh;
+    transition: transform 0.24s ease, opacity 0.24s ease;
+  }
+  .sheet.is-open {
+    transform: translateY(-50%) scale(1);
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sheet,
+  .sheet-backdrop {
+    transition: none;
+  }
+}

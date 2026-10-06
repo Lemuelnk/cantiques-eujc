@@ -463,11 +463,19 @@ function openFilters() {
   if ($filterLesson)   $filterLesson.value   = activeFilters.lesson;
   if ($filterLanguage) $filterLanguage.value = activeFilters.language;
   updateFiltersCount();
+  requestAnimationFrame(() => {
+    $filtersBackdrop.classList.add('is-open');
+    $filtersSheet.classList.add('is-open');
+  });
 }
 
 function closeFilters() {
-  if ($filtersBackdrop) $filtersBackdrop.hidden = true;
-  if ($filtersSheet) $filtersSheet.hidden = true;
+  if ($filtersBackdrop) $filtersBackdrop.classList.remove('is-open');
+  if ($filtersSheet) $filtersSheet.classList.remove('is-open');
+  setTimeout(() => {
+    if ($filtersBackdrop) $filtersBackdrop.hidden = true;
+    if ($filtersSheet) $filtersSheet.hidden = true;
+  }, 250);
 }
 
 function updateFiltersCount() {

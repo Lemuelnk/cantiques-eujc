@@ -19,8 +19,8 @@
   <meta name="mobile-web-app-capable" content="yes">
 
   <link rel="manifest" href="manifest.webmanifest">
-  <link rel="stylesheet" href="charte.css?v=98">
-  <link rel="stylesheet" href="fonts.css?v=98">  <script>
+  <link rel="stylesheet" href="charte.css?v=100">
+  <link rel="stylesheet" href="fonts.css?v=100">  <script>
     /* Anti-FOUC : applique le thème + police avant tout rendu */
     (function(){
       try {
@@ -46,9 +46,10 @@
     })();
   </script>
 
-  <link rel="stylesheet" href="style.css?v=98">
-  <link rel="stylesheet" href="bottom-nav.css?v=98">
-  <link rel="stylesheet" href="recherche.css?v=98">
+  <link rel="stylesheet" href="style.css?v=100">
+  <link rel="stylesheet" href="bottom-nav.css?v=100">
+  <link rel="stylesheet" href="sheets.css?v=100">
+  <link rel="stylesheet" href="recherche.css?v=100">
 
   <script src="https://unpkg.com/lucide@latest"></script>
   <meta name="robots" content="noindex, follow">
@@ -131,10 +132,10 @@
   <!-- =========================
        PANNEAU FILTRES
   ========================== -->
-  <div class="filters-backdrop" id="filters-backdrop" hidden></div>
+  <div class="sheet-backdrop filters-backdrop" id="filters-backdrop" hidden></div>
 
-  <div class="filters-sheet" id="filters-sheet" hidden aria-modal="true" role="dialog">
-    <div class="filters-sheet-handle" aria-hidden="true"></div>
+  <div class="sheet filters-sheet" id="filters-sheet" hidden aria-modal="true" role="dialog">
+    <div class="sheet-handle filters-sheet-handle" aria-hidden="true"></div>
 
     <div class="filters-sheet-header">
       <h2>Filtres</h2>
@@ -173,11 +174,11 @@
     </div>
   </div>
 
-  <script src="bottom-nav.js?v=98"></script>
-  <script src="canonical-data.js?v=98"></script>
-  <script src="storage.js?v=98"></script>
-  <script src="recherche.js?v=98"></script>
-  <script src="sw-register.js?v=98"></script>
-  <script src="preferences.js?v=98"></script>
+  <script src="bottom-nav.js?v=100"></script>
+  <script src="canonical-data.js?v=100"></script>
+  <script src="storage.js?v=100"></script>
+  <script src="recherche.js?v=100"></script>
+  <script src="sw-register.js?v=100"></script>
+  <script src="preferences.js?v=100"></script>
 </body>
 </html>

@@ -32,8 +32,8 @@
   <meta name="twitter:image" content="https://cantiques-eujc.lnk-studio.com/og-image.png">
 
   <link rel="manifest" href="manifest.webmanifest">
-  <link rel="stylesheet" href="charte.css?v=98">
-  <link rel="stylesheet" href="fonts.css?v=98">  <script>
+  <link rel="stylesheet" href="charte.css?v=100">
+  <link rel="stylesheet" href="fonts.css?v=100">  <script>
     /* Anti-FOUC : applique le thème + police avant tout rendu */
     (function(){
       try {
@@ -59,9 +59,10 @@
     })();
   </script>
 
-  <link rel="stylesheet" href="style.css?v=98">
-  <link rel="stylesheet" href="cantique.css?v=98">
-  <link rel="stylesheet" href="share/share.css?v=21">
+  <link rel="stylesheet" href="style.css?v=100">
+  <link rel="stylesheet" href="cantique.css?v=100">
+  <link rel="stylesheet" href="sheets.css?v=100">
+  <link rel="stylesheet" href="share/share.css?v=23">
 
   <script src="https://unpkg.com/lucide@latest"></script>
   <!-- Polices de partage (générateur d'image) -->
@@ -269,8 +270,9 @@
   </div>
 
   <!-- Menu contextuel (caché par défaut) -->
-  <div class="hymn-menu-backdrop" id="menu-backdrop" hidden></div>
-  <div class="hymn-menu-sheet" id="menu-sheet" hidden>
+  <div class="sheet-backdrop hymn-menu-backdrop" id="menu-backdrop" hidden></div>
+  <div class="sheet hymn-menu-sheet" id="menu-sheet" hidden>
+    <div class="sheet-handle" aria-hidden="true"></div>
     <button class="menu-item" id="menu-copy" type="button">
       <i data-lucide="copy"></i>
       <span>Copier les paroles</span>
@@ -290,12 +292,12 @@
   </div>
 
 
-  <script src="preferences.js?v=98"></script>
-  <script src="canonical-data.js?v=98"></script>
-  <script src="storage.js?v=98"></script>
-  <script src="share-image.js?v=98"></script>
-  <script src="cantique.js?v=98"></script>
-  <script src="share/share-ui.js?v=21"></script>
-  <script src="sw-register.js?v=98"></script>
+  <script src="preferences.js?v=100"></script>
+  <script src="canonical-data.js?v=100"></script>
+  <script src="storage.js?v=100"></script>
+  <script src="share-image.js?v=100"></script>
+  <script src="cantique.js?v=100"></script>
+  <script src="share/share-ui.js?v=23"></script>
+  <script src="sw-register.js?v=100"></script>
 </body>
 </html>

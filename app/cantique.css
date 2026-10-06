@@ -313,26 +313,7 @@ body {
 /* ------------------------------------------------------------
    Menu contextuel
    ------------------------------------------------------------ */
-.hymn-menu-backdrop {
-  position: fixed;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.5);
-  z-index: 60;
-  animation: fadeIn 150ms ease;
-}
-
-.hymn-menu-sheet {
-  position: fixed;
-  left: 16px;
-  right: 16px;
-  bottom: calc(16px + env(safe-area-inset-bottom, 0px));
-  z-index: 61;
-  background: var(--bg-elevated);
-  border-radius: 18px;
-  padding: 8px;
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
-  animation: slideUp 200ms ease;
-}
+/* Styles migrés vers sheets.css (classe .sheet unifiée) */
 
 .hymn-menu-sheet .menu-item {
   display: flex;
