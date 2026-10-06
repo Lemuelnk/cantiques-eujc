@@ -2,35 +2,212 @@
   "schema_version": "1.0",
   "corpus_status": "review",
   "taxonomy": {
-    "domain": "a-classer",
+    "domain": "hymnal",
     "category_id": "a-classer-francais",
     "category_label": "Cantiques en français",
     "lesson_id": "a-classer-francais",
     "lesson_label": "Cantiques en français"
   },
   "source": {
-    "file": "Chants en Francais.pdf"
+    "file": null
   },
   "hymns": [
     {
       "schema_version": "1.0",
-      "id": "fr-001",
-      "title": "OH CONDUIS-MOI",
+      "id": "fr-CHANTS_E-0",
+      "title": "IL Y AVAIT UN HOMME DU NOM DE SIMEON",
       "status": "review",
       "versions": [
         {
-          "id": "fr-001-v1",
+          "id": "fr-CHANTS_E-0-v1",
           "language": {
             "code": "fr",
             "label": "Français",
             "status": "confirmed",
-            "detection": "manual"
+            "detection": "auto"
+          },
+          "title": "IL Y AVAIT UN HOMME DU NOM DE SIMEON",
+          "source": {
+            "file": "CHANTS EUJC.pdf",
+            "position": 1,
+            "number": "",
+            "section": "",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "hymnal",
+            "category_id": "a-classer-francais",
+            "category_label": "Cantiques en français",
+            "lesson_id": "a-classer-francais",
+            "lesson_label": "Cantiques en français"
+          },
+          "content": [
+            {
+              "type": "verse",
+              "number": "1",
+              "lines": [
+                "Il y avait un homme du nom de Siméon, il était un pieux compte beaucoup d’années, il implora Dieu pour voir Messie « que mes yeux voyent le Messie ah » (X2)"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Siméon, il glorifie beaucoup, il glorifia son Dieu aah que ke m’en aille en paix il implora que je m’en aille en paix ee, ee que je m’en aille en paix comme mes ues yeux vu que je m’en aille en paix ee, ee que je m’en aille en paix."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Siméon le reçu dans ses bras, il bénit au ciel notre Dieu, allelua ma joie la lumière m’a éclairé « mes yeux viennent de voir le Messie ah » (X2)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "fr-CHANTS_E-0",
+      "title": "VENEZ CHANTER AVEC ALLEGRESSE",
+      "status": "review",
+      "versions": [
+        {
+          "id": "fr-CHANTS_E-0-v1",
+          "language": {
+            "code": "fr",
+            "label": "Français",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "VENEZ CHANTER AVEC ALLEGRESSE",
+          "source": {
+            "file": "CHANTS EUJC.pdf",
+            "position": 2,
+            "number": "",
+            "section": "",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "hymnal",
+            "category_id": "a-classer-francais",
+            "category_label": "Cantiques en français",
+            "lesson_id": "a-classer-francais",
+            "lesson_label": "Cantiques en français"
+          },
+          "content": [
+            {
+              "type": "verse",
+              "number": "1",
+              "lines": [
+                "Venez chanter avec allégresser le chemin s’est retrouvé longtemps il a été cache, Seigneur revèle-nous (X2)"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Merci Seigneur Dieu, merci Seigneur Dieu, merci Seigneur Yawé (allelua) tu nous a donnés ton fils unique Jésus pour nous rendre la vie (X2)"
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Satan, Satan s’est rebellé contre la parole du Seigneur, c’est lui notre énemi qui combat pour la ruine (X2)"
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Les difficultés sont nombreuses, les tentations abondent (aussi) Siegneur vient à notre aide, en toutes ses détresses."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "fr-CHANTS_E-0",
+      "title": "PARMI LES FILS DE JACOB",
+      "status": "review",
+      "versions": [
+        {
+          "id": "fr-CHANTS_E-0-v1",
+          "language": {
+            "code": "fr",
+            "label": "Français",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "PARMI LES FILS DE JACOB",
+          "source": {
+            "file": "CHANTS EUJC.pdf",
+            "position": 3,
+            "number": "",
+            "section": "",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "hymnal",
+            "category_id": "a-classer-francais",
+            "category_label": "Cantiques en français",
+            "lesson_id": "a-classer-francais",
+            "lesson_label": "Cantiques en français"
+          },
+          "content": [
+            {
+              "type": "verse",
+              "number": "1",
+              "lines": [
+                "Parmi les fils de Jacob ils manquerent la charité, « ils vendèrent leur frère Joseph est son nom » (X2)"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "(Et toi bien aimé où vas-tu) en chemin du Roi tiens toi près de ne pas vendre la parole de Dieu pour tes préoccupations, tiens-toi près de ne pas vendre les fils de Dieu pour tes préoccupations."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Ils s’en saisirent de Joseph le jetèrent dans la citerne « ils furent partir le vendre chez les ismaelites » (X2)"
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Ils trempèrent sa tunique dans le sang d’un bouc, « allèrent tromper Jacob qu’un bête féroce l’a dévoré » (X2)."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "fr-Chants_e-0",
+      "title": "OH CONDUIS-MOI",
+      "status": "review",
+      "versions": [
+        {
+          "id": "fr-Chants_e-0-v1",
+          "language": {
+            "code": "fr",
+            "label": "Français",
+            "status": "confirmed",
+            "detection": "auto"
           },
           "title": "OH CONDUIS-MOI",
           "source": {
             "file": "Chants en Francais.pdf",
-            "position": 1,
-            "number": "I",
+            "position": 4,
+            "number": "",
+            "section": "",
             "reference": null
           },
           "taxonomy": {
@@ -56,8 +233,7 @@
                 "Salut que j’ai bien mérité",
                 "Dans les peines",
                 "Et dans les dures souffrances”"
-              ],
-              "index": 1
+              ]
             },
             {
               "type": "verse",
@@ -66,8 +242,7 @@
                 "Force que j’ai bien mérité",
                 "Dans les peines",
                 "Et dans les dures souffrances”"
-              ],
-              "index": 2
+              ]
             },
             {
               "type": "verse",
@@ -76,8 +251,7 @@
                 "Appui que j’ai bien mérité",
                 "Dans les peines",
                 "Et dans les dures souffrances’’"
-              ],
-              "index": 3
+              ]
             }
           ]
         }
@@ -85,23 +259,24 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-002",
+      "id": "fr-Chants_e-0",
       "title": "METTONS-NOUS A L’OEUVRE",
       "status": "review",
       "versions": [
         {
-          "id": "fr-002-v1",
+          "id": "fr-Chants_e-0-v1",
           "language": {
             "code": "fr",
             "label": "Français",
             "status": "confirmed",
-            "detection": "manual"
+            "detection": "auto"
           },
           "title": "METTONS-NOUS A L’OEUVRE",
           "source": {
             "file": "Chants en Francais.pdf",
-            "position": 2,
-            "number": "II",
+            "position": 5,
+            "number": "",
+            "section": "",
             "reference": null
           },
           "taxonomy": {
@@ -118,8 +293,7 @@
                 "“ Mettons-nous à l’oeuvre:",
                 "A l’oeuvre du seigneur” (3x)",
                 "Ne peuvent nous séparer de son amour. (Bis)"
-              ],
-              "index": 1
+              ]
             },
             {
               "type": "verse",
@@ -127,8 +301,7 @@
                 "“ Ni la saison sèche :",
                 "Ni la saison de pluie” (3x)",
                 "Ne peuvent nous séparer de son amour. (Bis)"
-              ],
-              "index": 2
+              ]
             },
             {
               "type": "verse",
@@ -136,8 +309,7 @@
                 "“ Ni dans la famine:",
                 "Ni dans l’abondance” (3x)",
                 "Ne peuvent nous séparer de son amour. (Bis)"
-              ],
-              "index": 3
+              ]
             },
             {
               "type": "verse",
@@ -145,8 +317,7 @@
                 "“ Ni dans les souffrances :",
                 "Les souffrances et la mort “(3x)",
                 "Ne peuvent nous séparer de son amour. (Bis)"
-              ],
-              "index": 4
+              ]
             },
             {
               "type": "verse",
@@ -154,8 +325,7 @@
                 "“ Quand je suis malade :",
                 "Même prêt à mourir”",
                 "Ne peuvent nous séparer de son amour. (Bis)"
-              ],
-              "index": 5
+              ]
             },
             {
               "type": "refrain",
@@ -171,23 +341,24 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-003",
+      "id": "fr-Chants_e-0",
       "title": "AU COMMENCEMENT DE L’UNIVERS",
       "status": "review",
       "versions": [
         {
-          "id": "fr-003-v1",
+          "id": "fr-Chants_e-0-v1",
           "language": {
             "code": "fr",
             "label": "Français",
             "status": "confirmed",
-            "detection": "manual"
+            "detection": "auto"
           },
           "title": "AU COMMENCEMENT DE L’UNIVERS",
           "source": {
             "file": "Chants en Francais.pdf",
-            "position": 3,
-            "number": "III",
+            "position": 6,
+            "number": "",
+            "section": "",
             "reference": null
           },
           "taxonomy": {
@@ -205,8 +376,7 @@
                 "Était la parole de Dieu",
                 "Et qui créa à son image",
                 "Un homme a la ressemblance oh de Dieu. (Bis)"
-              ],
-              "index": 1
+              ]
             },
             {
               "type": "verse",
@@ -215,8 +385,7 @@
                 "Répudièrent la parole de vie",
                 "Qui était mise à leur portée",
                 "Se cachèrent loin de la face oh de Dieu. (Bis)"
-              ],
-              "index": 2
+              ]
             },
             {
               "type": "verse",
@@ -226,8 +395,7 @@
                 "Rendant louange à l’Eternel",
                 "<< Et nous enfants légitimes >>",
                 "A qui adresserons-nous nos cantiques. (Bis)"
-              ],
-              "index": 3
+              ]
             },
             {
               "type": "refrain",
@@ -242,23 +410,24 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-004",
+      "id": "fr-Chants_e-0",
       "title": "LES TENEBRES",
       "status": "review",
       "versions": [
         {
-          "id": "fr-004-v1",
+          "id": "fr-Chants_e-0-v1",
           "language": {
             "code": "fr",
             "label": "Français",
             "status": "confirmed",
-            "detection": "manual"
+            "detection": "auto"
           },
           "title": "LES TENEBRES",
           "source": {
             "file": "Chants en Francais.pdf",
-            "position": 4,
-            "number": "IV",
+            "position": 7,
+            "number": "",
+            "section": "",
             "reference": null
           },
           "taxonomy": {
@@ -275,8 +444,7 @@
                 "Avant la parole de Dieu",
                 "Nous étions dans les ténèbres",
                 "Pour avoir manqué l’Eternel parmi nous. (Bis)"
-              ],
-              "index": 1
+              ]
             },
             {
               "type": "verse",
@@ -286,8 +454,7 @@
                 "Il créa d’abord Adam",
                 "Et ensuite il créa Eve",
                 "Il planta pour eux un jardin en Eden. (Bis)"
-              ],
-              "index": 2
+              ]
             },
             {
               "type": "verse",
@@ -297,8 +464,7 @@
                 "Elle ne fut qu’un pedagogue",
                 "Pour nous mener à la foi",
                 "Pour nous mener au royaume de Jésus-Christ."
-              ],
-              "index": 3
+              ]
             },
             {
               "type": "refrain",
@@ -316,23 +482,24 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-005",
+      "id": "fr-Chants_e-0",
       "title": "TA PAROLE OH DIEU",
       "status": "review",
       "versions": [
         {
-          "id": "fr-005-v1",
+          "id": "fr-Chants_e-0-v1",
           "language": {
             "code": "fr",
             "label": "Français",
             "status": "confirmed",
-            "detection": "manual"
+            "detection": "auto"
           },
           "title": "TA PAROLE OH DIEU",
           "source": {
             "file": "Chants en Francais.pdf",
-            "position": 5,
-            "number": "V",
+            "position": 8,
+            "number": "",
+            "section": "",
             "reference": null
           },
           "taxonomy": {
@@ -361,8 +528,7 @@
                 "La foi en Dieu",
                 "Est l’épée de l’Eternel",
                 "Pour anéantir toutes les pensées égarées. (Bis)"
-              ],
-              "index": 1
+              ]
             },
             {
               "type": "verse",
@@ -371,8 +537,7 @@
                 "La mort de Jésus-Christ",
                 "Dont le sang nous lave",
                 "De toutes nos iniquités. (Bis)"
-              ],
-              "index": 2
+              ]
             },
             {
               "type": "verse",
@@ -381,8 +546,7 @@
                 "Sur le seigneur Jésus",
                 "Le Rocher qui est réjeté",
                 "Par les bâtisseurs."
-              ],
-              "index": 3
+              ]
             }
           ]
         }
@@ -390,23 +554,24 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-006",
+      "id": "fr-Chants_e-0",
       "title": "SOLDATS DE JESUS",
       "status": "review",
       "versions": [
         {
-          "id": "fr-006-v1",
+          "id": "fr-Chants_e-0-v1",
           "language": {
             "code": "fr",
             "label": "Français",
             "status": "confirmed",
-            "detection": "manual"
+            "detection": "auto"
           },
           "title": "SOLDATS DE JESUS",
           "source": {
             "file": "Chants en Francais.pdf",
-            "position": 6,
-            "number": "VI",
+            "position": 9,
+            "number": "",
+            "section": "",
             "reference": null
           },
           "taxonomy": {
@@ -423,8 +588,7 @@
                 "Soldats de jésus avançons dans le combat",
                 "Que nous ménons avec la bonne nouvelle",
                 "Dieu nous soutiendra. (2x)"
-              ],
-              "index": 1
+              ]
             },
             {
               "type": "verse",
@@ -432,8 +596,7 @@
                 "Les énnemis ont la mauvaise nouvelle",
                 "Cherchant à séduire les élus de l’Eternel",
                 "A la rebellion. (2x)"
-              ],
-              "index": 2
+              ]
             },
             {
               "type": "verse",
@@ -441,8 +604,7 @@
                 "Demandons la puissance à l’Eternel Dieu",
                 "Qu’il nous secoure comme il a fait des israélites",
                 "Dans les anciens temps. (2x)"
-              ],
-              "index": 3
+              ]
             },
             {
               "type": "refrain",
@@ -459,23 +621,24 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-007",
+      "id": "fr-Chants_e-0",
       "title": "L’ETERNEL EST MA LUMIERE",
       "status": "review",
       "versions": [
         {
-          "id": "fr-007-v1",
+          "id": "fr-Chants_e-0-v1",
           "language": {
             "code": "fr",
             "label": "Français",
             "status": "confirmed",
-            "detection": "manual"
+            "detection": "auto"
           },
           "title": "L’ETERNEL EST MA LUMIERE",
           "source": {
             "file": "Chants en Francais.pdf",
-            "position": 7,
-            "number": "VII",
+            "position": 10,
+            "number": "",
+            "section": "",
             "reference": null
           },
           "taxonomy": {
@@ -493,8 +656,7 @@
                 "Car je n’ai crainte de rien",
                 "Devant les ennemis et devant les combats",
                 "Moi je n’ai crainte de rien."
-              ],
-              "index": 1
+              ]
             },
             {
               "type": "verse",
@@ -504,8 +666,7 @@
                 "Pour adorer et pour exalter le seigneur",
                 "Au nom de jésus fils de Dieu",
                 "Seigneur et sauveur de l’humanité. (2x)"
-              ],
-              "index": 2
+              ]
             },
             {
               "type": "verse",
@@ -515,8 +676,7 @@
                 "Venez tous pour louer l’Eternel",
                 "Au nom de jésus fils de Dieu",
                 "Seigneur et sauveur de l’humanité. (2x)"
-              ],
-              "index": 3
+              ]
             },
             {
               "type": "verse",
@@ -526,8 +686,7 @@
                 "Même dans le malheur quand nous sommes frappes",
                 "Au nom de jésus fils de Dieu",
                 "Seigneur et sauveur de l’humanité. (2x)"
-              ],
-              "index": 4
+              ]
             },
             {
               "type": "refrain",
@@ -542,23 +701,24 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-008",
+      "id": "fr-Chants_e-0",
       "title": "ECOUTE NOS PRIERES",
       "status": "review",
       "versions": [
         {
-          "id": "fr-008-v1",
+          "id": "fr-Chants_e-0-v1",
           "language": {
             "code": "fr",
             "label": "Français",
             "status": "confirmed",
-            "detection": "manual"
+            "detection": "auto"
           },
           "title": "ECOUTE NOS PRIERES",
           "source": {
             "file": "Chants en Francais.pdf",
-            "position": 8,
-            "number": "VIII",
+            "position": 11,
+            "number": "",
+            "section": "",
             "reference": null
           },
           "taxonomy": {
@@ -574,24 +734,21 @@
               "lines": [
                 "Dieu le père: oh! Oh! Seigneur",
                 "Dieu créateur: Jéhovah écoute nos prières. (2x) (Dieu tout puissant)"
-              ],
-              "index": 1
+              ]
             },
             {
               "type": "verse",
               "lines": [
                 "Jésus-Christ: Oh! Oh! Jésus",
                 "Tu es sauveur: sauve-nous et donne-nous ta grâce. (2x)"
-              ],
-              "index": 2
+              ]
             },
             {
               "type": "verse",
               "lines": [
                 "Saint Esprit: Oh! Saint Esprit",
                 "Consolateur: console-nous people d’Israël. (2x)"
-              ],
-              "index": 3
+              ]
             }
           ]
         }
@@ -599,23 +756,24 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-009",
+      "id": "fr-Chants_e-0",
       "title": "JE SUIS TON HUMBLE SERVITEUR",
       "status": "review",
       "versions": [
         {
-          "id": "fr-009-v1",
+          "id": "fr-Chants_e-0-v1",
           "language": {
             "code": "fr",
             "label": "Français",
             "status": "confirmed",
-            "detection": "manual"
+            "detection": "auto"
           },
           "title": "JE SUIS TON HUMBLE SERVITEUR",
           "source": {
             "file": "Chants en Francais.pdf",
-            "position": 9,
-            "number": "IX",
+            "position": 12,
+            "number": "",
+            "section": "",
             "reference": null
           },
           "taxonomy": {
@@ -633,8 +791,7 @@
                 "Tu es le tout puissant",
                 "Oh! Toi mon seigneur",
                 "Prends pitié de moi. (2x)"
-              ],
-              "index": 1
+              ]
             },
             {
               "type": "verse",
@@ -644,8 +801,7 @@
                 "Jésus fils de Dieu",
                 "Oh! Toi mon seigneur",
                 "Prends pitié de moi. (2x)"
-              ],
-              "index": 2
+              ]
             },
             {
               "type": "verse",
@@ -654,8 +810,7 @@
                 "Je suis ton humble serviteur",
                 "Toi le saint Esprit",
                 "Oh! Toi seigneur."
-              ],
-              "index": 3
+              ]
             }
           ]
         }
@@ -663,23 +818,24 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-010",
+      "id": "fr-Chants_e-0",
       "title": "NOUS TE BENISSONS",
       "status": "review",
       "versions": [
         {
-          "id": "fr-010-v1",
+          "id": "fr-Chants_e-0-v1",
           "language": {
             "code": "fr",
             "label": "Français",
             "status": "confirmed",
-            "detection": "manual"
+            "detection": "auto"
           },
           "title": "NOUS TE BENISSONS",
           "source": {
             "file": "Chants en Francais.pdf",
-            "position": 10,
-            "number": "X",
+            "position": 13,
+            "number": "",
+            "section": "",
             "reference": null
           },
           "taxonomy": {
@@ -702,8 +858,7 @@
                 "- Nous benisons Jésus…",
                 "- Nous benisons l’Esprit",
                 "- Ruben…"
-              ],
-              "index": 1
+              ]
             }
           ]
         }
@@ -711,23 +866,24 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-011",
+      "id": "fr-Chants_e-0",
       "title": "NOUS TE SUPPLIONS",
       "status": "review",
       "versions": [
         {
-          "id": "fr-011-v1",
+          "id": "fr-Chants_e-0-v1",
           "language": {
             "code": "fr",
             "label": "Français",
             "status": "confirmed",
-            "detection": "manual"
+            "detection": "auto"
           },
           "title": "NOUS TE SUPPLIONS",
           "source": {
             "file": "Chants en Francais.pdf",
-            "position": 11,
-            "number": "XI",
+            "position": 14,
+            "number": "",
+            "section": "",
             "reference": null
           },
           "taxonomy": {
@@ -745,22 +901,19 @@
                 "Nous t’en supplions",
                 "Purifie-nous",
                 "Oh! Seigneur, perifie-nous."
-              ],
-              "index": 1
+              ]
             },
             {
               "type": "verse",
               "lines": [
                 "Seigneur Jésus…"
-              ],
-              "index": 2
+              ]
             },
             {
               "type": "verse",
               "lines": [
                 "Esprit de Dieu…"
-              ],
-              "index": 3
+              ]
             }
           ]
         }
@@ -768,23 +921,24 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-012",
+      "id": "fr-Chants_e-0",
       "title": "PEU DE GENS IRONT AU CIEL",
       "status": "review",
       "versions": [
         {
-          "id": "fr-012-v1",
+          "id": "fr-Chants_e-0-v1",
           "language": {
             "code": "fr",
             "label": "Français",
             "status": "confirmed",
-            "detection": "manual"
+            "detection": "auto"
           },
           "title": "PEU DE GENS IRONT AU CIEL",
           "source": {
             "file": "Chants en Francais.pdf",
-            "position": 12,
-            "number": "XII",
+            "position": 15,
+            "number": "",
+            "section": "",
             "reference": null
           },
           "taxonomy": {
@@ -801,8 +955,7 @@
                 "Combien iront:",
                 "Peu de gens pourront aller au ciel",
                 "Pour avoir cru au seigneur jésus. (2x)"
-              ],
-              "index": 1
+              ]
             },
             {
               "type": "verse",
@@ -810,8 +963,7 @@
                 "Nombreux sont ceux:",
                 "Nombreux se lamenteront",
                 "Pour leur désobeissance alleluia. (2x)"
-              ],
-              "index": 2
+              ]
             },
             {
               "type": "verse",
@@ -819,8 +971,7 @@
                 "Conduisons-nous",
                 "Conduisons-nous avec prudence",
                 "Et vigilance face aux faux prophètes. (2x)"
-              ],
-              "index": 3
+              ]
             },
             {
               "type": "verse",
@@ -828,8 +979,7 @@
                 "Ils viennent nous:",
                 "Ils viennent à nous en peau d’agneau",
                 "Au dedans d’eux des loups ravisseurs. (2x)"
-              ],
-              "index": 4
+              ]
             },
             {
               "type": "refrain",
@@ -848,23 +998,24 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-013",
+      "id": "fr-Chants_e-0",
       "title": "SODOME ET GOMORRHE",
       "status": "review",
       "versions": [
         {
-          "id": "fr-013-v1",
+          "id": "fr-Chants_e-0-v1",
           "language": {
             "code": "fr",
             "label": "Français",
             "status": "confirmed",
-            "detection": "manual"
+            "detection": "auto"
           },
           "title": "SODOME ET GOMORRHE",
           "source": {
             "file": "Chants en Francais.pdf",
-            "position": 13,
-            "number": "XIII",
+            "position": 16,
+            "number": "",
+            "section": "",
             "reference": null
           },
           "taxonomy": {
@@ -882,8 +1033,7 @@
                 "Répudièrent l’Eternel",
                 "Eternal Dieu",
                 "“Eternel Dieu, plein de bonté et miséricorde”"
-              ],
-              "index": 1
+              ]
             },
             {
               "type": "verse",
@@ -893,8 +1043,7 @@
                 "Et bien aimé dans le seigneur",
                 "“Fais attention",
                 "Si tu demeures toujours en Sodome tu périras de feu”"
-              ],
-              "index": 2
+              ]
             },
             {
               "type": "verse",
@@ -904,8 +1053,7 @@
                 "Adores ton Dieu dans la lumière",
                 "“Fais attention:",
                 "Tu deviendras statue de sel en regardant en arrière”"
-              ],
-              "index": 3
+              ]
             },
             {
               "type": "refrain",
@@ -923,23 +1071,24 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-014",
+      "id": "fr-Chants_e-0",
       "title": "METTONS-NOUS AU TRAVAIL",
       "status": "review",
       "versions": [
         {
-          "id": "fr-014-v1",
+          "id": "fr-Chants_e-0-v1",
           "language": {
             "code": "fr",
             "label": "Français",
             "status": "confirmed",
-            "detection": "manual"
+            "detection": "auto"
           },
           "title": "METTONS-NOUS AU TRAVAIL",
           "source": {
             "file": "Chants en Francais.pdf",
-            "position": 14,
-            "number": "XIV",
+            "position": 17,
+            "number": "",
+            "section": "",
             "reference": null
           },
           "taxonomy": {
@@ -956,8 +1105,7 @@
                 "Mettons-nous au travail",
                 "Du seigneur notre Dieu",
                 "Car l’Eternel nous portera son secours. (2x)"
-              ],
-              "index": 1
+              ]
             },
             {
               "type": "verse",
@@ -965,8 +1113,7 @@
                 "C’est sur notre personne",
                 "Qu’il a porté son choix",
                 "Afin de l’aider dans cetteœuvre grandiose. (2x)"
-              ],
-              "index": 2
+              ]
             },
             {
               "type": "verse",
@@ -974,8 +1121,7 @@
                 "Avec perseverance",
                 "Montrons l’assiduité",
                 "Jusqu’à la fin de notre vie ici-bas. (2x)"
-              ],
-              "index": 3
+              ]
             },
             {
               "type": "refrain",
@@ -992,23 +1138,24 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-015",
+      "id": "fr-Chants_e-0",
       "title": "CHANTONS AVEC ALLEGRESSE",
       "status": "review",
       "versions": [
         {
-          "id": "fr-015-v1",
+          "id": "fr-Chants_e-0-v1",
           "language": {
             "code": "fr",
             "label": "Français",
             "status": "confirmed",
-            "detection": "manual"
+            "detection": "auto"
           },
           "title": "CHANTONS AVEC ALLEGRESSE",
           "source": {
             "file": "Chants en Francais.pdf",
-            "position": 15,
-            "number": "XV",
+            "position": 18,
+            "number": "",
+            "section": "",
             "reference": null
           },
           "taxonomy": {
@@ -1026,8 +1173,7 @@
                 "Le chemin nous est ouvert",
                 "Nous menant de la terre au ciel",
                 "Oh ! Seigneur assiste-nous. (2x)"
-              ],
-              "index": 1
+              ]
             },
             {
               "type": "verse",
@@ -1036,8 +1182,7 @@
                 "A cause de la bonne parole",
                 "Il s’oppose à tous ceux qui veulent",
                 "Hériter de la vie de Dieu. (2x)"
-              ],
-              "index": 2
+              ]
             },
             {
               "type": "verse",
@@ -1046,8 +1191,7 @@
                 "Et les problèmes de tout genre",
                 "Oh ! Seigneur nous t’en supplions",
                 "Délivre-nous du malheur"
-              ],
-              "index": 3
+              ]
             },
             {
               "type": "refrain",
@@ -1067,105 +1211,24 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-016",
-      "title": "LES ENFANTS D’ISRAEL EN EGYPTE",
-      "status": "review",
-      "versions": [
-        {
-          "id": "fr-016-v1",
-          "language": {
-            "code": "fr",
-            "label": "Français",
-            "status": "confirmed",
-            "detection": "manual"
-          },
-          "title": "LES ENFANTS D’ISRAEL EN EGYPTE",
-          "source": {
-            "file": "Chants en Francais.pdf",
-            "position": 16,
-            "number": "XVI",
-            "reference": null
-          },
-          "taxonomy": {
-            "domain": "hymnal",
-            "category_id": "a-classer-francais",
-            "category_label": "Cantiques en français",
-            "lesson_id": "a-classer-francais",
-            "lesson_label": "Cantiques en français"
-          },
-          "content": [
-            {
-              "type": "verse",
-              "lines": [
-                "Les enfants d’Israël furent serviteurs",
-                "De pharaon l’égyptien",
-                "Pour avoir vendu aux ismaélites",
-                "Joseph la parole de Dieu"
-              ],
-              "index": 1
-            },
-            {
-              "type": "verse",
-              "lines": [
-                "Ayant entendu leurs supplications",
-                "Dieu envoya Moïse",
-                "Afin de libérer les israélites",
-                "Des mains du roi pharaon"
-              ],
-              "index": 2
-            },
-            {
-              "type": "verse",
-              "lines": [
-                "Moïse se trouvant dans le désert",
-                "Où il paissait le troupeau",
-                "Il vit un buisson tout ardent de feu",
-                "Mais ne se consumait point"
-              ],
-              "index": 3
-            },
-            {
-              "type": "verse",
-              "lines": [
-                "Il entendu la voix de ce buisson",
-                "Venant de l’Eternel Dieu",
-                "Enlève les souliers de tes pieds",
-                "Car ce lieu est sanctifié"
-              ],
-              "index": 4
-            },
-            {
-              "type": "refrain",
-              "lines": [
-                "Si tu as déjà vendu le seigneur Jésus",
-                "La parole de Dieu",
-                "Pour te ressaisir, tu en souffriras",
-                "Tu gémiras par des pleurs. (2x)"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "schema_version": "1.0",
-      "id": "fr-017",
+      "id": "fr-Chants_e-0",
       "title": "MON LONG PERIPLE",
       "status": "review",
       "versions": [
         {
-          "id": "fr-017-v1",
+          "id": "fr-Chants_e-0-v1",
           "language": {
             "code": "fr",
             "label": "Français",
             "status": "confirmed",
-            "detection": "manual"
+            "detection": "auto"
           },
           "title": "MON LONG PERIPLE",
           "source": {
             "file": "Chants en Francais.pdf",
-            "position": 17,
-            "number": "XVII",
+            "position": 19,
+            "number": "",
+            "section": "",
             "reference": null
           },
           "taxonomy": {
@@ -1183,8 +1246,7 @@
                 "Je me confie en Dieu",
                 "Pour qu’il me précède",
                 "Et qu’il me protège. (2x)"
-              ],
-              "index": 1
+              ]
             },
             {
               "type": "verse",
@@ -1193,8 +1255,7 @@
                 "Des hommes de ce monde",
                 "Des biens et des conflits",
                 "Réellement tu mourras. (2x)"
-              ],
-              "index": 2
+              ]
             },
             {
               "type": "verse",
@@ -1203,8 +1264,7 @@
                 "Des combats ténébreux",
                 "Ces immenses embuches",
                 "M’empêchant de survivre. (2x)"
-              ],
-              "index": 3
+              ]
             },
             {
               "type": "refrain",
@@ -1223,23 +1283,24 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-018",
+      "id": "fr-Chants_e-0",
       "title": "NAISSANCE D’ESAÜ ET DE JACOB",
       "status": "review",
       "versions": [
         {
-          "id": "fr-018-v1",
+          "id": "fr-Chants_e-0-v1",
           "language": {
             "code": "fr",
             "label": "Français",
             "status": "confirmed",
-            "detection": "manual"
+            "detection": "auto"
           },
           "title": "NAISSANCE D’ESAÜ ET DE JACOB",
           "source": {
             "file": "Chants en Francais.pdf",
-            "position": 18,
-            "number": "XVIII",
+            "position": 20,
+            "number": "",
+            "section": "",
             "reference": null
           },
           "taxonomy": {
@@ -1259,8 +1320,7 @@
                 "Au sein de Rebecca :",
                 "Ce sont les deux nations",
                 "Qui sortiront de Rebecca (2x)"
-              ],
-              "index": 1
+              ]
             },
             {
               "type": "verse",
@@ -1271,8 +1331,7 @@
                 "Ayant une peau velue",
                 "Edom était son nom",
                 "Il était un homme fatigué (2x)"
-              ],
-              "index": 2
+              ]
             },
             {
               "type": "verse",
@@ -1283,8 +1342,7 @@
                 "Demeurer sous les tentes",
                 "Il fut aimé de Dieu",
                 "Et Dieu rejeta Esaü (2x)"
-              ],
-              "index": 3
+              ]
             },
             {
               "type": "refrain",
@@ -1302,23 +1360,24 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-019",
+      "id": "fr-Chants_e-0",
       "title": "LA DESTRUCTION DE JERICHO",
       "status": "review",
       "versions": [
         {
-          "id": "fr-019-v1",
+          "id": "fr-Chants_e-0-v1",
           "language": {
             "code": "fr",
             "label": "Français",
             "status": "confirmed",
-            "detection": "manual"
+            "detection": "auto"
           },
           "title": "LA DESTRUCTION DE JERICHO",
           "source": {
             "file": "Chants en Francais.pdf",
-            "position": 19,
-            "number": "XIX",
+            "position": 21,
+            "number": "",
+            "section": "",
             "reference": null
           },
           "taxonomy": {
@@ -1335,8 +1394,7 @@
                 "Pour s’assurer de la déstruction de Jéricho",
                 "Verrouille toutes tes portes, que tu n’en puisses sortir",
                 "Que personne n’y entre, c’est la déstruction de Jéricho."
-              ],
-              "index": 1
+              ]
             },
             {
               "type": "verse",
@@ -1344,8 +1402,7 @@
                 "C’est donc pendant six que retentit la trempette",
                 "Pendant le septième jour, c’est l’occupation de la ville",
                 "La muraille est détruite et nous voici en Canaan."
-              ],
-              "index": 2
+              ]
             },
             {
               "type": "verse",
@@ -1353,8 +1410,7 @@
                 "Maudit soit cet homme qui va rebâtir la ville",
                 "Maudit soit l’animal qui en repose les portes",
                 "C’est au prix de son ainé et de son fils cadet."
-              ],
-              "index": 3
+              ]
             },
             {
               "type": "refrain",
@@ -1369,23 +1425,24 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-020",
+      "id": "fr-Chants_e-0",
       "title": "JESUS DEMANDA A SON PERE",
       "status": "review",
       "versions": [
         {
-          "id": "fr-020-v1",
+          "id": "fr-Chants_e-0-v1",
           "language": {
             "code": "fr",
             "label": "Français",
             "status": "confirmed",
-            "detection": "manual"
+            "detection": "auto"
           },
           "title": "JESUS DEMANDA A SON PERE",
           "source": {
             "file": "Chants en Francais.pdf",
-            "position": 20,
-            "number": "XX",
+            "position": 22,
+            "number": "",
+            "section": "",
             "reference": null
           },
           "taxonomy": {
@@ -1406,8 +1463,7 @@
                 "Et tout celui qui :",
                 "‘’Tout celui qui reçoit ma parole",
                 "Ne verra jamais la mort’’ (2x)"
-              ],
-              "index": 1
+              ]
             },
             {
               "type": "verse",
@@ -1419,8 +1475,7 @@
                 "‘’L’Esprit du seigneur",
                 "Il reposera sur ses fidèles",
                 "Sur les enfants d’Israël’’ (2x)"
-              ],
-              "index": 2
+              ]
             },
             {
               "type": "verse",
@@ -1432,8 +1487,7 @@
                 "‘’ Et Jérusalem :",
                 "La Jérusalem céleste",
                 "L’unique ville du bonheur’’"
-              ],
-              "index": 3
+              ]
             },
             {
               "type": "refrain",
@@ -1458,23 +1512,24 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-021",
+      "id": "fr-Chants_e-0",
       "title": "LOUONS L’ETERNEL",
       "status": "review",
       "versions": [
         {
-          "id": "fr-021-v1",
+          "id": "fr-Chants_e-0-v1",
           "language": {
             "code": "fr",
             "label": "Français",
             "status": "confirmed",
-            "detection": "manual"
+            "detection": "auto"
           },
           "title": "LOUONS L’ETERNEL",
           "source": {
             "file": "Chants en Francais.pdf",
-            "position": 21,
-            "number": "XXI",
+            "position": 23,
+            "number": "",
+            "section": "",
             "reference": null
           },
           "taxonomy": {
@@ -1490,24 +1545,21 @@
               "lines": [
                 "Louons l’Eternel le tout puissant",
                 "Louons l’Eternel, notre créateur"
-              ],
-              "index": 1
+              ]
             },
             {
               "type": "verse",
               "lines": [
                 "Glorifions Jésus, la parole de Dieu",
                 "Glorifions Jésus, il est le sauveur."
-              ],
-              "index": 2
+              ]
             },
             {
               "type": "verse",
               "lines": [
                 "Exaltons l’Esprit, la sagesse de Dieu",
                 "Exaltons l’Esprit, le consolateur"
-              ],
-              "index": 3
+              ]
             }
           ]
         }
@@ -1515,23 +1567,24 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-022",
+      "id": "fr-Chants_e-0",
       "title": "TOI MON SEIGNEUR",
       "status": "review",
       "versions": [
         {
-          "id": "fr-022-v1",
+          "id": "fr-Chants_e-0-v1",
           "language": {
             "code": "fr",
             "label": "Français",
             "status": "confirmed",
-            "detection": "manual"
+            "detection": "auto"
           },
           "title": "TOI MON SEIGNEUR",
           "source": {
             "file": "Chants en Francais.pdf",
-            "position": 22,
-            "number": "XXII",
+            "position": 24,
+            "number": "",
+            "section": "",
             "reference": null
           },
           "taxonomy": {
@@ -1549,8 +1602,7 @@
                 "Je viens devant toi avec larmes aux yeux",
                 "Protège ma vie oh toi mon sauveur",
                 "‘’Toute ma misère la voici devant toi’’ (2x)"
-              ],
-              "index": 1
+              ]
             },
             {
               "type": "verse",
@@ -1559,8 +1611,7 @@
                 "Les larmes à mes yeux qui n’en finissent pas",
                 "Mon unique salut est auprès de toi",
                 "‘’ Toute ma misère la voici devant toi ‘’ (2x)"
-              ],
-              "index": 2
+              ]
             },
             {
               "type": "verse",
@@ -1569,8 +1620,7 @@
                 "Tu me sauveras de tous ces méchants",
                 "Ils se réjouissent tous de mon malheur",
                 "‘’ Au nom du seigneur, j’en serais délivré ‘’ (2x)"
-              ],
-              "index": 3
+              ]
             },
             {
               "type": "refrain",
@@ -1587,23 +1637,24 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-023",
+      "id": "fr-Chants_e-0",
       "title": "IL EXISTAIT UN HOMME",
       "status": "review",
       "versions": [
         {
-          "id": "fr-023-v1",
+          "id": "fr-Chants_e-0-v1",
           "language": {
             "code": "fr",
             "label": "Français",
             "status": "confirmed",
-            "detection": "manual"
+            "detection": "auto"
           },
           "title": "IL EXISTAIT UN HOMME",
           "source": {
             "file": "Chants en Francais.pdf",
-            "position": 23,
-            "number": "XXIII",
+            "position": 25,
+            "number": "",
+            "section": "",
             "reference": null
           },
           "taxonomy": {
@@ -1621,8 +1672,7 @@
                 "Il était un vieillard et comptait beaucoup d’années",
                 "Le Saint Esprit dira qu’il ne mourra pas",
                 "‘’ Avant d’avoir vu le Messie ‘’ (2x)"
-              ],
-              "index": 1
+              ]
             },
             {
               "type": "verse",
@@ -1631,8 +1681,7 @@
                 "Et il en bénissa l’Eternel des cieux",
                 "Alléluia allégresse la lumière m’a éclairé",
                 "‘’ Et mes yeux ont vu Jésus-Christ ‘’ (2x)"
-              ],
-              "index": 2
+              ]
             },
             {
               "type": "refrain",
@@ -1658,23 +1707,24 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-024",
+      "id": "fr-Chants_e-0",
       "title": "NOUS SOMMES LES SOLDATS",
       "status": "review",
       "versions": [
         {
-          "id": "fr-024-v1",
+          "id": "fr-Chants_e-0-v1",
           "language": {
             "code": "fr",
             "label": "Français",
             "status": "confirmed",
-            "detection": "manual"
+            "detection": "auto"
           },
           "title": "NOUS SOMMES LES SOLDATS",
           "source": {
             "file": "Chants en Francais.pdf",
-            "position": 24,
-            "number": "XXIV",
+            "position": 26,
+            "number": "",
+            "section": "",
             "reference": null
           },
           "taxonomy": {
@@ -1691,8 +1741,7 @@
                 "Nous sommes les soldats du seigneur Jésus-Christ",
                 "Rêvetons-nous de toutes les armes",
                 "Combattons le Satan."
-              ],
-              "index": 1
+              ]
             },
             {
               "type": "verse",
@@ -1700,8 +1749,7 @@
                 "Réfléchis bien du fond de ton cœur bien aimé",
                 "Si tu ne serais pas un adversaire",
                 "Devant les fils de Dieu"
-              ],
-              "index": 2
+              ]
             },
             {
               "type": "verse",
@@ -1709,8 +1757,7 @@
                 "Ainsi donc frères soyons tous vivants en Jésus",
                 "Toujours marchant avec la parole",
                 "De Dieu dans nos pensées."
-              ],
-              "index": 3
+              ]
             },
             {
               "type": "refrain",
@@ -1728,23 +1775,24 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-025",
+      "id": "fr-Chants_e-0",
       "title": "SORTIE D’EGYPTE",
       "status": "review",
       "versions": [
         {
-          "id": "fr-025-v1",
+          "id": "fr-Chants_e-0-v1",
           "language": {
             "code": "fr",
             "label": "Français",
             "status": "confirmed",
-            "detection": "manual"
+            "detection": "auto"
           },
           "title": "SORTIE D’EGYPTE",
           "source": {
             "file": "Chants en Francais.pdf",
-            "position": 25,
-            "number": "XXV",
+            "position": 27,
+            "number": "",
+            "section": "",
             "reference": null
           },
           "taxonomy": {
@@ -1761,8 +1809,7 @@
                 "Quand Israël sortit d’Egypte",
                 "La maison de Jacob de chez un people barbare",
                 "Juda lui devint un sanctuaire, et Israël devint son domaine"
-              ],
-              "index": 1
+              ]
             },
             {
               "type": "verse",
@@ -1770,8 +1817,7 @@
                 "La mer le vit et s’enfuit, le Jourdain se retourna",
                 "Les montagnes sautèrent comme des béliers",
                 "Les collines comme des agneaux (2x)"
-              ],
-              "index": 2
+              ]
             },
             {
               "type": "verse",
@@ -1779,8 +1825,7 @@
                 "Qu’as-tu mer à t’enfuir, à retourner en arrière",
                 "Et vous montagnes à sauter comme des béliers",
                 "Et vous collines à bondir comme des agneaux (2x)"
-              ],
-              "index": 3
+              ]
             },
             {
               "type": "refrain",
@@ -1796,102 +1841,24 @@
     },
     {
       "schema_version": "1.0",
-      "id": "fr-026",
-      "title": "L’UNITE",
-      "status": "review",
-      "versions": [
-        {
-          "id": "fr-026-v1",
-          "language": {
-            "code": "fr",
-            "label": "Français",
-            "status": "confirmed",
-            "detection": "manual"
-          },
-          "title": "L’UNITE",
-          "source": {
-            "file": "Chants en Francais.pdf",
-            "position": 26,
-            "number": "XXVI",
-            "reference": null
-          },
-          "taxonomy": {
-            "domain": "hymnal",
-            "category_id": "a-classer-francais",
-            "category_label": "Cantiques en français",
-            "lesson_id": "a-classer-francais",
-            "lesson_label": "Cantiques en français"
-          },
-          "content": [
-            {
-              "type": "refrain",
-              "lines": [
-                "Chantons l’unité",
-                "L’unité c’est notre force",
-                "L’unité c’est notre salut",
-                "L’unité c’est notre vie"
-              ]
-            },
-            {
-              "type": "verse",
-              "lines": [
-                "Nous disciples :",
-                "- Nous disciples sommes des brebis cachées dans",
-                "l’étable forte de notre seigneur Jésus"
-              ],
-              "index": 1
-            },
-            {
-              "type": "verse",
-              "lines": [
-                "Nous, nous sommes :",
-                "- Nous sommes tous dans l’unité et la lumière à la table",
-                "et les saints anges dans les cieux"
-              ],
-              "index": 2
-            },
-            {
-              "type": "verse",
-              "lines": [
-                "Nous, nous avons :",
-                "- Nous avons fait une alliance unique faite dans la coupe",
-                "de notre seigneur Jésus"
-              ],
-              "index": 3
-            },
-            {
-              "type": "verse",
-              "lines": [
-                "Vous, vous avez :",
-                "- vous avez fait une alliance, faites attention à vos à vos",
-                "actes pour qu’ils ne vous maudissent pas.",
-                "-"
-              ],
-              "index": 4
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "schema_version": "1.0",
-      "id": "fr-027",
+      "id": "fr-Chants_e-0",
       "title": "NOTRE EXHORTATEUR",
       "status": "review",
       "versions": [
         {
-          "id": "fr-027-v1",
+          "id": "fr-Chants_e-0-v1",
           "language": {
             "code": "fr",
             "label": "Français",
             "status": "confirmed",
-            "detection": "manual"
+            "detection": "auto"
           },
           "title": "NOTRE EXHORTATEUR",
           "source": {
             "file": "Chants en Francais.pdf",
-            "position": 27,
-            "number": "XXVII",
+            "position": 28,
+            "number": "",
+            "section": "",
             "reference": null
           },
           "taxonomy": {
@@ -1907,38 +1874,766 @@
               "lines": [
                 "Jésus tu es notre exhortateur",
                 "Exhortateur de nos âmes (2x)."
-              ],
-              "index": 1
+              ]
             },
             {
               "type": "verse",
               "lines": [
                 "Les gens de mauvaise vie seront jetés",
                 "Seront jetés dans la géhème (2)."
-              ],
-              "index": 2
+              ]
             },
             {
               "type": "verse",
               "lines": [
                 "Chers frères il est temps de vous repentir",
                 "Vous repentir pour vos offenses (2x)."
-              ],
-              "index": 3
+              ]
             },
             {
               "type": "verse",
               "lines": [
                 "Esprit, Esprit saint vient dans nos cœurs",
                 "Y demeurer pour toujours (2x)."
-              ],
-              "index": 4
+              ]
             },
             {
               "type": "refrain",
               "lines": [
                 "N’eut été le Dieu tout poussant",
                 "Nous serions les plus malheureux (2x)."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "fr-Chants_e-0",
+      "title": "APRES SIX JOURS",
+      "status": "review",
+      "versions": [
+        {
+          "id": "fr-Chants_e-0-v1",
+          "language": {
+            "code": "fr",
+            "label": "Français",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "APRES SIX JOURS",
+          "source": {
+            "file": "Chants en Francais.pdf",
+            "position": 29,
+            "number": "",
+            "section": "",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "hymnal",
+            "category_id": "a-classer-francais",
+            "category_label": "Cantiques en français",
+            "lesson_id": "a-classer-francais",
+            "lesson_label": "Cantiques en français"
+          },
+          "content": [
+            {
+              "type": "verse",
+              "number": "1",
+              "lines": [
+                "Apres six jours ( six jours ) creation du monde septieme jours camarade Dieu sereposa \"2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "\"Dieu est le rois , Dieu est le rois \"2x Dieu est le rois dans le monde entier (mon camarade) Dieu est le rois il n'ya pas un autre."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "Com : - Mon camarade Dieu est le rois il ya pas un autre - Dieu de Mwambi -Dieu des apotres -Ile fungurume -Dieu d'Abraham -à lubumbashi Dieu est le rois dans le monde entier."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Dieu benit (Dieu benit ) le septieme jours le sanctifia et s'y reposa \" (tout le monde) Dieu est le roi dans le monde entier\"2x"
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Dieu benit (Dieu benit ) le septieme jours le sanctifia et s'y reposa \" (tout le monde) Dieu est le roi dans le monde entier\"2x"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "fr-Chants_e-0",
+      "title": "DIEU D'ABRAHAM",
+      "status": "review",
+      "versions": [
+        {
+          "id": "fr-Chants_e-0-v1",
+          "language": {
+            "code": "fr",
+            "label": "Français",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "DIEU D'ABRAHAM",
+          "source": {
+            "file": "Chants en Francais.pdf",
+            "position": 30,
+            "number": "",
+            "section": "",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "hymnal",
+            "category_id": "a-classer-francais",
+            "category_label": "Cantiques en français",
+            "lesson_id": "a-classer-francais",
+            "lesson_label": "Cantiques en français"
+          },
+          "content": [
+            {
+              "type": "verse",
+              "number": "1",
+              "lines": [
+                "\"Dieu d'Abraham Dieu sauve-moi \"2x \"Dieu sauve-moi sauve-moi mon Dieu \"2x"
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "\"Dieu d'Isaack Dieu sauve-moi \"2x \"Dieu sauve-moi sauve-moi mon Dieu \"2x"
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "\"Dieu de Jacob Dieu sauve-moi \"2x \"Dieu sauve-moi , sauve-moi mon Dieu \"2x"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "fr-Chants_e-0",
+      "title": "LE SEIGNEUR JESUS",
+      "status": "review",
+      "versions": [
+        {
+          "id": "fr-Chants_e-0-v1",
+          "language": {
+            "code": "fr",
+            "label": "Français",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "LE SEIGNEUR JESUS",
+          "source": {
+            "file": "Chants en Francais.pdf",
+            "position": 31,
+            "number": "",
+            "section": "",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "hymnal",
+            "category_id": "a-classer-francais",
+            "category_label": "Cantiques en français",
+            "lesson_id": "a-classer-francais",
+            "lesson_label": "Cantiques en français"
+          },
+          "content": [
+            {
+              "type": "verse",
+              "number": "1",
+              "lines": [
+                "Le seigneur J ésus est notre ami fidele, il est notre ami qui nous a sauvé, il est le vainqueur à perpetuité, viens nous éloigner de mauvaises companies 2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "seigneur J ésus, c’est lui le sauveur, il est notre ami qui nous a sauvé, il est le vainqueur à perpetuité, viens nous éloigner de mauvaises companies 2x"
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Au nom de Jesus ily a la victoire, il n’ ya pas d’autres noms que celui de Jésus; et notre salut est dans son nom et la vie eternelle est aussi dans son nom 2x"
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Nous tous glorifions- le à jamais, parce qu’il nous a délivré du peché, et notre salut est dans son nom et la vie éternelle est aussi dans son nom 2x"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "fr-Chants_e-0",
+      "title": "LES ENFANTS D’ISRAEL",
+      "status": "review",
+      "versions": [
+        {
+          "id": "fr-Chants_e-0-v1",
+          "language": {
+            "code": "fr",
+            "label": "Français",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "LES ENFANTS D’ISRAEL",
+          "source": {
+            "file": "Chants en Francais.pdf",
+            "position": 32,
+            "number": "",
+            "section": "",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "hymnal",
+            "category_id": "a-classer-francais",
+            "category_label": "Cantiques en français",
+            "lesson_id": "a-classer-francais",
+            "lesson_label": "Cantiques en français"
+          },
+          "content": [
+            {
+              "type": "verse",
+              "number": "1",
+              "lines": [
+                "Les enfants d’Israel se firent esclaves de Pharaon l’égyptien, « pour avoir vendu aux Ismaélites J oseph la parole de Dieu » 2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Situ as déjà vendu le seigneur J ésus la parole de Dieu, pour te ressaisir tu en souffriras, tu gémiras par des pleurs."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Ayant entendu leurs supplications, Dieu leur envoya Moise « afin de libérer les Israélites des mains du roi Pharaon »"
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Moise se trouvant dans le désert où il paissait les troupeaux, « il vit un buisson ardent de feu, mais qui ne se consummait point »"
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "4",
+              "lines": [
+                "Il entendit la voix de ce buisson venant de l’Eternel Dieu: « Enlève les souliers de tes pieds carce lieu est sanctifié » 2x"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "fr-Chants_e-0",
+      "title": "CHANTONS L’UNITE",
+      "status": "review",
+      "versions": [
+        {
+          "id": "fr-Chants_e-0-v1",
+          "language": {
+            "code": "fr",
+            "label": "Français",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "CHANTONS L’UNITE",
+          "source": {
+            "file": "Chants en Francais.pdf",
+            "position": 33,
+            "number": "",
+            "section": "",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "hymnal",
+            "category_id": "a-classer-francais",
+            "category_label": "Cantiques en français",
+            "lesson_id": "a-classer-francais",
+            "lesson_label": "Cantiques en français"
+          },
+          "content": [
+            {
+              "type": "refrain",
+              "lines": [
+                "Chantons l’unité, l’unité c’est notre force, l’unité c’est notre salut, l’unité c’est notre vie. 2x"
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "1",
+              "lines": [
+                "(Nous disciples), nous disciples nous sommes des brebis cachées dans l’étable forte de notre seigneur J esus. 2x"
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "(Nous vivons), nous vivons de l’unité avec la lumière à table et les saints anges dans les cieux. 2x"
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "(Nous avons), nous avons fait une alliance unifiée à la coupe de notre seigneur J esus. 2x"
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "4",
+              "lines": [
+                "(Tu es lié), tu es lié à la coupe, fais attention à tes œuvres pour qu’elles ne te maudissent pas. 2x"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "fr-Chants_e-0",
+      "title": "OH TOIMON SAUVEUR",
+      "status": "review",
+      "versions": [
+        {
+          "id": "fr-Chants_e-0-v1",
+          "language": {
+            "code": "fr",
+            "label": "Français",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "OH TOIMON SAUVEUR",
+          "source": {
+            "file": "Chants en Francais.pdf",
+            "position": 34,
+            "number": "",
+            "section": "",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "hymnal",
+            "category_id": "a-classer-francais",
+            "category_label": "Cantiques en français",
+            "lesson_id": "a-classer-francais",
+            "lesson_label": "Cantiques en français"
+          },
+          "content": [
+            {
+              "type": "verse",
+              "number": "1",
+              "lines": [
+                "Oh toi mon sauveur, Jesus fils de Dieu, je viens devant toi avec larmes aux yeux, protège ma vie, oh toi mon sauveur, et toute ma misère là voici devant toi."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Tu as promis: celui qui cherche trouve, tu as promis ; qui demande recevra, qui frappera il lui sera ouvert toutes les portes du royaume du seigneur. 2x"
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Je viens en pleurant, J esus fils de Dieu, les yeux pleins de larmes qui n’en finissent pas. Mon unique salut est auprès de toi, toute ma misère là voici devant toi."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Tues mon appui, oh toi mon sauveur, tu me sauveras de tous ces méchants, qui se réjouissent tous de mon malheur. Au mon seigneur, j’en serai délivré."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "fr-Chants_e-0",
+      "title": "AU TEMPS DE LA FIN",
+      "status": "review",
+      "versions": [
+        {
+          "id": "fr-Chants_e-0-v1",
+          "language": {
+            "code": "fr",
+            "label": "Français",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "AU TEMPS DE LA FIN",
+          "source": {
+            "file": "Chants en Francais.pdf",
+            "position": 35,
+            "number": "",
+            "section": "",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "hymnal",
+            "category_id": "a-classer-francais",
+            "category_label": "Cantiques en français",
+            "lesson_id": "a-classer-francais",
+            "lesson_label": "Cantiques en français"
+          },
+          "content": [
+            {
+              "type": "verse",
+              "number": "1",
+              "lines": [
+                "Au temps de la fin, nous serons enlevés pour que nous soyons auprès du seigneur 2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "(chantons l’avènement) l’avènement du seigneur pour enlever ceux qui sont à lui, (et vous mes amis) mes frères et sœurs, demandez- vous où vous serez au temps de la fin 2x"
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Ilséparera les boucs des brébis,il mettra les brébis du cote de la droite 2x"
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Et il leur dira je ne vous connais pas, retirezvous de moi vous tous les pécheurs."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "fr-Chants_e-0",
+      "title": "VENEZ CHANTER AVEC JOIE",
+      "status": "review",
+      "versions": [
+        {
+          "id": "fr-Chants_e-0-v1",
+          "language": {
+            "code": "fr",
+            "label": "Français",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "VENEZ CHANTER AVEC JOIE",
+          "source": {
+            "file": "Chants en Francais.pdf",
+            "position": 36,
+            "number": "",
+            "section": "",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "hymnal",
+            "category_id": "a-classer-francais",
+            "category_label": "Cantiques en français",
+            "lesson_id": "a-classer-francais",
+            "lesson_label": "Cantiques en français"
+          },
+          "content": [
+            {
+              "type": "verse",
+              "number": "1",
+              "lines": [
+                "Venez chanter avec joie, le chemin de la vie s’est ouvert,il avait éte caché,seigneur vient nous commander(2x)"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "(merci seigneur) merci seigneur Dieu; merci merci seigneur merci l’eternel alleluya tu nous as donné ton fils unique pour nous donner la vie (2x)"
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "(Le dragon) le dragon ressent de la haine contre la bonne nouvelle, il est aussi contre nous tous et cherche a la ruiner (2x)"
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Les persécutions sont nombreuses, les accusations aussi, seigneur vient nous commander dans nos erreurs de chaque jour (2x)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "fr-Chants_e-0",
+      "title": "PEUPLE VENEZ NOMBREUX",
+      "status": "review",
+      "versions": [
+        {
+          "id": "fr-Chants_e-0-v1",
+          "language": {
+            "code": "fr",
+            "label": "Français",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "PEUPLE VENEZ NOMBREUX",
+          "source": {
+            "file": "Chants en Francais.pdf",
+            "position": 37,
+            "number": "",
+            "section": "",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "hymnal",
+            "category_id": "a-classer-francais",
+            "category_label": "Cantiques en français",
+            "lesson_id": "a-classer-francais",
+            "lesson_label": "Cantiques en français"
+          },
+          "content": [
+            {
+              "type": "verse",
+              "number": "1",
+              "lines": [
+                "Peuples venez nombreux, venez nombreux venez voir comme la lumière a éclairée 2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Oh Dieu Tout Puissant, montresmoi le chemin de vie, allons tous main dans la main, ne me délaisses pas tu es mon ami 3x jesu christ seigneur"
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "( Qui dira qu’il n’a pas) qui dira qu’iln’ a pas vu comme la lumière a éclairé 2x"
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "(La joie regne au sein du coeun la joie réegne au sein du coeur, comme la lumière a éclairé 2x"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "fr-Chants_e-0",
+      "title": "JESUS T’APPELLE",
+      "status": "review",
+      "versions": [
+        {
+          "id": "fr-Chants_e-0-v1",
+          "language": {
+            "code": "fr",
+            "label": "Français",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "JESUS T’APPELLE",
+          "source": {
+            "file": "Chants en Francais.pdf",
+            "position": 38,
+            "number": "",
+            "section": "",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "hymnal",
+            "category_id": "a-classer-francais",
+            "category_label": "Cantiques en français",
+            "lesson_id": "a-classer-francais",
+            "lesson_label": "Cantiques en français"
+          },
+          "content": [
+            {
+              "type": "verse",
+              "number": "1",
+              "lines": [
+                "Jésus t’appelle : viens, viens, viens mon ami; viens vite m’aider à transporter la croix ; viens m’aider à transporter ma croix."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "« Chantons alleluia alleluia amen », la gloire soit à lui et à Dieu le Père et que la paix règne sur la terre."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "fr-Cantique-142",
+      "title": "SOLDATS DE JESUS",
+      "status": "review",
+      "versions": [
+        {
+          "id": "fr-Cantique-142-v1",
+          "language": {
+            "code": "fr",
+            "label": "Français",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "SOLDATS DE JESUS",
+          "source": {
+            "file": "Cantiques_EUJC_Lingala.pdf",
+            "position": 39,
+            "number": "142",
+            "section": "CANTIQUES TOME I",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "hymnal",
+            "category_id": "a-classer-francais",
+            "category_label": "Cantiques en français",
+            "lesson_id": "a-classer-francais",
+            "lesson_label": "Cantiques en français"
+          },
+          "content": [
+            {
+              "type": "verse",
+              "number": "1",
+              "lines": [
+                "Soldats de Jésus avançons dans le combat que nous menons avec la bonne nouvelle, Dieu nous soutiendra. 2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Chers amis revêtonsnous des armes de la bonne nouvelle, afin que les paiens connaissent J esus, et qu’ils croient en lui. 2x"
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Les ennemis ont la mauvaise nouvelle cherchant à séduire les élus de l’Eternel à la rebellion 2x"
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Demandons la puissance à l’Eternel Dieu, qu’il nous aide comme ila fait des Israélites dans les temps anciens. 2x"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "fr-Cantique-192",
+      "title": "BAFUE BADI BAFUE MU MUKALENGA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "fr-Cantique-192-v1",
+          "language": {
+            "code": "fr",
+            "label": "Français",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "BAFUE BADI BAFUE MU MUKALENGA",
+          "source": {
+            "file": "Cantique Tshiluba.pdf",
+            "position": 40,
+            "number": "192",
+            "section": "",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "hymnal",
+            "category_id": "a-classer-francais",
+            "category_label": "Cantiques en français",
+            "lesson_id": "a-classer-francais",
+            "lesson_label": "Cantiques en français"
+          },
+          "content": [
+            {
+              "type": "verse",
+              "number": "1",
+              "lines": [
+                "Bafue badi bafue mu mukalenga bobo badi ne disanka mu NZ, bualu lufu luibidi kaluena ne bukokeshi pa mitu yabu ."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Bu muakafua nkambua Abalahama, Isaka, Yakoba, Yosefu ne Mose.bu muakafua yesu muana wa NZ bapostolo bakabanjinga bonso."
+              ]
+            },
+            {
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Bana betu badi bafue bonso ndi bajinga lelu mu mukalenga yesu, bualu lufu lua mubidi eu tulu kudi badi mu kilisto yesu."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "NZ tatu mukalenga nfumu wa ba nfumu mukalenga (a Dieu,a Dieu, a Dieu, a Dieu, a Dieu, a Dieu , a Dieu , a Dieu , a Dieu )"
               ]
             }
           ]

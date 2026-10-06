@@ -1,0 +1,645 @@
+{
+  "schema_version": "1.0",
+  "corpus_status": "review",
+  "taxonomy": {
+    "domain": "sunday",
+    "category_id": "dimanche-visiteurs",
+    "category_label": "Sacrifice des visiteurs",
+    "lesson_id": null,
+    "lesson_label": null
+  },
+  "source": {
+    "file": "chants_de_sac_de_visiteurs.html"
+  },
+  "hymns": [
+    {
+      "schema_version": "1.0",
+      "id": "567d0785-3992-57ae-846d-4b7faee8ed4f",
+      "title": "JAMBO YENU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "8249742d-7559-52af-995d-5c9428db7d00",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "JAMBO YENU",
+          "source": {
+            "file": "chants_de_sac_de_visiteurs.html",
+            "position": 1,
+            "number": "304",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "sunday",
+            "category_id": "dimanche-visiteurs",
+            "category_label": "Sacrifice des visiteurs",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Jambo yenu, jambo yenu (jambo yenu) tuwa salimie na furaha"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Sisi tupendane tuone jehova tukamatane tusimame imara jambo yenu, jambo yenu tuwa salimie na furaha."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Tukifata mapendo ya kweli ya mu yesu mwana. Baba mungu, baba mungu kwa rehema yako tunaonana leo."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "377e9167-43cc-5475-8973-083e1dd04c17",
+      "title": "MUNGU USIKILIZE",
+      "status": "review",
+      "versions": [
+        {
+          "id": "4de5c780-fe0f-5d52-9bf3-502d15c3265d",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "MUNGU USIKILIZE",
+          "source": {
+            "file": "chants_de_sac_de_visiteurs.html",
+            "position": 2,
+            "number": "305",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "sunday",
+            "category_id": "dimanche-visiteurs",
+            "category_label": "Sacrifice des visiteurs",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Mungu usikilize maombolezo yetu Bwana uje karibu utufarijie."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Wajoli yoyoyo wajoli wa bwana (bwana mungu) tupo wageni hapa duniani."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Jehova ananena mbingu kiti cha enzi inchi nayo kituo cha miguu yake."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Naitajia bwana kuwa na mabawa ni ruke kama ndege niende kwa baba",
+                "- Unatenda maovu na kwabudu vinyago usipo tambua kile ulicho umbwa.",
+                "- Una kunywa malovu na kwabudu vinyago usipo tambua kile ulicho umbiwa.",
+                "- Una chonga sanamu"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "4a0e51ee-28db-5bc3-9e84-fe838a254520",
+      "title": "SISI NI WAGENI",
+      "status": "review",
+      "versions": [
+        {
+          "id": "bab4f2f9-15eb-586d-ac5b-098c014c7f19",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "SISI NI WAGENI",
+          "source": {
+            "file": "chants_de_sac_de_visiteurs.html",
+            "position": 3,
+            "number": "306",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "sunday",
+            "category_id": "dimanche-visiteurs",
+            "category_label": "Sacrifice des visiteurs",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Sisi ni wageni kwa inchi ya Babeli sisi tulichukuliwa wafungwa na wana wa mateso."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "- Baba wa mbingu\ttazama wana kando ya mito ya babeli.",
+                "- Wakuchunga sayuni",
+                "- Wakiomboleza"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Tuliketi uko kwa inchi ya babali. watu wote wa babeli twimbe wimbo za sayuni kule yerusalema."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "kwimba sisi nyimbo za sayuni. kwa inchi ya ugeni nyimbo zetu za sayuni kule yerusalema, yerusalema, yerusalema inchi ya wateule, wateule wa bwana yerusalema",
+                "inchi ya wateule."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "532390bb-31c5-5cb6-b16a-df3913b689e1",
+      "title": "SALAMU KWENU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "f7505835-d7fa-51e9-be8c-9fcd83b8a77e",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "SALAMU KWENU",
+          "source": {
+            "file": "chants_de_sac_de_visiteurs.html",
+            "position": 4,
+            "number": "307",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "sunday",
+            "category_id": "dimanche-visiteurs",
+            "category_label": "Sacrifice des visiteurs",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Salamu kwenu, Salamu kwenu, salamu kwenu rafiki za mufalume enyi wajoli wa neno la mungu salamu kwenu na furaha kubwa Jehova mungu awa linde kwa matendo yenu awalinde katika safari kwa",
+                "tendo pia kwa tamko yeye yu mwamba."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Basi eh we baba na we mama upingapo neno la Mungu. Basi we utatupwa katika jehanamu"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Sisi zote, sisi zote, sisi zote tupo kama wageni jazareni na mambo wajoli za ulimwenguni tutapata uzima yesu wa mungu atatuokoa katika ziki zote atulinde katika",
+                "safari kwa tendo pia kwa tamko tusimukanushe."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "16ae22eb-22f4-58f2-bc40-2c9f4570ac4c",
+      "title": "KWALIBA MUNYINAA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "cb5bd92f-3a61-5eb2-accc-8a6b93951fe9",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "KWALIBA MUNYINAA",
+          "source": {
+            "file": "chants_de_sac_de_visiteurs.html",
+            "position": 5,
+            "number": "308",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "sunday",
+            "category_id": "dimanche-visiteurs",
+            "category_label": "Sacrifice des visiteurs",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Kwaliba munyina pano pesonde habo balufianya Yesu ubatanfia kabuyeni ine shimishibe"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Abalila shani owe owe ah owe owe mwe(banesu) owe owe ah ine shimishibe."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Tukonke yesu banesu tupelwe naifue ubumi bwa penape"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Fibusa fiandji imwe mwitemwa ubusuma bwa pacalo isonsa shingi banesu shili kumulu kulia kuli tata."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "ed571872-2254-501c-b575-acb097cbf6e5",
+      "title": "WATU WA ZAMANI",
+      "status": "review",
+      "versions": [
+        {
+          "id": "ea558ef8-44af-536c-a8a2-f88e3a20f6b0",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "WATU WA ZAMANI",
+          "source": {
+            "file": "chants_de_sac_de_visiteurs.html",
+            "position": 6,
+            "number": "309",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "sunday",
+            "category_id": "dimanche-visiteurs",
+            "category_label": "Sacrifice des visiteurs",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Watu wa zamani kujikuza kwa anasa zao yesu uwambia uondoke kwangu misiwajuwi."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Maombolezo iyoyowe ah! iyoyowe! a wajoli iyoyowe mimi siwajuwi."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Tufate yesu wajoli tupewe nasi uzima wa milele."
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "Rafiki zangu yoyoyo musitarajie anasa haba furaha nyingi yoyoyo ziko mbinguni juu kwa mungu baba."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "abfebb64-ee85-528b-9727-72618d5cee10",
+      "title": "ENYI WAJOLI WA BWANA",
+      "status": "review",
+      "versions": [
+        {
+          "id": "e2d4b364-7588-51c5-bbe6-bb2b89202a0f",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "ENYI WAJOLI WA BWANA",
+          "source": {
+            "file": "chants_de_sac_de_visiteurs.html",
+            "position": 7,
+            "number": "312",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "sunday",
+            "category_id": "dimanche-visiteurs",
+            "category_label": "Sacrifice des visiteurs",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Enyi wajoli wa bwana tutafute ndugu zetu walio mu dunia sisi awa tuwape hekima njema wakumbuke jambo gani walimwasiya mungu wao"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Eh ukisema kama unajua mungu utakatifu wa roho mwema ni wapi¨2x"
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "-Ukisema kama unajua viote\tutakatifu wa roho mwema ni wapi.",
+                "-Kujua mungu ni kutimiza neno  ¨\t¨\t¨\t¨\t¨\t¨",
+                "-Kujua mungu sikwabudu sanamu¨\t¨\t¨\t¨\t¨\t¨",
+                "Sisi awa tu wa deni kwa naziri tulio apa mbele yake mungu wetu sisi awa tulio tumwa kuokowa wafungwa walio mu duniani."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "1465db7a-e35c-509e-9b45-01c11a12b45e",
+      "title": "KWA KUWA MUFWASI WAKE",
+      "status": "review",
+      "versions": [
+        {
+          "id": "3f8957b8-7cda-5cc4-a9dc-95367e706596",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "KWA KUWA MUFWASI WAKE",
+          "source": {
+            "file": "chants_de_sac_de_visiteurs.html",
+            "position": 8,
+            "number": "314",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "sunday",
+            "category_id": "dimanche-visiteurs",
+            "category_label": "Sacrifice des visiteurs",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Kwa kuwa mufwasi wake ¨2x yesu wa mungu anasema ukane wa zazi wako ukane muke wako , ukane watoto wako ujikane nawe mwenyewe uchuguwe musalaba ufwate njia ya bwana , uchukuwe musalaba ufwate neno la mungu."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Dunia wewe, dunia wewe utuonapo sisi usinene sisi ni wa dunia sisi awa tukonatoka mbinguni mwa utukufu wa mungu wa uzima dunia wewe tazama kunga kwa sura na wewe upewa mavazi yetu.",
+                "Tulifariki naye yeye akafufuka nasi kweli kwenda nasi galilaya (yesu) akatwarifu hivi musiondoke mu yerusalema ¨2x sisi twaongonja ubatizo wa roho mwema wa mungu.¨2x",
+                "Leo hii, hii ni siku ya mufalme siku ya furaha ya mbingu nayo ya mateso ya duniani roho mufariji aliaidi mufalme leo ihi ameingia mioyoni , roho mufariji alihaidi mufalme leo ihi ameshuka mu watu."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "f2ad6fc9-3f67-52b7-aab0-c32f77b98861",
+      "title": "ENYI WATEULE WA MUNGU",
+      "status": "review",
+      "versions": [
+        {
+          "id": "7c277032-51e4-5bc2-bac3-522b9f57274f",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "ENYI WATEULE WA MUNGU",
+          "source": {
+            "file": "chants_de_sac_de_visiteurs.html",
+            "position": 9,
+            "number": "316",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "sunday",
+            "category_id": "dimanche-visiteurs",
+            "category_label": "Sacrifice des visiteurs",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. \tEnyi wateule wa mungu wa pakwa mafuta wa bwana wajoli tuna wasalimu yoyoyo kwa jina la bwana.",
+                "Mambo mengi tuliona kupigwa kushutumiwa hatukwacha neno ili wajoli tunawasalimu yoyo yo kwa jina la bwana.",
+                "Roho mwama shuka kwetu onesha uweza wako utukuzwe ulimwengu duniani pote wajoli tuna wasalimu yoyoyo kwa jina la bwana."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "891c4d36-9b34-5612-94ef-94ad78a3745e",
+      "title": "HUDUMA ZOTE",
+      "status": "review",
+      "versions": [
+        {
+          "id": "a0934d12-f25f-5e52-84e0-3834383eea07",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "HUDUMA ZOTE",
+          "source": {
+            "file": "chants_de_sac_de_visiteurs.html",
+            "position": 10,
+            "number": "317",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "sunday",
+            "category_id": "dimanche-visiteurs",
+            "category_label": "Sacrifice des visiteurs",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "1. Huduma zote za duniani (huduma) azikosi torati yoyo ndani yake ¨2x ndipo mungu akamupatia Musa eh Musa sheria izi kumi ¨nendeni muni hudumie ¨2x eh wajoli wangu . -Bwana akanena kwa sheria zote ni tazigawa yoyo sehemu izi mbili ¨umupende bwana mungu kwa moyo wako wote , umupende jirani yako kwa nafsi yako yote ¨2x"
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "¨Nahomi naye akanena¨ ewe Rutu wangu nimekwisha kuwa mukongwe",
+                "rejeeni nyumbani mwa wa zazi , eé wajoli wangu rejeeni nyumbani mwa wazazi ."
+              ]
+            },
+            {
+              "type": "comment",
+              "lines": [
+                "-Mimi sina cha kukukabiza\trejeeni nyumbani mwa wazazi",
+                "-Mimi\t¨\t¨ kukulisha\t¨\t¨\t¨\t¨\t¨",
+                "-Mimi\t¨\t¨ kukuvika\t¨\t¨\t¨\t¨\t¨",
+                "-Mimi\t¨\tna wana waume ¨\t¨\t¨\t¨\t¨",
+                "-Mimi\t¨\tna A E",
+                "Eh wajoli wangu rejeeni nyumbani mwa wazazi",
+                "¨Rutu akaomboleza ¨2x Eh we mamangu sitakuacha kamwe nitaketi mahali uketipo nita vaa chochote uvaacho nita jilaza mahali ulalapo mungu wako alie hai ni wangu pia atatukirimiya wokovu atatupa uzima wa milele."
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0",
+      "id": "ff7ccb95-1287-5c73-84f7-62e8ac8ed72f",
+      "title": "KATIKA WINGI WA MAFUNUO",
+      "status": "review",
+      "versions": [
+        {
+          "id": "04027e46-cb01-5638-945f-cbe3f63351e3",
+          "language": {
+            "code": "sw",
+            "label": "Swahili",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "KATIKA WINGI WA MAFUNUO",
+          "source": {
+            "file": "chants_de_sac_de_visiteurs.html",
+            "position": 11,
+            "number": "318",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "sunday",
+            "category_id": "dimanche-visiteurs",
+            "category_label": "Sacrifice des visiteurs",
+            "lesson_id": null,
+            "lesson_label": null
+          },
+          "content": [
+            {
+              "type": "source_block",
+              "lines": [
+                "Katika wingi wa mafunuo nilipewa mwiba mwilini mwangu nikasii mungu mara tatu aniondoshe mwiba."
+              ]
+            },
+            {
+              "type": "refrain",
+              "lines": [
+                "Kutaka ni kwangu, kutaka ni kwangu kutenda kilichema siwezi eh baba, eh baba ju ya nini ubaya",
+                "ni ndani mwangu",
+                "- Na madawa siache\teh baba , eh baba ju ya nini ubaya ni ndani mwangu.",
+                "- Na bulozi siache\t¨\t¨\t¨\t¨\t¨\t¨\t¨",
+                "- Na chuki siache\t¨\t¨\t¨\t¨\t¨\t¨\t¨"
+              ]
+            },
+            {
+              "type": "source_block",
+              "lines": [
+                "2.Nitazamapo katika viungo via mwili wangu naona baba minaona sheria nyingine kwangu.",
+                "- Sheria nyingine kutoka kwa musa naona , naona kweli sheria nyingine kwangu",
+                "- Sheria nyingine kutoka ku jamaa\t¨\t¨\t¨\t¨\t¨\t¨",
+                "- Sheria nyingine kutoka ku marafiki"
+              ]
+            }
+          ],
+          "media": {
+            "audio_present": false
+          }
+        }
+      ]
+    }
+  ]
+}
