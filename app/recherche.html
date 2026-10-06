@@ -19,8 +19,8 @@
   <meta name="mobile-web-app-capable" content="yes">
 
   <link rel="manifest" href="manifest.webmanifest">
-  <link rel="stylesheet" href="charte.css?v=111">
-  <link rel="stylesheet" href="fonts.css?v=111">  <script>
+  <link rel="stylesheet" href="charte.css?v=112">
+  <link rel="stylesheet" href="fonts.css?v=112">  <script>
     /* Anti-FOUC : applique le thème + police avant tout rendu */
     (function(){
       try {
@@ -46,10 +46,10 @@
     })();
   </script>
 
-  <link rel="stylesheet" href="style.css?v=111">
-  <link rel="stylesheet" href="bottom-nav.css?v=111">
-  <link rel="stylesheet" href="sheets.css?v=111">
-  <link rel="stylesheet" href="recherche.css?v=111">
+  <link rel="stylesheet" href="style.css?v=112">
+  <link rel="stylesheet" href="bottom-nav.css?v=112">
+  <link rel="stylesheet" href="sheets.css?v=112">
+  <link rel="stylesheet" href="recherche.css?v=112">
 
   <script src="https://unpkg.com/lucide@latest"></script>
   <meta name="robots" content="noindex, follow">
@@ -146,24 +146,27 @@
 
     <div class="filters-sheet-body">
       <div class="filter-field">
-        <label for="filter-category">Catégorie</label>
-        <select id="filter-category">
-          <option value="">Toutes les catégories</option>
-        </select>
+        <label>Catégorie</label>
+        <button type="button" class="filter-picker" data-picker="category" id="filter-category-btn">
+          <span class="filter-picker-label" id="filter-category-label">Toutes les catégories</span>
+          <i data-lucide="chevron-down"></i>
+        </button>
       </div>
 
       <div class="filter-field">
-        <label for="filter-lesson">Leçon</label>
-        <select id="filter-lesson">
-          <option value="">Toutes les leçons</option>
-        </select>
+        <label>Leçon</label>
+        <button type="button" class="filter-picker" data-picker="lesson" id="filter-lesson-btn">
+          <span class="filter-picker-label" id="filter-lesson-label">Toutes les leçons</span>
+          <i data-lucide="chevron-down"></i>
+        </button>
       </div>
 
       <div class="filter-field">
-        <label for="filter-language">Langue</label>
-        <select id="filter-language">
-          <option value="">Toutes les langues</option>
-        </select>
+        <label>Langue</label>
+        <button type="button" class="filter-picker" data-picker="language" id="filter-language-btn">
+          <span class="filter-picker-label" id="filter-language-label">Toutes les langues</span>
+          <i data-lucide="chevron-down"></i>
+        </button>
       </div>
     </div>
 
@@ -174,11 +177,24 @@
     </div>
   </div>
 
-  <script src="bottom-nav.js?v=111"></script>
-  <script src="canonical-data.js?v=111"></script>
-  <script src="storage.js?v=111"></script>
-  <script src="recherche.js?v=111"></script>
-  <script src="sw-register.js?v=111"></script>
-  <script src="preferences.js?v=111"></script>
+  <!-- Modale générique de sélection (picker) -->
+  <div class="sheet-backdrop picker-backdrop" id="picker-backdrop" hidden></div>
+  <div class="sheet picker-sheet" id="picker-sheet" hidden aria-modal="true" role="dialog">
+    <div class="sheet-handle picker-handle" aria-hidden="true"></div>
+    <div class="picker-header">
+      <h2 id="picker-title">Choisir</h2>
+      <button type="button" class="picker-close" id="picker-close" aria-label="Fermer">
+        <i data-lucide="x"></i>
+      </button>
+    </div>
+    <div class="picker-list" id="picker-list" role="listbox"></div>
+  </div>
+
+  <script src="bottom-nav.js?v=112"></script>
+  <script src="canonical-data.js?v=112"></script>
+  <script src="storage.js?v=112"></script>
+  <script src="recherche.js?v=112"></script>
+  <script src="sw-register.js?v=112"></script>
+  <script src="preferences.js?v=112"></script>
 </body>
 </html>

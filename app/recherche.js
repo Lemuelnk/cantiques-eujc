@@ -24,9 +24,20 @@ const $filtersSheet     = document.getElementById('filters-sheet');
 const $filtersReset     = document.getElementById('filters-reset');
 const $filtersApply     = document.getElementById('filters-apply');
 const $filtersCount     = document.getElementById('filters-count');
-const $filterCategory   = document.getElementById('filter-category');
-const $filterLesson     = document.getElementById('filter-lesson');
-const $filterLanguage   = document.getElementById('filter-language');
+const $pickerBackdrop   = document.getElementById('picker-backdrop');
+const $pickerSheet      = document.getElementById('picker-sheet');
+const $pickerList       = document.getElementById('picker-list');
+const $pickerTitle      = document.getElementById('picker-title');
+const $pickerClose      = document.getElementById('picker-close');
+const $filterPickers    = document.querySelectorAll('.filter-picker');
+
+// État des pickers : valeur sélectionnée + sections pour chaque type
+const pickers = {
+  category: { title: 'Catégorie',         sections: [], selected: '', placeholder: 'Toutes les catégories', labelId: 'filter-category-label' },
+  lesson:   { title: 'Leçon',             sections: [], selected: '', placeholder: 'Toutes les leçons',    labelId: 'filter-lesson-label'   },
+  language: { title: 'Langue',            sections: [], selected: '', placeholder: 'Toutes les langues',   labelId: 'filter-language-label' }
+};
+let currentPicker = null;
 
 // ------------------------------------------------------------
 // État
@@ -225,15 +236,7 @@ function getFirstMatchingLine(hymn, query) {
 // Peuplement des dropdowns de filtres
 // ------------------------------------------------------------
 function populateCategoryFilter() {
-  if (!$filterCategory) return;
-
-  // Grouper par type : Leçons, Dimanche, Prière
-  const groups = {
-    lessons:   [],
-    dimanche:  [],
-    priere:    [],
-    aclasser:  []
-  };
+  const groups = { lessons: [], dimanche: [], priere: [], aclasser: [] };
 
   CATEGORIES.forEach(id => {
     const label = CATEGORY_LABELS[id] || id;
@@ -243,44 +246,26 @@ function populateCategoryFilter() {
     else if (id.startsWith('a-classer-')) groups.aclasser.push({ id, label });
   });
 
-  const groupLabels = {
-    lessons:  'Leçons du Chemin',
-    dimanche: 'Cantiques du Dimanche',
-    priere:   'Cantiques de prière',
-    aclasser: 'Cantiques à classer'
-  };
+  const sections = [{ label: null, items: [{ value: '', label: 'Toutes les catégories' }] }];
+  if (groups.lessons.length)  sections.push({ label: 'Leçons du Chemin',        items: groups.lessons.map(x => ({ value: x.id, label: x.label })) });
+  if (groups.dimanche.length) sections.push({ label: 'Cantiques du Dimanche',   items: groups.dimanche.map(x => ({ value: x.id, label: x.label })) });
+  if (groups.priere.length)   sections.push({ label: 'Cantiques de prière',     items: groups.priere.map(x => ({ value: x.id, label: x.label })) });
+  if (groups.aclasser.length) sections.push({ label: 'Cantiques à classer',     items: groups.aclasser.map(x => ({ value: x.id, label: x.label })) });
 
-  let html = '<option value="">Toutes les catégories</option>';
-  Object.entries(groups).forEach(([key, items]) => {
-    if (items.length === 0) return;
-    html += `<optgroup label="${groupLabels[key]}">`;
-    items.forEach(item => {
-      html += `<option value="${item.id}">${escapeHtml(item.label)}</option>`;
-    });
-    html += '</optgroup>';
-  });
-
-  $filterCategory.innerHTML = html;
+  pickers.category.sections = sections;
 }
 
 function populateLessonFilter() {
-  if (!$filterLesson) return;
-
   const lessons = CATEGORIES.filter(id => id.startsWith('lesson-'));
-
-  let html = '<option value="">Toutes les leçons</option>';
+  const items = [{ value: '', label: 'Toutes les leçons' }];
   lessons.forEach(id => {
     const label = CATEGORY_LABELS[id] || id;
-    html += `<option value="${id}">${escapeHtml(label)}</option>`;
+    items.push({ value: id, label });
   });
-
-  $filterLesson.innerHTML = html;
+  pickers.lesson.sections = [{ label: null, items }];
 }
 
 function populateLanguageFilter() {
-  if (!$filterLanguage) return;
-
-  // Détecter les langues présentes dans allHymns
   const langs = new Set();
   allHymns.forEach(item => {
     const versions = Array.isArray(item.hymn.versions) ? item.hymn.versions : [];
@@ -291,13 +276,9 @@ function populateLanguageFilter() {
   });
 
   const sorted = [...langs].sort((a, b) => a.localeCompare(b, 'fr'));
-
-  let html = '<option value="">Toutes les langues</option>';
-  sorted.forEach(lang => {
-    html += `<option value="${escapeHtml(lang)}">${escapeHtml(lang)}</option>`;
-  });
-
-  $filterLanguage.innerHTML = html;
+  const items = [{ value: '', label: 'Toutes les langues' }];
+  sorted.forEach(lang => items.push({ value: lang, label: lang }));
+  pickers.language.sections = [{ label: null, items }];
 }
 
 // ------------------------------------------------------------
@@ -459,14 +440,81 @@ function openFilters() {
   $filtersBackdrop.hidden = false;
   $filtersSheet.hidden = false;
   // Pré-remplir avec les valeurs actuelles
-  if ($filterCategory) $filterCategory.value = activeFilters.category;
-  if ($filterLesson)   $filterLesson.value   = activeFilters.lesson;
-  if ($filterLanguage) $filterLanguage.value = activeFilters.language;
+  pickers.category.selected = activeFilters.category || '';
+  pickers.lesson.selected   = activeFilters.lesson   || '';
+  pickers.language.selected = activeFilters.language || '';
+  updatePickerLabels();
   updateFiltersCount();
   requestAnimationFrame(() => {
     $filtersBackdrop.classList.add('is-open');
     $filtersSheet.classList.add('is-open');
   });
+}
+
+// --- Met à jour les labels des 3 boutons pickers ---
+function updatePickerLabels() {
+  ['category', 'lesson', 'language'].forEach(key => {
+    const p = pickers[key];
+    const el = document.getElementById(p.labelId);
+    if (!el) return;
+    // Trouver le label correspondant à la valeur sélectionnée
+    let found = null;
+    p.sections.forEach(sec => {
+      sec.items.forEach(it => {
+        if (it.value === p.selected) found = it.label;
+      });
+    });
+    el.textContent = found || p.placeholder;
+    el.classList.toggle('is-placeholder', !p.selected);
+  });
+}
+
+// --- Ouvre la modale picker pour un type ---
+function openPicker(type) {
+  const p = pickers[type];
+  if (!p || !$pickerSheet || !$pickerBackdrop) return;
+  currentPicker = type;
+
+  // Titre
+  if ($pickerTitle) $pickerTitle.textContent = p.title;
+
+  // Contenu (sections + options)
+  let html = '';
+  p.sections.forEach(sec => {
+    if (sec.label) {
+      html += `<div class="picker-section-label">${escapeHtml(sec.label)}</div>`;
+    }
+    sec.items.forEach(item => {
+      const active = item.value === p.selected;
+      html += `<button type="button" class="picker-option${active ? ' is-active' : ''}" data-value="${escapeHtml(item.value)}" role="option" aria-selected="${active}">
+        <span>${escapeHtml(item.label)}</span>
+        <span class="picker-check"><i data-lucide="check"></i></span>
+      </button>`;
+    });
+  });
+
+  if ($pickerList) $pickerList.innerHTML = html;
+  if (window.lucide) lucide.createIcons();
+
+  // Afficher + animer
+  $pickerBackdrop.hidden = false;
+  $pickerSheet.hidden = false;
+  requestAnimationFrame(() => {
+    $pickerBackdrop.classList.add('is-open');
+    $pickerSheet.classList.add('is-open');
+  });
+}
+
+// --- Ferme la modale picker ---
+function closePicker() {
+  if (!$pickerSheet || !$pickerBackdrop) return;
+  $pickerBackdrop.classList.remove('is-open');
+  $pickerSheet.classList.remove('is-open');
+  setTimeout(() => {
+    $pickerBackdrop.hidden = true;
+    $pickerSheet.hidden = true;
+    currentPicker = null;
+  }, 250);
 }
 
 function closeFilters() {
@@ -482,9 +530,9 @@ function updateFiltersCount() {
   if (!$filtersCount) return;
   // Compter les résultats qui matcheraient avec les filtres actuels du panneau
   const draft = {
-    category: $filterCategory ? $filterCategory.value : '',
-    lesson:   $filterLesson   ? $filterLesson.value   : '',
-    language: $filterLanguage ? $filterLanguage.value : ''
+    category: pickers.category.selected,
+    lesson:   pickers.lesson.selected,
+    language: pickers.language.selected
   };
 
   const q = normalize($searchInput.value.trim());
@@ -515,26 +563,51 @@ if ($filtersBackdrop) {
 }
 if ($filtersReset) {
   $filtersReset.addEventListener('click', () => {
-    if ($filterCategory) $filterCategory.value = '';
-    if ($filterLesson)   $filterLesson.value   = '';
-    if ($filterLanguage) $filterLanguage.value = '';
+    pickers.category.selected = '';
+    pickers.lesson.selected   = '';
+    pickers.language.selected = '';
+    updatePickerLabels();
     updateFiltersCount();
   });
 }
 if ($filtersApply) {
   $filtersApply.addEventListener('click', () => {
-    activeFilters.category = $filterCategory ? $filterCategory.value : '';
-    activeFilters.lesson   = $filterLesson   ? $filterLesson.value   : '';
-    activeFilters.language = $filterLanguage ? $filterLanguage.value : '';
+    activeFilters.category = pickers.category.selected;
+    activeFilters.lesson   = pickers.lesson.selected;
+    activeFilters.language = pickers.language.selected;
     updateFilterBadge();
     closeFilters();
     performSearch($searchInput.value);
   });
 }
-// Mettre à jour le compteur à chaque changement de select
-[$filterCategory, $filterLesson, $filterLanguage].forEach(sel => {
-  if (sel) sel.addEventListener('change', updateFiltersCount);
+
+// ============================================================
+// Interactions pickers
+// ============================================================
+// Ouvrir un picker au clic
+$filterPickers.forEach(btn => {
+  btn.addEventListener('click', () => {
+    const type = btn.dataset.picker;
+    if (type) openPicker(type);
+  });
 });
+
+// Choix d'une option dans la modale
+if ($pickerList) {
+  $pickerList.addEventListener('click', e => {
+    const btn = e.target.closest('.picker-option');
+    if (!btn || !currentPicker) return;
+    const val = btn.dataset.value || '';
+    pickers[currentPicker].selected = val;
+    updatePickerLabels();
+    updateFiltersCount();
+    closePicker();
+  });
+}
+
+// Fermer la modale
+if ($pickerClose) $pickerClose.addEventListener('click', closePicker);
+if ($pickerBackdrop) $pickerBackdrop.addEventListener('click', closePicker);
 
 // ------------------------------------------------------------
 // Démarrage
