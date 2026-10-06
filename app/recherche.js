@@ -231,7 +231,8 @@ function populateCategoryFilter() {
   const groups = {
     lessons:   [],
     dimanche:  [],
-    priere:    []
+    priere:    [],
+    aclasser:  []
   };
 
   CATEGORIES.forEach(id => {
@@ -239,12 +240,14 @@ function populateCategoryFilter() {
     if (id.startsWith('lesson-'))        groups.lessons.push({ id, label });
     else if (id.startsWith('dimanche-')) groups.dimanche.push({ id, label });
     else if (id.startsWith('priere-'))   groups.priere.push({ id, label });
+    else if (id.startsWith('a-classer-')) groups.aclasser.push({ id, label });
   });
 
   const groupLabels = {
     lessons:  'Leçons du Chemin',
     dimanche: 'Cantiques du Dimanche',
-    priere:   'Cantiques de prière'
+    priere:   'Cantiques de prière',
+    aclasser: 'Cantiques à classer'
   };
 
   let html = '<option value="">Toutes les catégories</option>';
