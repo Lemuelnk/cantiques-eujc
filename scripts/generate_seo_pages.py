@@ -66,8 +66,8 @@ def build(template,h,cat,label,n):
     doc=meta_replace(doc,r'(<meta\s+property="og:url"\s+content=")[^"]*(")',url)
     doc=meta_replace(doc,r'(<meta\s+name="twitter:title"\s+content=")[^"]*(")',f"{title} — Cantiques EUJC")
     doc=meta_replace(doc,r'(<meta\s+name="twitter:description"\s+content=")[^"]*(")',desc)
-    intro=f'<nav class="seo-breadcrumbs" aria-label="Fil d’Ariane"><a href="/index.html">Cantiques EUJC</a> › <a href="/cantiques.html?category={quote(cat)}">{esc(label)}</a> › <span aria-current="page">{esc(title)}</span></nav><header class="hymn-detail-intro"><p class="hymn-number-label">N° {esc(n)}</p><h1>{esc(title)}</h1><p class="hymn-metadata">{esc(lang_label)} · {esc(label)}</p></header><div class="hymn-lyrics">{lyrics(v)}</div>'
-    doc=re.sub(r'<section id="hymn-detail"[^>]*>.*?</section>',f'<section id="hymn-detail" aria-live="polite">{intro}</section>',doc,1,flags=re.I|re.S)
+    intro=f'<nav class="seo-breadcrumbs" aria-label="Fil d’Ariane"><a href="/">Cantiques EUJC</a> › <a href="/cantiques.html?category={quote(cat)}">{esc(label)}</a> › <span aria-current="page">{esc(title)}</span></nav><header class="hymn-detail-intro"><p class="hymn-number-label">N° {esc(n)}</p><h1>{esc(title)}</h1><p class="hymn-metadata">{esc(lang_label)} · {esc(label)}</p></header><div class="hymn-lyrics">{lyrics(v)}</div>'
+    doc=re.sub(r'<div class="detail-loading">.*?</div>',intro,doc,1,flags=re.I|re.S)
     lines=[str(x) for b in v.get("content") or [] for x in b.get("lines") or []]
     ld={"@context":"https://schema.org","@type":"MusicComposition","name":title,"inLanguage":lang_code,"genre":label,"lyrics":{"@type":"CreativeWork","text":"\n".join(lines)},"isPartOf":{"@type":"MusicAlbum","name":"Cantiques EUJC","url":f"{BASE}/cantiques.html"},"url":url,"alternateName":f"Cantique n° {n}","position":n}
     doc=doc.replace("</head>",f'<script type="application/ld+json" id="hymn-jsonld">{json.dumps(ld,ensure_ascii=False,separators=(",",":"))}</script>\n</head>',1)
