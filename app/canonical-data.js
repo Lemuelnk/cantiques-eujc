@@ -97,12 +97,27 @@ function findHymn(corpus, hymnId) {
 // ============================================================
 // Helpers URLs propres /cantique/:cat/:num
 // ============================================================
+function hymnNumberSlug(number) {
+  return String(number || '')
+    .normalize('NFD')
+    .replace(/[\\u0300-\\u036f]/g, '')
+    .replace(/œ/gi, 'oe')
+    .replace(/[^A-Za-z0-9_-]+/g, '-')
+    .replace(/-+/g, '-')
+    .replace(/^-|-$/g, '')
+    .toLowerCase();
+}
+
 function findHymnByNumber(corpus, number) {
   if (!corpus || !corpus.hymns || !number) return null;
   const target = String(number);
+  const targetSlug = hymnNumberSlug(target);
   return corpus.hymns.find(h => {
     const versions = Array.isArray(h.versions) ? h.versions : [];
-    return versions.some(v => String(((v.source) || {}).number || '') === target);
+    return versions.some(v => {
+      const sourceNumber = String(((v.source) || {}).number || '');
+      return sourceNumber === target || hymnNumberSlug(sourceNumber) === targetSlug;
+    });
   }) || null;
 }
 
@@ -118,5 +133,5 @@ function buildCantiqueUrl(hymnOrDisplay, categoryId) {
          + '&category=' + encodeURIComponent(cat);
   }
   return '/cantique/' + encodeURIComponent(cat)
-       + '/' + encodeURIComponent(num);
+       + '/' + encodeURIComponent(hymnNumberSlug(num));
 }
