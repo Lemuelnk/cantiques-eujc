@@ -93,8 +93,7 @@ def main():
         category, number, _ = parts
         generated_urls.add(f"{BASE}/cantique/{category}/{number}")
         html = page.read_text(encoding="utf-8", errors="replace")
-        if not has_h1(html):
-            errors.append(f"{page}: missing h1; prefix={html[:500]!r}")
+        if not has_h1(html): errors.append(f"{page}: missing h1")
         if 'rel="canonical"' not in html: errors.append(f"{page}: missing canonical")
         if 'id="hymn-jsonld"' not in html: errors.append(f"{page}: missing JSON-LD")
         if 'class="hymn-lyrics"' not in html: errors.append(f"{page}: missing visible hymn lyrics")
@@ -110,7 +109,7 @@ def main():
         category = page.parent.name
         html = page.read_text(encoding="utf-8", errors="replace")
         if "category-jsonld" not in html: errors.append(f"{page}: missing category JSON-LD")
-        if "<h1>" not in html: errors.append(f"{page}: missing h1")
+        if not has_h1(html): errors.append(f"{page}: missing h1")
         if category.startswith("a-classer"):
             if "noindex" not in html: errors.append(f"{page}: uncurated category must be noindex")
         else:
