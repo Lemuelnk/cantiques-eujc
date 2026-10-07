@@ -48,9 +48,9 @@ def main():
     errors, warnings = [], []
     route_keys, used_routes = {}, {}
     expected_urls = {
-        f"{BASE}/", f"{BASE}/cantiques.html", f"{BASE}/categories.html",
+        f"{BASE}/", f"{BASE}/categories.html",
         f"{BASE}/lessons.html", f"{BASE}/dimanche.html",
-        f"{BASE}/priere.html", f"{BASE}/a-classer.html", f"{BASE}/apropos.html"
+        f"{BASE}/priere.html", f"{BASE}/apropos.html"
     }
     total_hymns = total_versions = missing_numbers = 0
 
