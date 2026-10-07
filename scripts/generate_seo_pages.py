@@ -61,7 +61,7 @@ def meta_upsert(doc, selector, attributes, value):
             flags=re.I
         )
     attrs = " ".join(f'{k}="{esc(v)}"' for k, v in attributes.items())
-    return doc.replace("</head>", f'<meta {attrs} content="{esc(value)}">\\n</head>', 1)
+    return doc.replace("</head>", f'<meta {attrs} content="{esc(value)}">\n</head>', 1)
 
 def build(template,h,cat,label,n):
     v=primary(h) or {}
