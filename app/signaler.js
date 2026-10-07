@@ -545,6 +545,7 @@ async function submitReport(event) {
     scopeContext: currentScope === 'liste-cantiques' ? categoryId : '',
     mode: currentMode,
     languageCode: (currentVersion && currentVersion.language && currentVersion.language.code) || '',
+    versionId: (currentVersion && currentVersion.id) || '',
     type: selectedType,
     message: $message.value.trim(),
     reporterName: $name.value.trim(),
@@ -559,6 +560,7 @@ async function submitReport(event) {
     const idx = parseInt($targetField.value, 10);
     if (!isNaN(idx)) {
       payload.targetIndex = idx;
+      payload.blockId = (contentBlocks[idx] && contentBlocks[idx].id) || '';
       payload.currentText = getBlockText(contentBlocks[idx]);
     }
   }
