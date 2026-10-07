@@ -427,7 +427,8 @@ body {
 .report-success[hidden],
 .report-step[hidden],
 .report-field[hidden],
-.report-status[hidden] {
+.report-status[hidden],
+.report-type-card[hidden] {
   display: none !important;
 }
 
