@@ -47,7 +47,21 @@ def lyrics(v):
     return "\n".join(out) or '<p class="detail-empty">Aucune parole disponible.</p>'
 
 def meta_replace(doc, pattern, value):
-    return re.sub(pattern, lambda m:m.group(1)+esc(value)+m.group(2), doc, count=1, flags=re.I)
+    updated = re.sub(pattern, lambda m:m.group(1)+esc(value)+m.group(2), doc, count=1, flags=re.I)
+    return updated
+
+def meta_upsert(doc, selector, attributes, value):
+    pattern = rf'<meta\\s+{selector}[^>]*>'
+    if re.search(pattern, doc, flags=re.I):
+        return re.sub(
+            pattern,
+            lambda m: re.sub(r'content="[^"]*"', f'content="{esc(value)}"', m.group(0), count=1, flags=re.I),
+            doc,
+            count=1,
+            flags=re.I
+        )
+    attrs = " ".join(f'{k}="{esc(v)}"' for k, v in attributes.items())
+    return doc.replace("</head>", f'<meta {attrs} content="{esc(value)}">\\n</head>', 1)
 
 def build(template,h,cat,label,n):
     v=primary(h) or {}
