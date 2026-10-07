@@ -81,3 +81,17 @@ Ils ne constituent pas des sources de vérité concurrentes.
 app/data/cantiques.json est considéré comme un modèle legacy.
 
 Les nouvelles données ne doivent pas prolonger ce modèle. Sa migration vers le contrat canonique fera l'objet d'une opération distincte et validée.
+## DEC-007 — Identifiants stables sur les blocs
+
+Chaque bloc de contenu (verse, refrain, comment, source_block) porte un `id` unique du type `blk-XXXXXXXX`.
+
+Ces identifiants sont **aléatoires, stables à vie, jamais régénérés**. Ils servent de cible fiable pour l'intégration automatique des corrections, indépendamment de la position du bloc dans le tableau.
+
+## DEC-008 — Intégration automatique via PR GitHub
+
+Les signalements validés depuis l'admin déclenchent la création d'une Pull Request sur `Lemuelnk/cantiques-eujc` via l'API GitHub.
+
+- Types auto-appliquables : `titre`, `couplet`, `refrain`, `orthographe`, `traduction`, `commentaire`
+- Types manuels : `doublon`, `cantique_manquant`, `categorie_manquante`, `autre`, `nom_incorrect`, `categorie`, `ordre`
+- Aucun commit direct sur `main` : toujours une PR review avant merge
+- Le worker utilise un token GitHub fine-grained stocké comme secret Cloudflare (`GITHUB_TOKEN`)
