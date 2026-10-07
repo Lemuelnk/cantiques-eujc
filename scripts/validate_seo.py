@@ -4,6 +4,7 @@ from __future__ import annotations
 import json, re, sys
 import xml.etree.ElementTree as ET
 from pathlib import Path
+from urllib.parse import urljoin
 
 ROOT = Path(__file__).resolve().parents[1]
 APP = ROOT / "app"
@@ -60,13 +61,11 @@ def main():
         except Exception as exc:
             errors.append(f"{path.name}: invalid JSON: {exc}")
             continue
-
         taxonomy = data.get("taxonomy") or {}
         category = clean(taxonomy.get("category_id"))
         if not category:
             errors.append(f"{path.name}: missing taxonomy.category_id")
             continue
-
         for hymn in data.get("hymns") or []:
             total_hymns += 1
             versions = hymn.get("versions") or []
@@ -75,16 +74,15 @@ def main():
             if not number:
                 missing_numbers += 1
                 continue
-
             used = used_routes.setdefault(slug(category), set())
             route = route_segment(hymn, used)
-            key = f"{category}/{route}"
-            route_keys[key] = path.name
+            route_keys[f"{category}/{route}"] = path.name
             expected_urls.add(f"{BASE}/cantique/{slug(category)}/{route}")
 
     generated_pages = sorted(PAGES.glob("*/*/index.html")) if PAGES.exists() else []
     category_pages = sorted((APP / "categorie").glob("*/index.html")) if (APP / "categorie").exists() else []
     generated_urls = set()
+
     for page in generated_pages:
         parts = page.relative_to(PAGES).parts
         if len(parts) != 3:
@@ -115,11 +113,14 @@ def main():
         else:
             expected_urls.add(f"{BASE}/categorie/{category}/")
 
-    # Crawl contract: verify SEO-critical internal links point to generated canonical routes.
     href_re = re.compile(r'''href\s*=\s*["']([^"']+)["']''', re.IGNORECASE)
+
     def absolute_url(href, source_url):
-        from urllib.parse import urljoin
         return urljoin(source_url, href)
+
+    def is_explicit_seo_route(href, route_type):
+        value = href.strip()
+        return value.startswith(f"{BASE}/{route_type}/") or value.startswith(f"/{route_type}/")
 
     expected_category_urls = {
         f"{BASE}/categorie/{page.parent.name}/"
@@ -128,7 +129,10 @@ def main():
     }
     expected_hymn_url_set = {u.rstrip("/") for u in expected_hymn_urls}
     expected_category_url_set = {u.rstrip("/") for u in expected_category_urls}
-    all_category_url_set = {f"{BASE}/categorie/{page.parent.name}".rstrip("/") for page in category_pages}
+    all_category_url_set = {
+        f"{BASE}/categorie/{page.parent.name}".rstrip("/")
+        for page in category_pages
+    }
 
     index_file = APP / "index.html"
     if index_file.exists():
@@ -147,7 +151,7 @@ def main():
         html = categories_file.read_text(encoding="utf-8", errors="replace")
         for href in href_re.findall(html):
             url = absolute_url(href, f"{BASE}/categories.html")
-            if "/categorie/" in url and url.rstrip("/") not in expected_category_url_set:
+            if is_explicit_seo_route(href, "categorie") and url.rstrip("/") not in expected_category_url_set:
                 errors.append(f"categories.html: broken category SEO link: {href}")
             if "cantiques.html?category=" in url:
                 errors.append(f"categories.html: legacy query category link remains: {href}")
@@ -158,7 +162,7 @@ def main():
         source_url = f"{BASE}/categorie/{category}/"
         for href in href_re.findall(html):
             url = absolute_url(href, source_url)
-            if "/cantique/" in url and url.rstrip("/") not in expected_hymn_url_set:
+            if is_explicit_seo_route(href, "cantique") and url.rstrip("/") not in expected_hymn_url_set:
                 errors.append(f"{page}: broken hymn SEO link: {href}")
 
     for page in generated_pages:
@@ -167,9 +171,9 @@ def main():
         html = page.read_text(encoding="utf-8", errors="replace")
         for href in href_re.findall(html):
             url = absolute_url(href, source_url)
-            if "/cantique/" in url and url.rstrip("/") not in expected_hymn_url_set:
+            if is_explicit_seo_route(href, "cantique") and url.rstrip("/") not in expected_hymn_url_set:
                 errors.append(f"{page}: broken related hymn SEO link: {href}")
-            if "/categorie/" in url and url.rstrip("/") not in all_category_url_set:
+            if is_explicit_seo_route(href, "categorie") and url.rstrip("/") not in all_category_url_set:
                 errors.append(f"{page}: broken category SEO link: {href}")
 
     sitemap_urls = set()
