@@ -44,6 +44,7 @@
           },
           "content": [
             {
+              "id": "blk-db269f35",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -51,12 +52,14 @@
               ]
             },
             {
+              "id": "blk-26284272",
               "type": "refrain",
               "lines": [
                 "kweli , kweli \"Bwana hangelikuwako twa weza kutabika\"2X"
               ]
             },
             {
+              "id": "blk-09d0c19a",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -64,6 +67,7 @@
               ]
             },
             {
+              "id": "blk-e10c6a1e",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -106,6 +110,7 @@
           },
           "content": [
             {
+              "id": "blk-49a10bfe",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -113,6 +118,7 @@
               ]
             },
             {
+              "id": "blk-8e0aedbf",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -120,6 +126,7 @@
               ]
             },
             {
+              "id": "blk-c3ecb223",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -162,6 +169,7 @@
           },
           "content": [
             {
+              "id": "blk-7f2e60ce",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -169,6 +177,7 @@
               ]
             },
             {
+              "id": "blk-17151d60",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -176,6 +185,7 @@
               ]
             },
             {
+              "id": "blk-3bd7d163",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -218,6 +228,7 @@
           },
           "content": [
             {
+              "id": "blk-79cd1f88",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -225,12 +236,14 @@
               ]
             },
             {
+              "id": "blk-015178f6",
               "type": "refrain",
               "lines": [
                 "Kweli kweli ewe mungu wa rehema ameja rehema na tena na kweli nyingi."
               ]
             },
             {
+              "id": "blk-8e748da3",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -238,6 +251,7 @@
               ]
             },
             {
+              "id": "blk-bc01c0d2",
               "type": "comment",
               "lines": [
                 "Com : -Na ulozi wangu",
@@ -280,6 +294,7 @@
           },
           "content": [
             {
+              "id": "blk-286086a7",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -287,18 +302,21 @@
               ]
             },
             {
+              "id": "blk-31523a2d",
               "type": "refrain",
               "lines": [
                 "Bwana mungu ni metoa ee nimetoa na zaka ni pate uzima wa milele (toa basi)"
               ]
             },
             {
+              "id": "blk-c8478460",
               "type": "comment",
               "lines": [
                 "Com : -Nimetoa na ya kila siku nipate uzima wa milele -Ni metoa na ya upendo \" \" \" \" -Ni metoa na ya haadi\" \" \" \""
               ]
             },
             {
+              "id": "blk-63e16191",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -306,6 +324,7 @@
               ]
             },
             {
+              "id": "blk-f0fd9d18",
               "type": "verse",
               "number": "3",
               "lines": [

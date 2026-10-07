@@ -44,6 +44,7 @@
           },
           "content": [
             {
+              "id": "blk-d1fb6c64",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -51,18 +52,21 @@
               ]
             },
             {
+              "id": "blk-370dff1b",
               "type": "refrain",
               "lines": [
                 "Mwanadamu wewe usikufuru mungu ukipata mateso ."
               ]
             },
             {
+              "id": "blk-56c57bc2",
               "type": "comment",
               "lines": [
                 "Com : -Magonjua njiani usikufuru mungu ukipata mateso -Mateso njiani \" \" \" \" \" \""
               ]
             },
             {
+              "id": "blk-4310fb8c",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -70,6 +74,7 @@
               ]
             },
             {
+              "id": "blk-36d07934",
               "type": "comment",
               "lines": [
                 "Com : -Ya kumuhasi mungu akunena kamwe mambo yote wanenayo."
@@ -109,12 +114,14 @@
           },
           "content": [
             {
+              "id": "blk-524780a3",
               "type": "source_block",
               "lines": [
                 "Sufuria yangu ndani ya shamba ya bwana, mimi yobu nyalike nuhuru initenge na marafiki awa."
               ]
             },
             {
+              "id": "blk-82c728ec",
               "type": "refrain",
               "lines": [
                 "Pembe ine za dunianizimefungwa na pepo mbele yangu mimi yobu kweli mumbaji wangu usinyache kamwe na marafikiza dunia:",
@@ -162,6 +169,7 @@
           },
           "content": [
             {
+              "id": "blk-28011674",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -169,12 +177,14 @@
               ]
             },
             {
+              "id": "blk-5164eb5d",
               "type": "refrain",
               "lines": [
                 "Yavoyo mateso , haya mateso moyoni mwangu \"Ya meniuzunisha \"2x ninge lifahamu mimi singe lizaliwa ninge lifariki tumboni mwa mamangu ili ni sione mateso ya duniani."
               ]
             },
             {
+              "id": "blk-a218e202",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -182,6 +192,7 @@
               ]
             },
             {
+              "id": "blk-fc0ed2ed",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -222,12 +233,14 @@
           },
           "content": [
             {
+              "id": "blk-f904b9cc",
               "type": "source_block",
               "lines": [
                 "1. Kulikuwa mutu muniofu alie pendwa na mungu mwenye imani nyingi jina lake ayubu katika ubishi mukali wa mungu na ibilisi ¨2x"
               ]
             },
             {
+              "id": "blk-71d23f8d",
               "type": "comment",
               "lines": [
                 "- Ibilisi kamwambia mungu",
@@ -235,6 +248,7 @@
               ]
             },
             {
+              "id": "blk-7d8501af",
               "type": "refrain",
               "lines": [
                 "Eh ayubu mutu mwenye imani (ayubu eh) akumutukana mungu. Mungu kamwambia Ibilisi fanya",
@@ -282,6 +296,7 @@
           },
           "content": [
             {
+              "id": "blk-41465ba3",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -289,24 +304,28 @@
               ]
             },
             {
+              "id": "blk-9126e73d",
               "type": "comment",
               "lines": [
                 "Com :-Yobu mateso yobue yobu yobu mwenye taabu -Yobu teseka \" \" \" \" \" \" \""
               ]
             },
             {
+              "id": "blk-4b0410cd",
               "type": "refrain",
               "lines": [
                 "Bildadi musui \"2x Elifasi mutemani, tazama Zofahari munamati rafiki ze yobu , yobu yobue yobu yobu mwenye taabu ."
               ]
             },
             {
+              "id": "blk-1d0556b0",
               "type": "comment",
               "lines": [
                 "Com : -Yobu mateso yobue yobu , yobu mwenye taabu ."
               ]
             },
             {
+              "id": "blk-89a0c663",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -314,12 +333,14 @@
               ]
             },
             {
+              "id": "blk-088617d3",
               "type": "comment",
               "lines": [
                 "Com : -Yobu mateso yobu eh yobu ,yobu mwenye taabu."
               ]
             },
             {
+              "id": "blk-df3737c2",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -327,6 +348,7 @@
               ]
             },
             {
+              "id": "blk-af0c915c",
               "type": "comment",
               "lines": [
                 "Com : -Yobu tabika yobu eh yobu yobu mwenye taabu."
@@ -368,6 +390,7 @@
           },
           "content": [
             {
+              "id": "blk-180efa7d",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -375,12 +398,14 @@
               ]
             },
             {
+              "id": "blk-4efbe407",
               "type": "refrain",
               "lines": [
                 "Kujikuza kwako wewe usizarau uduma huwa bwana mu mambo mafu anasa za duniani kwa wewe mujoli mu mambo mafu hekima ya duniani."
               ]
             },
             {
+              "id": "blk-6f5c3d27",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -388,6 +413,7 @@
               ]
             },
             {
+              "id": "blk-2688fb48",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -430,6 +456,7 @@
           },
           "content": [
             {
+              "id": "blk-a7fad8d3",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -437,18 +464,21 @@
               ]
             },
             {
+              "id": "blk-8139e00f",
               "type": "refrain",
               "lines": [
                 "Kweli wa ngombe wa menishutumu mungu wenu yuko wapi ."
               ]
             },
             {
+              "id": "blk-3d1696f1",
               "type": "comment",
               "lines": [
                 "Com : -Marafiki wa bava wamenishutumu mungu wenu yuko wapi -Majirani wa baya \" \" \" \" \" \" \" \" Ewe mungu muzima shuka leo unione ."
               ]
             },
             {
+              "id": "blk-c6e01bb6",
               "type": "verse",
               "number": "2",
               "lines": [

@@ -44,6 +44,7 @@
           },
           "content": [
             {
+              "id": "blk-50a5e564",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -51,12 +52,14 @@
               ]
             },
             {
+              "id": "blk-b6e22aea",
               "type": "refrain",
               "lines": [
                 "Nenda usitupe , nenda usitupe jiwe lako kauliza nani bwana wangue jiwe limebaki kama kumbu kumbu la jambo kati yetu we Yoshua amesimamisha jiwe mujini mwa telebinta."
               ]
             },
             {
+              "id": "blk-2aa4df96",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -64,6 +67,7 @@
               ]
             },
             {
+              "id": "blk-fd959ab6",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -106,6 +110,7 @@
           },
           "content": [
             {
+              "id": "blk-7c2f0553",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -113,18 +118,21 @@
               ]
             },
             {
+              "id": "blk-d4af235b",
               "type": "refrain",
               "lines": [
                 "Eh ili tuingie mu kanana yoyoyo mulingia ma babu."
               ]
             },
             {
+              "id": "blk-3dac54e6",
               "type": "comment",
               "lines": [
                 "Com : -Mu kanana mulingia mitume mu kanana yoyoyo muliingia ma babu . -Mu kanana muliingia Kadima mu kanana yoyoyo muliingia ma babu."
               ]
             },
             {
+              "id": "blk-6a3858b6",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -165,12 +173,14 @@
           },
           "content": [
             {
+              "id": "blk-8aa00653",
               "type": "source_block",
               "lines": [
                 "1. Makuhani wa mechukuwa sanduku ya neno ¨2x ¨ya agano la jehova mungu¨2x kwa kuzunguka nayo ukuta wa yeriko ili ubomolewe leo mbele ya watu wote.2x"
               ]
             },
             {
+              "id": "blk-9acf639c",
               "type": "refrain",
               "lines": [
                 "Kwa",
@@ -178,6 +188,7 @@
               ]
             },
             {
+              "id": "blk-3e774c72",
               "type": "comment",
               "lines": [
                 "- Mulingia ma babu mu",
@@ -224,6 +235,7 @@
           },
           "content": [
             {
+              "id": "blk-0f32639b",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -231,12 +243,14 @@
               ]
             },
             {
+              "id": "blk-04da202c",
               "type": "refrain",
               "lines": [
                 "Eh mufalme tumeriti kanana , asali na maziwa ni chakula chetu."
               ]
             },
             {
+              "id": "blk-261318d9",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -244,6 +258,7 @@
               ]
             },
             {
+              "id": "blk-067a1669",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -286,6 +301,7 @@
           },
           "content": [
             {
+              "id": "blk-78993c3e",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -293,12 +309,14 @@
               ]
             },
             {
+              "id": "blk-a97287d1",
               "type": "refrain",
               "lines": [
                 "Kweli mimi sitrejea tena kwa kujenga muji ukuta ume anguka (mimi)2x ukuta wa Yeriko."
               ]
             },
             {
+              "id": "blk-f564d513",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -306,6 +324,7 @@
               ]
             },
             {
+              "id": "blk-e996d157",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -348,6 +367,7 @@
           },
           "content": [
             {
+              "id": "blk-202f42c8",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -355,24 +375,28 @@
               ]
             },
             {
+              "id": "blk-23cc737a",
               "type": "comment",
               "lines": [
                 "Com : Wakristu wa mungu munatoka wapi ? na tena munaenda wapi ? -Watoto mu njia \" \" \" \" \" \""
               ]
             },
             {
+              "id": "blk-3eba24e3",
               "type": "refrain",
               "lines": [
                 "Wajoli wa bwana tupendane wote kila mutu aone mwenzake ni mu bora kama wa jiona\"2x"
               ]
             },
             {
+              "id": "blk-b63208d0",
               "type": "comment",
               "lines": [
                 "Com :-Ukiwa na mali uone mwenzako ni mubora kama wa jiona -Ukiwa na gari \" \" \" \" \" \" -Ukiwa musomi \" \" \" \" \" \" -Ukiwa tajiri \" \" \" \" \" \""
               ]
             },
             {
+              "id": "blk-8d117c6f",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -415,6 +439,7 @@
           },
           "content": [
             {
+              "id": "blk-2ff55ee7",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -422,12 +447,14 @@
               ]
             },
             {
+              "id": "blk-3dc54d81",
               "type": "refrain",
               "lines": [
                 "Acheni anasa wajoli sisi tusifuate shuruli za dunia isio na mwisho tuka muudumie yeye alietuwokowa wajoli sikilizeni ( wajoli wa bwana)"
               ]
             },
             {
+              "id": "blk-97ecc33e",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -435,6 +462,7 @@
               ]
             },
             {
+              "id": "blk-7e551de3",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -442,6 +470,7 @@
               ]
             },
             {
+              "id": "blk-82c602ca",
               "type": "comment",
               "lines": [
                 "Com : -Basi mutume naye anenda vitani tumukumbukebaba. -Basi Kadima naye na Milemba wake wanenda vitani tuwa kumbuke baba."
@@ -483,6 +512,7 @@
           },
           "content": [
             {
+              "id": "blk-346bc518",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -490,12 +520,14 @@
               ]
             },
             {
+              "id": "blk-7a27325c",
               "type": "refrain",
               "lines": [
                 "Mujoli wangu kwa kuriti kanana chunga mawazo yako, chunga ulimi wako , chunga matendo yako wewe utariti inchi."
               ]
             },
             {
+              "id": "blk-c3b3bd9e",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -536,12 +568,14 @@
           },
           "content": [
             {
+              "id": "blk-c40ac24d",
               "type": "source_block",
               "lines": [
                 "1. Nimesikia uchungu mukubwa moyoni mwangu nikilia kwa sauti kubwa mungu wa uzima ni fanye nini kwa mimi kuriti inchi ni sije ni kaangamia."
               ]
             },
             {
+              "id": "blk-4f791c21",
               "type": "refrain",
               "lines": [
                 "ni riti inchi,",
@@ -588,6 +622,7 @@
           },
           "content": [
             {
+              "id": "blk-3248c23d",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -595,12 +630,14 @@
               ]
             },
             {
+              "id": "blk-303cc546",
               "type": "refrain",
               "lines": [
                 "Eh baba mungu usiniache 2x nisipoteze uzima wa neno kwajili ya anasa za dunia."
               ]
             },
             {
+              "id": "blk-837ddcf8",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -608,6 +645,7 @@
               ]
             },
             {
+              "id": "blk-fada8c2c",
               "type": "comment",
               "lines": [
                 "Com : -Joo la uzima ili kwaribu uzima wangu ni sivikwe joo lako -Joo la mbinguni \" - - - - - - - - - - - - -Joo lako baba \" - - - - - - - - - - - - -"
@@ -649,6 +687,7 @@
           },
           "content": [
             {
+              "id": "blk-c9ad97e8",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -656,12 +695,14 @@
               ]
             },
             {
+              "id": "blk-652e26d0",
               "type": "refrain",
               "lines": [
                 "Ndingenda njinga njinga \"Bambweje mukanana mumansanka a moyo\"2x mukana muji mpuitchine mabele muma sanka moyo Tatu mukanana muji mpuitchi ne mabele mumasanka moyo Yesu \" \" \" \" \" \" \" \" \" \" \" \" \" \" \""
               ]
             },
             {
+              "id": "blk-41895c0d",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -669,6 +710,7 @@
               ]
             },
             {
+              "id": "blk-c6171ec3",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -709,12 +751,14 @@
           },
           "content": [
             {
+              "id": "blk-e89d691e",
               "type": "source_block",
               "lines": [
                 "1. Enyi wajoli wa bwana jazareni kwa jambo lote ¨ Sisi awa mu dunia si wa duniani twaishi mbinguni kwa bwana mungu wetu¨2x"
               ]
             },
             {
+              "id": "blk-04d35a0b",
               "type": "refrain",
               "lines": [
                 "Kanana, kanana inchi yetu asali",
@@ -722,6 +766,7 @@
               ]
             },
             {
+              "id": "blk-f8ad3fb5",
               "type": "comment",
               "lines": [
                 "Bora Afrika watungojea - Marekani watungojea - Asia - Ulaya - Ufalme Tusi ya kule yote ya kanana, tusi ya kunywe",

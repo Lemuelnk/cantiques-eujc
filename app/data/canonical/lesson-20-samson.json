@@ -44,6 +44,7 @@
           },
           "content": [
             {
+              "id": "blk-22b76d67",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -51,18 +52,21 @@
               ]
             },
             {
+              "id": "blk-b13bea73",
               "type": "refrain",
               "lines": [
                 "Wajoli wa bwana tukazane \"tusitie vichwa vyetu miguuni mwa delila\"2x"
               ]
             },
             {
+              "id": "blk-448c2d30",
               "type": "comment",
               "lines": [
                 "Com : -Huyu muke delila atatutoa mikononi mwa wafilistini -Huyu mutu wa chuki \" \" \" \" \" \" \" \" -Huyu mupenda cheo \" \" \" \" \" \" \" \""
               ]
             },
             {
+              "id": "blk-321cfa48",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -105,6 +109,7 @@
           },
           "content": [
             {
+              "id": "blk-8bdf749b",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -112,12 +117,14 @@
               ]
             },
             {
+              "id": "blk-6013c548",
               "type": "refrain",
               "lines": [
                 "Ndugu zetu wapenzi iazareni kwa naziri\"2x jambo lako la siri usimunenee muke wako \"Jarazeni wembe usije kupita kichwani mwako \"2x \"Tazama delila akaharibu nguvu ya Samsoni\"2x"
               ]
             },
             {
+              "id": "blk-b521c198",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -125,6 +132,7 @@
               ]
             },
             {
+              "id": "blk-8e13a6d1",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -165,24 +173,28 @@
           },
           "content": [
             {
+              "id": "blk-f5d6143c",
               "type": "source_block",
               "lines": [
                 "Mutu mumoja wa sora wa jama la dani manoa na muke wake jina lake manoa na muke wake malaika wa bwana akajirika kwao alipo kuwa shambani."
               ]
             },
             {
+              "id": "blk-6c49eda7",
               "type": "refrain",
               "lines": [
                 "Aleluya fahari, fahari utukufu wa jehova Mimi nazaa mwana fahari utukufu wa Neno hili. Samsoni wa Mungu fahari utukufu wa jehova"
               ]
             },
             {
+              "id": "blk-f41635d3",
               "type": "source_block",
               "lines": [
                 "Malaika kawambia mutamuzaa mwana mume mnaziri wa Mungu. Malaika wa Bwana akawagiza ivio walipo kuwa shambani."
               ]
             },
             {
+              "id": "blk-ef36d330",
               "type": "source_block",
               "lines": [
                 "Usinyowe nyole zake, usinywe kileo cha nguvu wewe usile kitu kichafu mwana huyu mnaziri wa Mungu. Ataokowa israeli kwa wafilistini awatowe utumwani"
@@ -227,6 +239,7 @@
           },
           "content": [
             {
+              "id": "blk-42586d8a",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -234,18 +247,21 @@
               ]
             },
             {
+              "id": "blk-5ff398d9",
               "type": "refrain",
               "lines": [
                 "Mbweha samsoni washa moto samsoni shamba ilungue."
               ]
             },
             {
+              "id": "blk-b6c304c5",
               "type": "comment",
               "lines": [
                 "Com :-Shamba ya wafilistini washa moto samsoni shamba ilungue. -Shamba yenye kufungwa kwa minganda samsoni yote ilungue"
               ]
             },
             {
+              "id": "blk-f8cb3d9f",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -286,12 +302,14 @@
           },
           "content": [
             {
+              "id": "blk-0602d68f",
               "type": "source_block",
               "lines": [
                 "1. Samsoni nguvu ya mungu akapenda binti za wafilistini ¨wake awa wasaliti na wa fia feza¨2x"
               ]
             },
             {
+              "id": "blk-03468832",
               "type": "refrain",
               "lines": [
                 "Delila akamwambia samsoni wafilistini ni juu yako nguvu zi",
@@ -299,6 +317,7 @@
               ]
             },
             {
+              "id": "blk-0f6f6985",
               "type": "comment",
               "lines": [
                 "- Watu wa mwili musinge lima na ngombe zangu, amunge juwa siri zangu. - Watu dunia\t- Wa farisayo Yesu wa mungu alikuja kututoa utumwani hakuwa na kosa yoyoyo",
@@ -344,6 +363,7 @@
           },
           "content": [
             {
+              "id": "blk-fdd5cb51",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -351,12 +371,14 @@
               ]
             },
             {
+              "id": "blk-afd11b8d",
               "type": "refrain",
               "lines": [
                 "Ila kitu moja mujuwe ya kwamba mukinyuwa mimi Yeremia laana ni kwenu, laana ni kwenu na watoto wenu na miji yenu."
               ]
             },
             {
+              "id": "blk-547e6e9c",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -364,6 +386,7 @@
               ]
             },
             {
+              "id": "blk-be510c72",
               "type": "verse",
               "number": "3",
               "lines": [

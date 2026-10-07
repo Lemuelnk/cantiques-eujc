@@ -44,6 +44,7 @@
           },
           "content": [
             {
+              "id": "blk-c856c001",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -51,12 +52,14 @@
               ]
             },
             {
+              "id": "blk-6834d2ee",
               "type": "refrain",
               "lines": [
                 "Sisi tupendane tuone jehoa tukamatane tusimame imara jambo yenu , jambo yenu tuwa salimie na furaha ."
               ]
             },
             {
+              "id": "blk-66c643a4",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -64,6 +67,7 @@
               ]
             },
             {
+              "id": "blk-bc567c53",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -106,6 +110,7 @@
           },
           "content": [
             {
+              "id": "blk-689c2636",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -113,12 +118,14 @@
               ]
             },
             {
+              "id": "blk-abe90681",
               "type": "refrain",
               "lines": [
                 "Wajoli yoyoyo wajoli wa bwana (bwana mungu ) tupo wageni hapa duniani."
               ]
             },
             {
+              "id": "blk-5db2d76e",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -126,6 +133,7 @@
               ]
             },
             {
+              "id": "blk-20e0a776",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -133,6 +141,7 @@
               ]
             },
             {
+              "id": "blk-2386e64f",
               "type": "verse",
               "number": "4",
               "lines": [
@@ -140,6 +149,7 @@
               ]
             },
             {
+              "id": "blk-e59df171",
               "type": "comment",
               "lines": [
                 "Com : -Una kunywa malovu na kwabudu vinyago usipo tambua kile ulicho umbi wa.",
@@ -180,12 +190,14 @@
           },
           "content": [
             {
+              "id": "blk-29ca5cde",
               "type": "source_block",
               "lines": [
                 "Sisi ni wageni kwa inchi ya Babeli sisi tulichukuliwa wafungwa na wana wa mateso."
               ]
             },
             {
+              "id": "blk-ccec1ac6",
               "type": "refrain",
               "lines": [
                 "- Baba wa mbingu\ttazama wana kando ya mito ya babeli.",
@@ -194,12 +206,14 @@
               ]
             },
             {
+              "id": "blk-6e7a0f8b",
               "type": "source_block",
               "lines": [
                 "Tuliketi uko kwa inchi ya babali. watu wote wa babeli twimbe wimbo za sayuni kule yerusalema."
               ]
             },
             {
+              "id": "blk-a429c42a",
               "type": "source_block",
               "lines": [
                 "kwimba sisi nyimbo za sayuni. kwa inchi ya ugeni nyimbo zetu za sayuni kule yerusalema, yerusalema, yerusalema inchi ya wateule, wateule wa bwana yerusalema",
@@ -245,6 +259,7 @@
           },
           "content": [
             {
+              "id": "blk-e14f77b0",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -252,12 +267,14 @@
               ]
             },
             {
+              "id": "blk-b217adf4",
               "type": "refrain",
               "lines": [
                 "Basi eh we baba na we mama upingapo neno la mungu \"Basi we utatupwa katika jehanamu \"2X"
               ]
             },
             {
+              "id": "blk-b396bc9f",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -298,24 +315,28 @@
           },
           "content": [
             {
+              "id": "blk-fea6a96a",
               "type": "source_block",
               "lines": [
                 "Kwaliba munyina pano pesonde habo balufianya Yesu ubatanfia kabuyeni ine shimishibe"
               ]
             },
             {
+              "id": "blk-5e29ccd3",
               "type": "refrain",
               "lines": [
                 "Abalila shani owe owe ah owe owe mwe(banesu) owe owe ah ine shimishibe."
               ]
             },
             {
+              "id": "blk-7defbe5f",
               "type": "source_block",
               "lines": [
                 "Tukonke yesu banesu tupelwe naifue ubumi bwa penape"
               ]
             },
             {
+              "id": "blk-ade103ea",
               "type": "source_block",
               "lines": [
                 "Fibusa fiandji imwe mwitemwa ubusuma bwa pacalo isonsa shingi banesu shili kumulu kulia kuli tata."
@@ -360,6 +381,7 @@
           },
           "content": [
             {
+              "id": "blk-5b9768d6",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -367,12 +389,14 @@
               ]
             },
             {
+              "id": "blk-3ab7554b",
               "type": "refrain",
               "lines": [
                 "Maombolezo iyoyowe ah ! iyoyowe ! a wajoli iyoyowe mimi siwajuwi."
               ]
             },
             {
+              "id": "blk-8d80bf27",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -380,6 +404,7 @@
               ]
             },
             {
+              "id": "blk-8ca44b01",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -422,6 +447,7 @@
           },
           "content": [
             {
+              "id": "blk-42622967",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -429,12 +455,14 @@
               ]
             },
             {
+              "id": "blk-03386ed0",
               "type": "refrain",
               "lines": [
                 "Eh ukisema kama unajua mungu utakatifu wa roho mwema ni wapi\"2x"
               ]
             },
             {
+              "id": "blk-f0f5f5bd",
               "type": "comment",
               "lines": [
                 "Com : -Ukisema kama unajua viote utakatifu wa roho mwema ni wapi.",
@@ -443,6 +471,7 @@
               ]
             },
             {
+              "id": "blk-6ff2d52e",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -485,6 +514,7 @@
           },
           "content": [
             {
+              "id": "blk-ec696ee0",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -492,12 +522,14 @@
               ]
             },
             {
+              "id": "blk-5f8c7ccb",
               "type": "refrain",
               "lines": [
                 "Dunia wewe , dunia wewe utuonapo sisi usinene sisi ni wa dunia sisi awa tukonatoka mbinguni mwa utukufu wa mungu wa uzima dunia wewe tazama kunga kwa sura na wewe upewa mavazi yetu."
               ]
             },
             {
+              "id": "blk-9ed35b24",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -505,6 +537,7 @@
               ]
             },
             {
+              "id": "blk-dd02419c",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -547,6 +580,7 @@
           },
           "content": [
             {
+              "id": "blk-535aab7a",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -554,6 +588,7 @@
               ]
             },
             {
+              "id": "blk-0565b775",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -561,6 +596,7 @@
               ]
             },
             {
+              "id": "blk-6d5d0fe7",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -601,12 +637,14 @@
           },
           "content": [
             {
+              "id": "blk-11e3d99d",
               "type": "source_block",
               "lines": [
                 "1. Huduma zote za duniani (huduma) azikosi torati yoyo ndani yake ¨2x ndipo mungu akamupatia Musa eh Musa sheria izi kumi ¨nendeni muni hudumie ¨2x eh wajoli wangu . -Bwana akanena kwa sheria zote ni tazigawa yoyo sehemu izi mbili ¨umupende bwana mungu kwa moyo wako wote , umupende jirani yako kwa nafsi yako yote ¨2x"
               ]
             },
             {
+              "id": "blk-764cbd59",
               "type": "refrain",
               "lines": [
                 "¨Nahomi naye akanena¨ ewe Rutu wangu nimekwisha kuwa mukongwe",
@@ -614,6 +652,7 @@
               ]
             },
             {
+              "id": "blk-43b947e2",
               "type": "comment",
               "lines": [
                 "-Mimi sina cha kukukabiza\trejeeni nyumbani mwa wazazi",
@@ -662,12 +701,14 @@
           },
           "content": [
             {
+              "id": "blk-bdca2519",
               "type": "source_block",
               "lines": [
                 "Katika wingi wa mafunuo nilipewa mwiba mwilini mwangu nikasii mungu mara tatu aniondoshe mwiba."
               ]
             },
             {
+              "id": "blk-3d3cbaf6",
               "type": "refrain",
               "lines": [
                 "Kutaka ni kwangu, kutaka ni kwangu kutenda kilichema siwezi eh baba, eh baba ju ya nini ubaya",
@@ -678,6 +719,7 @@
               ]
             },
             {
+              "id": "blk-18c56ae5",
               "type": "source_block",
               "lines": [
                 "2.Nitazamapo katika viungo via mwili wangu naona baba minaona sheria nyingine kwangu.",

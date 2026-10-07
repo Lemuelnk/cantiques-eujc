@@ -43,12 +43,14 @@
           },
           "content": [
             {
+              "id": "blk-3d7bdfb0",
               "type": "source_block",
               "lines": [
                 "Uwovu ulikuwa duniani, (Mafikili ya watu ya karibika noa jenga safina)2x"
               ]
             },
             {
+              "id": "blk-00cd891e",
               "type": "refrain",
               "lines": [
                 "Garika ku mbingu Eh noa uwaingize safinani viumbe viote vikaribika noa jenga safina.",
@@ -56,6 +58,7 @@
               ]
             },
             {
+              "id": "blk-5d368a7b",
               "type": "source_block",
               "lines": [
                 "Safina ikaendelea juu ya uso wa maji (ikashinda milima yote garika ika koma) 2x Noa toa kunguru atoke akajaribu kazi yake akikula vitumba njiwa afwate akatimize uduma.",
@@ -100,12 +103,14 @@
           },
           "content": [
             {
+              "id": "blk-ada2d4c3",
               "type": "source_block",
               "lines": [
                 "Tshikondo tshakale na kadji mu midima (Lelu munya wa kulwa kudji mutu yonso) 2x"
               ]
             },
             {
+              "id": "blk-d8a2163e",
               "type": "refrain",
               "lines": [
                 "Eh Noa noa enza bwaato nyama ne nyuni ne bintu bionso biakabwela, biakabwela, biakabwela mu bwato.",
@@ -114,12 +119,14 @@
               ]
             },
             {
+              "id": "blk-105eb8e5",
               "type": "source_block",
               "lines": [
                 "Nzambi kamwambila noa wakusonga mema (wa mbweja nyama ne mbitu bionso bidji nabio) 2x"
               ]
             },
             {
+              "id": "blk-b37cea36",
               "type": "source_block",
               "lines": [
                 "Nyimbilangani musambu bwadjisanka djidji naji nyoka ne ngandu mbuji ne ngomba bwapetshi moyo."
@@ -162,12 +169,14 @@
           },
           "content": [
             {
+              "id": "blk-940882d1",
               "type": "source_block",
               "lines": [
                 "(Lesa amwebele noa ukubasa bwato) 2x iwe noa alo mwacilo ububi ndepaya bantu."
               ]
             },
             {
+              "id": "blk-81bc2307",
               "type": "refrain",
               "lines": [
                 "(Noa anina mu bwato angila eh noa apususha bana) 2x Sehemu, Hamu, Yafeti baingila eh noa apususha bana.",
@@ -176,6 +185,7 @@
               ]
             },
             {
+              "id": "blk-17c8a324",
               "type": "source_block",
               "lines": [
                 "Baingile banse mu bwato finama ne fioni 2x (banesu) infula ya tampo kuloka, bushiku na kasuba"
@@ -220,6 +230,7 @@
           },
           "content": [
             {
+              "id": "blk-3d915e1b",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -227,12 +238,14 @@
               ]
             },
             {
+              "id": "blk-4a60bec4",
               "type": "refrain",
               "lines": [
                 "Kwa leo ni fanye chombo ni hubiri neno kwa lugha zote kwa kila nyumba kwa kila mutu duniani pote."
               ]
             },
             {
+              "id": "blk-8374c732",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -240,6 +253,7 @@
               ]
             },
             {
+              "id": "blk-9b48db49",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -282,6 +296,7 @@
           },
           "content": [
             {
+              "id": "blk-fe46cb24",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -289,12 +304,14 @@
               ]
             },
             {
+              "id": "blk-1f30f444",
               "type": "refrain",
               "lines": [
                 "(Neno lako) neno lako la wokovu mupenzi la dumu ata leo ni mbele yake hawai yeyote atakae amini \" Yupi atakae nena mimi sikulisikia neno , neno hili neno la wokovu\"2x"
               ]
             },
             {
+              "id": "blk-707083c4",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -302,6 +319,7 @@
               ]
             },
             {
+              "id": "blk-7192fc3a",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -342,12 +360,14 @@
           },
           "content": [
             {
+              "id": "blk-73025812",
               "type": "source_block",
               "lines": [
                 "Bwana kanyosha upinde mbinguni mvua zote zikakoma (Upepo kondoa maji dunia safina ikasimama mulimani hararati.) 2x"
               ]
             },
             {
+              "id": "blk-e68d545c",
               "type": "refrain",
               "lines": [
                 "Noa katoa, noa katoa zabihu za shukurani",
@@ -356,12 +376,14 @@
               ]
             },
             {
+              "id": "blk-a6eeaffe",
               "type": "source_block",
               "lines": [
                 "Noa katuma kunguru katazame inchi kama ya me kwisha kweli, aah kunguru kazunguuka kakula vitumba"
               ]
             },
             {
+              "id": "blk-838cedbb",
               "type": "source_block",
               "lines": [
                 "Noa akatuma njiwa akenda akirudi na majani ya mizetuni.",
@@ -371,6 +393,7 @@
               ]
             },
             {
+              "id": "blk-40f38d8d",
               "type": "source_block",
               "lines": [
                 "Bwana kaondoa mulango viumbe viote vikatoka safina vikaenda zao Noa katika inchini akawa eh noa mulimaji mizabibu.",
@@ -419,6 +442,7 @@
           },
           "content": [
             {
+              "id": "blk-52244435",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -426,18 +450,21 @@
               ]
             },
             {
+              "id": "blk-fb292042",
               "type": "refrain",
               "lines": [
                 "Kweli kweli mu safina y anoa mulingia nyama na watu pia na wa ndege ."
               ]
             },
             {
+              "id": "blk-b6bc287e",
               "type": "comment",
               "lines": [
                 "Com : -Mulilingia kiboko : mulingia nyama na watu pia na wa ndege -Mulilingia na nyoka : \" \" \" \" \" \" \" \" \" \" \" \""
               ]
             },
             {
+              "id": "blk-4184049d",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -445,6 +472,7 @@
               ]
             },
             {
+              "id": "blk-90354935",
               "type": "comment",
               "lines": [
                 "Com : -Safina bethel ikanyakuliwa na mbingu ikafunguliwa -Safina kolwezi \" \" \" \" \" \" \" \" \" \""
@@ -486,6 +514,7 @@
           },
           "content": [
             {
+              "id": "blk-c81455b8",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -493,12 +522,14 @@
               ]
             },
             {
+              "id": "blk-e0b9b809",
               "type": "refrain",
               "lines": [
                 "Dunia imeja na mambo , dunia imeja na jeuri watu wamechafuka na mafalume za ulimwenguni yoyoyo njoni konyeshe njia , njia nzuri , njia ya uzima ."
               ]
             },
             {
+              "id": "blk-b279360d",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -506,6 +537,7 @@
               ]
             },
             {
+              "id": "blk-c6ce7a8d",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -546,24 +578,28 @@
           },
           "content": [
             {
+              "id": "blk-5fa5ae71",
               "type": "source_block",
               "lines": [
                 "Safina kushuka muhararati Noa akatoka na jamaa lake na nyama zote zilizo safi kwelekea pa kavu"
               ]
             },
             {
+              "id": "blk-52e698ad",
               "type": "refrain",
               "lines": [
                 "Upinde alama la agano kwetu ¨Faraja hiwe juu kwa samawi¨ 2x Faraja hiwe kwa zambarawi itawale kwa rangi nyekundu sita haribu tena kwa maji."
               ]
             },
             {
+              "id": "blk-44a7ad62",
               "type": "source_block",
               "lines": [
                 "Noa akalima mizabibu yake ¨Kaingia tena hemani mwake katumia mvinyo kalala humo akamufunua"
               ]
             },
             {
+              "id": "blk-abe5d73a",
               "type": "source_block",
               "lines": [
                 "Jazareni wanangu twepuke laana ya kanana simameni twende mbele cha mugongo tufunike utpu wa baba zetu tupate baraka ya Yafeti tupate baraka ya semu tutaishi milele.",
@@ -611,24 +647,28 @@
           },
           "content": [
             {
+              "id": "blk-60009690",
               "type": "source_block",
               "lines": [
                 "Noa kajenga safina iyo ya mut iwa goferi kama alivio agizwa na bwana Utajifania safina na ku ipakaa inje na ndani kwa lami (kwa iyo) 2x"
               ]
             },
             {
+              "id": "blk-d563fc74",
               "type": "refrain",
               "lines": [
                 "(Enyi wajoli twimbeni) twimbieni Bwana (Wajoli wa Bwana twimbeni) twimbieni Bwana (Mungu Mumbaji wetu) alionesha utukufu wake mbele ya dunia, eh baba na kilicho kuwa ndani ya iyo ni Mungu mwenyezi."
               ]
             },
             {
+              "id": "blk-02979455",
               "type": "source_block",
               "lines": [
                 "Nimeona chukizo, ata dunia yote imejaa jeuri mbele yangu (kweli) kwa iyo ni tauwa mutu nyama na kilicho ndani ya dunia."
               ]
             },
             {
+              "id": "blk-c31d14d6",
               "type": "source_block",
               "lines": [
                 "Bwana kamwambia noa ingia safina wewe na nyumba yako na nyama walio safi wa saba saba mume na mukewe. Na nyama wasio safi twa mbili mbili mume na mukewe na ndege vile vile za hewa twa saba saba mume na mukewe.",
@@ -674,12 +714,14 @@
           },
           "content": [
             {
+              "id": "blk-08c13747",
               "type": "source_block",
               "lines": [
                 "(Wakati nuhu alipo toka, ndani ya safina) 2x alipanda mizabibu akajifaniya vinyo( eh nuhu) (Nuhu kakunywa kalala utupu hemani mwake) 2x"
               ]
             },
             {
+              "id": "blk-834d4e76",
               "type": "refrain",
               "lines": [
                 "Basi tazama nuhu utupu eh nuhu hemani mwake",
@@ -689,12 +731,14 @@
               ]
             },
             {
+              "id": "blk-c3b3a3ee",
               "type": "source_block",
               "lines": [
                 "Hamu naye kaingia hemani, hamu naye kakuta babae utupu eh nuhu hemani mwake. Hamu naye kambia nduguze, Ndugu zake wakaja na nguo kumufinika nuhu"
               ]
             },
             {
+              "id": "blk-871d45d4",
               "type": "source_block",
               "lines": [
                 "Nuhu naye alipo amuka, nuhu naye kalaani kanana mwana wa hamu (Alaaniwe kanana, kanana, kanana umelaaniwa) 2x",
@@ -742,6 +786,7 @@
           },
           "content": [
             {
+              "id": "blk-4848b52f",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -749,6 +794,7 @@
               ]
             },
             {
+              "id": "blk-502240ab",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -756,6 +802,7 @@
               ]
             },
             {
+              "id": "blk-96ddf173",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -763,6 +810,7 @@
               ]
             },
             {
+              "id": "blk-57f57a4f",
               "type": "verse",
               "number": "4",
               "lines": [
@@ -770,6 +818,7 @@
               ]
             },
             {
+              "id": "blk-8ab269d1",
               "type": "verse",
               "number": "5",
               "lines": [
@@ -810,6 +859,7 @@
           },
           "content": [
             {
+              "id": "blk-a2f77556",
               "type": "source_block",
               "lines": [
                 "Zambi wa kamba noa songa bwatu kofere (ikale) ikale mutshi wa bwato uwenzele nzumbu munda mikese isatu mu bwatu.",
@@ -818,6 +868,7 @@
               ]
             },
             {
+              "id": "blk-9e3d734e",
               "type": "refrain",
               "lines": [
                 "Mwishi wetu (Saka bwatu pa moyi enza mujimu wa nzambi papa wanyi enza mudjimu eu ujikija) 2x",
@@ -826,6 +877,7 @@
               ]
             },
             {
+              "id": "blk-cfd38326",
               "type": "source_block",
               "lines": [
                 "Nzumbu ei isatu ya kenza noa mu bwatu, kuva nzumbu wa nyama, anu ibidji, ibidji. (Mutu amu) kuvua nzumbu wa bantu, bantu mwanda mukulu. Kuvua nzumbu ya nyunyi nyunyi anu ibidji, ibidji",

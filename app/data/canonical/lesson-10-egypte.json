@@ -42,18 +42,21 @@
           },
           "content": [
             {
+              "id": "blk-6b0fc6b0",
               "type": "source_block",
               "lines": [
                 "Bwana kanena watu wangu wanateswa, Musa ukawatoe huko misri ¨Wanenda katika muji (muji) ni liowahidia inchi iyo ya furaha ya jehova ¨2x Musa, Musa, Musa tuna tabika tupe maji ya kunywa tazama shindo la Farao, jazareni wajoli tupo ndani ya kibofu tupo ndani ya baba aleluya na yeye ndani mwetu."
               ]
             },
             {
+              "id": "blk-2f540a3f",
               "type": "refrain",
               "lines": [
                 "Yoyoyo buatafunae kunde ni miongoni mwetu¨2x"
               ]
             },
             {
+              "id": "blk-a60658c1",
               "type": "comment",
               "lines": [
                 "- Ukijesabia kuwa mu kisto, bulevi nabo aujaacha, ila unadanganya watu ni kumucha mungu.",
@@ -61,6 +64,7 @@
               ]
             },
             {
+              "id": "blk-906beee6",
               "type": "source_block",
               "lines": [
                 "ila unadanganya watu ni kumucha mungu. (yoyoyo) buatafunae kunde ni miongoni mwetu."
@@ -105,6 +109,7 @@
           },
           "content": [
             {
+              "id": "blk-03c857f0",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -112,6 +117,7 @@
               ]
             },
             {
+              "id": "blk-6018dcbc",
               "type": "comment",
               "lines": [
                 "**_Ref : Kweli kweli ewe Musa wa baba , tumesongwa sana bahari ni mbele yetu ._**",
@@ -121,6 +127,7 @@
               ]
             },
             {
+              "id": "blk-5cbe9b02",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -128,6 +135,7 @@
               ]
             },
             {
+              "id": "blk-c96fab2d",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -168,18 +176,21 @@
           },
           "content": [
             {
+              "id": "blk-877bb51d",
               "type": "source_block",
               "lines": [
                 "Mutu mwengine alikuwa Musa muteule kwa kwanza wana isrzeli njiani, mufalme akawapa hekima akawafanyia mema akafurahisha wajoli aliokuwa nao hawali."
               ]
             },
             {
+              "id": "blk-387032af",
               "type": "source_block",
               "lines": [
                 "Kuku vifaranga usiviache jehova mungu wasije kushikwa wana kuko nyama."
               ]
             },
             {
+              "id": "blk-5c67342a",
               "type": "comment",
               "lines": [
                 "- Eh mungu: wasije kushikwa wana kuko nyama",
@@ -223,12 +234,14 @@
           },
           "content": [
             {
+              "id": "blk-53c6d9cf",
               "type": "source_block",
               "lines": [
                 "Mungu kamwambwa Musa mutumishi wangu (2x) (Eh musa) chukuwa israeli uwapeleke kanana (Eh musa ) ishara nyingi ni kwako utamonesha Farao."
               ]
             },
             {
+              "id": "blk-a046492c",
               "type": "comment",
               "lines": [
                 "- Mapigo ya chawa",
@@ -238,12 +251,14 @@
               ]
             },
             {
+              "id": "blk-409bf64d",
               "type": "refrain",
               "lines": [
                 "Bwana akamwambia Musa ewe Musa, Musa mulawi toka wende kanana"
               ]
             },
             {
+              "id": "blk-3c2792f4",
               "type": "comment",
               "lines": [
                 "- Ukaokowe watu: Musa ewe Musa, Musa mulawi toka wende kanana",
@@ -252,6 +267,7 @@
               ]
             },
             {
+              "id": "blk-4542e884",
               "type": "source_block",
               "lines": [
                 "Musa katazama uso wa Farao ¨2x ¨ Musa kakimbia misri bwana karudisha musa kwa Farao¨2x",
@@ -297,6 +313,7 @@
           },
           "content": [
             {
+              "id": "blk-80f9f14d",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -305,12 +322,14 @@
               ]
             },
             {
+              "id": "blk-33c5215a",
               "type": "refrain",
               "lines": [
                 "( Tahiri mwana ) Eh ee wajoli sikilizeni \"2x jambo lilifanya Sipora alipo elekea nyumbani mwa kulala kuwageni jehova alitaka kumuwa Sipora kachukua jiwe katahiri mwana ngovi ikamwangukia Musa miguuni \" Ewe tukuza mungu wa uzima akilini mwako ewe chunga hekima kwake mungu wa uzima tumufanie uduma . \"2x"
               ]
             },
             {
+              "id": "blk-0b429b1b",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -318,6 +337,7 @@
               ]
             },
             {
+              "id": "blk-54d52d59",
               "type": "verse",
               "number": "3",
               "lines": [

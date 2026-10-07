@@ -42,18 +42,21 @@
           },
           "content": [
             {
+              "id": "blk-5c6d241c",
               "type": "source_block",
               "lines": [
                 "Mungu kamwambia Ezekieli, Ezekieli chukuwa ngombo ule kula ngombo ninalo kupa mwana wa watu uwe mutumishi wangu"
               ]
             },
             {
+              "id": "blk-8d1ab4a8",
               "type": "refrain",
               "lines": [
                 "Kweli kweli Ezekieli akanena nipe ngombo eh baba niwe mutumishi wako."
               ]
             },
             {
+              "id": "blk-b12e5eec",
               "type": "comment",
               "lines": [
                 "- Ngombo hii mafundisho la nipe ngombo eh baba niwe mutumishi kweli.",
@@ -64,24 +67,28 @@
               ]
             },
             {
+              "id": "blk-d4de63c5",
               "type": "source_block",
               "lines": [
                 "Alipo tumia gombo ile ilikuwa utamu kinywani Bali tumboni mwake uchungu Ezekieli akavumilia"
               ]
             },
             {
+              "id": "blk-2ee039e6",
               "type": "source_block",
               "lines": [
                 "Ngombo ni neno la mungu baba unapo sikia ni furaha bali kwa kulitimiza ni ngumu neno hili shida kwa ziki na mambo."
               ]
             },
             {
+              "id": "blk-d006f3b3",
               "type": "source_block",
               "lines": [
                 "Nanyi watu walio mu yesu shikeni shauri lake musiwe wasikiaji wa neno tu wajoli nyinyi awa muwe watenda wa neno"
               ]
             },
             {
+              "id": "blk-40363070",
               "type": "comment",
               "lines": [
                 "- Waminifu wa neno musiwe wasikiaji wa neno tu wajoli nyinyi awa muwe watenda wa neno",
@@ -128,6 +135,7 @@
           },
           "content": [
             {
+              "id": "blk-f74abfdd",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -135,12 +143,14 @@
               ]
             },
             {
+              "id": "blk-3bda826a",
               "type": "refrain",
               "lines": [
                 "Enyi wajoli uduma huo , uduma huo muna uzuni mapigo mateso mengi yo kwa kuokowa watu"
               ]
             },
             {
+              "id": "blk-1a542381",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -148,6 +158,7 @@
               ]
             },
             {
+              "id": "blk-420a4bfb",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -188,18 +199,21 @@
           },
           "content": [
             {
+              "id": "blk-e05c8869",
               "type": "source_block",
               "lines": [
                 "Efile watajile bubi bubaji pa senga ¨ayawaitagile bwingi bwa ba mikeilo¨2x"
               ]
             },
             {
+              "id": "blk-06355bba",
               "type": "refrain",
               "lines": [
                 "¨Kutompola kwa yeso lele yayo aya yolele senga ma lwayo ¨2x"
               ]
             },
             {
+              "id": "blk-18fb51f7",
               "type": "comment",
               "lines": [
                 "- Yesu ne tshifulu tsha miba lele yayo aya yolele sengama lwayo.",
@@ -207,12 +221,14 @@
               ]
             },
             {
+              "id": "blk-e713684d",
               "type": "source_block",
               "lines": [
                 "Anani mwikeilo huno pakwenda pa senga wajakafwila bantu bwa bubi bubaji pa senga."
               ]
             },
             {
+              "id": "blk-a32325fe",
               "type": "source_block",
               "lines": [
                 "Yesu na mubaluile di aya yo ayayo ¨Amigende pa senga waja kafwila bantu ¨2x"
@@ -257,6 +273,7 @@
           },
           "content": [
             {
+              "id": "blk-215f9e47",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -264,6 +281,7 @@
               ]
             },
             {
+              "id": "blk-459e9b1c",
               "type": "refrain",
               "lines": [
                 "-Ila kwa kula na kunywa Yoane yoyoyo Yoane akafa kwajili ya Herodia Yoane yoyoyo Yoane akafa",
@@ -271,6 +289,7 @@
               ]
             },
             {
+              "id": "blk-9aa504e0",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -278,6 +297,7 @@
               ]
             },
             {
+              "id": "blk-cb63a7ab",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -318,6 +338,7 @@
           },
           "content": [
             {
+              "id": "blk-ccff9512",
               "type": "source_block",
               "lines": [
                 "Dii dia yepowa diakala kudi Yona, ndaku muninawe (ndaye mu ninawe) bwa bubi bwa bantu bwa kutamba kumesu anyi ngani wanyi wa bambile",
@@ -325,6 +346,7 @@
               ]
             },
             {
+              "id": "blk-7c4d3de4",
               "type": "refrain",
               "lines": [
                 "Bakela menji bantu aba bakela shobwe, shobwe ya kakwata mwambi wa nzambi ye kelekele shobwe ya",
@@ -335,12 +357,14 @@
               ]
             },
             {
+              "id": "blk-6d4a67d5",
               "type": "source_block",
               "lines": [
                 "Ashisha ba kamukonka twetu kukwenzele tshinyi bwa mayi manene matalala nganyi wa bambile yoyo bwa kudji longolola."
               ]
             },
             {
+              "id": "blk-88db0e20",
               "type": "source_block",
               "lines": [
                 "Nungumbule nugele mu mayi tshipupu tshilwalwa yoyoyo pa bwalu bwanyi nganyi we nganyi wanyi wa bambile yoyo bwa kudji longolola."
@@ -383,30 +407,35 @@
           },
           "content": [
             {
+              "id": "blk-68c76463",
               "type": "source_block",
               "lines": [
                 "1. Yoane alikuwa mutangulizi wa yesu ¨Akapaza sauti yoyoyo mutengeneze mioyo ¨2x ah! ah"
               ]
             },
             {
+              "id": "blk-796a44c5",
               "type": "refrain",
               "lines": [
                 "Ajapo usiku wala akija muchana tuongojeni wote yoyoyo saa ijayo mufalme en ! en tuongojeni wote yoyoyo saa ijayo mufalme ah !ah"
               ]
             },
             {
+              "id": "blk-067ff6f5",
               "type": "source_block",
               "lines": [
                 "2. Yoane alikuwa amevaa singa za ngamia akila asali yoyoyo pia nzige ah ! ah."
               ]
             },
             {
+              "id": "blk-cbc52a0c",
               "type": "source_block",
               "lines": [
                 "3. Tuu karibu ili twende kwa bwana wajoli wangu yoyoyo mutengeneze mioyo ah ! ah"
               ]
             },
             {
+              "id": "blk-b76827c4",
               "type": "source_block",
               "lines": [
                 "4. Nali wambia juu ya kiti cha mungu enyi wajoli wangu ah ! ah kiti kilicho kimbiawa na mbingu dunia nacho ni mbele yenu ah! ah. Acheni",
@@ -414,6 +443,7 @@
               ]
             },
             {
+              "id": "blk-b959ac2c",
               "type": "source_block",
               "lines": [
                 "5.\tKusogea karibu nyumbani mwa Mungu, kuna shinda sadaka ya kutolea tu ah ! ah."

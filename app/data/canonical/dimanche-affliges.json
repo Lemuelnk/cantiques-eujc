@@ -44,6 +44,7 @@
           },
           "content": [
             {
+              "id": "blk-4bae219d",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -51,12 +52,14 @@
               ]
             },
             {
+              "id": "blk-32996935",
               "type": "refrain",
               "lines": [
                 "Eh mungu nimepata chapa yako roho mwema ameshuka uliaidia watu wako \"Ah , eh baba nimevikwa joo lako mufariji ameshuka\"2x"
               ]
             },
             {
+              "id": "blk-98558b68",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -64,6 +67,7 @@
               ]
             },
             {
+              "id": "blk-0b060452",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -104,24 +108,28 @@
           },
           "content": [
             {
+              "id": "blk-a38be4f2",
               "type": "source_block",
               "lines": [
                 "Mungu akatuma mwanake Yesu kwa mateso yetu na vilio vyetu ye yote amwaminie asife kamwe bali apate uzima wa milele eé ! aleluya."
               ]
             },
             {
+              "id": "blk-8f20044e",
               "type": "refrain",
               "lines": [
                 "Jehova mungu ée twakushukuru mungu baba, Mungu baba e twakushukuru bwana yesu, yesu mwanae twakushukuru roho damilifu kwa faraja yako."
               ]
             },
             {
+              "id": "blk-32bd0a7f",
               "type": "source_block",
               "lines": [
                 "Yesu akateswa na magonjwa jeraha mikononi nyingine miguuni ¨Ili sisi watu tupate uzima tusirejee vifungoni mwa shetani na mateso yake Yesu"
               ]
             },
             {
+              "id": "blk-7792d8a8",
               "type": "source_block",
               "lines": [
                 "akatuachia agizo lake mimi na watesa wale ni wa pendao ¨Ha taabu zao yote itakoma wa kifata neno la mungu baba jehova mungu wao¨2x"
@@ -166,6 +174,7 @@
           },
           "content": [
             {
+              "id": "blk-d66e4e7f",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -173,12 +182,14 @@
               ]
             },
             {
+              "id": "blk-d8433a0e",
               "type": "refrain",
               "lines": [
                 "Mwana wa mungu alilia eh Eloi Eloi eh Eloi Eloi baba lamasabakatani mungu wangu kwa nini umeniacha mimi mwana mupendelevu , baba kwanini umeniacha mimi mwana mupendelevu."
               ]
             },
             {
+              "id": "blk-547fddea",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -186,6 +197,7 @@
               ]
             },
             {
+              "id": "blk-fc98db90",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -226,12 +238,14 @@
           },
           "content": [
             {
+              "id": "blk-4d077613",
               "type": "source_block",
               "lines": [
                 "Yesu mwana musalaba alilia kwa babae¨2x vita na vita unijia nimetoa roho yangu."
               ]
             },
             {
+              "id": "blk-7fed868a",
               "type": "refrain",
               "lines": [
                 "¨Yesu alilia baba mbona umeniacha ni meteswa duniani ¨2x",
@@ -242,6 +256,7 @@
               ]
             },
             {
+              "id": "blk-2b9d61ff",
               "type": "source_block",
               "lines": [
                 "Bwana mungu wa rehema ukumbuke kazi ngapi nilifanya duniani kikombe kinipitie mbali",
@@ -249,6 +264,7 @@
               ]
             },
             {
+              "id": "blk-f0a371c0",
               "type": "comment",
               "lines": [
                 "- kuombea watu nilifanya duniani kikombe kinipitie mbali",
@@ -293,18 +309,21 @@
           },
           "content": [
             {
+              "id": "blk-3d1d0177",
               "type": "source_block",
               "lines": [
                 "Yesumbele ya Pilato wajoli hakumupata na kosa Pilato akamutoa injeni ¨2x wayuda , wayuda wa kamwambia Pilato inafaa auwawe¨2"
               ]
             },
             {
+              "id": "blk-ce12eead",
               "type": "refrain",
               "lines": [
                 "Bwana yesu kalia eloi eloi eloi baba eloi eloi mungu wangu mbona umeniacha."
               ]
             },
             {
+              "id": "blk-459c1fa3",
               "type": "comment",
               "lines": [
                 "- Umeniacha na nani\tEloi eloi mungu wangu mbona umeniacha",
@@ -313,12 +332,14 @@
               ]
             },
             {
+              "id": "blk-0ba0f76a",
               "type": "source_block",
               "lines": [
                 "Nzambi ubungushe mukatshi mwabena sulia bamba dii tshi ngumua, mema musombela musowa ¨Yepowa ungumbusha mukantshi mwa bena sulia"
               ]
             },
             {
+              "id": "blk-0afdfad2",
               "type": "source_block",
               "lines": [
                 "Mukwamba udianu namana mukwenza udiamu namana munyanguke ne sudi yonso ya udituta muyadena misangu mwanda muteketa"
@@ -361,24 +382,28 @@
           },
           "content": [
             {
+              "id": "blk-885d35ef",
               "type": "source_block",
               "lines": [
                 "Bakashipa ba profeta ne ba postolo ba yesu anu bwadii dja nzambi dja musungidji yesu¨2x"
               ]
             },
             {
+              "id": "blk-27789bad",
               "type": "refrain",
               "lines": [
                 "Mwana nzambi wakela djii elo elo ¨eloi malamasabakatani tatu wanyi (mema weba, tatu wanyi) nyiteka moyo wanyi muchanza cheba tatu wanyi tatu ubafwe luse kimbamanya bwalu"
               ]
             },
             {
+              "id": "blk-07faafb4",
               "type": "source_block",
               "lines": [
                 "Lufu lwa yesu kilisto mwana wa nzambi ¨midima ya kakuata buloba bujima, julu buloba bya kazakala kumpala kwa nzambi"
               ]
             },
             {
+              "id": "blk-25ffc343",
               "type": "source_block",
               "lines": [
                 "Lukuna lwa heloda yesu udi ujinga yerusalema ¨2x wewe yerusalema udjiushipa ba profeta"
@@ -421,18 +446,21 @@
           },
           "content": [
             {
+              "id": "blk-522159d3",
               "type": "source_block",
               "lines": [
                 "Rafiki tujiulize , tujiulize ya kama sisi twaishi jamaa gani wakati twa jitolea kwa shetani mikatali ilio fungwa na bwana mungu."
               ]
             },
             {
+              "id": "blk-48f502af",
               "type": "refrain",
               "lines": [
                 "Ah aa kristu amekwisha kuja atuokowa akaja kwetu na huru yeye atupe uzima bali tuwe na uzabiti sisi tusi rejeye chini ya kuongola mauti na ya shetani."
               ]
             },
             {
+              "id": "blk-b81cc309",
               "type": "source_block",
               "lines": [
                 "Jehova alizidi kutupenda kristu alikuja kutufia"
@@ -475,24 +503,28 @@
           },
           "content": [
             {
+              "id": "blk-b2d2edfd",
               "type": "source_block",
               "lines": [
                 "Namana mwena sudi, namana mwena sulia mubidi munyanguke ne sudi yonso ¨Ya udituta mu yadena misangu mwanda muteketa"
               ]
             },
             {
+              "id": "blk-3a6e2216",
               "type": "refrain",
               "lines": [
                 "Mwena sulia singwewe utshidi ne bulozi munda mwena sulia singwewe utshidi ne bipendu bieba ¨Udi namana mwena sudi udituta muya dena"
               ]
             },
             {
+              "id": "blk-f2cb92f6",
               "type": "source_block",
               "lines": [
                 "Mukwamba udianu namana mukwenza udiamu namana munyanguke ne sudi yonso ya udituta muyadena misangu mwanda muteketa ¨2x"
               ]
             },
             {
+              "id": "blk-99f371cb",
               "type": "source_block",
               "lines": [
                 "Nzambi ubungushe mukatshi mwabena sulia bamba dii tshi ngumua, mema musombela musowa ¨Yepowa ungumbusha mukantshi mwa bena sulia ¨2x"
@@ -535,18 +567,21 @@
           },
           "content": [
             {
+              "id": "blk-a616e520",
               "type": "source_block",
               "lines": [
                 "Yesu katika mulima wa mizeituni nao wa fwasi wake wa kamufata wa kamwambia hivi hili tupate kuomba kwajili ya majaribu , hili tupate kuomba kwajili ya vishawishi ."
               ]
             },
             {
+              "id": "blk-189c8314",
               "type": "refrain",
               "lines": [
                 "Sikia kilio cha yesu wa mungu wana wangu mu amke tuombe kwa nini waminifu mwapenda kulala wana wangu mu amke tuombe , simoni, petelo, yakobo , yoane wana wangu mu amke tuombe ."
               ]
             },
             {
+              "id": "blk-e37dadaa",
               "type": "comment",
               "lines": [
                 "-Waminifu wanene mwa penda kulala wana wangu mu amke tuombe",
@@ -594,6 +629,7 @@
           },
           "content": [
             {
+              "id": "blk-e9190a8d",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -601,12 +637,14 @@
               ]
             },
             {
+              "id": "blk-241993c5",
               "type": "refrain",
               "lines": [
                 "Tufanye nini leo tu shirikiane na bwana mungu wetu \" ili twaweza kupata baraka ya mbingu \"2x"
               ]
             },
             {
+              "id": "blk-238c87bc",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -614,6 +652,7 @@
               ]
             },
             {
+              "id": "blk-b92346d4",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -656,6 +695,7 @@
           },
           "content": [
             {
+              "id": "blk-7e952581",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -663,12 +703,14 @@
               ]
             },
             {
+              "id": "blk-30ce564c",
               "type": "refrain",
               "lines": [
                 "Mimi na lilia baba na tabika mimi nalilia mwana na tabika nalilia roho na tabika na tabika kweli na tabika."
               ]
             },
             {
+              "id": "blk-9143d88d",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -676,6 +718,7 @@
               ]
             },
             {
+              "id": "blk-400c3b22",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -716,12 +759,14 @@
           },
           "content": [
             {
+              "id": "blk-652bf917",
               "type": "source_block",
               "lines": [
                 "1. Yudasa kwenza bwalu kutungila yesu bwangata bwima haya kumpala kwa bantu yeye wa katankakana bwaluka kadji ne mwaba kudji nzambi kaikoko kudji bantu kaimwaba ¨Yudasa wa kajoowa malabipatuka munda ¨2x"
               ]
             },
             {
+              "id": "blk-b1f200c2",
               "type": "refrain",
               "lines": [
                 "(Bantu) bantu bakuvwa dii madjilu mulama ¨Lakela udila bwa bana ubenga ba musamba mulama mu di mwadi ¨2x ( nyuma , nyuma ùwimpe , nyuma wa badji",
@@ -729,6 +774,7 @@
               ]
             },
             {
+              "id": "blk-da213545",
               "type": "comment",
               "lines": [
                 "-Nyuma , nyuma yoyo\tnyuma wa badji ne moyo.",
@@ -779,6 +825,7 @@
           },
           "content": [
             {
+              "id": "blk-b79f5a40",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -786,12 +833,14 @@
               ]
             },
             {
+              "id": "blk-59ece619",
               "type": "refrain",
               "lines": [
                 "Ehi Ehi , Ehi Ehi taabu jeho va mungu wangu \"Haya ni mateso \"2x katika uduma wako muko taabu bwana muko kifo pia na machozi."
               ]
             },
             {
+              "id": "blk-c1416d63",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -799,6 +848,7 @@
               ]
             },
             {
+              "id": "blk-462151d2",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -841,6 +891,7 @@
           },
           "content": [
             {
+              "id": "blk-507e66d4",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -848,12 +899,14 @@
               ]
             },
             {
+              "id": "blk-024a404f",
               "type": "refrain",
               "lines": [
                 "Sasa roho ametujia sisi haadi imetiùilika kwetu tupeane salama wajoli tusimame twende kufanya uduma za baba tukamwinulie uzao ."
               ]
             },
             {
+              "id": "blk-8310964a",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -861,6 +914,7 @@
               ]
             },
             {
+              "id": "blk-3a8577d2",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -903,6 +957,7 @@
           },
           "content": [
             {
+              "id": "blk-11074f38",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -910,12 +965,14 @@
               ]
             },
             {
+              "id": "blk-42ef4569",
               "type": "refrain",
               "lines": [
                 "Wajoli amka wewe ubebe kitanda unapona"
               ]
             },
             {
+              "id": "blk-acd721e1",
               "type": "comment",
               "lines": [
                 "Com : -Ndugu amka wewe ubebe kitanda unapona",
@@ -923,6 +980,7 @@
               ]
             },
             {
+              "id": "blk-825b4d5b",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -930,6 +988,7 @@
               ]
             },
             {
+              "id": "blk-aba14064",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -972,6 +1031,7 @@
           },
           "content": [
             {
+              "id": "blk-e3167c2d",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -979,12 +1039,14 @@
               ]
             },
             {
+              "id": "blk-62649856",
               "type": "refrain",
               "lines": [
                 "Eh ee mumba wangu , mumba wangu unilinde Yesu wangu uniokowee baba kweli mwana wa mungu uniokowe ."
               ]
             },
             {
+              "id": "blk-7f843efc",
               "type": "comment",
               "lines": [
                 "Com :-Niokowe mu taabu baba kweli mwana wa mungu uniokowe.",
@@ -993,6 +1055,7 @@
               ]
             },
             {
+              "id": "blk-5a8c4845",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -1000,6 +1063,7 @@
               ]
             },
             {
+              "id": "blk-f86a84a5",
               "type": "comment",
               "lines": [
                 "Com :-Mikono ya Yesu Tomasi uje uguse uwakikishe ukweli",
@@ -1044,6 +1108,7 @@
           },
           "content": [
             {
+              "id": "blk-218d50af",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -1051,12 +1116,14 @@
               ]
             },
             {
+              "id": "blk-d4ede121",
               "type": "refrain",
               "lines": [
                 "(Kweli) Ole wangu oleo , ole wangu babangu kanizaa mutu wa taabu akaniza mutu wa shida nilicho nunuwa nimenyanganywa ni sicho kopeshwa ni me daiwa njiani shutumu zisizo kuwa na hatia."
               ]
             },
             {
+              "id": "blk-7893182b",
               "type": "comment",
               "lines": [
                 "Com : -Basi ni mwalike nani malaika wa bwana unitangulie , malaika jirika kwangu unitangulie kambini.",
@@ -1065,6 +1132,7 @@
               ]
             },
             {
+              "id": "blk-d6ed7bd2",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -1072,6 +1140,7 @@
               ]
             },
             {
+              "id": "blk-6f0a90d1",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -1112,12 +1181,14 @@
           },
           "content": [
             {
+              "id": "blk-c68b30a6",
               "type": "source_block",
               "lines": [
                 "1. Getesemane (3X) getesemane, chanzo cha uzaifu wa watu."
               ]
             },
             {
+              "id": "blk-b9759cf1",
               "type": "refrain",
               "lines": [
                 "Enyi wajoli, enyi wajoli jazarini na mashaka munayo jibebesha, enyinyi mwache kutumbukia mu mambo ya kujitenga na Mungu wa uzima.",
@@ -1127,6 +1198,7 @@
               ]
             },
             {
+              "id": "blk-abcf85fc",
               "type": "source_block",
               "lines": [
                 "2. Alipo omba mwana wa Mungu getesemane 2x. Alipo omba! jasho kutoka, jasho kutoka, wafwasi wake wenye kulala. Nalia Baba kikombe cha mateso",
@@ -1134,6 +1206,7 @@
               ]
             },
             {
+              "id": "blk-722629a3",
               "type": "source_block",
               "lines": [
                 "3. Adui wa mutu, adui wa mutu uonekana nyumbani mwake (2x). Alimutowa. Aliyemutoa aliyemukana mufwasi wake (2x), nalia baba kikombe",
@@ -1177,12 +1250,14 @@
           },
           "content": [
             {
+              "id": "blk-734fcef3",
               "type": "source_block",
               "lines": [
                 "1."
               ]
             },
             {
+              "id": "blk-71950f29",
               "type": "refrain",
               "lines": [
                 "Nitamwagiza nani jambo wote wanena yangu nitamwagiza nani jambo kwa jina lako wanipiganisha (mimi) Jehova Mungu mateso",
@@ -1190,12 +1265,14 @@
               ]
             },
             {
+              "id": "blk-c006bc8e",
               "type": "source_block",
               "lines": [
                 "1. Katika uduma hizi wa nena nyingi njiani pia wa nena yangu nyumbani mwetu wanisengenya Jehova Mungu mateso mufalume wangu mateso."
               ]
             },
             {
+              "id": "blk-006e32e7",
               "type": "source_block",
               "lines": [
                 "2. Mataifa unishangaa ngombe nazo uniepuka mbuzi pia unizarau na kondo unisingizia jehova Mungu mateso mufalume wangu mateso, eh baba",
@@ -1203,6 +1280,7 @@
               ]
             },
             {
+              "id": "blk-075bb39f",
               "type": "source_block",
               "lines": [
                 "3. Kunguru unifwata ndege huu tausi unifata panzi na nzige utuliya kwangu viote nyuma yangu vikani fwata jehova Mungu mateso mufalume",
@@ -1210,6 +1288,7 @@
               ]
             },
             {
+              "id": "blk-172f131c",
               "type": "source_block",
               "lines": [
                 "4. Panya ulia swi swi , umbwa naye unizunguluka nguruwe muchafu unitekenya mamba majini unisagiya meno jehova Mungu mateso mufalume",
@@ -1217,6 +1296,7 @@
               ]
             },
             {
+              "id": "blk-9c83913f",
               "type": "source_block",
               "lines": [
                 "5. Yesu unena mimi na tabika aba yani baba mufalume wangu mateso yesu unena baba uwa rehemu wana awatambui kile walifanyalo Jehova",

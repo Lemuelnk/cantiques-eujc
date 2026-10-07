@@ -44,6 +44,7 @@
           },
           "content": [
             {
+              "id": "blk-8dde28eb",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -51,12 +52,14 @@
               ]
             },
             {
+              "id": "blk-21c34d79",
               "type": "refrain",
               "lines": [
                 "-Mungu unifariji ata mu mateso yangu pia ata mufuraha (eh baba ) vita ijapo asubui , vita ijapo jioni ata kati ya usiku mungu wangu niwe na uzima \"2X"
               ]
             },
             {
+              "id": "blk-c42474b4",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -64,6 +67,7 @@
               ]
             },
             {
+              "id": "blk-d37ca806",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -104,18 +108,21 @@
           },
           "content": [
             {
+              "id": "blk-02d8fba6",
               "type": "source_block",
               "lines": [
                 "Ufalme wa Daudi umeingia ndani mwetu leo kwa kufanya kazi"
               ]
             },
             {
+              "id": "blk-1500f239",
               "type": "source_block",
               "lines": [
                 "Parapanda italia furaha na vilio wajoli twende twende mbele tusiangamie."
               ]
             },
             {
+              "id": "blk-c58bae21",
               "type": "comment",
               "lines": [
                 "- Mu mbingu ya baba twende, twende mbele tusiangamie - Mu mbingu ya musa",
@@ -162,18 +169,21 @@
           },
           "content": [
             {
+              "id": "blk-170c4e78",
               "type": "source_block",
               "lines": [
                 "Daudi mutu wa vita (Daudi), Bwana kamupa ushindi Daudi wa kushinda Goliati. Bondeni mwa yordani wakifia ufalme."
               ]
             },
             {
+              "id": "blk-95e47483",
               "type": "source_block",
               "lines": [
                 "Ushindi wa nan iwa Daudi, wa nani wa Daudi mufalme wa kupigana vita."
               ]
             },
             {
+              "id": "blk-c030fb99",
               "type": "comment",
               "lines": [
                 "- Wa kushinda madui wa Daudi, wa nani wa Daudi mfalme Walipo kuwa mulimani Goliati kasimama, mwenye urefu wa mikono sita na nusu mukuki mkononi mwake tushuke",
@@ -220,12 +230,14 @@
           },
           "content": [
             {
+              "id": "blk-d6a18c29",
               "type": "source_block",
               "lines": [
                 "Vita nyingi na kali zi menijia mimi huyu ¨Jehova Mungu mufalme ujitukuze kwa mambo aya¨2x"
               ]
             },
             {
+              "id": "blk-7a033c62",
               "type": "refrain",
               "lines": [
                 "Ila kwa jina lako baba mufalme wangu usinyache.",
@@ -235,12 +247,14 @@
               ]
             },
             {
+              "id": "blk-c0eb521a",
               "type": "source_block",
               "lines": [
                 "Wame nichimbia shimo wametandika mitego wa metafuta uzima wangu kwajili ya neno la uzima."
               ]
             },
             {
+              "id": "blk-2fc24549",
               "type": "source_block",
               "lines": [
                 "Ulimwokoa Abramu, ulimwokoa na Lutu, Ulimwokoa Danieli pangoni, ukamushindia Daudi 2x"
@@ -285,6 +299,7 @@
           },
           "content": [
             {
+              "id": "blk-b0a333d5",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -292,12 +307,14 @@
               ]
             },
             {
+              "id": "blk-a4e03f5b",
               "type": "comment",
               "lines": [
                 "Com : -Mumbaji wangu na kuita leo baba unishindie vita -Mufalme wangu \" \" \" \" \" \" \" \" -Tegemeo langu \" \" \" \" \" \" \" \""
               ]
             },
             {
+              "id": "blk-cbb17cc9",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -305,12 +322,14 @@
               ]
             },
             {
+              "id": "blk-2d3ef276",
               "type": "comment",
               "lines": [
                 "Com : -Kweli vita ni kali na kwita yesu mwana unishindie vita. -Vita yote ya ndani \" \" \" \" \" \" \" -Vita yote ya inje \" \" \" \" \" \" \""
               ]
             },
             {
+              "id": "blk-a2568010",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -318,6 +337,7 @@
               ]
             },
             {
+              "id": "blk-e693c4f5",
               "type": "comment",
               "lines": [
                 "Com : -Roho wa mitume sikia roho mwema unishindie vita -Roho wa Kadima \" \" \" \" \" \" \" -Roho wa mababu \" \" \" \" \" \" \" Kweli vita ni kali vit aya pembe yote"
@@ -357,12 +377,14 @@
           },
           "content": [
             {
+              "id": "blk-cbfda5f6",
               "type": "source_block",
               "lines": [
                 "1. Waisraeli kunyanyuwa sanduku ya bwana kwa shangwe miguu sita mfalme kacheza ¨2x mfalme Daudi akafunga Efondi."
               ]
             },
             {
+              "id": "blk-6385e63c",
               "type": "refrain",
               "lines": [
                 "Nasi wajoli wangu tudumu katika uduma huwo",
@@ -370,6 +392,7 @@
               ]
             },
             {
+              "id": "blk-3511dfc8",
               "type": "comment",
               "lines": [
                 "- Tazama Yudas musaliti naye wa neno la uzima - Tazama na wewe Jazareni ¨ Basi wajoli wangu tumwimbie yoyoyo",

@@ -43,12 +43,14 @@
           },
           "content": [
             {
+              "id": "blk-ff6cc1b1",
               "type": "source_block",
               "lines": [
                 "Ulikuwa (wewe) 2x katika edeni shamba la Mungu kerubi lenye kungaa, Lucifero ulipendwa na Bwana Mumba wako kakuvika mawe ya bei lulu ya damani."
               ]
             },
             {
+              "id": "blk-a91da254",
               "type": "refrain",
               "lines": [
                 "Lusifero kwa wingi wa uchuruzi ulitengwa mbali na Mungu wa uzima.",
@@ -57,12 +59,14 @@
               ]
             },
             {
+              "id": "blk-84cb1357",
               "type": "source_block",
               "lines": [
                 "Uliponena moyoni mwako Lusifero nitapaa juu mbinguni kuliko nyota za Bwana, kuliko mulima wake takuwa juu."
               ]
             },
             {
+              "id": "blk-3880b50b",
               "type": "source_block",
               "lines": [
                 "Apo, apo, vita mbinguni Mikaeli na yule joka, shetani katupua chini na jeshi lake lote, Diabolo katupua chini na jeshi lake lote mukia ukakokota sehemu moja ku tatu ya nyota za mbingu furahini mbingu ole wako dunia."
@@ -105,24 +109,28 @@
           },
           "content": [
             {
+              "id": "blk-d247e9c0",
               "type": "source_block",
               "lines": [
                 "Njoni kwa yesu mimi nawe njia tuonya hatuijui juwa jioni na mwenyezi Mungu na tu mu sii njo."
               ]
             },
             {
+              "id": "blk-a7ad4095",
               "type": "refrain",
               "lines": [
                 "(Wajoli twimbe na faraha) na furaha tutaiona (tutaiona)mioyoi ikitakaswa sana (kwake)kwake mwokozi kuonana(kuonana) na milele kukaa."
               ]
             },
             {
+              "id": "blk-7dcc5ff5",
               "type": "source_block",
               "lines": [
                 "Wana na wazee watwambia furahaini mukisikia (wajoli) ndie Mufalme wetu pia natumusii njo."
               ]
             },
             {
+              "id": "blk-bf878177",
               "type": "source_block",
               "lines": [
                 "Tumukaribie eh sisi zote Yesu Bwana utualika tumupingapo nimuoti na tumusii njo"
@@ -167,6 +175,7 @@
           },
           "content": [
             {
+              "id": "blk-ffeb2dfb",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -174,12 +183,14 @@
               ]
             },
             {
+              "id": "blk-1f3fe5c8",
               "type": "refrain",
               "lines": [
                 "Twimbe wokovu kwa bwana mungu yeye anae keti juu ya kiti cha enzi mwana kondoo wa mungu, juu ya kiti cha enzi mwana kondoo wa baba."
               ]
             },
             {
+              "id": "blk-61d4c630",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -187,6 +198,7 @@
               ]
             },
             {
+              "id": "blk-a6b37f8b",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -229,6 +241,7 @@
           },
           "content": [
             {
+              "id": "blk-a72a569c",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -236,12 +249,14 @@
               ]
             },
             {
+              "id": "blk-3be6e373",
               "type": "refrain",
               "lines": [
                 "Uchuruzi wako ulikujaza uzalimu toka katikati ya mawe ya moto wewe ulitenda zambi , lucifero ulinena kwamba nitapaa juu mbinguni kuliko mulima wa mungu, lucifero ulinena kwamba nitapaa juu mbinguni kuliko nyota za bwana."
               ]
             },
             {
+              "id": "blk-eeeb9129",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -249,6 +264,7 @@
               ]
             },
             {
+              "id": "blk-1984ccb4",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -289,12 +305,14 @@
           },
           "content": [
             {
+              "id": "blk-e69f65ab",
               "type": "source_block",
               "lines": [
                 "Niliona alama kubwa kutoka mbinguni (kutoka mbinguni) Mwanamuke aliye vikwa juwa, mwezi na nyota tenashara kichuani mwake. Natena alama nyingine kajirika joka mukubwa mwekundu na vichwa saba na pembe kumi kasimama mbele yake."
               ]
             },
             {
+              "id": "blk-d6a30e63",
               "type": "refrain",
               "lines": [
                 "Eh wajoli wangu tujiazari, Joka yule amekwisha simama kwa kuharibu kazi.",
@@ -303,6 +321,7 @@
               ]
             },
             {
+              "id": "blk-c5347046",
               "type": "source_block",
               "lines": [
                 "Wewe ni muke yule umekuisha pewa hekima ya mbingu. Mwana ni roho wa Kristo ni karibu sasa kushuka kwetu(Ona sasa huaribifu huwo)",
@@ -349,6 +368,7 @@
           },
           "content": [
             {
+              "id": "blk-e88d1109",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -358,12 +378,14 @@
               ]
             },
             {
+              "id": "blk-c677a88d",
               "type": "refrain",
               "lines": [
                 "Shetani ametupwa chini~2x Yuna nahasira kali utafuta ufariki na nani kwani shetani , shetani yeye ametupwa chini."
               ]
             },
             {
+              "id": "blk-1d874588",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -371,6 +393,7 @@
               ]
             },
             {
+              "id": "blk-b30d062d",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -413,6 +436,7 @@
           },
           "content": [
             {
+              "id": "blk-c6fc4e9c",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -420,18 +444,21 @@
               ]
             },
             {
+              "id": "blk-b9eda683",
               "type": "comment",
               "lines": [
                 "Com : - Ujumbe kutoka mbinguni - Ulishuka kutoka kwa baba - Hadi ya baba ya roho mwema"
               ]
             },
             {
+              "id": "blk-cad56909",
               "type": "refrain",
               "lines": [
                 "( wajoli) tuhutubu, tu hutubu tuhutubu kwa roho inayo ishi ndani mwetu apa sasa kwa uzima unayo shuka ndani mwetu kwa wakati wa mihulaiyo."
               ]
             },
             {
+              "id": "blk-a6a0845c",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -439,12 +466,14 @@
               ]
             },
             {
+              "id": "blk-f9d4472f",
               "type": "comment",
               "lines": [
                 "Com :- Alieitwa Diabolo Shetani - Ibilisi joka wa mapembe - Alidanganya dunia muzima."
               ]
             },
             {
+              "id": "blk-5b06a407",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -452,6 +481,7 @@
               ]
             },
             {
+              "id": "blk-9578d6e9",
               "type": "comment",
               "lines": [
                 "Com :-Kwa ulozi -Kwa madawa -Kwa uzini -Kiburi"
@@ -491,12 +521,14 @@
           },
           "content": [
             {
+              "id": "blk-df0e4c43",
               "type": "source_block",
               "lines": [
                 "(Ole dunia makao ya yule shetani) 2x (Dunia ya ziki na mambo mimi sita ishi dunia) 2x ."
               ]
             },
             {
+              "id": "blk-96c9a331",
               "type": "refrain",
               "lines": [
                 "- Niwe na bawa, dunia maombolezo sitaishi dunia",
@@ -509,6 +541,7 @@
               ]
             },
             {
+              "id": "blk-84071de0",
               "type": "source_block",
               "lines": [
                 "Ni kitazama huko dunia mimi si oni salama mateso na vilio yoyo mimi sitaishi dunia.(Mimi) sitaketi dunia mimi dunia ya wenye mateso mimi taketi ¨mbinguni¨ mbinguni ya wenye furaha wenye fuhari wenye uzima yoyoyo sitaishi dunia.Ukipenda kuona baba wewe achana na dunia¨2x mateso na vilio yoyo mimi sitaishi dunia."
@@ -553,6 +586,7 @@
           },
           "content": [
             {
+              "id": "blk-d4c63aa2",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -560,12 +594,14 @@
               ]
             },
             {
+              "id": "blk-ba2279a2",
               "type": "refrain",
               "lines": [
                 "(Twimbeni )2x twimbieni e shangwe alelua mikaeli kamutoa shetani mbinguni kamushusha adezi. Ole bahari na dunia furahini nyinyi mbinguni kamutoa shetani mbinguni kamushusha adezi."
               ]
             },
             {
+              "id": "blk-265b5c18",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -573,6 +609,7 @@
               ]
             },
             {
+              "id": "blk-1969bb03",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -615,6 +652,7 @@
           },
           "content": [
             {
+              "id": "blk-e9f3eeb6",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -622,12 +660,14 @@
               ]
             },
             {
+              "id": "blk-cb1c1e17",
               "type": "refrain",
               "lines": [
                 "Kwa kushinda shetani chuweni sila zenu^2x \"enyi wana wa mungu amkeni mukuwe tayari^2x mukuwe tayari^2x"
               ]
             },
             {
+              "id": "blk-6938838e",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -635,6 +675,7 @@
               ]
             },
             {
+              "id": "blk-15366151",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -677,6 +718,7 @@
           },
           "content": [
             {
+              "id": "blk-7d6ff398",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -684,12 +726,14 @@
               ]
             },
             {
+              "id": "blk-ac7a92de",
               "type": "refrain",
               "lines": [
                 "tumushinde shetani \"2x sisi tu wana wa nuru^2x tumushinde shetani , mungu ni mutawa wa viote."
               ]
             },
             {
+              "id": "blk-fc70d034",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -732,6 +776,7 @@
           },
           "content": [
             {
+              "id": "blk-aa94c9c7",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -739,12 +784,14 @@
               ]
             },
             {
+              "id": "blk-fbe98a95",
               "type": "refrain",
               "lines": [
                 "Kweli kweli ole wako shetani umelaniwa dunia umepewa laana ole wako mulozi."
               ]
             },
             {
+              "id": "blk-3bab4d9b",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -785,18 +832,21 @@
           },
           "content": [
             {
+              "id": "blk-e71ca7d9",
               "type": "source_block",
               "lines": [
                 "(Mapambano ya vita ilikuwa ku mbingu akatupwa chini yule joka na jeshi lake haaribu ulimwengu)2x"
               ]
             },
             {
+              "id": "blk-3df39894",
               "type": "comment",
               "lines": [
                 "Ulimwengu wa taabu, akatupwa chini yule joka na jeshi lake haaribu ulimwengu Ziki"
               ]
             },
             {
+              "id": "blk-0a0825b1",
               "type": "refrain",
               "lines": [
                 "Bwana mungu akanena eh baba, eh baba Yoyoyo ni chaguwe bwana mumbaji wangu mimi ni taenda kweli kuokoa ulimwengu.",
@@ -805,6 +855,7 @@
               ]
             },
             {
+              "id": "blk-f1a54e43",
               "type": "source_block",
               "lines": [
                 "Vita ikazidi ee)2x jehova mungu kauliza malaika nani ataenda kweli kuokowa ulimwengu.",
@@ -854,6 +905,7 @@
           },
           "content": [
             {
+              "id": "blk-044825e2",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -861,12 +913,14 @@
               ]
             },
             {
+              "id": "blk-3fbfc32e",
               "type": "refrain",
               "lines": [
                 "Alikuwa malaika wa nuru sasa amekuwa joka mu dunia kwa kwaribu wana wa mungu na ku wa shusha hadeze ( yule joka ) kwa ku haribu wana wa mungu na kuwa shusha hadeze."
               ]
             },
             {
+              "id": "blk-7cc794e7",
               "type": "comment",
               "lines": [
                 "Com :Wajoli wangu jazarini yoyoyo na Ibilisi nyoka wa zamani.",
@@ -875,6 +929,7 @@
               ]
             },
             {
+              "id": "blk-36fcea29",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -882,6 +937,7 @@
               ]
             },
             {
+              "id": "blk-a165adf4",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -922,18 +978,21 @@
           },
           "content": [
             {
+              "id": "blk-06d2e206",
               "type": "source_block",
               "lines": [
                 "Walozi kama wa mesimama kufwatana na yule shetani alietupwa na ufahamu mwingi ili kwa kwaribu huduma."
               ]
             },
             {
+              "id": "blk-934a9802",
               "type": "refrain",
               "lines": [
                 "Tenda majabu yako eh baba, tenda eh Mungu"
               ]
             },
             {
+              "id": "blk-558a5dce",
               "type": "comment",
               "lines": [
                 "Walozi wa kuogope: tenda eh baba tenda eh mungu",
@@ -942,6 +1001,7 @@
               ]
             },
             {
+              "id": "blk-f104d2b6",
               "type": "source_block",
               "lines": [
                 "Lucifero alikuwa malaika wa Mungu Baba (Alietupwa toka juu mbinguni kwajili ya ubaya wake)2x",
@@ -987,6 +1047,7 @@
           },
           "content": [
             {
+              "id": "blk-d1e37dec",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -994,18 +1055,21 @@
               ]
             },
             {
+              "id": "blk-6b2a1a5f",
               "type": "refrain",
               "lines": [
                 "Ole wako shetani , ole wako wewe usie timiza uduma, heri mutu , heri mutu yule anaye timiza huduma."
               ]
             },
             {
+              "id": "blk-1bae4dea",
               "type": "comment",
               "lines": [
                 "Com :- Ole wako mulozi -Ole wako kahaba"
               ]
             },
             {
+              "id": "blk-cab451a2",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -1013,6 +1077,7 @@
               ]
             },
             {
+              "id": "blk-eec493f4",
               "type": "verse",
               "number": "3",
               "lines": [

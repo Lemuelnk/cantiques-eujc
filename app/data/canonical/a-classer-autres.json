@@ -43,6 +43,7 @@
           },
           "content": [
             {
+              "id": "blk-ac325f1a",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -50,12 +51,14 @@
               ]
             },
             {
+              "id": "blk-77806474",
               "type": "refrain",
               "lines": [
                 "Ntumbo yobe mwanana ayayo mwanana ntumbo yobe mwanana."
               ]
             },
             {
+              "id": "blk-64aa7038",
               "type": "comment",
               "lines": [
                 "Com : -Ntumbo yobe Kadima aya yo mwanana ntumbo yobe mwanana.",
@@ -63,6 +66,7 @@
               ]
             },
             {
+              "id": "blk-d68cbb4b",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -104,6 +108,7 @@
           },
           "content": [
             {
+              "id": "blk-a13c2b54",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -111,12 +116,14 @@
               ]
             },
             {
+              "id": "blk-f64468e8",
               "type": "refrain",
               "lines": [
                 "Wamano , wamano , wamano, \"Wamano asumine wamano asumine cebo\"2x"
               ]
             },
             {
+              "id": "blk-7dd8decb",
               "type": "comment",
               "lines": [
                 "Com : -Ici cebo la Lesa asumine wamano asumine cebo",
@@ -126,6 +133,7 @@
               ]
             },
             {
+              "id": "blk-e9b1d472",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -167,6 +175,7 @@
           },
           "content": [
             {
+              "id": "blk-002b9fde",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -174,6 +183,7 @@
               ]
             },
             {
+              "id": "blk-0a85d1f3",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -181,6 +191,7 @@
               ]
             },
             {
+              "id": "blk-2fd97f9b",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -188,12 +199,14 @@
               ]
             },
             {
+              "id": "blk-c24c3a6b",
               "type": "refrain",
               "lines": [
                 "Abalama tukawende kanana Abalama tuka wende lele ah"
               ]
             },
             {
+              "id": "blk-c18d09f2",
               "type": "comment",
               "lines": [
                 ""

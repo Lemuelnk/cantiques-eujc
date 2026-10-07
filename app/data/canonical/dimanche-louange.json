@@ -44,6 +44,7 @@
           },
           "content": [
             {
+              "id": "blk-4dccf113",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -51,6 +52,7 @@
               ]
             },
             {
+              "id": "blk-a4385cc5",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -58,6 +60,7 @@
               ]
             },
             {
+              "id": "blk-7bb96caa",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -98,18 +101,21 @@
           },
           "content": [
             {
+              "id": "blk-f35e2d08",
               "type": "source_block",
               "lines": [
                 "Bwana mungu, katupenda kamutoa mwana wake yesu wa mungu akaja kwa kuniokowa mimi mimi huyu nashukuru mungu wangu kwa kuwa ni mwema"
               ]
             },
             {
+              "id": "blk-eac85db9",
               "type": "refrain",
               "lines": [
                 "Tushukuru mungu, kwa kuwa ni mwema, tushukuru mungu kwa kuwa ni mwema"
               ]
             },
             {
+              "id": "blk-a8038ce1",
               "type": "source_block",
               "lines": [
                 "Bwana mungu katupenda kamutoa roho wake, roho wa mungu akaja kwa ku nifariji mimi roho wa",
@@ -155,6 +161,7 @@
           },
           "content": [
             {
+              "id": "blk-0df39e8c",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -162,12 +169,14 @@
               ]
             },
             {
+              "id": "blk-884ce7fe",
               "type": "refrain",
               "lines": [
                 "Ah mungu wangu yuko , nione njia ya uzima uje unishike mukononi rafiki yangu usinyache kamwe ."
               ]
             },
             {
+              "id": "blk-aad41eab",
               "type": "comment",
               "lines": [
                 "-Ah yesu wangu yuko nione njia ya uzima uje unishike mukononi rafiki yangu usiniache kamwe",
@@ -175,6 +184,7 @@
               ]
             },
             {
+              "id": "blk-bd21bf38",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -182,6 +192,7 @@
               ]
             },
             {
+              "id": "blk-b805631f",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -222,18 +233,21 @@
           },
           "content": [
             {
+              "id": "blk-3e17f1bf",
               "type": "source_block",
               "lines": [
                 "Njoni twimbe na furaha , na furaha njia imefunguliwa ya mbinguni kwa walisitiriwa bwana utuonyeshe."
               ]
             },
             {
+              "id": "blk-e5bed8cb",
               "type": "refrain",
               "lines": [
                 "Mfalme twakushukuru, twakushukuru , bwana twakushukuru jehova, Baba mungu alimutoa mwana wake yesu kristu aokowe watu."
               ]
             },
             {
+              "id": "blk-f82b7809",
               "type": "source_block",
               "lines": [
                 "Shetani ulipinga, neno lake mwokozi (kweli, kweli) yeye ni adui zetu, hutaka utwangamiza. Shida, shida ni nyingi sana, nyingi sana mashindano ni mengi, aleluya (kweli kweli) bwana utufariji katika mahasi zote"
@@ -276,12 +290,14 @@
           },
           "content": [
             {
+              "id": "blk-286dcf02",
               "type": "source_block",
               "lines": [
                 "Twasimama malangoni pamoja na malaika zake. Tukimwimbia yoyoyo tukimwimbia Bwana (2x)"
               ]
             },
             {
+              "id": "blk-ace0d899",
               "type": "refrain",
               "lines": [
                 "Aleluya, aleluya (2x) yoyoyo",
@@ -291,6 +307,7 @@
               ]
             },
             {
+              "id": "blk-684d7ed8",
               "type": "source_block",
               "lines": [
                 "Twaimba, twaimbia Mungu Baba, twaimbia sisi twaimbia Mungu Mufalme, wateule wa Mungu wa uzima twaimbia",
@@ -334,18 +351,21 @@
           },
           "content": [
             {
+              "id": "blk-5d24a542",
               "type": "source_block",
               "lines": [
                 "Ndugu zetu wapenzi njoni, njoni muone, kwaleo Kwa leo ni siku ya kuketi ku mawingu"
               ]
             },
             {
+              "id": "blk-7ebdb5e9",
               "type": "comment",
               "lines": [
                 "Ku mawingu kwa baba"
               ]
             },
             {
+              "id": "blk-8ef84b23",
               "type": "source_block",
               "lines": [
                 "Kwa kupata hadi ni roho wa mufalume,",
@@ -353,24 +373,28 @@
               ]
             },
             {
+              "id": "blk-aa4043f5",
               "type": "source_block",
               "lines": [
                 "Pokeeni upendo mukiwaonesha watu ¨Kwa leo¨kwa leo ni siku ya kuketi ku mawingu ¨2x"
               ]
             },
             {
+              "id": "blk-3d5c773b",
               "type": "source_block",
               "lines": [
                 "Acheni ulozi kwa kupata hadi, ¨Kwa leo ¨kwa leo ni siku ya kuketi ka mawingu."
               ]
             },
             {
+              "id": "blk-2915f066",
               "type": "source_block",
               "lines": [
                 "Duniani mupo uwovu eh mimi sitaketi duniani kwa leo, kwa leo ni siku ya kuketi ku mawingu."
               ]
             },
             {
+              "id": "blk-7089bd8d",
               "type": "source_block",
               "lines": [
                 "Nitaenda kuketi mimi na roho ya mufalume kwa leo, kwaleo ni siku ya kuketi ku mawingu."
@@ -415,6 +439,7 @@
           },
           "content": [
             {
+              "id": "blk-bda1f08f",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -422,6 +447,7 @@
               ]
             },
             {
+              "id": "blk-a8af9a50",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -464,6 +490,7 @@
           },
           "content": [
             {
+              "id": "blk-ad2ac5a1",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -471,12 +498,14 @@
               ]
             },
             {
+              "id": "blk-61d4a79b",
               "type": "refrain",
               "lines": [
                 "Shangwe , shangwe yowe twimbeni shangwe yowe \"2x"
               ]
             },
             {
+              "id": "blk-b7005c0e",
               "type": "comment",
               "lines": [
                 "-Shangwe ya mufalme kitini pa jehoa mungu",
@@ -485,6 +514,7 @@
               ]
             },
             {
+              "id": "blk-5510b7d4",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -527,12 +557,14 @@
           },
           "content": [
             {
+              "id": "blk-ca7fc948",
               "type": "refrain",
               "lines": [
                 "Shangwe , shangwe , shangwe yoyo amani chini safiri wone mambo\"2x"
               ]
             },
             {
+              "id": "blk-564f2093",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -540,6 +572,7 @@
               ]
             },
             {
+              "id": "blk-16d8cfad",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -547,6 +580,7 @@
               ]
             },
             {
+              "id": "blk-d7ceb0f5",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -589,6 +623,7 @@
           },
           "content": [
             {
+              "id": "blk-908e7aec",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -596,12 +631,14 @@
               ]
             },
             {
+              "id": "blk-b6687ffa",
               "type": "refrain",
               "lines": [
                 "Fahari na iwe \"2x fahari na iwe kwake ,bwana mungu wa mbingu mungu wa mbingu amenipa nguvu kwa mimi kushinda dunia kweli fahari na iwe kwake bwana mungu wa uweza , mungu wa uweza amenipa uweza kwa mimi kushinda dunia. Fahari na iwe kwake bwana mungu wa amri, mungu wa amri amenipa amri kwa mimi kuhukumu shetani."
               ]
             },
             {
+              "id": "blk-73747bb5",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -644,6 +681,7 @@
           },
           "content": [
             {
+              "id": "blk-11f985d3",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -651,12 +689,14 @@
               ]
             },
             {
+              "id": "blk-ad9f25ae",
               "type": "refrain",
               "lines": [
                 "\"Aleluya \"3x (aleluya ) aleluya ozana alie alie hai fahari na iwe kwake bwana mungu wa mbingu (mungu mumbaji)"
               ]
             },
             {
+              "id": "blk-e120d35d",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -699,6 +739,7 @@
           },
           "content": [
             {
+              "id": "blk-86cd7e69",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -706,12 +747,14 @@
               ]
             },
             {
+              "id": "blk-ea076843",
               "type": "refrain",
               "lines": [
                 "Sime, oni ali lalamika sana , alimulilia mungu yoyoyo unichungie roho yangu , unichungie roho Baba yangu unichungie roho yangu yoyoyo unichungie roho mupaka siku nita muona mwana wa mungu yoyoyo unichungie roho."
               ]
             },
             {
+              "id": "blk-8746d019",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -754,6 +797,7 @@
           },
           "content": [
             {
+              "id": "blk-689e3429",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -761,12 +805,14 @@
               ]
             },
             {
+              "id": "blk-5a1bbf09",
               "type": "refrain",
               "lines": [
                 "\"Enyi wajoli shukuru mungu shukuru yesu shukuru yesu \"2x roho ameshuka Enyi wajoli shukuru mungu \" \" \" \" \" \" \" \" \" \" \" \" -"
               ]
             },
             {
+              "id": "blk-6ea85f74",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -774,6 +820,7 @@
               ]
             },
             {
+              "id": "blk-b321eafe",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -814,12 +861,14 @@
           },
           "content": [
             {
+              "id": "blk-d2d1d29b",
               "type": "source_block",
               "lines": [
                 "Baoyo ba nani oyo baoyo bazali ban aya nzambe ba bimaki awa na mokili bafandi na mboka mosantu."
               ]
             },
             {
+              "id": "blk-d8131db8",
               "type": "refrain",
               "lines": [
                 "Yerusaleme, yerusaleme, lelo tokoti yerusaleme mboka kitoko ya nzambe tata lelo tokoti yerusaleme",
@@ -827,6 +876,7 @@
               ]
             },
             {
+              "id": "blk-ba333dbd",
               "type": "comment",
               "lines": [
                 "- Kiti ya bokonzi mwana nzambe monkonzi nabiso afandi na kiti ya nzambe",

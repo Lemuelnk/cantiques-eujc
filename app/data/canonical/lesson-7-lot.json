@@ -44,6 +44,7 @@
           },
           "content": [
             {
+              "id": "blk-75feeea6",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -51,12 +52,14 @@
               ]
             },
             {
+              "id": "blk-698afb38",
               "type": "refrain",
               "lines": [
                 "Mungu wangu , mungu wangu ninakuomba ~ Mimi nisiwe kama muke wa Loti kwakutazama nyuma ~2x"
               ]
             },
             {
+              "id": "blk-0490986a",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -64,6 +67,7 @@
               ]
             },
             {
+              "id": "blk-3a3c46bb",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -104,24 +108,28 @@
           },
           "content": [
             {
+              "id": "blk-a1f89773",
               "type": "source_block",
               "lines": [
                 "Mwikeulu waiya ..."
               ]
             },
             {
+              "id": "blk-5188b9a0",
               "type": "refrain",
               "lines": [
                 "Eh balunda ... biamone bumi."
               ]
             },
             {
+              "id": "blk-797033da",
               "type": "source_block",
               "lines": [
                 "Lota we basapwila ... mukate wa mpikwa kiyujo."
               ]
             },
             {
+              "id": "blk-3b5d903f",
               "type": "source_block",
               "lines": [
                 "Abe muntu wa Leza ... ne bana banji."
@@ -164,18 +172,21 @@
           },
           "content": [
             {
+              "id": "blk-3132de6d",
               "type": "source_block",
               "lines": [
                 "Inchi ya sodoma ... ikaangamia."
               ]
             },
             {
+              "id": "blk-7f1efd15",
               "type": "refrain",
               "lines": [
                 "Abrahamu akalia ... usiangamie) 2x"
               ]
             },
             {
+              "id": "blk-6dc94e94",
               "type": "source_block",
               "lines": [
                 "Malaika kajirika kwake kamwambia Abramu twatumwa kwenda kuchoma sodoma."
@@ -218,24 +229,28 @@
           },
           "content": [
             {
+              "id": "blk-226a28ea",
               "type": "source_block",
               "lines": [
                 "Malaika wa kaja ... 2x"
               ]
             },
             {
+              "id": "blk-827fce8b",
               "type": "refrain",
               "lines": [
                 "Wajoli wangu kuna nyakati ... tupate uzima."
               ]
             },
             {
+              "id": "blk-7544347e",
               "type": "source_block",
               "lines": [
                 "Wajoli wangu kuna nyakati ... tupate uzima."
               ]
             },
             {
+              "id": "blk-a3e1526b",
               "type": "source_block",
               "lines": [
                 "Eh we mutu wa mungu ... wana wakawahukumu pia na wa anzi."
@@ -278,12 +293,14 @@
           },
           "content": [
             {
+              "id": "blk-d55cfa06",
               "type": "source_block",
               "lines": [
                 "Yoba mwene mishibili sodoma no gomora ..."
               ]
             },
             {
+              "id": "blk-1e21ff5d",
               "type": "refrain",
               "lines": [
                 "Lesa pakufulwa ...",
@@ -296,12 +313,14 @@
               ]
             },
             {
+              "id": "blk-dfcf3e33",
               "type": "source_block",
               "lines": [
                 "Malaika mweba Loti ati fumeni mu sodoma ..."
               ]
             },
             {
+              "id": "blk-3635d63f",
               "type": "source_block",
               "lines": [
                 "Bali bapelo mushilo tali kulolesha kunuma ...",
@@ -348,18 +367,21 @@
           },
           "content": [
             {
+              "id": "blk-4fe440ba",
               "type": "source_block",
               "lines": [
                 "Twimbeni shangwe ... siku za Lutu."
               ]
             },
             {
+              "id": "blk-d58a6959",
               "type": "refrain",
               "lines": [
                 "Enyi wajoli ... 2x"
               ]
             },
             {
+              "id": "blk-802ed889",
               "type": "source_block",
               "lines": [
                 "Watu wale ...",
@@ -371,12 +393,14 @@
               ]
             },
             {
+              "id": "blk-702116cf",
               "type": "source_block",
               "lines": [
                 "Nimeona chukizo ..."
               ]
             },
             {
+              "id": "blk-310fc5bf",
               "type": "source_block",
               "lines": [
                 "Jua lilikuwa ...",

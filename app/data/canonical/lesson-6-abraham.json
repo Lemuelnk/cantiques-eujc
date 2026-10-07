@@ -45,6 +45,7 @@
           },
           "content": [
             {
+              "id": "blk-37694c31",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -52,6 +53,7 @@
               ]
             },
             {
+              "id": "blk-fe0ff5f2",
               "type": "comment",
               "lines": [
                 "Com : Uliokowa mitume : Tenda majabu ginsi ulimwokowa Abramu -Uliokowa na Lutu : -Mu kizazi kia kwanza : Eh mungu wangu tenda majabu ginsi ulimwokowa Abramu -Mu kizazi kia pili : -Mu kizazi kia tatu : -Mu kizazi kia ine :"
@@ -93,6 +95,7 @@
           },
           "content": [
             {
+              "id": "blk-8ae41f16",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -100,18 +103,21 @@
               ]
             },
             {
+              "id": "blk-1ef37a60",
               "type": "refrain",
               "lines": [
                 "Mungu taenda, mungu taenda ( eh baba , jehova taenda ni kufanie bwana huduma ."
               ]
             },
             {
+              "id": "blk-8112d366",
               "type": "comment",
               "lines": [
                 "Com : -Basi ni tume mimi : taenda yoyoyo ni kufanie bwana uduma"
               ]
             },
             {
+              "id": "blk-7759d0b5",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -152,12 +158,14 @@
           },
           "content": [
             {
+              "id": "blk-65c6d6b9",
               "type": "source_block",
               "lines": [
                 "Mungu akatuma watu kwenye Ibrahimu, mwende muka muharifu Sara atazaa."
               ]
             },
             {
+              "id": "blk-9e7ce850",
               "type": "refrain",
               "lines": [
                 "Sara kacheka ehi ehi ee Mungu wangu mimi niko mukongwe mimi tazaa jee.",
@@ -166,12 +174,14 @@
               ]
             },
             {
+              "id": "blk-fc533462",
               "type": "source_block",
               "lines": [
                 "Apo Sara alipo baki akachukuwa mimba alipo rejea jehova Sara akazaa."
               ]
             },
             {
+              "id": "blk-b0e96317",
               "type": "source_block",
               "lines": [
                 "Hii ni nguvu ya Mungu kuwa onesha watu kwa muke huyu mukongwe atazaa mwana."
@@ -214,18 +224,21 @@
           },
           "content": [
             {
+              "id": "blk-11f88585",
               "type": "source_block",
               "lines": [
                 "Anasa, anasa za dunia zimetusonga sana oh anasa za dunia."
               ]
             },
             {
+              "id": "blk-b6739e2b",
               "type": "refrain",
               "lines": [
                 "Roho wewe ndiye mungu (eh roho) roho oh wewe ndiye mungu (Eh roho wewe ndiye mufalme kuliko mafalme za dunia)2x"
               ]
             },
             {
+              "id": "blk-f8753071",
               "type": "source_block",
               "lines": [
                 "(Roho ulinena ya kwamba maji na maji ya tengane maji ya juu na maji ya chini)2x (Katikati ukaita nafasi, nafasi ukaita mbinguni)2x Oh oh roho wa baba nafasi ukaita mbinguni."
@@ -268,24 +281,28 @@
           },
           "content": [
             {
+              "id": "blk-cdc2078a",
               "type": "source_block",
               "lines": [
                 "Njoni kwa yesu mimi nawe njia tuonya hatuijui juwa jioni na mwenyezi Mungu na tu mu sii njo."
               ]
             },
             {
+              "id": "blk-ffee6087",
               "type": "refrain",
               "lines": [
                 "(Wajoli twimbe na faraha) na furaha tutaiona (tutaiona) mioyoi ikitakaswa sana (kwake) kwake mwokozi kuonana (kuonana) na milele kukaa."
               ]
             },
             {
+              "id": "blk-54850233",
               "type": "source_block",
               "lines": [
                 "Wana na wazee watwambia furahaini mukisikia (wajoli) ndie Mufalme wetu pia natumusii njo."
               ]
             },
             {
+              "id": "blk-82a90b29",
               "type": "source_block",
               "lines": [
                 "Tumukaribie eh sisi zote Yesu Bwana utualika tumupingapo nimuoti na tumusii njo"
@@ -328,12 +345,14 @@
           },
           "content": [
             {
+              "id": "blk-dddf8fe7",
               "type": "source_block",
               "lines": [
                 "Kisha Abramu kushinda vit aya wafalme wa tano, Ibrahimu akatoa chekumi kwake Melkisedeki (Bwana naye akumwacha bure yoyoe kamupa mukate na vinyo)2x"
               ]
             },
             {
+              "id": "blk-7952982f",
               "type": "refrain",
               "lines": [
                 "Enyi wajoli tukuzeni mufalme ndie mushindi wetu.",
@@ -342,6 +361,7 @@
               ]
             },
             {
+              "id": "blk-85739a4f",
               "type": "source_block",
               "lines": [
                 "Bwana kamwambia Abramu kwakuriti inchi wewe upasuwe ndama wa miaka tatu, upasuwe mbuzi wa miaka tatu kondoo naye wa miaka tatu (Ukiwatenga vipande mbili mbili)2x Huwa nanjiwa Abramu akuitenga, Ibrahimu akachunga vitumba tai lisishuke, jua kushuka moto kutoka mbinguni uteketeza vitumba."
@@ -386,6 +406,7 @@
           },
           "content": [
             {
+              "id": "blk-dfe4bc9d",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -393,18 +414,21 @@
               ]
             },
             {
+              "id": "blk-86499809",
               "type": "refrain",
               "lines": [
                 "Mungu akaumba mbingu na dunia mito na bahari kubwa kazi ya mikono yake mungu wangu paka wewe akuna mwingine."
               ]
             },
             {
+              "id": "blk-15b04c03",
               "type": "comment",
               "lines": [
                 "Com :Mumbaji wangu paka wewe akuna mwingine -Tegemeo langu paka wewe akuna mwingine"
               ]
             },
             {
+              "id": "blk-0a34eae4",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -412,6 +436,7 @@
               ]
             },
             {
+              "id": "blk-d0044236",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -452,12 +477,14 @@
           },
           "content": [
             {
+              "id": "blk-a3f049ee",
               "type": "source_block",
               "lines": [
                 "Mahali pote niendapo duniani wapo nani chimbia shimo ni sione haki yako, (Na wenye kuni chukia wapo mbele yangu)2x"
               ]
             },
             {
+              "id": "blk-dea9fec0",
               "type": "refrain",
               "lines": [
                 "Bwana mungu, mufalme wangu, (jehova mungu) ulimtoa Ibrahimu miongoni mwa watu wote watenda uwovu mungu wangu Ukanitoa mimi katika dunia hii nipate wokovu",
@@ -468,12 +495,14 @@
               ]
             },
             {
+              "id": "blk-f254df0f",
               "type": "source_block",
               "lines": [
                 "Wameupumbuzisha moyo wangu 2x (eh moyowangu) moyo uchafuka na mambo ya dunia."
               ]
             },
             {
+              "id": "blk-b6bf5e8c",
               "type": "source_block",
               "lines": [
                 "Na tazama mahali niendapo mimi naona nyama ya simba kupenda kuninga uweke bonde baina yangu mimi naayawani simba, uweke bonde baina yangu mimi naayawani kali."
@@ -518,6 +547,7 @@
           },
           "content": [
             {
+              "id": "blk-603efbdf",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -525,12 +555,14 @@
               ]
             },
             {
+              "id": "blk-8435fead",
               "type": "refrain",
               "lines": [
                 "Kwa leo tuwa batize kwa jina la baba ( kwa jina la baba)tbatize kwa jina la mwana ( kwa jina la mwana) tuwa batize kwa jina la roho damilifu amina."
               ]
             },
             {
+              "id": "blk-5140f95e",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -538,6 +570,7 @@
               ]
             },
             {
+              "id": "blk-fa98401b",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -580,6 +613,7 @@
           },
           "content": [
             {
+              "id": "blk-23670f72",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -587,12 +621,14 @@
               ]
             },
             {
+              "id": "blk-c279f3bd",
               "type": "refrain",
               "lines": [
                 "Huduma , huduma za bwana , ~ Huduma upo miongoni mwetu ~2x twajizuwiza ku utimiza."
               ]
             },
             {
+              "id": "blk-d1e1ecde",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -600,6 +636,7 @@
               ]
             },
             {
+              "id": "blk-0956be7a",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -640,12 +677,14 @@
           },
           "content": [
             {
+              "id": "blk-25fecf89",
               "type": "source_block",
               "lines": [
                 "Mungu kamwambia Ibrahimu, twa yule mwana wako wa peke unaemupenda ndie Isaka, ukamutoe kwa sadaka. Ibrahimu akaamka asubui akabeba kisu na kuni, akabeba mwana wa peke akabeba na moto akaenda kumutoa Isaka."
               ]
             },
             {
+              "id": "blk-0cd9a8cd",
               "type": "refrain",
               "lines": [
                 "Ibrahimu eh ee eee Ibrahimu",

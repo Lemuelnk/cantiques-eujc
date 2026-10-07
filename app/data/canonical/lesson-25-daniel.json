@@ -42,6 +42,7 @@
           },
           "content": [
             {
+              "id": "blk-d2c1dda4",
               "type": "source_block",
               "lines": [
                 "Naboti muyezesreeli alilima shamba lake (pembeni ya Ahabawa samaria ah)2x",
@@ -50,6 +51,7 @@
               ]
             },
             {
+              "id": "blk-8bee7bda",
               "type": "comment",
               "lines": [
                 "- Ewe mufalme\tsitakupa uriti yoyoyo wa baba zangu",
@@ -57,6 +59,7 @@
               ]
             },
             {
+              "id": "blk-fb5ff6ac",
               "type": "refrain",
               "lines": [
                 "Eh kujizuiza, kweli kujizuiza, kujizuiza ni kuzuri wajoli mbele ya mufalme tazama Naboti muyesreeli kajizuiza kwa kuzisha shamba lake¨2x Mufalme kaja na asira kali mbele",
@@ -64,6 +67,7 @@
               ]
             },
             {
+              "id": "blk-5da10d48",
               "type": "source_block",
               "lines": [
                 "Yezebeli kaandika baruwa kwa muhuri wa mufalme",
@@ -72,6 +76,7 @@
               ]
             },
             {
+              "id": "blk-591ba8a9",
               "type": "comment",
               "lines": [
                 "- Eyo Naboti\takafa kwa mawe Naboti akafa",
@@ -118,6 +123,7 @@
           },
           "content": [
             {
+              "id": "blk-37365ca2",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -125,12 +131,14 @@
               ]
             },
             {
+              "id": "blk-d6a33fb8",
               "type": "refrain",
               "lines": [
                 "Mwalimu Danieli , Danieli wewe pangoni mwa simba \"2x Basi tazama Danieli simba akumula yoyo kwa jina la mufalme \"2x Tazama kerubi, kerubi wa mufalme wa bwana kafungae simba."
               ]
             },
             {
+              "id": "blk-0920698e",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -138,6 +146,7 @@
               ]
             },
             {
+              "id": "blk-217612f2",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -178,6 +187,7 @@
           },
           "content": [
             {
+              "id": "blk-c8d7bd61",
               "type": "source_block",
               "lines": [
                 "Dario mfalme yoyoyo katuma watupe Danieli na mungu pangoni mwa simba wajoli ipate kumula Danieli akomba eh bwana kwa bwana mumbaji mwokozi wa watu tazama mateso jehova",
@@ -188,6 +198,7 @@
               ]
             },
             {
+              "id": "blk-ff9a3b57",
               "type": "refrain",
               "lines": [
                 "Ni husuri wapo kwa mambo mengine ya ulimwengu uniombee eh kwa jehova mungu, ùungu wa uweza katika jaribu yeye ataniponyesha ni tiliwapo pangoni mwa simba nisiwake kamwe",
@@ -234,6 +245,7 @@
           },
           "content": [
             {
+              "id": "blk-34282c54",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -241,18 +253,21 @@
               ]
             },
             {
+              "id": "blk-7a00fb40",
               "type": "refrain",
               "lines": [
                 "Mwanadamu wewe usikufuru mungu ukipata mateso ."
               ]
             },
             {
+              "id": "blk-2760b37e",
               "type": "comment",
               "lines": [
                 "Com : -Magonjua njiani usikufuru mungu ukipata mateso -Mateso njiani \" \" \" \" \" \""
               ]
             },
             {
+              "id": "blk-3063b78a",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -260,6 +275,7 @@
               ]
             },
             {
+              "id": "blk-3ed7e09b",
               "type": "comment",
               "lines": [
                 "Com : -Ya kumuhasi mungu akunena kamwe mambo yote wanenayo."
@@ -299,12 +315,14 @@
           },
           "content": [
             {
+              "id": "blk-4c0b2bc2",
               "type": "source_block",
               "lines": [
                 "Sufuria yangu ndani ya shamba ya bwana, mimi yobu nyalike nuhuru initenge na marafiki awa."
               ]
             },
             {
+              "id": "blk-ad8eea59",
               "type": "refrain",
               "lines": [
                 "Pembe ine za dunianizimefungwa na pepo mbele yangu mimi yobu kweli mumbaji wangu usinyache kamwe na marafikiza dunia:",
@@ -352,6 +370,7 @@
           },
           "content": [
             {
+              "id": "blk-7fcdf033",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -359,12 +378,14 @@
               ]
             },
             {
+              "id": "blk-3d77888c",
               "type": "refrain",
               "lines": [
                 "Yavoyo mateso , haya mateso moyoni mwangu \"Ya meniuzunisha \"2x ninge lifahamu mimi singe lizaliwa ninge lifariki tumboni mwa mamangu ili ni sione mateso ya duniani."
               ]
             },
             {
+              "id": "blk-ddae383a",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -372,6 +393,7 @@
               ]
             },
             {
+              "id": "blk-b581d223",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -412,12 +434,14 @@
           },
           "content": [
             {
+              "id": "blk-cbadf524",
               "type": "source_block",
               "lines": [
                 "1. Kulikuwa mutu muniofu alie pendwa na mungu mwenye imani nyingi jina lake ayubu katika ubishi mukali wa mungu na ibilisi ¨2x"
               ]
             },
             {
+              "id": "blk-9a13ac4d",
               "type": "comment",
               "lines": [
                 "- Ibilisi kamwambia mungu",
@@ -425,6 +449,7 @@
               ]
             },
             {
+              "id": "blk-22ef7fb7",
               "type": "refrain",
               "lines": [
                 "Eh ayubu mutu mwenye imani (ayubu eh) akumutukana mungu. Mungu kamwambia Ibilisi fanya",
@@ -472,6 +497,7 @@
           },
           "content": [
             {
+              "id": "blk-f937b293",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -479,24 +505,28 @@
               ]
             },
             {
+              "id": "blk-27ca9d98",
               "type": "comment",
               "lines": [
                 "Com :-Yobu mateso yobue yobu yobu mwenye taabu -Yobu teseka \" \" \" \" \" \" \""
               ]
             },
             {
+              "id": "blk-1197a17e",
               "type": "refrain",
               "lines": [
                 "Bildadi musui \"2x Elifasi mutemani, tazama Zofahari munamati rafiki ze yobu , yobu yobue yobu yobu mwenye taabu ."
               ]
             },
             {
+              "id": "blk-5ace416a",
               "type": "comment",
               "lines": [
                 "Com : -Yobu mateso yobue yobu , yobu mwenye taabu ."
               ]
             },
             {
+              "id": "blk-a9caaa28",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -504,12 +534,14 @@
               ]
             },
             {
+              "id": "blk-f8f99005",
               "type": "comment",
               "lines": [
                 "Com : -Yobu mateso yobu eh yobu ,yobu mwenye taabu."
               ]
             },
             {
+              "id": "blk-382a085c",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -517,6 +549,7 @@
               ]
             },
             {
+              "id": "blk-7844d139",
               "type": "comment",
               "lines": [
                 "Com : -Yobu tabika yobu eh yobu yobu mwenye taabu."
@@ -558,6 +591,7 @@
           },
           "content": [
             {
+              "id": "blk-98c5058c",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -565,12 +599,14 @@
               ]
             },
             {
+              "id": "blk-419db106",
               "type": "refrain",
               "lines": [
                 "Kujikuza kwako wewe usizarau uduma huwa bwana mu mambo mafu anasa za duniani kwa wewe mujoli mu mambo mafu hekima ya duniani."
               ]
             },
             {
+              "id": "blk-5352d80f",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -578,6 +614,7 @@
               ]
             },
             {
+              "id": "blk-28c09e2f",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -620,6 +657,7 @@
           },
           "content": [
             {
+              "id": "blk-96e9233f",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -627,18 +665,21 @@
               ]
             },
             {
+              "id": "blk-7e2690ab",
               "type": "refrain",
               "lines": [
                 "Kweli wa ngombe wa menishutumu mungu wenu yuko wapi ."
               ]
             },
             {
+              "id": "blk-5f0c2d03",
               "type": "comment",
               "lines": [
                 "Com : -Marafiki wa bava wamenishutumu mungu wenu yuko wapi -Majirani wa baya \" \" \" \" \" \" \" \" Ewe mungu muzima shuka leo unione ."
               ]
             },
             {
+              "id": "blk-37fecb09",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -681,6 +722,7 @@
           },
           "content": [
             {
+              "id": "blk-bf06df2e",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -688,12 +730,14 @@
               ]
             },
             {
+              "id": "blk-37a8d43d",
               "type": "refrain",
               "lines": [
                 "Muhulaa , muhula umekuja , muhula huo umekaribia Naboti watatakuzulumu shamba lako . \"Ah yoyowe , yoyowe machozi ya meshuka isabela amefarikisha Naboti \"2x"
               ]
             },
             {
+              "id": "blk-6e128b7e",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -701,6 +745,7 @@
               ]
             },
             {
+              "id": "blk-70b923b3",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -741,12 +786,14 @@
           },
           "content": [
             {
+              "id": "blk-afd847c2",
               "type": "source_block",
               "lines": [
                 "1. Nabote waji ne bujimibwa tubipa tu cheche pabwipi ne njimbo ya mulopwe ahaba mwine samaria ah"
               ]
             },
             {
+              "id": "blk-e6e9ce39",
               "type": "refrain",
               "lines": [
                 "Kiaba kikaya (kino kiaba) ke kidi pa bwipi mwanetu ke ba",
@@ -793,6 +840,7 @@
           },
           "content": [
             {
+              "id": "blk-a69e2974",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -800,18 +848,21 @@
               ]
             },
             {
+              "id": "blk-11003b62",
               "type": "refrain",
               "lines": [
                 "Shamba langu , shamba langu mujoli sita kwachiya wewe ."
               ]
             },
             {
+              "id": "blk-9d5625cf",
               "type": "comment",
               "lines": [
                 "Com : Shamba langu , shamba langu mujoli sita kwa chia yewa wewe Jiwé langu la kutukuza mungu \" \" \" \" Jiwé langu la kuhubiri neno \" \" \" \""
               ]
             },
             {
+              "id": "blk-83b2d803",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -819,6 +870,7 @@
               ]
             },
             {
+              "id": "blk-b7c134e0",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -826,6 +878,7 @@
               ]
             },
             {
+              "id": "blk-004e62ed",
               "type": "verse",
               "number": "4",
               "lines": [
@@ -866,6 +919,7 @@
           },
           "content": [
             {
+              "id": "blk-011eda8c",
               "type": "source_block",
               "lines": [
                 "1. Mungu wa Ibrahimu, Mungu Isaka, na Mungu Yakobo ulitenda mambo ya ajabu hawali kwa walio wako",
@@ -873,6 +927,7 @@
               ]
             },
             {
+              "id": "blk-530c9d4c",
               "type": "refrain",
               "lines": [
                 "Mungu wangu unifariji katika uweza wako unifariji:",
@@ -880,6 +935,7 @@
               ]
             },
             {
+              "id": "blk-073c8391",
               "type": "source_block",
               "lines": [
                 "2.\tMungu kwa maajabu yako Danieli pangoni mwa simba wala umizo wala mukovu haikujirika mwili mwake ila Danieli kasitawi kwa utawala wa dario na",
@@ -887,6 +943,7 @@
               ]
             },
             {
+              "id": "blk-a532a5fb",
               "type": "source_block",
               "lines": [
                 "3.\tMuti murefu kajirika mulinzi toka mbinguni kahukata, muniororo ukaufunga na umande wa mbingu kaotesha.",
@@ -931,12 +988,14 @@
           },
           "content": [
             {
+              "id": "blk-37347401",
               "type": "source_block",
               "lines": [
                 "1. Shamba la Naboti ahaba ameuisha nafsi yangu amepanda maboga nimefariki kwa bwana¨2x"
               ]
             },
             {
+              "id": "blk-75c3f1b6",
               "type": "refrain",
               "lines": [
                 "Yakini yakini imani yako ndio wa nayo ipiganisha mutu akiaribu imani",
@@ -944,6 +1003,7 @@
               ]
             },
             {
+              "id": "blk-a94ef2c3",
               "type": "comment",
               "lines": [
                 "- Na bakituta ya kupanda buovu imani yako ndio wanayo ipiganisha mutu akiaribu imani yeye anabaki tuta - Na bakituta ya kupanda bulozi",

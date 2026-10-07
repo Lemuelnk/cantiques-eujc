@@ -42,6 +42,7 @@
           },
           "content": [
             {
+              "id": "blk-c296a4f2",
               "type": "source_block",
               "lines": [
                 "Moyoni mwangu munamo uzuni, Jehova Mungu nikitamani kuondoka dunia eh baba kwani dunia munamo machozi kilio kwa mutu wa Mungu kuteswa mwilini ¨Jehova Mungu",
@@ -49,6 +50,7 @@
               ]
             },
             {
+              "id": "blk-a7220043",
               "type": "refrain",
               "lines": [
                 "Mufalume wangu mushinda, tazama madui zangu wako natafuta uzima wangu nisitiriwe mwilini.",
@@ -58,12 +60,14 @@
               ]
             },
             {
+              "id": "blk-196d11aa",
               "type": "source_block",
               "lines": [
                 "Nikitazama humo duniani uovu unizunguruka mitego na nyavu utandikwa mu njia yangu ni fanye je mimi munaziri wa mungu haya ni mateso."
               ]
             },
             {
+              "id": "blk-766fe6bb",
               "type": "source_block",
               "lines": [
                 "Nialike nani ulimwengu humo nzige na nge unipiganisha mafalme za giza ushambulia njia yangu Roho na moyo ufazaika ndani yangu haya ni mateso"
@@ -106,18 +110,21 @@
           },
           "content": [
             {
+              "id": "blk-c7be43a7",
               "type": "source_block",
               "lines": [
                 "Jua limepanda falme nazo djiandaa¨2x ¨Jehova mungu uje leo uje upikane vita¨2x"
               ]
             },
             {
+              "id": "blk-05d88f06",
               "type": "refrain",
               "lines": [
                 "Eh mumbaji wangu, mumbaji wangu na teswa sana tuma malaikawaje wapikane vita"
               ]
             },
             {
+              "id": "blk-5df9724a",
               "type": "comment",
               "lines": [
                 "- Utume na Mikaeli\ttuma malaika wako waje wapikane vita",
@@ -127,12 +134,14 @@
               ]
             },
             {
+              "id": "blk-149c6317",
               "type": "source_block",
               "lines": [
                 "Nimepiganishwa jioni na usiku, nimepiganishwa jioni na usiku Njia zime fungwa falme nazo ziaanda"
               ]
             },
             {
+              "id": "blk-6fb4831e",
               "type": "source_block",
               "lines": [
                 "Jehova nina kuombae nina kuomba uniondoshee mwiba Ili ni ishi salama, ili niishi salama"
@@ -175,18 +184,21 @@
           },
           "content": [
             {
+              "id": "blk-6df82b8b",
               "type": "source_block",
               "lines": [
                 "Mungu baba nina kuomba unijaze nguvu pia na uweza wako Kwanini adui wamesimama kwa kwaribu kazi yako"
               ]
             },
             {
+              "id": "blk-22426cad",
               "type": "refrain",
               "lines": [
                 "Eh baba, mungu tazama zige na nge wameunga singa zao eh baba, bwana uje uwangamize."
               ]
             },
             {
+              "id": "blk-c3b57e47",
               "type": "comment",
               "lines": [
                 "- Walozi awa wameunga singa zao eh baba bwana uje uwangamize.",
@@ -195,24 +207,28 @@
               ]
             },
             {
+              "id": "blk-0505891f",
               "type": "source_block",
               "lines": [
                 "Kuna wengine wana ufahamu mwingine wanawinda wana wako baba uje uwangamize, wana winda wana wako uje uwangamize, Ili wana wako mungu wangu wapate kuokolewa"
               ]
             },
             {
+              "id": "blk-c8f093ac",
               "type": "source_block",
               "lines": [
                 "Ijaapo nina ofu kwa kwaribu kazi yako baba nina kulilia nishindie vita yote, baba nina kulilia upikane na adui zangu"
               ]
             },
             {
+              "id": "blk-7763ba18",
               "type": "source_block",
               "lines": [
                 "Nikitazama upande wa mangaribi na mashariki eh nikitazama upande wa kusini na kaskazini eh mimi ndipo mimi nimezungukwa na vita pande zote."
               ]
             },
             {
+              "id": "blk-aa8348b4",
               "type": "comment",
               "lines": [
                 "- Bila sababu\tndipo mimi ni mezungukwa na vita pande zote",
@@ -259,6 +275,7 @@
           },
           "content": [
             {
+              "id": "blk-d3bbb389",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -266,6 +283,7 @@
               ]
             },
             {
+              "id": "blk-c9d30342",
               "type": "comment",
               "lines": [
                 "Com :-Ni nalika Mikaeli Eh ! baba yangu nalika jeshi la mbingu",
@@ -274,6 +292,7 @@
               ]
             },
             {
+              "id": "blk-856991c4",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -281,6 +300,7 @@
               ]
             },
             {
+              "id": "blk-f8ed1f9a",
               "type": "comment",
               "lines": [
                 "Com :-Baba yetu wa rehema",
@@ -289,6 +309,7 @@
               ]
             },
             {
+              "id": "blk-b5c64baa",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -296,6 +317,7 @@
               ]
             },
             {
+              "id": "blk-843d7778",
               "type": "comment",
               "lines": [
                 "Com :-Fahari iwe kwa mungu wa kadima baba eh baba yangu fahari iwe kwako",
@@ -337,12 +359,14 @@
           },
           "content": [
             {
+              "id": "blk-72f474d3",
               "type": "source_block",
               "lines": [
                 "Ndikubikila mukalenga nzambi wa misumba ya bantu luakudjatakaja makalenga adji mu mitshima ya bantu."
               ]
             },
             {
+              "id": "blk-07fe9dd2",
               "type": "refrain",
               "lines": [
                 "Kadi Rebeka wewa, Rebeka tuluka pa punda uka lale mwa sala djituku djibidji ne uye kudji bayeba Isaka.",
@@ -350,12 +374,14 @@
               ]
             },
             {
+              "id": "blk-d41ab1ba",
               "type": "source_block",
               "lines": [
                 "Bwa kujangatila kwa kwansa butuku ndinguija mukalenga kwangata butumbi bwebe kutumbija nzambi mukwabo."
               ]
             },
             {
+              "id": "blk-c71b6be6",
               "type": "source_block",
               "lines": [
                 "Makalenga ne ma mfumu midimu ibidi pa buloba idi kokesha muntu ehu moyo wenda wa pa buloba."
@@ -400,6 +426,7 @@
           },
           "content": [
             {
+              "id": "blk-01ab5c45",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -407,12 +434,14 @@
               ]
             },
             {
+              "id": "blk-db651be3",
               "type": "refrain",
               "lines": [
                 "Enyi majeshi la Daudi shikeni silaha zenu mapambano ni makali mu mbingu na mu dunia"
               ]
             },
             {
+              "id": "blk-18c0046c",
               "type": "comment",
               "lines": [
                 "Com : -Mikaeli uje mapambano ni makali mu mbingu na mu dunia",
@@ -420,6 +449,7 @@
               ]
             },
             {
+              "id": "blk-d71bac21",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -462,6 +492,7 @@
           },
           "content": [
             {
+              "id": "blk-87eff2af",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -469,12 +500,14 @@
               ]
             },
             {
+              "id": "blk-c3b6c5fe",
               "type": "refrain",
               "lines": [
                 "Maisha yangu yote nina kupa baba , baba unishindie , na bulozi bwangu bote nina kupa baba , baba unishindie Ah eh baba nishindie vita iyo ya walozi na wachawi, nishindie vita iyo ya wafalme wa shetani."
               ]
             },
             {
+              "id": "blk-760a6dd0",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -515,18 +548,21 @@
           },
           "content": [
             {
+              "id": "blk-cccc4d8a",
               "type": "source_block",
               "lines": [
                 "Watu wengi wanapenda kwabudu miungu wanaacha mungu wa uzima , wa uzima uzima wa milele."
               ]
             },
             {
+              "id": "blk-2238d460",
               "type": "refrain",
               "lines": [
                 "Kweli, kweli na walozi wanaacha mungu wa uzima, wa uzima uzima wa milele."
               ]
             },
             {
+              "id": "blk-478d048f",
               "type": "comment",
               "lines": [
                 "- Na wachawi\twanaacha mungu wa uzima, wa uzima uzima wa milele.",
@@ -535,12 +571,14 @@
               ]
             },
             {
+              "id": "blk-5c658d0d",
               "type": "source_block",
               "lines": [
                 "Wakikuja kwa vita mimi tapanda mbinguni nitabeba malaika wa vita watakuja kunipiganiya."
               ]
             },
             {
+              "id": "blk-d8c1978f",
               "type": "comment",
               "lines": [
                 "- Kweli nitabeba Mikaeli wa vita\tatakuja kunipigania",
@@ -586,12 +624,14 @@
           },
           "content": [
             {
+              "id": "blk-2aa68a4f",
               "type": "source_block",
               "lines": [
                 "Wewe mwanetu munanga wamanya udji mu bwato kwikadji byeba mamay mu lwishiwa dji dia nzambi wa moyo"
               ]
             },
             {
+              "id": "blk-b384d648",
               "type": "refrain",
               "lines": [
                 "Wamanya buloba ne bakoshe buloba, buloba ne bakoshe ( mwanetu wa manya) Mwanetu wa manya buloba ne babushe buloba ne baboshe, buloba ni umenesha nyinyi adjisonga",
@@ -599,12 +639,14 @@
               ]
             },
             {
+              "id": "blk-49fc130c",
               "type": "source_block",
               "lines": [
                 "Udjimu udjimanya mundamu kadji kwena musuau kulekela udjisonga bikola kumpala kwa nzambi mumanya mwa munda."
               ]
             },
             {
+              "id": "blk-e2dfc41d",
               "type": "source_block",
               "lines": [
                 "Nzambi wetwehu wabukole kakwena wakumuluisha. Udji udjiluisho wewa mu lungenyi lwebe ne menji bia buntu"
@@ -649,6 +691,7 @@
           },
           "content": [
             {
+              "id": "blk-3b358e5c",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -656,12 +699,14 @@
               ]
             },
             {
+              "id": "blk-c5b43cbe",
               "type": "refrain",
               "lines": [
                 "Simba la kabila la yuda nguruma , nguruma simba."
               ]
             },
             {
+              "id": "blk-7b23327b",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -669,6 +714,7 @@
               ]
             },
             {
+              "id": "blk-a02b01aa",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -711,6 +757,7 @@
           },
           "content": [
             {
+              "id": "blk-eaffb514",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -718,12 +765,14 @@
               ]
             },
             {
+              "id": "blk-4bae08d3",
               "type": "refrain",
               "lines": [
                 "Bwana mungu mimi ni kosefu duniani bwana wangu , bwana wangu unirehemu."
               ]
             },
             {
+              "id": "blk-fd2b25fe",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -731,6 +780,7 @@
               ]
             },
             {
+              "id": "blk-5b2d9df8",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -738,6 +788,7 @@
               ]
             },
             {
+              "id": "blk-51796275",
               "type": "verse",
               "number": "4",
               "lines": [
@@ -780,6 +831,7 @@
           },
           "content": [
             {
+              "id": "blk-d26c66f7",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -787,12 +839,14 @@
               ]
             },
             {
+              "id": "blk-c1cb3cf1",
               "type": "refrain",
               "lines": [
                 "Rebeka wewe ) Rebeka shuka kupunda ukalale kwa Sara kwa siku ,mbili na urudi kwa mume wako Isaka."
               ]
             },
             {
+              "id": "blk-0df72246",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -800,6 +854,7 @@
               ]
             },
             {
+              "id": "blk-179b411d",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -840,6 +895,7 @@
           },
           "content": [
             {
+              "id": "blk-671d4de8",
               "type": "source_block",
               "lines": [
                 "1. Bena nzambi tudjikonke, tudjikonke, tudjikonke¨2x Tudji bankana lelu ku meso ya zambi wa moyo ( ketudjibankana lelu)",
@@ -849,6 +905,7 @@
               ]
             },
             {
+              "id": "blk-cc89fe65",
               "type": "source_block",
               "lines": [
                 "2. (Yepowa nzambi), yepowa nzambi, (nzambi mufuki) indji kulomba (indji kulomba umpe bukole anuwewe anuwewe , anuwewe ¨2x",
@@ -856,6 +913,7 @@
               ]
             },
             {
+              "id": "blk-1f5b2ce2",
               "type": "source_block",
               "lines": [
                 "3. (Nyuma musambi), nyuma musambi (musambi wetu, ambula ngabu) (ambula ngabu) mwela ne djifuma unduile",
@@ -904,6 +962,7 @@
           },
           "content": [
             {
+              "id": "blk-7de4ee70",
               "type": "refrain",
               "lines": [
                 "Nialike nani mufalme n nialike baba ¨2x ¨Jehova mungu nialike baba mimi nialike baba ¨2x",

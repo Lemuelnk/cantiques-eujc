@@ -45,6 +45,7 @@
           },
           "content": [
             {
+              "id": "blk-263d9a17",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -52,12 +53,14 @@
               ]
             },
             {
+              "id": "blk-0c6b1a17",
               "type": "refrain",
               "lines": [
                 "Sisi zote tuondokeni duniani tutembee juu ya bahari ili tuwe mbinguni muishimo baba , mungu wa wenye uhai inchi yani mwili, mbingu yani roho ya mungu , maji ni mafundisho, nuru ufahamu , giza ni upungufu ."
               ]
             },
             {
+              "id": "blk-ccb5e6fc",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -65,6 +68,7 @@
               ]
             },
             {
+              "id": "blk-365e87b3",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -72,6 +76,7 @@
               ]
             },
             {
+              "id": "blk-4a6496f4",
               "type": "verse",
               "number": "4",
               "lines": [
@@ -79,6 +84,7 @@
               ]
             },
             {
+              "id": "blk-b6ff15ee",
               "type": "comment",
               "lines": [
                 "Com : Baba twakushukuru iyawe yoyo mungu wa wenye uhai -Uliumba dunia -Kweli sita kuacha"
@@ -119,12 +125,14 @@
           },
           "content": [
             {
+              "id": "blk-5acfcda8",
               "type": "source_block",
               "lines": [
                 "(Bwana mungu eh mumbaji wangu ni mufalme wa majabu) (kwaeli kweli kwaku tanda mbingu na harzi na vitu viote vijazamo baba ni mufalme wa majabu Mumbaji bwana yoyoyo eh baba ni mufalme wa majabu)."
               ]
             },
             {
+              "id": "blk-72395dda",
               "type": "refrain",
               "lines": [
                 "- Kwa siku ya kwanza bwana kaumba nuru  ",
@@ -136,18 +144,21 @@
               ]
             },
             {
+              "id": "blk-27b89931",
               "type": "source_block",
               "lines": [
                 "njonii (njoni kua yesu) njoni uchukuwe nawe nira yangu hii, (nira yangu hii) nira yani musalaba. 2x"
               ]
             },
             {
+              "id": "blk-c87c8aee",
               "type": "source_block",
               "lines": [
                 "Bwana akapanda shamba upande wa mashariki mwa Edeni bwana akatia pale mutu yule alie mufanya na vitu viote viakuitajiwa bwana akatia pale."
               ]
             },
             {
+              "id": "blk-de9bdcbd",
               "type": "source_block",
               "lines": [
                 "Umu shambani bwana ka watilia sheria ule viote unavio viona mbele yako eh ila wakujuwa uzuri na ubaya wewe mutu wangu usile. Ukosefu wa watu wakakufuru yoyoyo watu wakufuru mungu wao."
@@ -192,6 +203,7 @@
           },
           "content": [
             {
+              "id": "blk-26537240",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -199,18 +211,21 @@
               ]
             },
             {
+              "id": "blk-1cdf75a6",
               "type": "refrain",
               "lines": [
                 "Mungu akaumba mbingu na dunia mito na bahari kubwa kazi ya mikono yake mungu wangu paka wewe akuna mwingine."
               ]
             },
             {
+              "id": "blk-160af4ee",
               "type": "comment",
               "lines": [
                 "Com :Mumbaji wangu paka wewe akuna mwingine -Tegemeo langu paka wewe akuna mwingine"
               ]
             },
             {
+              "id": "blk-f04c5f00",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -218,6 +233,7 @@
               ]
             },
             {
+              "id": "blk-3b78a35a",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -260,6 +276,7 @@
           },
           "content": [
             {
+              "id": "blk-abd579db",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -267,12 +284,14 @@
               ]
             },
             {
+              "id": "blk-86fee1e3",
               "type": "refrain",
               "lines": [
                 "Roho wewe ndiye mungu (eh roho) roho oh wewe ndiye mungu \"Eh roho wewe ndiye mufalme kuliko mafalme za dunia \"2x"
               ]
             },
             {
+              "id": "blk-110fb0a5",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -315,6 +334,7 @@
           },
           "content": [
             {
+              "id": "blk-5c41aa34",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -322,6 +342,7 @@
               ]
             },
             {
+              "id": "blk-557be8c4",
               "type": "comment",
               "lines": [
                 "**_-Kitu cha mungu kwajili ya kazi : alilia alilia jina ionekane_**",
@@ -329,6 +350,7 @@
               ]
             },
             {
+              "id": "blk-ba8747b2",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -373,6 +395,7 @@
           },
           "content": [
             {
+              "id": "blk-1be10007",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -380,12 +403,14 @@
               ]
             },
             {
+              "id": "blk-d8680260",
               "type": "refrain",
               "lines": [
                 "Jehova mungu uliandike jina langu mukitabu cha uzima kweli siku zile na machozi na vilio avita kuwa tena."
               ]
             },
             {
+              "id": "blk-1beb9ab2",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -393,6 +418,7 @@
               ]
             },
             {
+              "id": "blk-ef28621b",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -434,12 +460,14 @@
           },
           "content": [
             {
+              "id": "blk-3e5fabcd",
               "type": "source_block",
               "lines": [
                 "1. Huduma zilianza katika mbingu kwa kuumba vitu viote vinavio onekana visivio onekana kwa utukufu wake."
               ]
             },
             {
+              "id": "blk-2e8349ff",
               "type": "refrain",
               "lines": [
                 "Wewe ni nani katika dunia eyowa  ",
@@ -452,12 +480,14 @@
               ]
             },
             {
+              "id": "blk-7f17e5a0",
               "type": "source_block",
               "lines": [
                 "2. Magizo ya mungu kwake adama usile wala kugusa muti wa mauti eh nyoka kadanganya muke hakika hamutakufa."
               ]
             },
             {
+              "id": "blk-e309f14f",
               "type": "source_block",
               "lines": [
                 "3. Kasirani yake mungu kalaani muke Adamu kwa utkufu wake eh mimi sitaki shuurliza duniani ni pate uzima."
@@ -502,6 +532,7 @@
           },
           "content": [
             {
+              "id": "blk-99e6a0ba",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -509,18 +540,21 @@
               ]
             },
             {
+              "id": "blk-f3b2c9ce",
               "type": "refrain",
               "lines": [
                 "Mimi munaziri wa mungu yoyoyo (uniokowe)2x"
               ]
             },
             {
+              "id": "blk-8c93a8fc",
               "type": "comment",
               "lines": [
                 "Com : katika magonjwa uniokowe uniokowe en -katika kifungo \" \" \" \" \" -Katika mateso \" \" \" \" \""
               ]
             },
             {
+              "id": "blk-71923db2",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -563,6 +597,7 @@
           },
           "content": [
             {
+              "id": "blk-71e96474",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -570,12 +605,14 @@
               ]
             },
             {
+              "id": "blk-3c5a1bdc",
               "type": "refrain",
               "lines": [
                 "Kwa leo tuwa batize kwa jina la baba ( kwa jina la baba)tbatize kwa jina la mwana ( kwa jina la mwana) tuwa batize kwa jina la roho damilifu amina."
               ]
             },
             {
+              "id": "blk-d372b012",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -583,6 +620,7 @@
               ]
             },
             {
+              "id": "blk-859feecc",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -625,6 +663,7 @@
           },
           "content": [
             {
+              "id": "blk-89919119",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -632,18 +671,21 @@
               ]
             },
             {
+              "id": "blk-ceb2e0fd",
               "type": "refrain",
               "lines": [
                 "Kweli kweli jeho va mungu kanena nimepata kiumbe (kiumbe) kitakacho tukuza ukubwa wangu ."
               ]
             },
             {
+              "id": "blk-7338f8b8",
               "type": "comment",
               "lines": [
                 "Com : -Na mwalimu kanena -Mwambi wetu kanena -Baba kyungu kanena"
               ]
             },
             {
+              "id": "blk-a966a614",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -651,6 +693,7 @@
               ]
             },
             {
+              "id": "blk-bfb462f0",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -692,24 +735,28 @@
           },
           "content": [
             {
+              "id": "blk-78f64757",
               "type": "source_block",
               "lines": [
                 "1. Njoni kwa yesu mimi nawe njia tuonya hatuijui juwa jioni na mwenyezi Mungu na tu mu sii njo."
               ]
             },
             {
+              "id": "blk-4c29fc66",
               "type": "refrain",
               "lines": [
                 "(Wajoli twimbe na faraha) na furaha tutaiona (tutaiona)mioyoi ikitakaswa sana (kwake)kwake mwokozi kuonana(kuonana)na milele kukaa."
               ]
             },
             {
+              "id": "blk-36dc4669",
               "type": "source_block",
               "lines": [
                 "2. Wana na wazee watwambia furahaini mukisikia (wajoli) ndie Mufalme wetu pia natumusii njo."
               ]
             },
             {
+              "id": "blk-99f63339",
               "type": "source_block",
               "lines": [
                 "3. Tumukaribie eh sisi zote Yesu Bwana utualika tumupingapo nimuoti na tumusii njo"
@@ -754,6 +801,7 @@
           },
           "content": [
             {
+              "id": "blk-c96053c0",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -761,12 +809,14 @@
               ]
             },
             {
+              "id": "blk-bb5b6b65",
               "type": "refrain",
               "lines": [
                 "Twimbe wokovu kwa bwana mungu yeye anae keti juu ya kiti cha enzi mwana kondoo wa mungu, juu ya kiti cha enzi mwana kondoo wa baba."
               ]
             },
             {
+              "id": "blk-d3d413a4",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -774,6 +824,7 @@
               ]
             },
             {
+              "id": "blk-576d1ec7",
               "type": "verse",
               "number": "3",
               "lines": [

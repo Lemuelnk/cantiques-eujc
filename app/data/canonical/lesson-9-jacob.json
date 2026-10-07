@@ -44,6 +44,7 @@
           },
           "content": [
             {
+              "id": "blk-58edbfcb",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -51,12 +52,14 @@
               ]
             },
             {
+              "id": "blk-46e04a2d",
               "type": "refrain",
               "lines": [
                 "Kapiteni potifari wa inchi ya misri kamushika Yusufu , kamutupa gerezani ju ya muke wake alimunenea hivi tazama Yusufu ameningilia leo, Tazama kitani ni mikononi mwangu"
               ]
             },
             {
+              "id": "blk-1c8f3763",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -97,18 +100,21 @@
           },
           "content": [
             {
+              "id": "blk-e7c3685d",
               "type": "source_block",
               "lines": [
                 "Na neno sitaliacha sitarejea nyuma ¨ Ata mu mambo mbovu eh mimi sitaregeza moyo wangu¨2x"
               ]
             },
             {
+              "id": "blk-e0a4e84c",
               "type": "refrain",
               "lines": [
                 "Nishutumiwapo ni wewe ninapo uzuriwa tamwita nani, shangwe yoyoyo nitamwimidi mufalme."
               ]
             },
             {
+              "id": "blk-5622af67",
               "type": "comment",
               "lines": [
                 "- Mimi nialike nani shangue yoyoyo tamwimidi mufalme.",

@@ -44,12 +44,14 @@
           },
           "content": [
             {
+              "id": "blk-a4843f15",
               "type": "refrain",
               "lines": [
                 "Kurejea kwangu kuna furahisha baba yakini , yakini baba nimekoseya mbingu mimi , yakini , yakini baba ah, ah ni metenda zambi machoni pako usinite muzaliwa wako mimi ni mutumishi wako."
               ]
             },
             {
+              "id": "blk-b433f2a4",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -57,6 +59,7 @@
               ]
             },
             {
+              "id": "blk-d122ce67",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -64,6 +67,7 @@
               ]
             },
             {
+              "id": "blk-17c98a3b",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -71,6 +75,7 @@
               ]
             },
             {
+              "id": "blk-09c54f82",
               "type": "comment",
               "lines": [
                 "Com :-Kwajili ya mwanangu , ya mwanangu ali e potea , alipotelea wapi mu mambo yawat u, ali e potea mu bulozi na chuki , ali e potea mu bulevi na bwizi , ana rudia leo njoni twimbe tufurahiwe kwajili ya mwana , njoni twimbee tufurahiwe kwajili ya mwana."
@@ -112,6 +117,7 @@
           },
           "content": [
             {
+              "id": "blk-33ecf692",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -119,6 +125,7 @@
               ]
             },
             {
+              "id": "blk-bd2a2112",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -126,6 +133,7 @@
               ]
             },
             {
+              "id": "blk-fab7985b",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -133,6 +141,7 @@
               ]
             },
             {
+              "id": "blk-86ca3ec9",
               "type": "verse",
               "number": "4",
               "lines": [
@@ -140,12 +149,14 @@
               ]
             },
             {
+              "id": "blk-10b3e753",
               "type": "refrain",
               "lines": [
                 "Babayangu mupendwa baba umupokee yoyoyo kwa kuonesha upendo wako"
               ]
             },
             {
+              "id": "blk-29bdd30b",
               "type": "comment",
               "lines": [
                 "Com :-Mutoto mpumbafu \" \" \" \" \" \" \"",
@@ -188,12 +199,14 @@
           },
           "content": [
             {
+              "id": "blk-3b158790",
               "type": "source_block",
               "lines": [
                 "We ulie mupotevu kumbuka unayo tenda Ukiwa mwenye kujiuliza ndani yako wewe (wewe mujoli)"
               ]
             },
             {
+              "id": "blk-11893041",
               "type": "refrain",
               "lines": [
                 "Ujiulize, ujiulize mujoli ujiulize, ujiulize kama yote unayo tend aya pendeza mwenyezi wa uzima",
@@ -201,6 +214,7 @@
               ]
             },
             {
+              "id": "blk-ff6ead1d",
               "type": "comment",
               "lines": [
                 "- Mwana huyu akisha poteza mali akaomba toba yake",
@@ -210,12 +224,14 @@
               ]
             },
             {
+              "id": "blk-3bfeaef8",
               "type": "source_block",
               "lines": [
                 "Mbele ya kutenda jambo ni vizuri kujiuliza usiuwe manabii walio ndani yako."
               ]
             },
             {
+              "id": "blk-e92dc627",
               "type": "comment",
               "lines": [
                 "- Mujoli usiuwe manabii walio ndani yako",
@@ -259,12 +275,14 @@
           },
           "content": [
             {
+              "id": "blk-a7d7919f",
               "type": "source_block",
               "lines": [
                 "Wenye na mizigo njoni, njoni nyinyi wa bebao mizigo mizito yesu ukualika njoni nyinyi wa bebao mizigo mizito."
               ]
             },
             {
+              "id": "blk-bf50e3c3",
               "type": "comment",
               "lines": [
                 "- Huko wewe una jificha na mizigo yako -Uwendapo na mizigo yako",
@@ -317,6 +335,7 @@
           },
           "content": [
             {
+              "id": "blk-4c950635",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -324,12 +343,14 @@
               ]
             },
             {
+              "id": "blk-d7807ad1",
               "type": "refrain",
               "lines": [
                 "Chaguwa , chaguwa wewe chaguwa yako njia eh we mujoli chaguwa yako njia ya wewe kwenda"
               ]
             },
             {
+              "id": "blk-c981ecf1",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -337,6 +358,7 @@
               ]
             },
             {
+              "id": "blk-13886f63",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -379,6 +401,7 @@
           },
           "content": [
             {
+              "id": "blk-4ae98748",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -386,12 +409,14 @@
               ]
             },
             {
+              "id": "blk-dcfd9981",
               "type": "refrain",
               "lines": [
                 "Eh sikieni wajoli sauti kasikiwa rama vilio na maombolezo , Rakeli akililia wana wake wana wake wa changa hataki kufarijiwa sababu awake."
               ]
             },
             {
+              "id": "blk-06950b77",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -434,6 +459,7 @@
           },
           "content": [
             {
+              "id": "blk-c57b5be8",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -441,12 +467,14 @@
               ]
             },
             {
+              "id": "blk-cd185a3a",
               "type": "refrain",
               "lines": [
                 "Mushauri wangu yuko wapi faida ya upotevu yuko wapi mwongozi mwema yuko wapi hii napotea jamani na ingia mu mambo ya watu na potea mu wajoli na mu watu wa dunia Hehi na potea jamanina ingia mu hila ya nyoka na potea mu wajoli na ùu watu wa dunia."
               ]
             },
             {
+              "id": "blk-74a41f45",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -454,6 +482,7 @@
               ]
             },
             {
+              "id": "blk-d5043b9c",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -494,18 +523,21 @@
           },
           "content": [
             {
+              "id": "blk-be28ca2e",
               "type": "source_block",
               "lines": [
                 "Pankuvwa bena ninawa badji butuka djabo bonso bakadila mwadi kubangila ku nfumu yabo ne muntu yonso bakaji ne balume ne bana ne bimunwa biabo."
               ]
             },
             {
+              "id": "blk-27ca48e5",
               "type": "refrain",
               "lines": [
                 "Kadji yepowa nzambi anghanta buloji bwanyihub u mema nyikala ne moyo."
               ]
             },
             {
+              "id": "blk-102821c1",
               "type": "comment",
               "lines": [
                 "-Kadji yepowa nzambi anghanta kumanga anya mema nykala ne moyo",
@@ -552,6 +584,7 @@
           },
           "content": [
             {
+              "id": "blk-22392408",
               "type": "source_block",
               "lines": [
                 "1. \tAna huyu kajirika kuwa mutumishi wa bwana naye aliitaji kupata mwana kwa faraja ya bwana ¨Basi katoa naziri yake ya kama mwana utakaenipa eh baba atakuwa",
@@ -559,6 +592,7 @@
               ]
             },
             {
+              "id": "blk-79d36578",
               "type": "refrain",
               "lines": [
                 "Kilio iki kikafika ku mukono wa bwana , kilio iki kikafika kwa nguvu ya bwana nimepata mwanamume kwa mufalume eh",
@@ -566,6 +600,7 @@
               ]
             },
             {
+              "id": "blk-8a99468f",
               "type": "comment",
               "lines": [
                 "-Basi mungu wangu ananisikia nimepata mwanamume kwa mufalume -Basi mungu ana ni kubali -Kwa maombi yangu ananisikia",
@@ -611,12 +646,14 @@
           },
           "content": [
             {
+              "id": "blk-4ce00ef8",
               "type": "source_block",
               "lines": [
                 "1. \tNdugu na rafiki tazama wingu za mbingu ¨Kuongoza wana israeli kwingia inchi ya kanana¨2x"
               ]
             },
             {
+              "id": "blk-9f4bd543",
               "type": "refrain",
               "lines": [
                 "Wanangu wachanga tu shangilie mungu , mungu wa mababu ndie mungu wa",
@@ -624,6 +661,7 @@
               ]
             },
             {
+              "id": "blk-c86459a1",
               "type": "comment",
               "lines": [
                 "-Huyu mungu wa ukweli\tmungu wa mababu ndie mungu wa ukweli",

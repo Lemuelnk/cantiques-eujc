@@ -42,24 +42,28 @@
           },
           "content": [
             {
+              "id": "blk-b76b3cff",
               "type": "source_block",
               "lines": [
                 "Ndjikubikila Mukalenga Zambi wa misumba ya bantu¨2x ¨ Lwakudjatakaja makalenga adji kumitshima ya bantu.¨2x"
               ]
             },
             {
+              "id": "blk-529f9470",
               "type": "refrain",
               "lines": [
                 "(Kaji Lebeka wewa ) Lebeka tuluka pa punda ukalala mwa Sala djituku djibidji ne uye uji baeba Isaka 2x"
               ]
             },
             {
+              "id": "blk-a779619c",
               "type": "source_block",
               "lines": [
                 "Bwa kudjangatila pa kwansa mutukundingwija mukalenga 2x kwangata butumbi bwebe utumbija nzambi mu kwabo."
               ]
             },
             {
+              "id": "blk-58bebeb2",
               "type": "source_block",
               "lines": [
                 "Makalenga ne manfumu midjimu ibidji pa buloba idji kokesha muntu eu moyo wende wa pa buloba."
@@ -94,24 +98,28 @@
           },
           "content": [
             {
+              "id": "blk-39af7e41",
               "type": "source_block",
               "lines": [
                 "Minakualika mufalme Mungu mumbaji wawatu (×2 Uje utawala mafalme tano miongoni mwa watu(×2)"
               ]
             },
             {
+              "id": "blk-f3f14cce",
               "type": "refrain",
               "lines": [
                 "kweli Rebeka wewe, Rebeka shuka kupunda ukalale kwa Sara, masiku mbili na urudi kwa mumeo Isaka (×2)"
               ]
             },
             {
+              "id": "blk-f2310aee",
               "type": "source_block",
               "lines": [
                 "Ujichukuliye kwa kiti usiku umeingia mufalme×2 kamata utukufu wako utukuzwe nao miungu mingine (×2)."
               ]
             },
             {
+              "id": "blk-679fdbb1",
               "type": "source_block",
               "lines": [
                 "Mafalume na sultani ni waovu wa wili duniani×2wakonatabisha mutu huyu katika fahari za duniani (×2)"
@@ -154,12 +162,14 @@
           },
           "content": [
             {
+              "id": "blk-979e083e",
               "type": "source_block",
               "lines": [
                 "Isaka mutu mukongwe macho ikapofuka akaomba mwanae Esau u nyama mwenye kunona amuongezee baraka."
               ]
             },
             {
+              "id": "blk-fdf2569c",
               "type": "refrain",
               "lines": [
                 "Kweli Yakobo wangu wende uchukue mwana mbuzi uje upokee baraka",
@@ -168,18 +178,21 @@
               ]
             },
             {
+              "id": "blk-e1b8441e",
               "type": "source_block",
               "lines": [
                 "Rebeka katayarisha wana mbuzi wa wili akampa Yakobo ampelekee Isaka amuongezee baraka."
               ]
             },
             {
+              "id": "blk-c87c4494",
               "type": "source_block",
               "lines": [
                 "Esau kauzunika (kachukizwa ) kalia"
               ]
             },
             {
+              "id": "blk-ac670023",
               "type": "source_block",
               "lines": [
                 "kaomboleza juu ya furaha yangu nitauwa Yakobo ameninianganya baraka."
@@ -224,6 +237,7 @@
           },
           "content": [
             {
+              "id": "blk-6d33f342",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -231,18 +245,21 @@
               ]
             },
             {
+              "id": "blk-3e25740c",
               "type": "refrain",
               "lines": [
                 "Akaita Esau, ( Esau ) Yakobo akanena mimi apa bwana Yakobo utawale juu yetu , mimi apa bwana"
               ]
             },
             {
+              "id": "blk-25912d17",
               "type": "comment",
               "lines": [
                 "Com : Yakobo umepata baraka mimi apa bwana Yakobo ubarikiwe na bwana."
               ]
             },
             {
+              "id": "blk-0dba02aa",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -283,12 +300,14 @@
           },
           "content": [
             {
+              "id": "blk-b5204988",
               "type": "source_block",
               "lines": [
                 "1. \tYakobo wa kadi ne bana dikumi ne ba bidi¨2x Mukatchi mwa bwamu bakatungila Yosefa bobu bakela tshifufu bwa kujipa yosefa."
               ]
             },
             {
+              "id": "blk-9abe494e",
               "type": "refrain",
               "lines": [
                 "Yosefa mu bianza bia potifa",
@@ -296,6 +315,7 @@
               ]
             },
             {
+              "id": "blk-9b90278c",
               "type": "comment",
               "lines": [
                 "- Missinnaire mu bianza bia potifa kamanda kamasalayi - Bena djii -Twetu bonso (Lubena) Lubena ne Yuda bakasungila Yosefu twetu tumwela mu",
@@ -341,6 +361,7 @@
           },
           "content": [
             {
+              "id": "blk-94570eda",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -348,18 +369,21 @@
               ]
             },
             {
+              "id": "blk-68b8d80f",
               "type": "refrain",
               "lines": [
                 "Yakobo unlache nlende mimi sitakwacha unibariki"
               ]
             },
             {
+              "id": "blk-08237a8b",
               "type": "comment",
               "lines": [
                 "Com : -Mungu kanena unlache nlende mimi sita kwacha unibariki -Mungu katubu uniache nlende mimi sitakwacha unibariki."
               ]
             },
             {
+              "id": "blk-f5f5c26e",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -367,6 +391,7 @@
               ]
             },
             {
+              "id": "blk-59c7c2cd",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -409,6 +434,7 @@
           },
           "content": [
             {
+              "id": "blk-847c9269",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -416,12 +442,14 @@
               ]
             },
             {
+              "id": "blk-5028f279",
               "type": "refrain",
               "lines": [
                 "Eh we mujoli uenda wapi njiani mwa mufalme , wewe mujoli uenda leo njiani mwa mufalme Ujazare usiuwe mwana mu mambo ya duniani , Ujazare usiune neno mu mambo ya duniani."
               ]
             },
             {
+              "id": "blk-123e456d",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -429,6 +457,7 @@
               ]
             },
             {
+              "id": "blk-68e40552",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -469,12 +498,14 @@
           },
           "content": [
             {
+              "id": "blk-daef0f79",
               "type": "source_block",
               "lines": [
                 "1. Nikatazama muji mtakatifu yerusalema kushuka duniani kutoka mbinguni kitini mwa mufalme pango la muji lilikuwa na lango tenashara, kabila la Israeli mwana wa Yakobo."
               ]
             },
             {
+              "id": "blk-5c4704f0",
               "type": "refrain",
               "lines": [
                 "- Lango hili la nani la Rubeni naSimeoni - Lawi\tna Yuda - Dani\tna Nafutali - Gadi\tna Aseri- Isakarina Zebuluni - Yusufu na BenyaminaWote wana wa yakobo Ukitenda wema wako",
@@ -519,12 +550,14 @@
           },
           "content": [
             {
+              "id": "blk-14f01cf8",
               "type": "source_block",
               "lines": [
                 "1. Yakobo kwelekea mashariki katazama Rakeli akichunga kondoo za babae"
               ]
             },
             {
+              "id": "blk-29da7fa0",
               "type": "comment",
               "lines": [
                 "- kumashariki katazama Rakeli akichunga kondoo za babae - kwakwitaji muke -",
@@ -532,6 +565,7 @@
               ]
             },
             {
+              "id": "blk-72c428b5",
               "type": "refrain",
               "lines": [
                 "Kweli kweli kwa unyonge wa moyo Yakobo, Yakobo kweli kafarijiwa. - Kwa Rakeli mupendwa Yakobo katumikia Labani miaka saba yeye akitamani Rakeli,",
@@ -577,6 +611,7 @@
           },
           "content": [
             {
+              "id": "blk-f0f1cf63",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -584,12 +619,14 @@
               ]
             },
             {
+              "id": "blk-a40a0c4e",
               "type": "refrain",
               "lines": [
                 "Wakristu wa penzi tudumu ndani ya neno ( mungu atawapa kila mutu zawadi yake) tazama chuki na wivu zina leta haibu na ziki."
               ]
             },
             {
+              "id": "blk-1a66c82a",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -597,6 +634,7 @@
               ]
             },
             {
+              "id": "blk-78b144fe",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -604,6 +642,7 @@
               ]
             },
             {
+              "id": "blk-25d2990d",
               "type": "verse",
               "number": "4",
               "lines": [

@@ -44,6 +44,7 @@
           },
           "content": [
             {
+              "id": "blk-0c1b08f2",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -51,12 +52,14 @@
               ]
             },
             {
+              "id": "blk-ebf2004f",
               "type": "refrain",
               "lines": [
                 "Kwa kujenga nyumba ya mufalme wajoli ( enyi wajoli ) nyundo isisikiwe , chombo cha chuma chochote ¨Sauti yake isisikiwe humo ndani ya nyumba ya mungu wa uzima ¨2x Solomono mufalme mwana wa Daudi Mujengaji mufalme ¨ Mujengaji wa nyumba ¨ Kwa hakili zake mufalme ¨"
               ]
             },
             {
+              "id": "blk-288033c8",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -64,6 +67,7 @@
               ]
             },
             {
+              "id": "blk-5b3517e5",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -106,6 +110,7 @@
           },
           "content": [
             {
+              "id": "blk-9cecfa35",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -113,12 +118,14 @@
               ]
             },
             {
+              "id": "blk-3b740807",
               "type": "refrain",
               "lines": [
                 "Solomono mufalme kamutukuza mungu solomono mufalme ."
               ]
             },
             {
+              "id": "blk-517c57c4",
               "type": "comment",
               "lines": [
                 "-Kwa kumaliza kazi ¨ ¨ ¨ ¨",
@@ -128,6 +135,7 @@
               ]
             },
             {
+              "id": "blk-d416fd7b",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -135,6 +143,7 @@
               ]
             },
             {
+              "id": "blk-df6cb0fa",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -177,6 +186,7 @@
           },
           "content": [
             {
+              "id": "blk-7c13ce43",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -184,18 +194,21 @@
               ]
             },
             {
+              "id": "blk-4cfa1cf5",
               "type": "refrain",
               "lines": [
                 "Akili ya mungu kukata maneno mwana siwako mwana alie huai."
               ]
             },
             {
+              "id": "blk-711fdde3",
               "type": "comment",
               "lines": [
                 "Com :-Delila musaliti mwana siwako mwana alie na huai -Ewe mwenzangu \" \" \" \" \" -Ndugu tunafia nini \" \" \" \" \" -Nawe uzale wako \" \" \" \" \""
               ]
             },
             {
+              "id": "blk-1aa750c8",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -238,6 +251,7 @@
           },
           "content": [
             {
+              "id": "blk-73e7f33b",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -245,12 +259,14 @@
               ]
             },
             {
+              "id": "blk-e6de035d",
               "type": "refrain",
               "lines": [
                 "Eh mimi , mimi na chagua kukaa nyumbani mwa bwana wangu niwe kama nguzo nyumbani mwa bwana milele na milele ."
               ]
             },
             {
+              "id": "blk-11af6716",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -258,6 +274,7 @@
               ]
             },
             {
+              "id": "blk-0cb8e4fb",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -300,6 +317,7 @@
           },
           "content": [
             {
+              "id": "blk-fd7fe8d2",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -307,18 +325,21 @@
               ]
             },
             {
+              "id": "blk-f5bc9953",
               "type": "refrain",
               "lines": [
                 "Bwana mungu ni metoa ee nimetoa na zaka ni pate uzima wa milele (toa basi)"
               ]
             },
             {
+              "id": "blk-a43d337f",
               "type": "comment",
               "lines": [
                 "Com : -Nimetoa na ya kila siku nipate uzima wa milele -Ni metoa na ya upendo \" \" \" \" -Ni metoa na ya haadi\" \" \" \""
               ]
             },
             {
+              "id": "blk-49b8da07",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -326,6 +347,7 @@
               ]
             },
             {
+              "id": "blk-56a5712b",
               "type": "verse",
               "number": "3",
               "lines": [

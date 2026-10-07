@@ -42,12 +42,14 @@
           },
           "content": [
             {
+              "id": "blk-36bdcf4e",
               "type": "source_block",
               "lines": [
                 "Adama alikuwa na wana wa wili, mukubwa Kaini mulimaji udongo ( mudogo) Abeli mulinzi wa kondoo."
               ]
             },
             {
+              "id": "blk-597743f1",
               "type": "refrain",
               "lines": [
                 "Wa ndugu tu chunge neno , sisi twache ku chukiana tu sije tu kaangamia kwajili ya anas aya dunia.",
@@ -56,18 +58,21 @@
               ]
             },
             {
+              "id": "blk-c9635a28",
               "type": "source_block",
               "lines": [
                 "Siku zilipita kaini na Abeli Wote (wawili) wakatoa zabihu zao kwa bwana (udogo) Abeli kaeshimiwa."
               ]
             },
             {
+              "id": "blk-8828c160",
               "type": "source_block",
               "lines": [
                 "Sikilizeni usemi wa mumbaji enyi wajoli kama Kaini akalipishwa kisasi mara saba eh iwe kwako mara makumi sabana saba."
               ]
             },
             {
+              "id": "blk-9d84de70",
               "type": "comment",
               "lines": [
                 "- Utukufu ku neno mara makumi saba na saba",
@@ -113,6 +118,7 @@
           },
           "content": [
             {
+              "id": "blk-af04bc3e",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -120,18 +126,21 @@
               ]
             },
             {
+              "id": "blk-7ecad981",
               "type": "refrain",
               "lines": [
                 "Ndugu mujoli sina jambo na wewe , umeniuwa bure kumashariki ya Edeni"
               ]
             },
             {
+              "id": "blk-2fb206be",
               "type": "comment",
               "lines": [
                 "Com : -Acha asira sina jambo na wewe Umeniuwa bure ku mashariki ya Edeni -Acha chuki sina jambo na wewe -Acha fitina sina jambo na wewe"
               ]
             },
             {
+              "id": "blk-682a359c",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -174,6 +183,7 @@
           },
           "content": [
             {
+              "id": "blk-0a729bd8",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -181,12 +191,14 @@
               ]
             },
             {
+              "id": "blk-8c078270",
               "type": "refrain",
               "lines": [
                 "Ndugu tutafia nini kila mutu na zawadi yake mbele yake mungu , Ata ukila na kunywa kwangu mimi sikitu (sikitu) kamwe sitaiga mutu ."
               ]
             },
             {
+              "id": "blk-638a60a0",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -194,6 +206,7 @@
               ]
             },
             {
+              "id": "blk-9591143f",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -234,12 +247,14 @@
           },
           "content": [
             {
+              "id": "blk-cc09adf9",
               "type": "source_block",
               "lines": [
                 "Enyi wanangu wa changa sikieni vinene via huduma, Abeli mutu wa kwanza yeye amemuzaa Kaini pia na Abeli."
               ]
             },
             {
+              "id": "blk-036a9cba",
               "type": "comment",
               "lines": [
                 "- Chuki mu shamba: Adamu mutu wa kwanza yeye amemuzaa Kaini pia na Abeli",
@@ -247,6 +262,7 @@
               ]
             },
             {
+              "id": "blk-858361d4",
               "type": "refrain",
               "lines": [
                 "Kilio e kilio e kilio baba, kilio e Abeli kalia baba, Kaini ameniuwa, sikuwa upanga si kuchukuwa mali za shamba, ameniuwa bure ngongo",
@@ -254,12 +270,14 @@
               ]
             },
             {
+              "id": "blk-a0093c99",
               "type": "source_block",
               "lines": [
                 "Siku ya sadaka yao mbele yake mumbaji wenye watu."
               ]
             },
             {
+              "id": "blk-16035210",
               "type": "comment",
               "lines": [
                 "- Abeli mutume wa neno mumbaji wenye watu",

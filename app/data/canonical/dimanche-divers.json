@@ -42,6 +42,7 @@
           },
           "content": [
             {
+              "id": "blk-a06bf92c",
               "type": "source_block",
               "lines": [
                 "Ndinghela lubila buyona wa nzambi¨2x mbikila tatu nzambi wa yakobo (mbikila tatu ) (bwa mibi yonso) bwa mibi ya bafwa Leza ni bipendu",
@@ -49,6 +50,7 @@
               ]
             },
             {
+              "id": "blk-ace01ca7",
               "type": "refrain",
               "lines": [
                 "Anu nzambi wetu nzambi wetu lwaku, nzambi wetu luakwaku.",
@@ -56,6 +58,7 @@
               ]
             },
             {
+              "id": "blk-06356b85",
               "type": "comment",
               "lines": [
                 "-Mbuji-mayi, mbuji-mayi  wa mukalenga nyakwela lubila",
@@ -102,6 +105,7 @@
           },
           "content": [
             {
+              "id": "blk-2d744c7c",
               "type": "source_block",
               "lines": [
                 "Natowa yowe kama yoane wa mungu¨2x (mimi ) nialike baba mungu wa yakobo uwovu wa mafarisayo na shutumu zao kweli mimi vimenizuru mungu wa",
@@ -109,6 +113,7 @@
               ]
             },
             {
+              "id": "blk-98184bf3",
               "type": "refrain",
               "lines": [
                 "Alikeni bwana ¨mungu wetu njoo , mungu wetu njoni (njoni leo, mufalmed njoni) ¨2x",
@@ -116,6 +121,7 @@
               ]
             },
             {
+              "id": "blk-583f82df",
               "type": "comment",
               "lines": [
                 "- Lubumbashi wa mufalme natoa yow",
@@ -161,6 +167,7 @@
           },
           "content": [
             {
+              "id": "blk-35850ad1",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -168,12 +175,14 @@
               ]
             },
             {
+              "id": "blk-153a9af2",
               "type": "refrain",
               "lines": [
                 "Jogo hajanza ku wiga wewe utamukana yesu kwajili ya mambo haya mfulame utamukana."
               ]
             },
             {
+              "id": "blk-d5f1eae2",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -181,6 +190,7 @@
               ]
             },
             {
+              "id": "blk-74874f8d",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -223,6 +233,7 @@
           },
           "content": [
             {
+              "id": "blk-1800c30b",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -230,12 +241,14 @@
               ]
             },
             {
+              "id": "blk-ef6573ee",
               "type": "refrain",
               "lines": [
                 "Tu fanye huduma za bwana kwa nguvu na kwa furaha ili tu pewe ujira kwa bwana , (ujira) ni uzima wa milele."
               ]
             },
             {
+              "id": "blk-42f13911",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -243,6 +256,7 @@
               ]
             },
             {
+              "id": "blk-b229be7e",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -285,12 +299,14 @@
           },
           "content": [
             {
+              "id": "blk-e78b9d5e",
               "type": "refrain",
               "lines": [
                 "Basi nitasema nini kwa mungu wangu tamsii mumbaji wangu roho, roho shuka uduma zitimilike eh baba roho , roho shuka na mimi ni pumuzishwe."
               ]
             },
             {
+              "id": "blk-7e96f60e",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -298,6 +314,7 @@
               ]
             },
             {
+              "id": "blk-4e0b6f33",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -305,6 +322,7 @@
               ]
             },
             {
+              "id": "blk-6b63e4cd",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -345,12 +363,14 @@
           },
           "content": [
             {
+              "id": "blk-1aa8e846",
               "type": "source_block",
               "lines": [
                 "Siku atakuja yesu mwana mungu sisi awa tutaenda kumusalimu."
               ]
             },
             {
+              "id": "blk-9585bfcd",
               "type": "comment",
               "lines": [
                 "-Na wa baba wataenda kama utabaki sisi awa tutaenda kumusalimu",
@@ -398,6 +418,7 @@
           },
           "content": [
             {
+              "id": "blk-980d1b09",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -405,6 +426,7 @@
               ]
             },
             {
+              "id": "blk-47eac665",
               "type": "comment",
               "lines": [
                 "Com :-Huduma ni kazi hazi ni zuru kwajili ya jina lako",
@@ -414,6 +436,7 @@
               ]
             },
             {
+              "id": "blk-247535fb",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -421,6 +444,7 @@
               ]
             },
             {
+              "id": "blk-73205d2a",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -463,12 +487,14 @@
           },
           "content": [
             {
+              "id": "blk-51bb0820",
               "type": "refrain",
               "lines": [
                 "\"Yesu unena , unena haki kweli yoyoyo \"2x yakiniew yoyoyo , tumiharifu ni namna gani mwili humu ni mateso tumiharifu ni namna gani katika mbingu ni furaha Ikiwa mutu hakuzaliwa maradufu \"Kwa maji kwa roho hawezi kuona ufalme wa mungu \"2x"
               ]
             },
             {
+              "id": "blk-8b23ec32",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -476,6 +502,7 @@
               ]
             },
             {
+              "id": "blk-70462c72",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -483,6 +510,7 @@
               ]
             },
             {
+              "id": "blk-275add48",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -490,6 +518,7 @@
               ]
             },
             {
+              "id": "blk-0c7559f4",
               "type": "comment",
               "lines": [
                 "Com :-Watu hawa hawasikie yoyoyo hawa amini.",
@@ -534,6 +563,7 @@
           },
           "content": [
             {
+              "id": "blk-ca143397",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -541,12 +571,14 @@
               ]
             },
             {
+              "id": "blk-e5aec67f",
               "type": "refrain",
               "lines": [
                 "Ah dunia (kweli dunia ) dunia imearibika usherati unaharibu inchi ."
               ]
             },
             {
+              "id": "blk-432a4367",
               "type": "comment",
               "lines": [
                 "Com : -(kweli dunia) dunia imeharibika kusengenia kuharibu inchi",
@@ -555,6 +587,7 @@
               ]
             },
             {
+              "id": "blk-5d2c20ce",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -562,6 +595,7 @@
               ]
             },
             {
+              "id": "blk-e21cbb56",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -602,12 +636,14 @@
           },
           "content": [
             {
+              "id": "blk-7891989c",
               "type": "source_block",
               "lines": [
                 "1. Namaswali yako wewe inakutabisha ¨2x ndugu yangu usione fahari kwa mungu wa uzima"
               ]
             },
             {
+              "id": "blk-70d8ab40",
               "type": "source_block",
               "lines": [
                 "- Na bulozi bwako wewe, bunakutabisha",
@@ -616,6 +652,7 @@
               ]
             },
             {
+              "id": "blk-053f7a62",
               "type": "source_block",
               "lines": [
                 "2. ¨Ju ya nini usione fahari ya mungu wa uzima ¨2x Wakati umetimia kwa kumuhimidi",
@@ -664,6 +701,7 @@
           },
           "content": [
             {
+              "id": "blk-00d33a44",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -671,12 +709,14 @@
               ]
             },
             {
+              "id": "blk-c4199286",
               "type": "refrain",
               "lines": [
                 "(Macho) macho yasione , yasisikie masikio , pua isinuse mikono isiguse, kinwa kisinene."
               ]
             },
             {
+              "id": "blk-73878d0e",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -684,6 +724,7 @@
               ]
             },
             {
+              "id": "blk-ad084723",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -726,6 +767,7 @@
           },
           "content": [
             {
+              "id": "blk-c31419de",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -733,12 +775,14 @@
               ]
             },
             {
+              "id": "blk-905fe5ea",
               "type": "refrain",
               "lines": [
                 "Ah ! Eh baba naziri zangu , naziri zangu nitaitimiza mungu wangu unilinde hai."
               ]
             },
             {
+              "id": "blk-0244e64d",
               "type": "comment",
               "lines": [
                 "Com : -Nitaombea watu nitaitimiza mungu wangu unilinde hai",
@@ -747,6 +791,7 @@
               ]
             },
             {
+              "id": "blk-83af3005",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -754,6 +799,7 @@
               ]
             },
             {
+              "id": "blk-1deaa43e",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -796,6 +842,7 @@
           },
           "content": [
             {
+              "id": "blk-4ef1c3a2",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -803,12 +850,14 @@
               ]
             },
             {
+              "id": "blk-def4a068",
               "type": "refrain",
               "lines": [
                 "Bali nyinyi mutapokea hadi amishukiapo roho mwema mwilini mwenu , kweli nyini mutakuwa washuda wangu mu yudae yote ah ah musamaria hata mipaka ya dunia (hata mwishoni wa dunia.) \"Basi kwaleo tumesubiri roho mwema ndio hadi ya baba \"2x"
               ]
             },
             {
+              "id": "blk-3c9ed42a",
               "type": "comment",
               "lines": [
                 "Com : -Hadi idiayo tumesubiri roho mwema ndio hadi ya baba.",
@@ -816,6 +865,7 @@
               ]
             },
             {
+              "id": "blk-3cacff1b",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -823,6 +873,7 @@
               ]
             },
             {
+              "id": "blk-78a34532",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -863,42 +914,49 @@
           },
           "content": [
             {
+              "id": "blk-f5c59938",
               "type": "source_block",
               "lines": [
                 "1. Twaondoka mulima wa sinai ¨Tukipanda mulima wa sayuni ili nipate uzima (2x)"
               ]
             },
             {
+              "id": "blk-c21a08ec",
               "type": "refrain",
               "lines": [
                 "Nauwa roho yangu (mimi) nauwa nafsi yangu ¨mimi nauwa mwili wangu ili nipate uzima (2x)"
               ]
             },
             {
+              "id": "blk-a23af6e7",
               "type": "source_block",
               "lines": [
                 "2. Ulichaguwa mababu ulichaguwa mitume, ¨Unichaguwe na mimi ili nipate uzima (2x)"
               ]
             },
             {
+              "id": "blk-1cf8ef76",
               "type": "source_block",
               "lines": [
                 "3. Si ajabu wewe kunichagua Ewe mumba wangu Ila kwa rehema yako mimi tapata uzima (2x)"
               ]
             },
             {
+              "id": "blk-1e8756ba",
               "type": "source_block",
               "lines": [
                 "334. TWAONDOKA MULIMA WA SINAI"
               ]
             },
             {
+              "id": "blk-0178eb96",
               "type": "source_block",
               "lines": [
                 "1. Twaondoka mulima wa sinai, sisi twaondoka mulima wa sinai (2x) Tukipanda mulima wa sayuni, sisi tukipanda mulima wa sayuni (2x)"
               ]
             },
             {
+              "id": "blk-1c3fd746",
               "type": "refrain",
               "lines": [
                 "Sayuni ¨ ¨ sayuni ¨, sayuni, sayuni tuaitaji Sayuni inchi nzuri sana ¨2x",
@@ -945,12 +1003,14 @@
           },
           "content": [
             {
+              "id": "blk-4323d310",
               "type": "source_block",
               "lines": [
                 "Tazama furaha ziko mbinguni nzuri ya tungojea ndugu zangu wote tazama furaha ziko mbinguni nzuri ya tungojea twenende wote."
               ]
             },
             {
+              "id": "blk-419b38f4",
               "type": "refrain",
               "lines": [
                 "Furaha njema iko kwa kila mutu (moja) atakae tubu kwa haki kweli siku zile malaika wataimba wimbo mbinguni aleluya siku zile malaika",
@@ -995,12 +1055,14 @@
           },
           "content": [
             {
+              "id": "blk-9cf36d24",
               "type": "source_block",
               "lines": [
                 "Ni nani atahukumu wateule wa mungu (2x) yoyowe Mungu peke yake ndie mwamuzi wao (2x)"
               ]
             },
             {
+              "id": "blk-0d39b822",
               "type": "refrain",
               "lines": [
                 "Ni nani, ni nani atakae nitenga mimi na",
@@ -1008,6 +1070,7 @@
               ]
             },
             {
+              "id": "blk-d4840c02",
               "type": "comment",
               "lines": [
                 "- Ni ni, ninini kitakacho nitenga mimi na upendo wa mungu yoyowe ni macho ao masikio yangu ni kinywa changu ao ni zambi zangu",
@@ -1056,6 +1119,7 @@
           },
           "content": [
             {
+              "id": "blk-c0640d00",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -1063,6 +1127,7 @@
               ]
             },
             {
+              "id": "blk-a05dcd4e",
               "type": "comment",
               "lines": [
                 "-Mizigo ni chukuwayo yani zuru mimi sina ndugu baba wala mama yule hawezi kuichukuwa.",
@@ -1071,6 +1136,7 @@
               ]
             },
             {
+              "id": "blk-4d66ddb7",
               "type": "refrain",
               "lines": [
                 "-Kwetu mbinguni hakuna ulozi kwa mungu mwenyezi",
@@ -1081,6 +1147,7 @@
               ]
             },
             {
+              "id": "blk-fde5d1da",
               "type": "comment",
               "lines": [
                 "Com :-Kwetu mbinguni kunako furaha kwa mungu mwenyezi",
@@ -1123,6 +1190,7 @@
           },
           "content": [
             {
+              "id": "blk-4be77d04",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -1130,12 +1198,14 @@
               ]
             },
             {
+              "id": "blk-55b0ecb0",
               "type": "refrain",
               "lines": [
                 "\"Ewe baba na we mama jazare kutowa matunda \"2x Ewe ndugu \"Tujiazari kutowa matunda isio kufaha toba \"2x"
               ]
             },
             {
+              "id": "blk-c1095397",
               "type": "comment",
               "lines": [
                 "Com : -Tunda ni neno tujiazari kutowa matunda isio kufaha toba",
@@ -1144,6 +1214,7 @@
               ]
             },
             {
+              "id": "blk-41678bfa",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -1151,6 +1222,7 @@
               ]
             },
             {
+              "id": "blk-173e57d5",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -1191,6 +1263,7 @@
           },
           "content": [
             {
+              "id": "blk-7b14c139",
               "type": "source_block",
               "lines": [
                 "¨Mungu wa Musa tuketi nawe , mufalume wangu tuketi¨2x jehova tuketi nawe usitukanushe mufalme wangu tuketi.",
@@ -1238,18 +1311,21 @@
           },
           "content": [
             {
+              "id": "blk-8321d9e8",
               "type": "source_block",
               "lines": [
                 "Ye lele lele ah! lele jambo gani eh ah lele , jambo lakushangza yesu alitufia ju ya zambi maovu nayo haikome ingali inaendelea."
               ]
             },
             {
+              "id": "blk-d8ed79cd",
               "type": "refrain",
               "lines": [
                 "Tufanye nini ¨Twenende kwa mungu baba tutubu uwovu wetu tuzaliwe maradufu ¨2x"
               ]
             },
             {
+              "id": "blk-7401872a",
               "type": "comment",
               "lines": [
                 "-Dada yangu\ttufanye nini twenenda kwa mungu baba tutubu uwovu wetu",
@@ -1260,6 +1336,7 @@
               ]
             },
             {
+              "id": "blk-5614f29b",
               "type": "source_block",
               "lines": [
                 "2. Kwapa , kwapa ni vibaya tazama hali ya herode , herode kahamuru hivi wakate kichwa cha yoane waja na kwenye sahani.",
@@ -1305,6 +1382,7 @@
           },
           "content": [
             {
+              "id": "blk-9eb205fc",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -1312,12 +1390,14 @@
               ]
             },
             {
+              "id": "blk-927d6ae6",
               "type": "refrain",
               "lines": [
                 "Huduma za baba zimearibika mambo ya vizazi zimeharibu huduma nayo ya macheo zimeharibu huduma , ( Musa baba) musa shuka mulimani huduma zitimilike , musa shuka mulimani na sisi tuokolewe."
               ]
             },
             {
+              "id": "blk-abb62294",
               "type": "verse",
               "number": "2",
               "lines": [

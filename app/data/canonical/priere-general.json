@@ -44,6 +44,7 @@
           },
           "content": [
             {
+              "id": "blk-ac90af4e",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -52,6 +53,7 @@
               ]
             },
             {
+              "id": "blk-352e84a9",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -60,6 +62,7 @@
               ]
             },
             {
+              "id": "blk-25659101",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -101,12 +104,14 @@
           },
           "content": [
             {
+              "id": "blk-2b4eec6b",
               "type": "source_block",
               "lines": [
                 "1. Jehova Mungu ananena, ananena watu wote njoni (njoni leo) njoni, wote, njoni wote yeye anawalika."
               ]
             },
             {
+              "id": "blk-87be2b60",
               "type": "refrain",
               "lines": [
                 "Neno la uzima linanena (linanena) watu wote",
@@ -114,6 +119,7 @@
               ]
             },
             {
+              "id": "blk-0e51cd96",
               "type": "source_block",
               "lines": [
                 "2. Yesu wa Mungu ananena (ananena) watu wote njoni (njoni leo) njoni wote, njoni wote yeye",
@@ -158,12 +164,14 @@
           },
           "content": [
             {
+              "id": "blk-bea09df2",
               "type": "source_block",
               "lines": [
                 "1. Yesu ukualika njonii, yesu ukualika wewe"
               ]
             },
             {
+              "id": "blk-6c0a3d26",
               "type": "source_block",
               "lines": [
                 "njonii (njoni kua yesu) njoni uchukuwe nawe nira yangu hii,",
@@ -171,12 +179,14 @@
               ]
             },
             {
+              "id": "blk-1ef99bf0",
               "type": "refrain",
               "lines": [
                 "- baba yangu - ata ukiwa mwenye ulozi - ata ukiwa mutenda zambi (Twimbe haleluya, haleluya)2x"
               ]
             },
             {
+              "id": "blk-de8ccc9d",
               "type": "source_block",
               "lines": [
                 "2. Fahari na iwe kwake Mungu wa mbingu p amani na iwe inchini"
@@ -219,12 +229,14 @@
           },
           "content": [
             {
+              "id": "blk-82e41883",
               "type": "source_block",
               "lines": [
                 "1. Twasankidjila bwa mudji mu nzambi onso twa kwenza ."
               ]
             },
             {
+              "id": "blk-86fe3da3",
               "type": "comment",
               "lines": [
                 "-Yepowa nzambi twakubanga neba mudjimu twakujikilija neba.",
@@ -272,30 +284,35 @@
           },
           "content": [
             {
+              "id": "blk-edd2f676",
               "type": "source_block",
               "lines": [
                 "Nitaendea nani mimi nikupingapo we jehova jiwe langu u jehova ngao langu."
               ]
             },
             {
+              "id": "blk-979f4c06",
               "type": "refrain",
               "lines": [
                 "Eh Mungu usiwe mbali nami Jehova usiniache kamwe jiwe langu unikinge unijaze rehema, jiwe la tegemeo langu uniuwie razi."
               ]
             },
             {
+              "id": "blk-88aed654",
               "type": "source_block",
               "lines": [
                 "2. Moyo wangu usiogope uko na mufariji na muchungaji mwema Bwana kwa kila ziki zote."
               ]
             },
             {
+              "id": "blk-4141444e",
               "type": "source_block",
               "lines": [
                 "3. Naweka moyo wangu mimi mikononi mwa bwana na cha , nashangilia Mungu wangu anaeniponesha."
               ]
             },
             {
+              "id": "blk-8e27ab78",
               "type": "source_block",
               "lines": [
                 "4. Mungu wa Ibrahimu, wa Isaka, Yakobo jiwe langu sayuni bwana uniuwiye razi."
@@ -340,6 +357,7 @@
           },
           "content": [
             {
+              "id": "blk-90909c94",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -347,6 +365,7 @@
               ]
             },
             {
+              "id": "blk-5f51b6eb",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -354,6 +373,7 @@
               ]
             },
             {
+              "id": "blk-f1ae941c",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -394,6 +414,7 @@
           },
           "content": [
             {
+              "id": "blk-b3114b94",
               "type": "refrain",
               "lines": [
                 "(Umoja) umoja nguvu zetu umoja wokovu wetu uh umoja roho zetu.",
@@ -440,12 +461,14 @@
           },
           "content": [
             {
+              "id": "blk-d7f6a013",
               "type": "source_block",
               "lines": [
                 "1. Yepowa nzambi teleja kudjila ne kulomba nzambi tudja,ebana bebe."
               ]
             },
             {
+              "id": "blk-c64682af",
               "type": "comment",
               "lines": [
                 "-Tukulomba mumakenga\tteleja kudjila ne kulomba nzambi tudianu bana bebe.",
@@ -503,6 +526,7 @@
           },
           "content": [
             {
+              "id": "blk-4592a6d3",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -510,6 +534,7 @@
               ]
             },
             {
+              "id": "blk-f07d904b",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -517,6 +542,7 @@
               ]
             },
             {
+              "id": "blk-f144df55",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -559,6 +585,7 @@
           },
           "content": [
             {
+              "id": "blk-08a2ad8b",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -610,6 +637,7 @@
           },
           "content": [
             {
+              "id": "blk-056b80e1",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -617,12 +645,14 @@
               ]
             },
             {
+              "id": "blk-966db4f3",
               "type": "refrain",
               "lines": [
                 "Jehova mungu yesu , roho natabika , mimi natabika eei sipendi kuwa nanyi nauharibii wenu kamwe naitaji njia nzuri na penda njia zako \"Roho uje unifariji nionyeshe njia zako \"2x"
               ]
             },
             {
+              "id": "blk-99f332e9",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -665,6 +695,7 @@
           },
           "content": [
             {
+              "id": "blk-d0a0e857",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -672,12 +703,14 @@
               ]
             },
             {
+              "id": "blk-341e5c03",
               "type": "refrain",
               "lines": [
                 "( Alinena ) alinena omba utapewa , ( alinena ) alinena itaji utaona , ( abishae ) abishae atafunguliwa kwenye mulango wa muji wa bwana."
               ]
             },
             {
+              "id": "blk-c1b787b8",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -685,6 +718,7 @@
               ]
             },
             {
+              "id": "blk-e8c281c7",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -725,6 +759,7 @@
           },
           "content": [
             {
+              "id": "blk-9a9fac73",
               "type": "source_block",
               "lines": [
                 "¨Dieu d’Abraham Dieu sauve-moi ¨2x ¨Dieu sauve-moi sauve-moi mon Dieu ¨2x",
@@ -771,6 +806,7 @@
           },
           "content": [
             {
+              "id": "blk-ffaa3680",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -778,6 +814,7 @@
               ]
             },
             {
+              "id": "blk-96e41469",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -785,6 +822,7 @@
               ]
             },
             {
+              "id": "blk-5da76a97",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -827,6 +865,7 @@
           },
           "content": [
             {
+              "id": "blk-b5fd3323",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -834,6 +873,7 @@
               ]
             },
             {
+              "id": "blk-febdd88e",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -841,6 +881,7 @@
               ]
             },
             {
+              "id": "blk-40e24b77",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -883,6 +924,7 @@
           },
           "content": [
             {
+              "id": "blk-50750d6b",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -890,12 +932,14 @@
               ]
             },
             {
+              "id": "blk-fcc28a6b",
               "type": "refrain",
               "lines": [
                 "(Omba mungu ) omba mungu mumbawako wombe utapewa ( utapewa ) tafuta yesu mwokozi itaji utaona ( utaona ) ubishe mulangoni roho atakufungulia."
               ]
             },
             {
+              "id": "blk-51f0fe61",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -903,6 +947,7 @@
               ]
             },
             {
+              "id": "blk-a9550473",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -943,6 +988,7 @@
           },
           "content": [
             {
+              "id": "blk-35f3275a",
               "type": "source_block",
               "lines": [
                 "Nzambi wanyi tuzanjika pampala pa makola onsa ¨Makalenga ne matumbi ne makokeshi amidima ¨2x",
@@ -987,12 +1033,14 @@
           },
           "content": [
             {
+              "id": "blk-c16c6837",
               "type": "source_block",
               "lines": [
                 "1.  ¨Yeopowa wa nzambi utumvwila kumilombo ya malu adi kumpala kwetu ¨2x"
               ]
             },
             {
+              "id": "blk-50946c84",
               "type": "comment",
               "lines": [
                 "-Papa wanyi\t\tutumvwila kumilombo ya malu adi kumpala kwetu",
@@ -1050,6 +1098,7 @@
           },
           "content": [
             {
+              "id": "blk-ee7f7a3c",
               "type": "refrain",
               "lines": [
                 "Omba mungu na furaha , omba mungu na furaha omba mungu na furaha daima , daima milele.",
@@ -1092,12 +1141,14 @@
           },
           "content": [
             {
+              "id": "blk-fc39fc9b",
               "type": "source_block",
               "lines": [
                 "1. Mubilumbu bianyi (bianyi ) ne mumakenga onso ndjituma nzambi kumpala bwakuntshimwina vita."
               ]
             },
             {
+              "id": "blk-cd4fb8a2",
               "type": "refrain",
               "lines": [
                 "(Aleluya) lomba nzambi tatu wetu e ulombe ne upete (wewe ne upete) keba yesu musungidji ukebe ne umone (wewe ne umone)",
@@ -1105,12 +1156,14 @@
               ]
             },
             {
+              "id": "blk-11b709a7",
               "type": "source_block",
               "lines": [
                 "2. Banga badji bateketa bwamasama ne lufu twikalay ne yesu mubitupa ebibionso."
               ]
             },
             {
+              "id": "blk-094d5470",
               "type": "source_block",
               "lines": [
                 "3. Tudji muntatu ne mumalu amishindu yonso bwakupeta nyuma musambi wetu."
@@ -1155,6 +1208,7 @@
           },
           "content": [
             {
+              "id": "blk-37b8ccaa",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -1162,12 +1216,14 @@
               ]
             },
             {
+              "id": "blk-db170478",
               "type": "refrain",
               "lines": [
                 "\" Nanshi wvalay bionso bia bulwi bia mianda miyampe bantu bamuyuke yesu wa Leza nabo ba mwitabisjie \"2x"
               ]
             },
             {
+              "id": "blk-e8b7f971",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -1175,6 +1231,7 @@
               ]
             },
             {
+              "id": "blk-2eaa7f8c",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -1217,6 +1274,7 @@
           },
           "content": [
             {
+              "id": "blk-e02639f7",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -1224,6 +1282,7 @@
               ]
             },
             {
+              "id": "blk-f7aac162",
               "type": "comment",
               "lines": [
                 "Com : -Tuna kwalika leo twaomboleza twakuomba baba sisi tu wana wako",
@@ -1232,6 +1291,7 @@
               ]
             },
             {
+              "id": "blk-7501984b",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -1239,6 +1299,7 @@
               ]
             },
             {
+              "id": "blk-d2c78e01",
               "type": "comment",
               "lines": [
                 "Com : -Mwana wa mungu twaomboleza twakuomba yesu sisi tu wana wako",
@@ -1247,6 +1308,7 @@
               ]
             },
             {
+              "id": "blk-cf9c467e",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -1254,6 +1316,7 @@
               ]
             },
             {
+              "id": "blk-3cfbef2f",
               "type": "comment",
               "lines": [
                 "Com :-Utushushie moto twaomboleza twakuomba roho sisi tu wana wako",
@@ -1296,12 +1359,14 @@
           },
           "content": [
             {
+              "id": "blk-cc1e2fee",
               "type": "refrain",
               "lines": [
                 "\"Nalia mimi naomboleza \"2x yakini mimi jehoa mungu sipate jibu ."
               ]
             },
             {
+              "id": "blk-f9a044b7",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -1309,6 +1374,7 @@
               ]
             },
             {
+              "id": "blk-e995aa04",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -1316,6 +1382,7 @@
               ]
             },
             {
+              "id": "blk-4554eda9",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -1356,18 +1423,21 @@
           },
           "content": [
             {
+              "id": "blk-46f5218d",
               "type": "source_block",
               "lines": [
                 "Yesu kamwambia baba eh baba nenda duniani hukoo AAAH !! nenda kwa kuokoa chochote kilicho potea ¨Atakae amini kila yeyote amwaminie hawezi kufa kamwe ¨2x"
               ]
             },
             {
+              "id": "blk-ce4c0696",
               "type": "refrain",
               "lines": [
                 "Baba twakushukuru , twakushukuru mungu baba kwani roho ameshuka."
               ]
             },
             {
+              "id": "blk-10f1c455",
               "type": "comment",
               "lines": [
                 "-Mufalme twakushukuru , twakushukuru mfalme yesu neno limetimia. -Roho twakushukuru , twakushukuru roho mfariji ameingia mioyoni -Basi leo tupo , tupo na furaha kubwa furaha ya shangwe kubwa",
@@ -1414,6 +1484,7 @@
           },
           "content": [
             {
+              "id": "blk-33dc019c",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -1421,6 +1492,7 @@
               ]
             },
             {
+              "id": "blk-9aff1a6e",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -1428,6 +1500,7 @@
               ]
             },
             {
+              "id": "blk-12c6acfe",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -1468,24 +1541,28 @@
           },
           "content": [
             {
+              "id": "blk-d5fea2ed",
               "type": "source_block",
               "lines": [
                 "1. Mungu mufalume wa watu (2x)"
               ]
             },
             {
+              "id": "blk-6b888569",
               "type": "refrain",
               "lines": [
                 "muweza wa yote wa mwanzo na mwisho wa dunia (2x)"
               ]
             },
             {
+              "id": "blk-64594627",
               "type": "source_block",
               "lines": [
                 "2. Yesu mukombozi wa watu (2x)"
               ]
             },
             {
+              "id": "blk-1f180c33",
               "type": "source_block",
               "lines": [
                 "3. Roho mufariji wa watu (2x)"
@@ -1528,6 +1605,7 @@
           },
           "content": [
             {
+              "id": "blk-eb7711e6",
               "type": "source_block",
               "lines": [
                 "¨Ndjimwena mudjimu webe yepowa wanyiwe mukalenga wanyi unfwile luse ¨2x ( nzambi mikwabo )",
@@ -1572,6 +1650,7 @@
           },
           "content": [
             {
+              "id": "blk-3a299c74",
               "type": "source_block",
               "lines": [
                 "Tudji bimane kumpala kweba nzambi , katwena ni tshakwenza ¨2x ( nzambi tatu ) ¨Utulombole mudji djiswa djeba bwatubanga neba mudjimu ¨2x",
@@ -1618,6 +1697,7 @@
           },
           "content": [
             {
+              "id": "blk-527d9591",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -1625,6 +1705,7 @@
               ]
             },
             {
+              "id": "blk-5d63b4f5",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -1632,6 +1713,7 @@
               ]
             },
             {
+              "id": "blk-ccc26f4e",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -1639,6 +1721,7 @@
               ]
             },
             {
+              "id": "blk-6696c162",
               "type": "comment",
               "lines": [
                 "Com : -Utulinde baba : Uweza wako wewe jeho va mungu utulinde",
@@ -1680,6 +1763,7 @@
           },
           "content": [
             {
+              "id": "blk-5dcaa59b",
               "type": "source_block",
               "lines": [
                 "Jehova mungu utulinde baba huu wakati wa vita ¨Sisi vifaranga viako eh baba ulinde huhai wetu ¨2x",
@@ -1724,12 +1808,14 @@
           },
           "content": [
             {
+              "id": "blk-30d2bf31",
               "type": "source_block",
               "lines": [
                 "Nastahili kuomba bwana vitu ni pendavio kwani yeye unena aobae upewa ."
               ]
             },
             {
+              "id": "blk-27fbfc2a",
               "type": "refrain",
               "lines": [
                 "( Haleluya tuombe ) ¨Tuombe bwana baba wa mbingu (tuombe ) tuombe bwana wokovu haleluya ¨2x (haleluya ) tuombe bwana baba wa mbingu ( tuombe tuombe bwana wokovu.",
@@ -1777,6 +1863,7 @@
           },
           "content": [
             {
+              "id": "blk-48989618",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -1784,6 +1871,7 @@
               ]
             },
             {
+              "id": "blk-04e84e51",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -1791,6 +1879,7 @@
               ]
             },
             {
+              "id": "blk-253c5876",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -1833,6 +1922,7 @@
           },
           "content": [
             {
+              "id": "blk-bc241cc2",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -1840,6 +1930,7 @@
               ]
             },
             {
+              "id": "blk-55e092c0",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -1847,6 +1938,7 @@
               ]
             },
             {
+              "id": "blk-80371988",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -1887,6 +1979,7 @@
           },
           "content": [
             {
+              "id": "blk-2044503b",
               "type": "source_block",
               "lines": [
                 "1.\t¨Kilio changu jehova mungu usiku muzima silale ¨2x  Jehova , ¨Usiku muzima silali mimi kwa",
@@ -1894,6 +1987,7 @@
               ]
             },
             {
+              "id": "blk-1a282ed0",
               "type": "comment",
               "lines": [
                 "-Itaji kwa baba usiku muzima silali kwa kupeleka itaji .",
@@ -1942,6 +2036,7 @@
           },
           "content": [
             {
+              "id": "blk-56a513ec",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -1949,6 +2044,7 @@
               ]
             },
             {
+              "id": "blk-1f7c56ce",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -1956,6 +2052,7 @@
               ]
             },
             {
+              "id": "blk-a0b857ab",
               "type": "verse",
               "number": "3",
               "lines": [
@@ -1998,6 +2095,7 @@
           },
           "content": [
             {
+              "id": "blk-2bbdb91a",
               "type": "verse",
               "number": "1",
               "lines": [
@@ -2005,6 +2103,7 @@
               ]
             },
             {
+              "id": "blk-3e199377",
               "type": "refrain",
               "lines": [
                 "Eh ! wajoli kumbuka mumbaji wako wako",
@@ -2013,6 +2112,7 @@
               ]
             },
             {
+              "id": "blk-63b27365",
               "type": "verse",
               "number": "2",
               "lines": [
@@ -2020,6 +2120,7 @@
               ]
             },
             {
+              "id": "blk-69ac4b9d",
               "type": "verse",
               "number": "3",
               "lines": [
