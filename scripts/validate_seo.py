@@ -80,6 +80,7 @@ def main():
             expected_urls.add(f"{BASE}/cantique/{slug(category)}/{route}")
 
     generated_pages = sorted(PAGES.glob("*/*/index.html")) if PAGES.exists() else []
+    category_pages = sorted((APP / "categorie").glob("*/index.html")) if (APP / "categorie").exists() else []
     generated_urls = set()
     for page in generated_pages:
         parts = page.relative_to(PAGES).parts
@@ -101,6 +102,16 @@ def main():
         if generated_urls - expected_hymn_urls:
             errors.append(f"unexpected generated pages: {len(generated_urls - expected_hymn_urls)}")
 
+    for page in category_pages:
+        category = page.parent.name
+        html = page.read_text(encoding="utf-8", errors="replace")
+        if "category-jsonld" not in html: errors.append(f"{page}: missing category JSON-LD")
+        if "<h1>" not in html: errors.append(f"{page}: missing h1")
+        if category.startswith("a-classer"):
+            if "noindex" not in html: errors.append(f"{page}: uncurated category must be noindex")
+        else:
+            expected_urls.add(f"{BASE}/categorie/{category}/")
+
     sitemap_urls = set()
     if SITEMAP.exists():
         try:
@@ -120,6 +131,7 @@ def main():
     print(f"Versions        : {total_versions}")
     print(f"Without number  : {missing_numbers}")
     print(f"Generated pages : {len(generated_pages)}")
+    print(f"Category pages  : {len(category_pages)}")
     print(f"Sitemap URLs    : {len(sitemap_urls)}")
     print(f"Warnings        : {len(warnings)}")
     print(f"Errors          : {len(errors)}")
