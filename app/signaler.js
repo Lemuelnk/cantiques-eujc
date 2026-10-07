@@ -613,9 +613,22 @@ async function submitReport(event) {
 // Navigation
 // ------------------------------------------------------------
 function backToHymn() {
-  const url = `cantique.html?hymn=${encodeURIComponent(hymnId || '')}`
-            + `&category=${encodeURIComponent(categoryId)}`;
-  window.location.href = url;
+  const cat = encodeURIComponent(categoryId || 'lesson-1');
+  if (hymnId) {
+    // Signalement depuis un cantique : retour au cantique
+    window.location.href = `cantique.html?hymn=${encodeURIComponent(hymnId)}&category=${cat}`;
+    return;
+  }
+  // Signalement depuis une liste ou global : retour à la liste ou à l'accueil
+  if (currentScope === 'liste-cantiques' || currentScope === 'liste-dimanche' || currentScope === 'liste-priere') {
+    window.location.href = `cantiques.html?category=${cat}`;
+    return;
+  }
+  if (currentScope === 'liste-lessons') {
+    window.location.href = 'lessons.html';
+    return;
+  }
+  window.location.href = 'index.html';
 }
 
 if ($backButton) $backButton.addEventListener('click', () => {
@@ -623,7 +636,23 @@ if ($backButton) $backButton.addEventListener('click', () => {
   else backToHymn();
 });
 
-if ($backToHymn) $backToHymn.addEventListener('click', backToHymn);
+if ($backToHymn) {
+  $backToHymn.addEventListener('click', backToHymn);
+
+  // Adapter le libellé selon le contexte
+  const $btnLabel = $backToHymn.querySelector('span');
+  if ($btnLabel) {
+    if (currentScope === 'cantique') {
+      $btnLabel.textContent = 'Retour au cantique';
+    } else if (currentScope === 'liste-lessons') {
+      $btnLabel.textContent = 'Retour aux leçons';
+    } else if (currentScope.startsWith('liste-')) {
+      $btnLabel.textContent = 'Retour à la liste';
+    } else {
+      $btnLabel.textContent = 'Retour à l\'accueil';
+    }
+  }
+}
 
 // ------------------------------------------------------------
 // Initialisation

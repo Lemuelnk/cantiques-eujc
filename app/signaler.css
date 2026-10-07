@@ -310,7 +310,8 @@ body {
   border: none;
   border-radius: 12px;
   background: var(--rp-bg-dark);
-  color: var(--text-inverse);
+  /* Fix : couleur fixe crème clair (--text-inverse devient vert foncé en dark = invisible) */
+  color: #f5f0e6;
   font-family: inherit;
   font-size: 15px;
   font-weight: 600;
