@@ -18,3 +18,6 @@ jobs:
         run: |
           python3 scripts/generate_seo_pages.py
           python3 scripts/validate_seo.py
+
+      - name: Validate Worker syntax
+        run: node --check worker.js
