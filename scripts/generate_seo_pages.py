@@ -55,7 +55,7 @@ def build(template,h,cat,label,n):
     lang=(v.get("language") or {})
     lang_label=clean(lang.get("label")) or "Langue non identifiée"
     lang_code=clean(lang.get("code")) or "fr"
-    url=f"{BASE}/cantique/{quote(cat)}/{quote(n)}"
+    url=f"{BASE}/cantique/{quote(slug(cat))}/{quote(slug(n))}"
     desc=f'Paroles du cantique « {title} » en {lang_label} dans le recueil Cantiques EUJC. Consultez le cantique, ses couplets et son refrain.'
     doc=re.sub(r"<title>.*?</title>",f"<title>{esc(title)} — Cantiques EUJC</title>",template,1,flags=re.I|re.S)
     doc=re.sub(r'<link rel="canonical" href="[^"]*">',f'<link rel="canonical" href="{esc(url)}">',doc,1,flags=re.I)
