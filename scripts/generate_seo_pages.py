@@ -112,7 +112,6 @@ def category_page(template, cat, label, hymns):
         f'<div class="hymns-list" id="hymns-list">{"".join(links)}</div></section>'
     )
     doc = re.sub(r"<title>.*?</title>", f"<title>{esc(title)}</title>", template, 1, flags=re.I|re.S)
-    doc = re.sub(r'<h1 id="category-title">.*?</h1>', '', doc, 1, flags=re.I|re.S)
     doc = re.sub(r'<p id="category-count">.*?</p>', f'<p id="category-count">{len(links)} cantique{"s" if len(links) != 1 else ""}</p>', doc, 1, flags=re.I|re.S)
     doc = re.sub(r'<link rel="canonical" href="[^"]*">', f'<link rel="canonical" href="{esc(url)}">', doc, 1, flags=re.I)
     doc = meta_replace(doc, r'(<meta\s+name="description"\s+content=")[^"]*(")', desc)
@@ -122,7 +121,7 @@ def category_page(template, cat, label, hymns):
     doc = meta_replace(doc, r'(<meta\s+property="og:url"\s+content=")[^"]*(")', url)
     doc = meta_replace(doc, r'(<meta\s+name="twitter:title"\s+content=")[^"]*(")', title)
     doc = meta_replace(doc, r'(<meta\s+name="twitter:description"\s+content=")[^"]*(")', desc)
-    doc = re.sub(r'<section class="hymns-list" id="hymns-list"[^>]*></section>', intro, doc, 1, flags=re.I)
+    doc = re.sub(r'<section\\b[^>]*\\bid="hymns-list"[^>]*>.*?</section>', intro, doc, 1, flags=re.I|re.S)
     breadcrumb = {"@type":"BreadcrumbList","itemListElement":[
         {"@type":"ListItem","position":1,"name":"Cantiques EUJC","item":f"{BASE}/"},
         {"@type":"ListItem","position":2,"name":label,"item":url}
