@@ -302,13 +302,14 @@ function selectType(type) {
 }
 
 function setupBlockSelection(type) {
-  const wantedType = type === 'couplet' ? 'source_block'
-                   : type === 'refrain' ? 'refrain'
-                   : 'comment';
+  // 'verse' = nom standard des couplets, 'source_block' = ancien nom (compat)
+  const wantedTypes = type === 'couplet' ? ['verse', 'source_block']
+                    : type === 'refrain' ? ['refrain']
+                    : ['comment'];
 
   const blocks = contentBlocks
     .map((b, i) => ({ block: b, index: i, globalIdx: i }))
-    .filter(item => item.block.type === wantedType);
+    .filter(item => wantedTypes.includes(item.block.type));
 
   if (blocks.length === 0) {
     setStatus('Aucun bloc de ce type n\'est disponible dans ce cantique.', 'info');
@@ -353,13 +354,13 @@ function setupOrderSelection(type) {
       return;
     }
 
-    let wantedType = 'source_block';
-    if (val === 'refrain') wantedType = 'refrain';
-    if (val === 'commentaires') wantedType = 'comment';
+    let wantedTypes = ['verse', 'source_block'];
+    if (val === 'refrain') wantedTypes = ['refrain'];
+    if (val === 'commentaires') wantedTypes = ['comment'];
 
     const blocks = contentBlocks
       .map((b, i) => ({ block: b, index: i, globalIdx: i }))
-      .filter(item => item.block.type === wantedType);
+      .filter(item => wantedTypes.includes(item.block.type));
 
     if (blocks.length < 2) {
       setStatus('Il n\'y a pas assez de blocs à réordonner.', 'info');
