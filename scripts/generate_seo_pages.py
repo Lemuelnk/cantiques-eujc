@@ -63,13 +63,28 @@ def meta_upsert(doc, selector, attributes, value):
     attrs = " ".join(f'{k}="{esc(v)}"' for k, v in attributes.items())
     return doc.replace("</head>", f'<meta {attrs} content="{esc(value)}">\n</head>', 1)
 
-def build(template,h,cat,label,n):
+def route_segment(h, cat, used):
+    n = number(h)
+    base = slug(n)
+    if base not in used:
+        used.add(base)
+        return base
+    ident = slug(h.get("id")) or "doublon"
+    candidate = f"{base}-{ident}"
+    suffix = 2
+    while candidate in used:
+        candidate = f"{base}-{ident}-{suffix}"
+        suffix += 1
+    used.add(candidate)
+    return candidate
+
+def build(template,h,cat,label,n,route):
     v=primary(h) or {}
     title=clean(v.get("title")) or clean(h.get("title")) or "Cantique"
     lang=(v.get("language") or {})
     lang_label=clean(lang.get("label")) or "Langue non identifiée"
     lang_code=clean(lang.get("code")) or "fr"
-    url=f"{BASE}/cantique/{quote(slug(cat))}/{quote(slug(n))}"
+    url=f"{BASE}/cantique/{quote(slug(cat))}/{quote(route)}"
     desc=f'Paroles du cantique « {title} » en {lang_label} dans le recueil Cantiques EUJC. Consultez le cantique, ses couplets et son refrain.'
     doc=re.sub(r"<title>.*?</title>",f"<title>{esc(title)} — Cantiques EUJC</title>",template,1,flags=re.I|re.S)
     doc=re.sub(r'<link rel="canonical" href="[^"]*">',f'<link rel="canonical" href="{esc(url)}">',doc,1,flags=re.I)
@@ -90,7 +105,7 @@ def build(template,h,cat,label,n):
 def main():
     template=TEMPLATE.read_text(encoding="utf-8")
     urls=[(f"{BASE}/","weekly","1.0"),(f"{BASE}/cantiques.html","weekly","0.9"),(f"{BASE}/categories.html","monthly","0.8"),(f"{BASE}/lessons.html","monthly","0.8"),(f"{BASE}/dimanche.html","monthly","0.8"),(f"{BASE}/priere.html","monthly","0.8"),(f"{BASE}/a-classer.html","monthly","0.6"),(f"{BASE}/apropos.html","monthly","0.5")]
-    generated=0; skipped=0; seen=set(x[0] for x in urls)
+    generated=0; skipped=0; seen=set(x[0] for x in urls); used_routes={}
     for path in sorted(CORPUS.glob("*.json")):
         data=json.loads(path.read_text(encoding="utf-8"))
         tax=data.get("taxonomy") or {}; cat=clean(tax.get("category_id")); label=clean(tax.get("category_label")) or cat
@@ -98,8 +113,10 @@ def main():
         for h in data.get("hymns") or []:
             n=number(h)
             if not n: skipped+=1; continue
-            out=APP/"cantique"/slug(cat)/slug(n)/"index.html"; out.parent.mkdir(parents=True,exist_ok=True)
-            page,url,title=build(template,h,cat,label,n)
+            used = used_routes.setdefault(slug(cat), set())
+            route = route_segment(h, cat, used)
+            out=APP/"cantique"/slug(cat)/route/"index.html"; out.parent.mkdir(parents=True,exist_ok=True)
+            page,url,title=build(template,h,cat,label,n,route)
             out.write_text(page,encoding="utf-8"); generated+=1
             if url not in seen: urls.append((url,"monthly","0.7")); seen.add(url)
     lines=['<?xml version="1.0" encoding="UTF-8"?>','<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
