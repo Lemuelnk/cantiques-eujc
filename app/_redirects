@@ -1,6 +1,4 @@
-# Canonical web entry point: keep the splash for explicit app/PWA flows, not for SEO.
-# Cloudflare Pages serves extensionless routes from matching HTML files/directories.
-/  /index.html  301
+# Cloudflare Pages serves the top-level index.html at the canonical root URL.
+# Keep splash.html available for explicit installed-app/PWA flows.
 
-# Legacy splash entry point remains available for the installed-app flow.
 # Broken routes are handled by the repository's 404.html.
