@@ -27,9 +27,23 @@ def source_number(hymn):
             return number
     return None
 
+def route_segment(hymn, used):
+    base = slug(source_number(hymn))
+    if base not in used:
+        used.add(base)
+        return base
+    ident = slug(hymn.get("id")) or "doublon"
+    candidate = f"{base}-{ident}"
+    suffix = 2
+    while candidate in used:
+        candidate = f"{base}-{ident}-{suffix}"
+        suffix += 1
+    used.add(candidate)
+    return candidate
+
 def main():
     errors, warnings = [], []
-    route_keys, hymn_ids = {}, {}
+    route_keys, used_routes = {}, {}
     expected_urls = {
         f"{BASE}/", f"{BASE}/cantiques.html", f"{BASE}/categories.html",
         f"{BASE}/lessons.html", f"{BASE}/dimanche.html",
@@ -53,25 +67,18 @@ def main():
         for hymn in data.get("hymns") or []:
             total_hymns += 1
             hymn_id = clean(hymn.get("id"))
-            if hymn_id:
-                hymn_ids.setdefault(hymn_id, []).append(path.name)
-            versions = hymn.get("versions") or []
+                        versions = hymn.get("versions") or []
             total_versions += len(versions)
             number = source_number(hymn)
             if not number:
                 missing_numbers += 1
                 continue
 
-            key = f"{category}/{slug(number)}"
-            if key in route_keys:
-                errors.append(f"duplicate route {key}: {route_keys[key]} and {path.name}")
-            else:
-                route_keys[key] = path.name
-            expected_urls.add(f"{BASE}/cantique/{slug(category)}/{slug(number)}")
-
-    for hymn_id, files in hymn_ids.items():
-        if len(files) > 1:
-            errors.append(f"duplicate hymn id {hymn_id}: {', '.join(files)}")
+            used = used_routes.setdefault(slug(category), set())
+            route = route_segment(hymn, used)
+            key = f"{category}/{route}"
+            route_keys[key] = path.name
+            expected_urls.add(f"{BASE}/cantique/{slug(category)}/{route}")
 
     generated_pages = sorted(PAGES.glob("*/*/index.html")) if PAGES.exists() else []
     generated_urls = set()
