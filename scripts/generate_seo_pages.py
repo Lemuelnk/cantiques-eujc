@@ -9,6 +9,7 @@ ROOT = Path(__file__).resolve().parents[1]
 APP = ROOT / "app"
 CORPUS = APP / "data" / "canonical"
 TEMPLATE = APP / "cantique.html"
+CATEGORY_TEMPLATE = APP / "cantiques.html"
 BASE = "https://cantiques-eujc.lnk-studio.com"
 
 def esc(v):
@@ -161,6 +162,7 @@ def build(template,h,cat,label,n,route):
 
 def main():
     template=TEMPLATE.read_text(encoding="utf-8")
+    category_template=CATEGORY_TEMPLATE.read_text(encoding="utf-8")
     urls=[(f"{BASE}/","weekly","1.0"),(f"{BASE}/cantiques.html","weekly","0.9"),(f"{BASE}/categories.html","monthly","0.8"),(f"{BASE}/lessons.html","monthly","0.8"),(f"{BASE}/dimanche.html","monthly","0.8"),(f"{BASE}/priere.html","monthly","0.8"),(f"{BASE}/a-classer.html","monthly","0.6"),(f"{BASE}/apropos.html","monthly","0.5")]
     generated=0; category_generated=0; skipped=0; seen=set(x[0] for x in urls); used_routes={}
     for path in sorted(CORPUS.glob("*.json")):
@@ -179,7 +181,7 @@ def main():
             out.write_text(page,encoding="utf-8"); generated+=1
             if url not in seen: urls.append((url,"monthly","0.7")); seen.add(url)
         category_out=APP/"categorie"/slug(cat)/"index.html"; category_out.parent.mkdir(parents=True,exist_ok=True)
-        category_page_html,category_url,indexable=category_page(template,cat,label,hymns)
+        category_page_html,category_url,indexable=category_page(category_template,cat,label,hymns)
         category_out.write_text(category_page_html,encoding="utf-8"); category_generated+=1
         if indexable and category_url not in seen:
             urls.append((category_url,"monthly","0.8")); seen.add(category_url)
