@@ -117,7 +117,7 @@ function hymnRouteKey(hymn, corpus) {
   const index = sameNumber.findIndex(item => item === hymn || item.id === hymn.id);
   if (index <= 0) return base;
   const ident = hymnNumberSlug(hymn.id) || 'doublon';
-  return base + '-' + ident + (index > 1 ? '-' + (index + 1) : '');
+  return base + '-' + ident + (index > 1 ? '-' + index : '');
 }
 
 function findHymnByRouteKey(corpus, routeKey) {
