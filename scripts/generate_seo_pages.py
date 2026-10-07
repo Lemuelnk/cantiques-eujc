@@ -51,7 +51,7 @@ def meta_replace(doc, pattern, value):
     return updated
 
 def meta_upsert(doc, selector, attributes, value):
-    pattern = rf'<meta\\s+{selector}[^>]*>'
+    pattern = rf'<meta\s+{selector}[^>]*>'
     if re.search(pattern, doc, flags=re.I):
         return re.sub(
             pattern,
