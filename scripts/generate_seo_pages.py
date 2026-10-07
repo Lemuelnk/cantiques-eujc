@@ -110,6 +110,8 @@ def category_page(template, cat, label, hymns):
         f'<div class="hymns-list" id="hymns-list">{"".join(links)}</div></section>'
     )
     doc = re.sub(r"<title>.*?</title>", f"<title>{esc(title)}</title>", template, 1, flags=re.I|re.S)
+    doc = re.sub(r'<h1 id="category-title">.*?</h1>', f'<h1 id="category-title">{esc(label)}</h1>', doc, 1, flags=re.I|re.S)
+    doc = re.sub(r'<p id="category-count">.*?</p>', f'<p id="category-count">{len(links)} cantique{"s" if len(links) != 1 else ""}</p>', doc, 1, flags=re.I|re.S)
     doc = re.sub(r'<link rel="canonical" href="[^"]*">', f'<link rel="canonical" href="{esc(url)}">', doc, 1, flags=re.I)
     doc = meta_replace(doc, r'(<meta\s+name="description"\s+content=")[^"]*(")', desc)
     doc = meta_upsert(doc, r'name="robots"', {"name":"robots"}, "index, follow, max-image-preview:large" if indexable else "noindex, follow")
