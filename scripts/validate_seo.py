@@ -28,7 +28,7 @@ def source_number(hymn):
     return None
 
 def has_h1(html):
-    return bool(re.search(r"<h1\\b[^>]*>.*?</h1>", html, flags=re.I | re.S))
+    return bool(re.search(r"<h1\b[^>]*>.*?</h1>", html, flags=re.I | re.S))
 
 def route_segment(hymn, used):
     base = slug(source_number(hymn))
