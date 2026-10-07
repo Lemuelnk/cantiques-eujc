@@ -89,7 +89,7 @@ def build(template,h,cat,label,n,route):
     doc=re.sub(r"<title>.*?</title>",f"<title>{esc(title)} — Cantiques EUJC</title>",template,1,flags=re.I|re.S)
     doc=re.sub(r'<link rel="canonical" href="[^"]*">',f'<link rel="canonical" href="{esc(url)}">',doc,1,flags=re.I)
     doc=meta_replace(doc,r'(<meta\s+name="description"\s+content=")[^"]*(")',desc)
-    doc=meta_replace(doc,r'(<meta\s+name="robots"\s+content=")[^"]*(")',"index, follow, max-image-preview:large")
+    doc=meta_upsert(doc, r'name="robots"', {"name":"robots"}, "index, follow, max-image-preview:large")
     doc=meta_replace(doc,r'(<meta\s+property="og:title"\s+content=")[^"]*(")',f"{title} — Cantiques EUJC")
     doc=meta_replace(doc,r'(<meta\s+property="og:description"\s+content=")[^"]*(")',desc)
     doc=meta_replace(doc,r'(<meta\s+property="og:url"\s+content=")[^"]*(")',url)
