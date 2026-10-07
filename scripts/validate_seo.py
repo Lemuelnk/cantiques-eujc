@@ -66,8 +66,7 @@ def main():
 
         for hymn in data.get("hymns") or []:
             total_hymns += 1
-            hymn_id = clean(hymn.get("id"))
-                        versions = hymn.get("versions") or []
+            versions = hymn.get("versions") or []
             total_versions += len(versions)
             number = source_number(hymn)
             if not number:
