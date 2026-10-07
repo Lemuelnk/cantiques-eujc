@@ -128,6 +128,7 @@ def main():
     }
     expected_hymn_url_set = {u.rstrip("/") for u in expected_hymn_urls}
     expected_category_url_set = {u.rstrip("/") for u in expected_category_urls}
+    all_category_url_set = {f"{BASE}/categorie/{page.parent.name}".rstrip("/") for page in category_pages}
 
     index_file = APP / "index.html"
     if index_file.exists():
@@ -168,7 +169,7 @@ def main():
             url = absolute_url(href, source_url)
             if "/cantique/" in url and url.rstrip("/") not in expected_hymn_url_set:
                 errors.append(f"{page}: broken related hymn SEO link: {href}")
-            if "/categorie/" in url and url.rstrip("/") not in expected_category_url_set:
+            if "/categorie/" in url and url.rstrip("/") not in all_category_url_set:
                 errors.append(f"{page}: broken category SEO link: {href}")
 
     sitemap_urls = set()
