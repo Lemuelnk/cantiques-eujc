@@ -115,7 +115,63 @@ def main():
         else:
             expected_urls.add(f"{BASE}/categorie/{category}/")
 
-    # Crawl contract: verify SEO-critical internal links point to generated canonical routes.\n    href_re = re.compile(r'''href\\s*=\\s*["']([^"']+)["']''', re.IGNORECASE)\n    expected_category_urls = {f"{BASE}/categorie/{page.parent.name}/" for page in category_pages if not page.parent.name.startswith("a-classer")}\n    def absolute_url(href, source_url):\n        from urllib.parse import urljoin\n        return urljoin(source_url, href)\n\n    categories_file = APP / "categories.html"\n    if categories_file.exists():\n        html = categories_file.read_text(encoding="utf-8", errors="replace")\n        for href in href_re.findall(html):\n            url = absolute_url(href, f"{BASE}/categories.html")\n            if "/categorie/" in url and url.rstrip("/") not in {u.rstrip("/") for u in expected_category_urls}:\n                errors.append(f"categories.html: broken category SEO link: {href}")\n            if "cantiques.html?category=" in url:\n                errors.append(f"categories.html: legacy query category link remains: {href}")\n\n    for page in category_pages:\n        category = page.parent.name\n        html = page.read_text(encoding="utf-8", errors="replace")\n        source_url = f"{BASE}/categorie/{category}/"\n        for href in href_re.findall(html):\n            url = absolute_url(href, source_url)\n            if "/cantique/" in url and url.rstrip("/") not in {u.rstrip("/") for u in expected_hymn_urls}:\n                errors.append(f"{page}: broken hymn SEO link: {href}")\n\n    for page in generated_pages:\n        category, route, _ = page.relative_to(PAGES).parts\n        source_url = f"{BASE}/cantique/{category}/{route}/"\n        html = page.read_text(encoding="utf-8", errors="replace")\n        for href in href_re.findall(html):\n            url = absolute_url(href, source_url)\n            if "/cantique/" in url and url.rstrip("/") not in {u.rstrip("/") for u in expected_hymn_urls}:\n                errors.append(f"{page}: broken related hymn SEO link: {href}")\n            if "/categorie/" in url and url.rstrip("/") not in {u.rstrip("/") for u in expected_category_urls}:\n                errors.append(f"{page}: broken category SEO link: {href}")\n\n    sitemap_urls = set()
+    # Crawl contract: verify SEO-critical internal links point to generated canonical routes.
+    href_re = re.compile(r'''href\s*=\s*["']([^"']+)["']''', re.IGNORECASE)
+    def absolute_url(href, source_url):
+        from urllib.parse import urljoin
+        return urljoin(source_url, href)
+
+    expected_category_urls = {
+        f"{BASE}/categorie/{page.parent.name}/"
+        for page in category_pages
+        if not page.parent.name.startswith("a-classer")
+    }
+    expected_hymn_url_set = {u.rstrip("/") for u in expected_hymn_urls}
+    expected_category_url_set = {u.rstrip("/") for u in expected_category_urls}
+
+    index_file = APP / "index.html"
+    if index_file.exists():
+        html = index_file.read_text(encoding="utf-8", errors="replace")
+        root_links = {absolute_url(href, f"{BASE}/") for href in href_re.findall(html)}
+        required_root_routes = {
+            f"{BASE}/{name}"
+            for name in ("lessons.html", "dimanche.html", "priere.html", "a-classer.html", "categories.html")
+        }
+        missing_root_routes = required_root_routes - {u.rstrip("/") for u in root_links}
+        if missing_root_routes:
+            errors.append(f"index.html: missing crawlable primary links: {len(missing_root_routes)}")
+
+    categories_file = APP / "categories.html"
+    if categories_file.exists():
+        html = categories_file.read_text(encoding="utf-8", errors="replace")
+        for href in href_re.findall(html):
+            url = absolute_url(href, f"{BASE}/categories.html")
+            if "/categorie/" in url and url.rstrip("/") not in expected_category_url_set:
+                errors.append(f"categories.html: broken category SEO link: {href}")
+            if "cantiques.html?category=" in url:
+                errors.append(f"categories.html: legacy query category link remains: {href}")
+
+    for page in category_pages:
+        category = page.parent.name
+        html = page.read_text(encoding="utf-8", errors="replace")
+        source_url = f"{BASE}/categorie/{category}/"
+        for href in href_re.findall(html):
+            url = absolute_url(href, source_url)
+            if "/cantique/" in url and url.rstrip("/") not in expected_hymn_url_set:
+                errors.append(f"{page}: broken hymn SEO link: {href}")
+
+    for page in generated_pages:
+        category, route, _ = page.relative_to(PAGES).parts
+        source_url = f"{BASE}/cantique/{category}/{route}/"
+        html = page.read_text(encoding="utf-8", errors="replace")
+        for href in href_re.findall(html):
+            url = absolute_url(href, source_url)
+            if "/cantique/" in url and url.rstrip("/") not in expected_hymn_url_set:
+                errors.append(f"{page}: broken related hymn SEO link: {href}")
+            if "/categorie/" in url and url.rstrip("/") not in expected_category_url_set:
+                errors.append(f"{page}: broken category SEO link: {href}")
+
+    sitemap_urls = set()
     if SITEMAP.exists():
         try:
             root = ET.fromstring(SITEMAP.read_text(encoding="utf-8"))
