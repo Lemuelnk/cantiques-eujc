@@ -103,8 +103,8 @@ def category_page(template, cat, label, hymns):
     intro = (
         f'<nav class="seo-breadcrumbs" aria-label="Fil d’Ariane">'
         f'<a href="/">Cantiques EUJC</a> › <span aria-current="page">{esc(label)}</span></nav>'
-        f'<header class="seo-category-intro"><p class="eyebrow">CATÉGORIE</p>'
-        f'<h1>{esc(label)}</h1><p>{len(links)} cantique{"s" if len(links) != 1 else ""} à consulter.</p></header>'
+        f'<div class="seo-category-intro"><p class="eyebrow">CATÉGORIE</p>'
+        f'<p>{len(links)} cantique{"s" if len(links) != 1 else ""} à consulter.</p></div>'
         f'<section class="seo-category-list" aria-labelledby="category-hymns-title">'
         f'<h2 id="category-hymns-title">Cantiques de {esc(label)}</h2>'
         f'<div class="hymns-list" id="hymns-list">{"".join(links)}</div></section>'
