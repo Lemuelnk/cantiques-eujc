@@ -3,7 +3,11 @@
 // ============================================================
 
 const params = new URLSearchParams(window.location.search);
-const categoryId = params.get('category') || 'lesson-1';
+const categoryPathMatch = window.location.pathname.match(/^\/categorie\/([^/]+)\/?$/);
+const categoryId = categoryPathMatch
+  ? decodeURIComponent(categoryPathMatch[1])
+  : (params.get('category') || 'lesson-1');
+const isCleanCategoryRoute = Boolean(categoryPathMatch);
 
 const categoryTitle  = document.getElementById('category-title');
 const categoryCount  = document.getElementById('category-count');
@@ -28,11 +32,11 @@ if (categoryCount) categoryCount.textContent = 'Chargement…';
 function openHymn(hymnOrId) {
   let url;
   if (hymnOrId && typeof hymnOrId === 'object' && typeof buildCantiqueUrl === 'function') {
-    url = buildCantiqueUrl(hymnOrId, categoryId);
+    url = buildCantiqueUrl(hymnOrId, categoryId, currentCorpus);
   } else if (typeof buildCantiqueUrl === 'function') {
     // Compat : ancien appel avec l'id seul -> essayer de retrouver l'hymn
     const found = Array.isArray(allHymns) ? allHymns.find(h => h.id === hymnOrId) : null;
-    url = found ? buildCantiqueUrl(found, categoryId)
+    url = found ? buildCantiqueUrl(found, categoryId, currentCorpus)
                 : `cantique.html?hymn=${encodeURIComponent(hymnOrId)}&category=${encodeURIComponent(categoryId)}`;
   } else {
     url = `cantique.html?hymn=${encodeURIComponent(hymnOrId)}&category=${encodeURIComponent(categoryId)}`;
@@ -144,7 +148,7 @@ async function loadCategoryHymns() {
 
     const canonicalUrl = new URL(window.location.href);
     canonicalUrl.hash = '';
-    canonicalUrl.searchParams.sort();
+    if (isCleanCategoryRoute) canonicalUrl.search = ''; else canonicalUrl.searchParams.sort();
     let canonicalLink = document.head.querySelector('link[rel="canonical"]');
     if (!canonicalLink) {
       canonicalLink = document.createElement('link');
@@ -163,7 +167,7 @@ async function loadCategoryHymns() {
       meta.setAttribute('content', value);
     };
     updateMeta('meta', 'name', 'description', seoDescription);
-    updateMeta('meta', 'name', 'robots', 'index, follow, max-image-preview:large');
+    updateMeta('meta', 'name', 'robots', isCleanCategoryRoute ? 'index, follow, max-image-preview:large' : 'noindex, follow');
     updateMeta('meta', 'property', 'og:type', 'website');
     updateMeta('meta', 'property', 'og:site_name', 'Cantiques EUJC');
     updateMeta('meta', 'property', 'og:title', seoTitle);
