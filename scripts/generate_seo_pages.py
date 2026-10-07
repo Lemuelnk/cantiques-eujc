@@ -78,6 +78,59 @@ def route_segment(h, cat, used):
     used.add(candidate)
     return candidate
 
+
+def category_page(template, cat, label, hymns):
+    category_slug = slug(cat)
+    url = f"{BASE}/categorie/{quote(category_slug)}/"
+    indexable = not category_slug.startswith("a-classer")
+    title = f"{label} — Cantiques EUJC"
+    desc = f'Explorez les cantiques de la catégorie « {label} » dans le recueil Cantiques EUJC.'
+    links = []
+    for h in hymns:
+        n = number(h)
+        if not n:
+            continue
+        route = h["_seo_route"]
+        v = primary(h) or {}
+        hymn_title = clean(v.get("title")) or clean(h.get("title")) or "Cantique"
+        links.append(
+            f'<li><a href="/cantique/{quote(category_slug)}/{quote(route)}">'
+            f'<span class="hymn-number">N° {esc(n)}</span> '
+            f'<span class="hymn-title">{esc(hymn_title)}</span></a></li>'
+        )
+    intro = (
+        f'<nav class="seo-breadcrumbs" aria-label="Fil d’Ariane">'
+        f'<a href="/">Cantiques EUJC</a> › <span aria-current="page">{esc(label)}</span></nav>'
+        f'<header class="seo-category-intro"><p class="eyebrow">CATÉGORIE</p>'
+        f'<h1>{esc(label)}</h1><p>{len(links)} cantique{"s" if len(links) != 1 else ""} à consulter.</p></header>'
+        f'<section class="seo-category-list" aria-labelledby="category-hymns-title">'
+        f'<h2 id="category-hymns-title">Cantiques de {esc(label)}</h2>'
+        f'<ol>{"".join(links)}</ol></section>'
+    )
+    doc = re.sub(r"<title>.*?</title>", f"<title>{esc(title)}</title>", template, 1, flags=re.I|re.S)
+    doc = re.sub(r'<link rel="canonical" href="[^"]*">', f'<link rel="canonical" href="{esc(url)}">', doc, 1, flags=re.I)
+    doc = meta_replace(doc, r'(<meta\s+name="description"\s+content=")[^"]*(")', desc)
+    doc = meta_upsert(doc, r'name="robots"', {"name":"robots"}, "index, follow, max-image-preview:large" if indexable else "noindex, follow")
+    doc = meta_replace(doc, r'(<meta\s+property="og:title"\s+content=")[^"]*(")', title)
+    doc = meta_replace(doc, r'(<meta\s+property="og:description"\s+content=")[^"]*(")', desc)
+    doc = meta_replace(doc, r'(<meta\s+property="og:url"\s+content=")[^"]*(")', url)
+    doc = meta_replace(doc, r'(<meta\s+name="twitter:title"\s+content=")[^"]*(")', title)
+    doc = meta_replace(doc, r'(<meta\s+name="twitter:description"\s+content=")[^"]*(")', desc)
+    doc = re.sub(r'<section class="hymns-list" id="hymns-list"[^>]*></section>', intro, doc, 1, flags=re.I)
+    breadcrumb = {"@type":"BreadcrumbList","itemListElement":[
+        {"@type":"ListItem","position":1,"name":"Cantiques EUJC","item":f"{BASE}/"},
+        {"@type":"ListItem","position":2,"name":label,"item":url}
+    ]}
+    item_list = {"@type":"ItemList","name":label,"numberOfItems":len(links),
+                 "itemListElement":[
+                     {"@type":"ListItem","position":i+1,"name":clean((primary(h) or {}).get("title")) or clean(h.get("title")) or "Cantique",
+                      "url":f"{BASE}/cantique/{quote(category_slug)}/{quote(h['_seo_route'])}"}
+                     for i,h in enumerate(hymns) if number(h)
+                 ]}
+    ld = {"@context":"https://schema.org","@graph":[breadcrumb,item_list]}
+    doc = doc.replace("</head>", f'<script type="application/ld+json" id="category-jsonld">{json.dumps(ld,ensure_ascii=False,separators=(",",":"))}</script>\n</head>', 1)
+    return doc, url, indexable
+
 def build(template,h,cat,label,n,route):
     v=primary(h) or {}
     title=clean(v.get("title")) or clean(h.get("title")) or "Cantique"
@@ -105,24 +158,31 @@ def build(template,h,cat,label,n,route):
 def main():
     template=TEMPLATE.read_text(encoding="utf-8")
     urls=[(f"{BASE}/","weekly","1.0"),(f"{BASE}/cantiques.html","weekly","0.9"),(f"{BASE}/categories.html","monthly","0.8"),(f"{BASE}/lessons.html","monthly","0.8"),(f"{BASE}/dimanche.html","monthly","0.8"),(f"{BASE}/priere.html","monthly","0.8"),(f"{BASE}/a-classer.html","monthly","0.6"),(f"{BASE}/apropos.html","monthly","0.5")]
-    generated=0; skipped=0; seen=set(x[0] for x in urls); used_routes={}
+    generated=0; category_generated=0; skipped=0; seen=set(x[0] for x in urls); used_routes={}
     for path in sorted(CORPUS.glob("*.json")):
         data=json.loads(path.read_text(encoding="utf-8"))
         tax=data.get("taxonomy") or {}; cat=clean(tax.get("category_id")); label=clean(tax.get("category_label")) or cat
         if not cat: continue
-        for h in data.get("hymns") or []:
+        hymns = data.get("hymns") or []
+        used = used_routes.setdefault(slug(cat), set())
+        for h in hymns:
             n=number(h)
             if not n: skipped+=1; continue
-            used = used_routes.setdefault(slug(cat), set())
             route = route_segment(h, cat, used)
+            h["_seo_route"] = route
             out=APP/"cantique"/slug(cat)/route/"index.html"; out.parent.mkdir(parents=True,exist_ok=True)
             page,url,title=build(template,h,cat,label,n,route)
             out.write_text(page,encoding="utf-8"); generated+=1
             if url not in seen: urls.append((url,"monthly","0.7")); seen.add(url)
+        category_out=APP/"categorie"/slug(cat)/"index.html"; category_out.parent.mkdir(parents=True,exist_ok=True)
+        category_page_html,category_url,indexable=category_page(template,cat,label,hymns)
+        category_out.write_text(category_page_html,encoding="utf-8"); category_generated+=1
+        if indexable and category_url not in seen:
+            urls.append((category_url,"monthly","0.8")); seen.add(category_url)
     lines=['<?xml version="1.0" encoding="UTF-8"?>','<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for loc,freq,priority in urls: lines += ["  <url>",f"    <loc>{esc(loc)}</loc>",f"    <changefreq>{freq}</changefreq>",f"    <priority>{priority}</priority>","  </url>"]
     lines.append("</urlset>"); (APP/"sitemap.xml").write_text("\n".join(lines)+"\n",encoding="utf-8")
-    print(f"Generated {generated} hymn pages; skipped {skipped} hymns without a source number.")
+    print(f"Generated {generated} hymn pages and {category_generated} category pages; skipped {skipped} hymns without a source number.")
 
 if __name__=="__main__":
     main()
