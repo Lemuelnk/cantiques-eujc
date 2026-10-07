@@ -94,9 +94,11 @@ def category_page(template, cat, label, hymns):
         v = primary(h) or {}
         hymn_title = clean(v.get("title")) or clean(h.get("title")) or "Cantique"
         links.append(
-            f'<li><a href="/cantique/{quote(category_slug)}/{quote(route)}">'
-            f'<span class="hymn-number">N° {esc(n)}</span> '
-            f'<span class="hymn-title">{esc(hymn_title)}</span></a></li>'
+            f'<a class="hymn-row" href="/cantique/{quote(category_slug)}/{quote(route)}">'
+            f'<div class="hymn-number">{esc(n)}</div>'
+            f'<div class="hymn-content"><h2>{esc(hymn_title)}</h2>'
+            f'<p>Consulter les paroles du cantique</p></div>'
+            f'</a>'
         )
     intro = (
         f'<nav class="seo-breadcrumbs" aria-label="Fil d’Ariane">'
@@ -105,7 +107,7 @@ def category_page(template, cat, label, hymns):
         f'<h1>{esc(label)}</h1><p>{len(links)} cantique{"s" if len(links) != 1 else ""} à consulter.</p></header>'
         f'<section class="seo-category-list" aria-labelledby="category-hymns-title">'
         f'<h2 id="category-hymns-title">Cantiques de {esc(label)}</h2>'
-        f'<ol>{"".join(links)}</ol></section>'
+        f'<div class="hymns-list" id="hymns-list">{"".join(links)}</div></section>'
     )
     doc = re.sub(r"<title>.*?</title>", f"<title>{esc(title)}</title>", template, 1, flags=re.I|re.S)
     doc = re.sub(r'<link rel="canonical" href="[^"]*">', f'<link rel="canonical" href="{esc(url)}">', doc, 1, flags=re.I)
