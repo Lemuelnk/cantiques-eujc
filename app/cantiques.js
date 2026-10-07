@@ -32,11 +32,11 @@ if (categoryCount) categoryCount.textContent = 'Chargement…';
 function openHymn(hymnOrId) {
   let url;
   if (hymnOrId && typeof hymnOrId === 'object' && typeof buildCantiqueUrl === 'function') {
-    url = buildCantiqueUrl(hymnOrId, categoryId, currentCorpus);
+    url = buildCantiqueUrl(hymnOrId, categoryId, window.__categoryCorpus);
   } else if (typeof buildCantiqueUrl === 'function') {
     // Compat : ancien appel avec l'id seul -> essayer de retrouver l'hymn
     const found = Array.isArray(allHymns) ? allHymns.find(h => h.id === hymnOrId) : null;
-    url = found ? buildCantiqueUrl(found, categoryId, currentCorpus)
+    url = found ? buildCantiqueUrl(found, categoryId, window.__categoryCorpus)
                 : `cantique.html?hymn=${encodeURIComponent(hymnOrId)}&category=${encodeURIComponent(categoryId)}`;
   } else {
     url = `cantique.html?hymn=${encodeURIComponent(hymnOrId)}&category=${encodeURIComponent(categoryId)}`;
@@ -139,6 +139,7 @@ function createHymnRow(hymn) {
 async function loadCategoryHymns() {
   try {
     const corpus = await loadCanonicalLesson(categoryId);
+    window.__categoryCorpus = corpus;
     const hymns = Array.isArray(corpus.hymns) ? corpus.hymns : [];
     const taxonomy = corpus.taxonomy || {};
     const seoCategory = taxonomy.category_label || taxonomy.lesson_label || 'Cantiques EUJC';
