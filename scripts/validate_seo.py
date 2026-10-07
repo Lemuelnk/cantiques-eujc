@@ -90,7 +90,7 @@ def main():
         category, number, _ = parts
         generated_urls.add(f"{BASE}/cantique/{category}/{number}")
         html = page.read_text(encoding="utf-8", errors="replace")
-        if "<h1>" not in html: errors.append(f"{page}: missing h1")
+        if not has_h1(html): errors.append(f"{page}: missing h1")
         if 'rel="canonical"' not in html: errors.append(f"{page}: missing canonical")
         if 'id="hymn-jsonld"' not in html: errors.append(f"{page}: missing JSON-LD")
         if 'class="hymn-lyrics"' not in html: errors.append(f"{page}: missing visible hymn lyrics")
