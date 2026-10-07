@@ -121,7 +121,7 @@ def category_page(template, cat, label, hymns):
     doc = meta_replace(doc, r'(<meta\s+property="og:url"\s+content=")[^"]*(")', url)
     doc = meta_replace(doc, r'(<meta\s+name="twitter:title"\s+content=")[^"]*(")', title)
     doc = meta_replace(doc, r'(<meta\s+name="twitter:description"\s+content=")[^"]*(")', desc)
-    doc = re.sub(r'<section\\b[^>]*\\bid="hymns-list"[^>]*>.*?</section>', intro, doc, 1, flags=re.I|re.S)
+    doc = re.sub(r'<section\b[^>]*\bid="hymns-list"[^>]*>.*?</section>', intro, doc, 1, flags=re.I|re.S)
     breadcrumb = {"@type":"BreadcrumbList","itemListElement":[
         {"@type":"ListItem","position":1,"name":"Cantiques EUJC","item":f"{BASE}/"},
         {"@type":"ListItem","position":2,"name":label,"item":url}
