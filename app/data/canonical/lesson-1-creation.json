@@ -247,7 +247,7 @@
     {
       "schema_version": "1.0",
       "id": "3c650e65-7dd0-4432-80d9-9fcbbc1ab39d",
-      "title": "ANASA WA DUNIA",
+      "title": "ANASA ZA DUNIA",
       "status": "updated_from_a_classer",
       "versions": [
         {
@@ -258,7 +258,7 @@
             "status": "confirmed",
             "detection": "auto"
           },
-          "title": "ANASA WA DUNIA",
+          "title": "ANASA ZA DUNIA",
           "source": {
             "file": "Cantiques_swahili.pdf",
             "position": 169,
