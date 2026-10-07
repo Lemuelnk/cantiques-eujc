@@ -32,6 +32,13 @@ def number(h):
         if clean(n): return clean(n)
     return None
 
+def language_code(v):
+    code = clean((v or {}).get("language", {}).get("code"))
+    return code or "fr"
+
+def language_label(v):
+    return clean((v or {}).get("language", {}).get("label")) or "Langue non identifiée"
+
 def lyrics(v):
     out=[]
     for i,b in enumerate(v.get("content") or [],1):
@@ -139,25 +146,56 @@ def category_page(template, cat, label, hymns):
 def build(template,h,cat,label,n,route):
     v=primary(h) or {}
     title=clean(v.get("title")) or clean(h.get("title")) or "Cantique"
-    lang=(v.get("language") or {})
-    lang_label=clean(lang.get("label")) or "Langue non identifiée"
-    lang_code=clean(lang.get("code")) or "fr"
+    lang_code=language_code(v)
+    lang_label=language_label(v)
     url=f"{BASE}/cantique/{quote(slug(cat))}/{quote(route)}"
     desc=f'Paroles du cantique « {title} » en {lang_label} dans le recueil Cantiques EUJC. Consultez le cantique, ses couplets et son refrain.'
     doc=re.sub(r"<title>.*?</title>",f"<title>{esc(title)} — Cantiques EUJC</title>",template,1,flags=re.I|re.S)
+    doc=re.sub(r'<html\b([^>]*)\blang="[^"]*"',f'<html\1 lang="{esc(lang_code)}"',doc,1,flags=re.I)
     doc=re.sub(r'<link rel="canonical" href="[^"]*">',f'<link rel="canonical" href="{esc(url)}">',doc,1,flags=re.I)
     doc=meta_replace(doc,r'(<meta\s+name="description"\s+content=")[^"]*(")',desc)
-    doc=meta_upsert(doc, r'name="robots"', {"name":"robots"}, "index, follow, max-image-preview:large")
+    doc=meta_upsert(doc,r'name="robots',{"name":"robots"},"index, follow, max-image-preview:large")
     doc=meta_replace(doc,r'(<meta\s+property="og:title"\s+content=")[^"]*(")',f"{title} — Cantiques EUJC")
     doc=meta_replace(doc,r'(<meta\s+property="og:description"\s+content=")[^"]*(")',desc)
     doc=meta_replace(doc,r'(<meta\s+property="og:url"\s+content=")[^"]*(")',url)
     doc=meta_replace(doc,r'(<meta\s+name="twitter:title"\s+content=")[^"]*(")',f"{title} — Cantiques EUJC")
     doc=meta_replace(doc,r'(<meta\s+name="twitter:description"\s+content=")[^"]*(")',desc)
-    intro=f'<nav class="seo-breadcrumbs" aria-label="Fil d’Ariane"><a href="/">Cantiques EUJC</a> › <a href="/cantiques.html?category={quote(cat)}">{esc(label)}</a> › <span aria-current="page">{esc(title)}</span></nav><header class="hymn-detail-intro"><p class="hymn-number-label">N° {esc(n)}</p><h1>{esc(title)}</h1><p class="hymn-metadata">{esc(lang_label)} · {esc(label)}</p></header><div class="hymn-lyrics">{lyrics(v)}</div>'
+
+    versions=h.get("versions") or []
+    version_summary=[]
+    for item in versions:
+        vl=language_label(item); vt=clean(item.get("title")) or title
+        version_summary.append(f'<li><span class="seo-version-language">{esc(vl)}</span><span class="seo-version-title">{esc(vt)}</span></li>')
+    versions_html=(
+        '<section class="seo-hymn-versions" aria-labelledby="versions-title">'
+        '<h2 id="versions-title">Versions disponibles</h2>'
+        '<p>Ce cantique est disponible dans plusieurs langues ou variantes lorsqu’elles sont indiquées dans le recueil.</p>'
+        f'<ul>{"".join(version_summary)}</ul></section>' if len(versions)>1 else ''
+    )
+    intro=(
+        f'<nav class="seo-breadcrumbs" aria-label="Fil d’Ariane"><a href="/">Cantiques EUJC</a> › '
+        f'<a href="/categorie/{quote(slug(cat))}/">{esc(label)}</a> › <span aria-current="page">{esc(title)}</span></nav>'
+        f'<header class="hymn-detail-intro"><p class="hymn-number-label">N° {esc(n)}</p><h1>{esc(title)}</h1>'
+        f'<p class="hymn-metadata">{esc(lang_label)} · {esc(label)}</p></header>{versions_html}<div class="hymn-lyrics">{lyrics(v)}</div>'
+    )
     doc=re.sub(r'<div class="detail-loading">.*?</div>',intro,doc,1,flags=re.I|re.S)
     lines=[str(x) for b in v.get("content") or [] for x in b.get("lines") or []]
-    ld={"@context":"https://schema.org","@type":"MusicComposition","name":title,"inLanguage":lang_code,"genre":label,"lyrics":{"@type":"CreativeWork","text":"\n".join(lines)},"isPartOf":{"@type":"MusicAlbum","name":"Cantiques EUJC","url":f"{BASE}/cantiques.html"},"url":url,"alternateName":f"Cantique n° {n}","position":n}
-    doc=doc.replace("</head>",f'<script type="application/ld+json" id="hymn-jsonld">{json.dumps(ld,ensure_ascii=False,separators=(",",":"))}</script>\n</head>',1)
+    breadcrumb={"@type":"BreadcrumbList","itemListElement":[
+        {"@type":"ListItem","position":1,"name":"Cantiques EUJC","item":f"{BASE}/"},
+        {"@type":"ListItem","position":2,"name":label,"item":f"{BASE}/categorie/{quote(slug(cat))}/"},
+        {"@type":"ListItem","position":3,"name":title,"item":url}
+    ]}
+    ld={"@context":"https://schema.org","@type":"MusicComposition","name":title,"inLanguage":lang_code,
+        "genre":label,"lyrics":{"@type":"CreativeWork","text":"\n".join(lines)},
+        "isPartOf":{"@type":"MusicAlbum","name":"Cantiques EUJC","url":f"{BASE}/"},
+        "url":url,"mainEntityOfPage":url,"position":n}
+    names=[clean(x.get("title")) for x in versions if clean(x.get("title"))]
+    if names: ld["alternateName"]=names
+    if versions:
+        ld["subjectOf"]={"@type":"CreativeWork","name":"Versions linguistiques",
+                         "inLanguage":[language_code(x) for x in versions]}
+    graph={"@context":"https://schema.org","@graph":[breadcrumb,ld]}
+    doc=doc.replace("</head>",f'<script type="application/ld+json" id="hymn-jsonld">{json.dumps(graph,ensure_ascii=False,separators=(",",":"))}</script>\n</head>',1)
     return doc,url,title
 
 def main():
