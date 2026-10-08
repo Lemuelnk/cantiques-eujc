@@ -9,8 +9,7 @@
     "html_handling": "none",
     "not_found_handling": "404-page",
     "run_worker_first": [
-      "/cantique/*",
-      "/categorie/*"
+      "/*"
     ]
   }
 }
