@@ -6,7 +6,7 @@
 //  - Fallback réseau si non trouvé en cache
 // ============================================================
 
-const VERSION = 'v7.10.8';
+const VERSION = 'v7.11.0';
 const CACHE_NAME = `cantiques-eujc-${VERSION}`;
 
 // Fichiers essentiels à pré-cacher
@@ -100,22 +100,56 @@ self.addEventListener('fetch', event => {
   if (request.method !== 'GET') return;
   if (!request.url.startsWith(self.location.origin)) return;
 
-  event.respondWith(
-    caches.match(request).then(cached => {
-      if (cached) return cached;
+  const url = new URL(request.url);
+  const path = url.pathname;
 
-      return fetch(request).then(response => {
-        // Cache dynamique des ressources récupérées
+  // ----- Stratégie 1 : NETWORK-FIRST pour les pages HTML et les routes SEO -----
+  // (évite de servir du cache périmé si le contenu change côté serveur)
+  const isHtmlPage = (
+    request.headers.get('accept')?.includes('text/html') ||
+    path === '/' ||
+    path.endsWith('.html') ||
+    path.startsWith('/cantique/') ||
+    path.startsWith('/categorie/') ||
+    !path.includes('.')  // routes sans extension (= pages HTML)
+  );
+
+  // ----- Stratégie 2 : NETWORK-FIRST pour les JSON canoniques -----
+  // (les données changent régulièrement via PR)
+  const isCanonicalJson = path.startsWith('/data/canonical/') && path.endsWith('.json');
+
+  if (isHtmlPage || isCanonicalJson) {
+    event.respondWith(
+      fetch(request).then(response => {
+        // Mettre à jour le cache avec la version fraîche
         if (response && response.status === 200 && response.type === 'basic') {
           const clone = response.clone();
           caches.open(CACHE_NAME).then(cache => cache.put(request, clone));
         }
         return response;
       }).catch(() => {
-        // Fallback : si HTML, renvoyer l'accueil
-        if (request.headers.get('accept')?.includes('text/html')) {
-          return caches.match('./');
+        // En cas d'échec réseau : servir le cache (mode offline)
+        return caches.match(request).then(cached => {
+          if (cached) return cached;
+          // Fallback ultime pour les pages HTML : accueil en cache
+          if (isHtmlPage) return caches.match('./');
+        });
+      })
+    );
+    return;
+  }
+
+  // ----- Stratégie 3 : CACHE-FIRST pour les assets stables (CSS, JS, fonts, images) -----
+  event.respondWith(
+    caches.match(request).then(cached => {
+      if (cached) return cached;
+
+      return fetch(request).then(response => {
+        if (response && response.status === 200 && response.type === 'basic') {
+          const clone = response.clone();
+          caches.open(CACHE_NAME).then(cache => cache.put(request, clone));
         }
+        return response;
       });
     })
   );
