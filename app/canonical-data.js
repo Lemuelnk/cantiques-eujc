@@ -97,16 +97,48 @@ function findHymn(corpus, hymnId) {
 // ============================================================
 // Helpers URLs propres /cantique/:cat/:num
 // ============================================================
+function hymnNumberSlug(number) {
+  return String(number || '')
+    .normalize('NFD')
+    .replace(/[\\u0300-\\u036f]/g, '')
+    .replace(/œ/gi, 'oe')
+    .replace(/[^A-Za-z0-9_-]+/g, '-')
+    .replace(/-+/g, '-')
+    .replace(/^-|-$/g, '')
+    .toLowerCase();
+}
+
+function hymnRouteKey(hymn, corpus) {
+  const num = getHymnDisplay(hymn).sourceNumber;
+  if (!num) return null;
+  const base = hymnNumberSlug(num);
+  const hymns = Array.isArray(corpus?.hymns) ? corpus.hymns : [];
+  const sameNumber = hymns.filter(item => hymnNumberSlug(getHymnDisplay(item).sourceNumber) === base);
+  const index = sameNumber.findIndex(item => item === hymn || item.id === hymn.id);
+  if (index <= 0) return base;
+  const ident = hymnNumberSlug(hymn.id) || 'doublon';
+  return base + '-' + ident + (index > 1 ? '-' + index : '');
+}
+
+function findHymnByRouteKey(corpus, routeKey) {
+  if (!corpus || !Array.isArray(corpus.hymns) || !routeKey) return null;
+  return corpus.hymns.find(h => hymnRouteKey(h, corpus) === String(routeKey)) || null;
+}
+
 function findHymnByNumber(corpus, number) {
   if (!corpus || !corpus.hymns || !number) return null;
   const target = String(number);
+  const targetSlug = hymnNumberSlug(target);
   return corpus.hymns.find(h => {
     const versions = Array.isArray(h.versions) ? h.versions : [];
-    return versions.some(v => String(((v.source) || {}).number || '') === target);
+    return versions.some(v => {
+      const sourceNumber = String(((v.source) || {}).number || '');
+      return sourceNumber === target || hymnNumberSlug(sourceNumber) === targetSlug;
+    });
   }) || null;
 }
 
-function buildCantiqueUrl(hymnOrDisplay, categoryId) {
+function buildCantiqueUrl(hymnOrDisplay, categoryId, corpus) {
   if (!hymnOrDisplay) return 'cantiques.html';
   const display = (hymnOrDisplay.sourceNumber !== undefined)
     ? hymnOrDisplay
@@ -117,6 +149,7 @@ function buildCantiqueUrl(hymnOrDisplay, categoryId) {
     return 'cantique.html?hymn=' + encodeURIComponent(display.id)
          + '&category=' + encodeURIComponent(cat);
   }
+  const route = corpus ? hymnRouteKey(hymnOrDisplay, corpus) : hymnNumberSlug(num);
   return '/cantique/' + encodeURIComponent(cat)
-       + '/' + encodeURIComponent(num);
+       + '/' + encodeURIComponent(route || hymnNumberSlug(num));
 }

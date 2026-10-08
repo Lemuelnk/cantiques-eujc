@@ -37,6 +37,7 @@ let   hymnNumber   = null;
 })();
 
 let currentHymn     = null;
+let currentCorpus   = null;
 let currentVersion  = null;
 let allHymnsInCat   = [];
 let currentIndex    = -1;
@@ -516,7 +517,7 @@ if (btnNext) {
     const nextIdx = (currentIndex + 1) % allHymnsInCat.length;
     const nextHymn = allHymnsInCat[nextIdx];
     const url = (typeof buildCantiqueUrl === 'function')
-      ? buildCantiqueUrl(nextHymn, categoryId)
+      ? buildCantiqueUrl(nextHymn, categoryId, currentCorpus)
       : `cantique.html?hymn=${encodeURIComponent(nextHymn.id)}&category=${encodeURIComponent(categoryId)}`;
     window.location.replace(url);
   });
@@ -527,7 +528,7 @@ if (btnPrev) {
     const prevIdx = (currentIndex - 1 + allHymnsInCat.length) % allHymnsInCat.length;
     const prevHymn = allHymnsInCat[prevIdx];
     const url = (typeof buildCantiqueUrl === 'function')
-      ? buildCantiqueUrl(prevHymn, categoryId)
+      ? buildCantiqueUrl(prevHymn, categoryId, currentCorpus)
       : `cantique.html?hymn=${encodeURIComponent(prevHymn.id)}&category=${encodeURIComponent(categoryId)}`;
     window.location.replace(url);
   });
@@ -561,13 +562,16 @@ async function loadDetail() {
 
   try {
     const corpus = await loadCanonicalLesson(categoryId);
+    currentCorpus = corpus;
     const hymns = Array.isArray(corpus.hymns) ? corpus.hymns : [];
     allHymnsInCat = hymns;
 
-    // Priorite : chercher par number (nouveau format)
-    // Sinon fallback : chercher par id (ancien format)
+    // Priorité : rechercher par clé de route stable, puis par numéro.
     let hymn = null;
-    if (hymnNumber != null && typeof findHymnByNumber === 'function') {
+    if (hymnNumber != null && typeof findHymnByRouteKey === 'function') {
+      hymn = findHymnByRouteKey(corpus, hymnNumber);
+    }
+    if (!hymn && hymnNumber != null && typeof findHymnByNumber === 'function') {
       hymn = findHymnByNumber(corpus, hymnNumber);
     }
     if (!hymn && hymnId) {

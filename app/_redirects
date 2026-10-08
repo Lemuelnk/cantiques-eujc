@@ -1,6 +1,4 @@
-# Redirections Cloudflare Pages
-# La racine redirige vers le splash (comme point d'entrée par défaut)
-/  /splash.html  302
+# Cloudflare Pages serves the top-level index.html at the canonical root URL.
+# Keep splash.html available for explicit installed-app/PWA flows.
 
-# Fallback : si une page n'existe pas, on renvoie vers index
-# (utile si l'utilisateur tape une URL cassée)
+# Broken routes are handled by the repository's 404.html.
