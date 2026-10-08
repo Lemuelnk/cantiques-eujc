@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Test buildCantiqueUrl</title>
+<style>
+  body { font-family: monospace; padding: 20px; background: #111; color: #0f0; }
+  pre { background: #222; padding: 10px; white-space: pre-wrap; word-break: break-all; }
+  .err { color: #f66; }
+  .ok { color: #6f6; }
+</style>
+</head>
+<body>
+<h1>Test buildCantiqueUrl</h1>
+<div id="out">Chargement…</div>
+<script src="canonical-data.js?v=999"></script>
+<script>
+(async () => {
+  const out = document.getElementById('out');
+  const lines = [];
+
+  lines.push('typeof buildCantiqueUrl : ' + typeof buildCantiqueUrl);
+  lines.push('typeof getHymnDisplay  : ' + typeof getHymnDisplay);
+  lines.push('typeof hymnRouteKey    : ' + typeof hymnRouteKey);
+  lines.push('');
+
+  try {
+    const corpus = await loadCanonicalLesson('lesson-12');
+    const hymns = corpus.hymns || [];
+    lines.push('Cantiques dans lesson-12 : ' + hymns.length);
+
+    const hymn = hymns.find(h => {
+      const v = (h.versions || [])[0] || {};
+      return String((v.source || {}).number || '') === '111';
+    });
+
+    if (!hymn) {
+      lines.push('❌ Cantique 111 introuvable');
+      out.innerHTML = '<pre class="err">' + lines.join('\n') + '</pre>';
+      return;
+    }
+
+    lines.push('Cantique trouvé : ' + hymn.title);
+    lines.push('hymn.id : ' + hymn.id);
+    lines.push('hymn.sourceNumber (brut) : ' + JSON.stringify(hymn.sourceNumber));
+    lines.push('');
+
+    const display = getHymnDisplay(hymn);
+    lines.push('display.sourceNumber : ' + JSON.stringify(display.sourceNumber));
+    lines.push('');
+
+    // Test 1 : 2 arguments (comme dans recherche.js)
+    const url1 = buildCantiqueUrl(hymn, 'lesson-12');
+    lines.push('Test 1 (2 args) : ' + url1);
+    lines.push(url1 === '/cantique/lesson-12/111' ? '  ✅ OK' : '  ❌ ATTENDU /cantique/lesson-12/111');
+    lines.push('');
+
+    // Test 2 : avec corpus
+    const url2 = buildCantiqueUrl(hymn, 'lesson-12', corpus);
+    lines.push('Test 2 (3 args + corpus) : ' + url2);
+    lines.push(url2 === '/cantique/lesson-12/111' ? '  ✅ OK' : '  ❌ ATTENDU /cantique/lesson-12/111');
+
+    out.innerHTML = '<pre class="ok">' + lines.join('\n') + '</pre>';
+  } catch (e) {
+    lines.push('💥 ERREUR : ' + e.message);
+    out.innerHTML = '<pre class="err">' + lines.join('\n') + '</pre>';
+  }
+})();
+</script>
+</body>
+</html>
