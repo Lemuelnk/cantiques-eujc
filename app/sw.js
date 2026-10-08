@@ -6,29 +6,29 @@
 //  - Fallback réseau si non trouvé en cache
 // ============================================================
 
-const VERSION = 'v7.10.7';
+const VERSION = 'v7.10.8';
 const CACHE_NAME = `cantiques-eujc-${VERSION}`;
 
 // Fichiers essentiels à pré-cacher
 const PRECACHE_URLS = [
-  './splash.html',
+  './splash',
   './splash.css',
   './fonts.css',
   './preferences.js',
-  './index.html',
-  './parametres.html',
+  './',
+  './parametres',
   './parametres.css',
   './parametres.js',
-  './recherche.html',
+  './recherche',
   './recherche.css',
   './recherche.js',
-  './favoris.html',
+  './favoris',
   './favoris.css',
   './favoris.js',
-  './historique.html',
+  './historique',
   './historique.css',
   './historique.js',
-  './signaler.html',
+  './signaler',
   './signaler.css',
   './signaler.js',
   './report-fab.css',
@@ -38,22 +38,22 @@ const PRECACHE_URLS = [
   './bottom-nav.js',
   './storage.js',
   './canonical-data.js',
-  './categories.html',
+  './categories',
   './categories.css',
   './categories.js',
-  './lessons.html',
+  './lessons',
   './lessons.css',
   './lessons.js',
-  './dimanche.html',
+  './dimanche',
   './dimanche.css',
   './dimanche.js',
-  './priere.html',
+  './priere',
   './priere.css',
   './priere.js',
-  './cantiques.html',
+  './cantiques',
   './cantiques.css',
   './cantiques.js',
-  './cantique.html',
+  './cantique',
   './cantique.css',
   './cantique.js',
   './data/canonical/lesson-1-creation.json',
@@ -114,7 +114,7 @@ self.addEventListener('fetch', event => {
       }).catch(() => {
         // Fallback : si HTML, renvoyer l'accueil
         if (request.headers.get('accept')?.includes('text/html')) {
-          return caches.match('./index.html');
+          return caches.match('./');
         }
       });
     })
