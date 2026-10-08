@@ -19,6 +19,15 @@ export default {
       return env.ASSETS.fetch(indexPath);
     }
 
+    // ----- 1b. /cantique/:cat/ (sans num) → redirection vers la catégorie -----
+    const mCatSansNum = path.match(/^\/cantique\/([^\/]+)\/?$/);
+    if (mCatSansNum) {
+      return Response.redirect(
+        new URL('/categorie/' + mCatSansNum[1] + '/', url).href,
+        302
+      );
+    }
+
     // ----- 2. /cantique/:cat/:num -----
     const mCantique = path.match(/^\/cantique\/([^\/]+)\/([^\/]+)\/?$/);
     const isStaticFile = mCantique && /\.[a-zA-Z0-9]{2,5}$/.test(mCantique[2]);
