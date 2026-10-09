@@ -1,19 +1,32 @@
-// Enregistrement du Service Worker (uniquement en production)
-if ('serviceWorker' in navigator) {
-  const isLocalhost = location.hostname === 'localhost' || location.hostname === '127.0.0.1';
+// ============================================================
+// Cantiques EUJC — Enregistrement du Service Worker
+// ============================================================
+// NOTE : désactivé temporairement pour éliminer les caches fantômes.
+// À réactiver quand tout sera stabilisé.
 
-  if (isLocalhost) {
-    // En local : on désenregistre tous les SW pour éviter le cache
-    navigator.serviceWorker.getRegistrations().then(registrations => {
-      registrations.forEach(reg => reg.unregister());
+(function () {
+  if (!('serviceWorker' in navigator)) return;
+
+  // 1. Désinscrire TOUS les service workers existants
+  navigator.serviceWorker.getRegistrations().then(regs => {
+    regs.forEach(reg => {
+      reg.unregister().then(() => {
+        console.log('[SW] Désinscrit :', reg.scope);
+      });
     });
-    console.log('🔧 Mode dev : Service Worker désactivé');
-  } else {
-    // En production : on enregistre normalement
-    window.addEventListener('load', () => {
-      navigator.serviceWorker.register('/sw.js', { scope: '/' })
-        .then(reg => console.log('✅ SW enregistré :', reg.scope))
-        .catch(err => console.warn('⚠️ SW échec :', err));
+  });
+
+  // 2. Nettoyer tous les caches
+  if ('caches' in window) {
+    caches.keys().then(names => {
+      names.forEach(name => {
+        caches.delete(name).then(() => {
+          console.log('[SW] Cache supprimé :', name);
+        });
+      });
     });
   }
-}
+
+  // 3. NE PAS enregistrer de nouveau SW pour l'instant
+  // navigator.serviceWorker.register('sw.js');
+})();
