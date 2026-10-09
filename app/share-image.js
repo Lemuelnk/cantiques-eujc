@@ -299,7 +299,7 @@ function prepareLayout(ctx, hymn, version, width, scale) {
     // Un verse n'affiche un numéro que si la donnée en fournit un.
     const hasExplicitNumber = block.type === 'verse' && block.number !== null;
     const numberGutter = hasExplicitNumber ? Math.round(46 * scale) : 0;
-    setFont(ctx, '600', bodySize, 'F.body');
+    setFont(ctx, '600', bodySize, F.body);
     const lines = measureLines(ctx, block.lines, contentWidth - numberGutter);
     elements.push({
       type: block.type, number: hasExplicitNumber ? block.number : null,
@@ -319,7 +319,7 @@ function drawLines(ctx, lines, x, y, lineHeight, maxWidth) {
   // Garde-fou : on remesure CHAQUE ligne sur le ctx reel avant de dessiner.
   // Si elle depasse la largeur dispo (mesure imprecise, police chargee
   // differemment...), on la redecoupe en place.
-  const limit = maxWidth ? Math.floor(maxWidth * 0.98) : 0;
+  const limit = maxWidth ? Math.floor(maxWidth * 0.95) : 0;
 
   for (const line of lines) {
     if (limit > 0 && ctx.measureText(line).width > limit) {
