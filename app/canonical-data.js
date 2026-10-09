@@ -98,14 +98,21 @@ function findHymn(corpus, hymnId) {
 // Helpers URLs propres /cantique/:cat/:num
 // ============================================================
 function hymnNumberSlug(number) {
-  return String(number || '')
-    .normalize('NFD')
-    .replace(/[\\u0300-\\u036f]/g, '')
-    .replace(/œ/gi, 'oe')
-    .replace(/[^A-Za-z0-9_-]+/g, '-')
-    .replace(/-+/g, '-')
-    .replace(/^-|-$/g, '')
-    .toLowerCase();
+  // Version ASCII pure - pas de regex Unicode, pas de normalize() (buggé sur certains Android)
+  var s = String(number == null ? '' : number).toLowerCase();
+  var out = '';
+  for (var i = 0; i < s.length; i++) {
+    var c = s.charCodeAt(i);
+    if (c === 339) { out += 'oe'; continue; }                    // oe ligature
+    if (c >= 97 && c <= 122) { out += s.charAt(i); continue; }   // a-z
+    if (c >= 48 && c <= 57)  { out += s.charAt(i); continue; }   // 0-9
+    if (c === 95)            { out += '_'; continue; }           // underscore
+    if (c === 45) {                                              // tiret (collapse)
+      if (out.length > 0 && out.charAt(out.length - 1) !== '-') out += '-';
+    }
+  }
+  if (out.length > 0 && out.charAt(out.length - 1) === '-') out = out.slice(0, -1);
+  return out;
 }
 
 function hymnRouteKey(hymn, corpus) {
