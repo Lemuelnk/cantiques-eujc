@@ -95,3 +95,20 @@ Les signalements validés depuis l'admin déclenchent la création d'une Pull Re
 - Types manuels : `doublon`, `cantique_manquant`, `categorie_manquante`, `autre`, `nom_incorrect`, `categorie`, `ordre`
 - Aucun commit direct sur `main` : toujours une PR review avant merge
 - Le worker utilise un token GitHub fine-grained stocké comme secret Cloudflare (`GITHUB_TOKEN`)
+
+## DEC-009 — Helpers JS critiques en ASCII pur
+
+Les helpers critiques pour la construction d'URL (slugs, clés de route) doivent être écrits en ASCII pur, sans regex Unicode ni `String.prototype.normalize()`.
+
+Raison : le moteur JS de Chrome Android peut retourner des résultats incohérents avec les regex Unicode combinées à `normalize('NFD')` sur des chaînes purement numériques, produisant silencieusement une chaîne vide.
+
+Conséquence historique : tous les cantiques avec des numéros purement numériques (111, 347, etc.) redirigeaient vers la page catégorie au lieu de la page cantique pendant plusieurs jours.
+
+## DEC-010 — Après chaque déploiement
+
+Deux règles non-négociables :
+
+1. **Bumper les `?v=`** de tous les assets modifiés dans les HTML (`canonical-data.js?v=N`)
+2. **Unregister le Service Worker + vider le cache navigateur** pour tester en prod
+
+Sinon le SW sert du contenu périmé et l'utilisateur voit l'ancienne version.
