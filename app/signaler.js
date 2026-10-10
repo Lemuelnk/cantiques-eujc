@@ -107,6 +107,7 @@ const TYPE_LABELS = {
   titre: 'Titre',
   couplet: 'Couplet',
   refrain: 'Refrain',
+  bloc_a_supprimer: 'Bloc en trop',
   ordre: 'Ordre',
   categorie: 'Mauvaise catégorie',
   autre: 'Autre problème'
@@ -121,6 +122,7 @@ const ORDRE_OPTIONS = {
 // Aides contextuelles affichées selon le type choisi
 const TYPE_HINTS = {
   orthographe: 'Indiquez le mot mal orthographié et sa correction. Ex : « Mungu » au lieu de « Mungo ».',
+  bloc_a_supprimer: 'Sélectionnez le bloc à supprimer. Le bloc disparaîtra complètement du cantique après validation.',
   traduction: 'Précisez quelle langue devrait être utilisée, ou quel passage est mal traduit.',
   titre: 'Le titre affiché est incorrect, incomplet, ou appartient à un autre cantique. Indiquez le bon titre.',
   couplet: 'Sélectionnez le couplet concerné ci-dessous, puis indiquez la correction.',
@@ -284,7 +286,7 @@ function selectType(type) {
   updateStep(2);
 
   // Adapter les champs selon le type
-  if (type === 'couplet' || type === 'refrain' || type === 'commentaire') {
+  if (type === 'couplet' || type === 'refrain' || type === 'commentaire' || type === 'bloc_a_supprimer') {
     setupBlockSelection(type);
   } else if (type === 'ordre') {
     setupOrderSelection(type);
@@ -303,7 +305,10 @@ function selectType(type) {
 
 function setupBlockSelection(type) {
   // 'verse' = nom standard des couplets, 'source_block' = ancien nom (compat)
-  const wantedTypes = type === 'couplet' ? ['verse', 'source_block']
+  // Pour bloc_a_supprimer : on veut pouvoir supprimer n'importe quel type
+  const wantedTypes = type === 'bloc_a_supprimer'
+                      ? ['verse', 'source_block', 'refrain', 'comment']
+                    : type === 'couplet' ? ['verse', 'source_block']
                     : type === 'refrain' ? ['refrain']
                     : ['comment'];
 
