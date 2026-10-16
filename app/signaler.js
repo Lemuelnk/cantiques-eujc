@@ -18,12 +18,13 @@ const categoryId = params.get('category') || 'lesson-1';
 // ------------------------------------------------------------
 function detectScope() {
   const explicit = params.get('scope');
-  if (explicit === 'lessons')   return 'liste-lessons';
-  if (explicit === 'cantiques') return 'liste-cantiques';
-  if (explicit === 'dimanche')  return 'liste-dimanche';
-  if (explicit === 'priere')    return 'liste-priere';
-  if (explicit === 'global')    return 'global';
-  if (hymnId)                   return 'cantique';
+  // Accepte les 2 formats : ?scope=cantiques (court) et ?scope=liste-cantiques (interne)
+  if (explicit === 'lessons' || explicit === 'liste-lessons')     return 'liste-lessons';
+  if (explicit === 'cantiques' || explicit === 'liste-cantiques') return 'liste-cantiques';
+  if (explicit === 'dimanche' || explicit === 'liste-dimanche')   return 'liste-dimanche';
+  if (explicit === 'priere' || explicit === 'liste-priere')       return 'liste-priere';
+  if (explicit === 'global')                                      return 'global';
+  if (hymnId)                                                     return 'cantique';
   return 'global';
 }
 
@@ -56,6 +57,8 @@ const $proposedBlock  = document.getElementById('report-proposed-block');
 const $proposed       = document.getElementById('report-proposed');
 const $categoryBlock  = document.getElementById('report-category-block');
 const $categorySelect = document.getElementById('report-category');
+const $newNameBlock   = document.getElementById('report-new-name-block');
+const $newNameInput   = document.getElementById('report-new-name');
 const $message        = document.getElementById('report-message');
 const $contactStep    = document.getElementById('report-contact-step');
 const $name           = document.getElementById('report-name');
@@ -123,6 +126,7 @@ const ORDRE_OPTIONS = {
 const TYPE_HINTS = {
   orthographe: 'Indiquez le mot mal orthographié et sa correction. Ex : « Mungu » au lieu de « Mungo ».',
   bloc_a_supprimer: 'Sélectionnez le bloc à supprimer. Le bloc disparaîtra complètement du cantique après validation.',
+  nom_incorrect: 'Indiquez le nouveau nom que devrait porter cette catégorie ou leçon. Le nom sera mis à jour partout dans l\'application.',
   traduction: 'Précisez quelle langue devrait être utilisée, ou quel passage est mal traduit.',
   titre: 'Le titre affiché est incorrect, incomplet, ou appartient à un autre cantique. Indiquez le bon titre.',
   couplet: 'Sélectionnez le couplet concerné ci-dessous, puis indiquez la correction.',
@@ -271,8 +275,10 @@ function selectType(type) {
   $currentBlock.hidden = true;
   $proposedBlock.hidden = true;
   $categoryBlock.hidden = true;
+  $newNameBlock.hidden = true;
   $targetField.innerHTML = '';
   $proposed.value = '';
+  $newNameInput.value = '';
   $currentText.textContent = '';
 
   $detailsStep.hidden = false;
@@ -292,6 +298,9 @@ function selectType(type) {
     setupOrderSelection(type);
   } else if (type === 'categorie') {
     setupCategorySelection();
+  } else if (type === 'nom_incorrect') {
+    $newNameBlock.hidden = false;
+    $proposedBlock.hidden = true;
   }
   // 'titre' et 'autre' : juste le message libre (pas de champ supplémentaire)
 
@@ -443,7 +452,12 @@ function updateSubmitState() {
     ? proposedOk
     : messageOk;
 
-  $submit.disabled = !(hasType && hasTarget && hasCategory && modeOk && turnstileToken);
+  // Cas particulier : nom_incorrect exige un nouveau nom non-vide
+  const newNameOk = selectedType === 'nom_incorrect'
+    ? (($newNameInput && $newNameInput.value.trim().length) >= 3)
+    : true;
+
+  $submit.disabled = !(hasType && hasTarget && hasCategory && modeOk && newNameOk && turnstileToken);
 }
 
 function updateStep(step) {
@@ -533,6 +547,7 @@ function applyMode(mode) {
 }
 
 $message.addEventListener('input', updateSubmitState);
+if ($newNameInput) $newNameInput.addEventListener('input', updateSubmitState);
 $categorySelect.addEventListener('change', updateSubmitState);
 
 // ------------------------------------------------------------
@@ -573,6 +588,11 @@ async function submitReport(event) {
 
   if (!$proposedBlock.hidden && $proposed.value.trim()) {
     payload.proposedText = $proposed.value.trim();
+  }
+
+  // Cas nom_incorrect : le nouveau nom va dans proposedText
+  if (selectedType === 'nom_incorrect' && $newNameInput && $newNameInput.value.trim()) {
+    payload.proposedText = $newNameInput.value.trim();
   }
 
   if (!$categoryBlock.hidden && $categorySelect.value) {
