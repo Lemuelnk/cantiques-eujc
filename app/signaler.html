@@ -19,8 +19,8 @@
   <meta name="mobile-web-app-capable" content="yes">
 
   <link rel="manifest" href="manifest.webmanifest">
-  <link rel="stylesheet" href="charte.css?v=402">
-  <link rel="stylesheet" href="fonts.css?v=402">  <script>
+  <link rel="stylesheet" href="charte.css?v=403">
+  <link rel="stylesheet" href="fonts.css?v=403">  <script>
     /* Anti-FOUC : applique le thème + police avant tout rendu */
     (function(){
       try {
@@ -46,8 +46,8 @@
     })();
   </script>
 
-  <link rel="stylesheet" href="style.css?v=402">
-  <link rel="stylesheet" href="signaler.css?v=402">
+  <link rel="stylesheet" href="style.css?v=403">
+  <link rel="stylesheet" href="signaler.css?v=403">
 
   <script src="https://unpkg.com/lucide@latest"></script>
   <script src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit" async defer></script>
@@ -138,7 +138,7 @@
             <button type="button" class="report-type-card" data-type="titre" data-scopes="cantique">
               <i data-lucide="heading"></i>
               <span>Titre du cantique</span>
-              <small>Le titre de ce cantique est faux ou incomplet</small>
+              <small>Le titre de ce cantique (ex : « WATAKA WOKOVU ») est faux ou incomplet</small>
             </button>
             <button type="button" class="report-type-card" data-type="couplet" data-scopes="cantique">
               <i data-lucide="list-ordered"></i>
@@ -179,8 +179,8 @@
             </button>
             <button type="button" class="report-type-card" data-type="nom_incorrect" data-scopes="liste-cantiques,liste-lessons,liste-dimanche,liste-priere" hidden>
               <i data-lucide="tag"></i>
-              <span>Nom de la liste</span>
-              <small>Le nom de cette catégorie ou leçon est incorrect</small>
+              <span>Nom de la catégorie</span>
+              <small>Le nom de cette catégorie ou leçon (ex : « Leçon 12 — Les 10 plaies ») est incorrect</small>
             </button>
             <button type="button" class="report-type-card" data-type="doublon" data-scopes="liste-cantiques,liste-lessons,liste-dimanche,liste-priere" hidden>
               <i data-lucide="copy"></i>
@@ -224,6 +224,16 @@
           <div class="report-field" id="report-category-block" hidden>
             <label for="report-category">Bonne catégorie</label>
             <select id="report-category"></select>
+          </div>
+
+          <!-- Nouveau nom (pour nom_incorrect) -->
+          <div class="report-field" id="report-new-name-block" hidden>
+            <label for="report-new-name">
+              Nouveau nom
+              <span class="report-required">*</span>
+            </label>
+            <input type="text" id="report-new-name" placeholder="Ex : Les 10 plaies corrigé" autocomplete="off">
+            <small class="report-field-help">Ce nom remplacera l'ancien partout dans l'application.</small>
           </div>
 
           <!-- Aide contextuelle selon le type -->
@@ -300,10 +310,10 @@
     </section>
   </main>
 
-  <script src="canonical-data.js?v=402"></script>
-  <script src="storage.js?v=402"></script>
-  <script src="signaler.js?v=402"></script>
-  <script src="sw-register.js?v=402"></script>
-  <script src="preferences.js?v=402"></script>
+  <script src="canonical-data.js?v=403"></script>
+  <script src="storage.js?v=403"></script>
+  <script src="signaler.js?v=403"></script>
+  <script src="sw-register.js?v=403"></script>
+  <script src="preferences.js?v=403"></script>
 </body>
 </html>
