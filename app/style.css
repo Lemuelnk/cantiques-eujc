@@ -266,6 +266,12 @@ button {
   box-shadow: 0 4px 16px rgba(20, 57, 46, 0.10);
   transition: transform 120ms ease, box-shadow 120ms ease;
   font-family: inherit;
+  text-decoration: none;
+}
+.quick-card:visited,
+.quick-card:hover,
+.quick-card:focus {
+  text-decoration: none;
 }
 
 .quick-card:active {
