@@ -57,8 +57,10 @@ const $proposedBlock  = document.getElementById('report-proposed-block');
 const $proposed       = document.getElementById('report-proposed');
 const $categoryBlock  = document.getElementById('report-category-block');
 const $categorySelect = document.getElementById('report-category');
-const $newNameBlock   = document.getElementById('report-new-name-block');
-const $newNameInput   = document.getElementById('report-new-name');
+const $newNameBlock     = document.getElementById('report-new-name-block');
+const $newNameInput     = document.getElementById('report-new-name');
+const $currentNameBlock = document.getElementById('report-current-name-block');
+const $currentNameText  = document.getElementById('report-current-name');
 const $message        = document.getElementById('report-message');
 const $contactStep    = document.getElementById('report-contact-step');
 const $name           = document.getElementById('report-name');
@@ -276,10 +278,13 @@ function selectType(type) {
   $proposedBlock.hidden = true;
   $categoryBlock.hidden = true;
   $newNameBlock.hidden = true;
+  $currentNameBlock.hidden = true;
   $targetField.innerHTML = '';
   $proposed.value = '';
   $newNameInput.value = '';
   $currentText.textContent = '';
+  // Restaurer le toggle mode (il est masqué pour nom_incorrect)
+  if ($modeToggle) $modeToggle.style.display = '';
 
   $detailsStep.hidden = false;
   $contactStep.hidden = false;
@@ -301,6 +306,14 @@ function selectType(type) {
   } else if (type === 'nom_incorrect') {
     $newNameBlock.hidden = false;
     $proposedBlock.hidden = true;
+    // Afficher le nom actuel (lecture seule)
+    const currentLabel = (typeof CATEGORIES_LABELS !== 'undefined' && CATEGORIES_LABELS[categoryId])
+      ? CATEGORIES_LABELS[categoryId]
+      : (categoryId || '(non précisé)');
+    $currentNameText.textContent = currentLabel;
+    $currentNameBlock.hidden = false;
+    // Masquer le toggle Signaler / Correction (redondant pour nom_incorrect)
+    if ($modeToggle) $modeToggle.style.display = 'none';
   }
   // 'titre' et 'autre' : juste le message libre (pas de champ supplémentaire)
 
@@ -517,9 +530,12 @@ function applyMode(mode) {
       }
     }
 
-    // Afficher le bloc "correction proposée" si un type est déjà sélectionné
-    if (selectedType) {
+    // Afficher le bloc "correction proposée" UNIQUEMENT si un type le nécessite
+    // (nom_incorrect a son propre champ "Nouveau nom")
+    if (selectedType && selectedType !== 'nom_incorrect') {
       $proposedBlock.hidden = false;
+    } else {
+      $proposedBlock.hidden = true;
     }
   } else {
     if ($msgLabel) $msgLabel.textContent = 'Description';
