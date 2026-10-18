@@ -19,8 +19,8 @@
   <meta name="mobile-web-app-capable" content="yes">
 
   <link rel="manifest" href="manifest.webmanifest">
-  <link rel="stylesheet" href="charte.css?v=405">
-  <link rel="stylesheet" href="fonts.css?v=405">  <script>
+  <link rel="stylesheet" href="charte.css?v=406">
+  <link rel="stylesheet" href="fonts.css?v=406">  <script>
     /* Anti-FOUC : applique le thème + police avant tout rendu */
     (function(){
       try {
@@ -46,8 +46,8 @@
     })();
   </script>
 
-  <link rel="stylesheet" href="style.css?v=405">
-  <link rel="stylesheet" href="signaler.css?v=405">
+  <link rel="stylesheet" href="style.css?v=406">
+  <link rel="stylesheet" href="signaler.css?v=406">
 
   <script src="https://unpkg.com/lucide@latest"></script>
   <script src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit" async defer></script>
@@ -226,6 +226,12 @@
             <select id="report-category"></select>
           </div>
 
+          <!-- Nom actuel (lecture seule, pour nom_incorrect) -->
+          <div class="report-field" id="report-current-name-block" hidden>
+            <label>Nom actuel</label>
+            <div class="report-current-text" id="report-current-name"></div>
+          </div>
+
           <!-- Nouveau nom (pour nom_incorrect) -->
           <div class="report-field" id="report-new-name-block" hidden>
             <label for="report-new-name">
@@ -310,10 +316,10 @@
     </section>
   </main>
 
-  <script src="canonical-data.js?v=405"></script>
-  <script src="storage.js?v=405"></script>
-  <script src="signaler.js?v=405"></script>
-  <script src="sw-register.js?v=405"></script>
-  <script src="preferences.js?v=405"></script>
+  <script src="canonical-data.js?v=406"></script>
+  <script src="storage.js?v=406"></script>
+  <script src="signaler.js?v=406"></script>
+  <script src="sw-register.js?v=406"></script>
+  <script src="preferences.js?v=406"></script>
 </body>
 </html>
