@@ -517,9 +517,12 @@ function applyMode(mode) {
       }
     }
 
-    // Afficher le bloc "correction proposée" si un type est déjà sélectionné
-    if (selectedType) {
+    // Afficher le bloc "correction proposée" UNIQUEMENT si un type le nécessite
+    // (nom_incorrect a son propre champ "Nouveau nom")
+    if (selectedType && selectedType !== 'nom_incorrect') {
       $proposedBlock.hidden = false;
+    } else {
+      $proposedBlock.hidden = true;
     }
   } else {
     if ($msgLabel) $msgLabel.textContent = 'Description';
