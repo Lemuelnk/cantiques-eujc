@@ -54,3 +54,9 @@ cantiques_eujc_fonds_partage_1x1_a_9x19/
 file_*.png
 theme-*.png
 cantiques_eujc_fonds_partage*
+
+# Backups (ne jamais commiter)
+*.bak
+*.bak-*
+*.casse
+*.old
