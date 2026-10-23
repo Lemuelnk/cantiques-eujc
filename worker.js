@@ -12,6 +12,19 @@ export default {
     const url = new URL(request.url);
     let path = url.pathname;
 
+    // ----- 0. Preflight CORS (OPTIONS) pour /data/* -----
+    if (request.method === 'OPTIONS' && path.startsWith('/data/')) {
+      return new Response(null, {
+        status: 204,
+        headers: {
+          'Access-Control-Allow-Origin': 'https://lnk-studio.com',
+          'Access-Control-Allow-Methods': 'GET, OPTIONS',
+          'Access-Control-Allow-Headers': 'Content-Type',
+          'Access-Control-Max-Age': '86400'
+        }
+      });
+    }
+
     // ----- 1. Racine → /index.html -----
     if (path === '/' || path === '') {
       const indexPath = new URL(request.url);
