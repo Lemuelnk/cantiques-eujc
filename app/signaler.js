@@ -89,11 +89,6 @@ let contentBlocks  = [];
 // ------------------------------------------------------------
 // Helpers
 // ------------------------------------------------------------
-const escapeHtml = (v) => {
-  const d = document.createElement('div');
-  d.textContent = v == null ? '' : String(v);
-  return d.innerHTML;
-};
 
 function setStatus(text, kind) {
   $status.textContent = text;

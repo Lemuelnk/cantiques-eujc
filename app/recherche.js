@@ -122,11 +122,6 @@ function normalize(text) {
     .toLowerCase();
 }
 
-function escapeHtml(v) {
-  const d = document.createElement('div');
-  d.textContent = v == null ? '' : String(v);
-  return d.innerHTML;
-}
 
 function highlight(text, query) {
   if (!query) return escapeHtml(text);

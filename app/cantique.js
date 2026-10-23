@@ -45,11 +45,6 @@ let currentIndex    = -1;
 // ------------------------------------------------------------
 // Utilitaires
 // ------------------------------------------------------------
-function escapeHtml(value) {
-  const el = document.createElement('div');
-  el.textContent = value == null ? '' : String(value);
-  return el.innerHTML;
-}
 
 // ------------------------------------------------------------
 // Rendu des blocs de paroles

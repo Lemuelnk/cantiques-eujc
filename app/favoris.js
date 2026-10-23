@@ -8,20 +8,6 @@ const favoritesCount   = document.getElementById('favorites-count');
 const favoritesLoading = document.getElementById('favorites-loading');
 const backButton       = document.getElementById('back-button');
 
-const corpusCache = new Map();
-
-async function getCorpus(category) {
-  if (corpusCache.has(category)) return corpusCache.get(category);
-  try {
-    const data = await loadCanonicalLesson(category);
-    corpusCache.set(category, data);
-    return data;
-  } catch (err) {
-    console.warn(`Corpus "${category}" indisponible :`, err);
-    corpusCache.set(category, null);
-    return null;
-  }
-}
 
 function createFavoriteRow(hymn, category) {
   const display = getHymnDisplay(hymn);

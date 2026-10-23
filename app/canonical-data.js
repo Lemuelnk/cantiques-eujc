@@ -160,3 +160,32 @@ function buildCantiqueUrl(hymnOrDisplay, categoryId, corpus) {
   return '/cantique/' + encodeURIComponent(cat)
        + '/' + encodeURIComponent(route || hymnNumberSlug(num));
 }
+
+// ============================================================
+// Helpers partagés (Phase C — déduplication)
+// ============================================================
+
+// Échappe le HTML (utilisé dans cantique.js, recherche.js, signaler.js)
+function escapeHtml(value) {
+  const el = document.createElement('div');
+  el.textContent = value == null ? '' : String(value);
+  return el.innerHTML;
+}
+
+// Cache des corpus canoniques (partagé entre favoris.js et historique.js)
+const corpusCache = new Map();
+
+// Récupère un corpus avec cache
+async function getCorpus(category) {
+  if (corpusCache.has(category)) return corpusCache.get(category);
+  try {
+    const data = await loadCanonicalLesson(category);
+    corpusCache.set(category, data);
+    return data;
+  } catch (err) {
+    console.warn('Corpus "' + category + '" indisponible :', err);
+    corpusCache.set(category, null);
+    return null;
+  }
+}
+

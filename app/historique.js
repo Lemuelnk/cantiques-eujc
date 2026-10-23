@@ -9,19 +9,6 @@ const historyLoading = document.getElementById('history-loading');
 const backButton     = document.getElementById('back-button');
 const clearHistory   = document.getElementById('clear-history');
 
-const corpusCache = new Map();
-
-async function getCorpus(category) {
-  if (corpusCache.has(category)) return corpusCache.get(category);
-  try {
-    const data = await loadCanonicalLesson(category);
-    corpusCache.set(category, data);
-    return data;
-  } catch (err) {
-    corpusCache.set(category, null);
-    return null;
-  }
-}
 
 function formatRelativeTime(ts) {
   if (!ts) return '';
