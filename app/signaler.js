@@ -564,6 +564,7 @@ function applyMode(mode) {
 
 $message.addEventListener('input', updateSubmitState);
 if ($newNameInput) $newNameInput.addEventListener('input', updateSubmitState);
+if ($proposed) $proposed.addEventListener('input', updateSubmitState);
 $categorySelect.addEventListener('change', updateSubmitState);
 
 // ------------------------------------------------------------
