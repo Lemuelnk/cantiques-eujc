@@ -1,5 +1,9 @@
 # 🗺️ Roadmap — Cantiques EUJC
 
+> **⚠️ Ce document est un historique (ce qui a été fait).**
+> Pour la **roadmap à venir**, voir `docs/00-fondations/PRD.md` section "Roadmap réaliste".
+> Dernière mise à jour : 2026-10-24.
+
 ## ✅ Terminé
 
 ### Contenu
@@ -144,4 +148,48 @@
 |---|---|---|
 | 1.0.0 | Oct 2026 | Version initiale (379 cantiques) |
 | 7.x | Oct 2026 | Charte V2, thème sombre, 4 polices, partage |
+
+
+## ✅ Terminé (ajouts 2026-10-24)
+
+### SEO complet (2026-10-08)
+- [x] 2406 pages cantique statiques
+- [x] 40 pages catégorie statiques
+- [x] Sitemap 2447 URLs
+- [x] JSON-LD MusicComposition + BreadcrumbList
+- [x] Worker routing `/cantique/:cat/:num` et `/categorie/:cat`
+
+### Intégration auto signalements (2026-10-07 → 2026-10-24)
+- [x] Type `bloc_a_supprimer` (suppression automatique)
+- [x] Type `nom_incorrect` (renommage de catégorie)
+- [x] Admin : bouton "Appliquer la correction" → PR GitHub
+- [x] Admin : édition du texte avant application
+- [x] Admin : création manuelle de signalement (modal)
+- [x] Admin : autocomplete cantique + sélection de bloc
+
+### Documentation fondations (2026-10-24)
+- [x] README.md racine
+- [x] PRD v1 (vision, publics, risques, roadmap)
+- [x] ARCHITECTURE.md (3 repos, flux, D1)
+- [x] CARTOGRAPHIE.md (routes et pages)
+- [x] CLEANUP-LOG.md (registre)
+- [x] CONTRIBUTING.md (guide contribution)
+- [x] TESTS.md (checklist déploiement)
+- [x] CHANGELOG.md (historique versions)
+
+### Nettoyage code (2026-10-24)
+- [x] 6 fichiers code mort supprimés (~72 KB)
+- [x] escapeHtml centralisé (3 → 1)
+- [x] getCorpus + corpusCache centralisés (2 → 1)
+
+### Corrections critiques
+- [x] `hymnNumberSlug` : fix regex Unicode sur Android
+- [x] `share-image` : fix 'F.body' avec guillemets
+- [x] `html_handling` : fix accueil 404
+- [x] Service Worker : stratégie network-first
+
+### Contenu (mise à jour)
+- [x] ~1830 cantiques (au lieu de 379)
+- [x] 40 fichiers JSON canoniques (au lieu de 32)
+- [x] ~1450 cantiques "à classer"
 
