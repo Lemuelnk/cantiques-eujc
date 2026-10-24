@@ -19,8 +19,8 @@
   <meta name="mobile-web-app-capable" content="yes">
 
   <link rel="manifest" href="manifest.webmanifest">
-  <link rel="stylesheet" href="charte.css?v=410">
-  <link rel="stylesheet" href="fonts.css?v=410">  <script>
+  <link rel="stylesheet" href="charte.css?v=411">
+  <link rel="stylesheet" href="fonts.css?v=411">  <script>
     /* Anti-FOUC : applique le thème + police avant tout rendu */
     (function(){
       try {
@@ -46,8 +46,8 @@
     })();
   </script>
 
-  <link rel="stylesheet" href="style.css?v=410">
-  <link rel="stylesheet" href="signaler.css?v=410">
+  <link rel="stylesheet" href="style.css?v=411">
+  <link rel="stylesheet" href="signaler.css?v=411">
 
   <script src="https://unpkg.com/lucide@latest"></script>
   <script src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit" async defer></script>
@@ -211,6 +211,13 @@
             <div class="report-current-text" id="report-current-text"></div>
           </div>
 
+          <!-- Ordre des blocs (réordonnancement interactif) -->
+          <div class="report-field" id="report-order-block" hidden>
+            <label>Nouvel ordre <span class="report-required">*</span></label>
+            <p class="report-order-hint">Utilise les flèches pour changer l'ordre des blocs.</p>
+            <ul class="report-order-list" id="report-order-list"></ul>
+          </div>
+
           <!-- Correction proposée -->
           <div class="report-field" id="report-proposed-block" hidden>
             <label for="report-proposed">
@@ -316,10 +323,10 @@
     </section>
   </main>
 
-  <script src="canonical-data.js?v=410"></script>
-  <script src="storage.js?v=410"></script>
-  <script src="signaler.js?v=410"></script>
-  <script src="sw-register.js?v=410"></script>
-  <script src="preferences.js?v=410"></script>
+  <script src="canonical-data.js?v=411"></script>
+  <script src="storage.js?v=411"></script>
+  <script src="signaler.js?v=411"></script>
+  <script src="sw-register.js?v=411"></script>
+  <script src="preferences.js?v=411"></script>
 </body>
 </html>

@@ -61,6 +61,8 @@ const $newNameBlock     = document.getElementById('report-new-name-block');
 const $newNameInput     = document.getElementById('report-new-name');
 const $currentNameBlock = document.getElementById('report-current-name-block');
 const $currentNameText  = document.getElementById('report-current-name');
+const $orderBlock       = document.getElementById('report-order-block');
+const $orderList        = document.getElementById('report-order-list');
 const $message        = document.getElementById('report-message');
 const $contactStep    = document.getElementById('report-contact-step');
 const $name           = document.getElementById('report-name');
@@ -80,6 +82,7 @@ const $stepDots       = document.querySelectorAll('.report-step-dot');
 // ------------------------------------------------------------
 let currentHymn    = null;
 let currentVersion = null;
+let orderState = { blockType: null, originalIds: [], currentIds: [] };
 let selectedType   = null;
 let currentMode    = 'signaler'; // 'signaler' | 'correction'
 let turnstileToken = null;
@@ -274,6 +277,7 @@ function selectType(type) {
   $categoryBlock.hidden = true;
   $newNameBlock.hidden = true;
   $currentNameBlock.hidden = true;
+  resetOrderState();
   $targetField.innerHTML = '';
   $proposed.value = '';
   $newNameInput.value = '';
@@ -362,6 +366,9 @@ function setupBlockSelection(type) {
 }
 
 function setupOrderSelection(type) {
+  // Réinitialiser l'état
+  resetOrderState();
+
   // Sous-choix : couplets / refrain / commentaires
   $targetSelect.hidden = false;
   $targetField.innerHTML = '<option value="">— Quoi réordonner ? —</option>'
@@ -371,29 +378,97 @@ function setupOrderSelection(type) {
 
   $targetField.onchange = () => {
     const val = $targetField.value;
-    if (!val) {
-      $currentBlock.hidden = true;
-      return;
-    }
+    resetOrderState();
+    if (!val) return;
 
     let wantedTypes = ['verse', 'source_block'];
     if (val === 'refrain') wantedTypes = ['refrain'];
     if (val === 'commentaires') wantedTypes = ['comment'];
 
     const blocks = contentBlocks
-      .map((b, i) => ({ block: b, index: i, globalIdx: i }))
-      .filter(item => wantedTypes.includes(item.block.type));
+      .map((b, i) => ({ block: b, index: i }))
+      .filter(item => wantedTypes.includes(item.block.type) && item.block.id);
 
     if (blocks.length < 2) {
       setStatus('Il n\'y a pas assez de blocs à réordonner.', 'info');
-      $currentBlock.hidden = true;
       return;
     }
 
-    $currentBlock.hidden = false;
-    $currentText.textContent = 'Ordre actuel :\n' +
-      blocks.map(item => `• ${getBlockLabel(item.block, item.index)}`).join('\n');
+    orderState.blockType = val;
+    orderState.blocks = blocks;
+    orderState.originalIds = blocks.map(item => item.block.id);
+    orderState.currentIds = [...orderState.originalIds];
+    renderOrderList();
+    $orderBlock.hidden = false;
+    updateSubmitState();
   };
+}
+
+function resetOrderState() {
+  orderState = { blockType: null, blocks: [], originalIds: [], currentIds: [] };
+  if ($orderBlock) $orderBlock.hidden = true;
+  if ($orderList) $orderList.innerHTML = '';
+}
+
+function renderOrderList() {
+  if (!$orderList) return;
+  const byId = new Map();
+  orderState.blocks.forEach(item => byId.set(item.block.id, item));
+
+  const html = orderState.currentIds.map((id, pos) => {
+    const item = byId.get(id);
+    if (!item) return '';
+    const b = item.block;
+    const label = b.type === 'refrain'
+      ? 'Refrain'
+      : b.type === 'comment'
+        ? 'Commentaire ' + (b.number || '')
+        : 'Couplet ' + (b.number || item.index + 1);
+    const preview = (b.lines || []).join(' ').slice(0, 80);
+    const isFirst = pos === 0;
+    const isLast = pos === orderState.currentIds.length - 1;
+    return '<li class="report-order-item" data-id="' + escapeHtml(id) + '">' +
+      '<span class="report-order-pos">' + (pos + 1) + '.</span>' +
+      '<div class="report-order-body">' +
+        '<span class="report-order-label">' + escapeHtml(label) + '</span>' +
+        '<span class="report-order-preview">' + escapeHtml(preview) + '...</span>' +
+      '</div>' +
+      '<div class="report-order-actions">' +
+        '<button type="button" class="report-order-btn" data-move="up" data-id="' + escapeHtml(id) + '"' + (isFirst ? ' disabled' : '') + ' aria-label="Monter">↑</button>' +
+        '<button type="button" class="report-order-btn" data-move="down" data-id="' + escapeHtml(id) + '"' + (isLast ? ' disabled' : '') + ' aria-label="Descendre">↓</button>' +
+      '</div>' +
+    '</li>';
+  }).join('');
+
+  $orderList.innerHTML = html;
+  $orderList.querySelectorAll('.report-order-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      moveOrderItem(btn.dataset.id, btn.dataset.move);
+    });
+  });
+}
+
+function moveOrderItem(id, dir) {
+  const idx = orderState.currentIds.indexOf(id);
+  if (idx < 0) return;
+  if (dir === 'up' && idx > 0) {
+    const tmp = orderState.currentIds[idx - 1];
+    orderState.currentIds[idx - 1] = orderState.currentIds[idx];
+    orderState.currentIds[idx] = tmp;
+  } else if (dir === 'down' && idx < orderState.currentIds.length - 1) {
+    const tmp = orderState.currentIds[idx + 1];
+    orderState.currentIds[idx + 1] = orderState.currentIds[idx];
+    orderState.currentIds[idx] = tmp;
+  } else {
+    return;
+  }
+  renderOrderList();
+  updateSubmitState();
+}
+
+function hasOrderChanged() {
+  if (!orderState.originalIds.length) return false;
+  return orderState.originalIds.some((id, i) => id !== orderState.currentIds[i]);
 }
 
 function setupCategorySelection() {
@@ -465,7 +540,11 @@ function updateSubmitState() {
     ? (($newNameInput && $newNameInput.value.trim().length) >= 3)
     : true;
 
-  $submit.disabled = !(hasType && hasTarget && hasCategory && modeOk && newNameOk && turnstileToken);
+  const ordreOk = selectedType === 'ordre'
+    ? hasOrderChanged()
+    : true;
+
+  $submit.disabled = !(hasType && hasTarget && hasCategory && modeOk && newNameOk && ordreOk && turnstileToken);
 }
 
 function updateStep(step) {
@@ -600,6 +679,21 @@ async function submitReport(event) {
 
   if (!$proposedBlock.hidden && $proposed.value.trim()) {
     payload.proposedText = $proposed.value.trim();
+  }
+
+  // Cas ordre : envoyer le nouvel ordre (array d'IDs de blocs)
+  if (selectedType === 'ordre' && hasOrderChanged()) {
+    payload.newOrder = JSON.stringify(orderState.currentIds);
+    // proposedText lisible pour la PR
+    const labelByPos = orderState.currentIds.map((id, i) => {
+      const item = orderState.blocks.find(b => b.block.id === id);
+      if (!item) return '';
+      const b = item.block;
+      if (b.type === 'refrain') return 'Refrain';
+      if (b.type === 'comment') return 'Commentaire ' + (b.number || '');
+      return 'Couplet ' + (b.number || item.index + 1);
+    }).filter(Boolean);
+    payload.proposedText = 'Nouvel ordre : ' + labelByPos.join(' → ');
   }
 
   // Cas nom_incorrect : le nouveau nom va dans proposedText
