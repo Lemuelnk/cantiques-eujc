@@ -683,3 +683,99 @@ html.theme-dark .report-btn:disabled {
     padding-top: calc(12px + env(safe-area-inset-top, 0px));
   }
 }
+
+/* ============================================================
+   Réordonnancement interactif (type ordre)
+   ============================================================ */
+
+.report-order-hint {
+  margin: 4px 0 10px;
+  font-size: 12.5px;
+  color: var(--rp-muted, #676e69);
+  line-height: 1.4;
+}
+
+.report-order-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.report-order-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--rp-border, rgba(245, 240, 230, 0.15));
+  border-radius: 10px;
+  transition: background 120ms ease;
+}
+
+.report-order-pos {
+  flex: 0 0 24px;
+  height: 24px;
+  display: grid;
+  place-items: center;
+  background: var(--rp-gold, #b8935a);
+  color: #fff;
+  border-radius: 50%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.report-order-body {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.report-order-label {
+  font-weight: 600;
+  font-size: 13.5px;
+  color: var(--rp-text, #f5f0e6);
+}
+
+.report-order-preview {
+  font-size: 11.5px;
+  color: var(--rp-muted, #b0b8b3);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.report-order-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.report-order-btn {
+  width: 28px;
+  height: 22px;
+  display: grid;
+  place-items: center;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid var(--rp-border, rgba(245, 240, 230, 0.15));
+  border-radius: 5px;
+  color: var(--rp-text, #f5f0e6);
+  font-size: 11px;
+  cursor: pointer;
+  padding: 0;
+  transition: background 100ms ease;
+}
+
+.report-order-btn:hover:not(:disabled) {
+  background: rgba(184, 147, 90, 0.3);
+}
+
+.report-order-btn:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
