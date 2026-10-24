@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#faf6ec" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0b2b24" media="(prefers-color-scheme: dark)">
+  <title>Contribuer — Cantiques EUJC</title>
+
+  <!-- Favicons -->
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Cantiques EUJC">
+  <meta name="mobile-web-app-capable" content="yes">
+
+  <meta name="description" content="Contribuer à Cantiques EUJC : 6 façons d'aider (code, contenu, traduction, audio, administration, financement). Projet communautaire open source.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://cantiques-eujc.lnk-studio.com/contribuer.html">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:site_name" content="Cantiques EUJC">
+  <meta property="og:title" content="Contribuer — Cantiques EUJC">
+  <meta property="og:description" content="Aidez à améliorer le recueil numérique Cantiques EUJC.">
+  <meta property="og:url" content="https://cantiques-eujc.lnk-studio.com/contribuer.html">
+  <meta property="og:image" content="https://cantiques-eujc.lnk-studio.com/og-image.png">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Contribuer — Cantiques EUJC">
+  <meta name="twitter:description" content="Aidez à améliorer le recueil numérique Cantiques EUJC.">
+
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="charte.css?v=409">
+  <link rel="stylesheet" href="fonts.css?v=409">
+  <link rel="stylesheet" href="style.css?v=409">
+  <link rel="stylesheet" href="bottom-nav.css?v=409">
+  <link rel="stylesheet" href="parametres.css?v=409">
+
+  <script>
+    (function(){
+      try {
+        var p = JSON.parse(localStorage.getItem('cantiques-eujc-preferences') || '{}');
+        var t = p.theme || 'system';
+        var eff = t === 'system'
+          ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
+          : t;
+        document.documentElement.setAttribute('data-theme', eff);
+        if (eff === 'dark') {
+          document.documentElement.classList.add('theme-dark');
+          document.addEventListener('DOMContentLoaded', function(){
+            if (document.body) document.body.classList.add('theme-dark');
+          }, { once: true });
+        }
+        if (p.textScale) document.documentElement.style.setProperty('--text-scale', p.textScale);
+        var fonts = {'system':'var(--font-system)','open-sans':'var(--font-open-sans)','lora':'var(--font-lora)','atkinson':'var(--font-atkinson)'};
+        if (p.font && fonts[p.font]) {
+          document.documentElement.style.setProperty('--font-body', fonts[p.font]);
+          document.documentElement.style.setProperty('--font-heading', fonts[p.font]);
+        }
+      } catch(e) {}
+    })();
+  </script>
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+  <main class="settings-page">
+
+    <header class="settings-header">
+      <button class="icon-button" id="back-button" aria-label="Retour" type="button">
+        <i data-lucide="arrow-left"></i>
+      </button>
+      <div class="settings-header-title">
+        <h1>Contribuer</h1>
+      </div>
+      <span class="header-spacer" aria-hidden="true" style="width:42px"></span>
+    </header>
+
+    <section class="settings-content">
+
+      <div class="contribuer-intro">
+        <p><strong>Cantiques EUJC est un projet communautaire.</strong> Son objectif : offrir à l'Église un recueil numérique fiable, multilingue et accessible à tous.</p>
+        <p>Il existe <strong>6 façons d'aider</strong>, chacune adaptée à un profil différent. Tu n'as pas besoin d'être développeur pour contribuer.</p>
+      </div>
+
+      <h2 class="settings-section-title">6 façons de contribuer</h2>
+
+      <a class="settings-card settings-link" href="https://github.com/Lemuelnk/cantiques-eujc/blob/main/docs/00-fondations/CONTRIBUTING.md" target="_blank" rel="noopener">
+        <div class="settings-row">
+          <div class="settings-row-icon"><i data-lucide="code-2"></i></div>
+          <div class="settings-row-body">
+            <span class="settings-label">Développement</span>
+            <span class="settings-hint">PWA, admin, worker, Flutter, scripts</span>
+          </div>
+          <i data-lucide="chevron-right" class="settings-arrow"></i>
+        </div>
+      </a>
+
+      <a class="settings-card settings-link" href="https://github.com/Lemuelnk/cantiques-eujc/blob/main/docs/00-fondations/CONTRIBUTING.md" target="_blank" rel="noopener">
+        <div class="settings-row">
+          <div class="settings-row-icon"><i data-lucide="music"></i></div>
+          <div class="settings-row-body">
+            <span class="settings-label">Contenu</span>
+            <span class="settings-hint">Ajouter, corriger, vérifier les paroles</span>
+          </div>
+          <i data-lucide="chevron-right" class="settings-arrow"></i>
+        </div>
+      </a>
+
+      <a class="settings-card settings-link" href="https://github.com/Lemuelnk/cantiques-eujc/blob/main/docs/00-fondations/CONTRIBUTING.md" target="_blank" rel="noopener">
+        <div class="settings-row">
+          <div class="settings-row-icon"><i data-lucide="languages"></i></div>
+          <div class="settings-row-body">
+            <span class="settings-label">Traduction</span>
+            <span class="settings-hint">Anglais, lingala, swahili, tshiluba, kikongo</span>
+          </div>
+          <i data-lucide="chevron-right" class="settings-arrow"></i>
+        </div>
+      </a>
+
+      <a class="settings-card settings-link" href="https://github.com/Lemuelnk/cantiques-eujc/blob/main/docs/00-fondations/CONTRIBUTING.md" target="_blank" rel="noopener">
+        <div class="settings-row">
+          <div class="settings-row-icon"><i data-lucide="mic"></i></div>
+          <div class="settings-row-body">
+            <span class="settings-label">Audio</span>
+            <span class="settings-hint">Enregistrer ou fournir des liens audio</span>
+          </div>
+          <i data-lucide="chevron-right" class="settings-arrow"></i>
+        </div>
+      </a>
+
+      <a class="settings-card settings-link" href="https://github.com/Lemuelnk/cantiques-eujc/blob/main/docs/00-fondations/CONTRIBUTING.md" target="_blank" rel="noopener">
+        <div class="settings-row">
+          <div class="settings-row-icon"><i data-lucide="shield-check"></i></div>
+          <div class="settings-row-body">
+            <span class="settings-label">Administration</span>
+            <span class="settings-hint">Valider les signalements, modérer</span>
+          </div>
+          <i data-lucide="chevron-right" class="settings-arrow"></i>
+        </div>
+      </a>
+
+      <a class="settings-card settings-link" href="https://github.com/Lemuelnk/cantiques-eujc/blob/main/docs/00-fondations/CONTRIBUTING.md" target="_blank" rel="noopener">
+        <div class="settings-row">
+          <div class="settings-row-icon"><i data-lucide="heart-handshake"></i></div>
+          <div class="settings-row-body">
+            <span class="settings-label">Financement</span>
+            <span class="settings-hint">Soutenir l'infrastructure ou une feature</span>
+          </div>
+          <i data-lucide="chevron-right" class="settings-arrow"></i>
+        </div>
+      </a>
+
+      <h2 class="settings-section-title">Comment commencer</h2>
+
+      <div class="settings-card contribuer-card">
+        <div class="contribuer-steps">
+          <div class="contribuer-step">
+            <span class="contribuer-step-num">1</span>
+            <div>
+              <strong>Lis le guide de contribution</strong>
+              <p>Le fichier CONTRIBUTING.md explique comment fonctionne le projet, les conventions de code et le workflow Git.</p>
+            </div>
+          </div>
+          <div class="contribuer-step">
+            <span class="contribuer-step-num">2</span>
+            <div>
+              <strong>Choisis ton domaine</strong>
+              <p>Code, contenu, traduction, audio, admin ou financement. Chacun a son guide détaillé.</p>
+            </div>
+          </div>
+          <div class="contribuer-step">
+            <span class="contribuer-step-num">3</span>
+            <div>
+              <strong>Crée une issue ou une PR</strong>
+              <p>Pour les bugs et propositions : issue. Pour les contributions concrètes : Pull Request.</p>
+            </div>
+          </div>
+          <div class="contribuer-step">
+            <span class="contribuer-step-num">4</span>
+            <div>
+              <strong>Sois patient</strong>
+              <p>Le projet est maintenu par 1 personne à 2-5h/semaine. Une PR peut mettre quelques semaines à être reviewée.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="settings-section-title">Liens GitHub</h2>
+
+      <a class="settings-card settings-link" href="https://github.com/Lemuelnk/cantiques-eujc" target="_blank" rel="noopener">
+        <div class="settings-row">
+          <div class="settings-row-icon"><i data-lucide="github"></i></div>
+          <div class="settings-row-body">
+            <span class="settings-label">Code source</span>
+            <span class="settings-hint">github.com/Lemuelnk/cantiques-eujc</span>
+          </div>
+          <i data-lucide="external-link" class="settings-arrow"></i>
+        </div>
+      </a>
+
+      <a class="settings-card settings-link" href="https://github.com/Lemuelnk/cantiques-eujc/issues" target="_blank" rel="noopener">
+        <div class="settings-row">
+          <div class="settings-row-icon"><i data-lucide="bug"></i></div>
+          <div class="settings-row-body">
+            <span class="settings-label">Signaler un bug ou proposer une feature</span>
+            <span class="settings-hint">Issues GitHub</span>
+          </div>
+          <i data-lucide="external-link" class="settings-arrow"></i>
+        </div>
+      </a>
+
+      <a class="settings-card settings-link" href="https://github.com/Lemuelnk/cantiques-eujc/discussions" target="_blank" rel="noopener">
+        <div class="settings-row">
+          <div class="settings-row-icon"><i data-lucide="message-circle"></i></div>
+          <div class="settings-row-body">
+            <span class="settings-label">Poser une question</span>
+            <span class="settings-hint">Discussions GitHub</span>
+          </div>
+          <i data-lucide="external-link" class="settings-arrow"></i>
+        </div>
+      </a>
+
+      <a class="settings-card settings-link" href="https://github.com/Lemuelnk/cantiques-eujc/pulls" target="_blank" rel="noopener">
+        <div class="settings-row">
+          <div class="settings-row-icon"><i data-lucide="git-pull-request"></i></div>
+          <div class="settings-row-body">
+            <span class="settings-label">Voir les contributions en cours</span>
+            <span class="settings-hint">Pull Requests</span>
+          </div>
+          <i data-lucide="external-link" class="settings-arrow"></i>
+        </div>
+      </a>
+
+      <h2 class="settings-section-title">Documents de référence</h2>
+
+      <a class="settings-card settings-link" href="https://github.com/Lemuelnk/cantiques-eujc/blob/main/docs/00-fondations/CONTRIBUTING.md" target="_blank" rel="noopener">
+        <div class="settings-row">
+          <div class="settings-row-icon"><i data-lucide="book-open"></i></div>
+          <div class="settings-row-body">
+            <span class="settings-label">Guide de contribution</span>
+            <span class="settings-hint">CONTRIBUTING.md</span>
+          </div>
+          <i data-lucide="external-link" class="settings-arrow"></i>
+        </div>
+      </a>
+
+      <a class="settings-card settings-link" href="https://github.com/Lemuelnk/cantiques-eujc/blob/main/docs/00-fondations/PRD.md" target="_blank" rel="noopener">
+        <div class="settings-row">
+          <div class="settings-row-icon"><i data-lucide="target"></i></div>
+          <div class="settings-row-body">
+            <span class="settings-label">Vision et roadmap</span>
+            <span class="settings-hint">PRD (Product Requirements Document)</span>
+          </div>
+          <i data-lucide="external-link" class="settings-arrow"></i>
+        </div>
+      </a>
+
+      <a class="settings-card settings-link" href="https://github.com/Lemuelnk/cantiques-eujc/blob/main/CODE_OF_CONDUCT.md" target="_blank" rel="noopener">
+        <div class="settings-row">
+          <div class="settings-row-icon"><i data-lucide="handshake"></i></div>
+          <div class="settings-row-body">
+            <span class="settings-label">Code de conduite</span>
+            <span class="settings-hint">CODE_OF_CONDUCT.md</span>
+          </div>
+          <i data-lucide="external-link" class="settings-arrow"></i>
+        </div>
+      </a>
+
+      <a class="settings-card settings-link" href="https://github.com/Lemuelnk/cantiques-eujc/blob/main/SECURITY.md" target="_blank" rel="noopener">
+        <div class="settings-row">
+          <div class="settings-row-icon"><i data-lucide="shield"></i></div>
+          <div class="settings-row-body">
+            <span class="settings-label">Politique de sécurité</span>
+            <span class="settings-hint">Comment signaler une faille</span>
+          </div>
+          <i data-lucide="external-link" class="settings-arrow"></i>
+        </div>
+      </a>
+
+      <div class="contribuer-merci">
+        <p><strong>Merci de contribuer à Cantiques EUJC.</strong></p>
+        <p>Chaque contribution, même petite, aide à construire une œuvre durable pour l'Église.</p>
+      </div>
+
+    </section>
+  </main>
+
+  <script src="bottom-nav.js?v=409"></script>
+  <script src="contribuer.js?v=409"></script>
+  <script src="sw-register.js?v=409"></script>
+  <script src="preferences.js?v=409"></script>
+</body>
+</html>
