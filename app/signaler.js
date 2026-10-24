@@ -300,6 +300,8 @@ function selectType(type) {
     setupBlockSelection(type);
   } else if (type === 'ordre') {
     setupOrderSelection(type);
+    $proposedBlock.hidden = true;
+    if ($modeToggle) $modeToggle.style.display = 'none';
   } else if (type === 'categorie') {
     setupCategorySelection();
   } else if (type === 'nom_incorrect') {
@@ -434,13 +436,14 @@ function renderOrderList() {
         '<span class="report-order-preview">' + escapeHtml(preview) + '...</span>' +
       '</div>' +
       '<div class="report-order-actions">' +
-        '<button type="button" class="report-order-btn" data-move="up" data-id="' + escapeHtml(id) + '"' + (isFirst ? ' disabled' : '') + ' aria-label="Monter">↑</button>' +
-        '<button type="button" class="report-order-btn" data-move="down" data-id="' + escapeHtml(id) + '"' + (isLast ? ' disabled' : '') + ' aria-label="Descendre">↓</button>' +
+        '<button type="button" class="report-order-btn" data-move="up" data-id="' + escapeHtml(id) + '"' + (isFirst ? ' disabled' : '') + ' aria-label="Monter"><i data-lucide="chevron-up"></i></button>' +
+        '<button type="button" class="report-order-btn" data-move="down" data-id="' + escapeHtml(id) + '"' + (isLast ? ' disabled' : '') + ' aria-label="Descendre"><i data-lucide="chevron-down"></i></button>' +
       '</div>' +
     '</li>';
   }).join('');
 
   $orderList.innerHTML = html;
+  if (window.lucide) lucide.createIcons();
   $orderList.querySelectorAll('.report-order-btn').forEach(btn => {
     btn.addEventListener('click', () => {
       moveOrderItem(btn.dataset.id, btn.dataset.move);
@@ -531,9 +534,9 @@ function updateSubmitState() {
   const messageOk = $message.value.trim().length >= 5;
   const proposedOk = $proposed.value.trim().length >= 5;
 
-  const modeOk = currentMode === 'correction'
-    ? proposedOk
-    : messageOk;
+  const modeOk = selectedType === 'ordre'
+    ? true
+    : (currentMode === 'correction' ? proposedOk : messageOk);
 
   // Cas particulier : nom_incorrect exige un nouveau nom non-vide
   const newNameOk = selectedType === 'nom_incorrect'
