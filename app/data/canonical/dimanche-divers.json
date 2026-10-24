@@ -248,19 +248,19 @@
               ]
             },
             {
-              "id": "blk-42f13911",
-              "type": "verse",
-              "number": "2",
-              "lines": [
-                "Sisi twajitolea tufanye huduma mpaka mwisho wa maisha yetu."
-              ]
-            },
-            {
               "id": "blk-b229be7e",
               "type": "verse",
               "number": "3",
               "lines": [
                 "Tulichaguliwa katika ulimwengu ili tuwe wafanya kazi nawe."
+              ]
+            },
+            {
+              "id": "blk-42f13911",
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Sisi twajitolea tufanye huduma mpaka mwisho wa maisha yetu."
               ]
             }
           ]
