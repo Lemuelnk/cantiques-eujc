@@ -119,6 +119,8 @@ body {
   border: none;
   padding: 0;
   margin: 0 0 24px;
+  min-width: 0;
+  max-width: 100%;
 }
 
 .report-step legend {
@@ -794,6 +796,21 @@ html.theme-dark .report-btn:disabled {
 /* ============================================================
    FIX overflow horizontal (type ordre)
    ============================================================ */
+
+/* Le fieldset parent (piège : min-width: min-content par défaut) */
+.report-step {
+  min-width: 0;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+/* Conteneurs parents */
+.report-content,
+.report-page,
+#report-form {
+  min-width: 0;
+  max-width: 100%;
+}
 
 #report-order-block {
   box-sizing: border-box;
