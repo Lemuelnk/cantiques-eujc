@@ -790,3 +790,83 @@ html.theme-dark .report-btn:disabled {
   opacity: 0.25;
   cursor: not-allowed;
 }
+
+/* ============================================================
+   FIX overflow horizontal (type ordre)
+   Contraint tous les conteneurs flex à ne pas déborder
+   ============================================================ */
+
+/* Le bloc ordre en général */
+#report-order-block {
+  box-sizing: border-box;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+#report-order-block .report-order-hint {
+  box-sizing: border-box;
+  max-width: 100%;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/* La liste */
+.report-order-list {
+  box-sizing: border-box;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+/* Chaque item */
+.report-order-item {
+  box-sizing: border-box;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+/* Le body (label + preview) */
+.report-order-body {
+  flex: 1 1 0;
+  min-width: 0;
+  overflow: hidden;
+}
+
+/* Le label et preview doivent rétrécir */
+.report-order-label,
+.report-order-preview {
+  display: block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Les boutons d'action : largeur fixe, ne shrink pas */
+.report-order-actions {
+  flex: 0 0 auto;
+  width: auto;
+  min-width: 44px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.report-order-btn {
+  box-sizing: border-box;
+  width: 40px;
+  height: 34px;
+}
+
+/* Le select du bloc concerné */
+#report-target-select select {
+  box-sizing: border-box;
+  max-width: 100%;
+  width: 100%;
+}
+
+/* Par sécurité : tout .report-field ne déborde pas */
+.report-field {
+  box-sizing: border-box;
+  max-width: 100%;
+  overflow: hidden;
+}
