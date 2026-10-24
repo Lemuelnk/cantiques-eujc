@@ -6,7 +6,7 @@
 //  - Fallback réseau si non trouvé en cache
 // ============================================================
 
-const VERSION = 'v7.14.3';
+const VERSION = 'v7.14.4';
 const CACHE_NAME = `cantiques-eujc-${VERSION}`;
 
 // Fichiers essentiels à pré-cacher

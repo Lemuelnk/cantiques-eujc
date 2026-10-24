@@ -753,29 +753,40 @@ html.theme-dark .report-btn:disabled {
 .report-order-actions {
   display: flex;
   flex-direction: column;
-  gap: 2px;
+  gap: 4px;
+  flex-shrink: 0;
 }
 
 .report-order-btn {
-  width: 28px;
-  height: 22px;
+  width: 36px;
+  height: 32px;
   display: grid;
   place-items: center;
-  background: rgba(255, 255, 255, 0.08);
-  border: 1px solid var(--rp-border, rgba(245, 240, 230, 0.15));
-  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.10);
+  border: 1px solid var(--rp-border, rgba(245, 240, 230, 0.20));
+  border-radius: 7px;
   color: var(--rp-text, #f5f0e6);
-  font-size: 11px;
   cursor: pointer;
   padding: 0;
-  transition: background 100ms ease;
+  transition: background 100ms ease, transform 100ms ease;
+}
+
+.report-order-btn svg {
+  width: 18px;
+  height: 18px;
+  stroke-width: 2.5;
 }
 
 .report-order-btn:hover:not(:disabled) {
-  background: rgba(184, 147, 90, 0.3);
+  background: rgba(184, 147, 90, 0.35);
+  transform: scale(1.05);
+}
+
+.report-order-btn:active:not(:disabled) {
+  transform: scale(0.95);
 }
 
 .report-order-btn:disabled {
-  opacity: 0.3;
+  opacity: 0.25;
   cursor: not-allowed;
 }
