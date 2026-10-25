@@ -234,29 +234,96 @@
           "content": [
             {
               "id": "blk-3e17f1bf",
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "Njoni twimbe na furaha , na furaha njia imefunguliwa ya mbinguni kwa walisitiriwa bwana utuonyeshe."
+                "Njoni twimbe na furaha, na furaha njia imefunguliwa ya mbinguni kwa walisitiriwa bwana utuonyeshe."
               ]
             },
             {
               "id": "blk-e5bed8cb",
               "type": "refrain",
               "lines": [
-                "Mfalme twakushukuru, twakushukuru , bwana twakushukuru jehova, Baba mungu alimutoa mwana wake yesu kristu aokowe watu."
+                "Mfalme twakushukuru, twakushukuru, bwana twakushukuru jehova, Baba mungu alimutoa mwana wake yesu kristu aokowe watu."
               ]
             },
             {
               "id": "blk-f82b7809",
-              "type": "source_block",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "Shetani ulipinga, neno lake mwokozi (kweli, kweli) yeye ni adui zetu, hutaka utwangamiza. Shida, shida ni nyingi sana, nyingi sana mashindano ni mengi, aleluya (kweli kweli) bwana utufariji katika mahasi zote"
+                "Shetani ulipinga, neno lake mwokozi (kweli,kweli ) yeye ni adui zetu,, hutaka utwangamiza."
+              ]
+            },
+            {
+              "id": "blk-d35c49ca",
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Shida, shida ni eyingi sana, nyingi sana mashindano ni mengi, aleluya ( kweli kweli ) bwana utufariji ) katika mahasi zote"
               ]
             }
           ],
           "media": {
             "audio_present": false
           }
+        },
+        {
+          "id": "fr-0036-v1",
+          "language": {
+            "code": "fr",
+            "label": "Français",
+            "status": "confirmed",
+            "detection": "auto"
+          },
+          "title": "VENEZ CHANTONS AVEC JOIE",
+          "source": {
+            "file": "Chants en Francais.pdf",
+            "position": 36,
+            "number": "228",
+            "section": "",
+            "reference": null
+          },
+          "taxonomy": {
+            "domain": "hymnal",
+            "category_id": "dimanche-louange",
+            "category_label": "Dimanche — Louange",
+            "lesson_id": "dimanche-louange",
+            "lesson_label": "Dimanche — Louange"
+          },
+          "content": [
+            {
+              "id": "blk-3a0f8004",
+              "type": "verse",
+              "number": "1",
+              "lines": [
+                "Venez chanter avec joie, le chemin de la vie s’est ouvert,il avait éte caché,seigneur vient nous commander(2x)"
+              ]
+            },
+            {
+              "id": "blk-ddcaac35",
+              "type": "refrain",
+              "lines": [
+                "(merci seigneur) merci seigneur Dieu; merci merci seigneur merci l’eternel alleluya tu nous as donné ton fils unique pour nous donner la vie (2x)"
+              ]
+            },
+            {
+              "id": "blk-e3f9579a",
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "(Le dragon) le dragon ressent de la haine contre la bonne nouvelle, il est aussi contre nous tous et cherche a la ruiner (2x)"
+              ]
+            },
+            {
+              "id": "blk-8ec956bb",
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Les persécutions sont nombreuses, les accusations aussi, seigneur vient nous commander dans nos erreurs de chaque jour (2x)"
+              ]
+            }
+          ]
         }
       ]
     },
