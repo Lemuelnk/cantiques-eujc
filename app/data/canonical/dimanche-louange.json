@@ -234,23 +234,33 @@
           "content": [
             {
               "id": "blk-3e17f1bf",
-              "type": "source_block",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "Njoni twimbe na furaha , na furaha njia imefunguliwa ya mbinguni kwa walisitiriwa bwana utuonyeshe."
+                "Njoni twimbe na furaha, na furaha njia imefunguliwa ya mbinguni kwa walisitiriwa bwana utuonyeshe."
               ]
             },
             {
               "id": "blk-e5bed8cb",
               "type": "refrain",
               "lines": [
-                "Mfalme twakushukuru, twakushukuru , bwana twakushukuru jehova, Baba mungu alimutoa mwana wake yesu kristu aokowe watu."
+                "Mfalme twakushukuru, twakushukuru, bwana twakushukuru jehova, Baba mungu alimutoa mwana wake yesu kristu aokowe watu."
               ]
             },
             {
               "id": "blk-f82b7809",
-              "type": "source_block",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "Shetani ulipinga, neno lake mwokozi (kweli, kweli) yeye ni adui zetu, hutaka utwangamiza. Shida, shida ni nyingi sana, nyingi sana mashindano ni mengi, aleluya (kweli kweli) bwana utufariji katika mahasi zote"
+                "Shetani ulipinga, neno lake mwokozi (kweli,kweli ) yeye ni adui zetu,, hutaka utwangamiza."
+              ]
+            },
+            {
+              "id": "blk-d35c49ca",
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Shida, shida ni eyingi sana, nyingi sana mashindano ni mengi, aleluya ( kweli kweli ) bwana utufariji ) katika mahasi zote"
               ]
             }
           ],
