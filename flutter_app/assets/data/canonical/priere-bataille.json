@@ -16,7 +16,7 @@
       "schema_version": "1.0",
       "id": "d8de7e73-b31a-565e-bd33-3ce560c66599",
       "title": "LANGO LA FUNGULIWA JEHOVA MUNGU",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "6674c67b-137f-50df-999e-64214fdbb979",
@@ -28,49 +28,54 @@
           },
           "title": "LANGO LA FUNGULIWA JEHOVA MUNGU",
           "source": {
-            "file": "chants_de_vita.html",
-            "position": 1,
+            "file": "Cantiques_swahili.pdf",
+            "position": 564,
             "number": "418",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0602"
           },
           "taxonomy": {
-            "domain": "prayer",
-            "category_id": "priere-bataille",
-            "category_label": "Cantiques de bataille",
-            "lesson_id": null,
-            "lesson_label": null
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "id": "blk-49344c60",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "Lango la funguliwa jehova mungu ningie ohoo lango la funguliwa jehova mungu ningie."
+                "Lango la funguliwa jehoa mungu ningie ohoo lango la funguliwa jehoa mungu ningie."
               ]
             },
             {
-              "type": "source_block",
+              "id": "blk-9f5adf85",
+              "type": "verse",
+              "number": "2",
               "lines": [
                 "Lango la funguliwa yesu wa mungu niokowe ohoo lango la funguliwa yesu wa mungu niokowe."
               ]
             },
             {
-              "type": "source_block",
+              "id": "blk-9111b032",
+              "type": "verse",
+              "number": "3",
               "lines": [
                 "Lango la funguliwa roho damilifu ni saidie ohoo lango la funguliwa roho damilifu ni saidie."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
     {
       "schema_version": "1.0",
       "id": "34ba33d4-8829-54a3-a87a-1b609a0d93c0",
-      "title": "LANGO LA FUNGULIWA VITA IMEINGIA",
-      "status": "review",
+      "title": "LANGOLA FUNGULIWA VITA IMEINGIA",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "3e27297b-3ccb-5457-a6d5-a0dba9fd2553",
@@ -80,46 +85,47 @@
             "status": "confirmed",
             "detection": "auto"
           },
-          "title": "LANGO LA FUNGULIWA VITA IMEINGIA",
+          "title": "LANGOLA FUNGULIWA VITA IMEINGIA",
           "source": {
-            "file": "chants_de_vita.html",
-            "position": 2,
+            "file": "Cantiques_swahili.pdf",
+            "position": 568,
             "number": "424",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0606"
           },
           "taxonomy": {
-            "domain": "prayer",
-            "category_id": "priere-bataille",
-            "category_label": "Cantiques de bataille",
-            "lesson_id": null,
-            "lesson_label": null
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "id": "blk-760cb1f9",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "(Lango la funguliwa vita imeingia mu israeli)2x (Mungu wangu vita imeingia mu israeli)2x"
+                "\"Lango la funguliwa vita imeingia mu israeli \"2x \"Mungu wangu vita imeingia mu israeli \"2x"
               ]
             },
             {
+              "id": "blk-e1eb14f4",
               "type": "refrain",
               "lines": [
-                "Mikaeli ee uje uniokowe vitani",
-                "Samsoni wa mungu uje uniokowe vitani",
-                "Gideoni  ¨\t¨\t¨",
-                "Nafutali  ¨\t¨\t¨"
+                "\"Mikaeli ee uje uniokowe vitani Samsoni wa mungu uje uniokowe vitani Gideon \" \" \" \" \" Naftali \" \" \" \" \""
               ]
             },
             {
-              "type": "source_block",
+              "id": "blk-6f8c7f88",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "(Majeshi ya mbingu ya meinuka mbinguni)2x (Vita hivi vimeinuka duniani)2x"
+                "\"Majeshi ya mbingu ya meinuka mbinguni \"2x \"Vita hivi vimeinuka duniani \"2x"
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -127,7 +133,7 @@
       "schema_version": "1.0",
       "id": "f5f2bd11-6e82-5916-96dc-e67b167a7908",
       "title": "UNISHUSHIE UWEZA WAKO",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "cce31ff8-abbd-5e95-a0c7-f137a5125cb4",
@@ -139,37 +145,38 @@
           },
           "title": "UNISHUSHIE UWEZA WAKO",
           "source": {
-            "file": "chants_de_vita.html",
-            "position": 3,
+            "file": "Cantiques_swahili.pdf",
+            "position": 663,
             "number": "493",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0663"
           },
           "taxonomy": {
-            "domain": "prayer",
-            "category_id": "priere-bataille",
-            "category_label": "Cantiques de bataille",
-            "lesson_id": null,
-            "lesson_label": null
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "id": "blk-bbd2c14c",
+              "type": "verse",
+              "number": "1",
               "lines": [
                 "Unishushie uweza wako baba ilinishindee vita iyo",
-                "- Vita mupembe ya kwanza ili nishinde eh vita iyo",
-                "- Vita mupembe ya pili ili nishinde eh vita iyo",
-                "- Vita ya pepo wachafu ili nishinde eh vita iyo",
-                "- Vita ya walozi wote ili nishinde eh vita iyo",
-                "- Vita ya wachawi wote ili nishinde eh vita iyo",
-                "- Unishushie na nguvu yako ili nishinde baba vita iyo",
-                "- Unishushie mamulaka yako baba ili nishinde eh vita iyo",
-                "- Unishushie na moto yako baba ili ni shinde eh vita iyo"
+                "-Vita mupembe ya kwanza ili nishinde eh vita iyo",
+                "-Vita mupembe ya pili ili nishinde eh vita iyo",
+                "-Vita ya pepo wachafu ili nishinde eh vita iyo",
+                "-Vita ya walozi wote ili nishinde eh vita iyo",
+                "-Vita ya wachawi wote ili nishinde eh vita iyo",
+                "-Unishushie na nguvu yako ili nishinde baba vita iyo",
+                "-Unishushie mamulaka yako baba ili nishinde eh vita iyo",
+                "-Unishushie na moto yako baba ili ni shinde eh vita iyo"
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -203,18 +210,21 @@
           },
           "content": [
             {
+              "id": "blk-5502d837",
               "type": "source_block",
               "lines": [
                 "Jehova Mungu naalika moto, Moto wa mbingu (2x). Wewe ndiye moto ulao, moto usafisha roho (2x)"
               ]
             },
             {
+              "id": "blk-97a793ea",
               "type": "source_block",
               "lines": [
                 "Yesu wa Mungu naalika moto, Moto wa mbingu (2x). Wewe mwenye moto ulao, moto usafisha roho (2x)"
               ]
             },
             {
+              "id": "blk-65a4cdfc",
               "type": "source_block",
               "lines": [
                 "Roho wa Mungu naalika moto, Moto wa mbingu (2x). timiza moto vichwani mwetu, timiza moto myoyoni mwetu(2x)"
