@@ -57,41 +57,12 @@ async function loadStats() {
   const $languages = document.getElementById('stat-languages');
 
   try {
-    const { CANONICAL_FILE_MAP } = window;
-    const CATS = [
-      'lesson-0','lesson-1','lesson-2','lesson-3','lesson-4','lesson-5','lesson-6',
-      'lesson-7','lesson-8','lesson-9','lesson-10','lesson-11','lesson-12','lesson-13',
-      'lesson-20','lesson-21','lesson-22','lesson-23','lesson-24','lesson-25','lesson-26',
-      'dimanche-louange','dimanche-croyants','dimanche-affliges','dimanche-egares',
-      'dimanche-rois','dimanche-visiteurs','dimanche-divers',
-      'priere-misericorde','priere-invocation','priere-general','priere-bataille',
-      'a-classer-francais','a-classer-swahili','a-classer-tshiluba',
-      'a-classer-lingala','a-classer-autres'
-    ];
-
-    let totalHymns = 0;
-    const languages = new Set();
-    let activeCategories = 0;
-
-    for (const cat of CATS) {
-      try {
-        const corpus = await loadCanonicalLesson(cat);
-        const hymns = Array.isArray(corpus.hymns) ? corpus.hymns : [];
-        if (hymns.length > 0) {
-          activeCategories++;
-          totalHymns += hymns.length;
-          hymns.forEach(h => {
-            (h.versions || []).forEach(v => {
-              if (v.language && v.language.label) languages.add(v.language.label);
-            });
-          });
-        }
-      } catch(e) {}
-    }
-
-    if ($hymns) $hymns.textContent = totalHymns;
-    if ($categories) $categories.textContent = activeCategories;
-    if ($languages) $languages.textContent = languages.size;
+    const response = await fetch('data/stats.json', { cache: 'no-store' });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const stats = await response.json();
+    if ($hymns) $hymns.textContent = stats.total_hymns;
+    if ($categories) $categories.textContent = stats.categories;
+    if ($languages) $languages.textContent = stats.languages;
   } catch (err) {
     console.error('Erreur de chargement des stats :', err);
   }
