@@ -4,6 +4,7 @@ from __future__ import annotations
 import html, json, re
 from pathlib import Path
 from urllib.parse import quote
+import shutil
 
 ROOT = Path(__file__).resolve().parents[1]
 APP = ROOT / "app"
@@ -202,11 +203,12 @@ def main():
     template=TEMPLATE.read_text(encoding="utf-8")
     category_template=CATEGORY_TEMPLATE.read_text(encoding="utf-8")
     urls=[(f"{BASE}/","weekly","1.0"),(f"{BASE}/categories.html","monthly","0.8"),(f"{BASE}/lessons.html","monthly","0.8"),(f"{BASE}/dimanche.html","monthly","0.8"),(f"{BASE}/priere.html","monthly","0.8"),(f"{BASE}/apropos.html","monthly","0.5")]
-    generated=0; category_generated=0; skipped=0; seen=set(x[0] for x in urls); used_routes={}
+    generated=0; category_generated=0; skipped=0; seen=set(x[0] for x in urls); used_routes={}; processed_cats=set(); cleaned=0
     for path in sorted(CORPUS.glob("*.json")):
         data=json.loads(path.read_text(encoding="utf-8"))
         tax=data.get("taxonomy") or {}; cat=clean(tax.get("category_id")); label=clean(tax.get("category_label")) or cat
         if not cat: continue
+        processed_cats.add(slug(cat))
         hymns = data.get("hymns") or []
         used = used_routes.setdefault(slug(cat), set())
         for h in hymns:
@@ -223,6 +225,21 @@ def main():
         category_out.write_text(category_page_html,encoding="utf-8"); category_generated+=1
         if indexable and category_url not in seen:
             urls.append((category_url,"monthly","0.8")); seen.add(category_url)
+    # Cleanup : supprimer les pages orphelines des hymnes retirés du canon
+    # (voir PR #40 : 28 pages étaient restées)
+    cantique_root = APP / "cantique"
+    if cantique_root.exists():
+        for cat_dir in cantique_root.iterdir():
+            if not cat_dir.is_dir(): continue
+            if cat_dir.name not in processed_cats: continue
+            valid_routes = used_routes.get(cat_dir.name, set())
+            for sub in list(cat_dir.iterdir()):
+                if sub.is_dir() and sub.name not in valid_routes:
+                    shutil.rmtree(sub)
+                    cleaned += 1
+    if cleaned:
+        print(f"Cleaned {cleaned} orphan pages.")
+
     lines=['<?xml version="1.0" encoding="UTF-8"?>','<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for loc,freq,priority in urls: lines += ["  <url>",f"    <loc>{esc(loc)}</loc>",f"    <changefreq>{freq}</changefreq>",f"    <priority>{priority}</priority>","  </url>"]
     lines.append("</urlset>"); (APP/"sitemap.xml").write_text("\n".join(lines)+"\n",encoding="utf-8")
