@@ -402,6 +402,13 @@
                 "- Noa akafunuliwa",
                 "- Noa katika inchini"
               ]
+            },
+            {
+              "id": "extra-sw-0206",
+              "type": "verse",
+              "lines": [
+                "noa katuma kunguru katazame inchi kama ya me kwisha kweli \" aah kunguru kazunguuka kakula vitumba \"2"
+              ]
             }
           ],
           "media": {
@@ -745,6 +752,14 @@
                 "- Muchongezi wa watu: kanana, kanana umelaaniwa",
                 "- Musaliti wa neno: kanana, kanana umelaaniwa",
                 "- Mwaminifu muongo: kanana, kanana umelaaniwa"
+              ]
+            },
+            {
+              "id": "extra-sw-0207",
+              "type": "verse",
+              "lines": [
+                "hamu nave kaniqa hemani , hamu naye kakuta babae utupu eh nuhu hemani mwake.",
+                "hamu naye kambia nduguze , ndugu zake wakaja na nguo kumufinika nuhu \"2x"
               ]
             }
           ],
