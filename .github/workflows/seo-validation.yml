@@ -14,10 +14,27 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Validate SEO page generation
+      - name: Validate SEO (state committed)
         run: |
+          echo "=== Validation de l'état COMMITÉ (avant régénération) ==="
+          if ! python3 scripts/validate_seo.py; then
+            echo ""
+            echo "❌ Les pages SEO commitées ne sont pas synchronisées avec le JSON canon."
+            echo ""
+            echo "→ Action requise :"
+            echo "  1. Lancer en local : python3 scripts/generate_seo_pages.py"
+            echo "  2. Rollback les bumps ?v= cosmétiques :"
+            echo "     git diff --name-only --diff-filter=M -- app/cantique/ app/categorie/ | xargs -r git checkout --"
+            echo "  3. Commiter les changements restants (compteurs, pages orphelines, sitemap)"
+            echo "  4. Pousser"
+            exit 1
+          fi
+
+      - name: Validate SEO generation (smoke)
+        run: |
+          echo "=== Vérifie que generate_seo_pages.py tourne sans erreur ==="
           python3 scripts/generate_seo_pages.py
-          python3 scripts/validate_seo.py
+          echo "✅ Génération OK (les pages générées ne sont PAS commitées par le CI)"
 
       - name: Validate Worker syntax
         run: node --check worker.js
