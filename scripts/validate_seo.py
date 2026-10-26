@@ -190,6 +190,37 @@ def main():
             if is_explicit_seo_route(href, "categorie") and url.rstrip("/") not in all_category_url_set:
                 errors.append(f"{page}: broken category SEO link: {href}")
 
+    # === Validation stats.json + injection HTML ===
+    stats_file = APP / "data" / "stats.json"
+    if not stats_file.exists():
+        errors.append("stats.json: missing")
+    else:
+        try:
+            stats = json.loads(stats_file.read_text(encoding="utf-8"))
+            expected_hymns = total_hymns
+            expected_categories = len(list(CORPUS.glob("*.json")))
+            expected_lessons = len(list(CORPUS.glob("lesson-*.json")))
+            if stats.get("total_hymns") != expected_hymns:
+                errors.append(f"stats.json: total_hymns={stats.get('total_hymns')} != {expected_hymns}")
+            if stats.get("categories") != expected_categories:
+                errors.append(f"stats.json: categories={stats.get('categories')} != {expected_categories}")
+            if stats.get("lessons") != expected_lessons:
+                errors.append(f"stats.json: lessons={stats.get('lessons')} != {expected_lessons}")
+            idx = APP / "index.html"
+            if idx.exists():
+                html = idx.read_text(encoding="utf-8")
+                expected_line = f"{expected_hymns} cantiques · {stats['languages']} langues · {expected_lessons} leçons"
+                if expected_line not in html:
+                    errors.append(f"index.html: welcome-stats non à jour (attendu: '{expected_line}')")
+            lss = APP / "lessons.html"
+            if lss.exists():
+                html = lss.read_text(encoding="utf-8")
+                expected_lessons_line = f"{expected_lessons} leçons"
+                if expected_lessons_line not in html:
+                    errors.append(f"lessons.html: '{expected_lessons_line}' non trouvé")
+        except Exception as exc:
+            errors.append(f"stats.json: invalid — {exc}")
+
     sitemap_urls = set()
     if SITEMAP.exists():
         try:

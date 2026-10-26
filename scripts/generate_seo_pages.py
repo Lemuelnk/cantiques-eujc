@@ -5,6 +5,7 @@ import html, json, re
 from pathlib import Path
 from urllib.parse import quote
 import shutil
+import re
 
 ROOT = Path(__file__).resolve().parents[1]
 APP = ROOT / "app"
@@ -199,6 +200,116 @@ def build(template,h,cat,label,n,route):
     doc=doc.replace("</head>",f'<script type="application/ld+json" id="hymn-jsonld">{json.dumps(graph,ensure_ascii=False,separators=(",",":"))}</script>\n</head>',1)
     return doc,url,title
 
+def compute_stats():
+    """Calcule les stats globales du canon (hymnes, langues, leçons, catégories)."""
+    total_hymns = 0
+    labels = set()
+    lessons = 0
+    categories = 0
+    for path in CORPUS.glob("*.json"):
+        data = json.loads(path.read_text(encoding="utf-8"))
+        hymns = data.get("hymns") or []
+        total_hymns += len(hymns)
+        categories += 1
+        if path.stem.startswith("lesson-"):
+            lessons += 1
+        for h in hymns:
+            for v in (h.get("versions") or []):
+                label = (v.get("language") or {}).get("label")
+                if label and label != "Langue indéterminée":
+                    labels.add(label)
+    return {
+        "total_hymns": total_hymns,
+        "languages": len(labels),
+        "languages_labels": sorted(labels),
+        "lessons": lessons,
+        "categories": categories,
+    }
+
+
+def inject_stats(stats):
+    """Injecte les stats dans index.html et lessons.html (statique, SEO-friendly)."""
+    stats_line = f'{stats["total_hymns"]} cantiques · {stats["languages"]} langues · {stats["lessons"]} leçons'
+    lessons_line = f'{stats["lessons"]} leçons'
+
+    idx = APP / "index.html"
+    if idx.exists():
+        html = idx.read_text(encoding="utf-8")
+        html_new = re.sub(
+            r'(<p class="welcome-stats">)\s*[^<]*\s*(</p>)',
+            rf'\g<1>\n          {stats_line}\n        \g<2>',
+            html,
+        )
+        if html_new != html:
+            idx.write_text(html_new, encoding="utf-8")
+
+    lss = APP / "lessons.html"
+    if lss.exists():
+        html = lss.read_text(encoding="utf-8")
+        html_new = re.sub(
+            r'(<div class="lessons-header-title">\s*<h1>[^<]*</h1>\s*<span>)[^<]*(</span>)',
+            rf'\g<1>{lessons_line}\g<2>',
+            html,
+        )
+        if html_new != html:
+            lss.write_text(html_new, encoding="utf-8")
+
+
+def compute_stats():
+    """Calcule les stats globales du canon (hymnes, langues, leçons, catégories)."""
+    total_hymns = 0
+    labels = set()
+    lessons = 0
+    categories = 0
+    for path in CORPUS.glob("*.json"):
+        data = json.loads(path.read_text(encoding="utf-8"))
+        hymns = data.get("hymns") or []
+        total_hymns += len(hymns)
+        categories += 1
+        if path.stem.startswith("lesson-"):
+            lessons += 1
+        for h in hymns:
+            for v in (h.get("versions") or []):
+                label = (v.get("language") or {}).get("label")
+                if label and label != "Langue indéterminée":
+                    labels.add(label)
+    return {
+        "total_hymns": total_hymns,
+        "languages": len(labels),
+        "languages_labels": sorted(labels),
+        "lessons": lessons,
+        "categories": categories,
+    }
+
+
+def inject_stats(stats):
+    """Injecte les stats dans index.html et lessons.html (statique, SEO-friendly)."""
+    stats_line = f'{stats["total_hymns"]} cantiques · {stats["languages"]} langues · {stats["lessons"]} leçons'
+    lessons_line = f'{stats["lessons"]} leçons'
+
+    idx = APP / "index.html"
+    if idx.exists():
+        html = idx.read_text(encoding="utf-8")
+        html_new = re.sub(
+            r'(<p class="welcome-stats">)\s*[^<]*\s*(</p>)',
+            rf'\g<1>\n          {stats_line}\n        \g<2>',
+            html,
+        )
+        if html_new != html:
+            idx.write_text(html_new, encoding="utf-8")
+
+    lss = APP / "lessons.html"
+    if lss.exists():
+        html = lss.read_text(encoding="utf-8")
+        html_new = re.sub(
+            r'(<div class="lessons-header-title">\s*<h1>[^<]*</h1>\s*<span>)[^<]*(</span>)',
+            rf'\g<1>{lessons_line}\g<2>',
+            html,
+        )
+        if html_new != html:
+            lss.write_text(html_new, encoding="utf-8")
+
+
 def main():
     template=TEMPLATE.read_text(encoding="utf-8")
     category_template=CATEGORY_TEMPLATE.read_text(encoding="utf-8")
@@ -244,6 +355,22 @@ def main():
     for loc,freq,priority in urls: lines += ["  <url>",f"    <loc>{esc(loc)}</loc>",f"    <changefreq>{freq}</changefreq>",f"    <priority>{priority}</priority>","  </url>"]
     lines.append("</urlset>"); (APP/"sitemap.xml").write_text("\n".join(lines)+"\n",encoding="utf-8")
     print(f"Generated {generated} hymn pages and {category_generated} category pages; skipped {skipped} hymns without a source number.")
+
+    # Stats globales (JSON + injection statique dans index.html / lessons.html)
+    stats = compute_stats()
+    (APP / "data" / "stats.json").write_text(
+        json.dumps(stats, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+    inject_stats(stats)
+    print(f"Stats: {stats['total_hymns']} hymnes, {stats['languages']} langues, {stats['lessons']} leçons, {stats['categories']} catégories")
+
+    # Stats globales (JSON + injection statique dans index.html / lessons.html)
+    stats = compute_stats()
+    (APP / "data" / "stats.json").write_text(
+        json.dumps(stats, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+    inject_stats(stats)
+    print(f"Stats: {stats['total_hymns']} hymnes, {stats['languages']} langues, {stats['lessons']} leçons, {stats['categories']} catégories")
 
 if __name__=="__main__":
     main()
