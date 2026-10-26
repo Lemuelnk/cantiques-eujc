@@ -15,8 +15,8 @@
     {
       "schema_version": "1.0",
       "id": "9ad73c3d-f53c-5884-bb5d-87d550383364",
-      "title": "MUTUMANOA WA DANI",
-      "status": "review",
+      "title": "MUTUMANO A WA DANI",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "dc876afa-ea3c-5904-a496-4a2980d93556",
@@ -26,45 +26,54 @@
             "status": "confirmed",
             "detection": "auto"
           },
-          "title": "MUTUMANOA WA DANI",
+          "title": "MUTUMANO A WA DANI",
           "source": {
-            "file": "chants_de_samson.html",
-            "position": 1,
+            "file": "Cantiques_swahili.pdf",
+            "position": 287,
             "number": "135",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0300"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-20",
-            "category_label": "Samson",
-            "lesson_id": "lesson-20",
-            "lesson_label": "Leçon 20 — Samson"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "id": "blk-22b76d67",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. Mutumanoa wa dani alikuwa na muke wake tasa ¨Bwana mungu kajirika kwao kwa malaika zake ¨2x kwaajili ya kupasha habari ya mutoto atakae kuja."
+                "Mutumanoa wa dani alikuwa na muke wake tasa \"Bwana mungu kajirika kwao kwa malaika zake \"2x kwaajili ya kupasha habari ya mutoto atakae kuja."
               ]
             },
             {
+              "id": "blk-b13bea73",
               "type": "refrain",
               "lines": [
-                "Wajoli wa",
-                "bwana tukazane ¨tusitie vichwa vyetu miguuni mwa delila¨2x"
+                "Wajoli wa bwana tukazane \"tusitie vichwa vyetu miguuni mwa delila\"2x"
               ]
             },
             {
+              "id": "blk-448c2d30",
               "type": "comment",
               "lines": [
-                "- Huyu muke delila atatutoa mikononi mwa wafilistini - Huyu mutu wa chuki - Huyu mupenda cheo Usi",
-                "nyole zake, usinwe kileo cha nguvu, usile kitu kichafu yeye munaziri wa mungu ataya tend aya majabu toka tumboni mwa mamake 2x yeye munaziri wa mungu."
+                "Com : -Huyu muke delila atatutoa mikononi mwa wafilistini -Huyu mutu wa chuki \" \" \" \" \" \" \" \" -Huyu mupenda cheo \" \" \" \" \" \" \" \""
+              ]
+            },
+            {
+              "id": "blk-321cfa48",
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Usi nyole zake , usinwe kileo cha nguvu , usile kitu kichafu yeye munaziri wa mungu ataya tend aya majabu toka tumboni mwa mamake 2x yeye munaziri wa mungu."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -72,7 +81,7 @@
       "schema_version": "1.0",
       "id": "37430b55-3fb9-5200-b372-c120fd326075",
       "title": "KWA KUZALIWA KWA SAMSONI",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "adfff45c-bef5-5368-904f-6a15be6fcc11",
@@ -84,38 +93,53 @@
           },
           "title": "KWA KUZALIWA KWA SAMSONI",
           "source": {
-            "file": "chants_de_samson.html",
-            "position": 2,
+            "file": "Cantiques_swahili.pdf",
+            "position": 289,
             "number": "136",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0302"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-20",
-            "category_label": "Samson",
-            "lesson_id": "lesson-20",
-            "lesson_label": "Leçon 20 — Samson"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "id": "blk-8bdf749b",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. Kwa kuzaliwa kwa samsoni munaziri malaika kajirika kwa manoa mutu wa sora ( malaika) ¨aka muharifu mutamuzaa mwana mume munaziri.¨2x"
+                "Kwa kuzaliwa kwa samsoni munaziri malaika kajirika kwa manoa mutu wa sora ( malaika) \"aka muharifu mutamuzaa mwana mume munaziri.\"2x"
               ]
             },
             {
+              "id": "blk-6013c548",
               "type": "refrain",
               "lines": [
-                "Ndugu zetu wapenzi",
-                "jazareni kwa naziri¨2x jambo lako la siri usimunenee muke wako ¨Jarazeni wembe usije kupita kichwani mwako ¨2x ¨Tazama delila akaharibu nguvu ya Samsoni¨2xSamsoni",
-                "akikuisha kuzaliwa akapikana vita na wafilistini madui kwa kuokoa uzao waisraeli utumwani (samsoni)2x Tazameni munafiki wa hekima za dunia Delila kamusaliti samsoni,",
-                "kwa jeuri kubwa, naye akuona ginsi ya kumulipiza kisasi (samsoni)2x"
+                "Ndugu zetu wapenzi iazareni kwa naziri\"2x jambo lako la siri usimunenee muke wako \"Jarazeni wembe usije kupita kichwani mwako \"2x \"Tazama delila akaharibu nguvu ya Samsoni\"2x"
+              ]
+            },
+            {
+              "id": "blk-b521c198",
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Samsoni akikuisha kuzaliwa akapikana vita na wafilistini madui kwa kuokoa uzao waisraeli utumwani (samsoni)2x"
+              ]
+            },
+            {
+              "id": "blk-8e13a6d1",
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Tazameni munafiki wa hekima za dunia Delila kamusaliti samsoni, kwa jeuri kubwa , naye akuona ginsi ya kumulipiza kisasi (samsoni)2x"
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -149,24 +173,28 @@
           },
           "content": [
             {
+              "id": "blk-f5d6143c",
               "type": "source_block",
               "lines": [
                 "Mutu mumoja wa sora wa jama la dani manoa na muke wake jina lake manoa na muke wake malaika wa bwana akajirika kwao alipo kuwa shambani."
               ]
             },
             {
+              "id": "blk-6c49eda7",
               "type": "refrain",
               "lines": [
                 "Aleluya fahari, fahari utukufu wa jehova Mimi nazaa mwana fahari utukufu wa Neno hili. Samsoni wa Mungu fahari utukufu wa jehova"
               ]
             },
             {
+              "id": "blk-f41635d3",
               "type": "source_block",
               "lines": [
                 "Malaika kawambia mutamuzaa mwana mume mnaziri wa Mungu. Malaika wa Bwana akawagiza ivio walipo kuwa shambani."
               ]
             },
             {
+              "id": "blk-ef36d330",
               "type": "source_block",
               "lines": [
                 "Usinyowe nyole zake, usinywe kileo cha nguvu wewe usile kitu kichafu mwana huyu mnaziri wa Mungu. Ataokowa israeli kwa wafilistini awatowe utumwani"
@@ -183,7 +211,7 @@
       "schema_version": "1.0",
       "id": "cd2260db-9677-5b25-b202-728e59b6e333",
       "title": "KUJIRIKA KWA MALAIKA WA MUNGU KWA MANOA",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "8a56b49b-cab3-5520-8a8b-6055fb7358ed",
@@ -195,43 +223,52 @@
           },
           "title": "KUJIRIKA KWA MALAIKA WA MUNGU KWA MANOA",
           "source": {
-            "file": "chants_de_samson.html",
-            "position": 4,
+            "file": "Cantiques_swahili.pdf",
+            "position": 291,
             "number": "138",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0304"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-20",
-            "category_label": "Samson",
-            "lesson_id": "lesson-20",
-            "lesson_label": "Leçon 20 — Samson"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "id": "blk-42586d8a",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. Kujirika malaika wa mungu kwa manoa ¨Ewe manoa muke wako, atapata mimba atazaa mwana mume jina lake samsoni ¨2x"
+                "Kujirika malaika wa mungu kwa manoa \"Ewe manoa muke wako , atapata mimba atazaa mwana mume jina lake samsoni \"2x"
               ]
             },
             {
+              "id": "blk-5ff398d9",
               "type": "refrain",
               "lines": [
-                "Mbweha samsoni washa moto samsoni shamba",
-                "ilungue."
+                "Mbweha samsoni washa moto samsoni shamba ilungue."
               ]
             },
             {
+              "id": "blk-b6c304c5",
               "type": "comment",
               "lines": [
-                "- Shamba ya wafilistini washa moto samsoni shamba ilungue. - Shamba yenye kufungwa kwa miganda samsoni yote ilungue Walipo sikia ayo wa kanza",
-                "kumufwata ili wamuwe samsoni kaokota mufupa wa taya ya punda akauwa watu."
+                "Com :-Shamba ya wafilistini washa moto samsoni shamba ilungue. -Shamba yenye kufungwa kwa minganda samsoni yote ilungue"
+              ]
+            },
+            {
+              "id": "blk-f8cb3d9f",
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Walipo sikia ayo wa kanza kumufwata ili wamuwe samsoni kaokota mufupa wa taya ya punda akauwa watu."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -265,12 +302,14 @@
           },
           "content": [
             {
+              "id": "blk-0602d68f",
               "type": "source_block",
               "lines": [
                 "1. Samsoni nguvu ya mungu akapenda binti za wafilistini ¨wake awa wasaliti na wa fia feza¨2x"
               ]
             },
             {
+              "id": "blk-03468832",
               "type": "refrain",
               "lines": [
                 "Delila akamwambia samsoni wafilistini ni juu yako nguvu zi",
@@ -278,6 +317,7 @@
               ]
             },
             {
+              "id": "blk-0f6f6985",
               "type": "comment",
               "lines": [
                 "- Watu wa mwili musinge lima na ngombe zangu, amunge juwa siri zangu. - Watu dunia\t- Wa farisayo Yesu wa mungu alikuja kututoa utumwani hakuwa na kosa yoyoyo",
@@ -295,7 +335,7 @@
       "schema_version": "1.0",
       "id": "ba1af236-127a-5a39-b349-89c691bf430b",
       "title": "YEREMIA MIMI NI NABII WA MUNGU",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "dca89560-13f2-5852-bdd6-ebe6b1215500",
@@ -307,37 +347,53 @@
           },
           "title": "YEREMIA MIMI NI NABII WA MUNGU",
           "source": {
-            "file": "chants_de_samson.html",
-            "position": 6,
+            "file": "Cantiques_swahili.pdf",
+            "position": 306,
             "number": "140",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0306"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-20",
-            "category_label": "Samson",
-            "lesson_id": "lesson-20",
-            "lesson_label": "Leçon 20 — Samson"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "id": "blk-fdd5cb51",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. Yeremia mimi ni nabii iwa mungu munitendee ngisi mupendavyo mimi ni mikononi mwenu."
+                "Yeremia mimi ni nabii iwa mungu munitendee ngisi mupendavyo mimi ni mikononi mwenu."
               ]
             },
             {
+              "id": "blk-afd11b8d",
               "type": "refrain",
               "lines": [
-                "Ila kitu moja mujuwe ya kwamba mukinyuwa mimi Yeremia laana ni",
-                "kwenu, laana ni kwenu na watoto wenu na miji yenu. Tazama Delila akaunga singa na wachawi ¨Kusaliti neno la uzima kamutowa mupakua wa mafuta¨2x Mu kabila la Yuda",
-                "enyi malaika za mbingu ¨Tukuzeni mungu wa uzima bwana mungu ameshinda ¨2x"
+                "Ila kitu moja mujuwe ya kwamba mukinyuwa mimi Yeremia laana ni kwenu, laana ni kwenu na watoto wenu na miji yenu."
+              ]
+            },
+            {
+              "id": "blk-547e6e9c",
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Tazama Delila akaunga singa na wachawi \"Kusaliti neno la uzima kamutowa mupakua wa mafuta \"2x"
+              ]
+            },
+            {
+              "id": "blk-be510c72",
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Mu kabila la Yuda enyi malaika za mbingu `Tukuzeni mungu wa uzima bwana mungu ameshinda `2x"
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     }

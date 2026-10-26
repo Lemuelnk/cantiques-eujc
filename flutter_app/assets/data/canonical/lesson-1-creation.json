@@ -17,7 +17,7 @@
       "schema_version": "1.0",
       "id": "1b68b768-3075-4141-a29b-05ccc830ae40",
       "title": "APO MWANZO",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "b8eb4a57-7d37-484f-ad86-fa662d042b4f",
@@ -25,61 +25,72 @@
             "code": "sw",
             "label": "Swahili",
             "status": "confirmed",
-            "detection": "auto",
-            "score": 16
+            "detection": "auto"
           },
           "title": "APO MWANZO",
           "source": {
-            "file": "chants_de_la_creation.html",
-            "position": 1,
+            "file": "Cantiques_swahili.pdf",
+            "position": 158,
             "number": "25",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0162"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-1",
-            "category_label": "Création",
-            "lesson_id": "lesson-1",
-            "lesson_label": "Leçon 1 — Création"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "id": "blk-263d9a17",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "(Apo mwanzo, Mungu aliziumba mbingu na inchi na bahari kubwa yoyo aa! Roho wa Mungu akatulia juu ya uso wa maji)2x"
+                "Apo mwanzo, mungu aliziumba mbingu na inchi na bahari kubwa yoyo aa ! ¨ Roho wa mungu akatulia juu ya uso wa maji¨2x"
               ]
             },
             {
+              "id": "blk-0c6b1a17",
               "type": "refrain",
               "lines": [
-                "Sisi zote tuondokeni duniani tutembee juu ya bahari ili tuwe mbinguni muishimo baba, Mungu wa wenye uhai inchi yani mwili, mbingu yani roho ya Mungu, maji ni mafundisho, nuru ufahamu, giza ni upungufu."
+                "Sisi zote tuondokeni duniani tutembee juu ya bahari ili tuwe mbinguni muishimo baba , mungu wa wenye uhai inchi yani mwili, mbingu yani roho ya mungu , maji ni mafundisho, nuru ufahamu , giza ni upungufu ."
               ]
             },
             {
-              "type": "source_block",
+              "id": "blk-ccb5e6fc",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "Mungu akatenga nuru na giza, nuru muchana, giza usiku yoyo aa!( Ati baba oh nuru ao oh giza)2x  ",
-                "Inchi ikatoa majani kwa gisi yake mamboga na miti matunda na mbengu yoyo aa ! wana wa Mungu toeni matunda yenye kufaha toba."
+                "Mungu akatenga nuru na giza , nurumuchana , giza usiku yoyo aa ! ¨ Ati baba oh nuru ao oh giza¨2x"
               ]
             },
             {
-              "type": "source_block",
+              "id": "blk-365e87b3",
+              "type": "verse",
+              "number": "3",
               "lines": [
-                "Mungu akaumba viumbe vienye uhai ayawani na ndege nyangumi majini yoyo aa! mutu akawa mumiliki wa viote yoyo aa!"
+                "Inchi ikatoa majani kwa gisi yake mamboga na miti matunda na mbengu yoyo aa ! wana wa mungu toeni matunda yenye kufaha toba."
               ]
             },
             {
+              "id": "blk-4a6496f4",
+              "type": "verse",
+              "number": "4",
+              "lines": [
+                "Mungu akaumba viumbe vienye uhai ayawani na ndege nyangumi majini yoyo aa ! mutu akawa mumiliki wa viote yoyo aa !"
+              ]
+            },
+            {
+              "id": "blk-b6ff15ee",
               "type": "comment",
               "lines": [
-                "Baba twakushukuru iyawe yoyo mungu wa wenye uhai  ",
-                "- Uliumba dunia  ",
-                "- Kweli sita kuacha"
+                "Com : Baba twakushukuru iyawe yoyo mungu wa wenye uhai -Uliumba dunia -Kweli sita kuacha"
               ]
             }
-          ],
-          "media": {
-            "audio_present": true
-          }
+          ]
         }
       ]
     },
@@ -114,12 +125,14 @@
           },
           "content": [
             {
+              "id": "blk-5acfcda8",
               "type": "source_block",
               "lines": [
                 "(Bwana mungu eh mumbaji wangu ni mufalme wa majabu) (kwaeli kweli kwaku tanda mbingu na harzi na vitu viote vijazamo baba ni mufalme wa majabu Mumbaji bwana yoyoyo eh baba ni mufalme wa majabu)."
               ]
             },
             {
+              "id": "blk-72395dda",
               "type": "refrain",
               "lines": [
                 "- Kwa siku ya kwanza bwana kaumba nuru  ",
@@ -131,18 +144,21 @@
               ]
             },
             {
+              "id": "blk-27b89931",
               "type": "source_block",
               "lines": [
                 "njonii (njoni kua yesu) njoni uchukuwe nawe nira yangu hii, (nira yangu hii) nira yani musalaba. 2x"
               ]
             },
             {
+              "id": "blk-c87c8aee",
               "type": "source_block",
               "lines": [
                 "Bwana akapanda shamba upande wa mashariki mwa Edeni bwana akatia pale mutu yule alie mufanya na vitu viote viakuitajiwa bwana akatia pale."
               ]
             },
             {
+              "id": "blk-de9bdcbd",
               "type": "source_block",
               "lines": [
                 "Umu shambani bwana ka watilia sheria ule viote unavio viona mbele yako eh ila wakujuwa uzuri na ubaya wewe mutu wangu usile. Ukosefu wa watu wakakufuru yoyoyo watu wakufuru mungu wao."
@@ -159,75 +175,80 @@
       "schema_version": "1.0",
       "id": "cc83ce03-99fb-4c0a-9dda-10daae056a83",
       "title": "NITAZAMAPO HUDUMA ULIOFANYA MUNGU",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
-          "id": "063c0780-9c84-45f2-b31b-c8b79496242e",
+          "id": "3200711b-01f5-55eb-8666-59baeb7fd404",
           "language": {
             "code": "sw",
             "label": "Swahili",
             "status": "confirmed",
-            "detection": "auto",
-            "score": 14
+            "detection": "auto"
           },
           "title": "NITAZAMAPO HUDUMA ULIOFANYA MUNGU",
           "source": {
-            "file": "chants_de_la_creation.html",
-            "position": 3,
+            "file": "Cantiques_swahili.pdf",
+            "position": 166,
             "number": "34",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0171"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-1",
-            "category_label": "Création",
-            "lesson_id": "lesson-1",
-            "lesson_label": "Leçon 1 — Création"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "id": "blk-26537240",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "Nitazamapo huduma uliofanya Mungu kwa mikono yake chini ya jua (kweli mimi) sina na furaha mu mambo yote ya uzima wangu apa duniani."
+                "Nitazamapo huduma uliofanya mungu kwa mikono yake chini ya jua (kweli mimi) sina na furaha mu mambo yote ya uzima wangu apa duniani."
               ]
             },
             {
+              "id": "blk-1cdf75a6",
               "type": "refrain",
               "lines": [
                 "Mungu akaumba mbingu na dunia mito na bahari kubwa kazi ya mikono yake mungu wangu paka wewe akuna mwingine."
               ]
             },
             {
+              "id": "blk-160af4ee",
               "type": "comment",
               "lines": [
-                "- Mumbaji wangu paka wewe akuna mwingine  ",
-                "- Tegemeo langu paka wewe akuna mwingine"
+                "Com :Mumbaji wangu paka wewe akuna mwingine -Tegemeo langu paka wewe akuna mwingine"
               ]
             },
             {
-              "type": "source_block",
+              "id": "blk-f04c5f00",
+              "type": "verse",
+              "number": "2",
               "lines": [
                 "Mungu uniokowe mu mambo ya dunia ili ni sione taabu ya mwisho wa dunia (wewe) wewe ulimutoa mwana wako wa peke ili kila mwamini asife kamwe."
               ]
             },
             {
-              "type": "source_block",
+              "id": "blk-3b78a35a",
+              "type": "verse",
+              "number": "3",
               "lines": [
-                "ukiapa kwa mungu wako usisite kamwe timiza naziri yako (kweli yeye) yeye a furahi juu ya wajinga urejee kamwe timiza haadi yako."
+                "Kama ukiapa kwa mungu wako usisite kamwe timiza naziri yako (kweli yeye) yeye a furahi juu ya wajinga urejee kamwe timiza haadi yako."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
     {
       "schema_version": "1.0",
       "id": "3c650e65-7dd0-4432-80d9-9fcbbc1ab39d",
-      "title": "ANASA WA DUNIA",
-      "status": "review",
+      "title": "ANASA ZA DUNIA",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "4e436c8e-45f7-4060-bda2-eb9f6d66539d",
@@ -235,46 +256,49 @@
             "code": "sw",
             "label": "Swahili",
             "status": "confirmed",
-            "detection": "auto",
-            "score": 8
+            "detection": "auto"
           },
-          "title": "ANASA WA DUNIA",
+          "title": "ANASA ZA DUNIA",
           "source": {
-            "file": "chants_de_la_creation.html",
-            "position": 4,
+            "file": "Cantiques_swahili.pdf",
+            "position": 169,
             "number": "32",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0169"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-1",
-            "category_label": "Création",
-            "lesson_id": "lesson-1",
-            "lesson_label": "Leçon 1 — Création"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "id": "blk-abd579db",
+              "type": "verse",
+              "number": "1",
               "lines": [
                 "Anasa, anasa za dunia zimetusonga sana oh anasa za dunia."
               ]
             },
             {
+              "id": "blk-86fee1e3",
               "type": "refrain",
               "lines": [
-                "Roho wewe ndiye mungu (eh roho) roho oh wewe ndiye mungu (Eh roho wewe ndiye mufalme kuliko mafalme za dunia)2x"
+                "Roho wewe ndiye mungu (eh roho) roho oh wewe ndiye mungu \"Eh roho wewe ndiye mufalme kuliko mafalme za dunia \"2x"
               ]
             },
             {
-              "type": "source_block",
+              "id": "blk-110fb0a5",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "(Roho ulinena ya kwamba maji na maji ya tengane maji ya juu na maji ya chini)2x (Katikati ukaita nafasi, nafasi ukaita mbinguni)2x Oh oh roho wa baba nafasi ukaita mbinguni."
+                "Roho ulinena ya kwamba maji na maji ya tengane maji ya juu na maji ya chini~2x Katikati ukaita nafasi, nafasi ukaita mbinguni~2x Oh oh roho wa baba nafasi ukaita mbinguni."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -282,7 +306,7 @@
       "schema_version": "1.0",
       "id": "3220d5f5-702a-437f-8ad6-54a810e73b07",
       "title": "MUNGU ALIANZA KAZI",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "bb417759-d707-48f3-a427-4d02bcd630d5",
@@ -290,50 +314,52 @@
             "code": "sw",
             "label": "Swahili",
             "status": "confirmed",
-            "detection": "auto",
-            "score": 6
+            "detection": "auto"
           },
           "title": "MUNGU ALIANZA KAZI",
           "source": {
-            "file": "chants_de_la_creation.html",
-            "position": 5,
+            "file": "Cantiques_swahili.pdf",
+            "position": 162,
             "number": "29",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0166"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-1",
-            "category_label": "Création",
-            "lesson_id": "lesson-1",
-            "lesson_label": "Leçon 1 — Création"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "id": "blk-5c41aa34",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. Mungu alianza kazi katika dunia (mimi si ku juwa kitu kwajili ya kazi iyo)2x"
+                "Mungu alianza kazi katika dunia \"mimi si ku juwa kitu kwajili ya kazi iyo ~2x"
               ]
             },
             {
-              "type": "refrain",
+              "id": "blk-557be8c4",
+              "type": "comment",
               "lines": [
-                "Kilio cha Mungu kwajili ya kazi: alilia alilia jina ionekane  ",
-                "- kilio cha mungu kwajili ya wana  ",
-                "- Apotre kulia kwajili ya wana:"
+                "**_-Kitu cha mungu kwajili ya kazi : alilia alilia jina ionekane_**",
+                "**_-Alpote kulia kwajili ya wana :_**"
               ]
             },
             {
-              "type": "source_block",
+              "id": "blk-ba8747b2",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "2. Uli nibatiza wewe mumbaji wa mbingu (Jina imebadirika kwajili ya kazi iyo)2x  ",
-                "- Ulikuwa nyama leo unaitwa mutu, jina imebadirika kwajili ya kazi iyo  ",
-                "- Ulikuwa simba jina imebadirika kwajili ya kazi iyo"
+                "Uli nibatiza wewe mumbaji wa mbingu \"Jina imebadirika kwajili ya kazi iyo ~2x",
+                "-Ulikuwa nyama leo unaitwa mutu, jina imebadirika kwajili ya kazi iyo",
+                "-Ulikuwa simba \" \" \" \" \" \""
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -341,7 +367,7 @@
       "schema_version": "1.0",
       "id": "33934ead-d247-47ad-ac19-7dffa39a68ea",
       "title": "ALIPO ANZA MUNGU HUDUMA",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "6e385de5-fc9b-487a-84f8-2fe87e7fa91d",
@@ -349,47 +375,57 @@
             "code": "sw",
             "label": "Swahili",
             "status": "confirmed",
-            "detection": "auto",
-            "score": 9
+            "detection": "auto"
           },
           "title": "ALIPO ANZA MUNGU HUDUMA",
           "source": {
-            "file": "chants_de_la_creation.html",
-            "position": 6,
+            "file": "Cantiques_swahili.pdf",
+            "position": 159,
             "number": "26",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0163"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-1",
-            "category_label": "Création",
-            "lesson_id": "lesson-1",
-            "lesson_label": "Leçon 1 — Création"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "id": "blk-1be10007",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. Alipo anza mungu huduma za kuumba na kufanya mbingu zi ka umbiwa, dunia ika umbiwa, (Dunia haikuwa na kitu ila maji yalikuwa duniani)2x"
+                "Alipo anza mungu huduma za kuumba na kufanya mbingu zi ka umbiwa, dunia ika umbiwa , \"Dunia haikuwa na kitu ila maji yalikuwa duniani¨2x"
               ]
             },
             {
+              "id": "blk-d8680260",
               "type": "refrain",
               "lines": [
                 "Jehova mungu uliandike jina langu mukitabu cha uzima kweli siku zile na machozi na vilio avita kuwa tena."
               ]
             },
             {
-              "type": "source_block",
+              "id": "blk-1beb9ab2",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "Mungu kanyosha mukono wake kondoa maji duniani (Inchi ikabakia kavu na giza yote ikatoweka)2x  ",
-                "Dunia wewe dunia, kwakuwa usibaki dunia wewe ugeuze mulima upate wokovu wa milele."
+                "Mungu kanyosha mukono wake kondoa maji duniani ¨ Inchi ikabakia kavu na giza yote ikatoweka¨2x"
+              ]
+            },
+            {
+              "id": "blk-ef28621b",
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Dunia wewe dupia , kwakuwa usibaki dunia wewe ugeuze mulima upate wokovu wa milele."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -424,12 +460,14 @@
           },
           "content": [
             {
+              "id": "blk-3e5fabcd",
               "type": "source_block",
               "lines": [
                 "1. Huduma zilianza katika mbingu kwa kuumba vitu viote vinavio onekana visivio onekana kwa utukufu wake."
               ]
             },
             {
+              "id": "blk-2e8349ff",
               "type": "refrain",
               "lines": [
                 "Wewe ni nani katika dunia eyowa  ",
@@ -442,15 +480,24 @@
               ]
             },
             {
+              "id": "blk-7f17e5a0",
               "type": "source_block",
               "lines": [
                 "2. Magizo ya mungu kwake adama usile wala kugusa muti wa mauti eh nyoka kadanganya muke hakika hamutakufa."
               ]
             },
             {
+              "id": "blk-e309f14f",
               "type": "source_block",
               "lines": [
                 "3. Kasirani yake mungu kalaani muke Adamu kwa utkufu wake eh mimi sitaki shuurliza duniani ni pate uzima."
+              ]
+            },
+            {
+              "id": "extra-sw-0168",
+              "type": "verse",
+              "lines": [
+                "kweli, kweli mungu mwenye uwezo kasiuamisha haki yake kwa utukufu wake"
               ]
             }
           ],
@@ -464,7 +511,7 @@
       "schema_version": "1.0",
       "id": "73f1bdde-b2e0-4959-a1e4-1d0fcea920ce",
       "title": "TWAKUSHUKURU EH MUNGU WANGU",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "f1471986-a84b-4226-a153-4a99a8225cfa",
@@ -472,54 +519,56 @@
             "code": "sw",
             "label": "Swahili",
             "status": "confirmed",
-            "detection": "auto",
-            "score": 6
+            "detection": "auto"
           },
           "title": "TWAKUSHUKURU EH MUNGU WANGU",
           "source": {
-            "file": "chants_de_la_creation.html",
-            "position": 8,
+            "file": "Cantiques_swahili.pdf",
+            "position": 161,
             "number": "28",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0165"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-1",
-            "category_label": "Création",
-            "lesson_id": "lesson-1",
-            "lesson_label": "Leçon 1 — Création"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "id": "blk-99e6a0ba",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. Twakushukuru eh mungu wangu katika, kazi uliotenda tangu hawali zimetimilika leo (kazi gani) kuokowa dunia katika mikono ya shetani, (kazi gani) kuokoa dunia katika shida na magonjwa (kazi gani)kuokoa dunia katika kiburi na jeuri."
+                "Twakushukuru eh mungu wangu katika , kazi uliotenda tangu hawali zimetimilika leo (kazi gani) kuokowa dunia katika mikono ya shetani , ( kazi gani ) kuokoa dunia katika shida na magonjwa ( kazi gani ) kuokoa dunia katika kiburi na jeuri."
               ]
             },
             {
+              "id": "blk-f3b2c9ce",
               "type": "refrain",
               "lines": [
                 "Mimi munaziri wa mungu yoyoyo (uniokowe)2x"
               ]
             },
             {
+              "id": "blk-8c93a8fc",
               "type": "comment",
               "lines": [
-                "katika magonjwa uniokowe uniokowe eh  ",
-                "- katika kifungo  ",
-                "- Katika mateso"
+                "Com : katika magonjwa uniokowe uniokowe en -katika kifungo \" \" \" \" \" -Katika mateso \" \" \" \" \""
               ]
             },
             {
-              "type": "source_block",
+              "id": "blk-71923db2",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "2. (Nimesongwa sana mungu wangu na madui awa)2x (madui gani) Pisoni: sheria a jamaa ya menisonga sana Gioni: Marafiki wa baya wamenisonga sana Idekeli: Mafundisho ya mwili ya"
+                "Nimesongwa sana mungu wangu na madui awa ~2x ( madui gani) Pisoni : sheria ya jamaa ya menisonga sana \" \" \" \" \" \" Gioni : Marafiki wa baya wamenisonga sana \" \" \" \" \" \" Idekeli : Mafundisho ya mwili ya \" \" \" \" \" \""
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -527,60 +576,65 @@
       "schema_version": "1.0",
       "id": "bf5ae4e8-4a7f-41d5-8086-40192dafe258",
       "title": "TUWA HUDUMU HABARI MAALUMU",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
-          "id": "7658bc20-32c4-4b22-b896-1c7417a8b429",
+          "id": "17721b01-af50-5fe5-ae2b-61cf2dcf913c",
           "language": {
             "code": "sw",
             "label": "Swahili",
             "status": "confirmed",
-            "detection": "auto",
-            "score": 14
+            "detection": "auto"
           },
           "title": "TUWA HUDUMU HABARI MAALUMU",
           "source": {
-            "file": "chants_de_la_creation.html",
-            "position": 9,
+            "file": "Cantiques_swahili.pdf",
+            "position": 165,
             "number": "33",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0170"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-1",
-            "category_label": "Création",
-            "lesson_id": "lesson-1",
-            "lesson_label": "Leçon 1 — Création"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "id": "blk-71e96474",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. Tuwa hudumu habari maalumu tuliachiwa na bwana ili tuwa udumie kuvipasha viumbe habari njema (Hayawani simba na chuwi, tembo na mbwea, viura, nyoka na panzi nge na mamba, mamba na kunguru)2x."
+                "Tuwa hudumu habari maalumu tuliachiwa na bwana ili tuwa udumie kuvipasha viumbe habari njema \"Hayawani simba na chuwi, tembo na mbwea, viura , nyoka na panzi nge na mamba, mamba na kunguru~2x"
               ]
             },
             {
+              "id": "blk-3c5a1bdc",
               "type": "refrain",
               "lines": [
-                "Kwa leo tuwa batize kwa jina la baba(kwa jina la baba)tbatize kwa jina la mwana(kwa jina la mwana) tuwa batize kwa jina la roho damilifu amina."
+                "Kwa leo tuwa batize kwa jina la baba ( kwa jina la baba)tbatize kwa jina la mwana ( kwa jina la mwana) tuwa batize kwa jina la roho damilifu amina."
               ]
             },
             {
-              "type": "source_block",
+              "id": "blk-d372b012",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "2. Habari njema wajoli tunayo waarifu si kwa andiko la herufi liuwalo ila yesu mwana mungu mukombozi wa watu Neno la mungu alie hai likajifanya mwili kuwaliwa mara moja na kufa mara moja kainuliwa 2x"
+                "Habari njema wajoli tunayo waarifu si kwa andiko la herufi liuwalo ila yesu mwana mungu mukombozi wa watu ~ Neno la mungu alie hai likajifanya mwili kuwaliwa mara moja na kufa mara moja kainuliwa ~2x"
               ]
             },
             {
-              "type": "source_block",
+              "id": "blk-859feecc",
+              "type": "verse",
+              "number": "3",
               "lines": [
-                "Ubatizo maana yake, ubatizo ni fundisho tuliachiwa na bwana ili tuwa fundishe (Kufundisha mungu baba mumbaji, kufundisha Yesu mwana mukombozi wa watu, kufundisha naye roho katika sehemu za roho yote tatu)2x"
+                "Ubatizo maana yake , ubatizo ni fundisho tuliachiwa na bwana ili tuwa fundishe ~ Kufundisha mungu baba mumbai, kufundisha Yesu mwana mukombozi wa watu , kufundisha naye roho katika sehemu za roho yote tatu ~2x"
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -588,7 +642,7 @@
       "schema_version": "1.0",
       "id": "e5cd49a8-830b-42f7-9157-5dc946e28bd1",
       "title": "WAKATI MUNGU YOYOYO ALIPO UMBA",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "1d1bce6c-2b00-4f7a-b799-42ecc7080903",
@@ -596,54 +650,64 @@
             "code": "sw",
             "label": "Swahili",
             "status": "confirmed",
-            "detection": "auto",
-            "score": 7
+            "detection": "auto"
           },
           "title": "WAKATI MUNGU YOYOYO ALIPO UMBA",
           "source": {
-            "file": "chants_de_la_creation.html",
-            "position": 10,
+            "file": "Cantiques_swahili.pdf",
+            "position": 160,
             "number": "27",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0164"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-1",
-            "category_label": "Création",
-            "lesson_id": "lesson-1",
-            "lesson_label": "Leçon 1 — Création"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "id": "blk-89919119",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "(Wakati mungu yoyoyo alipo umba mbingu na dunia)2x (Akaumba nuru yoyoyo akatenga nafasi mungu akaumba miti)2x"
+                "Wakati mungu yoyoyo alipo umba mbingu na dunia¨2x Akaumba nuru yoyoyo akatenga nafasi mungu akaumba miti¨2x"
               ]
             },
             {
+              "id": "blk-ceb2e0fd",
               "type": "refrain",
               "lines": [
-                "Kweli kweli jehova mungu kanena nimepata kiumbe (kiumbe) kitakacho tukuza ukubwa wangu."
+                "Kweli kweli jeho va mungu kanena nimepata kiumbe (kiumbe) kitakacho tukuza ukubwa wangu ."
               ]
             },
             {
+              "id": "blk-7338f8b8",
               "type": "comment",
               "lines": [
-                "- Na mwalimu kanena  ",
-                "- Mwambi wetu kanena  ",
-                "- Baba kyungu kanena"
+                "Com : -Na mwalimu kanena -Mwambi wetu kanena -Baba kyungu kanena"
               ]
             },
             {
-              "type": "source_block",
+              "id": "blk-a966a614",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "2. Akaumba miangaza yoyoyo akaumba nyama, mutu akuwako. Akaumba mutu yoyoyo akamubariki muzidi na kuongezeka."
+                "Akaumba miangaza yoyoyo akaumba nyama, mutu akuwako."
+              ]
+            },
+            {
+              "id": "blk-bfb462f0",
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Akaumba mutu yoyoyo akamubariki muzidi na kuongezeka."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -678,24 +742,28 @@
           },
           "content": [
             {
+              "id": "blk-78f64757",
               "type": "source_block",
               "lines": [
                 "1. Njoni kwa yesu mimi nawe njia tuonya hatuijui juwa jioni na mwenyezi Mungu na tu mu sii njo."
               ]
             },
             {
+              "id": "blk-4c29fc66",
               "type": "refrain",
               "lines": [
                 "(Wajoli twimbe na faraha) na furaha tutaiona (tutaiona)mioyoi ikitakaswa sana (kwake)kwake mwokozi kuonana(kuonana)na milele kukaa."
               ]
             },
             {
+              "id": "blk-36dc4669",
               "type": "source_block",
               "lines": [
                 "2. Wana na wazee watwambia furahaini mukisikia (wajoli) ndie Mufalme wetu pia natumusii njo."
               ]
             },
             {
+              "id": "blk-99f63339",
               "type": "source_block",
               "lines": [
                 "3. Tumukaribie eh sisi zote Yesu Bwana utualika tumupingapo nimuoti na tumusii njo"
@@ -711,55 +779,66 @@
     {
       "schema_version": "1.0",
       "id": "abc5db07-fe6e-46ab-8d62-3c8f25849c66",
-      "title": "FURAHA MBINGUNI",
-      "status": "review",
+      "title": "FURAHAMBINGUNI",
+      "status": "updated_from_a_classer",
       "versions": [
         {
-          "id": "891c01db-1709-4fa4-bc01-6b07e202601f",
+          "id": "695643c5-a6c5-58f7-b905-0a0efc28d084",
           "language": {
             "code": "sw",
             "label": "Swahili",
             "status": "confirmed",
-            "detection": "auto",
-            "score": 10
+            "detection": "auto"
           },
-          "title": "FURAHA MBINGUNI",
+          "title": "FURAHAMBINGUNI",
           "source": {
-            "file": "chants_de_la_creation.html",
-            "position": 12,
+            "file": "Cantiques_swahili.pdf",
+            "position": 143,
             "number": "12",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0146"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-1",
-            "category_label": "Création",
-            "lesson_id": "lesson-1",
-            "lesson_label": "Leçon 1 — Création"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "id": "blk-c96053c0",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "1. Fuhara mbinguni ametupwa yule joka, (ole wako duniani mchongezi ameshushwa)2x"
+                "Fuhara mbinguni ametupwa yule joka, \"ole wako duniani mchongezi ameshushwa^2x"
               ]
             },
             {
+              "id": "blk-bb5b6b65",
               "type": "refrain",
               "lines": [
-                "Twimbe wokovu kwa bwana Mungu yeye anaeketi juu ya kiti cha enzi mwana kondoo wa Mungu, juu ya kiti cha enzi mwana kondoo wa Baba."
+                "Twimbe wokovu kwa bwana mungu yeye anae keti juu ya kiti cha enzi mwana kondoo wa mungu, juu ya kiti cha enzi mwana kondoo wa baba."
               ]
             },
             {
-              "type": "source_block",
+              "id": "blk-d3d413a4",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "2. Joka kufika duniani kaharibu mambo yote harzi ku laaniwa na watu wakatabishwa. Kweli rehema yake Mungu kakumbuka israeli (Kwa neno hili la rohoni watu wakaokolewa)2x"
+                "Joka kufika duniani kaharibu mambo yote harzi ku laaniwa na watu wakatabishwa."
+              ]
+            },
+            {
+              "id": "blk-576d1ec7",
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Kwehi rehemwa yake mungu kakumbuka israeli \"Kwa neno hili la rohoni watu wakaokolewa^2x"
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     }

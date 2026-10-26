@@ -16,7 +16,7 @@
       "schema_version": "1.0",
       "id": "03ddafe0-493e-5468-bece-5bfa392cf27c",
       "title": "APO MIONGONI MWA WATU",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "b8666349-c4b1-580b-9236-940984be4250",
@@ -28,47 +28,53 @@
           },
           "title": "APO MIONGONI MWA WATU",
           "source": {
-            "file": "chants_de_david.html",
-            "position": 1,
+            "file": "Cantiques_swahili.pdf",
+            "position": 307,
             "number": "141",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0307"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-21",
-            "category_label": "Le royaume de David",
-            "lesson_id": "lesson-21",
-            "lesson_label": "Leçon 21 — Le royaume de David est celui de Saül"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "id": "blk-8dde28eb",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "Apo miongoni mwa watu mupo ufalme wa Mungu mupo mafalme ya watu vita kubwa ufanyika mu watu (Humo humo mupo Goliati na Daudi)2x"
+                "Apo miongoni mwa watu mupo ufalme wa mungu mupo mafalme ya watu vita kubwa ufanyika mu watu \"\"Humo humo mupo Goliati na Daudi \"2x"
               ]
             },
             {
+              "id": "blk-21c34d79",
               "type": "refrain",
               "lines": [
-                "Mungu unifariji ata mu mateso yangu pia ata mufuraha (eh baba) vita ijapo asubui, vita ijapo jioni ata kati ya usiku Mungu wangu niwe na uzima ¨2X"
+                "-Mungu unifariji ata mu mateso yangu pia ata mufuraha (eh baba ) vita ijapo asubui , vita ijapo jioni ata kati ya usiku mungu wangu niwe na uzima \"2X"
               ]
             },
             {
-              "type": "source_block",
+              "id": "blk-c42474b4",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "Goliati usimama unena juu ya nguvu alikuwa na mupiganisha juu ya ufalme, Daudi ka mupiga jiwe akanguka kifudifudi."
+                "Goliati usimama unena juu ya nguvu alikuwa na mupiganisha juu ya ufalme , Daudi ka mupiga jiwe akanguka kifudifudi."
               ]
             },
             {
-              "type": "source_block",
+              "id": "blk-d37ca806",
+              "type": "verse",
+              "number": "3",
               "lines": [
-                "Daudi uko na piganishwa namna nyingi, Goliati umupiganisha, sauli umupiganisha, sauli kafurahi ju aliuwa mia za watu, Daudi ka mushinda ju aliuwa elfu za watu."
+                "Daudi uko na piganishwa namna nyingi , Goliati umupiganisha , sauli umupiganisha , sauli kafurahi ju aliuwa mia za watu , Daudi ka mushinda ju aliuwa elfu za watu."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -102,18 +108,21 @@
           },
           "content": [
             {
+              "id": "blk-02d8fba6",
               "type": "source_block",
               "lines": [
                 "Ufalme wa Daudi umeingia ndani mwetu leo kwa kufanya kazi"
               ]
             },
             {
+              "id": "blk-1500f239",
               "type": "source_block",
               "lines": [
                 "Parapanda italia furaha na vilio wajoli twende twende mbele tusiangamie."
               ]
             },
             {
+              "id": "blk-c58bae21",
               "type": "comment",
               "lines": [
                 "- Mu mbingu ya baba twende, twende mbele tusiangamie - Mu mbingu ya musa",
@@ -160,18 +169,21 @@
           },
           "content": [
             {
+              "id": "blk-170c4e78",
               "type": "source_block",
               "lines": [
                 "Daudi mutu wa vita (Daudi), Bwana kamupa ushindi Daudi wa kushinda Goliati. Bondeni mwa yordani wakifia ufalme."
               ]
             },
             {
+              "id": "blk-95e47483",
               "type": "source_block",
               "lines": [
                 "Ushindi wa nan iwa Daudi, wa nani wa Daudi mufalme wa kupigana vita."
               ]
             },
             {
+              "id": "blk-c030fb99",
               "type": "comment",
               "lines": [
                 "- Wa kushinda madui wa Daudi, wa nani wa Daudi mfalme Walipo kuwa mulimani Goliati kasimama, mwenye urefu wa mikono sita na nusu mukuki mkononi mwake tushuke",
@@ -179,6 +191,14 @@
                 "kichwa akaenda nakyo yerusalema.",
                 "- Kwa kuonesha ushindi kakata kichwa akaenda nakio yerusalema",
                 "- Kwa kuonesha ufalme"
+              ]
+            },
+            {
+              "id": "extra-sw-0309",
+              "type": "verse",
+              "lines": [
+                "walipo kuwa mulimani goliati kasimama \"mwenye urefu wa mikono sita na nusu mukuki mkononi mwake tush",
+                "daudi kaona ndani mwake mulikuwa mawe mbili akaiweka kwenye kombeo akapiga goliati mu uso akanguka d"
               ]
             }
           ],
@@ -218,12 +238,14 @@
           },
           "content": [
             {
+              "id": "blk-d6a18c29",
               "type": "source_block",
               "lines": [
                 "Vita nyingi na kali zi menijia mimi huyu ¨Jehova Mungu mufalme ujitukuze kwa mambo aya¨2x"
               ]
             },
             {
+              "id": "blk-7a033c62",
               "type": "refrain",
               "lines": [
                 "Ila kwa jina lako baba mufalme wangu usinyache.",
@@ -233,12 +255,14 @@
               ]
             },
             {
+              "id": "blk-c0eb521a",
               "type": "source_block",
               "lines": [
                 "Wame nichimbia shimo wametandika mitego wa metafuta uzima wangu kwajili ya neno la uzima."
               ]
             },
             {
+              "id": "blk-2fc24549",
               "type": "source_block",
               "lines": [
                 "Ulimwokoa Abramu, ulimwokoa na Lutu, Ulimwokoa Danieli pangoni, ukamushindia Daudi 2x"
@@ -255,7 +279,7 @@
       "schema_version": "1.0",
       "id": "17880b24-6ef2-5465-9c3a-c17819f880e0",
       "title": "JEHOVA MUNGU EH MUNGU WANGU",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "8cacd316-1104-5fde-81a1-22a3ac9d8583",
@@ -267,44 +291,67 @@
           },
           "title": "JEHOVA MUNGU EH MUNGU WANGU",
           "source": {
-            "file": "chants_de_david.html",
-            "position": 5,
+            "file": "Cantiques_swahili.pdf",
+            "position": 296,
             "number": "145",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0311"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-21",
-            "category_label": "Le royaume de David",
-            "lesson_id": "lesson-21",
-            "lesson_label": "Leçon 21 — Le royaume de David est celui de Saül"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "id": "blk-b0a333d5",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "Jehova mungu eh mungu wangu Na kuita leo baba unirshindie vita."
+                "Jehova mungu eh mungu wangu \"Na kuita leo baba unirshindie vita\"2x"
               ]
             },
             {
+              "id": "blk-a4e03f5b",
               "type": "comment",
               "lines": [
-                "- Mumbaji wangu na kuita leo baba unishindie vita",
-                "- Mufalme wangu",
-                "- Tegemeo langu",
-                "Ulimuokowa Abramu, ulimuokoa na Lutu, ukamushindia Daudi unishindie vita, Na kwita yesu mwana unishindie vita",
-                "- Kweli vita ni kali na kwita yesu mwana unishindie vita",
-                "- Vita yote ya ndani",
-                "- Vita yote ya inje Sauli unipiganisha, Goliati unipiganisha, zige nange unipiganisha sikia roho mwema unishindie vita",
-                "- Roho wa mitume sikia roho mwema unishindie vita",
-                "- Roho wa Kadima",
-                "- Roho wa mababu Kweli vita ni kali vit aya pembe yote"
+                "Com : -Mumbaji wangu na kuita leo baba unishindie vita -Mufalme wangu \" \" \" \" \" \" \" \" -Tegemeo langu \" \" \" \" \" \" \" \""
+              ]
+            },
+            {
+              "id": "blk-cbb17cc9",
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Ulimuokowa Abramu , ulimuokoa na Lutu , ukamushindia Daudi unishindie vita , \"Na kwita yesu mwana unishindie vita \"2x"
+              ]
+            },
+            {
+              "id": "blk-2d3ef276",
+              "type": "comment",
+              "lines": [
+                "Com : -Kweli vita ni kali na kwita yesu mwana unishindie vita. -Vita yote ya ndani \" \" \" \" \" \" \" -Vita yote ya inje \" \" \" \" \" \" \""
+              ]
+            },
+            {
+              "id": "blk-a2568010",
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Sauli unipiganisha , Goliati unipiganisha , zige nange unipiganisha sikia roho mwema unishindie vita \"2X"
+              ]
+            },
+            {
+              "id": "blk-e693c4f5",
+              "type": "comment",
+              "lines": [
+                "Com : -Roho wa mitume sikia roho mwema unishindie vita -Roho wa Kadima \" \" \" \" \" \" \" -Roho wa mababu \" \" \" \" \" \" \" Kweli vita ni kali vit aya pembe yote"
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -338,12 +385,14 @@
           },
           "content": [
             {
+              "id": "blk-cbfda5f6",
               "type": "source_block",
               "lines": [
                 "1. Waisraeli kunyanyuwa sanduku ya bwana kwa shangwe miguu sita mfalme kacheza ¨2x mfalme Daudi akafunga Efondi."
               ]
             },
             {
+              "id": "blk-6385e63c",
               "type": "refrain",
               "lines": [
                 "Nasi wajoli wangu tudumu katika uduma huwo",
@@ -351,6 +400,7 @@
               ]
             },
             {
+              "id": "blk-3511dfc8",
               "type": "comment",
               "lines": [
                 "- Tazama Yudas musaliti naye wa neno la uzima - Tazama na wewe Jazareni ¨ Basi wajoli wangu tumwimbie yoyoyo",

@@ -42,18 +42,21 @@
           },
           "content": [
             {
+              "id": "blk-6b0fc6b0",
               "type": "source_block",
               "lines": [
                 "Bwana kanena watu wangu wanateswa, Musa ukawatoe huko misri ¨Wanenda katika muji (muji) ni liowahidia inchi iyo ya furaha ya jehova ¨2x Musa, Musa, Musa tuna tabika tupe maji ya kunywa tazama shindo la Farao, jazareni wajoli tupo ndani ya kibofu tupo ndani ya baba aleluya na yeye ndani mwetu."
               ]
             },
             {
+              "id": "blk-2f540a3f",
               "type": "refrain",
               "lines": [
                 "Yoyoyo buatafunae kunde ni miongoni mwetu¨2x"
               ]
             },
             {
+              "id": "blk-a60658c1",
               "type": "comment",
               "lines": [
                 "- Ukijesabia kuwa mu kisto, bulevi nabo aujaacha, ila unadanganya watu ni kumucha mungu.",
@@ -61,6 +64,7 @@
               ]
             },
             {
+              "id": "blk-906beee6",
               "type": "source_block",
               "lines": [
                 "ila unadanganya watu ni kumucha mungu. (yoyoyo) buatafunae kunde ni miongoni mwetu."
@@ -77,7 +81,7 @@
       "schema_version": "1.0",
       "id": "a8b0518b-b311-556d-a36e-8c589ae995f0",
       "title": "MUNGU WA MUSA UTUKARIBIE LEO",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "6b6c93fc-69b2-5e12-8cff-46cbd71df686",
@@ -89,41 +93,56 @@
           },
           "title": "MUNGU WA MUSA UTUKARIBIE LEO",
           "source": {
-            "file": "chants_de_moise.html",
-            "position": 2,
+            "file": "Cantiques_swahili.pdf",
+            "position": 238,
             "number": "94",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0244"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-10",
-            "category_label": "Départ d’Israël pour l’Égypte",
-            "lesson_id": "lesson-10",
-            "lesson_label": "Leçon 10 — Départ d’Israël pour l’Égypte"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "id": "blk-03c857f0",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "Mungu wa Musa utukaribie leo, ewe mungu wa baba sisi tumesongwa sana ¨ Farao na majeshi yake wametusonga vikali ¨2x"
+                "Mungu wa Musa utukaribie leo , ewe mungu wa baba sisi tumesongwa sana \" Farao na majeshi yake wametusonga vikali \"2x"
               ]
             },
             {
-              "type": "refrain",
-              "lines": [
-                "Kweli kweli ewe Musa wa baba, tumesongwa sana bahari ni mbele yetu."
-              ]
-            },
-            {
+              "id": "blk-6018dcbc",
               "type": "comment",
               "lines": [
-                "Watoto wangu wamekufa mu jangwa Tafazali tunge baki mu misri Tafazali tunge kufa mu misri Musa muzazi akapata uchungu akaenda kuomba, kuomba mungu baba akapinga magoti kuomba mungu baba. Mungu naye akamujibu musa, ¨ Upige bakora mu maji wote wa vuke inhi kavu ¨2x Israeli wakapita wote Farao wakakufa wote wana watukuze bwana."
+                "**_Ref : Kweli kweli ewe Musa wa baba , tumesongwa sana bahari ni mbele yetu ._**",
+                "**_Com : Watoto wangu wamekufa mu jangwa_**",
+                "**_Tafazali tunge baki mu misri_**",
+                "**_Tafazali tunge kufa mu misri_**"
+              ]
+            },
+            {
+              "id": "blk-5cbe9b02",
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "Musa muzazi akapata uchungu akaenda kuomba , kuomba mungu baba akapinga magoti kuomba mungu baba."
+              ]
+            },
+            {
+              "id": "blk-c96fab2d",
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Mungu naye akamujibu musa , \" Upige bakora mu maji wote wa vuke inhi kavu \"2x Israeli wakapita wote Farao wakakufa wote wana watukuze bwana ."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -157,18 +176,21 @@
           },
           "content": [
             {
+              "id": "blk-877bb51d",
               "type": "source_block",
               "lines": [
                 "Mutu mwengine alikuwa Musa muteule kwa kwanza wana isrzeli njiani, mufalme akawapa hekima akawafanyia mema akafurahisha wajoli aliokuwa nao hawali."
               ]
             },
             {
+              "id": "blk-387032af",
               "type": "source_block",
               "lines": [
                 "Kuku vifaranga usiviache jehova mungu wasije kushikwa wana kuko nyama."
               ]
             },
             {
+              "id": "blk-5c67342a",
               "type": "comment",
               "lines": [
                 "- Eh mungu: wasije kushikwa wana kuko nyama",
@@ -212,12 +234,14 @@
           },
           "content": [
             {
+              "id": "blk-53c6d9cf",
               "type": "source_block",
               "lines": [
                 "Mungu kamwambwa Musa mutumishi wangu (2x) (Eh musa) chukuwa israeli uwapeleke kanana (Eh musa ) ishara nyingi ni kwako utamonesha Farao."
               ]
             },
             {
+              "id": "blk-a046492c",
               "type": "comment",
               "lines": [
                 "- Mapigo ya chawa",
@@ -227,12 +251,14 @@
               ]
             },
             {
+              "id": "blk-409bf64d",
               "type": "refrain",
               "lines": [
                 "Bwana akamwambia Musa ewe Musa, Musa mulawi toka wende kanana"
               ]
             },
             {
+              "id": "blk-3c2792f4",
               "type": "comment",
               "lines": [
                 "- Ukaokowe watu: Musa ewe Musa, Musa mulawi toka wende kanana",
@@ -241,6 +267,7 @@
               ]
             },
             {
+              "id": "blk-4542e884",
               "type": "source_block",
               "lines": [
                 "Musa katazama uso wa Farao ¨2x ¨ Musa kakimbia misri bwana karudisha musa kwa Farao¨2x",
@@ -258,7 +285,7 @@
       "schema_version": "1.0",
       "id": "5197a1e9-b4ae-5e7a-bec7-214fb74d3a63",
       "title": "EH WAJOLI MIMI NDIMI MU KRISTU",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "d06d814f-6eae-5fbb-8763-1eed87e747c1",
@@ -270,40 +297,54 @@
           },
           "title": "EH WAJOLI MIMI NDIMI MU KRISTU",
           "source": {
-            "file": "chants_de_moise.html",
-            "position": 5,
+            "file": "Cantiques_swahili.pdf",
+            "position": 243,
             "number": "97",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0249"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-10",
-            "category_label": "Départ d’Israël pour l’Égypte",
-            "lesson_id": "lesson-10",
-            "lesson_label": "Leçon 10 — Départ d’Israël pour l’Égypte"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "id": "blk-80f9f14d",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "Eh ee wajoli mimi ndimi mukristu uzima huu ni nao nita utautairi je?",
-                "- Eh ee wajoli mimi ndimi mukristu mwana huu ninaye nitamutairi je."
+                "Eh ee wajoli mimi ndimi mukristu uzima huu ni nao nita utautairi je ?",
+                "-Eh ee wajoli mimi ndimi mukristu mwana huu ninaye nitamutairi je."
               ]
             },
             {
+              "id": "blk-33c5215a",
               "type": "refrain",
               "lines": [
-                "( Tahiri mwana ) Eh ee wajoli sikilizeni. 2x",
-                "jambo lilifanya Sipora alipo elekea nyumbani mwa kulala kuwageni jehova alitaka kumuwa Sipora kachukua jiwe katahiri mwana ngovi ikamwangukia Musa miguuni",
-                "Ewe tukuza mungu wa uzima akilini mwako ewe chunga hekima kwake mungu wa uzima tumufanie uduma.2x",
-                "– Kutahiri ni alama ya agano letu na bwana kama alivio fanya jehova na babu zetu Ibrahimu kwa kutahiriwa kila mutu miongoni mwetu sharti apate kutahiriwa, ata akinunuliwa kwa feza sharti apate kutahiriwa, (kila mume miongoni mwetu, na kila muke miongoni mwetu sharti apate kutahiriwa.)",
-                "- Ilipotimia siku, siku iyo yanane ya kumutahiri yesu wakenda naye hekaluni kwa kumutahiri Simoni kamuchukuwa mikononi akamwimidi mufalme ana akashukuru jehova katabiri huhru utaokuja katika kristo."
+                "( Tahiri mwana ) Eh ee wajoli sikilizeni \"2x jambo lilifanya Sipora alipo elekea nyumbani mwa kulala kuwageni jehova alitaka kumuwa Sipora kachukua jiwe katahiri mwana ngovi ikamwangukia Musa miguuni \" Ewe tukuza mungu wa uzima akilini mwako ewe chunga hekima kwake mungu wa uzima tumufanie uduma . \"2x"
+              ]
+            },
+            {
+              "id": "blk-0b429b1b",
+              "type": "verse",
+              "number": "2",
+              "lines": [
+                "–Kutahiri ni alama ya agano letu na bwana kama alivio fanya jehova na babu zetu lbrahimu kwa kutahiriwa kila mutu miongoni mwetu sharti apate kutahiriwa , ata akinunuliwa kwa feza sharti apate kutahiriwa, ( kila mume miongoni mwetu , na kila muke miongoni mwetu sharti apate kutahiriwa ."
+              ]
+            },
+            {
+              "id": "blk-54d52d59",
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "-Ilipotimia siku , siku iyo yanane ya kumutahiri yesu wakenda naye hekaluni kwa kumutahiri Simoni kamuchukuwa mikononi akamwimidi mufalme ana akashukuru jehova katabiri huhru utaokuja katika kristo."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     }

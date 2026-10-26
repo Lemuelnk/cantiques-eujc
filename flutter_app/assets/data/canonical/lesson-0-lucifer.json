@@ -43,12 +43,14 @@
           },
           "content": [
             {
+              "id": "blk-ff6cc1b1",
               "type": "source_block",
               "lines": [
                 "Ulikuwa (wewe) 2x katika edeni shamba la Mungu kerubi lenye kungaa, Lucifero ulipendwa na Bwana Mumba wako kakuvika mawe ya bei lulu ya damani."
               ]
             },
             {
+              "id": "blk-a91da254",
               "type": "refrain",
               "lines": [
                 "Lusifero kwa wingi wa uchuruzi ulitengwa mbali na Mungu wa uzima.",
@@ -57,12 +59,14 @@
               ]
             },
             {
+              "id": "blk-84cb1357",
               "type": "source_block",
               "lines": [
                 "Uliponena moyoni mwako Lusifero nitapaa juu mbinguni kuliko nyota za Bwana, kuliko mulima wake takuwa juu."
               ]
             },
             {
+              "id": "blk-3880b50b",
               "type": "source_block",
               "lines": [
                 "Apo, apo, vita mbinguni Mikaeli na yule joka, shetani katupua chini na jeshi lake lote, Diabolo katupua chini na jeshi lake lote mukia ukakokota sehemu moja ku tatu ya nyota za mbingu furahini mbingu ole wako dunia."
@@ -105,24 +109,28 @@
           },
           "content": [
             {
+              "id": "blk-d247e9c0",
               "type": "source_block",
               "lines": [
                 "Njoni kwa yesu mimi nawe njia tuonya hatuijui juwa jioni na mwenyezi Mungu na tu mu sii njo."
               ]
             },
             {
+              "id": "blk-a7ad4095",
               "type": "refrain",
               "lines": [
                 "(Wajoli twimbe na faraha) na furaha tutaiona (tutaiona)mioyoi ikitakaswa sana (kwake)kwake mwokozi kuonana(kuonana) na milele kukaa."
               ]
             },
             {
+              "id": "blk-7dcc5ff5",
               "type": "source_block",
               "lines": [
                 "Wana na wazee watwambia furahaini mukisikia (wajoli) ndie Mufalme wetu pia natumusii njo."
               ]
             },
             {
+              "id": "blk-bf878177",
               "type": "source_block",
               "lines": [
                 "Tumukaribie eh sisi zote Yesu Bwana utualika tumupingapo nimuoti na tumusii njo"
@@ -138,8 +146,8 @@
     {
       "schema_version": "1.0",
       "id": "05c2f056-e899-5849-82c0-23973d1f6fad",
-      "title": "FURAHA MBINGUNI",
-      "status": "review",
+      "title": "FURAHAMBINGUNI",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "695643c5-a6c5-58f7-b905-0a0efc28d084",
@@ -149,43 +157,55 @@
             "status": "confirmed",
             "detection": "auto"
           },
-          "title": "FURAHA MBINGUNI",
+          "title": "FURAHAMBINGUNI",
           "source": {
-            "file": "chants_de_lucifer.html",
+            "file": "Cantiques_swahili.pdf",
             "position": 3,
             "number": "12",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0146"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-0",
-            "category_label": "Lucifer",
-            "lesson_id": "lesson-0",
-            "lesson_label": "Leçon 0 — Lucifer"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "id": "blk-ffeb2dfb",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "Fuhara mbinguni ametupwa yule joka, (ole wako duniani mchongezi ameshushwa)2x"
+                "Fuhara mbinguni ametupwa yule joka, \"ole wako duniani mchongezi ameshushwa^2x"
               ]
             },
             {
+              "id": "blk-1f3fe5c8",
               "type": "refrain",
               "lines": [
-                "Twimbe wokovu kwa bwana Mungu yeye anaeketi juu ya kiti cha enzi mwana kondoo wa Mungu, juu ya kiti cha enzi mwana kondoo wa Baba."
+                "Twimbe wokovu kwa bwana mungu yeye anae keti juu ya kiti cha enzi mwana kondoo wa mungu, juu ya kiti cha enzi mwana kondoo wa baba."
               ]
             },
             {
-              "type": "source_block",
+              "id": "blk-61d4c630",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "Joka kufika duniani kaharibu mambo yote harzi ku laaniwa na watu wakatabishwa. Kweli rehema yake Mungu kakumbuka israeli (Kwa neno hili la rohoni watu wakaokolewa)2x"
+                "Joka kufika duniani kaharibu mambo yote harzi ku laaniwa na watu wakatabishwa."
+              ]
+            },
+            {
+              "id": "blk-a6b37f8b",
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Kwehi rehemwa yake mungu kakumbuka israeli \"Kwa neno hili la rohoni watu wakaokolewa^2x"
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -193,7 +213,7 @@
       "schema_version": "1.0",
       "id": "b5fb5909-d76e-5767-a993-5f66ffb325d0",
       "title": "EWE MALAIKA WA NURU",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "cb054ea1-7079-562f-99f8-6c147a210d90",
@@ -205,47 +225,53 @@
           },
           "title": "EWE MALAIKA WA NURU",
           "source": {
-            "file": "chants_de_lucifer.html",
+            "file": "Cantiques_swahili.pdf",
             "position": 4,
             "number": "9",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0143"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-0",
-            "category_label": "Lucifer",
-            "lesson_id": "lesson-0",
-            "lesson_label": "Leçon 0 — Lucifer"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "id": "blk-a72a569c",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "Ewe malaika wa nuru, ewe nyota alfajiri lusifero ulipendwa sana kuko Bwana Mumba wako Akakuvika mawe ya bei lulu ya damani kubwa 2x"
+                "Ewe malaika wa nuru , ewe nyota alfajiri lusifero ulipendwa sana kuko bwana mumba wako \"Akakuvika mawe ya bei lulu ya damani kubwa~2x"
               ]
             },
             {
+              "id": "blk-3be6e373",
               "type": "refrain",
               "lines": [
-                "Uchuruzi wako ulikujaza uzalimu toka katikati ya mawe ya moto wewe ulitenda zambi, lucifero ulinena kwamba nitapaa juu mbinguni kuliko mulima wa Mungu, lucifero ulinena kwamba nitapaa juu mbinguni kuliko nyota za Bwana."
+                "Uchuruzi wako ulikujaza uzalimu toka katikati ya mawe ya moto wewe ulitenda zambi , lucifero ulinena kwamba nitapaa juu mbinguni kuliko mulima wa mungu, lucifero ulinena kwamba nitapaa juu mbinguni kuliko nyota za bwana."
               ]
             },
             {
-              "type": "source_block",
+              "id": "blk-eeeb9129",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "Mawe ya bei lusifero uliyo vikua tazama, yakiki nyekundu, yakuti ya manjano, ulivikua na alimasi, zabarajadi, zumaridi na ya aspi, baharamani, shoamu na zahabu."
+                "Mawe ya bei lusifero uliyo vikua tazama : kiki nyekundu, yakuti ya manjano, ulivikua na alimasi, zabara jadi, zumaridi na ya aspi, bahara mani, shoamu na zahzbu."
               ]
             },
             {
-              "type": "source_block",
+              "id": "blk-1984ccb4",
+              "type": "verse",
+              "number": "3",
               "lines": [
-                "Vita kutoka mbinguni Mikaeli na jeshi lake kupigana na yule shetani na kundi lake lote Diabolo akatupwa chini na kundi lake lote, furahini ninyi mbingu pia na malaika wote ole wenu duniani na waishio ndani ya bahari, furahini ninyi watu waishimo mu neno la mungu."
+                "Vita kutoka mbinguni Mikaeli na jeshi lake kupigana na yule shetani na kundi lake lote Diabolo akatupua chini na kundi lake lote, furahini ninyi mbingu pia na malaika wote ole wenu duniani na waishio ndani ya bahari, furahini ninyi watu waishimo mu neno la mungu."
               ]
             }
-          ],
-          "media": {
-            "audio_present": true
-          }
+          ]
         }
       ]
     },
@@ -279,12 +305,14 @@
           },
           "content": [
             {
+              "id": "blk-e69f65ab",
               "type": "source_block",
               "lines": [
                 "Niliona alama kubwa kutoka mbinguni (kutoka mbinguni) Mwanamuke aliye vikwa juwa, mwezi na nyota tenashara kichuani mwake. Natena alama nyingine kajirika joka mukubwa mwekundu na vichwa saba na pembe kumi kasimama mbele yake."
               ]
             },
             {
+              "id": "blk-d6a30e63",
               "type": "refrain",
               "lines": [
                 "Eh wajoli wangu tujiazari, Joka yule amekwisha simama kwa kuharibu kazi.",
@@ -293,6 +321,7 @@
               ]
             },
             {
+              "id": "blk-c5347046",
               "type": "source_block",
               "lines": [
                 "Wewe ni muke yule umekuisha pewa hekima ya mbingu. Mwana ni roho wa Kristo ni karibu sasa kushuka kwetu(Ona sasa huaribifu huwo)",
@@ -311,7 +340,7 @@
       "schema_version": "1.0",
       "id": "a8d2568c-019c-5cd9-9ed7-0fc343e7b3b2",
       "title": "VITA VIKALI UJIRIKA",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "12f739ff-4482-5d07-96b4-448c2582a52c",
@@ -323,49 +352,55 @@
           },
           "title": "VITA VIKALI UJIRIKA",
           "source": {
-            "file": "chants_de_lucifer.html",
+            "file": "Cantiques_swahili.pdf",
             "position": 6,
             "number": "14",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0149"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-0",
-            "category_label": "Lucifer",
-            "lesson_id": "lesson-0",
-            "lesson_label": "Leçon 0 — Lucifer"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "id": "blk-e88d1109",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "(Vita vikali ujirika mbinguni mwa Mungu) 2x (Mikaeli wa Mungu kamushinda shetani) 2x mbinguni muna furaha, dunia muna mateso.",
-                "- Kwani shetani yeye yule ametupwa chini.",
-                "- Kwani shetani yeye yule joka ametupwa chini."
+                "Vita vikali ujirika mbinguni mwa mungu~2x Mikael iwa mungu kamushinda shetani~2x mbinguni muna furaha , dunia muna mateso.",
+                "– Kwani shetani yeye yule ametupwa chini.",
+                "-Kwani shetani yeye yule joka ametupwa chini."
               ]
             },
             {
+              "id": "blk-c677a88d",
               "type": "refrain",
               "lines": [
-                "(Shetani ametupwa chini) 2x Yuna nahasira kali utafuta ufariki na nani kwani shetani, shetani yeye ametupwa chini."
+                "Shetani ametupwa chini~2x Yuna nahasira kali utafuta ufariki na nani kwani shetani , shetani yeye ametupwa chini."
               ]
             },
             {
-              "type": "source_block",
+              "id": "blk-1d874588",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "Tuondokeni wote duniani muna mateso, tukae mbinguni muna furaha kwani shetani yeye shetani yeye ametupwa chini, kwani shetani yeye yule joka ametupwa chini."
+                "Tondonkeni wote duniani muna mateso, tukae mbinguni muna furaha kwani shetani yeye shetani yeye ametupwa chini, kwani shetani yeye yule joka ametupwa chini."
               ]
             },
             {
-              "type": "source_block",
+              "id": "blk-b30d062d",
+              "type": "verse",
+              "number": "3",
               "lines": [
-                "Furahini wote mwishio mbinguni mwa Mungu laana ni kwao waketi wa duniani kwani shetani yeye shetani ametupwa chini, kwani shetani yeye yule joka ametupwa chini."
+                "Furahini wote mwishio mbinguni mwa mungu laana ni kwao waketi wa duniani kwani shetani yeye shetani ametupwa chini, kwani shetani yeye yule joka ametupwa chini."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -373,7 +408,7 @@
       "schema_version": "1.0",
       "id": "9ee18313-56b5-539c-81d6-a3709f3eb41e",
       "title": "UO NI UJUMBE",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "08eab93d-4589-5aea-a283-5de7fab57bd0",
@@ -385,57 +420,74 @@
           },
           "title": "UO NI UJUMBE",
           "source": {
-            "file": "chants_de_lucifer.html",
+            "file": "Cantiques_swahili.pdf",
             "position": 7,
             "number": "15",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0150"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-0",
-            "category_label": "Lucifer",
-            "lesson_id": "lesson-0",
-            "lesson_label": "Leçon 0 — Lucifer"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "id": "blk-c6fc4e9c",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "Uo ni ujumbe utoka0 juu mbinguni kwa kuonyesha ya kama huduma zilizokuwa tanguawale zimetimilika kwahadi ya uweza wake mungu.",
-                "- Ujumbe kutoka mbinguni",
-                "- Ulishuka kutoka kwa baba",
-                "- ahadi ya Baba ya roho mwema"
+                "Uo ni ujumbe kutoka juu mbinguni kwa kuonyesha ya kama hutuba zilizokuwa tanguawale zimetimilika kwahadi ya uweza wake mungu."
               ]
             },
             {
+              "id": "blk-b9eda683",
+              "type": "comment",
+              "lines": [
+                "Com : - Ujumbe kutoka mbinguni - Ulishuka kutoka kwa baba - Hadi ya baba ya roho mwema"
+              ]
+            },
+            {
+              "id": "blk-cad56909",
               "type": "refrain",
               "lines": [
-                "(wajoli) tuhutubu, tu hutubu tuhutubu kwa roho inayo ishi ndani mwetu apa sasa kwa uzima unayo shuka ndani mwetu kwa wakati wa mihula iyo."
+                "( wajoli) tuhutubu, tu hutubu tuhutubu kwa roho inayo ishi ndani mwetu apa sasa kwa uzima unayo shuka ndani mwetu kwa wakati wa mihulaiyo."
               ]
             },
             {
-              "type": "source_block",
+              "id": "blk-a6a0845c",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "Tukienenda katika huduma huo nasi tuwe na joka mukubwa hili tushinde yule aliyeshushwa alitupwa na Mikaeli wa Mufalme.",
-                "- Alieitwa Diabolo Shetani",
-                "- Ibilisi joka wa mapembe",
-                "- Alidanganya dunia muzima."
+                "Tukienenda katika hutuba huo nasi tuwe na joka mukubwa hili tushinde yule aliyeshushwa alitupwa na Mikael iwa mufalme."
               ]
             },
             {
-              "type": "source_block",
+              "id": "blk-f9d4472f",
+              "type": "comment",
               "lines": [
-                "Sasa wokovu umeonekana katika mipaka yoteya, sayuni na yerusalema katika malisho ya ngombe zinazo geuzwa kuwa kondoo tushikamane tu sije (tuka jaribie uduma wetu bora)2x",
-                "- Kwa ulozi",
-                "- Kwa madawa",
-                "- Kwa uzini",
-                "- Kiburi"
+                "Com :- Alieitwa Diabolo Shetani - Ibilisi joka wa mapembe - Alidanganya dunia muzima."
+              ]
+            },
+            {
+              "id": "blk-5b06a407",
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Sasa wokovu umeonekana katika mipaka yoteya, sayuni na yerusalema katika malisho ya ngombe zinazo geuzwa kuwa kondoo tushikamane tu sije \"tuka jaribie uduma wetu bora\"2x"
+              ]
+            },
+            {
+              "id": "blk-9578d6e9",
+              "type": "comment",
+              "lines": [
+                "Com :-Kwa ulozi -Kwa madawa -Kwa uzini -Kiburi"
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -469,12 +521,14 @@
           },
           "content": [
             {
+              "id": "blk-df0e4c43",
               "type": "source_block",
               "lines": [
                 "(Ole dunia makao ya yule shetani) 2x (Dunia ya ziki na mambo mimi sita ishi dunia) 2x ."
               ]
             },
             {
+              "id": "blk-96c9a331",
               "type": "refrain",
               "lines": [
                 "- Niwe na bawa, dunia maombolezo sitaishi dunia",
@@ -487,6 +541,7 @@
               ]
             },
             {
+              "id": "blk-84071de0",
               "type": "source_block",
               "lines": [
                 "Ni kitazama huko dunia mimi si oni salama mateso na vilio yoyo mimi sitaishi dunia.(Mimi) sitaketi dunia mimi dunia ya wenye mateso mimi taketi ¨mbinguni¨ mbinguni ya wenye furaha wenye fuhari wenye uzima yoyoyo sitaishi dunia.Ukipenda kuona baba wewe achana na dunia¨2x mateso na vilio yoyo mimi sitaishi dunia."
@@ -503,7 +558,7 @@
       "schema_version": "1.0",
       "id": "90981922-d828-5973-a37a-bdc57cc76ed0",
       "title": "MUFALME WETU",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "a4875277-675b-5095-b21f-d5b461c59f50",
@@ -515,41 +570,53 @@
           },
           "title": "MUFALME WETU",
           "source": {
-            "file": "chants_de_lucifer.html",
+            "file": "Cantiques_swahili.pdf",
             "position": 9,
             "number": "18",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0154"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-0",
-            "category_label": "Lucifer",
-            "lesson_id": "lesson-0",
-            "lesson_label": "Leçon 0 — Lucifer"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "id": "blk-d4c63aa2",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "( Mufalme wetu) 2x mufalme wetu mushindi (Mufalme wetu) mufalme wetu mushindi apa duniani."
+                "( Mufalme wetu)2x mufalme wetu mushindi (Mufalme wetu) mufalme wetu mushindi apa duniani."
               ]
             },
             {
+              "id": "blk-ba2279a2",
               "type": "refrain",
               "lines": [
-                "(Twimbeni )2x twimbieni eh shangwe alelua mikaeli kamutoa shetani mbinguni kamushusha adeze. Ole bahari na dunia furahini nyinyi mbinguni kamutoa shetani mbinguni kamushusha adezi."
+                "(Twimbeni )2x twimbieni e shangwe alelua mikaeli kamutoa shetani mbinguni kamushusha adezi. Ole bahari na dunia furahini nyinyi mbinguni kamutoa shetani mbinguni kamushusha adezi."
               ]
             },
             {
-              "type": "source_block",
+              "id": "blk-265b5c18",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "(Mufalme Yesu, Mufalme Yesu, Mufalme Yesu mushindi) 2x (mufalme yesu ) mufalme yesu mushindi apa duniani. Mufalme roho, mufalme roho, mufalme roho mushindi )2x ( mufalme roho) mufalme roho mushindi apa duniani)."
+                "Mufalme yesu, mufalme yesu, mufalme yesu mushindi ^2x ( mufalme yesu ) mufalme yesu mushindi apa duniani."
+              ]
+            },
+            {
+              "id": "blk-1969bb03",
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Mufalme roho, mufalme roho, mufalme roho mushindi ^2x ( mufalme roho) mufalme roho mushindi apa duniani."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -557,7 +624,7 @@
       "schema_version": "1.0",
       "id": "358001d2-46e5-5c6a-82bd-4792f7de7d25",
       "title": "MIKAELI WA MUNGU",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "467ff8cb-5629-5b40-97ab-8b34f58ed1d6",
@@ -569,41 +636,53 @@
           },
           "title": "MIKAELI WA MUNGU",
           "source": {
-            "file": "chants_de_lucifer.html",
+            "file": "Cantiques_swahili.pdf",
             "position": 10,
             "number": "17",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0153"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-0",
-            "category_label": "Lucifer",
-            "lesson_id": "lesson-0",
-            "lesson_label": "Leçon 0 — Lucifer"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "id": "blk-e9f3eeb6",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "(Mikael iwa Mungu ameshuka kwa vita)2x (Enyi wana wa mungu amkeni mukuwe tayari)2x."
+                "Mikael iwa mungu ameshuka kwa vita^2x enyi wana wa mungu amkeni mukuwe tayari^2x."
               ]
             },
             {
+              "id": "blk-cb1c1e17",
               "type": "refrain",
               "lines": [
-                "(Kwa kushinda shetani chukuweni sila zenu)2x (Enyi wana wa Mungu amkeni mukuwe tayari)2x"
+                "Kwa kushinda shetani chuweni sila zenu^2x \"enyi wana wa mungu amkeni mukuwe tayari^2x mukuwe tayari^2x"
               ]
             },
             {
-              "type": "source_block",
+              "id": "blk-6938838e",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "(Roho wa mungu ameshuka kwa kazi) 2x (Enyi wana wa Mungu amkeni mukuwe tayari. Mataifa yote wa mesimama leo) 2x (Enyi wana wa mungu amukeni mukuwe tayari)2x."
+                "Roho wa mungu ameshuka kwa kazi ^2x enyi wana wa mungu amkeni mukuwe tayari."
+              ]
+            },
+            {
+              "id": "blk-15366151",
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Mataifa yote wa mesimama leo^2x \"Enyi wana wa mungu amukeni mukuwe tayari^2x."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -611,10 +690,10 @@
       "schema_version": "1.0",
       "id": "87f37896-c0aa-5cde-9ac6-22d845992f83",
       "title": "SHETANI MWANA WA GIZA",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
-          "id": "2730a4d8-da41-5cd4-b9a3-b43c6a44de50",
+          "id": "9af5309b-0e8c-5d20-882a-674edbdc7e82",
           "language": {
             "code": "sw",
             "label": "Swahili",
@@ -623,41 +702,45 @@
           },
           "title": "SHETANI MWANA WA GIZA",
           "source": {
-            "file": "chants_de_lucifer.html",
+            "file": "Cantiques_swahili.pdf",
             "position": 11,
             "number": "19",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0155"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-0",
-            "category_label": "Lucifer",
-            "lesson_id": "lesson-0",
-            "lesson_label": "Leçon 0 — Lucifer"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "id": "blk-7d6ff398",
+              "type": "verse",
+              "number": "1",
               "lines": [
-                "Shetani mwana wa giza ampinga mwana wa nuru (si yeye bwana wa rehema aumbae vitu hivi) 2x"
+                "Shetani mwana wa giza ampinga mwana wa nuru. \"si yeye bwana wa rehema aumbae vitu hivi^2x"
               ]
             },
             {
+              "id": "blk-ac7a92de",
               "type": "refrain",
               "lines": [
-                "(tumushinde shetani) 2x (sisi tu wana wa nuru) 2x tumushinde shetani Mungu ni mutawa wa viote."
+                "tumushinde shetani \"2x sisi tu wana wa nuru^2x tumushinde shetani , mungu ni mutawa wa viote."
               ]
             },
             {
-              "type": "source_block",
+              "id": "blk-fc70d034",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "Nimetia nguvu zangu kwa walio wa haya waasubui wa mushinde shetani hata katika giza."
+                "Nimetia nguvu zangu kwa walio wa haya wa asubui wa mushinde shetani hata katika giza."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -665,7 +748,7 @@
       "schema_version": "1.0",
       "id": "96a0d707-072b-54d9-a1ba-098e14a090a5",
       "title": "WALOZI KAMA WA MESIMAMA",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "216c1293-9a1e-573f-acc4-681798ba7708",
@@ -677,41 +760,45 @@
           },
           "title": "WALOZI KAMA WA MESIMAMA",
           "source": {
-            "file": "chants_de_lucifer.html",
+            "file": "Cantiques_swahili.pdf",
             "position": 12,
             "number": "20",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0156"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-0",
-            "category_label": "Lucifer",
-            "lesson_id": "lesson-0",
-            "lesson_label": "Leçon 0 — Lucifer"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "id": "blk-aa94c9c7",
+              "type": "verse",
+              "number": "1",
               "lines": [
                 "Walozi kama wa mesimama kufwatana na yule shetani alietupwa na ufahamu mwingi ili kwa kwaribu huduma."
               ]
             },
             {
+              "id": "blk-fbe98a95",
               "type": "refrain",
               "lines": [
                 "Kweli kweli ole wako shetani umelaniwa dunia umepewa laana ole wako mulozi."
               ]
             },
             {
-              "type": "source_block",
+              "id": "blk-3bab4d9b",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "Nani atakae simama wakati wa Mikaeli kuja, nani atakae simama wakati wa Anaeli kuja walozi wote wamejuwa asira yake Jehova Mungu."
+                "Nani atakae simama wakati wa Mikaeli kuja , nani atakae simama wakati wa Anaeli kuja walozi wote wamejuwa asira yake jeho wa mungu."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -745,18 +832,21 @@
           },
           "content": [
             {
+              "id": "blk-e71ca7d9",
               "type": "source_block",
               "lines": [
                 "(Mapambano ya vita ilikuwa ku mbingu akatupwa chini yule joka na jeshi lake haaribu ulimwengu)2x"
               ]
             },
             {
+              "id": "blk-3df39894",
               "type": "comment",
               "lines": [
                 "Ulimwengu wa taabu, akatupwa chini yule joka na jeshi lake haaribu ulimwengu Ziki"
               ]
             },
             {
+              "id": "blk-0a0825b1",
               "type": "refrain",
               "lines": [
                 "Bwana mungu akanena eh baba, eh baba Yoyoyo ni chaguwe bwana mumbaji wangu mimi ni taenda kweli kuokoa ulimwengu.",
@@ -765,6 +855,7 @@
               ]
             },
             {
+              "id": "blk-f1a54e43",
               "type": "source_block",
               "lines": [
                 "Vita ikazidi ee)2x jehova mungu kauliza malaika nani ataenda kweli kuokowa ulimwengu.",
@@ -786,7 +877,7 @@
       "schema_version": "1.0",
       "id": "38370e5f-892f-5ae8-b7a3-29d1c3f17082",
       "title": "WANDUKU MUJIAZARINI NA MAMBO YA DUNIA",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "31acbb2f-49de-57e1-862f-0ad7e49beabd",
@@ -798,55 +889,62 @@
           },
           "title": "WANDUKU MUJIAZARINI NA MAMBO YA DUNIA",
           "source": {
-            "file": "chants_de_lucifer.html",
+            "file": "Cantiques_swahili.pdf",
             "position": 14,
             "number": "22",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0159"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-0",
-            "category_label": "Lucifer",
-            "lesson_id": "lesson-0",
-            "lesson_label": "Leçon 0 — Lucifer"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "id": "blk-044825e2",
+              "type": "verse",
+              "number": "1",
               "lines": [
                 "Wandugu mujiazarini na mambo ya dunia, shetani ametupwa chini na utukufu wake, yule joka shetani ametupwa chini na utukufu wake."
               ]
             },
             {
+              "id": "blk-3fbfc32e",
               "type": "refrain",
               "lines": [
                 "Alikuwa malaika wa nuru sasa amekuwa joka mu dunia kwa kwaribu wana wa mungu na ku wa shusha hadeze ( yule joka ) kwa ku haribu wana wa mungu na kuwa shusha hadeze."
               ]
             },
             {
+              "id": "blk-7cc794e7",
               "type": "comment",
               "lines": [
-                "Wajoli wangu jazarini yoyoyo na Ibilisi nyoka wa zamani.",
-                "- Hata ku masemi yake: mujazareni yoyoyo na Ibilisi nyoka wa zamani",
-                "- Hata mafundisho yake: mujazareni yoyoyo na Ibilisi nyoka wa zamani"
+                "Com :Wajoli wangu jazarini yoyoyo na Ibilisi nyoka wa zamani.",
+                "-Hata ku masemi yake : mujazareni yoyoyo na Ibilisi nyoka wa zamani",
+                "-Hata mafundisho yake : \" \" \" \" \" \" \" \" \" \" \" \""
               ]
             },
             {
-              "type": "source_block",
+              "id": "blk-36fcea29",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "Shetani ujulikana apingae kazi ya Mungu, shetani ujulikana kwa kauli zake (Mungu naye ) Mungu naye ujulikana kwa kauli zake 2x."
+                "Shetani ujulikana apingae kazi ya mungu, shetani ujirikana kwa kauli zake ( mungu naye ) mungu naye ujulikana kwa kauli zake \"2x"
               ]
             },
             {
-              "type": "source_block",
+              "id": "blk-a165adf4",
+              "type": "verse",
+              "number": "3",
               "lines": [
-                "Maandiko unena kwamba tangu mwanzo ndani yake hamu kuwapo haki ya Mungu ni udanganyifu na mambo ya watu."
+                "Maandiko unena kwamba tangu mwanzo ndani yake hamu kuwapo haki ya mungu ni udanganifu na mambo ya watu."
               ]
             }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     },
@@ -880,18 +978,21 @@
           },
           "content": [
             {
+              "id": "blk-06d2e206",
               "type": "source_block",
               "lines": [
                 "Walozi kama wa mesimama kufwatana na yule shetani alietupwa na ufahamu mwingi ili kwa kwaribu huduma."
               ]
             },
             {
+              "id": "blk-934a9802",
               "type": "refrain",
               "lines": [
                 "Tenda majabu yako eh baba, tenda eh Mungu"
               ]
             },
             {
+              "id": "blk-558a5dce",
               "type": "comment",
               "lines": [
                 "Walozi wa kuogope: tenda eh baba tenda eh mungu",
@@ -900,6 +1001,7 @@
               ]
             },
             {
+              "id": "blk-f104d2b6",
               "type": "source_block",
               "lines": [
                 "Lucifero alikuwa malaika wa Mungu Baba (Alietupwa toka juu mbinguni kwajili ya ubaya wake)2x",
@@ -917,7 +1019,7 @@
       "schema_version": "1.0",
       "id": "12863413-9ed2-5873-a3c2-dd8c9acf7b98",
       "title": "TUDUMU DAIMA",
-      "status": "review",
+      "status": "updated_from_a_classer",
       "versions": [
         {
           "id": "31e83d0a-3587-5b63-9994-affeb158c2bf",
@@ -929,102 +1031,60 @@
           },
           "title": "TUDUMU DAIMA",
           "source": {
-            "file": "chants_de_lucifer.html",
+            "file": "Cantiques_swahili.pdf",
             "position": 16,
             "number": "21",
-            "reference": null
+            "section": "",
+            "reference": null,
+            "updated_from": "a-classer-swahili/sw-0158"
           },
           "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-0",
-            "category_label": "Lucifer",
-            "lesson_id": "lesson-0",
-            "lesson_label": "Leçon 0 — Lucifer"
+            "domain": "hymnal",
+            "category_id": "a-classer-swahili",
+            "category_label": "Cantiques en swahili",
+            "lesson_id": "a-classer-swahili",
+            "lesson_label": "Cantiques en swahili"
           },
           "content": [
             {
-              "type": "source_block",
+              "id": "blk-d1e37dec",
+              "type": "verse",
+              "number": "1",
               "lines": [
                 "Tudumu daima katika njia ya bwana tudumu daima katika uduma huo tushindane naye shetani yule Ibilisi."
               ]
             },
             {
+              "id": "blk-6b2a1a5f",
               "type": "refrain",
               "lines": [
-                "Ole wako shetani, ole wako wewe usie timiza uduma, heri mutu , heri mutu yule anaye timiza huduma."
+                "Ole wako shetani , ole wako wewe usie timiza uduma, heri mutu , heri mutu yule anaye timiza huduma."
               ]
             },
             {
+              "id": "blk-1bae4dea",
               "type": "comment",
               "lines": [
-                "- Ole wako mulozi",
-                "- Ole wako kahaba"
+                "Com :- Ole wako mulozi -Ole wako kahaba"
               ]
             },
             {
-              "type": "source_block",
+              "id": "blk-cab451a2",
+              "type": "verse",
+              "number": "2",
               "lines": [
-                "Kwa siku za mwisho, kwa siku za mwisho itakuwa ni kilio kubwa na maombolezo kwa wasio timiza huduma.Kwa siku za bwana, kwa siku za bwana itakuwa ni furaha kubwa na kushangilia kwa wanao timiza huduma."
+                "Kwa siku za mwisho, kwa siku za mwisho itakuwa ni kilio kubwa na maombolezo kwa wasio timiza huduma."
+              ]
+            },
+            {
+              "id": "blk-eec493f4",
+              "type": "verse",
+              "number": "3",
+              "lines": [
+                "Kwa siku za bwana, kwa siku za bwana itakuwa ni furaha kubwa na kushangilia kwa wanao timiza huduma."
               ]
             }
-          ],
-          "media": {
-            "audio_present": true
-          }
-        }
-      ]
-    },
-    {
-      "schema_version": "1.0",
-      "id": "f644a17f-0701-51c5-a16b-d5742aba4ea2",
-      "title": "SHETANI MWANA WA GIZA",
-      "status": "review",
-      "versions": [
-        {
-          "id": "9af5309b-0e8c-5d20-882a-674edbdc7e82",
-          "language": {
-            "code": "sw",
-            "label": "Swahili",
-            "status": "confirmed",
-            "detection": "auto"
-          },
-          "title": "SHETANI MWANA WA GIZA",
-          "source": {
-            "file": "chants_de_lucifer.html",
-            "position": 19,
-            "number": "9",
-            "reference": null
-          },
-          "taxonomy": {
-            "domain": "lessons",
-            "category_id": "lesson-0",
-            "category_label": "Lucifer",
-            "lesson_id": "lesson-0",
-            "lesson_label": "Leçon 0 — Lucifer"
-          },
-          "content": [
-            {
-              "type": "source_block",
-              "lines": [
-                "Shetani mwana wa giza ampinga mwana wa nuru si yeye bwana wa rehema aumbae vitu hivi 2x."
-              ]
-            },
-            {
-              "type": "refrain",
-              "lines": [
-                "tumushinde shetani 2x, sisi tu wana wa nuru 2x, tumushinde shetani, Mungu ni mutawa wa viote."
-              ]
-            },
-            {
-              "type": "source_block",
-              "lines": [
-                "Nimetia nguvu zangu kwa walio wa haya wa asubui wa mushinde shetani hata katika giza."
-              ]
-            }
-          ],
-          "media": {
-            "audio_present": false
-          }
+          ]
         }
       ]
     }

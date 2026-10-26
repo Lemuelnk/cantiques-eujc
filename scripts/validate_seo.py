@@ -221,6 +221,24 @@ def main():
         except Exception as exc:
             errors.append(f"stats.json: invalid — {exc}")
 
+    # === Validation synchronisation Flutter ===
+    flutter_canon = APP.parent / "flutter_app" / "assets" / "data" / "canonical"
+    EXPOSED = ("lesson-", "dimanche-", "priere-")
+    if flutter_canon.exists():
+        flutter_issues = []
+        for f in CORPUS.glob("*.json"):
+            if not any(f.name.startswith(prefix) for prefix in EXPOSED):
+                continue
+            ff = flutter_canon / f.name
+            if not ff.exists():
+                flutter_issues.append(f"{f.name}: absent de Flutter")
+            elif ff.read_bytes() != f.read_bytes():
+                flutter_issues.append(f"{f.name}: désynchronisé")
+        if flutter_issues:
+            errors.append(f"Flutter: {len(flutter_issues)} fichier(s) désync — lancer scripts/sync_flutter_canon.py --apply")
+        else:
+            print(f"Flutter canon : {len(list(flutter_canon.glob('*.json')))} fichiers alignés")
+
     sitemap_urls = set()
     if SITEMAP.exists():
         try:
