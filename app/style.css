@@ -795,3 +795,23 @@ input:focus-visible {
   background: linear-gradient(135deg, rgba(228, 195, 127, 0.10), rgba(92, 191, 135, 0.06));
   border-color: rgba(228, 195, 127, 0.2);
 }
+
+/* ============================================================
+   Icône "main" qui salue (remplace l'emoji 👋)
+   ============================================================ */
+.welcome-hand {
+  display: inline-block;
+  width: 0.82em;
+  height: 0.82em;
+  color: var(--accent-gold, #b8935a);
+  vertical-align: -0.05em;
+  margin-left: 6px;
+  stroke-width: 2;
+  transform: rotate(-15deg);
+  transition: transform 200ms ease;
+}
+
+/* Petit effet de salutation au hover (desktop) */
+.welcome h1:hover .welcome-hand {
+  transform: rotate(-25deg);
+}
