@@ -14525,63 +14525,6 @@
     },
     {
       "schema_version": "1.0",
-      "id": "tsh-0219",
-      "title": "LWENDO LWA KWENDA KENANI",
-      "status": "review",
-      "versions": [
-        {
-          "id": "tsh-0219-v1",
-          "language": {
-            "code": "tsh",
-            "label": "Tshiluba",
-            "status": "confirmed",
-            "detection": "auto"
-          },
-          "title": "LWENDO LWA KWENDA KENANI",
-          "source": {
-            "file": "Cantiques_swahili.pdf",
-            "position": 219,
-            "number": "514",
-            "section": "",
-            "reference": null
-          },
-          "taxonomy": {
-            "domain": "hymnal",
-            "category_id": "a-classer-tshiluba",
-            "category_label": "Cantiques en tshiluba",
-            "lesson_id": "a-classer-tshiluba",
-            "lesson_label": "Cantiques en tshiluba"
-          },
-          "content": [
-            {
-              "id": "blk-d9c05470",
-              "type": "verse",
-              "number": "1",
-              "lines": [
-                "Lwendo lwa kwenda kenani nalo lwaji lulampe , bantu bonso bakomenwe pa mwanda wa biselwa biabo."
-              ]
-            },
-            {
-              "id": "blk-efab24a3",
-              "type": "refrain",
-              "lines": [
-                "Bine, bine pakutwela kenani , lama milangwe yobe , lama ludjimi lobe, lama bilongwa biobe bine ukapiane tanda."
-              ]
-            },
-            {
-              "id": "blk-aed47286",
-              "type": "verse",
-              "number": "2",
-              "lines": [
-                "Bilongwa bionso bia patanda bitujikila mashinda \"2x pa mwanda twa kapiane tanda yoya ya mulao"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "schema_version": "1.0",
       "id": "tsh-0220",
       "title": "DIBA MUNDA MUNYA",
       "status": "review",
@@ -21980,74 +21923,6 @@
               "type": "refrain",
               "lines": [
                 "\"Tshiena nshala we: nyaya mu masanka a mu diulu\""
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "schema_version": "1.0",
-      "id": "tsh-0336",
-      "title": "NDINGELA LUBILA",
-      "status": "review",
-      "versions": [
-        {
-          "id": "tsh-0336-v1",
-          "language": {
-            "code": "tsh",
-            "label": "Tshiluba",
-            "status": "confirmed",
-            "detection": "auto"
-          },
-          "title": "NDINGELA LUBILA",
-          "source": {
-            "file": "Cantiques_swahili.pdf",
-            "position": 336,
-            "number": "523",
-            "section": "",
-            "reference": null
-          },
-          "taxonomy": {
-            "domain": "hymnal",
-            "category_id": "a-classer-tshiluba",
-            "category_label": "Cantiques en tshiluba",
-            "lesson_id": "a-classer-tshiluba",
-            "lesson_label": "Cantiques en tshiluba"
-          },
-          "content": [
-            {
-              "id": "blk-63c04295",
-              "type": "verse",
-              "number": "1",
-              "lines": [
-                "Ndinghela lubila buyona wa nzambi~2x mbikila tatu nzambi wa yakobo (mbikila tatu ) bwa mibi yonso) bwa mibi ya bafwa Leza ni bipendu biabo ~Bionso bia kutonda nzambi wa yakoba ~2x"
-              ]
-            },
-            {
-              "id": "blk-e61d8518",
-              "type": "refrain",
-              "lines": [
-                "Anu nzambi wetu nzambi wetu lwaku , nzambi wetu luakwaku."
-              ]
-            },
-            {
-              "id": "blk-4e56f7ea",
-              "type": "verse",
-              "number": "2",
-              "lines": [
-                "Edji disanka diakwela mbilao"
-              ]
-            },
-            {
-              "id": "blk-2c6d4679",
-              "type": "comment",
-              "lines": [
-                "Com : -Mbuji-mayi, mbuji-mayi wa mukalenga nyakwela lubila",
-                "-Kolwezi-kolwezi \" \" \" \" \" \"",
-                "-Likasi –likasi \" \" \" \" \" \"",
-                "-Kalemie – kalemie \" \" \" \" \" \"",
-                "-Lubumbashi- lubumbashi \" \" \" \" \" \""
               ]
             }
           ]

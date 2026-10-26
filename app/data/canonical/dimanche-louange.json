@@ -380,6 +380,14 @@
                 "Twaimba, twaimbia Mungu Baba, twaimbia sisi twaimbia Mungu Mufalme, wateule wa Mungu wa uzima twaimbia",
                 "Mungu Mufalme, twaimbia Yesu Mwana, twaimbia Roho Mwema"
               ]
+            },
+            {
+              "id": "extra-sw-0356",
+              "type": "verse",
+              "lines": [
+                "aleluya , aleluya \"2x yoyoyo aleluya mungu mufalme , aleluya mwana wa mungu , aleluya roho mwema waj",
+                "twaimba , twaimbia mungu baba , twaimbia sisi twaimbia mungu mufalme , wateule wa mungu wa uzima twa"
+              ]
             }
           ],
           "media": {
@@ -465,6 +473,13 @@
               "type": "source_block",
               "lines": [
                 "Nitaenda kuketi mimi na roho ya mufalume kwa leo, kwaleo ni siku ya kuketi ku mawingu."
+              ]
+            },
+            {
+              "id": "extra-sw-0357",
+              "type": "verse",
+              "lines": [
+                "kwa kupata hadi ni roho wa mfulaume , kwa leo \"kwa leo ni siku ya kuketi ku ma wingu\"2x"
               ]
             }
           ],
