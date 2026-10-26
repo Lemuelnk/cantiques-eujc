@@ -55,6 +55,7 @@ def main():
     }
     total_hymns = total_versions = missing_numbers = 0
 
+    canon_slug_map = {}
     for path in sorted(CORPUS.glob("*.json")):
         try:
             data = json.loads(path.read_text(encoding="utf-8"))
@@ -66,6 +67,8 @@ def main():
         if not category:
             errors.append(f"{path.name}: missing taxonomy.category_id")
             continue
+        if category:
+            canon_slug_map[slug(category)] = len(data.get("hymns") or [])
         for hymn in data.get("hymns") or []:
             total_hymns += 1
             versions = hymn.get("versions") or []
@@ -108,6 +111,17 @@ def main():
         html = page.read_text(encoding="utf-8", errors="replace")
         if "category-jsonld" not in html: errors.append(f"{page}: missing category JSON-LD")
         if not has_h1(html): errors.append(f"{page}: missing h1")
+
+        # Check cohérence compteur HTML ↔ JSON-LD ↔ JSON canon (PR #42)
+        expected_count = canon_slug_map.get(category)
+        if expected_count is not None:
+            m_html = re.search(r'id="category-count"[^>]*>(\d+)\s*cantiques?', html)
+            if m_html and int(m_html.group(1)) != expected_count:
+                errors.append(f"{page}: category-count={m_html.group(1)} != JSON={expected_count}")
+            m_jsonld = re.search(r'"numberOfItems":(\d+)', html)
+            if m_jsonld and int(m_jsonld.group(1)) != expected_count:
+                errors.append(f"{page}: numberOfItems={m_jsonld.group(1)} != JSON={expected_count}")
+
         if category.startswith("a-classer"):
             if "noindex" not in html: errors.append(f"{page}: uncurated category must be noindex")
         else:
