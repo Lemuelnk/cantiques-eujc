@@ -164,6 +164,14 @@ button {
   font-weight: 400;
 }
 
+.welcome-stats {
+  font-size: 13px;
+  color: var(--text-tertiary, #676e69);
+  margin: 10px 0 0;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+}
+
 /* =========================
    SEARCH
    ========================= */
@@ -721,4 +729,69 @@ input:focus-visible {
     margin-left: auto;
     margin-right: auto;
   }
+}
+
+/* ============================================================
+   État vide "Récemment consultés" → CTA découverte
+   ============================================================ */
+.recent-empty-cta {
+  padding: 24px 20px;
+  background: linear-gradient(135deg, rgba(184, 147, 90, 0.08), rgba(20, 57, 46, 0.04));
+  border: 1px solid rgba(184, 147, 90, 0.2);
+  border-radius: 14px;
+  text-align: center;
+}
+
+.recent-empty-cta-title {
+  margin: 0 0 8px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-primary, #1a1f1d);
+  letter-spacing: 0.01em;
+}
+
+.recent-empty-cta-text {
+  margin: 0 0 16px;
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--text-secondary, #5a6660);
+  max-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.recent-empty-cta-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 11px 18px;
+  background: var(--accent-dark, #14392e);
+  color: #f5f0e6;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: transform 120ms ease, box-shadow 120ms ease;
+  box-shadow: 0 2px 8px rgba(20, 57, 46, 0.15);
+}
+
+.recent-empty-cta-btn:hover {
+  text-decoration: none;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(20, 57, 46, 0.2);
+}
+
+.recent-empty-cta-btn svg {
+  width: 16px;
+  height: 16px;
+  stroke-width: 2.5;
+}
+
+/* Dark mode */
+[data-theme="dark"] .recent-empty-cta,
+.theme-dark .recent-empty-cta {
+  background: linear-gradient(135deg, rgba(228, 195, 127, 0.10), rgba(92, 191, 135, 0.06));
+  border-color: rgba(228, 195, 127, 0.2);
 }

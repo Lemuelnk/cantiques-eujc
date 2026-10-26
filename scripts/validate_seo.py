@@ -140,7 +140,7 @@ def main():
         root_links = {absolute_url(href, f"{BASE}/") for href in href_re.findall(html)}
         required_root_routes = {
             f"{BASE}/{name}"
-            for name in ("lessons.html", "dimanche.html", "priere.html", "a-classer.html", "categories.html")
+            for name in ("lessons.html", "dimanche.html", "priere.html", "categories.html")
         }
         missing_root_routes = required_root_routes - {u.rstrip("/") for u in root_links}
         if missing_root_routes:

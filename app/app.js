@@ -101,10 +101,14 @@ async function afficherRecents() {
     });
   }
 
-  // État vide
+  // État vide : proposer une découverte
   if (elements.length === 0) {
     $recents.innerHTML =
-      '<p class="recent-empty">Vos cantiques récemment ouverts apparaîtront ici.</p>';
+      '<div class="recent-empty-cta">' +
+        '<p class="recent-empty-cta-title">Nouveau ici ?</p>' +
+        '<p class="recent-empty-cta-text">Découvrez le parcours biblique en 27 étapes, du récit de la Création à celui de Job.</p>' +
+        '<a href="lessons.html" class="recent-empty-cta-btn">Explorer les Leçons du Chemin <i data-lucide="arrow-right"></i></a>' +
+      '</div>';
     if (window.lucide) lucide.createIcons();
     return;
   }
