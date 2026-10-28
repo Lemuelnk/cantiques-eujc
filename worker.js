@@ -43,7 +43,7 @@ export default {
 
     // ----- 2. /cantique/:cat/:num -----
     const mCantique = path.match(/^\/cantique\/([^\/]+)\/([^\/]+)\/?$/);
-    const isStaticFile = mCantique && /\.[a-zA-Z0-9]{2,5}$/.test(mCantique[2]);
+    const isStaticFile = mCantique && /\.[a-zA-Z0-9]+$/.test(mCantique[2]);
 
     if (mCantique && !isStaticFile) {
       // Page statique SEO : /cantique/:cat/:num/index.html
@@ -81,7 +81,7 @@ export default {
     }
 
     // ----- 5. Fichier statique (avec extension) → direct -----
-    if (/\.[a-zA-Z0-9]{2,5}$/.test(path)) {
+    if (/\.[a-zA-Z0-9]+$/.test(path)) {
       return env.ASSETS.fetch(request);
     }
 

@@ -6,25 +6,38 @@ import 'screens/home_screen.dart';
 import 'screens/categories_screen.dart';
 import 'screens/cantiques_screen.dart';
 import 'screens/cantique_screen.dart';
+import 'screens/favorites_screen.dart';
 
 void main() => runApp(const CantiquesApp());
 
 final _router = GoRouter(
   routes: [
-    GoRoute(path: '/', builder: (c, s) => const HomeScreen()),
+    GoRoute(
+      path: '/', 
+      builder: (context, state) => const HomeScreen(),
+    ),
     GoRoute(
       path: '/categories',
-      builder: (c, s) => const CategoriesScreen(),
+      builder: (context, state) => const CategoriesScreen(),
+    ),
+    GoRoute(
+      path: '/favorites',
+      builder: (context, state) => const FavoritesScreen(),
     ),
     GoRoute(
       path: '/cantiques/:categoryId',
-      builder: (c, s) => CantiquesScreen(
-      ),
+      builder: (context, state) {
+        final categoryId = state.pathParameters['categoryId']!;
+        return CantiquesScreen(categoryId: categoryId);
+      },
     ),
     GoRoute(
       path: '/cantique/:categoryId/:number',
-      builder: (c, s) => CantiqueScreen(
-      ),
+      builder: (context, state) {
+        final categoryId = state.pathParameters['categoryId']!;
+        final number = state.pathParameters['number']!;
+        return CantiqueScreen(categoryId: categoryId, number: number);
+      },
     ),
   ],
 );
