@@ -14,16 +14,13 @@
   --p-forest-900:  #081f19;   /* Le plus sombre */
   --p-forest-800:  #0b2b24;   /* Fond page sombre */
   --p-forest-700:  #14392e;   /* Institutionnel */
-  --p-forest-600:  #1f4a3d;   /* Dégradé */
+
   --p-forest-500:  #2d5f4f;   /* Mousse */
-  --p-forest-400:  #4a7c68;   /* Feuille claire */
-  --p-forest-300:  #7ba695;   /* Sauge */
 
   /* --- Or vieilli (patine, bronze) --- */
-  --p-gold-600:    #8b6f3d;   /* Bronze profond */
+
   --p-gold-500:    #b8935a;   /* Or principal patiné */
   --p-gold-400:    #e4c37f;   /* Or clair */
-  --p-gold-300:    #f0dfb5;   /* Or pâle */
 
   /* --- Crème (papier de riz) --- */
   --p-cream-50:    #f2efe6;
@@ -47,7 +44,10 @@
 
   /* --- Neutres --- */
   --p-ink:         #1a1f1d;   /* Encre noire légèrement verte */
-  --p-black:       #000000;
+
+  /* --- Alias legacy (compat) --- */
+  --yellow:        #f5b800;   /* Or vif historique */
+
 }
 
 /* ============================================================
@@ -59,7 +59,7 @@
   --bg-page-alt:          var(--p-cream-100);
   --bg-elevated:          var(--p-white);
   --bg-sheet:             var(--p-white);
-  --bg-inverse:           var(--p-forest-700);
+
   --bg-page-translucent:  rgba(250, 246, 236, 0.96);
   --bg-elevated-translucent: rgba(255, 255, 255, 0.42);
 
@@ -68,7 +68,7 @@
   --text-secondary:  #5a6660;
   --text-tertiary:   #676e69;
   --text-inverse:    #f5f0e6;
-  --text-on-gold:    var(--p-forest-700);
+
   --accent-gold-text: #7d6033;
 
   /* --- Bordures --- */
@@ -77,14 +77,10 @@
 
   /* --- Ombres --- */
   --shadow-soft:    rgba(8, 31, 25, 0.08);
-  --shadow-medium:  rgba(20, 57, 46, 0.12);
 
-  /* --- Accents --- */
   --accent-gold:    var(--p-gold-500);
   --accent-teal:    var(--p-teal-dark);
   --accent-dark:    var(--p-forest-700);
-  --accent-bordeaux: var(--p-bordeaux);
-  --accent-navy:    var(--p-navy);
 
   --hover-teal:        rgba(61, 122, 107, 0.08);
   --hover-teal-light:  rgba(61, 122, 107, 0.045);
@@ -92,7 +88,7 @@
   /* --- Statuts --- */
   --status-success: var(--p-success);
   --status-error:   var(--p-error);
-  --status-warning: var(--p-warning);
+
   --status-info:    var(--p-info);
 }
 
@@ -106,7 +102,7 @@ body.theme-dark {
   --bg-page-alt:          var(--p-forest-900);
   --bg-elevated:          var(--p-forest-700);
   --bg-sheet:             var(--p-forest-700);
-  --bg-inverse:           #f5f0e6;
+
   --bg-page-translucent:  rgba(11, 43, 36, 0.96);
   --bg-elevated-translucent: rgba(20, 57, 46, 0.55);
 
@@ -115,7 +111,7 @@ body.theme-dark {
   --text-secondary:  #b0b8b3;
   --text-tertiary:   #96a19c;
   --text-inverse:    var(--p-forest-700);
-  --text-on-gold:    var(--p-forest-700);
+
   --accent-gold-text: var(--p-gold-400);
 
   /* --- Bordures --- */
@@ -124,14 +120,10 @@ body.theme-dark {
 
   /* --- Ombres --- */
   --shadow-soft:    rgba(0, 0, 0, 0.3);
-  --shadow-medium:  rgba(0, 0, 0, 0.4);
 
-  /* --- Accents --- */
   --accent-gold:    var(--p-gold-400);
   --accent-teal:    var(--p-teal-light);
   --accent-dark:    var(--p-gold-500);
-  --accent-bordeaux: #c4788a;
-  --accent-navy:    #8a9ec8;
 
   --hover-teal:        rgba(107, 165, 149, 0.12);
   --hover-teal-light:  rgba(107, 165, 149, 0.06);
@@ -139,7 +131,7 @@ body.theme-dark {
   /* --- Statuts --- */
   --status-success: #5cbf87;
   --status-error:   #e07878;
-  --status-warning: #e0b84a;
+
   --status-info:    #7a95c8;
 
   background: var(--bg-page);
@@ -156,17 +148,4 @@ body {
 }
 
 /* --- Aliases (compatibilité) --- */
-:root {
-  --deep-green: var(--p-forest-700);
-  --green:      var(--p-teal-dark);
-  --teal:       var(--p-teal);
-  --cream:      var(--p-cream-100);
-  --cream-dark: var(--p-cream-200);
-  --orange:     var(--p-terracotta);
-  --yellow:     #f5b800;
-  --text:       var(--text-primary);
-  --muted:      var(--text-secondary);
-  --white:      var(--p-white);
-  --border:     var(--border-soft);
-  --shadow:     0 8px 24px var(--shadow-soft);
-}
+

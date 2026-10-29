@@ -246,19 +246,23 @@ body {
 }
 
 .search-result-title {
+  display: block;                  /* nécessaire pour ellipsis sur span inline */
   font-size: 15px;
   font-weight: 600;
   color: var(--sr-text);
   margin: 0 0 3px;
+  max-width: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 
 .search-result-meta {
+  display: block;                  /* nécessaire pour ellipsis sur span inline */
   font-size: 12.5px;
   color: var(--sr-muted);
   margin: 0;
+  max-width: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
