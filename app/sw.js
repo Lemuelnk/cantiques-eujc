@@ -1,4 +1,4 @@
-const VERSION = 'v7.18.0'; // Nouveau bump pour forcer la mise à jour
+const VERSION = 'v7.18.0';
 const CACHE_NAME = `cantiques-eujc-${VERSION}`;
 
 const PRECACHE_URLS = [
@@ -28,11 +28,9 @@ self.addEventListener('fetch', event => {
   const url = new URL(request.url);
   const path = url.pathname;
 
-  // Fonction de fallback robuste
   const getOfflineFallback = async () => {
     const cached = await caches.match(request);
     if (cached) return cached;
-    // Si c'est une navigation HTML, essayer la racine, puis offline.html
     if (request.mode === 'navigate' || path === '/' || path === '/index.html' || !path.includes('.')) {
       return (await caches.match('./')) || (await caches.match('/index.html')) || (await caches.match('./offline.html'));
     }
