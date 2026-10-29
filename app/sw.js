@@ -1,9 +1,9 @@
-const VERSION = 'v7.17.0';
+const VERSION = 'v7.18.0';
 const CACHE_NAME = `cantiques-eujc-${VERSION}`;
 
-// Pré-cache uniquement le strict nécessaire (App Shell)
 const PRECACHE_URLS = [
-  './', './splash.html', './style.css', './bottom-nav.css', './bottom-nav.js',
+  './', './index.html', './offline.html', './splash.html', 
+  './style.css', './bottom-nav.css', './bottom-nav.js',
   './storage.js', './canonical-data.js', './preferences.js',
   './manifest.webmanifest',
   './assets/icons/icon-192.png', './assets/icons/icon-512.png'
@@ -28,7 +28,16 @@ self.addEventListener('fetch', event => {
   const url = new URL(request.url);
   const path = url.pathname;
 
-  // 1. Stratégie Stale-While-Revalidate pour les JSON canoniques (Tous, pas juste 12)
+  const getOfflineFallback = async () => {
+    const cached = await caches.match(request);
+    if (cached) return cached;
+    if (request.mode === 'navigate' || path === '/' || path === '/index.html' || !path.includes('.')) {
+      return (await caches.match('./')) || (await caches.match('/index.html')) || (await caches.match('./offline.html'));
+    }
+    return caches.match('./offline.html');
+  };
+
+  // 1. JSON : Stale-While-Revalidate
   if (path.startsWith('/data/canonical/') && path.endsWith('.json')) {
     event.respondWith(
       caches.open(CACHE_NAME).then(async (cache) => {
@@ -45,8 +54,8 @@ self.addEventListener('fetch', event => {
     return;
   }
 
-  // 2. Stratégie Cache-First pour les assets stables (CSS, JS, Images, Fonts)
-  if (path.match(/\.(css|js|png|jpg|jpeg|svg|woff2|webmanifest)$/)) {
+  // 2. Assets : Cache-First
+  if (path.match(/\.(css|js|png|jpg|jpeg|svg|woff2|webmanifest|html)$/)) {
     event.respondWith(
       caches.match(request).then(cached => {
         if (cached) return cached;
@@ -55,13 +64,13 @@ self.addEventListener('fetch', event => {
             caches.open(CACHE_NAME).then(cache => cache.put(request, response.clone()));
           }
           return response;
-        });
+        }).catch(() => caches.match('./offline.html'));
       })
     );
     return;
   }
 
-  // 3. Stratégie Network-First avec fallback Offline pour les pages HTML
+  // 3. HTML / Routes : Network-First avec fallback en cascade
   event.respondWith(
     fetch(request).then(response => {
       if (response && response.status === 200) {
@@ -69,6 +78,6 @@ self.addEventListener('fetch', event => {
         caches.open(CACHE_NAME).then(cache => cache.put(request, clone));
       }
       return response;
-    }).catch(() => caches.match(request).then(cached => cached || caches.match('./offline.html')))
+    }).catch(() => getOfflineFallback())
   );
 });
