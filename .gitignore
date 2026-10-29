@@ -61,3 +61,8 @@ cantiques_eujc_fonds_partage*
 *.casse
 *.old
 duplicates_report.md
+
+# Archives et backups locaux
+*.tar.gz
+*.tgz
+canonical_backups_archive.tar.gz
