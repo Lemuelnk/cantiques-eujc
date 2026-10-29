@@ -572,7 +572,7 @@
   display: grid;
   place-items: center;
   background: var(--accent-gold, #b8935a);
-  color: #fff;
+  color: var(--p-forest-900);  /* WCAG: 6.03:1 sur gold-500 (était #fff 2.85:1 FAIL) */
   border-radius: 50%;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
