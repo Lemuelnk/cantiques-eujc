@@ -3,7 +3,6 @@ import 'package:go_router/go_router.dart';
 
 import '../data/categories.dart';
 import '../data/hymn_repository.dart';
-import '../models/models.dart';
 import '../theme/app_theme.dart';
 
 class RechercheScreen extends StatefulWidget {
@@ -137,7 +136,7 @@ class _RechercheScreenState extends State<RechercheScreen> {
                 return ListView.separated(
                   padding: const EdgeInsets.symmetric(horizontal: 16),
                   itemCount: filtered.length,
-                  separatorBuilder: (_, __) => const SizedBox(height: 6),
+                  separatorBuilder: (_, _) => const SizedBox(height: 6),
                   itemBuilder: (context, i) {
                     final r = filtered[i];
                     return Card(

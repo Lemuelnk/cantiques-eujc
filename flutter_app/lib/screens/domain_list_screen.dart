@@ -19,7 +19,7 @@ class DomainListScreen extends StatelessWidget {
           : ListView.separated(
               padding: const EdgeInsets.all(16),
               itemCount: cats.length,
-              separatorBuilder: (_, __) => const SizedBox(height: 8),
+              separatorBuilder: (_, _) => const SizedBox(height: 8),
               itemBuilder: (context, i) {
                 final cat = cats[i];
                 final num = (i + 1).toString().padLeft(2, '0');
