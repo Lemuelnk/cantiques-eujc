@@ -26,6 +26,33 @@ class HomeScreen extends StatelessWidget {
             icon: Icons.library_music,
             onTap: () => context.push('/categories'),
           ),
+          _Tile(
+            title: 'Recherche',
+            subtitle: 'Chercher un cantique par mot cle',
+            icon: Icons.search,
+            onTap: () => context.push('/recherche'),
+          ),
+          const SizedBox(height: 12),
+          _Tile(
+            title: 'Lecons bibliques',
+            subtitle: '21 lecons canoniques',
+            icon: Icons.menu_book,
+            onTap: () => context.push('/lessons'),
+          ),
+          const SizedBox(height: 12),
+          _Tile(
+            title: 'Cantiques du dimanche',
+            subtitle: '7 categories de celebration',
+            icon: Icons.wb_sunny,
+            onTap: () => context.push('/dimanche'),
+          ),
+          const SizedBox(height: 12),
+          _Tile(
+            title: 'Prieres',
+            subtitle: '4 categories de priere',
+            icon: Icons.spa,
+            onTap: () => context.push('/priere'),
+          ),
         ],
       ),
     );
