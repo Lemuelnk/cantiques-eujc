@@ -1,17 +1,130 @@
-const VERSION = 'v7.18.0';
+const VERSION = 'v7.19.0';
 const CACHE_NAME = `cantiques-eujc-${VERSION}`;
 
 const PRECACHE_URLS = [
-  './', './index.html', './offline.html', './splash.html', 
-  './style.css', './bottom-nav.css', './bottom-nav.js',
-  './storage.js', './canonical-data.js', './preferences.js',
+  './',
   './manifest.webmanifest',
-  './assets/icons/icon-192.png', './assets/icons/icon-512.png'
+  './404.html',
+  './a-classer.html',
+  './apropos.html',
+  './cantique.html',
+  './cantiques.html',
+  './categories.html',
+  './contribuer.html',
+  './dimanche.html',
+  './favoris.html',
+  './historique.html',
+  './index.html',
+  './lessons.html',
+  './offline.html',
+  './parametres.html',
+  './plus.html',
+  './priere.html',
+  './recherche.html',
+  './signaler.html',
+  './splash.html',
+  './a-classer.css',
+  './bottom-nav.css',
+  './cantique.css',
+  './cantiques.css',
+  './categories.css',
+  './charte.css',
+  './dimanche.css',
+  './favoris.css',
+  './fonts.css',
+  './historique.css',
+  './lessons.css',
+  './parametres.css',
+  './priere.css',
+  './recherche.css',
+  './report-fab.css',
+  './sheets.css',
+  './signaler.css',
+  './splash.css',
+  './style.css',
+  './a-classer.js',
+  './app.js',
+  './apropos.js',
+  './bottom-nav.js',
+  './canonical-data.js',
+  './cantique.js',
+  './cantiques.js',
+  './categories.js',
+  './contribuer.js',
+  './dimanche.js',
+  './favoris.js',
+  './historique.js',
+  './ios-install-banner.js',
+  './lessons.js',
+  './parametres.js',
+  './plus.js',
+  './preferences.js',
+  './priere.js',
+  './recherche.js',
+  './report-fab.js',
+  './share-image.js',
+  './signaler.js',
+  './storage.js',
+  './sw-register.js',
+  './data/canonical/a-classer-autres.json',
+  './data/canonical/a-classer-francais.json',
+  './data/canonical/a-classer-lingala.json',
+  './data/canonical/a-classer-swahili.json',
+  './data/canonical/a-classer-tshiluba.json',
+  './data/canonical/dimanche-affliges.json',
+  './data/canonical/dimanche-croyants.json',
+  './data/canonical/dimanche-divers.json',
+  './data/canonical/dimanche-egares.json',
+  './data/canonical/dimanche-louange.json',
+  './data/canonical/dimanche-rois.json',
+  './data/canonical/dimanche-visiteurs.json',
+  './data/canonical/lesson-0-lucifer.json',
+  './data/canonical/lesson-1-creation.json',
+  './data/canonical/lesson-10-egypte.json',
+  './data/canonical/lesson-11-moise.json',
+  './data/canonical/lesson-12-plaies.json',
+  './data/canonical/lesson-13-mer-rouge.json',
+  './data/canonical/lesson-2-eden.json',
+  './data/canonical/lesson-20-samson.json',
+  './data/canonical/lesson-21-david-saul.json',
+  './data/canonical/lesson-22-salomon.json',
+  './data/canonical/lesson-23-temple.json',
+  './data/canonical/lesson-24-elie-elisee.json',
+  './data/canonical/lesson-25-daniel.json',
+  './data/canonical/lesson-26-job.json',
+  './data/canonical/lesson-3-premier-peche.json',
+  './data/canonical/lesson-4-fils-adam.json',
+  './data/canonical/lesson-5-noe.json',
+  './data/canonical/lesson-6-abraham.json',
+  './data/canonical/lesson-7-lot.json',
+  './data/canonical/lesson-8-fils-isaac.json',
+  './data/canonical/lesson-9-jacob.json',
+  './data/canonical/priere-bataille.json',
+  './data/canonical/priere-general.json',
+  './data/canonical/priere-invocation.json',
+  './data/canonical/priere-misericorde.json',
+  './assets/icons/icon-192.png',
+  './assets/icons/icon-512.png',
+  './assets/icons/icon-maskable-512.png',
+  './vendor/lucide.min.js',
 ];
 
 self.addEventListener('install', event => {
   event.waitUntil(
-    caches.open(CACHE_NAME).then(cache => cache.addAll(PRECACHE_URLS)).then(() => self.skipWaiting())
+    caches.open(CACHE_NAME).then(async (cache) => {
+      // add() tolérant : une ressource en 404 ne casse pas tout l'install
+      let ok = 0, ko = 0;
+      for (const url of PRECACHE_URLS) {
+        try {
+          await cache.add(url);
+          ok++;
+        } catch (err) {
+          ko++;
+          console.warn('[SW] Precache skip:', url, err.message);
+        }
+      }
+      console.log(`[SW] Precache : ${ok}/${PRECACHE_URLS.length} OK` + (ko ? ` (${ko} échecs silencieux)` : ''));
+    }).then(() => self.skipWaiting())
   );
 });
 
