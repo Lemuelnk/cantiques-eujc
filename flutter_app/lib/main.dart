@@ -7,6 +7,8 @@ import 'screens/categories_screen.dart';
 import 'screens/cantiques_screen.dart';
 import 'screens/cantique_screen.dart';
 import 'screens/favorites_screen.dart';
+import 'screens/domain_list_screen.dart';
+import 'screens/recherche_screen.dart';
 
 void main() => runApp(const CantiquesApp());
 
@@ -38,6 +40,31 @@ final _router = GoRouter(
         final number = state.pathParameters['number']!;
         return CantiqueScreen(categoryId: categoryId, number: number);
       },
+    ),
+    GoRoute(
+      path: '/recherche',
+      builder: (context, state) => const RechercheScreen(),
+    ),
+    GoRoute(
+      path: '/lessons',
+      builder: (context, state) => const DomainListScreen(
+        domain: 'lessons',
+        title: 'Lecons bibliques',
+      ),
+    ),
+    GoRoute(
+      path: '/dimanche',
+      builder: (context, state) => const DomainListScreen(
+        domain: 'dimanche',
+        title: 'Cantiques du dimanche',
+      ),
+    ),
+    GoRoute(
+      path: '/priere',
+      builder: (context, state) => const DomainListScreen(
+        domain: 'priere',
+        title: 'Prieres',
+      ),
     ),
   ],
 );
