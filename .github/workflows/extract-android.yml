@@ -1,6 +1,8 @@
 name: Extract android/ (one-shot)
 
 on:
+  push:
+    branches: [ ci/flutter-build-apk ]
   workflow_dispatch:
 
 jobs:
