@@ -2,10 +2,10 @@ name: Flutter Build APK
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "main", "ci/flutter-build-apk" ]
   pull_request:
-    branches: [ "main" ]
-  workflow_dispatch: # Permet de lancer le build manuellement depuis l'onglet Actions
+    branches: [ "main", "ci/flutter-build-apk" ]
+  workflow_dispatch:
 
 jobs:
   build:
@@ -25,23 +25,25 @@ jobs:
       - name: Setup Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.24.0' # Ajuste si tu utilises une version spécifique (ex: '3.24.x')
+          flutter-version: '3.47.x'
           channel: 'stable'
+          cache: true
+
+      - name: Generate Android platform
+        working-directory: flutter_app
+        run: flutter create --platforms=android .
 
       - name: Install dependencies
-        run: |
-          cd flutter_app
-          flutter pub get
+        working-directory: flutter_app
+        run: flutter pub get
 
-      - name: Analyze code (optional but recommended)
-        run: |
-          cd flutter_app
-          flutter analyze
+      - name: Analyze code
+        working-directory: flutter_app
+        run: flutter analyze
 
       - name: Build Release APK
-        run: |
-          cd flutter_app
-          flutter build apk --release
+        working-directory: flutter_app
+        run: flutter build apk --release
 
       - name: Upload APK Artifact
         uses: actions/upload-artifact@v4
