@@ -37,7 +37,7 @@ class _CantiqueScreenState extends State<CantiqueScreen> {
         }
       }
     } catch (e) {
-      debugPrint('Erreur chargement cantique: \$e');
+      debugPrint('Erreur chargement cantique: $e');
     }
     return null;
   }
@@ -45,13 +45,13 @@ class _CantiqueScreenState extends State<CantiqueScreen> {
   Future<void> _loadFavoriteStatus() async {
     final prefs = await SharedPreferences.getInstance();
     setState(() {
-      _isFavorite = prefs.getBool('fav_\${widget.categoryId}_\${widget.number}') ?? false;
+      _isFavorite = prefs.getBool('fav_${widget.categoryId}_${widget.number}') ?? false;
     });
   }
 
   Future<void> _toggleFavorite() async {
     final prefs = await SharedPreferences.getInstance();
-    final key = 'fav_\${widget.categoryId}_\${widget.number}';
+    final key = 'fav_${widget.categoryId}_${widget.number}';
     setState(() => _isFavorite = !_isFavorite);
     await prefs.setBool(key, _isFavorite);
     
@@ -63,8 +63,8 @@ class _CantiqueScreenState extends State<CantiqueScreen> {
   }
 
   void _shareCantique(HymnVersion v) {
-    final lyrics = v.content.map((b) => '\${b.label}:\n\${b.lines.join('\n')}').join('\n\n');
-    final text = '\${v.title}\n\n\$lyrics\n\n— Cantiques EUJC';
+    final lyrics = v.content.map((b) => '${b.label}:\n${b.lines.join('\n')}').join('\n\n');
+    final text = '${v.title}\n\n$lyrics\n\n— Cantiques EUJC';
     Share.share(text, subject: v.title);
   }
 
@@ -72,7 +72,7 @@ class _CantiqueScreenState extends State<CantiqueScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Cantique \${widget.number}'),
+        title: Text('Cantique ${widget.number}'),
         actions: [
           IconButton(
             icon: Icon(_isFavorite ? Icons.favorite : Icons.favorite_border),

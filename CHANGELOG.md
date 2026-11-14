@@ -1,5 +1,18 @@
 # Changelog — Cantiques EUJC
 
+## [7.19.0] - 2026-11-14
+
+### Ajouté
+- Premier build APK Flutter via GitHub Actions (workflow `flutter-build-apk.yml`)
+- APK release signé debug : 48 Mo, SHA256 `7a78f447...7a00d9`
+- Vendorisation de Lucide en local (`app/vendor/lucide.min.js`) — PWA 100% offline
+
+### Corrigé
+- Sur-échappement de 6 interpolations Dart dans `cantique_screen.dart`
+- Test boilerplate `widget_test.dart` (MyApp obsolète) exclu du build
+
+---
+
 > Historique des versions majeures. Pour le détail, voir `docs/07-journal/`.
 
 Format basé sur [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/).
