@@ -66,3 +66,7 @@ duplicates_report.md
 *.tar.gz
 *.tgz
 canonical_backups_archive.tar.gz
+
+# Build artifacts
+dist/
+*.apk
