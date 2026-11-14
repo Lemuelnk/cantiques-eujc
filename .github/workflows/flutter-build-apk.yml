@@ -29,12 +29,6 @@ jobs:
           channel: 'stable'
           cache: true
 
-      - name: Generate Android platform
-        working-directory: flutter_app
-        run: |
-          flutter create --platforms=android .
-          rm -f test/widget_test.dart
-
       - name: Install dependencies
         working-directory: flutter_app
         run: flutter pub get
@@ -43,6 +37,20 @@ jobs:
         working-directory: flutter_app
         continue-on-error: true
         run: flutter analyze
+
+      - name: Setup signing
+        working-directory: flutter_app/android
+        env:
+          KEYSTORE_BASE64: ${{ secrets.KEYSTORE_BASE64 }}
+          KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
+          KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
+        run: |
+          echo "$KEYSTORE_BASE64" | base64 --decode > app/upload-keystore.jks
+          printf 'storePassword=%s\nkeyPassword=%s\nkeyAlias=%s\nstoreFile=upload-keystore.jks\n' \
+            "$KEYSTORE_PASSWORD" "$KEY_PASSWORD" "$KEY_ALIAS" > key.properties
+          chmod 600 key.properties app/upload-keystore.jks
+          echo "Keystore bytes: $(wc -c < app/upload-keystore.jks)"
 
       - name: Build Release APK
         working-directory: flutter_app
@@ -54,3 +62,12 @@ jobs:
           name: cantiques-eujc-release-apk
           path: flutter_app/build/app/outputs/flutter-apk/app-release.apk
           retention-days: 7
+
+      - name: Verify APK signature
+        working-directory: flutter_app
+        run: |
+          APK=build/app/outputs/flutter-apk/app-release.apk
+          APKSIGNER=$(find "$ANDROID_HOME/build-tools" -name apksigner | head -1)
+          if [ -z "$APKSIGNER" ]; then echo "apksigner introuvable, skip"; exit 0; fi
+          "$APKSIGNER" verify --print-certs "$APK" | head -10
+
