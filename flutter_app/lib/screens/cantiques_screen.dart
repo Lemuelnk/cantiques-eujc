@@ -48,7 +48,7 @@ class _CantiquesScreenState extends State<CantiquesScreen> {
           return ListView.separated(
             padding: const EdgeInsets.all(16),
             itemCount: hymns.length,
-            separatorBuilder: (_, __) => const SizedBox(height: 8),
+            separatorBuilder: (_, _) => const SizedBox(height: 8),
             itemBuilder: (context, i) {
               final h = hymns[i];
               final v = h.primaryVersion;
