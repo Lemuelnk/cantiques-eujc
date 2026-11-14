@@ -1,0 +1,51 @@
+name: Flutter Build APK
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch: # Permet de lancer le build manuellement depuis l'onglet Actions
+
+jobs:
+  build:
+    name: Build Release APK
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'zulu'
+          java-version: '17'
+
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.24.0' # Ajuste si tu utilises une version spécifique (ex: '3.24.x')
+          channel: 'stable'
+
+      - name: Install dependencies
+        run: |
+          cd flutter_app
+          flutter pub get
+
+      - name: Analyze code (optional but recommended)
+        run: |
+          cd flutter_app
+          flutter analyze
+
+      - name: Build Release APK
+        run: |
+          cd flutter_app
+          flutter build apk --release
+
+      - name: Upload APK Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: cantiques-eujc-release-apk
+          path: flutter_app/build/app/outputs/flutter-apk/app-release.apk
+          retention-days: 7
