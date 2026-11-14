@@ -1,0 +1,36 @@
+name: Extract android/ (one-shot)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  extract:
+    name: Generate and upload android/
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'zulu'
+          java-version: '17'
+
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.47.x'
+          channel: 'stable'
+          cache: true
+
+      - name: Generate Android platform
+        working-directory: flutter_app
+        run: flutter create --platforms=android .
+
+      - name: Upload android/
+        uses: actions/upload-artifact@v4
+        with:
+          name: android-platform-template
+          path: flutter_app/android/
+          retention-days: 3
