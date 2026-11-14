@@ -1,4 +1,4 @@
-package com.example.cantiques_eujc
+package com.eujc.cantiques
 
 import io.flutter.embedding.android.FlutterActivity
 
