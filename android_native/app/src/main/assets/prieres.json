@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "prieres": [
+    {
+      "id": "priere-matin",
+      "titre": "Prière du Matin",
+      "contenu": [
+        "Seigneur, en ce nouveau jour, je te confie mes pas.",
+        "Accorde-moi la sagesse de discerner ta volonté et la force de l'accomplir.",
+        "Que ton Esprit guide mes pensées et mes actions tout au long de cette journée."
+      ]
+    },
+    {
+      "id": "priere-paix",
+      "titre": "Prière pour la Paix",
+      "contenu": [
+        "Ô Père de toute grâce, répands ta paix dans nos cœurs et dans notre monde.",
+        "Sois le refuge de ceux qui traversent l'épreuve et la lumière de ceux qui cherchent leur chemin."
+      ]
+    }
+  ]
+}
