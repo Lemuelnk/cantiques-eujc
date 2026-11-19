@@ -56,7 +56,7 @@ jobs:
 
       - name: Build Release APK
         working-directory: android_native
-        run: ./gradlew assembleRelease --no-daemon
+        run: gradle assembleRelease --no-daemon
 
       - name: Verify APK signature
         working-directory: android_native

@@ -70,3 +70,9 @@ canonical_backups_archive.tar.gz
 # Build artifacts
 dist/
 *.apk
+
+# Android native signing (workflow CI génère ces fichiers)
+android_native/key.properties
+android_native/app/upload-keystore.jks
+*.jks
+*.keystore
