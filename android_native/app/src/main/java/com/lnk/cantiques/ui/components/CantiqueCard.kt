@@ -6,9 +6,6 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Favorite
-import androidx.compose.material.icons.filled.FavoriteBorder
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.Icon
@@ -21,6 +18,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.lnk.cantiques.data.Cantique
 import com.lnk.cantiques.data.CantiqueVersion
+import com.lnk.cantiques.ui.components.AppIcon
+import com.lnk.cantiques.ui.components.AppIconName
 
 @Composable
 fun CantiqueCard(
@@ -56,9 +55,10 @@ fun CantiqueCard(
                 )
             }
             IconButton(onClick = onFavoriteClick) {
-                Icon(
-                    imageVector = if (isFavorite) Icons.Default.Favorite else Icons.Default.FavoriteBorder,
+                AppIcon(
+                    name = AppIconName.Heart,
                     contentDescription = "Favori",
+                    filled = isFavorite,
                     tint = if (isFavorite) MaterialTheme.colorScheme.secondary else MaterialTheme.colorScheme.onSurfaceVariant
                 )
             }

@@ -9,14 +9,6 @@ import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Book
-import androidx.compose.material.icons.filled.Favorite
-import androidx.compose.material.icons.filled.FavoriteBorder
-import androidx.compose.material.icons.filled.History
-import androidx.compose.material.icons.filled.MusicNote
-import androidx.compose.material.icons.filled.SelfImprovement
-import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -29,6 +21,8 @@ import com.lnk.cantiques.data.Cantique
 import com.lnk.cantiques.data.LessonHymn
 import com.lnk.cantiques.data.LessonResponse
 import com.lnk.cantiques.data.Prayer
+import com.lnk.cantiques.ui.components.AppIcon
+import com.lnk.cantiques.ui.components.AppIconName
 import com.lnk.cantiques.ui.components.CantiqueCard
 
 class MainActivity : ComponentActivity() {
@@ -174,37 +168,37 @@ fun CantiquesApp(
             if (selectedCantique == null && selectedLessonHymn == null && selectedPrayer == null) {
                 NavigationBar {
                     NavigationBarItem(
-                        icon = { Icon(Icons.Default.MusicNote, contentDescription = "Tous") },
+                        icon = { AppIcon(AppIconName.Music, contentDescription = "Tous") },
                         label = { Text("Tous") },
                         selected = selectedTab == 0,
                         onClick = { selectedTab = 0 }
                     )
                     NavigationBarItem(
-                        icon = { Icon(Icons.Default.Favorite, contentDescription = "Favoris") },
+                        icon = { AppIcon(AppIconName.Heart, contentDescription = "Favoris", filled = true) },
                         label = { Text("Favoris") },
                         selected = selectedTab == 1,
                         onClick = { selectedTab = 1 }
                     )
                     NavigationBarItem(
-                        icon = { Icon(Icons.Default.Book, contentDescription = "Leçons") },
+                        icon = { AppIcon(AppIconName.BookOpen, contentDescription = "Leçons") },
                         label = { Text("Leçons") },
                         selected = selectedTab == 2,
                         onClick = { selectedTab = 2 }
                     )
                     NavigationBarItem(
-                        icon = { Icon(Icons.Default.SelfImprovement, contentDescription = "Prières") },
+                        icon = { AppIcon(AppIconName.Prayer, contentDescription = "Prières") },
                         label = { Text("Prières") },
                         selected = selectedTab == 3,
                         onClick = { selectedTab = 3 }
                     )
                     NavigationBarItem(
-                        icon = { Icon(Icons.Default.History, contentDescription = "Historique") },
+                        icon = { AppIcon(AppIconName.History, contentDescription = "Historique") },
                         label = { Text("Historique") },
                         selected = selectedTab == 4,
                         onClick = { selectedTab = 4 }
                     )
                     NavigationBarItem(
-                        icon = { Icon(Icons.Default.Settings, contentDescription = "Paramètres") },
+                        icon = { AppIcon(AppIconName.Settings, contentDescription = "Paramètres") },
                         label = { Text("Réglages") },
                         selected = selectedTab == 5,
                         onClick = { selectedTab = 5 }
@@ -229,9 +223,10 @@ fun CantiquesApp(
                             Text("← Retour")
                         }
                         IconButton(onClick = { toggleFavorite(cantique.id) }) {
-                            Icon(
-                                imageVector = if (isFav) Icons.Default.Favorite else Icons.Default.FavoriteBorder,
+                            AppIcon(
+                                name = AppIconName.Heart,
                                 contentDescription = "Favori",
+                                filled = isFav,
                                 tint = if (isFav) MaterialTheme.colorScheme.secondary else MaterialTheme.colorScheme.onSurfaceVariant
                             )
                         }
