@@ -29,6 +29,7 @@ import com.lnk.cantiques.data.Cantique
 import com.lnk.cantiques.data.LessonHymn
 import com.lnk.cantiques.data.LessonResponse
 import com.lnk.cantiques.data.Prayer
+import com.lnk.cantiques.ui.components.CantiqueCard
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -467,43 +468,16 @@ fun CantiquesApp(
                             val version = cantique.versions.find { it.langue.equals(selectedLanguage, ignoreCase = true) } ?: cantique.versions.firstOrNull()
                             val isFav = favoriteIds.contains(cantique.id)
 
-                            Card(
-                                modifier = Modifier
-                                    .fillMaxWidth()
-                                    .padding(vertical = 4.dp)
-                                    .clickable { 
-                                        selectedCantique = cantique
-                                        addToHistory("Cantique : ${version?.titre ?: cantique.id}")
-                                    },
-                                colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface),
-                                elevation = CardDefaults.cardElevation(2.dp)
-                            ) {
-                                Row(
-                                    modifier = Modifier.padding(16.dp).fillMaxWidth(),
-                                    horizontalArrangement = Arrangement.SpaceBetween,
-                                    verticalAlignment = Alignment.CenterVertically
-                                ) {
-                                    Column(modifier = Modifier.weight(1f)) {
-                                        Text(
-                                            text = "N° ${cantique.numero_source ?: "S/N"} - ${version?.titre ?: "Sans titre"}",
-                                            style = MaterialTheme.typography.titleMedium,
-                                            color = MaterialTheme.colorScheme.primary
-                                        )
-                                        Text(
-                                            text = "Langue: ${version?.langue?.uppercase() ?: "FR"}",
-                                            style = MaterialTheme.typography.bodySmall,
-                                            color = MaterialTheme.colorScheme.onSurfaceVariant
-                                        )
-                                    }
-                                    IconButton(onClick = { toggleFavorite(cantique.id) }) {
-                                        Icon(
-                                            imageVector = if (isFav) Icons.Default.Favorite else Icons.Default.FavoriteBorder,
-                                            contentDescription = "Favori",
-                                            tint = if (isFav) MaterialTheme.colorScheme.secondary else MaterialTheme.colorScheme.onSurfaceVariant
-                                        )
-                                    }
-                                }
-                            }
+                            CantiqueCard(
+                                cantique = cantique,
+                                version = version,
+                                isFavorite = isFav,
+                                onClick = {
+                                    selectedCantique = cantique
+                                    addToHistory("Cantique : ${version?.titre ?: cantique.id}")
+                                },
+                                onFavoriteClick = { toggleFavorite(cantique.id) }
+                            )
                         }
                     }
                 }
