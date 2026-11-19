@@ -53,8 +53,9 @@ class MainActivity : ComponentActivity() {
         val sharedPrefs = getSharedPreferences("cantiques_prefs", Context.MODE_PRIVATE)
 
         setContent {
+            val systemDarkTheme = isSystemInDarkTheme()
             var darkTheme by remember {
-                mutableStateOf(sharedPrefs.getBoolean("dark_theme", isSystemInDarkTheme()))
+                mutableStateOf(sharedPrefs.getBoolean("dark_theme", systemDarkTheme))
             }
 
             CantiquesEujcTheme(darkTheme = darkTheme) {
