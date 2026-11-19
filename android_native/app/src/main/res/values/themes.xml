@@ -1,3 +1,7 @@
 <resources>
-    <style name="Theme.CantiquesEUJC" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.CantiquesEUJC" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">#0B2B24</item>
+        <item name="android:navigationBarColor">#0B2B24</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
 </resources>
