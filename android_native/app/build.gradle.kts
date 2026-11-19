@@ -55,6 +55,14 @@ android {
             }
         }
     }
+    sourceSets {
+        getByName("main") {
+            // Reuse the PWA canonical JSON as the single source of truth.
+            // From android_native/app this resolves to the repository's app/data directory.
+            assets.srcDir("../../app/data")
+        }
+    }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
