@@ -24,6 +24,7 @@ import com.lnk.cantiques.data.Prayer
 import com.lnk.cantiques.ui.components.AppIcon
 import com.lnk.cantiques.ui.components.AppIconName
 import com.lnk.cantiques.ui.components.AppTopBar
+import com.lnk.cantiques.ui.components.AppBottomNav
 import com.lnk.cantiques.ui.components.CantiqueCard
 import com.lnk.cantiques.ui.components.SearchBar
 
@@ -142,46 +143,13 @@ fun CantiquesApp(
             )
         },
         bottomBar = {
-            if (selectedCantique == null && selectedLessonHymn == null && selectedPrayer == null) {
-                NavigationBar {
-                    NavigationBarItem(
-                        icon = { AppIcon(AppIconName.Music, contentDescription = "Tous") },
-                        label = { Text("Tous") },
-                        selected = selectedTab == 0,
-                        onClick = { selectedTab = 0 }
-                    )
-                    NavigationBarItem(
-                        icon = { AppIcon(AppIconName.Heart, contentDescription = "Favoris", filled = true) },
-                        label = { Text("Favoris") },
-                        selected = selectedTab == 1,
-                        onClick = { selectedTab = 1 }
-                    )
-                    NavigationBarItem(
-                        icon = { AppIcon(AppIconName.BookOpen, contentDescription = "Leçons") },
-                        label = { Text("Leçons") },
-                        selected = selectedTab == 2,
-                        onClick = { selectedTab = 2 }
-                    )
-                    NavigationBarItem(
-                        icon = { AppIcon(AppIconName.Prayer, contentDescription = "Prières") },
-                        label = { Text("Prières") },
-                        selected = selectedTab == 3,
-                        onClick = { selectedTab = 3 }
-                    )
-                    NavigationBarItem(
-                        icon = { AppIcon(AppIconName.History, contentDescription = "Historique") },
-                        label = { Text("Historique") },
-                        selected = selectedTab == 4,
-                        onClick = { selectedTab = 4 }
-                    )
-                    NavigationBarItem(
-                        icon = { AppIcon(AppIconName.Settings, contentDescription = "Paramètres") },
-                        label = { Text("Réglages") },
-                        selected = selectedTab == 5,
-                        onClick = { selectedTab = 5 }
-                    )
-                }
-            }
+            AppBottomNav(
+                selectedTab = selectedTab,
+                visible = selectedCantique == null &&
+                    selectedLessonHymn == null &&
+                    selectedPrayer == null,
+                onTabSelected = { selectedTab = it }
+            )
         }
     ) { padding ->
         Box(modifier = Modifier.padding(padding).fillMaxSize()) {
