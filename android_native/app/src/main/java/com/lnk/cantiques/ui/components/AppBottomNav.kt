@@ -19,25 +19,25 @@ fun AppBottomNav(
 
     NavigationBar {
         NavigationBarItem(
-            icon = { AppIcon(AppIconName.Music, contentDescription = "Accueil") },
+            icon = { AppIcon(AppIconName.Home, contentDescription = "Accueil") },
             label = { Text("Accueil") },
             selected = selectedTab == 0,
             onClick = { onTabSelected(0) }
         )
         NavigationBarItem(
-            icon = { AppIcon(AppIconName.History, contentDescription = "Recherche") },
+            icon = { AppIcon(AppIconName.Search, contentDescription = "Recherche") },
             label = { Text("Recherche") },
             selected = selectedTab == 1,
             onClick = { onTabSelected(1) }
         )
         NavigationBarItem(
-            icon = { AppIcon(AppIconName.BookOpen, contentDescription = "Bibliothèque") },
+            icon = { AppIcon(AppIconName.Library, contentDescription = "Bibliothèque") },
             label = { Text("Bibliothèque") },
             selected = selectedTab == 2,
             onClick = { onTabSelected(2) }
         )
         NavigationBarItem(
-            icon = { AppIcon(AppIconName.Settings, contentDescription = "Plus") },
+            icon = { AppIcon(AppIconName.More, contentDescription = "Plus") },
             label = { Text("Plus") },
             selected = selectedTab == 3,
             onClick = { onTabSelected(3) }
