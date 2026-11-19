@@ -93,7 +93,7 @@ The PWA's canonical hymn shape includes:
 
 Important identity rule in the canonical data: a source hymn number is not a globally unique identity. Persist favorites/history using the stable hymn ID plus category ID. Never use source number as the database key.
 
-PWA stats are supplied by `app/data/stats.json` (1755 hymns, 4 languages, 21 lessons, 37 categories). The home UI should read this data instead of embedding counts in Kotlin.
+The repository contains `app/data/stats.json` (1755 hymns, 4 languages, 21 lessons, 37 categories), while the current PWA home markup still displays those counts as literal text. Android should read the stats asset rather than duplicating those values in Kotlin.
 
 ## Android refactor target
 
