@@ -412,7 +412,7 @@ fun CantiquesApp(
                     searchQuery = searchQuery,
                     onSearchQueryChange = { searchQuery = it },
                     onSearch = { selectedTab = 1 },
-                    onOpenCatalog = { selectedTab = 1 },
+                    onOpenCatalog = { selectedTab = 2; librarySection = 0 },
                     onOpenLessons = { selectedTab = 2; librarySection = 1 },
                     onOpenSunday = { selectedTab = 1 },
                     onOpenPrayers = { selectedTab = 2; librarySection = 2 },
