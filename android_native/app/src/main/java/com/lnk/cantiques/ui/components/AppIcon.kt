@@ -2,10 +2,10 @@ package com.lnk.cantiques.ui.components
 
 import androidx.annotation.DrawableRes
 import androidx.compose.material3.Icon
+import androidx.compose.material3.LocalContentColor
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.platform.LocalContentColor
 import androidx.compose.ui.res.painterResource
 import com.lnk.cantiques.R
 
