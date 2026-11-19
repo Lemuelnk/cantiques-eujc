@@ -126,7 +126,7 @@ fun CantiquesApp(
 
     Scaffold(
         topBar = {
-            AppTopBar(
+            if (selectedTab != 0) AppTopBar(
                 title = when {
                     selectedCantique != null || selectedLessonHymn != null || selectedPrayer != null -> "Détail"
                     selectedTab == 3 && moreSection == 3 -> "Paramètres"
@@ -421,6 +421,7 @@ fun CantiquesApp(
                         searchQuery = title.substringAfter(": ", title)
                         selectedTab = 1
                     },
+                    onViewAllRecent = { selectedTab = 3; moreSection = 2 },
                     modifier = Modifier.fillMaxSize()
                 )
             } else if (selectedTab == 2 && librarySection == 0) {
