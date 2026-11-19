@@ -20,6 +20,20 @@ data class CanonicalCategory(
  */
 object CanonicalCategoryCatalog {
     val categories: List<CanonicalCategory> = buildList {
+
+        fun addLesson(id: String, asset: String, label: String) {
+            add(CanonicalCategory(id, "$asset.json", label, CanonicalCategoryGroup.LESSONS))
+        }
+        fun addSunday(id: String, label: String) {
+            add(CanonicalCategory(id, "$id.json", "Dimanche — $label", CanonicalCategoryGroup.SUNDAY))
+        }
+        fun addPrayer(id: String, label: String) {
+            add(CanonicalCategory(id, "$id.json", "Prière — $label", CanonicalCategoryGroup.PRAYER))
+        }
+        fun addUnclassified(id: String, label: String) {
+            add(CanonicalCategory(id, "$id.json", "Cantiques à classer — $label", CanonicalCategoryGroup.UNCLASSIFIED))
+        }
+
         fun addLessons() {
             addLesson("lesson-0", "lesson-0-lucifer", "Leçon 0 — Lucifer")
             addLesson("lesson-1", "lesson-1-creation", "Leçon 1 — Création")
@@ -42,18 +56,6 @@ object CanonicalCategoryCatalog {
             addLesson("lesson-24", "lesson-24-elie-elisee", "Leçon 24 — Élie et Élysée")
             addLesson("lesson-25", "lesson-25-daniel", "Leçon 25 — Daniel")
             addLesson("lesson-26", "lesson-26-job", "Leçon 26 — Job")
-        }
-        fun addLesson(id: String, asset: String, label: String) {
-            add(CanonicalCategory(id, "$asset.json", label, CanonicalCategoryGroup.LESSONS))
-        }
-        fun addSunday(id: String, label: String) {
-            add(CanonicalCategory(id, "$id.json", "Dimanche — $label", CanonicalCategoryGroup.SUNDAY))
-        }
-        fun addPrayer(id: String, label: String) {
-            add(CanonicalCategory(id, "$id.json", "Prière — $label", CanonicalCategoryGroup.PRAYER))
-        }
-        fun addUnclassified(id: String, label: String) {
-            add(CanonicalCategory(id, "$id.json", "Cantiques à classer — $label", CanonicalCategoryGroup.UNCLASSIFIED))
         }
 
         addLessons()
