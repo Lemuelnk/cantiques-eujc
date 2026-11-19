@@ -59,7 +59,7 @@ android {
         getByName("main") {
             // Reuse the PWA canonical JSON as the single source of truth.
             // From android_native/app this resolves to the repository's app/data directory.
-            assets.srcDir("../../app/data")
+            assets.srcDir("../../app/data/canonical")
         }
     }
 
