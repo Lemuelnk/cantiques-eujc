@@ -24,31 +24,20 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.lnk.cantiques.theme.CantiquesEujcTheme
+import com.lnk.cantiques.data.AssetRepository
 import com.lnk.cantiques.data.Cantique
-import com.lnk.cantiques.data.CantiquesResponse
 import com.lnk.cantiques.data.LessonHymn
 import com.lnk.cantiques.data.LessonResponse
 import com.lnk.cantiques.data.Prayer
-import com.lnk.cantiques.data.PrayerResponse
-import kotlinx.serialization.json.Json
-import java.io.BufferedReader
-import java.io.InputStreamReader
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         
-        val cantiquesResponse = loadJsonFromAsset("cantiques.json")?.let {
-            Json { ignoreUnknownKeys = true }.decodeFromString<CantiquesResponse>(it)
-        }
-
-        val lessonResponse = loadJsonFromAsset("lesson-1-creation.json")?.let {
-            Json { ignoreUnknownKeys = true }.decodeFromString<LessonResponse>(it)
-        }
-
-        val prayerResponse = loadJsonFromAsset("prieres.json")?.let {
-            Json { ignoreUnknownKeys = true }.decodeFromString<PrayerResponse>(it)
-        }
+        val repository = AssetRepository(assets)
+        val cantiquesResponse = repository.loadCantiques()
+        val lessonResponse = repository.loadLesson()
+        val prayerResponse = repository.loadPrayers()
 
         val sharedPrefs = getSharedPreferences("cantiques_prefs", Context.MODE_PRIVATE)
 
@@ -79,16 +68,6 @@ class MainActivity : ComponentActivity() {
         }
     }
 
-    private fun loadJsonFromAsset(fileName: String): String? {
-        return try {
-            val inputStream = assets.open(fileName)
-            val reader = BufferedReader(InputStreamReader(inputStream))
-            reader.readText()
-        } catch (e: Exception) {
-            e.printStackTrace()
-            null
-        }
-    }
 }
 
 @OptIn(ExperimentalMaterial3Api::class)
