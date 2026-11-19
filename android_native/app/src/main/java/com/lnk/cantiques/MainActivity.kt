@@ -24,6 +24,7 @@ import com.lnk.cantiques.data.Prayer
 import com.lnk.cantiques.ui.components.AppIcon
 import com.lnk.cantiques.ui.components.AppIconName
 import com.lnk.cantiques.ui.components.CantiqueCard
+import com.lnk.cantiques.ui.components.SearchBar
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -451,10 +452,9 @@ fun CantiquesApp(
                 }
             } else {
                 Column(modifier = Modifier.fillMaxSize().padding(16.dp)) {
-                    OutlinedTextField(
+                    SearchBar(
                         value = searchQuery,
                         onValueChange = { searchQuery = it },
-                        label = { Text("Rechercher par titre ou numéro...") },
                         modifier = Modifier.fillMaxWidth()
                     )
                     Spacer(modifier = Modifier.height(8.dp))
