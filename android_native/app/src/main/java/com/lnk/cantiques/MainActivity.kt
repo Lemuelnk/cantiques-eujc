@@ -21,9 +21,9 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.lnk.cantiques.theme.CantiquesEujcTheme
 import com.lnk.cantiques.data.Cantique
 import com.lnk.cantiques.data.CantiquesResponse
 import com.lnk.cantiques.data.LessonHymn
@@ -33,34 +33,6 @@ import com.lnk.cantiques.data.PrayerResponse
 import kotlinx.serialization.json.Json
 import java.io.BufferedReader
 import java.io.InputStreamReader
-
-val Forest700 = Color(0xFF14392E)
-val Forest800 = Color(0xFF0B2B24)
-val Forest900 = Color(0xFF081F19)
-val Gold500 = Color(0xFFB8935A)
-val Cream50 = Color(0xFFF2EFED)
-val Cream100 = Color(0xFFFAF6EC)
-val Ink = Color(0xFF1A1F1D)
-
-val LightColors = lightColorScheme(
-    primary = Forest700,
-    onPrimary = Color.White,
-    secondary = Gold500,
-    background = Cream50,
-    surface = Cream100,
-    onBackground = Ink,
-    onSurface = Ink
-)
-
-val DarkColors = darkColorScheme(
-    primary = Gold500,
-    onPrimary = Forest900,
-    secondary = Color(0xFF4A7C68),
-    background = Forest800,
-    surface = Forest900,
-    onBackground = Color(0xFFF5F0E6),
-    onSurface = Color(0xFFF5F0E6)
-)
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -81,11 +53,11 @@ class MainActivity : ComponentActivity() {
         val sharedPrefs = getSharedPreferences("cantiques_prefs", Context.MODE_PRIVATE)
 
         setContent {
-            val isDarkTheme = sharedPrefs.getBoolean("dark_theme", isSystemInDarkTheme())
-            
-            MaterialTheme(
-                colorScheme = if (isDarkTheme) DarkColors else LightColors
-            ) {
+            var darkTheme by remember {
+                mutableStateOf(sharedPrefs.getBoolean("dark_theme", isSystemInDarkTheme()))
+            }
+
+            CantiquesEujcTheme(darkTheme = darkTheme) {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
@@ -94,7 +66,12 @@ class MainActivity : ComponentActivity() {
                         cantiques = cantiquesResponse?.cantiques ?: emptyList(),
                         lesson = lessonResponse,
                         prieres = prayerResponse?.prieres ?: emptyList(),
-                        sharedPrefs = sharedPrefs
+                        sharedPrefs = sharedPrefs,
+                        darkTheme = darkTheme,
+                        onDarkThemeChange = { enabled ->
+                            darkTheme = enabled
+                            sharedPrefs.edit().putBoolean("dark_theme", enabled).apply()
+                        }
                     )
                 }
             }
@@ -119,7 +96,9 @@ fun CantiquesApp(
     cantiques: List<Cantique>, 
     lesson: LessonResponse?, 
     prieres: List<Prayer>,
-    sharedPrefs: android.content.SharedPreferences
+    sharedPrefs: android.content.SharedPreferences,
+    darkTheme: Boolean,
+    onDarkThemeChange: (Boolean) -> Unit
 ) {
     var searchQuery by remember { mutableStateOf("") }
     var selectedTab by remember { mutableIntStateOf(0) } // 0: Tous, 1: Favoris, 2: Leçons, 3: Prières, 4: Historique, 5: Paramètres
@@ -129,7 +108,6 @@ fun CantiquesApp(
     var selectedPrayer by remember { mutableStateOf<Prayer?>(null) }
 
     var fontSizeScale by remember { mutableFloatStateOf(sharedPrefs.getFloat("font_size", 16f)) }
-    var isDarkTheme by remember { mutableStateOf(sharedPrefs.getBoolean("dark_theme", false)) }
 
     var favoriteIds by remember {
         mutableStateOf(sharedPrefs.getStringSet("favorites", emptySet()) ?: emptySet())
@@ -395,11 +373,8 @@ fun CantiquesApp(
                     ) {
                         Text(text = "Mode Sombre (Vert Forêt Profond)")
                         Switch(
-                            checked = isDarkTheme,
-                            onCheckedChange = { 
-                                isDarkTheme = it
-                                sharedPrefs.edit().putBoolean("dark_theme", it).apply()
-                            }
+                            checked = darkTheme,
+                            onCheckedChange = onDarkThemeChange
                         )
                     }
                 }
