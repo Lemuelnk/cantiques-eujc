@@ -13,6 +13,20 @@ plugins {
     id("org.jetbrains.kotlin.plugin.serialization")
 }
 
+val generatedCanonicalAssetsDir = layout.buildDirectory.dir("generated/canonicalAssets")
+
+val syncCanonicalAssets by tasks.registering(Sync::class) {
+    from(rootProject.file("../app/data/canonical")) {
+        into("canonical")
+    }
+    from(rootProject.file("../app/data/stats.json"))
+    into(generatedCanonicalAssetsDir)
+}
+
+tasks.named("preBuild").configure {
+    dependsOn(syncCanonicalAssets)
+}
+
 android {
     signingConfigs {
         create("release") {
@@ -57,9 +71,9 @@ android {
     }
     sourceSets {
         getByName("main") {
-            // Reuse the PWA canonical JSON as the single source of truth.
-            // From android_native/app this resolves to the repository's app/data directory.
-            assets.srcDir("../../app/data/canonical")
+            // Canonical assets are generated under a dedicated namespace to avoid
+            // collisions with legacy files in src/main/assets.
+            assets.srcDir(layout.buildDirectory.dir("generated/canonicalAssets"))
         }
     }
 
