@@ -142,7 +142,7 @@ fun HomeScreen(
             modifier = Modifier.fillMaxWidth(),
             placeholder = { Text("Rechercher par titre, numéro ou mot…") },
             leadingIcon = {
-                AppIcon(AppIconName.History, contentDescription = "Rechercher", tint = Palette.forest700)
+                AppIcon(AppIconName.Search, contentDescription = "Rechercher", tint = Palette.forest700)
             },
             singleLine = true,
             keyboardOptions = KeyboardOptions(imeAction = ImeAction.Search),
