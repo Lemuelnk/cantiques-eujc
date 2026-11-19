@@ -6,7 +6,8 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 
 /**
- * Main app navigation. The host owns the selected tab and visibility rules.
+ * Four primary destinations, matching the PWA navigation model.
+ * The host owns the selected destination and nested navigation state.
  */
 @Composable
 fun AppBottomNav(
@@ -18,40 +19,28 @@ fun AppBottomNav(
 
     NavigationBar {
         NavigationBarItem(
-            icon = { AppIcon(AppIconName.Music, contentDescription = "Tous") },
-            label = { Text("Tous") },
+            icon = { AppIcon(AppIconName.Home, contentDescription = "Accueil") },
+            label = { Text("Accueil") },
             selected = selectedTab == 0,
             onClick = { onTabSelected(0) }
         )
         NavigationBarItem(
-            icon = { AppIcon(AppIconName.Heart, contentDescription = "Favoris", filled = true) },
-            label = { Text("Favoris") },
+            icon = { AppIcon(AppIconName.Search, contentDescription = "Recherche") },
+            label = { Text("Recherche") },
             selected = selectedTab == 1,
             onClick = { onTabSelected(1) }
         )
         NavigationBarItem(
-            icon = { AppIcon(AppIconName.BookOpen, contentDescription = "Leçons") },
-            label = { Text("Leçons") },
+            icon = { AppIcon(AppIconName.Library, contentDescription = "Bibliothèque") },
+            label = { Text("Bibliothèque") },
             selected = selectedTab == 2,
             onClick = { onTabSelected(2) }
         )
         NavigationBarItem(
-            icon = { AppIcon(AppIconName.Prayer, contentDescription = "Prières") },
-            label = { Text("Prières") },
+            icon = { AppIcon(AppIconName.More, contentDescription = "Plus") },
+            label = { Text("Plus") },
             selected = selectedTab == 3,
             onClick = { onTabSelected(3) }
-        )
-        NavigationBarItem(
-            icon = { AppIcon(AppIconName.History, contentDescription = "Historique") },
-            label = { Text("Historique") },
-            selected = selectedTab == 4,
-            onClick = { onTabSelected(4) }
-        )
-        NavigationBarItem(
-            icon = { AppIcon(AppIconName.Settings, contentDescription = "Paramètres") },
-            label = { Text("Réglages") },
-            selected = selectedTab == 5,
-            onClick = { onTabSelected(5) }
         )
     }
 }
