@@ -23,6 +23,7 @@ import com.lnk.cantiques.data.LessonResponse
 import com.lnk.cantiques.data.Prayer
 import com.lnk.cantiques.ui.components.AppIcon
 import com.lnk.cantiques.ui.components.AppIconName
+import com.lnk.cantiques.ui.components.AppTopBar
 import com.lnk.cantiques.ui.components.CantiqueCard
 import com.lnk.cantiques.ui.components.SearchBar
 
@@ -121,48 +122,23 @@ fun CantiquesApp(
 
     Scaffold(
         topBar = {
-            TopAppBar(
-                title = { 
-                    Text(
-                        when {
-                            selectedCantique != null || selectedLessonHymn != null || selectedPrayer != null -> "Détail"
-                            selectedTab == 5 -> "Paramètres"
-                            selectedTab == 4 -> "Historique"
-                            selectedTab == 3 -> "Prières"
-                            selectedTab == 2 -> "Leçons du Chemin"
-                            else -> "Cantiques EUJC"
-                        }
-                    ) 
+            AppTopBar(
+                title = when {
+                    selectedCantique != null || selectedLessonHymn != null || selectedPrayer != null -> "Détail"
+                    selectedTab == 5 -> "Paramètres"
+                    selectedTab == 4 -> "Historique"
+                    selectedTab == 3 -> "Prières"
+                    selectedTab == 2 -> "Leçons du Chemin"
+                    else -> "Cantiques EUJC"
                 },
-                colors = TopAppBarDefaults.topAppBarColors(
-                    containerColor = MaterialTheme.colorScheme.primary,
-                    titleContentColor = MaterialTheme.colorScheme.onPrimary,
-                    actionIconContentColor = MaterialTheme.colorScheme.onPrimary
-                ),
-                actions = {
-                    if (selectedCantique == null && selectedLessonHymn == null && selectedPrayer == null && selectedTab == 0 && availableLanguages.isNotEmpty()) {
-                        var expanded by remember { mutableStateOf(false) }
-                        Box(modifier = Modifier.padding(end = 8.dp)) {
-                            TextButton(onClick = { expanded = true }) {
-                                Text(
-                                    text = "Langue: ${selectedLanguage.uppercase()}",
-                                    color = MaterialTheme.colorScheme.onPrimary
-                                )
-                            }
-                            DropdownMenu(expanded = expanded, onDismissRequest = { expanded = false }) {
-                                availableLanguages.forEach { lang ->
-                                    DropdownMenuItem(
-                                        text = { Text(lang.uppercase()) },
-                                        onClick = {
-                                            selectedLanguage = lang
-                                            expanded = false
-                                        }
-                                    )
-                                }
-                            }
-                        }
-                    }
-                }
+                showLanguageSelector = selectedCantique == null &&
+                    selectedLessonHymn == null &&
+                    selectedPrayer == null &&
+                    selectedTab == 0 &&
+                    availableLanguages.isNotEmpty(),
+                selectedLanguage = selectedLanguage,
+                availableLanguages = availableLanguages,
+                onLanguageSelected = { selectedLanguage = it }
             )
         },
         bottomBar = {
