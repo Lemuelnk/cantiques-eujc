@@ -10,6 +10,11 @@ object Palette {
     val forest800 = Color(0xFF0B2B24) // fond page sombre
     val forest900 = Color(0xFF081F19) // le plus sombre
 
+    // Teal organique — accents de la charte PWA
+    val teal = Color(0xFF3D7A6B)
+    val tealDark = Color(0xFF2A5E51)
+    val tealLight = Color(0xFF6BA595)
+
     // Gold
     val gold400 = Color(0xFFE4C37F) // or clair
     val gold500 = Color(0xFFB8935A) // or principal patiné
