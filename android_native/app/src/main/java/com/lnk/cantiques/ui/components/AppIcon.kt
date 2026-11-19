@@ -22,7 +22,11 @@ enum class AppIconName(
     BookOpen(R.drawable.ic_lucide_book_open),
     Prayer(R.drawable.ic_lucide_hand_heart),
     History(R.drawable.ic_lucide_clock),
-    Settings(R.drawable.ic_lucide_settings)
+    Settings(R.drawable.ic_lucide_settings),
+    Home(R.drawable.ic_lucide_house),
+    Search(R.drawable.ic_lucide_search),
+    Library(R.drawable.ic_lucide_library),
+    More(R.drawable.ic_lucide_more_horizontal)
 }
 
 @Composable
