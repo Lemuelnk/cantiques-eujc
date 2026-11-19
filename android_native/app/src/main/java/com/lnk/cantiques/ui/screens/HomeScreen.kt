@@ -57,6 +57,7 @@ fun HomeScreen(
     onOpenFavorites: () -> Unit,
     onOpenSettings: () -> Unit,
     onOpenRecent: (String) -> Unit,
+    onViewAllRecent: () -> Unit,
     modifier: Modifier = Modifier
 ) {
     val languageCount = cantiques.flatMap { hymn -> hymn.versions.map { it.langue.lowercase() } }.distinct().size
@@ -207,7 +208,7 @@ fun HomeScreen(
                 color = Palette.gold500,
                 fontSize = 13.sp,
                 fontWeight = FontWeight.SemiBold,
-                modifier = Modifier.clickable(onClick = onOpenRecent)
+                modifier = Modifier.clickable(onClick = onViewAllRecent)
             )
         }
         Spacer(Modifier.height(12.dp))
