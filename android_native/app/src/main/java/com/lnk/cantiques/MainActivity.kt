@@ -27,6 +27,7 @@ import com.lnk.cantiques.ui.components.AppTopBar
 import com.lnk.cantiques.ui.components.AppBottomNav
 import com.lnk.cantiques.ui.components.CantiqueCard
 import com.lnk.cantiques.ui.components.SearchBar
+import com.lnk.cantiques.ui.screens.HomeScreen
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -79,7 +80,9 @@ fun CantiquesApp(
     onDarkThemeChange: (Boolean) -> Unit
 ) {
     var searchQuery by remember { mutableStateOf("") }
-    var selectedTab by remember { mutableIntStateOf(0) } // 0: Tous, 1: Favoris, 2: Leçons, 3: Prières, 4: Historique, 5: Paramètres
+    var selectedTab by remember { mutableIntStateOf(0) } // 0: Accueil, 1: Recherche, 2: Bibliothèque, 3: Plus
+    var librarySection by remember { mutableIntStateOf(0) } // 0: Menu, 1: Leçons, 2: Prières, 3: Catalogue
+    var moreSection by remember { mutableIntStateOf(0) } // 0: Menu, 1: Favoris, 2: Historique, 3: Paramètres
     var selectedLanguage by remember { mutableStateOf("fr") }
     var selectedCantique by remember { mutableStateOf<Cantique?>(null) }
     var selectedLessonHymn by remember { mutableStateOf<LessonHymn?>(null) }
@@ -116,7 +119,7 @@ fun CantiquesApp(
         val num = c.numero_source ?: ""
         
         val matchesSearch = title.contains(searchQuery, ignoreCase = true) || num.contains(searchQuery, ignoreCase = true)
-        val matchesTab = if (selectedTab == 1) favoriteIds.contains(c.id) else true
+        val matchesTab = if (selectedTab == 3 && moreSection == 1) favoriteIds.contains(c.id) else true
         
         matchesSearch && matchesTab
     }
@@ -126,16 +129,19 @@ fun CantiquesApp(
             AppTopBar(
                 title = when {
                     selectedCantique != null || selectedLessonHymn != null || selectedPrayer != null -> "Détail"
-                    selectedTab == 5 -> "Paramètres"
-                    selectedTab == 4 -> "Historique"
-                    selectedTab == 3 -> "Prières"
-                    selectedTab == 2 -> "Leçons du Chemin"
+                    selectedTab == 3 && moreSection == 3 -> "Paramètres"
+                    selectedTab == 3 && moreSection == 2 -> "Historique"
+                    selectedTab == 2 && librarySection == 2 -> "Prières"
+                    selectedTab == 2 && librarySection == 1 -> "Leçons du Chemin"
+                    selectedTab == 2 -> "Bibliothèque"
+                    selectedTab == 3 -> "Plus"
+                    selectedTab == 1 -> "Recherche"
                     else -> "Cantiques EUJC"
                 },
                 showLanguageSelector = selectedCantique == null &&
                     selectedLessonHymn == null &&
                     selectedPrayer == null &&
-                    selectedTab == 0 &&
+                    selectedTab == 1 &&
                     availableLanguages.isNotEmpty(),
                 selectedLanguage = selectedLanguage,
                 availableLanguages = availableLanguages,
@@ -148,7 +154,11 @@ fun CantiquesApp(
                 visible = selectedCantique == null &&
                     selectedLessonHymn == null &&
                     selectedPrayer == null,
-                onTabSelected = { selectedTab = it }
+                onTabSelected = {
+                    selectedTab = it
+                    if (it == 2) librarySection = 0
+                    if (it == 3) moreSection = 0
+                }
             )
         }
     ) { padding ->
@@ -270,7 +280,7 @@ fun CantiquesApp(
                         }
                     }
                 }
-            } else if (selectedTab == 5) {
+            } else if (selectedTab == 3 && moreSection == 3) {
                 Column(modifier = Modifier.fillMaxSize().padding(16.dp)) {
                     Text(text = "Préférences d'affichage", style = MaterialTheme.typography.titleLarge)
                     Spacer(modifier = Modifier.height(24.dp))
@@ -299,7 +309,7 @@ fun CantiquesApp(
                         )
                     }
                 }
-            } else if (selectedTab == 4) {
+            } else if (selectedTab == 3 && moreSection == 2) {
                 Column(modifier = Modifier.fillMaxSize().padding(16.dp)) {
                     Text(text = "Historique de lecture", style = MaterialTheme.typography.titleLarge, color = MaterialTheme.colorScheme.primary)
                     Spacer(modifier = Modifier.height(16.dp))
@@ -322,7 +332,7 @@ fun CantiquesApp(
                         }
                     }
                 }
-            } else if (selectedTab == 3) {
+            } else if (selectedTab == 2 && librarySection == 2) {
                 Column(modifier = Modifier.fillMaxSize().padding(16.dp)) {
                     Text(text = "Prières et Recueillement", style = MaterialTheme.typography.titleLarge, color = MaterialTheme.colorScheme.primary)
                     Spacer(modifier = Modifier.height(16.dp))
@@ -351,7 +361,7 @@ fun CantiquesApp(
                         }
                     }
                 }
-            } else if (selectedTab == 2) {
+            } else if (selectedTab == 2 && librarySection == 1) {
                 Column(modifier = Modifier.fillMaxSize().padding(16.dp)) {
                     Text(
                         text = lesson?.category ?: "Leçons",
@@ -394,7 +404,52 @@ fun CantiquesApp(
                         }
                     }
                 }
-            } else {
+            } else if (selectedTab == 0) {
+                HomeScreen(
+                    cantiques = cantiques,
+                    recentTitles = historyList,
+                    searchQuery = searchQuery,
+                    onSearchQueryChange = { searchQuery = it },
+                    onSearch = { selectedTab = 1 },
+                    onOpenCatalog = { selectedTab = 1 },
+                    onOpenLessons = { selectedTab = 2; librarySection = 1 },
+                    onOpenSunday = { selectedTab = 1 },
+                    onOpenPrayers = { selectedTab = 2; librarySection = 2 },
+                    onOpenFavorites = { selectedTab = 3; moreSection = 1 },
+                    onOpenSettings = { selectedTab = 3; moreSection = 3 },
+                    onOpenRecent = { title ->
+                        searchQuery = title.substringAfter(": ", title)
+                        selectedTab = 1
+                    },
+                    modifier = Modifier.fillMaxSize()
+                )
+            } else if (selectedTab == 2 && librarySection == 0) {
+                Column(modifier = Modifier.fillMaxSize().padding(20.dp)) {
+                    Text("Bibliothèque", style = MaterialTheme.typography.headlineMedium, color = MaterialTheme.colorScheme.primary)
+                    Spacer(Modifier.height(16.dp))
+                    listOf("Tous les cantiques" to 3, "Leçons du Chemin" to 1, "Cantiques de prière" to 2).forEach { (label, section) ->
+                        Card(
+                            modifier = Modifier.fillMaxWidth().padding(vertical = 5.dp).clickable { librarySection = section },
+                            colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface)
+                        ) {
+                            Text(label, modifier = Modifier.padding(18.dp), style = MaterialTheme.typography.titleMedium)
+                        }
+                    }
+                }
+            } else if (selectedTab == 3 && moreSection == 0) {
+                Column(modifier = Modifier.fillMaxSize().padding(20.dp)) {
+                    Text("Plus", style = MaterialTheme.typography.headlineMedium, color = MaterialTheme.colorScheme.primary)
+                    Spacer(Modifier.height(16.dp))
+                    listOf("Favoris" to 1, "Historique" to 2, "Paramètres" to 3).forEach { (label, section) ->
+                        Card(
+                            modifier = Modifier.fillMaxWidth().padding(vertical = 5.dp).clickable { moreSection = section },
+                            colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface)
+                        ) {
+                            Text(label, modifier = Modifier.padding(18.dp), style = MaterialTheme.typography.titleMedium)
+                        }
+                    }
+                }
+            } else if (selectedTab == 1 || (selectedTab == 2 && librarySection == 3)) {
                 Column(modifier = Modifier.fillMaxSize().padding(16.dp)) {
                     SearchBar(
                         value = searchQuery,
