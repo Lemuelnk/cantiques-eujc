@@ -1,13 +1,13 @@
-name: Build Android App (Kotlin)
+name: Android Build APK (Kotlin native)
 
 on:
   push:
-    branches: [ "main", "master" ]
+    branches: [ "main" ]
     paths:
       - 'android_native/**'
       - '.github/workflows/android-build.yml'
   pull_request:
-    branches: [ "main", "master" ]
+    branches: [ "main" ]
     paths:
       - 'android_native/**'
       - '.github/workflows/android-build.yml'
@@ -15,31 +15,64 @@ on:
 
 jobs:
   build:
+    name: Build Release APK
     runs-on: ubuntu-latest
     defaults:
       run:
         working-directory: android_native
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v5
 
-    - name: Set up JDK 17
-      uses: actions/setup-java@v4
-      with:
-        distribution: 'temurin'
-        java-version: '17'
+      - name: Setup Java
+        uses: actions/setup-java@v5
+        with:
+          distribution: 'temurin'
+          java-version: '17'
 
-    - name: Setup Gradle
-      uses: gradle/actions/setup-gradle@v4
-      with:
-        gradle-version: '8.5'
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.5'
 
-    - name: Build Debug APK
-      run: gradle assembleDebug --no-daemon
+      - name: Setup signing
+        working-directory: android_native
+        env:
+          KEYSTORE_BASE64: ${{ secrets.KEYSTORE_BASE64 }}
+          KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
+          KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
+        run: |
+          echo "$KEYSTORE_BASE64" | base64 --decode > app/upload-keystore.jks
+          printf 'storePassword=%s\nkeyPassword=%s\nkeyAlias=%s\nstoreFile=upload-keystore.jks\n' \
+            "$KEYSTORE_PASSWORD" "$KEY_PASSWORD" "$KEY_ALIAS" > key.properties
+          chmod 600 key.properties app/upload-keystore.jks
+          echo "Keystore bytes: $(wc -c < app/upload-keystore.jks)"
 
-    - name: Upload APK Artifact
-      uses: actions/upload-artifact@v4
-      with:
-        name: cantiques-eujc-debug-apk
-        path: android_native/app/build/outputs/apk/debug/app-debug.apk
+      - name: Make gradlew executable
+        working-directory: android_native
+        run: chmod +x ./gradlew || true
+
+      - name: Build Release APK
+        working-directory: android_native
+        run: ./gradlew assembleRelease --no-daemon
+
+      - name: Verify APK signature
+        working-directory: android_native
+        run: |
+          APK=app/build/outputs/apk/release/app-release.apk
+          if [ ! -f "$APK" ]; then
+            echo "APK release introuvable"; exit 1
+          fi
+          APKSIGNER=$(find "$ANDROID_HOME/build-tools" -name apksigner | head -1)
+          if [ -n "$APKSIGNER" ]; then
+            "$APKSIGNER" verify --print-certs "$APK" | head -10
+          fi
+
+      - name: Upload Release APK
+        uses: actions/upload-artifact@v5
+        with:
+          name: cantiques-eujc-release-apk
+          path: android_native/app/build/outputs/apk/release/app-release.apk
+          retention-days: 7
