@@ -130,6 +130,7 @@ fun CantiquesApp(
                 title = when {
                     selectedCantique != null || selectedLessonHymn != null || selectedPrayer != null -> "Détail"
                     selectedTab == 3 && moreSection == 3 -> "Paramètres"
+                    selectedTab == 3 && moreSection == 1 -> "Favoris"
                     selectedTab == 3 && moreSection == 2 -> "Historique"
                     selectedTab == 2 && librarySection == 2 -> "Prières"
                     selectedTab == 2 && librarySection == 1 -> "Leçons du Chemin"
@@ -450,7 +451,7 @@ fun CantiquesApp(
                         }
                     }
                 }
-            } else if (selectedTab == 1 || (selectedTab == 2 && librarySection == 3)) {
+            } else if (selectedTab == 1 || (selectedTab == 2 && librarySection == 3) || (selectedTab == 3 && moreSection == 1)) {
                 Column(modifier = Modifier.fillMaxSize().padding(16.dp)) {
                     SearchBar(
                         value = searchQuery,
