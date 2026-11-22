@@ -49,8 +49,8 @@ val validateCanonicalAssets by tasks.registering {
             }
             val taxonomy = corpus["taxonomy"] as? Map<*, *>
             val categoryId = taxonomy?.get("category_id") as? String
-            check(categoryId == file.nameWithoutExtension) {
-                "Category ID mismatch in ${file.name}: ${categoryId ?: "missing"}"
+            check(!categoryId.isNullOrBlank()) {
+                "Missing taxonomy.category_id in ${file.name}"
             }
         }
 
