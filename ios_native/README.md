@@ -9,7 +9,7 @@ Construire une application iOS native, hors ligne, centrée exclusivement sur la
 
 ## Principes non négociables
 
-1. **Swift natif** : Swift + SwiftUI. Aucun Flutter, Dart, moteur hybride ou WebView comme interface principale.
+1. **Swift natif** : Swift + SwiftUI. Aucun moteur hybride ou WebView comme interface principale.
 2. **Parité métier, adaptation native** : mêmes règles, données, catégories et comportements que la PWA et Android ; interactions et composants adaptés aux conventions iOS.
 3. **Offline-first** : les corpus distribués avec l'application restent consultables sans réseau.
 4. **Texte uniquement** : aucun lecteur audio, aucune piste, playlist ou dépendance audio.
