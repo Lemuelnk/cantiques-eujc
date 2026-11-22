@@ -63,10 +63,10 @@ jobs:
           test -s app/upload-keystore.jks
 
           {
-            printf 'storePassword=%s\\n' "$KEYSTORE_PASSWORD"
-            printf 'keyPassword=%s\\n' "$KEY_PASSWORD"
-            printf 'keyAlias=%s\\n' "$KEY_ALIAS"
-            printf 'storeFile=upload-keystore.jks\\n'
+            printf 'storePassword=%s\n' "$KEYSTORE_PASSWORD"
+            printf 'keyPassword=%s\n' "$KEY_PASSWORD"
+            printf 'keyAlias=%s\n' "$KEY_ALIAS"
+            printf 'storeFile=upload-keystore.jks\n'
           } > key.properties
 
           chmod 600 key.properties app/upload-keystore.jks
