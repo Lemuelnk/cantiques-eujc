@@ -3,7 +3,7 @@
 ## ADR-001 — Application iOS native SwiftUI
 - Statut : accepté.
 - Décision : utiliser Swift et SwiftUI pour l'application iOS.
-- Rejeté : Flutter, Dart, interface WebView comme produit principal.
+- Rejeté : framework hybride ou interface WebView comme produit principal.
 - Motif : base native distincte et cohérente avec Android Kotlin.
 
 ## ADR-002 — Le JSON canonique reste la source de vérité
