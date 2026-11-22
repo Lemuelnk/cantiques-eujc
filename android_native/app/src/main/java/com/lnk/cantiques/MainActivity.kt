@@ -17,6 +17,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.lnk.cantiques.theme.CantiquesEujcTheme
 import com.lnk.cantiques.data.AssetRepository
+import com.lnk.cantiques.data.canonical.CanonicalAssetRepository
+import com.lnk.cantiques.data.canonical.CanonicalStats
 import com.lnk.cantiques.data.Cantique
 import com.lnk.cantiques.data.LessonHymn
 import com.lnk.cantiques.data.LessonResponse
@@ -34,6 +36,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         
         val repository = AssetRepository(assets)
+        val canonicalStats = CanonicalAssetRepository(assets).loadStats()
         val cantiquesResponse = repository.loadCantiques()
         val lessonResponse = repository.loadLesson()
         val prayerResponse = repository.loadPrayers()
@@ -53,6 +56,7 @@ class MainActivity : ComponentActivity() {
                 ) {
                     CantiquesApp(
                         cantiques = cantiquesResponse?.cantiques ?: emptyList(),
+                        canonicalStats = canonicalStats,
                         lesson = lessonResponse,
                         prieres = prayerResponse?.prieres ?: emptyList(),
                         sharedPrefs = sharedPrefs,
@@ -72,7 +76,8 @@ class MainActivity : ComponentActivity() {
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun CantiquesApp(
-    cantiques: List<Cantique>, 
+    cantiques: List<Cantique>,
+    canonicalStats: CanonicalStats?,
     lesson: LessonResponse?, 
     prieres: List<Prayer>,
     sharedPrefs: android.content.SharedPreferences,
@@ -408,6 +413,7 @@ fun CantiquesApp(
             } else if (selectedTab == 0) {
                 HomeScreen(
                     cantiques = cantiques,
+                    canonicalStats = canonicalStats,
                     recentTitles = historyList,
                     searchQuery = searchQuery,
                     onSearchQueryChange = { searchQuery = it },
