@@ -20,7 +20,7 @@ class CanonicalAssetRepository(
 
     fun loadCategory(categoryId: String): CanonicalCorpus? {
         val category = CanonicalCategoryCatalog.byId[categoryId] ?: return null
-        return load(category.assetName)
+        return load("canonical/${category.assetName}")
     }
 
     fun loadAllCategories(): Map<String, CanonicalCorpus> =
