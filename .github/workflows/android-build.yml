@@ -48,12 +48,29 @@ jobs:
           KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
           KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
           KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
+        shell: bash
         run: |
-          echo "$KEYSTORE_BASE64" | base64 --decode > app/upload-keystore.jks
-          printf 'storePassword=%s\\nkeyPassword=%s\\nkeyAlias=%s\\nstoreFile=upload-keystore.jks\\n' \\
-            "$KEYSTORE_PASSWORD" "$KEY_PASSWORD" "$KEY_ALIAS" > key.properties
+          set -euo pipefail
+
+          for secret_name in KEYSTORE_BASE64 KEYSTORE_PASSWORD KEY_ALIAS KEY_PASSWORD; do
+            if [ -z "${!secret_name:-}" ]; then
+              echo "::error::Required GitHub Actions secret is missing: ${secret_name}"
+              exit 1
+            fi
+          done
+
+          printf '%s' "$KEYSTORE_BASE64" | base64 --decode > app/upload-keystore.jks
+          test -s app/upload-keystore.jks
+
+          {
+            printf 'storePassword=%s\\n' "$KEYSTORE_PASSWORD"
+            printf 'keyPassword=%s\\n' "$KEY_PASSWORD"
+            printf 'keyAlias=%s\\n' "$KEY_ALIAS"
+            printf 'storeFile=upload-keystore.jks\\n'
+          } > key.properties
+
           chmod 600 key.properties app/upload-keystore.jks
-          echo "Keystore bytes: $(wc -c < app/upload-keystore.jks)"
+          echo "Android signing files prepared successfully."
 
       - name: Make gradlew executable
         working-directory: android_native
