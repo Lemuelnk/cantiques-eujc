@@ -6,7 +6,7 @@
 
 ## Vision à 5 ans (2031)
 
-Un recueil numérique **complet, propre et multilingue** des cantiques EUJC. Accessible à tous (Web, PWA, Android, iOS). Interface épurée. Audio pour coller le texte au rythme du cantique. Une œuvre durable qui sert l'église, apprend, et comble un manque réel.
+Un recueil numérique **complet, propre et multilingue** des cantiques EUJC. Accessible à tous (Web, PWA, Android natif et iOS natif). Interface épurée, centrée sur les textes et leurs versions linguistiques. Une œuvre durable qui sert l'église, apprend, et comble un manque réel.
 
 Détail de la vision :
 
@@ -119,8 +119,8 @@ L'app doit exister sur toutes les plateformes où les fidèles en ont besoin.
 
 Indicateurs :
 - PWA fonctionnelle (aujourd'hui)
-- App Android (Flutter, dans 12-18 mois)
-- App iOS (Flutter, dans 18-24 mois)
+- Application Android native Kotlin + Jetpack Compose (en cours)
+- Application iOS native Swift + SwiftUI (architecture préparée dans `ios_native/`)
 - Web desktop (bonus, pas prioritaire)
 
 ### Objectif 4 — Multilingue interface (P1, moyen terme)
@@ -162,6 +162,7 @@ Ce que le projet ne fera **pas**, pour éviter la dérive :
 5. **Pas de traduction automatique** — les versions multilingues sont saisies par des humains
 6. **Pas d'IA générative** — pas de suggestion par IA, pas de génération de paroles
 7. **Pas de version desktop dédiée** — l'app est mobile-first, desktop n'est qu'un bonus d'accès
+8. **Pas d'audio** — l'application mobile reste un recueil de textes et de versions linguistiques, sans lecteur ni flux audio
 
 Toute demande de feature qui contredit un de ces points est refusée par défaut. Si la communauté insiste, discussion documentée dans decision-log.md.
 
@@ -180,10 +181,8 @@ Toute demande de feature qui contredit un de ces points est refusée par défaut
 
 ### P1 — Important (moyen terme, dans la vision 5 ans)
 
-- **Audio mode 1** : lien audio du cantique (YouTube API ou alternative)
-- **Audio mode 2** : mini-lecteur musique locale (position configurable, pas en fond)
 - **Multilingue interface** : EN puis Lingala, Swahili, Tshiluba, Kikongo
-- **App Flutter** Android (12-18 mois) + iOS (18-24 mois)
+- **Applications natives** : Android (Kotlin + Jetpack Compose), iOS (Swift + SwiftUI)
 - **SEO complet** : pages statiques, JSON-LD, sitemap (déjà fait, à maintenir)
 - **Admin web complet** : liste, filtres, édition avant apply, création manuelle (déjà fait)
 - **Documentation complète** : README, ARCHITECTURE, PRD, CONTRIBUTING, TESTS
@@ -192,7 +191,6 @@ Toute demande de feature qui contredit un de ces points est refusée par défaut
 ### P2 — Nice-to-have (bonus si le temps le permet)
 
 - Partage d'images (8 formats, 4 thèmes) — déjà là, à maintenir sans prioriser
-- Audio synchronisé karaoké (paroles défilantes au rythme)
 - Recherche avancée (par thème, mot-clé biblique)
 - Mode chorale (affichage en grand pour un groupe)
 
@@ -209,7 +207,8 @@ Toute demande de feature qui contredit un de ces points est refusée par défaut
 - **Hébergement** : Cloudflare Pages + Worker + Functions + D1 (gratuit ou quasi)
 - **Front PWA** : HTML / CSS / JS vanilla (pas de framework)
 - **Backend** : JavaScript (Cloudflare Functions)
-- **App mobile** : Flutter (Dart), charge `assets/data/canonical/`
+- **Android natif** : Kotlin + Jetpack Compose, consomme les corpus canoniques JSON
+- **iOS natif** : Swift + SwiftUI, consomme le même contrat JSON canonique
 - **Scripts** : Python 3 (extraction, SEO, journal)
 - **Éditeur** : Acode (Android) + Termux
 - **Pas de Node.js local** (pas de `npm`, pas de `wrangler dev`)
@@ -271,7 +270,7 @@ Toute demande de feature qui contredit un de ces points est refusée par défaut
 
 ### Risque 4 — Complexité technique (probabilité : moyenne)
 
-**Description** : Flutter, multilingue interface, audio = trop dur, ça bloque.
+**Description** : développement natif multi-plateforme et multilingue interface = risque de complexité et de dispersion.
 
 **Mitigations** :
 - Découper en petites étapes (1 feature à la fois)
@@ -326,7 +325,7 @@ Toute demande de feature qui contredit un de ces points est refusée par défaut
 - [ ] CONTRIBUTING.md généraliste
 - [ ] TESTS.md (checklist déploiement)
 - [ ] CHANGELOG.md
-- [ ] Mise à jour ROADMAP.md et flutter_app/README.md
+- [ ] Maintenir la documentation des applications natives dans `android_native/` et `ios_native/`
 - [ ] Types auto restants : ordre, categorie (5 restants sur 13)
 - [ ] Préparer CONTRIBUTING-DEV.md (pour attirer un dev)
 
@@ -353,22 +352,22 @@ Toute demande de feature qui contredit un de ces points est refusée par défaut
 
 **Objectif secondaire** : EN interface complété
 
-### Q3-Q4 2027 — Flutter
+### Q3-Q4 2027 — Applications natives
 
 **Objectif principal** : app Android v1 (alpha)
 
-- [ ] Spec Flutter (docs/02-flutter/SPEC.md)
-- [ ] Premier écran Flutter fonctionnel
-- [ ] Navigation cantiques
-- [ ] Publication Play Store (alpha)
+- [ ] Terminer l'intégration des 37 corpus dans Android Kotlin
+- [ ] Achever les écrans Android prioritaires et les tests
+- [ ] Initialiser le projet Xcode SwiftUI selon `ios_native/`
+- [ ] Navigation complète des cantiques
+- [ ] Préparer une version alpha Android après validation sur appareils
 
-**Objectif secondaire** : démarrage iOS
+**Objectif secondaire** : socle iOS SwiftUI et tests de décodage du corpus
 
 ### 2028+ — Consolidation
 
-- iOS sur App Store
+- Stabilisation iOS et préparation d'une bêta TestFlight après validation
 - Multilingue interface complet (EN + Lingala + Swahili + Tshiluba + Kikongo)
-- Audio mode 1 et 2
 - 2-3 contributeurs réguliers
 
 ## Gouvernance
@@ -416,7 +415,6 @@ Toute remise en cause de ces 3 piliers nécessite une révision formelle du PRD.
 - **Cloudflare D1** : https://developers.cloudflare.com/d1/
 - **Cloudflare Turnstile** : https://developers.cloudflare.com/turnstile/
 - **GitHub API** : https://docs.github.com/en/rest
-- **Flutter** : https://docs.flutter.dev/
 
 ### Charte graphique
 
