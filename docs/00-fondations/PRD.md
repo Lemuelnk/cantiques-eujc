@@ -13,7 +13,6 @@ Détail de la vision :
 - **Contenu** : recueil complet, sans doublon, versions linguistiques bien identifiées et fusionnées
 - **Plateformes** : multiplateforme (Web, PWA, Android, iOS), accessible à tous
 - **Interface** : multilingue (français, anglais, lingala, swahili, tshiluba, kikongo), épurée, propre
-- **Audio** : écoute du cantique (via YouTube API ou alternative) ou musique locale avec mini-lecteur visible
 
 ## Mission
 
@@ -27,8 +26,7 @@ Permettre à chaque fidèle, choriste et responsable de louange de :
 **Cantiques EUJC est un recueil enrichi, PAS une plateforme de louange.**
 
 - L'app reste fondamentalement un **recueil de cantiques** centré sur le **texte**
-- Les features (audio, multilingue, partage) servent la **lecture**, pas l'inverse
-- L'audio n'est **pas un lecteur de musique** : c'est un outil pour coller le texte au rythme du cantique
+- Les fonctionnalités servent la **lecture et la consultation du texte**, pas la production musicale
 - L'app est **ouverte mais EUJC-first** : celle de l'Église Universelle de Jésus-Christ, mais d'autres églises peuvent l'utiliser
 - Le contenu reste strictement EUJC (pas de cantiques d'autres églises)
 
@@ -132,16 +130,7 @@ Indicateurs :
 - Interface EN (dans 6-12 mois)
 - Interface Lingala, Swahili, Tshiluba, Kikongo (progressif, 12-24 mois)
 
-### Objectif 5 — Audio pour la lecture (P1, moyen terme)
-
-Permettre d'écouter un cantique pendant qu'on lit le texte, pour coller au rythme.
-
-Indicateurs :
-- Mode 1 : lien audio du cantique (YouTube API ou alternative)
-- Mode 2 : mini-lecteur de musique locale (position configurable, pas en fond)
-- Pas de bibliothèque audio, pas de playlist, pas de file d'attente
-
-### Objectif 6 — Œuvre durable et transmissible (P1)
+### Objectif 5 — Œuvre durable et transmissible (P1)
 
 Le projet doit pouvoir vivre sans son créateur.
 
@@ -224,7 +213,7 @@ Toute demande de feature qui contredit un de ces points est refusée par défaut
 ### Contraintes financières
 
 - **Budget < 20€/mois** (domaine déjà payé)
-- **Possibilité de payer** si feature vraiment utile (ex : R2 pour audio)
+- **Possibilité de payer** si une fonctionnalité réellement utile le justifie
 - **Sponsors possibles** pour features coûteuses (église, association, fondation)
 - **Pas de SaaS de dev payant** (Copilot, Cursor...)
 
