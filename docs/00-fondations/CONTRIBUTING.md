@@ -17,7 +17,7 @@ Il y a 6 façons de contribuer, chacune avec son guide détaillé :
 
 ### 1. Développement (code)
 
-**Si tu sais coder** : PWA, admin, worker, Flutter, scripts Python.
+**Si tu sais coder** : PWA, admin, worker, Android natif (Kotlin), iOS natif (Swift), scripts Python.
 
 Guide détaillé : `CONTRIBUTING-DEV.md` (à créer quand un dev rejoint)
 

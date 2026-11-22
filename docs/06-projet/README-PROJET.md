@@ -1,71 +1,52 @@
-# 📖 Cantiques EUJC — Vue d'ensemble du projet
+# Cantiques EUJC — Vue d'ensemble du projet
 
-## 🎯 Objectif
+## Produit
 
-Application mobile (PWA) permettant de consulter les cantiques de l'Église
-Universelle de Jésus-Christ (EUJC) en plusieurs langues (Swahili, Tshiluba,
-Lingala, Français), avec :
+Recueil numérique multilingue de l'Église Universelle de Jésus-Christ. La PWA constitue la référence produit et reste distribuée via Cloudflare Pages. Les applications mobiles sont développées nativement, avec un contrat de données partagé.
 
-- Navigation par catégories (Leçons du Chemin, Dimanche, Prière)
-- Recherche par titre, numéro ou contenu
-- Favoris et historique de consultation
-- Signalement d'erreurs (par les utilisateurs)
-- Partage d'images de cantiques sur les réseaux sociaux
-- Mode hors-ligne (Service Worker)
-- Thème clair / sombre
-- Choix de 4 polices de lecture
+## Plateformes
 
-## 🏗️ Architecture
+| Plateforme | Technologie | Dossier | Rôle |
+|---|---|---|---|
+| Web / PWA | HTML, CSS, JavaScript vanilla | `app/` | Référence produit et accès universel |
+| Android | Kotlin, Jetpack Compose | `android_native/` | Application native Android hors ligne |
+| iOS | Swift, SwiftUI | `ios_native/` | Dossier d'architecture ; projet Xcode à initialiser |
 
-    cantiques-eujc/
-    ├── app/                          # Contenu déployé sur Cloudflare Pages
-    │   ├── *.html                    # 17 pages
-    │   ├── *.css                     # 13 feuilles de style
-    │   ├── *.js                      # 15 scripts
-    │   ├── assets/                   # Images, logos, icônes
-    │   ├── data/canonical/           # 32 JSON canoniques (379 cantiques)
-    │   ├── _headers                  # Headers Cloudflare
-    │   ├── _redirects                # Redirections
-    │   ├── 404.html                  # Page 404 personnalisée
-    │   ├── manifest.webmanifest      # Manifest PWA
-    │   └── sw.js                     # Service Worker
-    │
-    ├── docs/                         # Documentation
-    ├── scripts/                      # Scripts de conversion
-    ├── resources/site/               # HTML sources originales
-    ├── extracted/                    # Extractions MD
-    └── flutter_app/                  # App Flutter (phase 1)
+## Source de vérité des données
 
-## 🌐 Déploiement
+- Corpus : `app/data/canonical/*.json`
+- Statistiques : `app/data/stats.json`
+- Les applications mobiles consomment ces fichiers sans édition manuelle de copies spécifiques.
+- Identité stable d'un cantique : `categoryID + hymnID`.
+- Les 37 catégories canoniques doivent être couvertes par les deux applications.
 
-- **Domaine production** : cantiques-eujc.lnk-studio.com
-- **Hébergement** : Cloudflare Pages
-- **Backend** (signalements) : Cloudflare Functions + D1 (sur lnk-studio.com)
-- **Repo GitHub** : github.com/Lemuelnk/cantiques-eujc
+## Arborescence principale
 
-## 📱 Technologies
+```text
+cantiques-eujc/
+├── app/                  # PWA et ressources web
+├── data/                 # données et sources du projet
+├── android_native/       # application Kotlin / Jetpack Compose
+├── ios_native/           # architecture Swift / SwiftUI
+├── docs/                 # produit, décisions, qualité et journal
+├── scripts/              # validation, extraction et génération
+├── resources/            # sources documentaires
+└── extracted/            # contenus extraits
+```
 
-| Domaine | Techno |
-|---|---|
-| Frontend | HTML, CSS, JavaScript vanilla |
-| Stockage local | localStorage |
-| Hors-ligne | Service Worker (cache-first) |
-| PWA | Manifest + icônes + Service Worker |
-| Backend signalements | Cloudflare Pages Functions |
-| Base de données | Cloudflare D1 (SQLite) |
-| Anti-spam | Cloudflare Turnstile |
-| Polices | Google Fonts |
+## Périmètre mobile
 
-## 🎨 Charte graphique
+- Consultation hors ligne des textes.
+- Navigation par catégories.
+- Recherche dans titres, numéros et paroles.
+- Versions linguistiques d'un même cantique.
+- Favoris, historique et préférences stockés localement.
+- Thèmes clair/sombre et options de lecture accessibles.
+- Aucun lecteur audio, aucune playlist, aucun compte obligatoire.
 
-| Rôle | Couleur | Hex |
-|---|---|---|
-| Vert forêt profond | Fond principal | #081f19 |
-| Vert forêt | Fond sombre | #0b2b24 |
-| Vert institutionnel | Header, badge | #14392e |
-| Or principal | Accents | #b8935a |
-| Or clair | Texte sur sombre | #e4c37f |
-| Crème | Fond clair | #faf6ec |
+## Documentation de référence
 
-Validation WCAG AA sur les 26 paires de couleurs.
-
+- Produit : `docs/00-fondations/PRD.md`
+- Android : `android_native/README.md` et `android_native/PWA_PARITY_AUDIT.md`
+- iOS : `ios_native/README.md` et les documents d'architecture associés
+- Roadmap : `docs/06-projet/ROADMAP.md`

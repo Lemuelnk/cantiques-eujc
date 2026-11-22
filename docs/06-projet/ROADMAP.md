@@ -92,7 +92,7 @@
   - [ ] Bottom-sheets custom
 
 ### Priorité basse
-- [ ] Application Flutter complète
+- [ ] Applications natives Kotlin (Android) et Swift (iOS)
   - [ ] Rattraper les 379 cantiques
   - [ ] Thème clair/sombre
   - [ ] Recherche
@@ -114,7 +114,7 @@
 
 ### Application des corrections
 - **Choisi** : Option B (overrides D1 + fusion à la volée)
-- **Raison** : publication instantanée, compatible PWA + Flutter
+- **Raison** : publication instantanée, compatible PWA + applications natives Android/iOS
 - **Reporté** : après déploiement initial
 
 ### Structure des données
