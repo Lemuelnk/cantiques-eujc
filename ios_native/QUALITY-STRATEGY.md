@@ -36,7 +36,7 @@
 4. UI tests sur simulateur iPhone.
 5. Validation du nombre et des noms de corpus.
 6. Décodage de tous les corpus dans un test dédié.
-7. Vérification de l'absence de fichiers Flutter/Dart et de dépendances interdites.
+7. Vérification de l'absence de fichiers ou dépendances d'anciennes plateformes mobiles.
 8. Suivi de la taille du bundle et des ressources.
 9. Génération d'un rapport de couverture ; seuil à définir après le premier baseline, sans inventer un pourcentage arbitraire.
 
